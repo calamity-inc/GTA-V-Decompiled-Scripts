@@ -418,11 +418,11 @@ void func_19(int iParam0)
 			func_46(iParam0, &sVar16);
 			if (Var20.f_0 == 3)
 			{
-				iVar41 = TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1920390111);
+				iVar41 = TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_achieve_heading"));
 			}
 			else
 			{
-				iVar41 = TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073);
+				iVar41 = TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord"));
 			}
 			if (iVar41 != 1 && iVar41 != 0)
 			{

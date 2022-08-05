@@ -12533,7 +12533,7 @@ void func_211(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, i
 				{
 					if (!ENTITY::IS_ENTITY_DEAD(uParam1->f_307[iVar3], false) && !PED::IS_PED_INJURED(uParam1->f_307[iVar3]))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(uParam1->f_307[iVar3], -2017877118) != 1 && !ENTITY::IS_ENTITY_PLAYING_ANIM(uParam1->f_307[iVar3], "oddjobs@towingcome_here", "come_here_idle_a", 3))
+						if (TASK::GET_SCRIPT_TASK_STATUS(uParam1->f_307[iVar3], joaat("script_task_play_anim")) != 1 && !ENTITY::IS_ENTITY_PLAYING_ANIM(uParam1->f_307[iVar3], "oddjobs@towingcome_here", "come_here_idle_a", 3))
 						{
 							TASK::TASK_PLAY_ANIM(uParam1->f_307[iVar3], "oddjobs@towingcome_here", "come_here_idle_a", 8f, -8f, -1, 0, 0f, false, false, false);
 							func_399("TASKING AGAIN TO PLAY ANIMATION");

@@ -9368,7 +9368,7 @@ int func_214(int iParam0, var uParam1, float fParam2)
 			break;
 		
 		case 1:
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1)
 			{
 				WEAPON::GET_CURRENT_PED_WEAPON(PLAYER::PLAYER_PED_ID(), &iLocal_2179, true);
 				WEAPON::SET_CURRENT_PED_WEAPON(PLAYER::PLAYER_PED_ID(), joaat("weapon_unarmed"), true);
@@ -9378,7 +9378,7 @@ int func_214(int iParam0, var uParam1, float fParam2)
 			break;
 		
 		case 2:
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -875674219) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_turn_ped_to_face_entity")) != 1)
 			{
 				iLocal_1782 = PED::CREATE_SYNCHRONIZED_SCENE(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(iParam0, Local_1921), ENTITY::GET_ENTITY_ROTATION(iParam0, 2), 2);
 				TASK::TASK_SYNCHRONIZED_SCENE(PLAYER::PLAYER_PED_ID(), iLocal_1782, "oddjobs@assassinate@construction@", "ig_1_button", 4f, -4f, 1, 0, 1000f, 0);
@@ -9720,7 +9720,7 @@ void func_230()
 					{
 						PED::SET_PED_ACCURACY(Local_1515[3 /*19*/], 0);
 						ENTITY::FREEZE_ENTITY_POSITION(Local_1515[3 /*19*/], false);
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], 167901368) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], 167901368) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], joaat("script_task_shoot_at_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], joaat("script_task_shoot_at_entity")) != 0)
 						{
 							TASK::TASK_SHOOT_AT_ENTITY(Local_1515[3 /*19*/], iLocal_1806, -1, joaat("FIRING_PATTERN_FULL_AUTO"));
 						}
@@ -9740,12 +9740,12 @@ void func_230()
 				{
 					if (!ENTITY::IS_ENTITY_AT_COORD(Local_1515[3 /*19*/], Local_1816, 2f, 2f, 2f, false, true, 0))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], 2106541073) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], 2106541073) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], joaat("script_task_go_straight_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], joaat("script_task_go_straight_to_coord")) != 0)
 						{
 							TASK::TASK_GO_STRAIGHT_TO_COORD(Local_1515[3 /*19*/], Local_1816, 2f, 20000, 40000f, 0.5f);
 						}
 					}
-					else if (TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], 167901368) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], 167901368) != 0)
+					else if (TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], joaat("script_task_shoot_at_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_1515[3 /*19*/], joaat("script_task_shoot_at_entity")) != 0)
 					{
 						TASK::TASK_SHOOT_AT_ENTITY(Local_1515[3 /*19*/], iLocal_1806, -1, joaat("FIRING_PATTERN_FULL_AUTO"));
 					}
@@ -16548,7 +16548,7 @@ void func_328()
 			WEAPON::GET_AMMO_IN_CLIP(PLAYER::PLAYER_PED_ID(), iLocal_2179, &iVar1);
 			iVar2 = WEAPON::GET_MAX_AMMO_IN_CLIP(PLAYER::PLAYER_PED_ID(), iLocal_2179, true);
 			iVar3 = WEAPON::GET_AMMO_IN_PED_WEAPON(PLAYER::PLAYER_PED_ID(), iLocal_2179);
-			if ((iVar1 < iVar2 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548) != 1) && iVar3 > iVar1)
+			if ((iVar1 < iVar2 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene")) != 1) && iVar3 > iVar1)
 			{
 				TASK::TASK_RELOAD_WEAPON(PLAYER::PLAYER_PED_ID(), true);
 			}
@@ -17018,7 +17018,7 @@ void func_338()
 	{
 		if (!PED::IS_PED_INJURED(Local_1361[iVar0 /*19*/]))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(Local_1361[iVar0 /*19*/], 242628503) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(Local_1361[iVar0 /*19*/], joaat("script_task_perform_sequence")) != 1)
 			{
 				if (iVar0 == 0)
 				{
@@ -17168,7 +17168,7 @@ void func_340()
 				PED::SET_PED_SPHERE_DEFENSIVE_AREA(Local_1207[iVar0 /*19*/], -176.2501f, -1026.913f, 26.2752f, 25f, false, false);
 				PED::SET_PED_COMBAT_MOVEMENT(Local_1207[iVar0 /*19*/], 1);
 			}
-			if (TASK::GET_SCRIPT_TASK_STATUS(Local_1207[iVar0 /*19*/], -1253019028) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(Local_1207[iVar0 /*19*/], joaat("script_task_patrol")) == 1)
 			{
 				PED::SET_PED_SHOULD_PLAY_IMMEDIATE_SCENARIO_EXIT(Local_1207[iVar0 /*19*/]);
 				TASK::CLEAR_PED_TASKS(Local_1207[iVar0 /*19*/]);
@@ -17935,7 +17935,7 @@ void func_364()
 				{
 					func_392(&uLocal_2010, 4, iLocal_1815, "OJAcsGUARD", 0, 1);
 					func_64(&uLocal_2010, "OJASAUD", "OJAScs_ALERT", 8, 0, 0, 0);
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_1815, -1253019028) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_1815, joaat("script_task_patrol")) == 1)
 					{
 						PED::SET_PED_SHOULD_PLAY_IMMEDIATE_SCENARIO_EXIT(iLocal_1815);
 						TASK::CLEAR_PED_TASKS(iLocal_1815);

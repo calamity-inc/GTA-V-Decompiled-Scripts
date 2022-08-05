@@ -817,7 +817,7 @@ void func_25()
 		if (func_21(iVar0) && iVar0 != iLocal_169)
 		{
 			iVar1 = VEHICLE::GET_PED_IN_VEHICLE_SEAT(iVar0, -1, false);
-			if ((func_539(iVar1) && !func_27(iVar1, 1805844857)) && !func_26(ENTITY::GET_ENTITY_MODEL(iVar1)))
+			if ((func_539(iVar1) && !func_27(iVar1, joaat("script_task_smart_flee_ped"))) && !func_26(ENTITY::GET_ENTITY_MODEL(iVar1)))
 			{
 				PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iVar1, true);
 				PED::SET_PED_FLEE_ATTRIBUTES(iVar1, 2, true);
@@ -1021,7 +1021,7 @@ void func_35()
 		else
 		{
 			func_34();
-			if (!func_27(iLocal_176[0], -1794415470))
+			if (!func_27(iLocal_176[0], joaat("script_task_enter_vehicle")))
 			{
 				TASK::TASK_ENTER_VEHICLE(iLocal_176[0], iLocal_169, 20000, 0, 1f, 1, 0);
 			}

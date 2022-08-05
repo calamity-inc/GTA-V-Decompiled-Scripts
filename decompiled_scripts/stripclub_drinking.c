@@ -998,7 +998,7 @@ void __EntryFunction__()
 					TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
 					iLocal_87 = 0;
 				}
-				if ((((iLocal_567 && func_364(1, 0, 1)) && iLocal_565 < MISC::GET_GAME_TIMER()) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 713668775) != 1) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 1)
+				if ((((iLocal_567 && func_364(1, 0, 1)) && iLocal_565 < MISC::GET_GAME_TIMER()) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1)
 				{
 					func_318(iLocal_81, 1, 2, 0, ScriptParam_0.f_4);
 					func_310(1, 1, 0, 0, 0, 0, 0);

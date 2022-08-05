@@ -3248,7 +3248,7 @@ void func_49()
 		case 1:
 			if (ENTITY::IS_ENTITY_IN_ANGLED_AREA(PLAYER::PLAYER_PED_ID(), Var0, Var3, fVar6, false, true, 0) && !func_5(0))
 			{
-				if (!func_52(PLAYER::PLAYER_PED_ID(), -880529684))
+				if (!func_52(PLAYER::PLAYER_PED_ID(), joaat("script_task_look_at_coord")))
 				{
 					TASK::TASK_LOOK_AT_COORD(PLAYER::PLAYER_PED_ID(), -1007.995f, -476.8016f, 49.9117f, -1, 0, 2);
 				}

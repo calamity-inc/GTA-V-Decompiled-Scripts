@@ -4112,7 +4112,7 @@ void __EntryFunction__()
 					func_948(&(Local_2847.f_28.f_137), 131072);
 					func_948(&(Local_2847.f_28.f_137), 65536);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(func_1469(&(Local_1115[iVar1 /*94*/])), 242628503) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(func_1469(&(Local_1115[iVar1 /*94*/])), joaat("script_task_perform_sequence")) == 1)
 				{
 					iVar70 = TASK::GET_SEQUENCE_PROGRESS(func_1469(&(Local_1115[iVar1 /*94*/])));
 					if (iVar70 >= (func_943(&(Local_1115[iVar1 /*94*/])) - 1) && !func_1468(&(Local_844[iVar3 /*65*/]), 134217728))
@@ -53932,7 +53932,7 @@ void func_611(var uParam0, int iParam1, int iParam2, var uParam3, var uParam4)
 					*iParam1 = SYSTEM::ROUND((Var0.f_0 * 128f));
 					*iParam2 = SYSTEM::ROUND((Var0.f_1 * 128f));
 				}
-				else if ((ENTITY::IS_ENTITY_AT_COORD(uParam0->f_32, func_539(&(uParam0->f_4)), Var6, false, true, 0) || TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), 2106541073) == 7) && !func_930(&(uParam0->f_4), 256))
+				else if ((ENTITY::IS_ENTITY_AT_COORD(uParam0->f_32, func_539(&(uParam0->f_4)), Var6, false, true, 0) || TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), joaat("script_task_go_straight_to_coord")) == 7) && !func_930(&(uParam0->f_4), 256))
 				{
 					func_627(&(uParam0->f_4), 0);
 					func_934(&(uParam0->f_4), 4);
@@ -54004,7 +54004,7 @@ void func_611(var uParam0, int iParam1, int iParam2, var uParam3, var uParam4)
 					*iParam1 = SYSTEM::ROUND((Var0.f_0 * 128f));
 					*iParam2 = SYSTEM::ROUND((Var0.f_1 * 128f));
 				}
-				else if (SYSTEM::VDIST2(uParam0->f_37, Var3) <= (0f * 0f) || TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), 2106541073) == 7)
+				else if (SYSTEM::VDIST2(uParam0->f_37, Var3) <= (0f * 0f) || TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), joaat("script_task_go_straight_to_coord")) == 7)
 				{
 					func_627(&(uParam0->f_4), 2);
 					func_934(&(uParam0->f_4), 4);
@@ -83635,7 +83635,7 @@ int func_935(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, bo
 	iVar0 = 1;
 	iVar1 = func_1469(uParam0[iParam1 /*94*/]);
 	iVar2 = func_1469(uParam0[iParam2 /*94*/]);
-	if (!PED::IS_PED_INJURED(iVar1) && TASK::GET_SCRIPT_TASK_STATUS(iVar1, 242628503) != 7 ^ (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar1, "mini@tennis", "idle_2_serve", 3) && ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(iVar1, "mini@tennis", "idle_2_serve") >= 1f))
+	if (!PED::IS_PED_INJURED(iVar1) && TASK::GET_SCRIPT_TASK_STATUS(iVar1, joaat("script_task_perform_sequence")) != 7 ^ (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar1, "mini@tennis", "idle_2_serve", 3) && ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(iVar1, "mini@tennis", "idle_2_serve") >= 1f))
 	{
 		if (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar1, "mini@tennis", "idle_2_serve", 3))
 		{
@@ -83667,7 +83667,7 @@ int func_935(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, bo
 		}
 	}
 	bVar3 = (((iParam2 != iParam3 && iParam6 >= (func_943(uParam0[iParam2 /*94*/]) - 1)) && iVar0) && 0);
-	if (!PED::IS_PED_INJURED(iVar2) && (TASK::GET_SCRIPT_TASK_STATUS(iVar2, 242628503) != 7 ^ (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar2, "mini@tennis", "idle_2_serve", 3) && ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(iVar2, "mini@tennis", "idle_2_serve") >= 1f) && !bVar3))
+	if (!PED::IS_PED_INJURED(iVar2) && (TASK::GET_SCRIPT_TASK_STATUS(iVar2, joaat("script_task_perform_sequence")) != 7 ^ (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar2, "mini@tennis", "idle_2_serve", 3) && ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(iVar2, "mini@tennis", "idle_2_serve") >= 1f) && !bVar3))
 	{
 		if (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar2, "mini@tennis", "idle_2_serve", 3))
 		{
@@ -84335,7 +84335,7 @@ int func_967(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -132649,7 +132649,7 @@ void func_1437(var uParam0, var uParam1)
 	
 	if (!func_122(uParam0, 2048) && func_1438(uParam0->f_37, uParam1))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), 713668775) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), 242628503) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), joaat("script_task_follow_nav_mesh_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), joaat("script_task_perform_sequence")) != 1)
 		{
 			Var0 = { uParam0->f_37 - uParam1->f_29 * Vector(0.93f, 0.93f, 0.93f) };
 			TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(func_1469(uParam0), uParam1->f_29 + Var0, 2f, 20000, 0.25f, false, 40000f);
@@ -132657,7 +132657,7 @@ void func_1437(var uParam0, var uParam1)
 			func_1475("FAR_FROM_COURT", -1);
 		}
 	}
-	else if (func_122(uParam0, 2048) && TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), 713668775) != 1)
+	else if (func_122(uParam0, 2048) && TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0), joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 	{
 		func_28(uParam0, 2048);
 	}
@@ -132824,7 +132824,7 @@ int func_1446(var uParam0, var uParam1, int* iParam2, int iParam3, var uParam4, 
 	{
 		return 0;
 	}
-	if ((func_1468(iParam2[(*uParam4)[iParam3] /*65*/], 4194304) && !PED::IS_PED_INJURED(func_1469(uParam0[iParam3 /*94*/]))) && TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0[iParam3 /*94*/]), 242628503) == 1)
+	if ((func_1468(iParam2[(*uParam4)[iParam3] /*65*/], 4194304) && !PED::IS_PED_INJURED(func_1469(uParam0[iParam3 /*94*/]))) && TASK::GET_SCRIPT_TASK_STATUS(func_1469(uParam0[iParam3 /*94*/]), joaat("script_task_perform_sequence")) == 1)
 	{
 		if ((ENTITY::IS_ENTITY_PLAYING_ANIM(func_1469(uParam0[iParam3 /*94*/]), "mini@tennis", "ready_2_idle", 3) && ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(func_1469(uParam0[iParam3 /*94*/]), "mini@tennis", "ready_2_idle") > 0.9f) || !ENTITY::IS_ENTITY_PLAYING_ANIM(func_1469(uParam0[iParam3 /*94*/]), "mini@tennis", "ready_2_idle", 3))
 		{

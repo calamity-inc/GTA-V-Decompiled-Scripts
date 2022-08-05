@@ -1722,7 +1722,7 @@ void func_47()
 		Var0 = { ENTITY::GET_ENTITY_COORDS(iLocal_471, true) };
 		if (MISC::IS_BULLET_IN_AREA(Var0, 10f, true))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) != 1)
 			{
 				Var3 = { func_253() };
 				if (!MISC::IS_STRING_NULL_OR_EMPTY(&Var3))
@@ -1815,7 +1815,7 @@ void func_47()
 		}
 		if (func_25(iLocal_471))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) == 0)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) == 0)
 			{
 				TASK::CLEAR_PED_TASKS(iLocal_471);
 			}
@@ -1825,7 +1825,7 @@ void func_47()
 				{
 					TASK::TASK_LOOK_AT_ENTITY(iLocal_471, PLAYER::PLAYER_PED_ID(), -1, 0, 2);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -875674219) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_turn_ped_to_face_entity")) != 1)
 				{
 					if (!PED::IS_PED_FACING_PED(iLocal_471, PLAYER::PLAYER_PED_ID(), 45f))
 					{
@@ -1880,7 +1880,7 @@ void func_47()
 							{
 								TASK::TASK_LOOK_AT_ENTITY(iLocal_471, PLAYER::PLAYER_PED_ID(), -1, 0, 2);
 							}
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -875674219) != 1)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_turn_ped_to_face_entity")) != 1)
 							{
 								if (!PED::IS_PED_FACING_PED(iLocal_471, PLAYER::PLAYER_PED_ID(), 90f))
 								{
@@ -1901,7 +1901,7 @@ void func_47()
 				{
 					VEHICLE::SET_VEHICLE_CAN_BE_USED_BY_FLEEING_PEDS(iLocal_463, false);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 1805844857) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 1805844857) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_smart_flee_ped")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_smart_flee_ped")) != 0)
 				{
 					TASK::TASK_SMART_FLEE_PED(iLocal_471, PLAYER::PLAYER_PED_ID(), 100f, -1, false, false);
 				}
@@ -1938,7 +1938,7 @@ void func_49(int iParam0, float fParam1, int iParam2)
 						{
 							if (PED::IS_PED_FACING_PED(iLocal_495[iLocal_352], iParam0, 180f))
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_495[iLocal_352], -2118855366) != 1)
+								if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_495[iLocal_352], joaat("script_task_vehicle_temp_action")) != 1)
 								{
 									TASK::TASK_VEHICLE_TEMP_ACTION(iLocal_495[iLocal_352], iLocal_479[iLocal_352], 24, iParam2);
 								}
@@ -35680,7 +35680,7 @@ void func_254()
 {
 	if (func_25(iLocal_471))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) == 0)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) == 0)
 		{
 			TASK::CLEAR_PED_TASKS(iLocal_471);
 		}
@@ -36012,7 +36012,7 @@ void func_257()
 							}
 						}
 					}
-					else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1273030092) != 1)
+					else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_vehicle_mission")) != 1)
 					{
 						TASK::TASK_VEHICLE_MISSION_PED_TARGET(iLocal_471, iLocal_463, PLAYER::PLAYER_PED_ID(), 8, 34f, 786469, 20f, 20f, true);
 					}
@@ -36113,14 +36113,14 @@ void func_257()
 				{
 					TASK::TASK_LOOK_AT_ENTITY(iLocal_471, PLAYER::PLAYER_PED_ID(), -1, 2048, 2);
 				}
-				if (((TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -875674219) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1519143300) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) != 1) && !bLocal_424)
+				if (((TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_turn_ped_to_face_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_hands_up")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) != 1) && !bLocal_424)
 				{
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(iLocal_471, PLAYER::PLAYER_PED_ID(), -1);
 				}
 				Var6 = { ENTITY::GET_ENTITY_COORDS(iLocal_471, true) };
 				if (MISC::IS_BULLET_IN_AREA(Var6, 10f, true))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) != 1)
 					{
 						Var9 = { func_253() };
 						if (!MISC::IS_STRING_NULL_OR_EMPTY(&Var9))
@@ -36225,7 +36225,7 @@ void func_257()
 								{
 									if (iLocal_372 >= 10)
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1519143300) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_hands_up")) != 1)
 										{
 											PED::SET_PED_MOVEMENT_CLIPSET(iLocal_471, "MOVE_M@BAIL_BOND_NOT_TAZERED", 0.25f);
 											TASK::TASK_HANDS_UP(iLocal_471, -1, PLAYER::PLAYER_PED_ID(), -1, false);
@@ -36251,7 +36251,7 @@ void func_257()
 								{
 									if (!func_51())
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 2112745624) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_react_and_flee_ped")) != 1)
 										{
 											PED::SET_PED_MOVEMENT_CLIPSET(iLocal_471, "MOVE_M@BAIL_BOND_NOT_TAZERED", 0.25f);
 											TASK::TASK_REACT_AND_FLEE_PED(iLocal_471, PLAYER::PLAYER_PED_ID());
@@ -36276,7 +36276,7 @@ void func_257()
 						PED::SET_PED_COMBAT_ATTRIBUTES(iLocal_471, 1, false);
 						WEAPON::CLEAR_PED_LAST_WEAPON_DAMAGE(iLocal_471);
 						ENTITY::CLEAR_ENTITY_LAST_DAMAGE_ENTITY(iLocal_471);
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -828834893) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_leave_any_vehicle")) != 1)
 						{
 							TASK::TASK_LEAVE_ANY_VEHICLE(iLocal_471, 0, 256);
 						}
@@ -36299,7 +36299,7 @@ void func_257()
 						PED::SET_PED_COMBAT_ATTRIBUTES(iLocal_471, 1, false);
 						WEAPON::CLEAR_PED_LAST_WEAPON_DAMAGE(iLocal_471);
 						ENTITY::CLEAR_ENTITY_LAST_DAMAGE_ENTITY(iLocal_471);
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -828834893) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_leave_any_vehicle")) != 1)
 						{
 							TASK::TASK_LEAVE_ANY_VEHICLE(iLocal_471, 0, 256);
 						}
@@ -42894,7 +42894,7 @@ void func_380()
 				{
 					if (!PED::IS_PED_IN_VEHICLE(iLocal_471, iLocal_463, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1794415470) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1794415470) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_enter_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_enter_vehicle")) != 0)
 						{
 							TASK::TASK_ENTER_VEHICLE(iLocal_471, iLocal_463, 20000, -1, 2f, 1, 0);
 						}
@@ -42915,7 +42915,7 @@ void func_380()
 			}
 			if (!PED::IS_PED_IN_VEHICLE(iLocal_471, iLocal_463, false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1794415470) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1794415470) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_enter_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_enter_vehicle")) != 0)
 				{
 					TASK::TASK_ENTER_VEHICLE(iLocal_471, iLocal_463, 20000, -1, 2f, 1, 0);
 				}
@@ -42936,7 +42936,7 @@ void func_380()
 			{
 				if (!PED::IS_PED_IN_VEHICLE(iLocal_471, iLocal_463, false))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1794415470) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, -1794415470) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_enter_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_enter_vehicle")) != 0)
 					{
 						TASK::TASK_ENTER_VEHICLE(iLocal_471, iLocal_463, 20000, -1, 2f, 1, 0);
 					}
@@ -43078,7 +43078,7 @@ void func_384()
 						func_249();
 					}
 				}
-				if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_511, 713668775) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_511, 713668775) != 0) && !func_378(iLocal_511, -824.8292f, -24.5877f, 38.1216f, 4f))
+				if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_511, joaat("script_task_follow_nav_mesh_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_511, joaat("script_task_follow_nav_mesh_to_coord")) != 0) && !func_378(iLocal_511, -824.8292f, -24.5877f, 38.1216f, 4f))
 				{
 					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_511, -824.8292f, -24.5877f, 38.1216f, 1.2f, -1, 0.25f, false, 40000f);
 					iLocal_445 = 5;
@@ -43215,7 +43215,7 @@ void func_384()
 			{
 				if (func_50(&uLocal_156, "JOSH2AU", "JOSH2_JOG2", 7, 0, 0, 0))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_511, 1056466932) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_511, joaat("script_task_follow_to_offset_of_entity")) == 1)
 					{
 						TASK::CLEAR_PED_TASKS(iLocal_511);
 					}
@@ -43233,7 +43233,7 @@ void func_384()
 				{
 					if (func_48(iLocal_511, iLocal_512, 2.5f, 1))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_512, 993674639) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_512, joaat("script_task_start_scenario_in_place")) != 1)
 						{
 							TASK::TASK_START_SCENARIO_IN_PLACE(iLocal_512, "WORLD_DOG_SITTING_RETRIEVER", 0, true);
 						}
@@ -43803,7 +43803,7 @@ void func_404()
 		func_345("JOSH2_01", 7500, 0);
 		iLocal_422 = 1;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 713668775) == 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) == 1)
 	{
 		if (((((((PAD::IS_CONTROL_PRESSED(0, 30) || PAD::IS_CONTROL_PRESSED(0, 31)) || PAD::IS_CONTROL_PRESSED(0, 23)) || PAD::IS_CONTROL_PRESSED(0, 21)) || PAD::IS_CONTROL_PRESSED(0, 22)) || (func_418() && PAD::IS_CONTROL_PRESSED(0, 1))) || (func_418() && PAD::IS_CONTROL_PRESSED(0, 2))) || (func_418() && PAD::IS_CONTROL_PRESSED(0, 32)))
 		{
@@ -49484,7 +49484,7 @@ void func_501()
 	if (func_25(iLocal_471))
 	{
 		PED::SET_PED_KEEP_TASK(iLocal_471, true);
-		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, 713668775) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_471, joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 		{
 			TASK::TASK_WANDER_STANDARD(iLocal_471, 40000f, 0);
 		}
@@ -55847,7 +55847,7 @@ void func_612()
 			}
 			if (ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ENTITY(Local_95.f_28[0], PLAYER::PLAYER_PED_ID(), true))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_95.f_28[0], 1805844857) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_95.f_28[0], joaat("script_task_smart_flee_ped")) != 1)
 				{
 					if (PED::IS_PED_USING_ANY_SCENARIO(Local_95.f_28[0]))
 					{

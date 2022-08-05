@@ -13207,7 +13207,7 @@ void func_324(int iParam0, char* sParam1, int iParam2)
 
 int func_325(int iParam0)
 {
-	if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 993674639) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iParam0, 993674639) == 0)
+	if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_start_scenario_in_place")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_start_scenario_in_place")) == 0)
 	{
 		return 1;
 	}
@@ -127243,7 +127243,7 @@ void func_1454()
 	{
 		if (ENTITY::DOES_ENTITY_EXIST(PLAYER::PLAYER_PED_ID()) && !ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 451360105) != 0 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 451360105) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_vehicle")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_vehicle")) != 1)
 			{
 				if (func_1422(1))
 				{
@@ -149715,7 +149715,7 @@ void func_1939()
 						}
 						if (!ENTITY::IS_ENTITY_DEAD(iVar0, false))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, -1273030092) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, -1273030092) != 0)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_vehicle_mission")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_vehicle_mission")) != 0)
 							{
 								if (NETWORK::NETWORK_HAS_CONTROL_OF_NETWORK_ID(Local_692.f_707[bVar6 /*8*/]) || (!NETWORK::IS_NETWORK_ID_OWNED_BY_PARTICIPANT(Local_692.f_707[bVar6 /*8*/]) && NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT()))
 								{
@@ -149784,7 +149784,7 @@ void func_1939()
 						{
 							if (func_18())
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, 1120685857) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, 1120685857) != 0)
+								if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_combat_hated_targets_in_area")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_combat_hated_targets_in_area")) != 0)
 								{
 									if (NETWORK::NETWORK_HAS_CONTROL_OF_NETWORK_ID(Local_692.f_707[bVar6 /*8*/]) || (!NETWORK::IS_NETWORK_ID_OWNED_BY_PARTICIPANT(Local_692.f_707[bVar6 /*8*/]) && NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT()))
 									{
@@ -149796,7 +149796,7 @@ void func_1939()
 									}
 								}
 							}
-							else if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, -1442466670) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, -1442466670) != 0)
+							else if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_combat_hated_targets_around_ped")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_combat_hated_targets_around_ped")) != 0)
 							{
 								if (NETWORK::NETWORK_HAS_CONTROL_OF_NETWORK_ID(Local_692.f_707[bVar6 /*8*/]) || (!NETWORK::IS_NETWORK_ID_OWNED_BY_PARTICIPANT(Local_692.f_707[bVar6 /*8*/]) && NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT()))
 								{
@@ -149817,7 +149817,7 @@ void func_1939()
 						iVar0 = func_522(bVar6);
 						if (!ENTITY::IS_ENTITY_DEAD(iVar0, false))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, -828834893) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, -828834893) != 0)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_leave_any_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_leave_any_vehicle")) != 0)
 							{
 								if (NETWORK::NETWORK_HAS_CONTROL_OF_NETWORK_ID(Local_692.f_707[bVar6 /*8*/]) || (!NETWORK::IS_NETWORK_ID_OWNED_BY_PARTICIPANT(Local_692.f_707[bVar6 /*8*/]) && NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT()))
 								{
@@ -149968,7 +149968,7 @@ void func_1939()
 					{
 						if (VEHICLE::_0xBA91D045575699AD(iVar9))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iVar8, 451360105) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar8, 451360105) != 0)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iVar8, joaat("script_task_leave_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar8, joaat("script_task_leave_vehicle")) != 0)
 							{
 								if (NETWORK::NETWORK_HAS_CONTROL_OF_ENTITY(iVar8) || (!NETWORK::IS_NETWORK_ID_OWNED_BY_PARTICIPANT(Local_692.f_80[iVar7]) && NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT()))
 								{

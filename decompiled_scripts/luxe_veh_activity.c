@@ -2023,7 +2023,7 @@ void func_29(var uParam0, var uParam1, var uParam2)
 					else if (uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 == -1)
 					{
 					}
-					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 242628503) != 1 && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 == -1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_perform_sequence")) != 1 && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 == -1)
 					{
 						if (!func_311(uParam2))
 						{
@@ -2104,7 +2104,7 @@ void func_29(var uParam0, var uParam1, var uParam2)
 							}
 						}
 					}
-					else if ((((uParam2->f_28 != joaat("swift2") && !func_25(ENTITY::GET_ENTITY_MODEL(uParam2->f_9))) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 242628503) != 1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 != -1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 != PLAYER::PLAYER_ID())
+					else if ((((uParam2->f_28 != joaat("swift2") && !func_25(ENTITY::GET_ENTITY_MODEL(uParam2->f_9))) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_perform_sequence")) != 1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 != -1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 != PLAYER::PLAYER_ID())
 					{
 						if (!func_311(uParam2))
 						{
@@ -2147,7 +2147,7 @@ void func_29(var uParam0, var uParam1, var uParam2)
 							}
 						}
 					}
-					else if (((uParam2->f_28 == joaat("swift2") || func_25(uParam2->f_28)) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 242628503) != 1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 == -1)
+					else if (((uParam2->f_28 == joaat("swift2") || func_25(uParam2->f_28)) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_perform_sequence")) != 1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 == -1)
 					{
 						if (!func_311(uParam2))
 						{
@@ -2185,7 +2185,7 @@ void func_29(var uParam0, var uParam1, var uParam2)
 							func_323(uParam2, 21);
 						}
 					}
-					else if (((uParam2->f_28 == joaat("swift2") || func_25(uParam2->f_28)) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 242628503) != 1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 != -1)
+					else if (((uParam2->f_28 == joaat("swift2") || func_25(uParam2->f_28)) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_perform_sequence")) != 1) && uParam0->f_244[(uParam1[PLAYER::PLAYER_ID() /*8*/])->f_3 /*4*/].f_1 != -1)
 					{
 						if (!func_311(uParam2))
 						{
@@ -2509,7 +2509,7 @@ void func_29(var uParam0, var uParam1, var uParam2)
 			break;
 		
 		case 23:
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1794415470) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_enter_vehicle")) != 1)
 			{
 				uParam2->f_44 = 0;
 				func_323(uParam2, 0);

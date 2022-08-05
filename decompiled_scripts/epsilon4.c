@@ -37444,7 +37444,7 @@ int func_280(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_286(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_286(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -39911,14 +39911,14 @@ void func_327(var uParam0)
 			{
 				if (!uParam0->f_7)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, 713668775) == 7)
+					if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, joaat("script_task_follow_nav_mesh_to_coord")) == 7)
 					{
 						func_404("Eps reached marker! (follow nav to coord)");
 						uParam0->f_1 = 2;
 						uParam0->f_2 = 0;
 					}
 				}
-				else if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, 2106541073) == 7)
+				else if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, joaat("script_task_go_straight_to_coord")) == 7)
 				{
 					func_404("Eps reached marker! (go straight to coord)");
 					uParam0->f_7 = 0;
@@ -39975,7 +39975,7 @@ void func_327(var uParam0)
 			}
 			else if (uParam0->f_2 == 1)
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, 242628503) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, joaat("script_task_perform_sequence")) == 7)
 				{
 					Local_538[uParam0->f_3 /*6*/].f_5 = 0;
 					uParam0->f_3 = -1;
@@ -40060,7 +40060,7 @@ void func_327(var uParam0)
 					else
 					{
 						iLocal_756 = MISC::GET_GAME_TIMER();
-						if (!func_286(*uParam0, 242628503))
+						if (!func_286(*uParam0, joaat("script_task_perform_sequence")))
 						{
 							iLocal_350 = 0;
 						}
@@ -42231,7 +42231,7 @@ void func_402()
 		{
 			if (func_287(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 10.5f, 1, 1056964608, 0, 1, 0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1)
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}

@@ -564,7 +564,7 @@ void func_9()
 			}
 			else
 			{
-				if (!func_232(iLocal_169, 1805844857))
+				if (!func_232(iLocal_169, joaat("script_task_smart_flee_ped")))
 				{
 					TASK::TASK_SMART_FLEE_PED(iLocal_169, PLAYER::PLAYER_PED_ID(), 250f, -1, false, false);
 				}
@@ -38646,7 +38646,7 @@ int func_353(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_232(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_232(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -38836,7 +38836,7 @@ void func_362()
 		{
 			if (func_357(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 10.5f, 1, 1056964608, 0, 1, 0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1)
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}

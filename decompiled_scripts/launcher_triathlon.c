@@ -3913,12 +3913,12 @@ void func_62()
 		{
 			if (SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(iLocal_129, true), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true)) <= 144f)
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_129, 150319005) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_129, joaat("script_task_look_at_entity")) != 1)
 				{
 					TASK::TASK_LOOK_AT_ENTITY(iLocal_129, PLAYER::PLAYER_PED_ID(), -1, 0, 2);
 				}
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_129, 150319005) == 1)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_129, joaat("script_task_look_at_entity")) == 1)
 			{
 				TASK::TASK_CLEAR_LOOK_AT(iLocal_129);
 			}

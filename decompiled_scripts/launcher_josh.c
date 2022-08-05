@@ -7787,7 +7787,7 @@ void func_149()
 		{
 			if (func_150(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 10.5f, 1, 1056964608, 0, 1, 0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1)
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -8633,7 +8633,7 @@ int func_176(var uParam0)
 				func_309("Special launching Josh 3");
 				return 1;
 			}
-			else if ((!func_177(PLAYER::PLAYER_PED_ID(), -828834893) && func_207(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false))) && func_150(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 1f, 1, 1056964608, 0, 1, 0))
+			else if ((!func_177(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) && func_207(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false))) && func_150(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 1f, 1, 1056964608, 0, 1, 0))
 			{
 				TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 			}
@@ -8665,7 +8665,7 @@ int func_178(var uParam0)
 				func_309("Special launching Josh 2");
 				return 1;
 			}
-			else if ((!func_177(PLAYER::PLAYER_PED_ID(), -828834893) && func_207(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false))) && func_150(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 4f, 1, 1056964608, 0, 1, 0))
+			else if ((!func_177(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) && func_207(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false))) && func_150(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 4f, 1, 1056964608, 0, 1, 0))
 			{
 				TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 			}

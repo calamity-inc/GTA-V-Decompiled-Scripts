@@ -39781,7 +39781,7 @@ int func_308(int iParam0, int iParam1, char* sParam2)
 						func_314(&iLocal_2641);
 						if (!ENTITY::IS_ENTITY_DEAD(Local_2779[iParam1 /*20*/], false))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[iParam1 /*20*/], -875674219) != 1)
+							if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[iParam1 /*20*/], joaat("script_task_turn_ped_to_face_entity")) != 1)
 							{
 								TASK::TASK_TURN_PED_TO_FACE_ENTITY(Local_2779[iParam1 /*20*/], PLAYER::PLAYER_PED_ID(), -1);
 							}
@@ -39919,7 +39919,7 @@ int func_308(int iParam0, int iParam1, char* sParam2)
 				}
 				if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("tonya4")) == 1)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[0 /*20*/], -1794415470) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[0 /*20*/], joaat("script_task_enter_vehicle")) != 1)
 					{
 						TASK::TASK_ENTER_VEHICLE(Local_2779[iParam1 /*20*/], iLocal_2934, -1, 0, 2f, 1048577, 0);
 					}
@@ -52116,7 +52116,7 @@ int func_510()
 					{
 						if (!func_533())
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[0 /*20*/], 242628503) == 1)
+							if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[0 /*20*/], joaat("script_task_perform_sequence")) == 1)
 							{
 								if (TASK::GET_SEQUENCE_PROGRESS(Local_2779[0 /*20*/]) == 2)
 								{
@@ -52355,7 +52355,7 @@ int func_513()
 			{
 				if (!ENTITY::IS_ENTITY_DEAD(Local_2779[0 /*20*/], false))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[0 /*20*/], -875674219) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Local_2779[0 /*20*/], joaat("script_task_turn_ped_to_face_entity")) != 1)
 					{
 						TASK::TASK_TURN_PED_TO_FACE_ENTITY(Local_2779[0 /*20*/], Local_2779[0 /*20*/].f_1, 0);
 					}

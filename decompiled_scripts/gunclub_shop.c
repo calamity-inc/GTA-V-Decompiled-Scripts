@@ -37939,7 +37939,7 @@ int func_259(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -165853,7 +165853,7 @@ void func_1224()
 			{
 				if (!func_1247(ENTITY::GET_ENTITY_HEADING(Local_162.f_12), Local_162.f_12.f_15, 45f))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, 1920390111) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, 1920390111) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, joaat("script_task_achieve_heading")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, joaat("script_task_achieve_heading")) != 0)
 					{
 						TASK::TASK_ACHIEVE_HEADING(Local_162.f_12, Local_162.f_12.f_15, 0);
 					}
@@ -165941,7 +165941,7 @@ void func_1224()
 							}
 							else if (!bVar0)
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, 242628503) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, 242628503) != 0)
+								if (TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, joaat("script_task_perform_sequence")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_162.f_12, joaat("script_task_perform_sequence")) != 0)
 								{
 									TASK::TASK_PERFORM_SEQUENCE(Local_162.f_12, iLocal_147);
 								}

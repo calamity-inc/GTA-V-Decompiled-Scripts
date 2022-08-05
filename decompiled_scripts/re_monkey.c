@@ -2451,7 +2451,7 @@ void func_72()
 				break;
 			
 			case 1:
-				if (func_83(-2017877118))
+				if (func_83(joaat("script_task_play_anim")))
 				{
 					iLocal_55 = 5;
 				}
@@ -2469,7 +2469,7 @@ void func_72()
 				break;
 			
 			case 2:
-				if (func_83(242628503))
+				if (func_83(joaat("script_task_perform_sequence")))
 				{
 					iLocal_55 = 5;
 				}
@@ -2524,7 +2524,7 @@ void func_72()
 				break;
 			
 			case 5:
-				if (func_83(242628503))
+				if (func_83(joaat("script_task_perform_sequence")))
 				{
 					iLocal_55 = 5;
 				}
@@ -2536,7 +2536,7 @@ void func_72()
 				break;
 			
 			case 6:
-				if (func_83(242628503))
+				if (func_83(joaat("script_task_perform_sequence")))
 				{
 					iLocal_55 = 5;
 				}
@@ -2786,7 +2786,7 @@ int func_82(int iParam0, int iParam1, float fParam2)
 
 int func_83(int iParam0)
 {
-	if (!func_84(iLocal_50, iParam0) && !func_84(iLocal_50, 1805844857))
+	if (!func_84(iLocal_50, iParam0) && !func_84(iLocal_50, joaat("script_task_smart_flee_ped")))
 	{
 		func_76(&iLocal_57);
 		TASK::TASK_SMART_FLEE_PED(iLocal_50, PLAYER::PLAYER_PED_ID(), 9999f, -1, true, false);

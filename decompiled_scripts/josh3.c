@@ -2799,7 +2799,7 @@ void func_12(int* iParam0, bool bParam1, int iParam2, int iParam3)
 
 void func_13()
 {
-	if ((func_16(iLocal_988) && !func_14(iLocal_988, -1146898486)) && !func_14(iLocal_988, 1805844857))
+	if ((func_16(iLocal_988) && !func_14(iLocal_988, joaat("script_task_wander_standard"))) && !func_14(iLocal_988, joaat("script_task_smart_flee_ped")))
 	{
 		PED::SET_PED_KEEP_TASK(iLocal_988, true);
 		TASK::TASK_WANDER_STANDARD(iLocal_988, 40000f, 0);
@@ -48091,7 +48091,7 @@ int func_480(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_14(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_14(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}

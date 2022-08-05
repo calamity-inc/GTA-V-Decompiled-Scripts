@@ -3020,7 +3020,7 @@ void func_69()
 			HUD::HIDE_HUD_AND_RADAR_THIS_FRAME();
 			func_362(1);
 			PAD::DISABLE_CONTROL_ACTION(0, 0, true);
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 713668775) == 7)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord")) == 7)
 			{
 				func_358();
 				iLocal_331 = PED::CREATE_SYNCHRONIZED_SCENE(Local_352, Local_355, 2);
@@ -88285,7 +88285,7 @@ int func_369(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;

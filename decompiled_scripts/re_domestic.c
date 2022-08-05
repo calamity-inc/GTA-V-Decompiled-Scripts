@@ -4908,7 +4908,7 @@ void func_127()
 				{
 					PED::REMOVE_PED_FROM_GROUP(iLocal_58);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, 1227113341) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, 1227113341) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, joaat("script_task_go_to_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, joaat("script_task_go_to_entity")) != 0)
 				{
 					TASK::TASK_GO_TO_ENTITY(iLocal_58, PLAYER::PLAYER_PED_ID(), -1, 6f, 2f, 2f, 0);
 				}
@@ -4938,7 +4938,7 @@ void func_127()
 			else
 			{
 				iLocal_91 = 0;
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, 1227113341) == 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, 1227113341) == 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, joaat("script_task_go_to_entity")) == 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_58, joaat("script_task_go_to_entity")) == 0)
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_58);
 				}

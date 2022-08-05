@@ -17577,7 +17577,7 @@ void func_388(var uParam0, int iParam1, int iParam2, var uParam3, var uParam4)
 					*iParam1 = SYSTEM::ROUND((Var0.f_0 * 128f));
 					*iParam2 = SYSTEM::ROUND((Var0.f_1 * 128f));
 				}
-				else if ((ENTITY::IS_ENTITY_AT_COORD(uParam0->f_32, func_400(&(uParam0->f_4)), Var6, false, true, 0) || TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), 2106541073) == 7) && !func_367(&(uParam0->f_4), 256))
+				else if ((ENTITY::IS_ENTITY_AT_COORD(uParam0->f_32, func_400(&(uParam0->f_4)), Var6, false, true, 0) || TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), joaat("script_task_go_straight_to_coord")) == 7) && !func_367(&(uParam0->f_4), 256))
 				{
 					func_360(&(uParam0->f_4), 0);
 					func_350(&(uParam0->f_4), 4);
@@ -17649,7 +17649,7 @@ void func_388(var uParam0, int iParam1, int iParam2, var uParam3, var uParam4)
 					*iParam1 = SYSTEM::ROUND((Var0.f_0 * 128f));
 					*iParam2 = SYSTEM::ROUND((Var0.f_1 * 128f));
 				}
-				else if (SYSTEM::VDIST2(uParam0->f_37, Var3) <= (0f * 0f) || TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), 2106541073) == 7)
+				else if (SYSTEM::VDIST2(uParam0->f_37, Var3) <= (0f * 0f) || TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), joaat("script_task_go_straight_to_coord")) == 7)
 				{
 					func_360(&(uParam0->f_4), 2);
 					func_350(&(uParam0->f_4), 4);
@@ -18926,7 +18926,7 @@ void func_444(var uParam0, var uParam1, var uParam2, int iParam3)
 {
 	bool bVar0;
 	
-	if ((((((func_471(func_902(uParam1)) && func_902(uParam1) > 5) && func_902(uParam1) < 22) && func_902(uParam1) != 21) && func_902(uParam1) != 24) && uParam0->f_1657 != 1) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) == 7)
+	if ((((((func_471(func_902(uParam1)) && func_902(uParam1) > 5) && func_902(uParam1) < 22) && func_902(uParam1) != 21) && func_902(uParam1) != 24) && uParam0->f_1657 != 1) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) == 7)
 	{
 		if (func_902(uParam1) == 6 && func_201(uParam2->f_28.f_137, 1073741824))
 		{
@@ -54442,7 +54442,7 @@ void func_779(var uParam0, var uParam1, var uParam2, int iParam3, int iParam4, v
 				func_365(uParam0[func_47(uParam1) /*94*/], &(uParam0->f_247));
 				func_213(&(uParam0->f_247), 4);
 			}
-			if (func_47(uParam1) != iParam3 && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iParam3 /*94*/]), 242628503) == 7)
+			if (func_47(uParam1) != iParam3 && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iParam3 /*94*/]), joaat("script_task_perform_sequence")) == 7)
 			{
 				func_343(uParam0->f_1657, 1);
 				func_385(uParam0[iParam3 /*94*/], uParam0, func_57(uParam1), iParam3, 0, 0);
@@ -54600,7 +54600,7 @@ int func_786(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, bo
 	iVar0 = 1;
 	iVar1 = func_1168(uParam0[iParam1 /*94*/]);
 	iVar2 = func_1168(uParam0[iParam2 /*94*/]);
-	if (!PED::IS_PED_INJURED(iVar1) && TASK::GET_SCRIPT_TASK_STATUS(iVar1, 242628503) != 7)
+	if (!PED::IS_PED_INJURED(iVar1) && TASK::GET_SCRIPT_TASK_STATUS(iVar1, joaat("script_task_perform_sequence")) != 7)
 	{
 		if (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar1, "mini@tennis", "idle_2_serve", 3))
 		{
@@ -54632,7 +54632,7 @@ int func_786(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, bo
 		}
 	}
 	bVar3 = (((iParam2 != iParam3 && iParam6 >= (func_354(uParam0[iParam2 /*94*/]) - 1)) && iVar0) && 1);
-	if (!PED::IS_PED_INJURED(iVar2) && (TASK::GET_SCRIPT_TASK_STATUS(iVar2, 242628503) != 7 && !bVar3))
+	if (!PED::IS_PED_INJURED(iVar2) && (TASK::GET_SCRIPT_TASK_STATUS(iVar2, joaat("script_task_perform_sequence")) != 7 && !bVar3))
 	{
 		if (ENTITY::IS_ENTITY_PLAYING_ANIM(iVar2, "mini@tennis", "idle_2_serve", 3))
 		{
@@ -54643,7 +54643,7 @@ int func_786(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, bo
 		}
 		iVar0 = 0;
 	}
-	else if (((!PED::IS_PED_INJURED(iVar2) && ((bParam5 || iParam4 == 4) || iParam4 == 1)) && !func_191(uParam0[iParam2 /*94*/], 8192)) && TASK::GET_SCRIPT_TASK_STATUS(iVar2, 242628503) == 7)
+	else if (((!PED::IS_PED_INJURED(iVar2) && ((bParam5 || iParam4 == 4) || iParam4 == 1)) && !func_191(uParam0[iParam2 /*94*/], 8192)) && TASK::GET_SCRIPT_TASK_STATUS(iVar2, joaat("script_task_perform_sequence")) == 7)
 	{
 		if (iParam2 == iParam3)
 		{
@@ -54808,7 +54808,7 @@ void func_795(var uParam0, var uParam1)
 	
 	if (!func_191(uParam0, 2048) && func_796(uParam0->f_37, uParam1))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), 713668775) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), 242628503) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), joaat("script_task_follow_nav_mesh_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), joaat("script_task_perform_sequence")) != 1)
 		{
 			Var0 = { uParam0->f_37 - uParam1->f_29 * Vector(0.93f, 0.93f, 0.93f) };
 			TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(func_1168(uParam0), uParam1->f_29 + Var0, 2f, 20000, 0.25f, false, 40000f);
@@ -54816,7 +54816,7 @@ void func_795(var uParam0, var uParam1)
 			func_603("FAR_FROM_COURT", -1);
 		}
 	}
-	else if (func_191(uParam0, 2048) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), 713668775) != 1)
+	else if (func_191(uParam0, 2048) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0), joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 	{
 		func_362(uParam0, 2048);
 	}
@@ -55536,7 +55536,7 @@ void func_824(var uParam0, var uParam1)
 
 int func_825(var uParam0, int iParam1, int iParam2, int iParam3, bool bParam4)
 {
-	if (!PED::IS_PED_INJURED(func_1168(uParam0[iParam1 /*94*/])) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iParam1 /*94*/]), 242628503) != 7)
+	if (!PED::IS_PED_INJURED(func_1168(uParam0[iParam1 /*94*/])) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iParam1 /*94*/]), joaat("script_task_perform_sequence")) != 7)
 	{
 		return 0;
 	}
@@ -55610,11 +55610,11 @@ void func_830(var uParam0, var uParam1, var uParam2, var uParam3)
 	
 	iVar0 = func_47(uParam1);
 	iVar1 = (1 - iVar0);
-	if (!PED::IS_PED_INJURED(func_1168(uParam0[iVar0 /*94*/])) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iVar0 /*94*/]), 242628503) == 1)
+	if (!PED::IS_PED_INJURED(func_1168(uParam0[iVar0 /*94*/])) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iVar0 /*94*/]), joaat("script_task_perform_sequence")) == 1)
 	{
 		*uParam2 = TASK::GET_SEQUENCE_PROGRESS(func_1168(uParam0[iVar0 /*94*/]));
 	}
-	if (!PED::IS_PED_INJURED(func_1168(uParam0[iVar1 /*94*/])) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iVar1 /*94*/]), 242628503) == 1)
+	if (!PED::IS_PED_INJURED(func_1168(uParam0[iVar1 /*94*/])) && TASK::GET_SCRIPT_TASK_STATUS(func_1168(uParam0[iVar1 /*94*/]), joaat("script_task_perform_sequence")) == 1)
 	{
 		*uParam3 = TASK::GET_SEQUENCE_PROGRESS(func_1168(uParam0[iVar1 /*94*/]));
 	}

@@ -17512,7 +17512,7 @@ int func_244()
 	
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene"));
 		if (!iVar0 == 7)
 		{
 			return 1;
@@ -17870,7 +17870,7 @@ int func_261(int iParam0)
 {
 	int iVar0;
 	
-	iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503);
+	iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence"));
 	if (iVar0 == 7)
 	{
 		return 1;
@@ -21139,10 +21139,10 @@ void func_336(var uParam0, int iParam1, bool bParam2, float fParam3, bool bParam
 	{
 		TASK::TASK_CLEAR_LOOK_AT(uParam0->f_122);
 	}
-	iVar55 = TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_122, -1146898486);
+	iVar55 = TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_122, joaat("script_task_wander_standard"));
 	if (iVar55 == 7)
 	{
-		iVar55 = TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_122, -258271821);
+		iVar55 = TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_122, joaat("script_task_vehicle_drive_wander"));
 	}
 	if (((uParam0->f_103 == 3 && !bParam5) && !bParam6) && !bParam7)
 	{

@@ -121,7 +121,7 @@ void func_3()
 {
 	if (!PED::IS_PED_INJURED(iLocal_1))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_1, -2017877118) == 7)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_1, joaat("script_task_play_anim")) == 7)
 		{
 			TASK::TASK_PLAY_ANIM(iLocal_1, sLocal_8, sLocal_6, 8f, -8f, -1, 0, 0f, false, false, false);
 		}

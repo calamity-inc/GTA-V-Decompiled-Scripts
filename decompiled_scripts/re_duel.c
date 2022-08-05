@@ -7351,7 +7351,7 @@ void func_134(int iParam0)
 			case 7:
 				if (func_154(7))
 				{
-					if (!PED::IS_PED_IN_COMBAT(Local_49[iParam0 /*5*/], PLAYER::PLAYER_PED_ID()) && !func_135(Local_49[iParam0 /*5*/], 579380604, 1))
+					if (!PED::IS_PED_IN_COMBAT(Local_49[iParam0 /*5*/], PLAYER::PLAYER_PED_ID()) && !func_135(Local_49[iParam0 /*5*/], joaat("script_task_vehicle_chase"), 1))
 					{
 						TASK::TASK_COMBAT_PED(Local_49[iParam0 /*5*/], PLAYER::PLAYER_PED_ID(), 0, 16);
 					}

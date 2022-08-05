@@ -7503,7 +7503,7 @@ int func_260(var uParam0, bool bParam1, float fParam2)
 			{
 				PLAYER::SET_PLAYER_CONTROL(PLAYER::GET_PLAYER_INDEX(), true, 0);
 			}
-			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 2106541073) == 1 || TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 2106541073) == 0)
+			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_go_straight_to_coord")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_go_straight_to_coord")) == 0)
 			{
 				TASK::CLEAR_PED_TASKS_IMMEDIATELY(uParam0->f_3);
 				uParam0->f_48 = 0;
@@ -7552,7 +7552,7 @@ int func_260(var uParam0, bool bParam1, float fParam2)
 				switch (uParam0->f_48)
 				{
 					case 0:
-						if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 1 || ((func_51(PLAYER::PLAYER_PED_ID(), uParam0->f_3, 1) < 20f && func_221(uParam0->f_3, uParam0->f_11, 1) <= 28f) && func_221(uParam0->f_4, uParam0->f_11, 1) <= 28f))
+						if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 1 || ((func_51(PLAYER::PLAYER_PED_ID(), uParam0->f_3, 1) < 20f && func_221(uParam0->f_3, uParam0->f_11, 1) <= 28f) && func_221(uParam0->f_4, uParam0->f_11, 1) <= 28f))
 						{
 							if (func_273(uParam0, fParam2))
 							{
@@ -7617,7 +7617,7 @@ int func_260(var uParam0, bool bParam1, float fParam2)
 							{
 								TASK::CLEAR_PED_TASKS(uParam0->f_3);
 							}
-							else if (((TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 1 && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 0) && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 7) && func_276(uParam0, uParam0->f_3) > 8f)
+							else if (((TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 0) && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 7) && func_276(uParam0, uParam0->f_3) > 8f)
 							{
 								TASK::CLEAR_SEQUENCE_TASK(&(uParam0->f_243));
 								TASK::OPEN_SEQUENCE_TASK(&(uParam0->f_243));
@@ -7890,7 +7890,7 @@ int func_262(var uParam0)
 				{
 					return 1;
 				}
-				else if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1794415470) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1794415470) != 0)
+				else if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_enter_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_enter_vehicle")) != 0)
 				{
 					TASK::TASK_ENTER_VEHICLE(uParam0->f_3, uParam0->f_4, 20000, uParam0->f_7, uParam0->f_6, 1, 0);
 				}
@@ -7955,7 +7955,7 @@ void func_266(var uParam0)
 		{
 			if (func_233(uParam0->f_3, 1) > 30f || func_267(uParam0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, -1794415470) == 1 || TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_enter_vehicle")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) == 1)
 				{
 					TASK::CLEAR_SEQUENCE_TASK(&iVar0);
 					TASK::OPEN_SEQUENCE_TASK(&iVar0);
@@ -8253,7 +8253,7 @@ int func_273(var uParam0, float fParam1)
 					}
 				}
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 1 && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 0)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 0)
 			{
 				TASK::CLEAR_SEQUENCE_TASK(&(uParam0->f_243));
 				TASK::OPEN_SEQUENCE_TASK(&(uParam0->f_243));
@@ -10415,7 +10415,7 @@ void func_345()
 			func_143("UPDATE_FINAL_SCENE - FINAL_SCENE_WAIT_FOR_DIALOGUE", &iLocal_896, 1000);
 			if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false) && !ENTITY::IS_ENTITY_DEAD(Local_423.f_3, false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_423.f_3, 242628503) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_423.f_3, joaat("script_task_perform_sequence")) == 1)
 				{
 					if (TASK::GET_SEQUENCE_PROGRESS(Local_423.f_3) > 0 && iLocal_902)
 					{
@@ -15990,7 +15990,7 @@ void func_445(var uParam0, var uParam1)
 	
 	iVar0 = Global_112922.f_19097.f_39[uParam0->f_411];
 	uParam1->f_20 = 1;
-	uParam1->f_32 = -1817882002;
+	uParam1->f_32 = joaat("script_task_vehicle_drive_to_coord");
 	uParam1->f_12 = (0.7f - (0.6f * IntToFloat(iVar0)));
 	uParam1->f_13 = (0.8f - (0.6f * IntToFloat(iVar0)));
 	uParam1->f_14 = (24f + IntToFloat((10 * iVar0)));

@@ -118068,7 +118068,7 @@ int func_1009(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -138464,7 +138464,7 @@ void func_1551(int iParam0, struct<3> Param1)
 			{
 				WEAPON::SET_CURRENT_PED_WEAPON(iParam0, joaat("weapon_molotov"), true);
 			}
-			if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) != 0)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) != 0)
 			{
 				TASK::OPEN_SEQUENCE_TASK(&iVar2);
 				TASK::TASK_STAND_STILL(0, MISC::GET_RANDOM_INT_IN_RANGE(1000, 6000));
@@ -138489,12 +138489,12 @@ void func_1551(int iParam0, struct<3> Param1)
 				TASK::CLEAR_SEQUENCE_TASK(&iVar2);
 			}
 		}
-		else if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, -653332088) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam0, -653332088) != 0)
+		else if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_shoot_at_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_shoot_at_coord")) != 0)
 		{
 			TASK::TASK_SHOOT_AT_COORD(iParam0, Param1, -1, joaat("FIRING_PATTERN_BURST_FIRE"));
 		}
 	}
-	else if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, -982327190) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam0, -982327190) != 0)
+	else if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_stand_still")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_stand_still")) != 0)
 	{
 		TASK::TASK_STAND_STILL(iParam0, -1);
 	}

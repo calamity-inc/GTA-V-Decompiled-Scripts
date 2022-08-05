@@ -2331,7 +2331,7 @@ void func_57()
 			{
 				if (PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false) && !iLocal_75[iVar0])
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85[iVar0], 579380604) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85[iVar0], 579380604) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85[iVar0], joaat("script_task_vehicle_chase")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85[iVar0], joaat("script_task_vehicle_chase")) != 0)
 					{
 						TASK::CLEAR_PED_TASKS(iLocal_85[iVar0]);
 						if (!ENTITY::IS_ENTITY_DEAD(iLocal_89[iVar0], false))

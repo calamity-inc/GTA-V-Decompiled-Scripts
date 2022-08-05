@@ -3745,7 +3745,7 @@ int func_41(var uParam0, int iParam1)
 									{
 										if (!ENTITY::IS_ENTITY_DEAD(uParam0->f_358[iVar1 /*189*/].f_8, false) && !ENTITY::IS_ENTITY_DEAD(uParam0->f_358[iVar1 /*189*/].f_9, false))
 										{
-											if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_358[iVar1 /*189*/].f_8, -235832601) == 1)
+											if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_358[iVar1 /*189*/].f_8, joaat("script_task_vehicle_follow_waypoint_recording")) == 1)
 											{
 											}
 											else
@@ -9605,7 +9605,7 @@ void func_187(int iParam0)
 		{
 			if (!ENTITY::IS_ENTITY_DEAD(iLocal_2059[0], false) && !ENTITY::IS_ENTITY_DEAD(iLocal_2065[0], false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], -235832601) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], joaat("script_task_vehicle_follow_waypoint_recording")) == 1)
 				{
 				}
 				else
@@ -9667,7 +9667,7 @@ void func_189(int iParam0)
 			{
 				if (!ENTITY::IS_ENTITY_AT_COORD(iLocal_2059[0], -2530.873f, 608.701f, 238.9111f, 3f, 3f, 3f, false, true, 0))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], -1817882002) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], joaat("script_task_vehicle_drive_to_coord")) == 1)
 					{
 					}
 					else
@@ -9708,7 +9708,7 @@ void func_189(int iParam0)
 			{
 				if (!ENTITY::IS_ENTITY_AT_COORD(iLocal_2059[1], -2527.712f, 609.6833f, 239.2568f, 3f, 3f, 3f, false, true, 0))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[1], -1817882002) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[1], joaat("script_task_vehicle_drive_to_coord")) == 1)
 					{
 					}
 					else
@@ -9773,7 +9773,7 @@ void func_192(int iParam0)
 			{
 				if (!ENTITY::IS_ENTITY_AT_COORD(iLocal_2059[0], -1552.281f, 2641.609f, -0.8283f, 3f, 3f, 3f, false, true, 0))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], -1273030092) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], joaat("script_task_vehicle_mission")) == 1)
 					{
 					}
 					else
@@ -9852,7 +9852,7 @@ void func_194(int iParam0)
 					{
 						if (!ENTITY::IS_ENTITY_DEAD(iLocal_2065[0], false))
 						{
-							if (!TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], -1817882002) == 1)
+							if (!TASK::GET_SCRIPT_TASK_STATUS(iLocal_2065[0], joaat("script_task_vehicle_drive_to_coord")) == 1)
 							{
 								TASK::TASK_VEHICLE_DRIVE_TO_COORD(iLocal_2065[0], iLocal_2059[0], -6793.876f, -557.0385f, 781.0172f, 50f, 0, joaat("jet"), 262144, -1f, -1f);
 							}

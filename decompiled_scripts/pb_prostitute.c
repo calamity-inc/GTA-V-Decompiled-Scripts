@@ -909,7 +909,7 @@ void func_3()
 		case 6:
 			if (!PED::IS_PED_INJURED(iLocal_97))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 242628503) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_perform_sequence")) == 7)
 				{
 					iLocal_65 = MISC::GET_GAME_TIMER();
 					iLocal_66 = (iLocal_65 - iLocal_64);
@@ -939,7 +939,7 @@ void func_3()
 			break;
 		
 		case 8:
-			if (SYSTEM::VDIST2(Local_90, ENTITY::GET_ENTITY_COORDS(iLocal_96, true)) < 25f && TASK::GET_SCRIPT_TASK_STATUS(iLocal_97, -1817882002) != 1)
+			if (SYSTEM::VDIST2(Local_90, ENTITY::GET_ENTITY_COORDS(iLocal_96, true)) < 25f && TASK::GET_SCRIPT_TASK_STATUS(iLocal_97, joaat("script_task_vehicle_drive_to_coord")) != 1)
 			{
 				iLocal_297 = MISC::GET_RANDOM_INT_IN_RANGE(1, 3);
 				iLocal_295 = 11;
@@ -965,7 +965,7 @@ void func_3()
 				{
 					if (!ENTITY::IS_ENTITY_DEAD(iLocal_97, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_97, -828834893) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_97, joaat("script_task_leave_any_vehicle")) != 1)
 						{
 							TASK::TASK_LEAVE_ANY_VEHICLE(iLocal_96, 0, 16842752);
 						}
@@ -1006,7 +1006,7 @@ void func_4()
 			}
 			if (func_7(&iLocal_119) > 1f)
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 242628503) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_perform_sequence")) == 7)
 				{
 					func_5(&iLocal_49, 512);
 					iLocal_302 = 3;
@@ -2520,7 +2520,7 @@ void func_59()
 		{
 			if (PED::IS_PED_IN_VEHICLE(iLocal_97, iLocal_98, false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 242628503) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_perform_sequence")) == 1)
 				{
 					if (TASK::GET_SEQUENCE_PROGRESS(iLocal_96) > 0)
 					{
@@ -2912,7 +2912,7 @@ int func_63()
 			{
 				if (NETWORK::NETWORK_HAS_CONTROL_OF_ENTITY(iLocal_96))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -2017877118) == 7)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_play_anim")) == 7)
 					{
 						func_64(0);
 						iLocal_54 = 3;
@@ -3117,7 +3117,7 @@ void func_71()
 		{
 			if (PED::IS_PED_IN_VEHICLE(iLocal_97, iLocal_98, false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 242628503) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_perform_sequence")) == 1)
 				{
 					if (TASK::GET_SEQUENCE_PROGRESS(iLocal_96) > 1)
 					{
@@ -3216,7 +3216,7 @@ int func_72(bool bParam0)
 		case 2:
 			if (NETWORK::NETWORK_HAS_CONTROL_OF_ENTITY(iLocal_96))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -2017877118) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_play_anim")) == 7)
 				{
 					iVar0 = MISC::GET_RANDOM_INT_IN_RANGE(1, 4);
 					TASK::TASK_PLAY_ANIM(iLocal_96, func_67(iLocal_293), func_66(iVar0), 2f, -2f, -1, 0, 0f, false, false, false);
@@ -3232,7 +3232,7 @@ int func_72(bool bParam0)
 		case 3:
 			if (NETWORK::NETWORK_HAS_CONTROL_OF_ENTITY(iLocal_96))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -2017877118) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_play_anim")) == 7)
 				{
 					TASK::TASK_PLAY_ANIM(iLocal_96, func_67(iLocal_293), func_66(4), 2f, -2f, -1, 1, 0f, false, false, false);
 					iLocal_53 = 4;
@@ -3495,7 +3495,7 @@ void func_88()
 			if (PED::IS_PED_IN_VEHICLE(iLocal_97, iLocal_98, false))
 			{
 				fVar0 = ENTITY::GET_ENTITY_SPEED(iLocal_98);
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_97, -272084098) == 7 || fVar0 <= 1f)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_97, joaat("script_task_vehicle_park")) == 7 || fVar0 <= 1f)
 				{
 					MISC::GET_MODEL_DIMENSIONS(ENTITY::GET_ENTITY_MODEL(iLocal_98), &Var4, &Var1);
 					Var7 = { Var1 - Var4 };
@@ -14274,7 +14274,7 @@ int func_365(int iParam0, bool bParam1)
 	if (!STREAMING::HAS_ANIM_DICT_LOADED(func_50(PLAYER::PLAYER_PED_ID(), 0, 0)))
 	{
 	}
-	else if (!ENTITY::IS_ENTITY_PLAYING_ANIM(iParam0, func_50(PLAYER::PLAYER_PED_ID(), 0, 0), func_110(bParam1), 3) && TASK::GET_SCRIPT_TASK_STATUS(iParam0, -2017877118) != 1)
+	else if (!ENTITY::IS_ENTITY_PLAYING_ANIM(iParam0, func_50(PLAYER::PLAYER_PED_ID(), 0, 0), func_110(bParam1), 3) && TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_play_anim")) != 1)
 	{
 		if (func_550())
 		{
@@ -16113,7 +16113,7 @@ void func_429(var uParam0)
 		func_468();
 		if (func_550())
 		{
-			iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -2017877118);
+			iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_play_anim"));
 			if (iVar0 != 1 && iVar0 != 0)
 			{
 				func_541();
@@ -16145,7 +16145,7 @@ void func_430()
 			func_87("PROSTITUTES_DRIVE_SCENE");
 			if (PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -1794415470) != 1 && !PED::IS_PED_IN_VEHICLE(iLocal_96, PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), true))
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_enter_vehicle")) != 1 && !PED::IS_PED_IN_VEHICLE(iLocal_96, PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), true))
 				{
 					TASK::TASK_ENTER_VEHICLE(iLocal_96, iLocal_99, -1, 0, 1f, 8388609, 0);
 				}
@@ -16451,7 +16451,7 @@ int func_437()
 		case 2:
 			if (NETWORK::NETWORK_HAS_CONTROL_OF_ENTITY(iLocal_96))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -2017877118) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_play_anim")) == 7)
 				{
 					iVar0 = MISC::GET_RANDOM_INT_IN_RANGE(8, 11);
 					TASK::TASK_PLAY_ANIM(iLocal_96, func_67(iLocal_293), func_66(iVar0), 8f, -8f, -1, 1, 0f, false, false, false);
@@ -16593,7 +16593,7 @@ void func_441()
 	if (func_438(0))
 	{
 		func_430();
-		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 242628503) == 7 && !func_490(iLocal_49, 8192))
+		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_perform_sequence")) == 7 && !func_490(iLocal_49, 8192))
 		{
 			if (func_72(1))
 			{
@@ -16616,7 +16616,7 @@ void func_442(var uParam0)
 	if (func_438(0))
 	{
 		func_430();
-		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 242628503) == 7 || func_490(iLocal_49, 8192))
+		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_perform_sequence")) == 7 || func_490(iLocal_49, 8192))
 		{
 			iLocal_295 = 3;
 		}
@@ -16661,7 +16661,7 @@ void func_443(var uParam0)
 	{
 		Var9 = { Var12 };
 	}
-	if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -1794415470) != 1 || !func_490(iLocal_49, 8192)) && SYSTEM::VDIST2(Local_93, Var9) > 0f)
+	if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_enter_vehicle")) != 1 || !func_490(iLocal_49, 8192)) && SYSTEM::VDIST2(Local_93, Var9) > 0f)
 	{
 		if (func_550())
 		{
@@ -17369,7 +17369,7 @@ void func_489()
 	{
 		if (!PED::IS_PED_FLEEING(iLocal_96))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 1805844857) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_smart_flee_ped")) != 1)
 			{
 				PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_96, false);
 				PED::SET_PED_FLEE_ATTRIBUTES(iLocal_96, 196628, true);
@@ -17397,7 +17397,7 @@ int func_492()
 	{
 		return 0;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 1435919172) == 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_any")) == 1)
 	{
 		return 0;
 	}
@@ -18637,7 +18637,7 @@ void func_535(var uParam0)
 	{
 		if (ENTITY::IS_ENTITY_A_MISSION_ENTITY(iLocal_96))
 		{
-			if ((func_550() && TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, 1805844857) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -251125078) != 1)
+			if ((func_550() && TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_smart_flee_ped")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -251125078) != 1)
 			{
 				TASK::TASK_WANDER_STANDARD(iLocal_96, 40000f, 0);
 				if (NETWORK::NETWORK_HAS_CONTROL_OF_ENTITY(iLocal_96))
@@ -18754,7 +18754,7 @@ void func_540(bool bParam0)
 	{
 		if (PED::IS_PED_IN_ANY_VEHICLE(iLocal_96, false))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, -828834893) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_96, joaat("script_task_leave_any_vehicle")) != 1)
 			{
 				TASK::TASK_LEAVE_ANY_VEHICLE(iLocal_96, 0, 65536);
 			}

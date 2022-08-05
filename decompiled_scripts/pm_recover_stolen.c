@@ -575,7 +575,7 @@ void func_1()
 	{
 		if ((ENTITY::DOES_ENTITY_EXIST(iLocal_244) && VEHICLE::IS_VEHICLE_DRIVEABLE(iLocal_244, false)) && !iLocal_68)
 		{
-			if (!func_33(iLocal_245, 242628503, 1))
+			if (!func_33(iLocal_245, joaat("script_task_perform_sequence"), 1))
 			{
 				TASK::OPEN_SEQUENCE_TASK(&iLocal_243);
 				TASK::TASK_VEHICLE_TEMP_ACTION(0, iLocal_244, 31, 10000);
@@ -586,21 +586,21 @@ void func_1()
 				iLocal_68 = 1;
 			}
 		}
-		else if (((func_33(iLocal_245, 242628503, 1) && TASK::GET_SEQUENCE_PROGRESS(iLocal_245) < 1) && !iLocal_69) && (((((ENTITY::IS_ENTITY_IN_ANGLED_AREA(PLAYER::PLAYER_PED_ID(), Local_37, Local_37.f_3, Local_37.f_6, false, true, 0) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 124)) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 125)) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 126)) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 23)) || func_32(Global_111632.f_35, 134217728)))
+		else if (((func_33(iLocal_245, joaat("script_task_perform_sequence"), 1) && TASK::GET_SEQUENCE_PROGRESS(iLocal_245) < 1) && !iLocal_69) && (((((ENTITY::IS_ENTITY_IN_ANGLED_AREA(PLAYER::PLAYER_PED_ID(), Local_37, Local_37.f_3, Local_37.f_6, false, true, 0) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 124)) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 125)) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 126)) || PED::HAS_PED_RECEIVED_EVENT(iLocal_245, 23)) || func_32(Global_111632.f_35, 134217728)))
 		{
 			TASK::TASK_VEHICLE_MISSION_PED_TARGET(iLocal_245, iLocal_244, PLAYER::PLAYER_PED_ID(), 8, 30f, Local_37.f_16, 1000f, 0f, true);
 			iLocal_69 = 1;
 		}
-		else if ((!func_33(iLocal_245, 242628503, 1) && !func_33(iLocal_245, -1273030092, 1)) || !PED::IS_PED_IN_ANY_VEHICLE(iLocal_245, false))
+		else if ((!func_33(iLocal_245, joaat("script_task_perform_sequence"), 1) && !func_33(iLocal_245, joaat("script_task_vehicle_mission"), 1)) || !PED::IS_PED_IN_ANY_VEHICLE(iLocal_245, false))
 		{
-			if (!func_33(iLocal_245, 1805844857, 1))
+			if (!func_33(iLocal_245, joaat("script_task_smart_flee_ped"), 1))
 			{
 				TASK::TASK_SMART_FLEE_PED(iLocal_245, PLAYER::PLAYER_PED_ID(), 1000f, -1, false, true);
 			}
 		}
 		else if (PED::IS_PED_IN_VEHICLE(iLocal_245, iLocal_244, true) && (((VEHICLE::IS_VEHICLE_STUCK_TIMER_UP(iLocal_244, 0, 3000) || VEHICLE::IS_VEHICLE_STUCK_TIMER_UP(iLocal_244, 1, 3000)) || VEHICLE::IS_VEHICLE_STUCK_TIMER_UP(iLocal_244, 2, 8000)) || VEHICLE::IS_VEHICLE_STUCK_TIMER_UP(iLocal_244, 3, 8000)))
 		{
-			if (!func_33(iLocal_245, 451360105, 1))
+			if (!func_33(iLocal_245, joaat("script_task_leave_vehicle"), 1))
 			{
 				TASK::TASK_LEAVE_VEHICLE(iLocal_245, iLocal_244, 0);
 			}
@@ -616,7 +616,7 @@ void func_1()
 			}
 			if (bLocal_70)
 			{
-				if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_245, 242628503) == 1 && TASK::GET_SEQUENCE_PROGRESS(iLocal_245) == 1) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_245, -1273030092) == 1)
+				if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_245, joaat("script_task_perform_sequence")) == 1 && TASK::GET_SEQUENCE_PROGRESS(iLocal_245) == 1) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_245, joaat("script_task_vehicle_mission")) == 1)
 				{
 					if (!TASK::IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(iLocal_245))
 					{
@@ -630,7 +630,7 @@ void func_1()
 		{
 			if (!iLocal_72)
 			{
-				if ((func_33(iLocal_245, 242628503, 1) && TASK::GET_SEQUENCE_PROGRESS(iLocal_245) == 1) || func_33(iLocal_245, -1273030092, 1))
+				if ((func_33(iLocal_245, joaat("script_task_perform_sequence"), 1) && TASK::GET_SEQUENCE_PROGRESS(iLocal_245) == 1) || func_33(iLocal_245, joaat("script_task_vehicle_mission"), 1))
 				{
 					if (AUDIO::REQUEST_SCRIPT_AUDIO_BANK("TAKINGS", false, -1))
 					{
@@ -643,7 +643,7 @@ void func_1()
 	}
 	if (ENTITY::DOES_ENTITY_EXIST(iLocal_246) && !PED::IS_PED_INJURED(iLocal_246))
 	{
-		if (!PED::IS_PED_IN_ANY_VEHICLE(iLocal_246, false) && !func_33(iLocal_246, 1805844857, 1))
+		if (!PED::IS_PED_IN_ANY_VEHICLE(iLocal_246, false) && !func_33(iLocal_246, joaat("script_task_smart_flee_ped"), 1))
 		{
 			TASK::TASK_SMART_FLEE_PED(iLocal_246, PLAYER::PLAYER_PED_ID(), 1000f, -1, false, true);
 		}

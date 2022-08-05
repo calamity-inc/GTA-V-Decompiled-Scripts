@@ -1801,7 +1801,7 @@ void __EntryFunction__()
 							{
 								Var1198 = { -819.7591f, -1512.229f, 0.1336f };
 							}
-							if (TASK::GET_SCRIPT_TASK_STATUS(iVar1101, -1273030092) != 1)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iVar1101, joaat("script_task_vehicle_mission")) != 1)
 							{
 								if (bVar872 == 5)
 								{
@@ -1862,7 +1862,7 @@ void __EntryFunction__()
 				}
 				if (ENTITY::DOES_ENTITY_EXIST(iVar1101) && !ENTITY::IS_ENTITY_DEAD(iVar1101, false))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iVar1101, -982327190) != 0 && TASK::GET_SCRIPT_TASK_STATUS(iVar1101, -982327190) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iVar1101, joaat("script_task_stand_still")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(iVar1101, joaat("script_task_stand_still")) != 1)
 					{
 						TASK::CLEAR_PED_TASKS(iVar1101);
 						TASK::TASK_STAND_STILL(iVar1101, -1);

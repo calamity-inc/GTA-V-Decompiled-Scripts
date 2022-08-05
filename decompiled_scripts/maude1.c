@@ -384,7 +384,7 @@ void func_1()
 					}
 					else if (func_17(iLocal_158))
 					{
-						if (!func_2(iLocal_158, 1805844857))
+						if (!func_2(iLocal_158, joaat("script_task_smart_flee_ped")))
 						{
 							if (!PED::IS_PED_FLEEING(iLocal_158))
 							{
@@ -537,7 +537,7 @@ int func_10()
 					iLocal_150 = PED::CREATE_SYNCHRONIZED_SCENE(2727.4f, 4145.56f, 43.68f, 0f, 0f, -92.17f, 2);
 					PED::SET_SYNCHRONIZED_SCENE_LOOPED(iLocal_150, false);
 					PED::SET_SYNCHRONIZED_SCENE_HOLD_LAST_FRAME(iLocal_150, false);
-					if (func_2(iLocal_158, 1785177548))
+					if (func_2(iLocal_158, joaat("script_task_synchronized_scene")))
 					{
 						ENTITY::STOP_SYNCHRONIZED_ENTITY_ANIM(iLocal_158, -1000f, true);
 					}
@@ -40793,7 +40793,7 @@ int func_346(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_2(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_2(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -41006,7 +41006,7 @@ void func_355()
 		{
 			if (func_349(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 10.5f, 1, 1056964608, 0, 1, 0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1)
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}

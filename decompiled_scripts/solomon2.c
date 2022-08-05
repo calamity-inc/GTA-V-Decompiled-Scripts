@@ -31052,7 +31052,7 @@ int func_183(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_186(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_186(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -42774,7 +42774,7 @@ void func_387()
 		switch (iLocal_95)
 		{
 			case 1:
-				if (!func_186(Local_244.f_0, 2104565373))
+				if (!func_186(Local_244.f_0, joaat("script_task_drive_by")))
 				{
 					iLocal_95 = 2;
 				}
@@ -42953,7 +42953,7 @@ void func_391()
 				break;
 			
 			case 5:
-				if (PED::IS_PED_IN_ANY_VEHICLE(Local_237.f_0, false) && !func_186(Local_237.f_0, -828834893))
+				if (PED::IS_PED_IN_ANY_VEHICLE(Local_237.f_0, false) && !func_186(Local_237.f_0, joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(Local_237.f_0, 0, 0);
 				}
@@ -43056,7 +43056,7 @@ void func_395(int iParam0, bool bParam1)
 {
 	if (func_459(iParam0))
 	{
-		if (!func_186(iParam0, 1805844857))
+		if (!func_186(iParam0, joaat("script_task_smart_flee_ped")))
 		{
 			ENTITY::FREEZE_ENTITY_POSITION(iParam0, false);
 			if (bParam1)

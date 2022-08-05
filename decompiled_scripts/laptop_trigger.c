@@ -4039,7 +4039,7 @@ void func_170()
 				}
 				if (!func_174(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), Var16, 0.05f, 0) && !func_210(ENTITY::GET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID()), ENTITY::GET_ENTITY_HEADING(iLocal_118), 5f))
 				{
-					if (!func_172(PLAYER::PLAYER_PED_ID(), 2106541073))
+					if (!func_172(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")))
 					{
 						TASK::TASK_GO_STRAIGHT_TO_COORD(PLAYER::PLAYER_PED_ID(), Var16, 1f, 5000, ENTITY::GET_ENTITY_HEADING(iLocal_118), 0.25f);
 					}
@@ -4109,7 +4109,7 @@ void func_171(int iParam0)
 			GRAPHICS::DRAW_DEBUG_TEXT("walk", ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 64, 256, 64, 64);
 			if (STREAMING::HAS_ANIM_DICT_LOADED(&sVar0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) == 7 && STREAMING::HAS_ANIM_DICT_LOADED(&sVar0))
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) == 7 && STREAMING::HAS_ANIM_DICT_LOADED(&sVar0))
 				{
 					if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_120))
 					{

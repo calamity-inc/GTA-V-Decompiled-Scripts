@@ -2470,28 +2470,28 @@ int func_58()
 	{
 		if (!bLocal_110)
 		{
-			if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(iLocal_90, false), true) <= 7f || TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, 242628503) == 7)
+			if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(iLocal_90, false), true) <= 7f || TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, joaat("script_task_perform_sequence")) == 7)
 			{
 				if (!iLocal_112)
 				{
 					if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(iLocal_90, false), true) <= 7f)
 					{
 					}
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, 242628503) == 7)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, joaat("script_task_perform_sequence")) == 7)
 					{
 					}
 				}
 				return 1;
 			}
 		}
-		else if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(iLocal_90, false), true) <= 4.5f || TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, 242628503) == 7)
+		else if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(iLocal_90, false), true) <= 4.5f || TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, joaat("script_task_perform_sequence")) == 7)
 		{
 			if (!iLocal_112)
 			{
 				if (MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(iLocal_90, false), true) <= 4.5f)
 				{
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, 242628503) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_90, joaat("script_task_perform_sequence")) == 7)
 				{
 				}
 			}
@@ -4410,7 +4410,7 @@ void func_97(int iParam0)
 			if (func_2(Local_47[iParam0 /*20*/].f_1))
 			{
 				func_99(Local_47[iParam0 /*20*/].f_1, &(Local_47[iParam0 /*20*/].f_2), -1, 0, 0, 0, -1082130432, 0, -1, -1, 1, 0);
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_47[iParam0 /*20*/].f_1, 242628503) == 7 || MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(Local_47[iParam0 /*20*/].f_1, false), true) <= 5f)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_47[iParam0 /*20*/].f_1, joaat("script_task_perform_sequence")) == 7 || MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), ENTITY::GET_ENTITY_COORDS(Local_47[iParam0 /*20*/].f_1, false), true) <= 5f)
 				{
 					TASK::TASK_LOOK_AT_ENTITY(Local_47[iParam0 /*20*/].f_1, PLAYER::PLAYER_PED_ID(), -1, 0, 2);
 					TASK::TASK_COMBAT_PED(Local_47[iParam0 /*20*/].f_1, PLAYER::PLAYER_PED_ID(), 0, 16);
@@ -4445,7 +4445,7 @@ void func_97(int iParam0)
 						iLocal_116[iParam0] = 1;
 					}
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_47[iParam0 /*20*/].f_1, 780511057) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_47[iParam0 /*20*/].f_1, joaat("script_task_combat")) == 7)
 				{
 					TASK::TASK_COMBAT_PED(Local_47[iParam0 /*20*/].f_1, PLAYER::PLAYER_PED_ID(), 0, 16);
 				}

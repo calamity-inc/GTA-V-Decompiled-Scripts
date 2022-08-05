@@ -1436,7 +1436,7 @@ int func_13(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -6259,7 +6259,7 @@ void func_187()
 				else if ((iLocal_241 == 1 && uLocal_306[iLocal_281] == 3) && !func_194())
 				{
 					GRAPHICS::BEGIN_TEXT_COMMAND_SCALEFORM_STRING("PIM_DMAGUT");
-					HUD::ADD_TEXT_COMPONENT_SUBSTRING_TIME((func_195(joaat("MPPLY_H4_COOLDOWN")) - NETWORK::GET_CLOUD_TIME_AS_INT()) * 1000, 14);
+					HUD::ADD_TEXT_COMPONENT_SUBSTRING_TIME((func_195(joaat("mpply_h4_cooldown")) - NETWORK::GET_CLOUD_TIME_AS_INT()) * 1000, 14);
 					bVar1 = false;
 				}
 				else if (iLocal_241 == 2 && (uLocal_311[iLocal_281] == 4 || uLocal_311[iLocal_281] == 3))
@@ -6389,7 +6389,7 @@ void func_193(char* sParam0)
 
 bool func_194()
 {
-	return NETWORK::GET_CLOUD_TIME_AS_INT() >= func_195(joaat("MPPLY_H4_COOLDOWN"));
+	return NETWORK::GET_CLOUD_TIME_AS_INT() >= func_195(joaat("mpply_h4_cooldown"));
 }
 
 int func_195(int iParam0)

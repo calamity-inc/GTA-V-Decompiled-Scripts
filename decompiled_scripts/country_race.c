@@ -17716,7 +17716,7 @@ int func_268()
 		case 4:
 			if (SYSTEM::TIMERA() > 4900)
 			{
-				if (func_271(PLAYER::PLAYER_PED_ID(), -1817882002, 1))
+				if (func_271(PLAYER::PLAYER_PED_ID(), joaat("script_task_vehicle_drive_to_coord"), 1))
 				{
 					TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
 					if (func_8(iLocal_2129))
@@ -18587,7 +18587,7 @@ void func_295(int iParam0)
 			if ((!PED::IS_PED_IN_COMBAT((*iParam0)[iVar0 /*50*/], 0) && !PED::IS_PED_FLEEING((*iParam0)[iVar0 /*50*/])) && !PED::IS_PED_RAGDOLL((*iParam0)[iVar0 /*50*/]))
 			{
 				PED::SET_IK_TARGET((*iParam0)[iVar0 /*50*/], 1, PLAYER::PLAYER_PED_ID(), 0, 0f, 0f, 0f, 0, -1, -1);
-				if (!func_271((*iParam0)[iVar0 /*50*/], 242628503, 1))
+				if (!func_271((*iParam0)[iVar0 /*50*/], joaat("script_task_perform_sequence"), 1))
 				{
 					TASK::OPEN_SEQUENCE_TASK(&((iParam0[iVar0 /*50*/])->f_2));
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(0, PLAYER::PLAYER_PED_ID(), 2000);
@@ -18967,7 +18967,7 @@ void func_302(var uParam0, struct<20> Param1, bool bParam21)
 				}
 				else if (bParam21)
 				{
-					if (!func_271(*uParam0, 242628503, 1))
+					if (!func_271(*uParam0, joaat("script_task_perform_sequence"), 1))
 					{
 						TASK::OPEN_SEQUENCE_TASK(&(uParam0->f_2));
 						TASK::TASK_PAUSE(0, MISC::GET_RANDOM_INT_IN_RANGE(200, 500));
@@ -19034,7 +19034,7 @@ void func_302(var uParam0, struct<20> Param1, bool bParam21)
 					default:
 						if (Local_46.f_5)
 						{
-							if (!func_271(*uParam0, 242628503, 1))
+							if (!func_271(*uParam0, joaat("script_task_perform_sequence"), 1))
 							{
 								TASK::OPEN_SEQUENCE_TASK(&(uParam0->f_2));
 								TASK::TASK_VEHICLE_FOLLOW_WAYPOINT_RECORDING(0, uParam0->f_5, Local_54.f_64, 786468, 0, 540, -1, uParam0->f_17.f_1, true, 2f);
@@ -19059,7 +19059,7 @@ void func_302(var uParam0, struct<20> Param1, bool bParam21)
 								uParam0->f_17.f_4++;
 							}
 						}
-						else if (!func_271(*uParam0, 242628503, 1) && !func_271(*uParam0, -1817882002, 1))
+						else if (!func_271(*uParam0, joaat("script_task_perform_sequence"), 1) && !func_271(*uParam0, joaat("script_task_vehicle_drive_to_coord"), 1))
 						{
 							TASK::TASK_VEHICLE_DRIVE_TO_COORD(*uParam0, uParam0->f_5, ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(*uParam0, 0f, 100f, 0f), 40f, 0, uParam0->f_5.f_2, 786468, 20f, 9999f);
 						}

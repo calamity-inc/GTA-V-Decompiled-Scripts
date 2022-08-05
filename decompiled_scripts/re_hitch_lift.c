@@ -4555,7 +4555,7 @@ void func_120()
 				{
 					PED::REMOVE_PED_FROM_GROUP(iLocal_85);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, 1227113341) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, 1227113341) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, joaat("script_task_go_to_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, joaat("script_task_go_to_entity")) != 0)
 				{
 					TASK::TASK_GO_TO_ENTITY(iLocal_85, PLAYER::PLAYER_PED_ID(), -1, 6f, 2f, 2f, 0);
 				}
@@ -4621,7 +4621,7 @@ void func_120()
 			else
 			{
 				iLocal_142 = 0;
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, 1227113341) == 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, 1227113341) == 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, joaat("script_task_go_to_entity")) == 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, joaat("script_task_go_to_entity")) == 0)
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_85);
 				}
@@ -11658,7 +11658,7 @@ void func_255()
 				{
 					TASK::CLEAR_PED_SECONDARY_TASK(iLocal_85);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, 1805844857) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, 1805844857) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, joaat("script_task_smart_flee_ped")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_85, joaat("script_task_smart_flee_ped")) != 0)
 				{
 					PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_85, false);
 				}

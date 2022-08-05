@@ -1348,7 +1348,7 @@ void func_32()
 	
 	if (!PED::IS_PED_INJURED(uLocal_287[2]))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(uLocal_287[2], -880529684) == 7)
+		if (TASK::GET_SCRIPT_TASK_STATUS(uLocal_287[2], joaat("script_task_look_at_coord")) == 7)
 		{
 			if (MISC::GET_GAME_TIMER() > iLocal_336 + 8000)
 			{

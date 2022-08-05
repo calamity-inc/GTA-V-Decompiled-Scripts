@@ -450,7 +450,7 @@ void func_1()
 					{
 						if (!bLocal_74)
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, 1227113341) == 7)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_go_to_entity")) == 7)
 							{
 								TASK::TASK_GO_TO_ENTITY(iLocal_54, iLocal_55, -1, 1f, 3f, 2f, 0);
 							}
@@ -460,9 +460,9 @@ void func_1()
 					{
 						if (!bLocal_74)
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 1805844857) == 7)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_smart_flee_ped")) == 7)
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, -2017877118) == 1)
+								if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_play_anim")) == 1)
 								{
 									TASK::STOP_ANIM_PLAYBACK(iLocal_55, 2, true);
 								}
@@ -556,7 +556,7 @@ void func_1()
 					break;
 				
 				case 1:
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, -982327190) == 7)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_stand_still")) == 7)
 					{
 						TASK::TASK_GO_TO_ENTITY(iLocal_54, iLocal_55, -1, 1f, 3f, 2f, 0);
 						iLocal_52 = 0;
@@ -596,7 +596,7 @@ void func_1()
 				case 5:
 					if (iLocal_50 == 3)
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, 242628503) == 7)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_perform_sequence")) == 7)
 						{
 							TASK::CLEAR_PED_TASKS(iLocal_54);
 							if (!WEAPON::HAS_PED_GOT_WEAPON(iLocal_54, joaat("weapon_pistol"), false))
@@ -619,9 +619,9 @@ void func_1()
 					if (VEHICLE::IS_VEHICLE_DRIVEABLE(iLocal_57, false) && !PED::IS_PED_INJURED(iLocal_56))
 					{
 						VEHICLE::_0xBE5C1255A1830FF5(iLocal_57, true);
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, -2017877118) == 7)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_play_anim")) == 7)
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_56, -1273030092) == 7)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_56, joaat("script_task_vehicle_mission")) == 7)
 							{
 								if (VEHICLE::IS_ENTRY_POINT_FOR_SEAT_CLEAR(iLocal_55, iLocal_57, 2, false, false))
 								{
@@ -631,7 +631,7 @@ void func_1()
 										{
 											if (!PED::IS_PED_IN_COMBAT(iLocal_55, 0))
 											{
-												if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, -1794415470) == 7)
+												if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_enter_vehicle")) == 7)
 												{
 													TASK::OPEN_SEQUENCE_TASK(&iLocal_73);
 													TASK::TASK_PLAY_ANIM(0, sLocal_258, "kneeling_arrest_get_up", 8f, -2f, -1, 0, 0f, false, false, false);
@@ -792,7 +792,7 @@ void func_1()
 									PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_54, false);
 									func_177();
 								}
-								else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, -1794415470) == 7)
+								else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_enter_vehicle")) == 7)
 								{
 									TASK::CLEAR_PED_TASKS(iLocal_54);
 									TASK::TASK_ENTER_VEHICLE(iLocal_54, iLocal_57, 20000, 0, 1f, 1, 0);
@@ -1242,7 +1242,7 @@ void func_7()
 				{
 					if (!PED::IS_PED_INJURED(iLocal_56))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_56, -1273030092) == 7)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_56, joaat("script_task_vehicle_mission")) == 7)
 						{
 							TASK::TASK_ENTER_VEHICLE(iLocal_54, iLocal_57, -1, 0, 1f, 1, 0);
 							iLocal_51 = 3;
@@ -1353,7 +1353,7 @@ int func_11()
 	switch (iLocal_243)
 	{
 		case 0:
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, 242628503) == 7 || MISC::GET_GAME_TIMER() > iLocal_246 + 15000)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_perform_sequence")) == 7 || MISC::GET_GAME_TIMER() > iLocal_246 + 15000)
 			{
 				if (ENTITY::IS_ENTITY_AT_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_54, 25f, 25f, 25f, false, true, 0))
 				{
@@ -1380,7 +1380,7 @@ int func_11()
 			break;
 		
 		case 1:
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, 242628503) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54, joaat("script_task_perform_sequence")) == 1)
 			{
 				if (TASK::GET_SEQUENCE_PROGRESS(iLocal_54) > 0)
 				{
@@ -1475,7 +1475,7 @@ void func_12()
 						
 						case 9:
 							GRAPHICS::DRAW_DEBUG_TEXT_2D("criminal_thanks 9", 0.02f, 0.1f, 0f, 0, 0, 255, 255);
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 7)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 7)
 							{
 								iLocal_247 = 0;
 							}
@@ -1513,12 +1513,12 @@ void func_12()
 							GRAPHICS::DRAW_DEBUG_TEXT_2D("criminal_thanks 2", 0.02f, 0.1f, 0f, 0, 0, 255, 255);
 							if (ENTITY::IS_ENTITY_AT_COORD(iLocal_55, ENTITY::GET_ENTITY_COORDS(iLocal_54, false), 4f, 4f, 3f, false, true, 0))
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 7 || func_74(&uLocal_78, "REARRAU", sLocal_271, 4, iLocal_254, 0, 0))
+								if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 7 || func_74(&uLocal_78, "REARRAU", sLocal_271, 4, iLocal_254, 0, 0))
 								{
 									iLocal_247 = 6;
 								}
 							}
-							else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 7)
+							else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 7)
 							{
 								TASK::OPEN_SEQUENCE_TASK(&iLocal_73);
 								TASK::TASK_LOOK_AT_COORD(0, ENTITY::GET_ENTITY_COORDS(iLocal_54, false), 1000, 0, 2);
@@ -1581,7 +1581,7 @@ void func_12()
 						
 						case 5:
 							GRAPHICS::DRAW_DEBUG_TEXT_2D("criminal_thanks 5", 0.02f, 0.1f, 0f, 0, 0, 255, 255);
-							if (ENTITY::IS_ENTITY_PLAYING_ANIM(iLocal_55, sLocal_258, "Thanks_Male_05", 3) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 7)
+							if (ENTITY::IS_ENTITY_PLAYING_ANIM(iLocal_55, sLocal_258, "Thanks_Male_05", 3) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 7)
 							{
 								if (!func_89())
 								{
@@ -3260,7 +3260,7 @@ void func_63(int iParam0)
 			{
 				if (!PED::IS_PED_INJURED(iLocal_55))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 1805844857) == 7)
+					if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_smart_flee_ped")) == 7)
 					{
 						if (ENTITY::IS_ENTITY_PLAYING_ANIM(iLocal_55, sLocal_258, "kneeling_arrest_idle", 3))
 						{

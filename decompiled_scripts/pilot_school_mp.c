@@ -131745,7 +131745,7 @@ void func_1184(int iParam0)
 {
 	if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1794415470) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1794415470) != 0)
+		if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_enter_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_enter_vehicle")) != 0)
 		{
 			if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()) && !PED::IS_PED_IN_VEHICLE(PLAYER::PLAYER_PED_ID(), iParam0, false))
 			{
@@ -135640,9 +135640,9 @@ int func_1259()
 				func_1267();
 				PAD::DISABLE_CONTROL_ACTION(0, 144, true);
 				iVar3 = NETWORK::NETWORK_GET_LOCAL_SCENE_FROM_NETWORK_ID(iLocal_2325);
-				if ((PED::IS_SYNCHRONIZED_SCENE_RUNNING(iVar3) && PED::GET_SYNCHRONIZED_SCENE_PHASE(iVar3) >= 0.95f) || (!PED::IS_SYNCHRONIZED_SCENE_RUNNING(iVar3) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1264972124) != 1))
+				if ((PED::IS_SYNCHRONIZED_SCENE_RUNNING(iVar3) && PED::GET_SYNCHRONIZED_SCENE_PHASE(iVar3) >= 0.95f) || (!PED::IS_SYNCHRONIZED_SCENE_RUNNING(iVar3) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_sky_dive")) != 1))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1264972124) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_sky_dive")) != 1)
 					{
 						TASK::TASK_SKY_DIVE(PLAYER::PLAYER_PED_ID(), false);
 						func_1267();
@@ -135676,7 +135676,7 @@ int func_1259()
 						CAM::_0xDD79DF9F4D26E1C9();
 						if (func_608(&(Local_2341.f_566)) > 1.1f)
 						{
-							if (!PED::IS_SYNCHRONIZED_SCENE_RUNNING(iVar3) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1264972124) == 1)
+							if (!PED::IS_SYNCHRONIZED_SCENE_RUNNING(iVar3) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_sky_dive")) == 1)
 							{
 								HUD::DISPLAY_HUD(true);
 								HUD::DISPLAY_RADAR(true);
@@ -138069,7 +138069,7 @@ void func_1310(var uParam0, var uParam1, int iParam2)
 	{
 		if (func_822(Local_2341.f_0, *uParam1, 1) > 25f)
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, 1435919172) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(*uParam0, joaat("script_task_any")) != 1)
 			{
 				TASK::TASK_VEHICLE_ESCORT(*uParam0, *uParam1, Local_2341.f_0, iParam2, 14f, 786469, 25f, 0, 1000f);
 			}
@@ -154039,7 +154039,7 @@ int func_1608(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;

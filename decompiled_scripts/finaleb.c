@@ -9710,7 +9710,7 @@ void func_165()
 		{
 			ENTITY::SET_ENTITY_VISIBLE(func_67(), false, false);
 			ENTITY::FREEZE_ENTITY_POSITION(func_67(), false);
-			if (!func_166(func_67(), 713668775, 1))
+			if (!func_166(func_67(), joaat("script_task_follow_nav_mesh_to_coord"), 1))
 			{
 				TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(func_67(), 2729.568f, 1579.289f, 65.5428f, 2f, 20000, 0.25f, false, 40000f);
 			}
@@ -10503,7 +10503,7 @@ void func_178()
 						if (func_179(func_67()))
 						{
 							ENTITY::FREEZE_ENTITY_POSITION(func_67(), false);
-							if (!func_166(func_67(), -1758697641, 1))
+							if (!func_166(func_67(), joaat("script_task_go_to_coord_while_aiming_at_entity"), 1))
 							{
 								TASK::TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(func_67(), 2729.18f, 1578.21f, 65.54f, func_58(), 3f, true, 2f, 4f, true, 0, false, joaat("FIRING_PATTERN_FULL_AUTO"), 20000);
 							}
@@ -97701,7 +97701,7 @@ void func_519()
 			break;
 		
 		case 7:
-			func_520(713668775);
+			func_520(joaat("script_task_follow_nav_mesh_to_coord"));
 			if (ENTITY::IS_ENTITY_AT_COORD(func_58(), 2769.123f, 1566.615f, 38.5209f, 1f, 1f, 2f, false, true, 0))
 			{
 				iLocal_348 = MISC::GET_GAME_TIMER();
@@ -97969,9 +97969,9 @@ void func_525()
 			break;
 		
 		case 2:
-			func_520(1785177548);
-			func_520(-2017877118);
-			func_520(-875674219);
+			func_520(joaat("script_task_synchronized_scene"));
+			func_520(joaat("script_task_play_anim"));
+			func_520(joaat("script_task_turn_ped_to_face_entity"));
 			if (AUDIO::IS_AUDIO_SCENE_ACTIVE("FIN_2_MICHAEL_ESCAPE_SCENE"))
 			{
 				AUDIO::STOP_AUDIO_SCENE("FIN_2_MICHAEL_ESCAPE_SCENE");
@@ -97983,7 +97983,7 @@ void func_525()
 			if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_318) && PED::GET_SYNCHRONIZED_SCENE_PHASE(iLocal_318) >= 1f)
 			{
 				func_182(3);
-				if ((func_166(func_58(), 1785177548, 1) || func_166(func_58(), -2017877118, 1)) || func_166(func_58(), -875674219, 1))
+				if ((func_166(func_58(), joaat("script_task_synchronized_scene"), 1) || func_166(func_58(), joaat("script_task_play_anim"), 1)) || func_166(func_58(), joaat("script_task_turn_ped_to_face_entity"), 1))
 				{
 					TASK::CLEAR_PED_TASKS(func_58());
 				}

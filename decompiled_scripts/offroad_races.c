@@ -1854,7 +1854,7 @@ void func_5(int iParam0)
 						{
 							if (VEHICLE::GET_PED_IN_VEHICLE_SEAT(iParam0->f_396[iVar0 /*203*/].f_9, -1, false) != iParam0->f_396[iVar0 /*203*/].f_8)
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_396[iVar0 /*203*/].f_8, -1794415470) != 1)
+								if (TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_396[iVar0 /*203*/].f_8, joaat("script_task_enter_vehicle")) != 1)
 								{
 									if (func_6(iParam0->f_396[iVar0 /*203*/].f_9, 0, 0, 0, 0, 0, 1, 0, 1))
 									{
@@ -1863,7 +1863,7 @@ void func_5(int iParam0)
 									}
 								}
 							}
-							else if (TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_396[iVar0 /*203*/].f_8, -235832601) != 1 && func_901(&(iParam0->f_5)) > 2f)
+							else if (TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_396[iVar0 /*203*/].f_8, joaat("script_task_vehicle_follow_waypoint_recording")) != 1 && func_901(&(iParam0->f_5)) > 2f)
 							{
 								if (Local_47.f_11 + 1 >= 1 && Local_47.f_11 + 1 <= 6)
 								{
@@ -2015,7 +2015,7 @@ int func_9(int iParam0, int iParam1, bool bParam2, bool bParam3)
 			iVar0 = VEHICLE::GET_LAST_PED_IN_VEHICLE_SEAT(iParam0, iParam1);
 			if (!ENTITY::IS_ENTITY_DEAD(iVar0, false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, 451360105) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iVar0, -828834893) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_leave_vehicle")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_leave_any_vehicle")) == 1)
 				{
 					if (SYSTEM::VDIST(ENTITY::GET_ENTITY_COORDS(iParam0, false), ENTITY::GET_ENTITY_COORDS(iVar0, false)) < 10f)
 					{
@@ -4311,7 +4311,7 @@ int func_52(int iParam0, int iParam1)
 								{
 									if (!ENTITY::IS_ENTITY_DEAD(iParam0->f_396[iVar1 /*203*/].f_8, false) && !ENTITY::IS_ENTITY_DEAD(iParam0->f_396[iVar1 /*203*/].f_9, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_396[iVar1 /*203*/].f_8, -235832601) == 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_396[iVar1 /*203*/].f_8, joaat("script_task_vehicle_follow_waypoint_recording")) == 1)
 										{
 										}
 										else if (iParam0->f_2)
@@ -6509,7 +6509,7 @@ int func_125(var uParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_396[iParam1 /*203*/].f_8, -235832601) != 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_396[iParam1 /*203*/].f_8, joaat("script_task_vehicle_follow_waypoint_recording")) != 1)
 	{
 		return 0;
 	}
@@ -118150,7 +118150,7 @@ void func_958(var uParam0)
 				}
 				else
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_396[iVar0 /*203*/].f_8, 1805844857) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_396[iVar0 /*203*/].f_8, joaat("script_task_smart_flee_ped")) != 1)
 					{
 						TASK::TASK_STAND_STILL(uParam0->f_396[iVar0 /*203*/].f_8, -1);
 					}

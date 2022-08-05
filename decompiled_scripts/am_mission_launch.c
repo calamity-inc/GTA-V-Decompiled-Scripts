@@ -10599,7 +10599,7 @@ void func_370()
 						{
 							if (PED::IS_PED_SITTING_IN_VEHICLE(NETWORK::NET_TO_PED(Local_81.f_9[0]), NETWORK::NET_TO_VEH(Local_81.f_12[0])))
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), -258271821) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), -258271821) != 0)
+								if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_vehicle_drive_wander")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_vehicle_drive_wander")) != 0)
 								{
 									TASK::TASK_VEHICLE_DRIVE_WANDER(NETWORK::NET_TO_PED(Local_81.f_9[0]), NETWORK::NET_TO_VEH(Local_81.f_12[0]), 20f, 786603);
 								}
@@ -10623,7 +10623,7 @@ void func_370()
 							{
 								if (PED::IS_PED_SITTING_IN_VEHICLE(NETWORK::NET_TO_PED(Local_81.f_9[0]), NETWORK::NET_TO_VEH(Local_81.f_12[0])))
 								{
-									if ((TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), -258271821) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), -258271821) != 0) || BitTest(Local_81.f_0, 9))
+									if ((TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_vehicle_drive_wander")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_vehicle_drive_wander")) != 0) || BitTest(Local_81.f_0, 9))
 									{
 										TASK::TASK_VEHICLE_DRIVE_WANDER(NETWORK::NET_TO_PED(Local_81.f_9[0]), NETWORK::NET_TO_VEH(Local_81.f_12[0]), 30f, 786469);
 										if (BitTest(Local_81.f_0, 9))
@@ -10644,7 +10644,7 @@ void func_370()
 			{
 				if (!func_40(Local_81.f_9[0]))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), -828834893) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), -828834893) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_leave_any_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_leave_any_vehicle")) != 0)
 					{
 						if (func_374(Local_81.f_9[0]))
 						{
@@ -10665,7 +10665,7 @@ void func_370()
 				{
 					if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), 1805844857) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), 1805844857) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_smart_flee_ped")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_9[0]), joaat("script_task_smart_flee_ped")) != 0)
 						{
 							if (func_374(Local_81.f_9[0]))
 							{

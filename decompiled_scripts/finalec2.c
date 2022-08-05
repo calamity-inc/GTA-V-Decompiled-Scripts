@@ -118463,7 +118463,7 @@ void func_817()
 					}
 					if (!PED::IS_PED_IN_COMBAT(Local_420[iVar4 /*16*/], 0))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_420[iVar4 /*16*/], 993674639) != 7 || PED::IS_PED_USING_ANY_SCENARIO(Local_420[iVar4 /*16*/]))
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_420[iVar4 /*16*/], joaat("script_task_start_scenario_in_place")) != 7 || PED::IS_PED_USING_ANY_SCENARIO(Local_420[iVar4 /*16*/]))
 						{
 							PED::SET_PED_SHOULD_PLAY_IMMEDIATE_SCENARIO_EXIT(Local_420[iVar4 /*16*/]);
 						}
@@ -122670,7 +122670,7 @@ void func_884(int iParam0, bool bParam1, bool bParam2)
 				iVar1 = iVar0;
 				if (!PED::IS_PED_INJURED(Local_279[iVar0 /*14*/]))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Local_279[iVar0 /*14*/], 1785177548) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Local_279[iVar0 /*14*/], joaat("script_task_synchronized_scene")) == 1)
 					{
 						func_887(iVar1);
 					}
@@ -128952,7 +128952,7 @@ void func_985()
 					if (PED::IS_PED_IN_ANY_VEHICLE(Local_279[iVar0 /*14*/], false))
 					{
 						bVar2 = false;
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_279[iVar0 /*14*/], 2104565373) == 7 && MISC::GET_GAME_TIMER() >= iLocal_1106 + 2000)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_279[iVar0 /*14*/], joaat("script_task_drive_by")) == 7 && MISC::GET_GAME_TIMER() >= iLocal_1106 + 2000)
 						{
 							if (TASK::IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(Local_279[iVar0 /*14*/]))
 							{
@@ -128998,7 +128998,7 @@ int func_986()
 			iVar2 = iVar1;
 			if (!PED::IS_PED_INJURED(Local_279[iVar2 /*14*/]))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_279[iVar2 /*14*/], 1785177548) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_279[iVar2 /*14*/], joaat("script_task_synchronized_scene")) == 1)
 				{
 					if (fVar0 < func_987(iVar2))
 					{
@@ -129315,7 +129315,7 @@ void func_988()
 						break;
 					
 					case 5:
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_138[iVar1 /*14*/], 242628503) == 7)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_138[iVar1 /*14*/], joaat("script_task_perform_sequence")) == 7)
 						{
 							func_990(iVar1, 5);
 						}
@@ -129703,7 +129703,7 @@ void func_988()
 						}
 						if (!PED::IS_PED_IN_COMBAT(Local_138[iVar0 /*14*/], 0))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(Local_138[iVar0 /*14*/], 993674639) != 7 || PED::IS_PED_USING_ANY_SCENARIO(Local_138[iVar0 /*14*/]))
+							if (TASK::GET_SCRIPT_TASK_STATUS(Local_138[iVar0 /*14*/], joaat("script_task_start_scenario_in_place")) != 7 || PED::IS_PED_USING_ANY_SCENARIO(Local_138[iVar0 /*14*/]))
 							{
 								PED::SET_PED_SHOULD_PLAY_IMMEDIATE_SCENARIO_EXIT(Local_138[iVar0 /*14*/]);
 							}

@@ -4134,7 +4134,7 @@ void func_99()
 				{
 					if (!PED::IS_PED_INJURED(iLocal_150[iVar2]))
 					{
-						if ((!PED::IS_PED_IN_COMBAT(iLocal_150[iVar2], 0) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_150[iVar2], 579380604) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_150[iVar2], 579380604) != 0)
+						if ((!PED::IS_PED_IN_COMBAT(iLocal_150[iVar2], 0) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_150[iVar2], joaat("script_task_vehicle_chase")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_150[iVar2], joaat("script_task_vehicle_chase")) != 0)
 						{
 							TASK::CLEAR_PED_TASKS(iLocal_150[iVar2]);
 							TASK::TASK_COMBAT_PED(iLocal_150[iVar2], PLAYER::PLAYER_PED_ID(), 0, 16);
@@ -4156,7 +4156,7 @@ void func_99()
 				{
 					if (!PED::IS_PED_INJURED(iLocal_155[iVar3]))
 					{
-						if ((!PED::IS_PED_IN_COMBAT(iLocal_155[iVar3], 0) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_155[iVar3], 579380604) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_155[iVar3], 579380604) != 0)
+						if ((!PED::IS_PED_IN_COMBAT(iLocal_155[iVar3], 0) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_155[iVar3], joaat("script_task_vehicle_chase")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_155[iVar3], joaat("script_task_vehicle_chase")) != 0)
 						{
 							TASK::CLEAR_PED_TASKS(iLocal_155[iVar3]);
 							TASK::TASK_COMBAT_PED(iLocal_155[iVar3], PLAYER::PLAYER_PED_ID(), 0, 16);
@@ -4372,21 +4372,21 @@ void func_104()
 		}
 		if (!PED::IS_PED_INJURED(iLocal_137[6]))
 		{
-			if (((((TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[6], 1785177548) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[6], 1785177548) != 0) || FIRE::IS_ENTITY_ON_FIRE(iLocal_137[6])) || ENTITY::IS_ENTITY_TOUCHING_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_137[6])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(iLocal_137[6])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(iLocal_137[6]))
+			if (((((TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[6], joaat("script_task_synchronized_scene")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[6], joaat("script_task_synchronized_scene")) != 0) || FIRE::IS_ENTITY_ON_FIRE(iLocal_137[6])) || ENTITY::IS_ENTITY_TOUCHING_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_137[6])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(iLocal_137[6])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(iLocal_137[6]))
 			{
 				ENTITY::SET_ENTITY_HEALTH(iLocal_137[6], 0, 0);
 			}
 		}
 		if (!PED::IS_PED_INJURED(iLocal_137[7]))
 		{
-			if (((((TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[7], 1785177548) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[7], 1785177548) != 0) || FIRE::IS_ENTITY_ON_FIRE(iLocal_137[7])) || ENTITY::IS_ENTITY_TOUCHING_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_137[7])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(iLocal_137[7])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(iLocal_137[7]))
+			if (((((TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[7], joaat("script_task_synchronized_scene")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_137[7], joaat("script_task_synchronized_scene")) != 0) || FIRE::IS_ENTITY_ON_FIRE(iLocal_137[7])) || ENTITY::IS_ENTITY_TOUCHING_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_137[7])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(iLocal_137[7])) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(iLocal_137[7]))
 			{
 				ENTITY::SET_ENTITY_HEALTH(iLocal_137[7], 0, 0);
 			}
 		}
 		if (!PED::IS_PED_INJURED(iLocal_136))
 		{
-			if (((((TASK::GET_SCRIPT_TASK_STATUS(iLocal_136, 1785177548) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_136, 1785177548) != 0) || FIRE::IS_ENTITY_ON_FIRE(iLocal_136)) || ENTITY::IS_ENTITY_TOUCHING_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_136)) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(iLocal_136)) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(iLocal_136))
+			if (((((TASK::GET_SCRIPT_TASK_STATUS(iLocal_136, joaat("script_task_synchronized_scene")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_136, joaat("script_task_synchronized_scene")) != 0) || FIRE::IS_ENTITY_ON_FIRE(iLocal_136)) || ENTITY::IS_ENTITY_TOUCHING_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_136)) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(iLocal_136)) || ENTITY::HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(iLocal_136))
 			{
 				ENTITY::SET_ENTITY_HEALTH(iLocal_136, 0, 0);
 			}

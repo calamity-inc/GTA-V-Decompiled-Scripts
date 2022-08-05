@@ -11197,8 +11197,8 @@ int func_116(struct<109> Param0, var uParam109)
 	{
 		case 0:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1435919172;
-			uParam109->f_110 = 1435919172;
+			uParam109->f_109 = joaat("script_task_any");
+			uParam109->f_110 = joaat("script_task_any");
 			func_118(uParam109);
 			uParam109->f_118 = 0;
 			return 0;
@@ -11206,8 +11206,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 1:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 0;
 			return 1;
@@ -11215,8 +11215,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 2:
 			*uParam109 = { Global_98091[0 /*109*/] };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = Global_99679[0];
 			return 1;
@@ -11224,8 +11224,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 3:
 			*uParam109 = { Global_98091[1 /*109*/] };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = Global_99679[1];
 			return 1;
@@ -11233,8 +11233,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 4:
 			*uParam109 = { Global_98091[2 /*109*/] };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = Global_99679[2];
 			return 1;
@@ -11242,8 +11242,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 5:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = Global_99679[Param0.f_3];
 			return 1;
@@ -11251,8 +11251,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 6:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = Global_99679[Param0.f_3];
 			return 1;
@@ -11260,8 +11260,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 7:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = Global_99679[Param0.f_3];
 			return 1;
@@ -11271,8 +11271,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 9:
 		case 10:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 936589729;
-			uParam109->f_110 = 936589729;
+			uParam109->f_109 = joaat("script_task_use_mobile_phone");
+			uParam109->f_110 = joaat("script_task_use_mobile_phone");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11280,8 +11280,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 11:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11289,8 +11289,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 14:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11298,8 +11298,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 13:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11307,8 +11307,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 15:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11316,8 +11316,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 54:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11325,8 +11325,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 55:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 936589729;
-			uParam109->f_110 = 936589729;
+			uParam109->f_109 = joaat("script_task_use_mobile_phone");
+			uParam109->f_110 = joaat("script_task_use_mobile_phone");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11334,8 +11334,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 56:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11343,8 +11343,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 57:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11352,17 +11352,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 12:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = 451360105;
-			func_117(uParam109, 144, -982327190, -982327190, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_leave_vehicle");
+			func_117(uParam109, 144, joaat("script_task_stand_still"), joaat("script_task_stand_still"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 16:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11370,8 +11370,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 17:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11379,8 +11379,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 18:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11388,8 +11388,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 19:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11397,8 +11397,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 20:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11406,8 +11406,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 22:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11415,8 +11415,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 74:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11424,8 +11424,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 67:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11433,8 +11433,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 58:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11442,8 +11442,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 59:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11451,8 +11451,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 60:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11460,8 +11460,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 25:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11469,8 +11469,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 26:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11478,8 +11478,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 27:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11487,8 +11487,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 28:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11496,8 +11496,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 38:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11505,8 +11505,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 40:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11517,8 +11517,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 44:
 		case 45:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1959848946;
-			uParam109->f_110 = -1959848946;
+			uParam109->f_109 = joaat("script_task_put_ped_directly_into_cover");
+			uParam109->f_110 = joaat("script_task_put_ped_directly_into_cover");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11526,8 +11526,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 47:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11535,8 +11535,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 49:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11544,8 +11544,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 48:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -1794415470;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_enter_vehicle");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11553,8 +11553,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 50:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11562,8 +11562,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 51:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11571,8 +11571,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 52:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11580,8 +11580,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 66:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11589,8 +11589,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 61:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11598,8 +11598,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 62:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11607,8 +11607,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 63:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11616,8 +11616,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 69:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11625,8 +11625,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 64:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11634,8 +11634,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 65:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11643,8 +11643,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 234:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11652,8 +11652,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 316:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11661,8 +11661,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 315:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11670,17 +11670,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 75:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -235832601;
-			uParam109->f_110 = -235832601;
-			func_117(uParam109, 30, -982327190, -982327190, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_vehicle_follow_waypoint_recording");
+			uParam109->f_110 = joaat("script_task_vehicle_follow_waypoint_recording");
+			func_117(uParam109, 30, joaat("script_task_stand_still"), joaat("script_task_stand_still"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 76:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -235832601;
-			uParam109->f_110 = -235832601;
+			uParam109->f_109 = joaat("script_task_vehicle_follow_waypoint_recording");
+			uParam109->f_110 = joaat("script_task_vehicle_follow_waypoint_recording");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11688,18 +11688,18 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 77:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, -0.7035f, -0.0282f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -0.7035f, -0.0282f, 0f, 0f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 78:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, -3.03f, -0.72f, 0.08f, 168f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -3.03f, -0.72f, 0.08f, 168f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
@@ -11707,9 +11707,9 @@ int func_116(struct<109> Param0, var uParam109)
 		case joaat("mpsv_lp0_31"):
 		case 80:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, -2017877118, -2017877118, Vector(2.6407f, 8.164f, -14.1564f) + Vector(-1f, 0.03f, -2.16f), (-66f + -56f));
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_play_anim"), joaat("script_task_play_anim"), Vector(2.6407f, 8.164f, -14.1564f) + Vector(-1f, 0.03f, -2.16f), (-66f + -56f));
 			if (Param0.f_2 == 80)
 			{
 				func_118(uParam109);
@@ -11720,8 +11720,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 124:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11729,8 +11729,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 82:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11738,8 +11738,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 84:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11747,8 +11747,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 83:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11756,8 +11756,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 85:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11765,8 +11765,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 291:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11774,8 +11774,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 86:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11783,8 +11783,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 87:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11792,8 +11792,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 88:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11803,8 +11803,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 90:
 		case 127:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11816,8 +11816,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 104:
 		case 81:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			if (Param0.f_2 == 92)
@@ -11838,11 +11838,11 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 94:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			if (Param0.f_2 == 94)
 			{
-				func_117(uParam109, 17, 1785177548, 1785177548, -1.71f, 1.05f, 0f, -138f);
+				func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -1.71f, 1.05f, 0f, -138f);
 			}
 			uParam109->f_118 = 1;
 			return 1;
@@ -11850,8 +11850,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 95:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11859,8 +11859,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 96:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = 2106541073;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_go_straight_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11868,8 +11868,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 134:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11878,8 +11878,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 108:
 		case 109:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11895,8 +11895,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 138:
 		case 139:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11913,8 +11913,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 148:
 		case 149:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11922,17 +11922,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 150:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 20, 1785177548, 1785177548, 0.98f, 0.8017f, -0.42f, -180f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 20, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0.98f, 0.8017f, -0.42f, -180f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 118:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11940,8 +11940,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 119:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11949,8 +11949,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 120:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11958,8 +11958,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 114:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -11969,8 +11969,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 106:
 		case 107:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -11978,53 +11978,53 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 98:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 99:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
-			func_117(uParam109, 15, -982327190, 451360105, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
+			func_117(uParam109, 15, joaat("script_task_stand_still"), joaat("script_task_leave_vehicle"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 100:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
-			func_117(uParam109, 15, -982327190, 451360105, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
+			func_117(uParam109, 15, joaat("script_task_stand_still"), joaat("script_task_leave_vehicle"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 101:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
-			func_117(uParam109, 14, -982327190, 451360105, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
+			func_117(uParam109, 14, joaat("script_task_stand_still"), joaat("script_task_leave_vehicle"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 102:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
-			func_117(uParam109, 14, -982327190, 451360105, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
+			func_117(uParam109, 14, joaat("script_task_stand_still"), joaat("script_task_leave_vehicle"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 103:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12032,8 +12032,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 121:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12041,17 +12041,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 122:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, -2.04f, -0.15f, 0f, 14.4f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -2.04f, -0.15f, 0f, 14.4f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 125:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12063,8 +12063,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 97:
 		case 162:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12073,8 +12073,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 110:
 		case 111:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12083,8 +12083,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 131:
 		case 132:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12092,8 +12092,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 126:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12101,8 +12101,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 128:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12110,8 +12110,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 129:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12119,8 +12119,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 130:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12128,8 +12128,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 133:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -12137,26 +12137,26 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 151:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, -1.71f, 1.05f, 0f, -138f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -1.71f, 1.05f, 0f, -138f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 152:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, 1.1779f, 2.4276f, 0f, 162.1022f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.1779f, 2.4276f, 0f, 162.1022f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 153:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12164,8 +12164,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 154:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12173,26 +12173,26 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 155:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 156:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 14, 1785177548, 1785177548, 0.3427f, 1.1592f, 1.0351f, 139.912f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 14, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0.3427f, 1.1592f, 1.0351f, 139.912f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 157:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12200,17 +12200,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 158:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 159:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12218,8 +12218,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 160:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12227,8 +12227,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 161:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12236,17 +12236,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 163:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, -3.03f, -0.72f, 0.08f, 168f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -3.03f, -0.72f, 0.08f, 168f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 164:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12254,8 +12254,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 165:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12263,8 +12263,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 166:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -12272,17 +12272,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 167:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 14, -982327190, 1785177548, -0.8472f, 0.155f, 0f, 152.556f);
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 14, joaat("script_task_stand_still"), joaat("script_task_synchronized_scene"), -0.8472f, 0.155f, 0f, 152.556f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 168:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12290,44 +12290,44 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 169:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 14, 1785177548, 1785177548, -0.3577f, -0.8968f, -0.0003f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 14, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -0.3577f, -0.8968f, -0.0003f, 0f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 170:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 17, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 17, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 171:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 14, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 14, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 172:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 15, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 15, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 		
 		case 173:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -235832601;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_vehicle_follow_waypoint_recording");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12335,8 +12335,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 174:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 0;
 			return 1;
@@ -12347,8 +12347,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 175:
 		case 176:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12356,8 +12356,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 177:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12365,8 +12365,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 178:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12375,8 +12375,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 179:
 		case 180:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12386,8 +12386,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 182:
 		case 183:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12395,9 +12395,9 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 192:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, 1f, 1f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1f, 1f, 0f, 0f);
 			uParam109->f_118 = 1;
 			if (Global_3)
 			{
@@ -12408,9 +12408,9 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 193:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, -982327190, 1785177548, 4.2943f, -6.7858f, 0f, -133.5332f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_stand_still"), joaat("script_task_synchronized_scene"), 4.2943f, -6.7858f, 0f, -133.5332f);
 			uParam109->f_118 = 1;
 			if (Global_3)
 			{
@@ -12421,8 +12421,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 194:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -2017877118;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_play_anim");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			if (Global_3)
@@ -12434,8 +12434,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 195:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -2017877118;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_play_anim");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			if (Global_3)
@@ -12448,8 +12448,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 198:
 		case 199:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12457,8 +12457,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 200:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12466,8 +12466,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 201:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12475,8 +12475,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 202:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12485,8 +12485,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 184:
 		case 185:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12494,8 +12494,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 186:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12503,8 +12503,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 187:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12512,8 +12512,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 188:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12521,8 +12521,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 189:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12530,8 +12530,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 190:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12539,8 +12539,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 191:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12548,17 +12548,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 196:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 43, 1785177548, 1785177548, MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 43, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 197:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12570,9 +12570,9 @@ int func_116(struct<109> Param0, var uParam109)
 		case 204:
 		case 205:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, 3.4381f, -0.8269f, 0f, -87.6612f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 3.4381f, -0.8269f, 0f, -87.6612f);
 			if (Param0.f_2 != 205)
 			{
 				uParam109->f_112 = { 3.4381f, -0.8269f, 0f };
@@ -12587,8 +12587,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 209:
 		case 210:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -12596,8 +12596,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 24:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -12608,8 +12608,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 216:
 		case 217:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12618,8 +12618,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 212:
 		case 214:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12628,18 +12628,18 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 215:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, 3.4381f, -0.8269f, 0f, -87.6612f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 3.4381f, -0.8269f, 0f, -87.6612f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 221:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, -0.7949f, -0.508f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), -0.7949f, -0.508f, 0f, 0f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
@@ -12648,8 +12648,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 223:
 		case 224:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12661,8 +12661,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 229:
 		case 230:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12670,44 +12670,44 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 218:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 19, 1785177548, 1785177548, 1.29f, 1.41f, 0f, 57.52f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 19, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.29f, 1.41f, 0f, 57.52f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 219:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 19, 1785177548, 1785177548, 1.29f, 1.41f, 0f, 57.52f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 19, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.29f, 1.41f, 0f, 57.52f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 220:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 19, 1785177548, 1785177548, 0.5504f, -0.2322f, 0f, -9.9741f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 19, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0.5504f, -0.2322f, 0f, -9.9741f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 225:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 19, 1785177548, 1785177548, 1.23f, 0.6f, -1f, 34.56f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 19, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.23f, 0.6f, -1f, 34.56f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 231:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 0;
 			return 1;
@@ -12716,8 +12716,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 232:
 		case 233:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12725,8 +12725,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 235:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12734,26 +12734,26 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 236:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, 1.5033f, 1.2118f, 0f, -78.0449f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.5033f, 1.2118f, 0f, -78.0449f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 237:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, 1.5033f, 1.2118f, 0f, -78.0449f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.5033f, 1.2118f, 0f, -78.0449f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 238:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12761,8 +12761,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 239:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12772,8 +12772,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 241:
 		case 242:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -2017877118;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_play_anim");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12782,8 +12782,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 273:
 		case 274:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12791,8 +12791,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 245:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12803,8 +12803,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 252:
 		case 253:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12812,8 +12812,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 243:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12821,8 +12821,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 244:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12830,8 +12830,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 271:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12839,8 +12839,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 280:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			return 1;
@@ -12854,8 +12854,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 269:
 		case 270:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -2017877118;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_play_anim");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			uParam109->f_118 = 1;
 			func_118(uParam109);
 			if (Param0.f_2 == 265)
@@ -12868,19 +12868,19 @@ int func_116(struct<109> Param0, var uParam109)
 			}
 			if (Param0.f_2 == 267)
 			{
-				func_117(uParam109, 144, -982327190, 2106541073, -2.4166f, -0.15f, 0f, -148.7555f);
+				func_117(uParam109, 144, joaat("script_task_stand_still"), joaat("script_task_go_straight_to_coord"), -2.4166f, -0.15f, 0f, -148.7555f);
 			}
 			if (Param0.f_2 == 266)
 			{
-				func_117(uParam109, 144, 2106541073, 2106541073, -5.7915f, -11.0439f, 0.67f, -72.589f);
+				func_117(uParam109, 144, joaat("script_task_go_straight_to_coord"), joaat("script_task_go_straight_to_coord"), -5.7915f, -11.0439f, 0.67f, -72.589f);
 			}
 			return 1;
 			break;
 		
 		case 246:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12888,8 +12888,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 247:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12897,8 +12897,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 263:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12906,8 +12906,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 278:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12915,8 +12915,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 279:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -2017877118;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_play_anim");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12924,8 +12924,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 264:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12933,8 +12933,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 255:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12942,18 +12942,18 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 248:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 249:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), MISC::GET_RANDOM_FLOAT_IN_RANGE(-5f, 5f), 0f, MISC::GET_RANDOM_FLOAT_IN_RANGE(-180f, 180f));
 			uParam109->f_118 = 1;
 			return 1;
 			break;
@@ -12963,8 +12963,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 283:
 		case 284:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -235832601;
-			uParam109->f_110 = -235832601;
+			uParam109->f_109 = joaat("script_task_vehicle_follow_waypoint_recording");
+			uParam109->f_110 = joaat("script_task_vehicle_follow_waypoint_recording");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -12974,8 +12974,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 276:
 		case 277:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -235832601;
-			uParam109->f_110 = -235832601;
+			uParam109->f_109 = joaat("script_task_vehicle_follow_waypoint_recording");
+			uParam109->f_110 = joaat("script_task_vehicle_follow_waypoint_recording");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
@@ -12983,8 +12983,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 254:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -12992,8 +12992,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 285:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13003,8 +13003,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 257:
 		case 258:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13012,8 +13012,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 259:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13022,8 +13022,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 260:
 		case 261:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13031,8 +13031,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 286:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13040,8 +13040,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 287:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13049,8 +13049,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 288:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13058,26 +13058,26 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 262:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 289:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 144, -2017877118, -2017877118, -3.264f, -14.7895f, 14.1815f, -0.6311f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 144, joaat("script_task_play_anim"), joaat("script_task_play_anim"), -3.264f, -14.7895f, 14.1815f, -0.6311f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 290:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13086,9 +13086,9 @@ int func_116(struct<109> Param0, var uParam109)
 		case 292:
 		case 295:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
@@ -13096,18 +13096,18 @@ int func_116(struct<109> Param0, var uParam109)
 		case 293:
 		case 294:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 0f, 0f, 0f, 0f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0f, 0f, 0f, 0f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 299:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 0.24f, 0.33f, -0.5f, -11.88f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0.24f, 0.33f, -0.5f, -11.88f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
@@ -13117,44 +13117,44 @@ int func_116(struct<109> Param0, var uParam109)
 		case 302:
 		case 303:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 0.24f, 0.33f, -0.5f, -11.88f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0.24f, 0.33f, -0.5f, -11.88f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 296:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 1.41f, 1.35f, 0f, 168f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.41f, 1.35f, 0f, 168f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 297:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 1.7491f, 0.6423f, 0f, 166.479f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 1.7491f, 0.6423f, 0f, 166.479f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 298:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
-			func_117(uParam109, 32, 1785177548, 1785177548, 0.72f, -0.69f, 0f, 172.44f);
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
+			func_117(uParam109, 32, joaat("script_task_synchronized_scene"), joaat("script_task_synchronized_scene"), 0.72f, -0.69f, 0f, 172.44f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 304:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13162,8 +13162,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 305:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -2017877118;
-			uParam109->f_110 = -2017877118;
+			uParam109->f_109 = joaat("script_task_play_anim");
+			uParam109->f_110 = joaat("script_task_play_anim");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13173,8 +13173,8 @@ int func_116(struct<109> Param0, var uParam109)
 		case 307:
 		case 308:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13182,8 +13182,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 309:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -982327190;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_stand_still");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13191,8 +13191,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 310:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13200,8 +13200,8 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 311:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1785177548;
-			uParam109->f_110 = 1785177548;
+			uParam109->f_109 = joaat("script_task_synchronized_scene");
+			uParam109->f_110 = joaat("script_task_synchronized_scene");
 			func_118(uParam109);
 			uParam109->f_118 = 1;
 			return 1;
@@ -13209,17 +13209,17 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 312:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 1630799643;
-			uParam109->f_110 = 1630799643;
-			func_117(uParam109, 144, 474215631, -1519143300, -9.5443f, -3.191f, -0.3f, 180f);
+			uParam109->f_109 = joaat("script_task_aim_gun_at_entity");
+			uParam109->f_110 = joaat("script_task_aim_gun_at_entity");
+			func_117(uParam109, 144, joaat("script_task_cower"), joaat("script_task_hands_up"), -9.5443f, -3.191f, -0.3f, 180f);
 			uParam109->f_118 = 1;
 			return 1;
 			break;
 		
 		case 313:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = 2106541073;
-			uParam109->f_110 = -982327190;
+			uParam109->f_109 = joaat("script_task_go_straight_to_coord");
+			uParam109->f_110 = joaat("script_task_stand_still");
 			func_118(uParam109);
 			uParam109->f_118 = 0;
 			return 1;
@@ -13227,16 +13227,16 @@ int func_116(struct<109> Param0, var uParam109)
 		
 		case 314:
 			*uParam109 = { Param0 };
-			uParam109->f_109 = -1817882002;
-			uParam109->f_110 = -1817882002;
+			uParam109->f_109 = joaat("script_task_vehicle_drive_to_coord");
+			uParam109->f_110 = joaat("script_task_vehicle_drive_to_coord");
 			func_118(uParam109);
 			uParam109->f_118 = 2;
 			return 1;
 			break;
 	}
 	*uParam109 = { Param0 };
-	uParam109->f_109 = 1435919172;
-	uParam109->f_110 = 1435919172;
+	uParam109->f_109 = joaat("script_task_any");
+	uParam109->f_110 = joaat("script_task_any");
 	func_118(uParam109);
 	uParam109->f_118 = 0;
 	return 0;
@@ -13253,7 +13253,7 @@ void func_117(var uParam0, int iParam1, int iParam2, int iParam3, struct<3> Para
 
 void func_118(var uParam0)
 {
-	func_117(uParam0, 145, 1435919172, 1435919172, 0f, 0f, 0f, 0f);
+	func_117(uParam0, 145, joaat("script_task_any"), joaat("script_task_any"), 0f, 0f, 0f, 0f);
 }
 
 int func_119(int iParam0)

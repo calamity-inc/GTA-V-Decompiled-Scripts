@@ -9389,7 +9389,7 @@ void func_148()
 					break;
 				
 				case 2:
-					if ((ENTITY::IS_ENTITY_AT_COORD(Local_282[iVar0 /*17*/], Local_282[iVar0 /*17*/].f_11, 0.5f, 0.5f, 1f, false, false, 0) || func_149(fVar7, fVar8)) || TASK::GET_SCRIPT_TASK_STATUS(Local_282[iVar0 /*17*/], 242628503) == 7)
+					if ((ENTITY::IS_ENTITY_AT_COORD(Local_282[iVar0 /*17*/], Local_282[iVar0 /*17*/].f_11, 0.5f, 0.5f, 1f, false, false, 0) || func_149(fVar7, fVar8)) || TASK::GET_SCRIPT_TASK_STATUS(Local_282[iVar0 /*17*/], joaat("script_task_perform_sequence")) == 7)
 					{
 						func_154(iVar0);
 					}

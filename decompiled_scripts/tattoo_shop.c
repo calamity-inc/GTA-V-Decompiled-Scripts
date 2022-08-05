@@ -43163,7 +43163,7 @@ int func_188(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -128778,7 +128778,7 @@ void func_883()
 				{
 					if (!PED::IS_PED_FACING_PED(Local_103.f_12, PLAYER::PLAYER_PED_ID(), 120f))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_103.f_12, -875674219) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_103.f_12, joaat("script_task_turn_ped_to_face_entity")) != 1)
 						{
 							TASK::TASK_TURN_PED_TO_FACE_ENTITY(Local_103.f_12, PLAYER::PLAYER_PED_ID(), 0);
 						}
@@ -128833,7 +128833,7 @@ void func_883()
 				{
 					if (!PED::IS_PED_FACING_PED(Local_103.f_12, iVar0, 130f))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_103.f_12, -875674219) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_103.f_12, joaat("script_task_turn_ped_to_face_entity")) != 1)
 						{
 							TASK::TASK_TURN_PED_TO_FACE_ENTITY(Local_103.f_12, iVar0, 0);
 						}
@@ -129642,7 +129642,7 @@ void func_911()
 					{
 						if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_786) && PED::GET_SYNCHRONIZED_SCENE_PHASE(iLocal_786) >= 0.62f)
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548) == 1)
+							if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene")) == 1)
 							{
 								TASK::TASK_LOOK_AT_ENTITY(PLAYER::PLAYER_PED_ID(), Local_103.f_12, 4000, 0, 2);
 								TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
@@ -129652,7 +129652,7 @@ void func_911()
 					}
 					else if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(iLocal_786) && PED::GET_SYNCHRONIZED_SCENE_PHASE(iLocal_786) >= 0.877f)
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548) == 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene")) == 1)
 						{
 							TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
 							PED::FORCE_PED_AI_AND_ANIMATION_UPDATE(PLAYER::PLAYER_PED_ID(), false, false);
@@ -129672,7 +129672,7 @@ void func_911()
 						{
 							if (!iLocal_787)
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(Local_103.f_12, 1785177548) == 1)
+								if (TASK::GET_SCRIPT_TASK_STATUS(Local_103.f_12, joaat("script_task_synchronized_scene")) == 1)
 								{
 									TASK::CLEAR_PED_TASKS(Local_103.f_12);
 									PED::FORCE_PED_AI_AND_ANIMATION_UPDATE(Local_103.f_12, false, false);

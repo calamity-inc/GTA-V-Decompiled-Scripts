@@ -810,7 +810,7 @@ void __EntryFunction__()
 													VEHICLE::SET_DISABLE_PRETEND_OCCUPANTS(iLocal_58, true);
 													iLocal_164 = 1;
 												}
-												else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54[0], 242628503) == 1)
+												else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54[0], joaat("script_task_perform_sequence")) == 1)
 												{
 													if (TASK::GET_SEQUENCE_PROGRESS(iLocal_54[0]) == 3)
 													{
@@ -847,7 +847,7 @@ void __EntryFunction__()
 													VEHICLE::SET_DISABLE_PRETEND_OCCUPANTS(iLocal_58, true);
 													iLocal_164 = 1;
 												}
-												else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54[1], 242628503) == 1)
+												else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_54[1], joaat("script_task_perform_sequence")) == 1)
 												{
 													if (TASK::GET_SEQUENCE_PROGRESS(iLocal_54[1]) == 3)
 													{
@@ -926,7 +926,7 @@ void __EntryFunction__()
 							{
 								if (!bLocal_130)
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 1785177548) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 1785177548) != 0)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_synchronized_scene")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_synchronized_scene")) != 0)
 									{
 										TASK::CLEAR_PED_TASKS_IMMEDIATELY(iLocal_53);
 										iLocal_343 = PED::CREATE_SYNCHRONIZED_SCENE(Local_78, -2f, -4f, 18f, 2);
@@ -3135,7 +3135,7 @@ void func_59()
 				{
 					PED::REMOVE_PED_FROM_GROUP(iLocal_53);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 1227113341) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 1227113341) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_go_to_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_go_to_entity")) != 0)
 				{
 					TASK::TASK_GO_TO_ENTITY(iLocal_53, PLAYER::PLAYER_PED_ID(), -1, 6f, 2f, 2f, 0);
 				}
@@ -3162,13 +3162,13 @@ void func_59()
 			else
 			{
 				iLocal_132 = 0;
-				if (((TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 1227113341) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 1227113341) == 0) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 242628503) == 1) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 242628503) == 0)
+				if (((TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_go_to_entity")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_go_to_entity")) == 0) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_perform_sequence")) == 1) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_perform_sequence")) == 0)
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_53);
 				}
 			}
 		}
-		else if (((!PED::IS_PED_IN_GROUP(iLocal_53) && !PED::IS_PED_IN_ANY_VEHICLE(iLocal_53, false)) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 242628503) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, 242628503) != 0)
+		else if (((!PED::IS_PED_IN_GROUP(iLocal_53) && !PED::IS_PED_IN_ANY_VEHICLE(iLocal_53, false)) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_perform_sequence")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_53, joaat("script_task_perform_sequence")) != 0)
 		{
 			PED::SET_PED_AS_GROUP_MEMBER(iLocal_53, func_60());
 			PED::SET_PED_NEVER_LEAVES_GROUP(iLocal_53, true);

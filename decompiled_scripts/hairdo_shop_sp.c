@@ -4838,7 +4838,7 @@ void func_22(var uParam0)
 			else if (uParam0->f_116.f_18)
 			{
 				func_27(&(uParam0->f_236), 300);
-				if (((((TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) == 7 || uParam0->f_236 < -75) || uParam0->f_236 > 75) || uParam0->f_236.f_1 < -75) || uParam0->f_236.f_1 > 75) || MISC::IS_POSITION_OCCUPIED(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(PLAYER::PLAYER_PED_ID(), 0f, 1.5f, 0f), 0.2f, false, true, true, false, false, PLAYER::PLAYER_PED_ID(), false))
+				if (((((TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) == 7 || uParam0->f_236 < -75) || uParam0->f_236 > 75) || uParam0->f_236.f_1 < -75) || uParam0->f_236.f_1 > 75) || MISC::IS_POSITION_OCCUPIED(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(PLAYER::PLAYER_PED_ID(), 0f, 1.5f, 0f), 0.2f, false, true, true, false, false, PLAYER::PLAYER_PED_ID(), false))
 				{
 					func_59();
 					TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
@@ -6974,7 +6974,7 @@ int func_78(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -45089,7 +45089,7 @@ void func_294(var uParam0, int iParam1)
 {
 	if (func_922(0) || iParam1)
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), 2106541073) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), joaat("script_task_go_straight_to_coord")) != 1)
 		{
 			TASK::TASK_GO_STRAIGHT_TO_COORD(func_298(uParam0, iParam1), func_297(uParam0, iParam1), 1f, 20000, func_296(uParam0, iParam1), 0.5f);
 		}
@@ -123179,7 +123179,7 @@ void func_815(var uParam0)
 					fVar7 = 0.807f;
 					if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 0)
 						{
 							uParam0->f_528 = NETWORK::NETWORK_GET_LOCAL_SCENE_FROM_NETWORK_ID(uParam0->f_530);
 							if (!PED::IS_SYNCHRONIZED_SCENE_RUNNING(uParam0->f_528) || PED::GET_SYNCHRONIZED_SCENE_PHASE(uParam0->f_528) >= 0.7181f)
@@ -123236,7 +123236,7 @@ void func_815(var uParam0)
 						PED::SET_FORCE_FOOTSTEP_UPDATE(PLAYER::PLAYER_PED_ID(), false);
 						func_293();
 						func_801(uParam0);
-						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 0)
 						{
 							if (*uParam0 == 50)
 							{
@@ -126056,7 +126056,7 @@ void func_923(var uParam0)
 					HUD::CLEAR_HELP(true);
 				}
 			}
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1098463898) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_start_scenario_at_position")) != 1)
 			{
 				if (!PED::IS_ANY_PED_NEAR_POINT(Var0, 0.1f) || !PED::IS_ANY_PED_NEAR_POINT(Var3, 0.1f))
 				{
@@ -128221,12 +128221,12 @@ void func_979(var uParam0, int iParam1)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), -875674219) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), joaat("script_task_turn_ped_to_face_entity")) != 1)
 			{
 				TASK::TASK_TURN_PED_TO_FACE_ENTITY(func_298(uParam0, iParam1), PLAYER::PLAYER_PED_ID(), -1);
 			}
 		}
-		else if (((TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), -875674219) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), 2106541073) != 1) && !PED::IS_PED_FACING_PED(func_298(uParam0, iParam1), PLAYER::PLAYER_PED_ID(), 90f)) && uParam0->f_11 == 3)
+		else if (((TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), joaat("script_task_turn_ped_to_face_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_298(uParam0, iParam1), joaat("script_task_go_straight_to_coord")) != 1) && !PED::IS_PED_FACING_PED(func_298(uParam0, iParam1), PLAYER::PLAYER_PED_ID(), 90f)) && uParam0->f_11 == 3)
 		{
 			TASK::TASK_TURN_PED_TO_FACE_ENTITY(func_298(uParam0, iParam1), PLAYER::PLAYER_PED_ID(), -1);
 		}
@@ -129711,7 +129711,7 @@ void func_1010(var uParam0)
 			{
 				if (PED::IS_SYNCHRONIZED_SCENE_RUNNING(uParam0->f_528))
 				{
-					if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548) == 1)
+					if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene")) == 1)
 					{
 						PED::FORCE_PED_AI_AND_ANIMATION_UPDATE(PLAYER::PLAYER_PED_ID(), false, false);
 						TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
@@ -132273,7 +132273,7 @@ void func_1060(var uParam0)
 		iVar0 = func_298(uParam0, 1);
 		if (!PED::IS_PED_INJURED(iVar0))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, 474215631) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_cower")) != 1)
 			{
 				PED::SET_PED_CONFIG_FLAG(iVar0, 185, false);
 				PED::SET_PED_CONFIG_FLAG(iVar0, 150, true);
@@ -132292,7 +132292,7 @@ void func_1060(var uParam0)
 			iVar1 = func_298(uParam0, 0);
 			if (!PED::IS_PED_INJURED(iVar1))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iVar1, 2112745624) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar1, 474215631) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iVar1, joaat("script_task_react_and_flee_ped")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iVar1, joaat("script_task_cower")) != 1)
 				{
 					PED::SET_PED_CONFIG_FLAG(iVar1, 185, false);
 					PED::SET_PED_CONFIG_FLAG(iVar1, 150, true);
@@ -132341,7 +132341,7 @@ void func_1061(var uParam0)
 	}
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false) && !PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -1098463898) == 1 || TASK::IS_PED_ACTIVE_IN_SCENARIO(PLAYER::PLAYER_PED_ID()))
+		if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_start_scenario_at_position")) == 1 || TASK::IS_PED_ACTIVE_IN_SCENARIO(PLAYER::PLAYER_PED_ID()))
 		{
 			if (func_930("HAIR_SOFA_STAND"))
 			{

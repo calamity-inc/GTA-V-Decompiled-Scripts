@@ -1190,7 +1190,7 @@ void func_26(int iParam0, int iParam1)
 						PED::SET_PED_AS_GROUP_MEMBER(iLocal_237[iParam1], iLocal_252);
 					}
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 713668775) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 				{
 					if (fLocal_294[iParam1] == 0f)
 					{
@@ -1234,7 +1234,7 @@ void func_26(int iParam0, int iParam1)
 				break;
 			
 			case 4:
-				if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 1805844857) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_smart_flee_ped")) != 1)
 				{
 					iLocal_240[iParam1] = 1;
 				}

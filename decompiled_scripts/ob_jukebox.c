@@ -6262,7 +6262,7 @@ int func_136()
 			}
 			if (!func_140(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), Var0, 0.8f, 0))
 			{
-				if (!func_137(PLAYER::PLAYER_PED_ID(), 2106541073))
+				if (!func_137(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")))
 				{
 					TASK::TASK_GO_STRAIGHT_TO_COORD(PLAYER::PLAYER_PED_ID(), Var0, 1f, 4000, ENTITY::GET_ENTITY_HEADING(iLocal_108), 0.125f);
 				}
@@ -6714,7 +6714,7 @@ int func_149(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;

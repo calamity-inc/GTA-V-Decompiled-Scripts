@@ -2714,7 +2714,7 @@ void func_74()
 		{
 			if (func_77())
 			{
-				if (!func_75(iLocal_92, 242628503))
+				if (!func_75(iLocal_92, joaat("script_task_perform_sequence")))
 				{
 					iLocal_130 = 1;
 					func_78(0);
@@ -2743,9 +2743,9 @@ void func_74()
 				switch (iLocal_308)
 				{
 					case 0:
-						if ((((iLocal_311 == 1 && !func_75(iLocal_92, -2017877118)) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92)) && func_2(&uLocal_134, "REBTHAU", "REBTH_THANKS", 4, 0, 0, 0))
+						if ((((iLocal_311 == 1 && !func_75(iLocal_92, joaat("script_task_play_anim"))) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92)) && func_2(&uLocal_134, "REBTHAU", "REBTH_THANKS", 4, 0, 0, 0))
 						{
-							if (PED::IS_PED_FACING_PED(iLocal_92, PLAYER::PLAYER_PED_ID(), 30f) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_92, -875674219) == 7)
+							if (PED::IS_PED_FACING_PED(iLocal_92, PLAYER::PLAYER_PED_ID(), 30f) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_92, joaat("script_task_turn_ped_to_face_entity")) == 7)
 							{
 								TASK::TASK_PLAY_ANIM(iLocal_92, sLocal_323, "RETURNING_FRONT_A", 8f, -8f, -1, 0, 0f, false, false, false);
 							}
@@ -2759,7 +2759,7 @@ void func_74()
 						break;
 					
 					case 1:
-						if (((((MISC::GET_GAME_TIMER() - iLocal_309) > 10000 && !func_75(iLocal_92, -2017877118)) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92)) && func_2(&uLocal_134, "REBTHAU", sLocal_305, 4, 0, 0, 0))
+						if (((((MISC::GET_GAME_TIMER() - iLocal_309) > 10000 && !func_75(iLocal_92, joaat("script_task_play_anim"))) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92)) && func_2(&uLocal_134, "REBTHAU", sLocal_305, 4, 0, 0, 0))
 						{
 							if (PED::IS_PED_FACING_PED(iLocal_92, PLAYER::PLAYER_PED_ID(), 30f))
 							{
@@ -2776,7 +2776,7 @@ void func_74()
 						break;
 					
 					case 2:
-						if (((((MISC::GET_GAME_TIMER() - iLocal_309) > 10000 && !func_75(iLocal_92, -2017877118)) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92)) && func_2(&uLocal_134, "REBTHAU", sLocal_306, 4, 0, 0, 0))
+						if (((((MISC::GET_GAME_TIMER() - iLocal_309) > 10000 && !func_75(iLocal_92, joaat("script_task_play_anim"))) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92)) && func_2(&uLocal_134, "REBTHAU", sLocal_306, 4, 0, 0, 0))
 						{
 							if (PED::IS_PED_FACING_PED(iLocal_92, PLAYER::PLAYER_PED_ID(), 30f))
 							{
@@ -3122,11 +3122,11 @@ void func_90()
 {
 	if (iLocal_130 == 0 && func_64(iLocal_92))
 	{
-		if (func_75(iLocal_92, 242628503))
+		if (func_75(iLocal_92, joaat("script_task_perform_sequence")))
 		{
 			TASK::CLEAR_PED_TASKS(iLocal_92);
 		}
-		if ((((!func_75(iLocal_92, -2017877118) && !PED::IS_PED_FACING_PED(iLocal_92, PLAYER::PLAYER_PED_ID(), 20f)) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_92, -875674219) == 7) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92))
+		if ((((!func_75(iLocal_92, joaat("script_task_play_anim")) && !PED::IS_PED_FACING_PED(iLocal_92, PLAYER::PLAYER_PED_ID(), 20f)) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_92, joaat("script_task_turn_ped_to_face_entity")) == 7) && !PED::IS_PED_RAGDOLL(iLocal_92)) && !TASK::IS_PED_GETTING_UP(iLocal_92))
 		{
 			TASK::TASK_TURN_PED_TO_FACE_ENTITY(iLocal_92, PLAYER::PLAYER_PED_ID(), 0);
 			TASK::TASK_LOOK_AT_ENTITY(iLocal_92, PLAYER::PLAYER_PED_ID(), -1, 0, 2);
@@ -3201,7 +3201,7 @@ void func_92()
 		}
 		else
 		{
-			if (((((iLocal_121 == 0 && func_63(iLocal_91, PLAYER::PLAYER_PED_ID(), 1) < 30f) && !PED::IS_PED_RAGDOLL(iLocal_91)) && func_75(iLocal_91, 1805844857)) && !func_25()) && func_2(&uLocal_134, "REBTHAU", sLocal_303, 4, 0, 0, 0))
+			if (((((iLocal_121 == 0 && func_63(iLocal_91, PLAYER::PLAYER_PED_ID(), 1) < 30f) && !PED::IS_PED_RAGDOLL(iLocal_91)) && func_75(iLocal_91, joaat("script_task_smart_flee_ped"))) && !func_25()) && func_2(&uLocal_134, "REBTHAU", sLocal_303, 4, 0, 0, 0))
 			{
 				iLocal_121 = 1;
 			}
@@ -3577,7 +3577,7 @@ void func_106()
 {
 	if (((((((((iLocal_125 < 5 && !func_25()) && func_64(iLocal_91)) && func_64(iLocal_92)) && func_73(iLocal_93)) && PED::IS_PED_IN_VEHICLE(iLocal_91, iLocal_93, false)) && ENTITY::IS_ENTITY_AT_ENTITY(PLAYER::PLAYER_PED_ID(), iLocal_91, 13f, 13f, 13f, false, true, 0)) && !ENTITY::IS_ENTITY_AT_ENTITY(iLocal_92, iLocal_91, 13f, 13f, 13f, false, true, 0)) && (MISC::GET_GAME_TIMER() - iLocal_126) > 15000) && func_2(&uLocal_134, "REBTHAU", sLocal_304, 4, 0, 0, 0))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91, -1273030092) == 1 && !TASK::IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(iLocal_91))
+		if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91, joaat("script_task_vehicle_mission")) == 1 && !TASK::IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(iLocal_91))
 		{
 			TASK::TASK_DRIVE_BY(iLocal_91, PLAYER::PLAYER_PED_ID(), 0, 0f, 0f, 0f, 15f, 50, true, -753768974);
 		}
@@ -5444,7 +5444,7 @@ void func_158()
 {
 	if (!PED::IS_PED_INJURED(iLocal_92))
 	{
-		if (func_75(iLocal_92, 993674639))
+		if (func_75(iLocal_92, joaat("script_task_start_scenario_in_place")))
 		{
 			TASK::CLEAR_PED_TASKS_IMMEDIATELY(iLocal_92);
 		}

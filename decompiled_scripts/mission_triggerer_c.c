@@ -6913,7 +6913,7 @@ void func_129(int iParam0)
 				{
 					if (CAM::GET_CAM_VIEW_MODE_FOR_CONTEXT(1) == 4)
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 0)
+						if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 0)
 						{
 							TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 500, 0);
 						}
@@ -107116,7 +107116,7 @@ void func_643()
 				func_96(iVar1, 2.5f, 2, 0.5f, 0, 1, 0);
 				if (CAM::GET_CAM_VIEW_MODE_FOR_CONTEXT(1) == 4)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 0)
 					{
 						TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 500, 0);
 					}
@@ -107762,7 +107762,7 @@ void func_663()
 					break;
 				
 				case 3:
-					if (((!PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false) && !func_668(PLAYER::PLAYER_PED_ID(), 713668775)) && func_667(PLAYER::PLAYER_PED_ID(), -1147.62f, -1522.95f, 9.63f, 1) > 2f) && !func_664())
+					if (((!PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false) && !func_668(PLAYER::PLAYER_PED_ID(), joaat("script_task_follow_nav_mesh_to_coord"))) && func_667(PLAYER::PLAYER_PED_ID(), -1147.62f, -1522.95f, 9.63f, 1) > 2f) && !func_664())
 					{
 						TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(PLAYER::PLAYER_PED_ID(), -1147.62f, -1522.95f, 9.63f, 1f, 20000, 0.25f, false, 40000f);
 					}
@@ -111042,11 +111042,11 @@ void func_721()
 				{
 					TASK::TASK_VEHICLE_FOLLOW_WAYPOINT_RECORDING(Global_96477.f_9[2], Global_96477[1], &Global_96878, 786603, Local_1571.f_3, 24, -1, 15f, false, 2f);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(Global_96477.f_9[0], -1273030092) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Global_96477.f_9[0], joaat("script_task_vehicle_mission")) != 1)
 				{
 					TASK::TASK_VEHICLE_ESCORT(Global_96477.f_9[0], Global_96477[0], Global_96477[1], -1, 16f, 786469, 8f, 20, 20f);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(Global_96477.f_9[6], -1273030092) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Global_96477.f_9[6], joaat("script_task_vehicle_mission")) != 1)
 				{
 					TASK::TASK_VEHICLE_ESCORT(Global_96477.f_9[6], Global_96477[2], Global_96477[0], -1, 16f, 786469, 8f, 20, 20f);
 				}

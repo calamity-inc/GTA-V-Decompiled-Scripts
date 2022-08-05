@@ -532,7 +532,7 @@ void func_1(var uParam0, var uParam1, var uParam2, int iParam3, int iParam4)
 			func_285(uParam2, 0, 0);
 			if (ENTITY::DOES_ENTITY_EXIST(func_284(uParam2, 0)) && !ENTITY::IS_ENTITY_DEAD(func_284(uParam2, 0), false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(func_284(uParam2, 0), -1794415470) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(func_284(uParam2, 0), joaat("script_task_enter_vehicle")) != 1)
 				{
 					TASK::CLEAR_PED_TASKS(func_284(uParam2, 0));
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(func_284(uParam2, 0), PLAYER::PLAYER_PED_ID(), -1);
@@ -540,7 +540,7 @@ void func_1(var uParam0, var uParam1, var uParam2, int iParam3, int iParam4)
 			}
 			if (ENTITY::DOES_ENTITY_EXIST(func_284(uParam2, 1)) && !ENTITY::IS_ENTITY_DEAD(func_284(uParam2, 1), false))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(func_284(uParam2, 1), -1794415470) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(func_284(uParam2, 1), joaat("script_task_enter_vehicle")) != 1)
 				{
 					TASK::CLEAR_PED_TASKS(func_284(uParam2, 1));
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(func_284(uParam2, 1), PLAYER::PLAYER_PED_ID(), -1);
@@ -594,7 +594,7 @@ void func_1(var uParam0, var uParam1, var uParam2, int iParam3, int iParam4)
 			{
 				if ((((ENTITY::DOES_ENTITY_EXIST(func_274(uParam2, uParam2->f_165)) && !ENTITY::IS_ENTITY_DEAD(func_274(uParam2, uParam2->f_165), false)) && ENTITY::DOES_ENTITY_EXIST(func_284(uParam2, uParam2->f_165))) && !func_298(uParam2, uParam2->f_165, 16777216)) && func_273(func_274(uParam2, uParam2->f_165), func_284(uParam2, uParam2->f_165), 1) < 25f)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(func_284(uParam2, uParam2->f_165), -1794415470) != 1 && !func_298(uParam2, uParam2->f_165, 67108864))
+					if (TASK::GET_SCRIPT_TASK_STATUS(func_284(uParam2, uParam2->f_165), joaat("script_task_enter_vehicle")) != 1 && !func_298(uParam2, uParam2->f_165, 67108864))
 					{
 						TASK::CLEAR_PED_TASKS(func_284(uParam2, uParam2->f_165));
 						if (!PED::IS_PED_IN_VEHICLE(func_284(uParam2, uParam2->f_165), func_274(uParam2, uParam2->f_165), false))
@@ -5309,7 +5309,7 @@ int func_193(var uParam0)
 {
 	if (func_244() || func_194(uParam0))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(func_64(uParam0), 242628503) == 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(func_64(uParam0), joaat("script_task_perform_sequence")) == 1)
 		{
 			if (TASK::GET_SEQUENCE_PROGRESS(func_64(uParam0)) == 2)
 			{
@@ -5317,7 +5317,7 @@ int func_193(var uParam0)
 			}
 		}
 	}
-	else if (TASK::GET_SCRIPT_TASK_STATUS(func_64(uParam0), 242628503) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_64(uParam0), 242628503) != 0)
+	else if (TASK::GET_SCRIPT_TASK_STATUS(func_64(uParam0), joaat("script_task_perform_sequence")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_64(uParam0), joaat("script_task_perform_sequence")) != 0)
 	{
 		return 1;
 	}
@@ -6788,7 +6788,7 @@ void func_254(var uParam0, int iParam1, var uParam2, bool bParam3, bool bParam4)
 	bVar10 = SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(func_294(uParam0, func_272(uParam0, iParam1)), true), uParam0->f_15[iParam1 /*34*/].f_10) < fVar1;
 	if (!PED::IS_PED_IN_VEHICLE(iVar2, func_274(uParam0, iParam1), false) && !bVar10)
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(iVar2, -1794415470) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iVar2, joaat("script_task_enter_vehicle")) != 1)
 		{
 			TASK::TASK_ENTER_VEHICLE(iVar2, func_274(uParam0, iParam1), -1, -1, 1f, 1, 0);
 		}
@@ -6799,7 +6799,7 @@ void func_254(var uParam0, int iParam1, var uParam2, bool bParam3, bool bParam4)
 	{
 		iVar11 = 17;
 	}
-	if (((ENTITY::DOES_ENTITY_EXIST(iVar2) && !ENTITY::IS_ENTITY_DEAD(iVar2, false)) && TASK::GET_SCRIPT_TASK_STATUS(iVar2, -1817882002) != 1) && !func_40(&(uParam0->f_15[iParam1 /*34*/]), 33554432))
+	if (((ENTITY::DOES_ENTITY_EXIST(iVar2) && !ENTITY::IS_ENTITY_DEAD(iVar2, false)) && TASK::GET_SCRIPT_TASK_STATUS(iVar2, joaat("script_task_vehicle_drive_to_coord")) != 1) && !func_40(&(uParam0->f_15[iParam1 /*34*/]), 33554432))
 	{
 		if (func_272(uParam0, iParam1) == 1 && !func_267(uParam0, -1))
 		{
@@ -8184,7 +8184,7 @@ void func_300(var uParam0, int iParam1, var uParam2, int iParam3, var uParam4)
 	{
 		return;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(func_299(uParam0), -1794415470) == 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(func_299(uParam0), joaat("script_task_enter_vehicle")) == 1)
 	{
 		return;
 	}
@@ -8251,7 +8251,7 @@ void func_300(var uParam0, int iParam1, var uParam2, int iParam3, var uParam4)
 			Var14 = { func_6(Var0 - Var6) };
 			Var17 = { Var6 + Var14 * Vector(fVar13, fVar13, fVar13) * Vector(0.5f, 0.5f, 0.5f) };
 			func_42(uParam2, iParam3, Var17, uParam4, 1, 1);
-			if (TASK::GET_SCRIPT_TASK_STATUS(func_299(uParam0), 1435919172) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(func_299(uParam0), joaat("script_task_any")) == 1)
 			{
 				TASK::CLEAR_PED_TASKS(func_299(uParam0));
 			}
@@ -8262,7 +8262,7 @@ void func_300(var uParam0, int iParam1, var uParam2, int iParam3, var uParam4)
 		func_57(uParam0, 524288);
 		if (func_40(uParam0, 262144) && iParam3 == func_270(uParam2))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_2, 1435919172) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_2, joaat("script_task_any")) == 1)
 			{
 				TASK::CLEAR_PED_TASKS(uParam0->f_2);
 			}
@@ -8274,7 +8274,7 @@ void func_300(var uParam0, int iParam1, var uParam2, int iParam3, var uParam4)
 		if (func_40(uParam0, 262144) && func_267(uParam2, -1))
 		{
 			func_192(uParam2, iParam3, uParam4, 1, 1);
-			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_2, 1435919172) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_2, joaat("script_task_any")) == 1)
 			{
 				TASK::CLEAR_PED_TASKS(uParam0->f_2);
 			}

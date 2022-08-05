@@ -3874,7 +3874,7 @@ void func_53()
 			}
 			if (VEHICLE::IS_VEHICLE_DRIVEABLE(Local_287.f_0, false))
 			{
-				iVar0 = TASK::GET_SCRIPT_TASK_STATUS(Local_287.f_3, -1273030092);
+				iVar0 = TASK::GET_SCRIPT_TASK_STATUS(Local_287.f_3, joaat("script_task_vehicle_mission"));
 				if (iVar0 != 0 && iVar0 != 1)
 				{
 					PED::SET_PED_CONFIG_FLAG(Local_287.f_3, 134, true);
@@ -3985,7 +3985,7 @@ void func_53()
 			}
 			iLocal_459 = 0;
 		}
-		if ((!PED::IS_PED_INJURED(Local_287.f_3) && TASK::GET_SCRIPT_TASK_STATUS(Local_287.f_3, -982327190) != 0) && TASK::GET_SCRIPT_TASK_STATUS(Local_287.f_3, -982327190) != 1)
+		if ((!PED::IS_PED_INJURED(Local_287.f_3) && TASK::GET_SCRIPT_TASK_STATUS(Local_287.f_3, joaat("script_task_stand_still")) != 0) && TASK::GET_SCRIPT_TASK_STATUS(Local_287.f_3, joaat("script_task_stand_still")) != 1)
 		{
 			TASK::TASK_STAND_STILL(Local_287.f_3, -1);
 		}

@@ -43298,7 +43298,7 @@ int func_396(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_399(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_399(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -44750,7 +44750,7 @@ void func_426()
 				if (iLocal_234 == 0)
 				{
 					func_429(Local_182.f_0, "AIMED_AT_BY_PLAYER", "TOM", 4);
-					if (!func_399(Local_182.f_0, -1519143300))
+					if (!func_399(Local_182.f_0, joaat("script_task_hands_up")))
 					{
 						TASK::CLEAR_PED_TASKS(Local_182.f_0);
 						TASK::TASK_HANDS_UP(Local_182.f_0, -1, PLAYER::PLAYER_PED_ID(), -1, true);
@@ -44760,7 +44760,7 @@ void func_426()
 				}
 				else
 				{
-					if (!func_399(Local_182.f_0, -1519143300))
+					if (!func_399(Local_182.f_0, joaat("script_task_hands_up")))
 					{
 						TASK::CLEAR_PED_TASKS(Local_182.f_0);
 						TASK::TASK_HANDS_UP(Local_182.f_0, -1, PLAYER::PLAYER_PED_ID(), -1, true);
@@ -45200,7 +45200,7 @@ void func_435()
 			case 2:
 				if (func_480(Local_182.f_0) && func_480(PLAYER::PLAYER_PED_ID()))
 				{
-					if (func_240(Local_182.f_0, PLAYER::PLAYER_PED_ID(), 1) < 5f || TASK::GET_SCRIPT_TASK_STATUS(Local_182.f_0, 242628503) == 7)
+					if (func_240(Local_182.f_0, PLAYER::PLAYER_PED_ID(), 1) < 5f || TASK::GET_SCRIPT_TASK_STATUS(Local_182.f_0, joaat("script_task_perform_sequence")) == 7)
 					{
 						TASK::CLEAR_PED_TASKS(Local_182.f_0);
 						TASK::TASK_TURN_PED_TO_FACE_ENTITY(Local_182.f_0, PLAYER::PLAYER_PED_ID(), -1);
@@ -45268,7 +45268,7 @@ void func_440()
 				break;
 			
 			case 1:
-				if (!func_399(Local_182.f_0, 713668775))
+				if (!func_399(Local_182.f_0, joaat("script_task_follow_nav_mesh_to_coord")))
 				{
 					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(Local_182.f_0, Local_199[iLocal_198 /*3*/], 1f, 20000, 0.25f, false, 40000f);
 					func_523("Eps 6: Nav tasking Tom...");

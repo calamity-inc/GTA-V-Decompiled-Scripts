@@ -2088,7 +2088,7 @@ int func_35(struct<6> Param0, int iParam6, var uParam7)
 		case 1:
 			if (!PED::IS_PED_INJURED(iParam6))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iParam6, 242628503) == 7 || ENTITY::IS_ENTITY_AT_ENTITY(iParam6, PLAYER::PLAYER_PED_ID(), 8f, 8f, 8f, false, true, 0))
+				if (TASK::GET_SCRIPT_TASK_STATUS(iParam6, joaat("script_task_perform_sequence")) == 7 || ENTITY::IS_ENTITY_AT_ENTITY(iParam6, PLAYER::PLAYER_PED_ID(), 8f, 8f, 8f, false, true, 0))
 				{
 					if (!func_75())
 					{

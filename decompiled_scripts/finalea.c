@@ -44254,7 +44254,7 @@ void func_341()
 	{
 		func_232(0);
 	}
-	func_418(-1794415470);
+	func_418(joaat("script_task_enter_vehicle"));
 	if (ENTITY::DOES_ENTITY_EXIST(Local_3064[1 /*2*/]) && ENTITY::DOES_ENTITY_EXIST(Local_3064[2 /*2*/]))
 	{
 		if (VEHICLE::IS_PLAYBACK_GOING_ON_FOR_VEHICLE(Local_3064[1 /*2*/]))
@@ -46324,7 +46324,7 @@ void func_382(int iParam0, float fParam1, bool bParam2)
 							iVar1 = VEHICLE::GET_PED_IN_VEHICLE_SEAT(iLocal_2986[iVar0], -1, false);
 							if (!PED::IS_PED_INJURED(iVar1))
 							{
-								iVar20 = TASK::GET_SCRIPT_TASK_STATUS(iVar1, 242628503);
+								iVar20 = TASK::GET_SCRIPT_TASK_STATUS(iVar1, joaat("script_task_perform_sequence"));
 								if (iVar20 == 7)
 								{
 									fVar13 = ENTITY::GET_ENTITY_SPEED(iLocal_2986[iVar0]);

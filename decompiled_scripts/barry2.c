@@ -38468,7 +38468,7 @@ int func_311(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_315(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_315(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -44326,7 +44326,7 @@ int func_456(var uParam0)
 	{
 		return 1;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 780511057) > 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_combat")) > 1)
 	{
 		if (!ENTITY::IS_ENTITY_PLAYING_ANIM(uParam0->f_3, sLocal_343, &(uParam0->f_7), 3))
 		{
@@ -44375,7 +44375,7 @@ int func_458(var uParam0)
 	{
 		return 1;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 1630799643) > 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_aim_gun_at_entity")) > 1)
 	{
 		if (!ENTITY::IS_ENTITY_PLAYING_ANIM(uParam0->f_3, sLocal_343, &(uParam0->f_7), 3))
 		{
@@ -49437,7 +49437,7 @@ void func_530()
 		{
 			if (func_316(PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), 10.5f, 1, 1056964608, 0, 1, 0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -828834893) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")) != 1)
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -49785,7 +49785,7 @@ int func_538(var uParam0)
 		case 11:
 			if (func_62(Local_346[uParam0->f_14 /*19*/].f_3))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_346[uParam0->f_14 /*19*/].f_3, 242628503) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_346[uParam0->f_14 /*19*/].f_3, joaat("script_task_perform_sequence")) == 7)
 				{
 					TASK::OPEN_SEQUENCE_TASK(&iVar7);
 					TASK::TASK_LEAVE_VEHICLE(0, uParam0->f_3, 0);
@@ -50437,7 +50437,7 @@ void func_553(var uParam0)
 				uParam0->f_2 = 13;
 				return;
 			}
-			if (func_562(uParam0) == 4 && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) <= 1)
+			if (func_562(uParam0) == 4 && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) <= 1)
 			{
 				return;
 			}
@@ -50445,7 +50445,7 @@ void func_553(var uParam0)
 			{
 				func_413(uParam0, 0);
 			}
-			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 780511057) > 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_combat")) > 1)
 			{
 				if (MISC::GET_GAME_TIMER() > uParam0->f_13)
 				{
@@ -50694,7 +50694,7 @@ void func_557(var uParam0)
 	{
 		return;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, 242628503) != 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_3, joaat("script_task_perform_sequence")) != 1)
 	{
 		TASK::OPEN_SEQUENCE_TASK(&iVar0);
 		if (func_548(uParam0->f_3, uParam0->f_15, 0) <= 5f)

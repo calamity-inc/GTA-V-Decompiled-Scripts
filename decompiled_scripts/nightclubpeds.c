@@ -9047,14 +9047,14 @@ void func_8(var uParam0)
 				}
 				if (!func_9((uParam0[iVar1 /*58*/])->f_6))
 				{
-					if ((uParam0[iVar1 /*58*/])->f_6 != -1 && TASK::GET_SCRIPT_TASK_STATUS((*uParam0)[iVar1 /*58*/], -2017877118) != 1)
+					if ((uParam0[iVar1 /*58*/])->f_6 != -1 && TASK::GET_SCRIPT_TASK_STATUS((*uParam0)[iVar1 /*58*/], joaat("script_task_play_anim")) != 1)
 					{
 						iVar0 = 0;
 					}
 				}
 				if ((uParam0[iVar1 /*58*/])->f_6 != -1 && func_9((uParam0[iVar1 /*58*/])->f_6))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS((*uParam0)[iVar1 /*58*/], 1785177548) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS((*uParam0)[iVar1 /*58*/], joaat("script_task_synchronized_scene")) != 1)
 					{
 						iVar0 = 0;
 					}
@@ -19704,7 +19704,7 @@ void func_123(var uParam0, var uParam1)
 	}
 	if (!func_126(uParam1->f_13))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(*uParam1, -880529684) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(*uParam1, joaat("script_task_look_at_coord")) != 1)
 		{
 			TASK::TASK_LOOK_AT_COORD(*uParam1, uParam1->f_13, -1, 2048, 4);
 		}
@@ -20847,7 +20847,7 @@ int func_143(var uParam0, var uParam1, var uParam2, int iParam3)
 			{
 				func_240(uParam2->f_6, &(uParam1->f_5), func_248(uParam2->f_54), func_132(uParam2->f_54), func_131(uParam2->f_54), func_133(uParam2->f_54), func_247(uParam2->f_54));
 				iVar5 = func_239(uParam2);
-				if (iVar5 <= 1 || ((!ENTITY::IS_ENTITY_PLAYING_ANIM(*uParam2, uParam1->f_5.f_324[0 /*48*/], &(uParam1->f_5.f_324[0 /*48*/].f_1), 3) || ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(*uParam2, uParam1->f_5.f_324[0 /*48*/], &(uParam1->f_5.f_324[0 /*48*/].f_1)) >= 1f) && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, -2017877118) != 0))
+				if (iVar5 <= 1 || ((!ENTITY::IS_ENTITY_PLAYING_ANIM(*uParam2, uParam1->f_5.f_324[0 /*48*/], &(uParam1->f_5.f_324[0 /*48*/].f_1), 3) || ENTITY::GET_ENTITY_ANIM_CURRENT_TIME(*uParam2, uParam1->f_5.f_324[0 /*48*/], &(uParam1->f_5.f_324[0 /*48*/].f_1)) >= 1f) && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, joaat("script_task_play_anim")) != 0))
 				{
 					uParam2->f_17 = 0;
 					fVar0 = 1000f;
@@ -21291,7 +21291,7 @@ int func_143(var uParam0, var uParam1, var uParam2, int iParam3)
 									if (!MISC::IS_STRING_NULL_OR_EMPTY(&(uParam1->f_5.f_324[iVar1853 /*48*/].f_1)))
 									{
 										fVar1855 = MISC::GET_RANDOM_FLOAT_IN_RANGE(0f, 0.5f);
-										if (func_231(uParam2->f_6) && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, -2017877118) == 1)
+										if (func_231(uParam2->f_6) && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, joaat("script_task_play_anim")) == 1)
 										{
 											fVar1855 = 0f;
 										}
@@ -21374,12 +21374,12 @@ int func_143(var uParam0, var uParam1, var uParam2, int iParam3)
 							uParam2->f_10 = func_229(uParam2->f_6, uParam2->f_10);
 						}
 					}
-					else if (TASK::GET_SCRIPT_TASK_STATUS(*uParam2, -2017877118) != 1 && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, -2017877118) != 0)
+					else if (TASK::GET_SCRIPT_TASK_STATUS(*uParam2, joaat("script_task_play_anim")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, joaat("script_task_play_anim")) != 0)
 					{
 						uParam2->f_17 = 0;
 					}
 				}
-				else if (TASK::GET_SCRIPT_TASK_STATUS(*uParam2, -2017877118) != 1 && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, -2017877118) != 0)
+				else if (TASK::GET_SCRIPT_TASK_STATUS(*uParam2, joaat("script_task_play_anim")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(*uParam2, joaat("script_task_play_anim")) != 0)
 				{
 					uParam2->f_17 = 0;
 				}
@@ -26296,7 +26296,7 @@ int func_250(var uParam0, var uParam1, int iParam2)
 		}
 		else if (func_134(uParam1->f_6) || func_231(uParam1->f_6))
 		{
-			iVar3 = TASK::GET_SCRIPT_TASK_STATUS(*uParam1, -2017877118);
+			iVar3 = TASK::GET_SCRIPT_TASK_STATUS(*uParam1, joaat("script_task_play_anim"));
 			if (iVar3 == 1)
 			{
 				iVar4 = func_145(uParam1);
@@ -27175,7 +27175,7 @@ void func_261()
 				}
 				else if (!func_263(PLAYER::PLAYER_ID(), 0))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1992968846) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1992968846) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_parachute")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_parachute")) != 0)
 					{
 						NETWORK::SET_LOCAL_PLAYER_VISIBLE_LOCALLY(true);
 						NETWORK::SET_PLAYER_VISIBLE_LOCALLY(PLAYER::PLAYER_ID(), true);
@@ -27996,7 +27996,7 @@ int func_296(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;

@@ -2659,7 +2659,7 @@ int func_69(int iParam0, int iParam1)
 			func_77(iParam0, iParam1);
 			if (PED::IS_PED_SITTING_IN_VEHICLE(iLocal_451[iParam0], iLocal_462[iParam0]))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_451[iParam0], -258271821) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_451[iParam0], joaat("script_task_vehicle_drive_wander")) != 1)
 				{
 					TASK::TASK_VEHICLE_DRIVE_WANDER(iLocal_451[iParam0], iLocal_462[iParam0], fLocal_269, iLocal_270);
 				}
@@ -2723,7 +2723,7 @@ int func_69(int iParam0, int iParam1)
 		case -2:
 			if (!PED::IS_PED_INJURED(iLocal_451[iParam0]))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_451[iParam0], 1805844857) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_451[iParam0], joaat("script_task_smart_flee_ped")) != 1)
 				{
 					PED::SET_PED_CONFIG_FLAG(iLocal_451[iParam0], 29, true);
 					TASK::TASK_SMART_FLEE_PED(iLocal_451[iParam0], PLAYER::PLAYER_PED_ID(), 150f, -1, false, false);

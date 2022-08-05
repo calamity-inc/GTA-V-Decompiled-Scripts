@@ -3342,7 +3342,7 @@ void func_83(int* iParam0)
 {
 	if (!PED::IS_PED_INJURED(*iParam0))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, -2017877118) != 0)
+		if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_play_anim")) != 0)
 		{
 			PED::SET_PED_KEEP_TASK(*iParam0, true);
 		}

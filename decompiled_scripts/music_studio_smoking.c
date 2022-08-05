@@ -2909,7 +2909,7 @@ void func_99()
 			{
 				MISC::SET_BIT(&(Local_119.f_1), 6);
 			}
-			if ((func_340() && (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 1 || (!TASK::IS_PED_WALKING(PLAYER::PLAYER_PED_ID()) && BitTest(Local_119.f_1, 6)))) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 2106541073) != 0)
+			if ((func_340() && (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 1 || (!TASK::IS_PED_WALKING(PLAYER::PLAYER_PED_ID()) && BitTest(Local_119.f_1, 6)))) && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_go_straight_to_coord")) != 0)
 			{
 				func_334(1, 0, 0, 0, 0);
 				func_353(4);

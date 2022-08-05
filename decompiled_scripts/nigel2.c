@@ -1584,7 +1584,7 @@ int func_38(int iParam0, float fParam1, int iParam2)
 			else if (iParam2 == 1)
 			{
 				iVar0 = 0;
-				if (!func_42(PLAYER::PLAYER_PED_ID(), -828834893))
+				if (!func_42(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle")))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -3218,7 +3218,7 @@ void func_96()
 					VEHICLE::STOP_PLAYBACK_RECORDED_VEHICLE(Local_3490.f_0);
 					VEHICLE::REMOVE_VEHICLE_RECORDING(1, sLocal_3297);
 				}
-				if (!func_42(Local_3476.f_0, -258271821))
+				if (!func_42(Local_3476.f_0, joaat("script_task_vehicle_drive_wander")))
 				{
 					TASK::TASK_VEHICLE_DRIVE_WANDER(Local_3476.f_0, Local_3490.f_0, 60f, 786469);
 					PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(Local_3476.f_0, true);
@@ -36995,7 +36995,7 @@ void func_294()
 				{
 					if (func_22(Local_3476.f_0))
 					{
-						if (!func_42(Local_3476.f_0, -258271821))
+						if (!func_42(Local_3476.f_0, joaat("script_task_vehicle_drive_wander")))
 						{
 							if (PED::IS_PED_SITTING_IN_VEHICLE(Local_3476.f_0, Local_3490.f_0))
 							{
@@ -40911,7 +40911,7 @@ void func_388(struct<3> Param0)
 						case 6:
 							if ((PED::IS_PED_SHOOTING(PLAYER::PLAYER_PED_ID()) || PLAYER::IS_PLAYER_FREE_AIMING_AT_ENTITY(PLAYER::PLAYER_ID(), Local_3506[iVar7 /*2*/])) || PLAYER::IS_PLAYER_TARGETTING_ENTITY(PLAYER::PLAYER_ID(), Local_3506[iVar7 /*2*/]))
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(Local_3506[iVar7 /*2*/], 474215631) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_3506[iVar7 /*2*/], 474215631) != 0)
+								if (TASK::GET_SCRIPT_TASK_STATUS(Local_3506[iVar7 /*2*/], joaat("script_task_cower")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Local_3506[iVar7 /*2*/], joaat("script_task_cower")) != 0)
 								{
 									TASK::TASK_COWER(Local_3506[iVar7 /*2*/], -1);
 								}
@@ -43110,7 +43110,7 @@ void func_415(int iParam0, float fParam1, bool bParam2)
 							iVar1 = VEHICLE::GET_PED_IN_VEHICLE_SEAT(iLocal_3004[iVar0], -1, false);
 							if (!PED::IS_PED_INJURED(iVar1))
 							{
-								iVar20 = TASK::GET_SCRIPT_TASK_STATUS(iVar1, 242628503);
+								iVar20 = TASK::GET_SCRIPT_TASK_STATUS(iVar1, joaat("script_task_perform_sequence"));
 								if (iVar20 == 7)
 								{
 									fVar13 = ENTITY::GET_ENTITY_SPEED(iLocal_3004[iVar0]);

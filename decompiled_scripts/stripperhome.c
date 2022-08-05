@@ -2135,7 +2135,7 @@ void func_90()
 			break;
 		
 		case 2:
-			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 242628503) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_perform_sequence")) != 1)
 			{
 				func_256();
 				if (CLOCK::GET_CLOCK_HOURS() > 20 || CLOCK::GET_CLOCK_HOURS() < 4)
@@ -5836,7 +5836,7 @@ void func_203(int iParam0, struct<3> Param1)
 	if (!PED::IS_PED_INJURED(iParam0))
 	{
 		TASK::SET_PED_PATH_AVOID_FIRE(iParam0, true);
-		if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) != 1)
 		{
 			TASK::CLEAR_SEQUENCE_TASK(&iLocal_339);
 			TASK::OPEN_SEQUENCE_TASK(&iLocal_339);
@@ -6431,7 +6431,7 @@ void func_216()
 		iVar1 = 0;
 		bVar2 = ENTITY::IS_ENTITY_PLAYING_ANIM(iLocal_274[0], sVar0, func_95(4, 1, 1, func_98(iLocal_340)), 3);
 		bVar3 = PED::IS_PED_SHOOTING(PLAYER::PLAYER_PED_ID());
-		bVar4 = TASK::GET_SCRIPT_TASK_STATUS(iLocal_274[0], 242628503) == 7;
+		bVar4 = TASK::GET_SCRIPT_TASK_STATUS(iLocal_274[0], joaat("script_task_perform_sequence")) == 7;
 		bVar5 = PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false);
 		bVar6 = false;
 		if (bVar5)
@@ -8171,7 +8171,7 @@ void func_262(int iParam0)
 	if (!PED::IS_PED_INJURED(iParam0))
 	{
 		TASK::SET_PED_PATH_AVOID_FIRE(iParam0, true);
-		if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) != 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) != 1)
 		{
 			TASK::CLEAR_SEQUENCE_TASK(&iLocal_339);
 			TASK::OPEN_SEQUENCE_TASK(&iLocal_339);

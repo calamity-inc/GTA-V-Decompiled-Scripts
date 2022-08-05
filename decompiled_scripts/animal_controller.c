@@ -1206,7 +1206,7 @@ int func_16()
 		{
 			if (BitTest(uLocal_127, 11))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -2017877118) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_play_anim")) == 7)
 				{
 					MISC::CLEAR_BIT(&uLocal_127, 10);
 				}
@@ -1221,7 +1221,7 @@ int func_16()
 			}
 			if (func_26())
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene")) == 1)
 				{
 					ENTITY::STOP_SYNCHRONIZED_ENTITY_ANIM(PLAYER::PLAYER_PED_ID(), -0.5f, true);
 				}

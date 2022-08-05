@@ -546,7 +546,7 @@ void __EntryFunction__()
 						{
 							if (PED::IS_PED_IN_VEHICLE(iLocal_142, iLocal_155, false))
 							{
-								if (ENTITY::IS_ENTITY_ATTACHED(iLocal_140) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_142, 242628503) == 7)
+								if (ENTITY::IS_ENTITY_ATTACHED(iLocal_140) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_142, joaat("script_task_perform_sequence")) == 7)
 								{
 									TASK::TASK_LOOK_AT_ENTITY(iLocal_140, PLAYER::PLAYER_PED_ID(), -1, 0, 2);
 									TASK::OPEN_SEQUENCE_TASK(&iLocal_159);
@@ -905,7 +905,7 @@ void __EntryFunction__()
 							{
 								if (PLAYER::IS_PLAYER_CONTROL_ON(PLAYER::PLAYER_ID()))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_140, 474215631) != 7)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_140, joaat("script_task_cower")) != 7)
 									{
 										TASK::CLEAR_PED_TASKS(iLocal_140);
 									}
@@ -2908,7 +2908,7 @@ int func_52()
 	{
 		if (!PED::IS_PED_INJURED(iLocal_144[0]))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_144[0], -1273030092) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_144[0], joaat("script_task_vehicle_mission")) == 1)
 			{
 				if (!TASK::IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(iLocal_144[0]))
 				{
@@ -2918,7 +2918,7 @@ int func_52()
 		}
 		if (!PED::IS_PED_INJURED(iLocal_144[1]))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_144[1], -1273030092) == 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_144[1], joaat("script_task_vehicle_mission")) == 1)
 			{
 				if (!TASK::IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(iLocal_144[1]))
 				{
@@ -5320,7 +5320,7 @@ void func_120()
 	{
 		if (!PED::IS_PED_INJURED(iLocal_141))
 		{
-			if ((PED::IS_PED_IN_ANY_VEHICLE(iLocal_141, false) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_141, 2104565373) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_141, 2104565373) != 0)
+			if ((PED::IS_PED_IN_ANY_VEHICLE(iLocal_141, false) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_141, joaat("script_task_drive_by")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_141, joaat("script_task_drive_by")) != 0)
 			{
 				TASK::CLEAR_PED_TASKS(iLocal_141);
 				WEAPON::GIVE_WEAPON_TO_PED(iLocal_141, joaat("weapon_microsmg"), 68, true, true);
@@ -5330,7 +5330,7 @@ void func_120()
 	}
 	if (!PED::IS_PED_INJURED(iLocal_143))
 	{
-		if ((PED::IS_PED_IN_ANY_VEHICLE(iLocal_143, false) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_143, 2104565373) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_143, 2104565373) != 0)
+		if ((PED::IS_PED_IN_ANY_VEHICLE(iLocal_143, false) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_143, joaat("script_task_drive_by")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_143, joaat("script_task_drive_by")) != 0)
 		{
 			TASK::CLEAR_PED_TASKS(iLocal_143);
 			WEAPON::GIVE_WEAPON_TO_PED(iLocal_143, joaat("weapon_pistol"), 68, true, true);

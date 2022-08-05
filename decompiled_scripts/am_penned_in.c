@@ -1642,7 +1642,7 @@ void func_5(var uParam0, int iParam1, int iParam2, int iParam3, float fParam4, f
 	}
 	if ((!PED::IS_PED_INJURED(iParam1) && !ENTITY::IS_ENTITY_DEAD(iParam2, false)) && !PED::IS_PED_INJURED(iParam3))
 	{
-		if (((TASK::GET_SCRIPT_TASK_STATUS(iParam1, -1273030092) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam1, -1273030092) != 0) || iParam3 != uParam0->f_4) || iVar0)
+		if (((TASK::GET_SCRIPT_TASK_STATUS(iParam1, joaat("script_task_vehicle_mission")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iParam1, joaat("script_task_vehicle_mission")) != 0) || iParam3 != uParam0->f_4) || iVar0)
 		{
 			if (iParam3 != uParam0->f_4)
 			{
@@ -59200,7 +59200,7 @@ int func_741(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;

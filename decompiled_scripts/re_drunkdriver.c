@@ -3528,7 +3528,7 @@ void func_76()
 					{
 						if (PED::IS_PED_IN_VEHICLE(iLocal_91[0], iLocal_94, false))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 355471868) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 355471868) != 0)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_shuffle_to_next_vehicle_seat")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_shuffle_to_next_vehicle_seat")) != 0)
 							{
 								VEHICLE::SET_VEHICLE_ENGINE_HEALTH(iLocal_94, 5f);
 								VEHICLE::SET_DISABLE_PRETEND_OCCUPANTS(iLocal_94, true);
@@ -3604,7 +3604,7 @@ void func_76()
 		case 6:
 			if (!PED::IS_PED_INJURED(iLocal_91[0]))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 242628503) == 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_perform_sequence")) == 1)
 				{
 					if (TASK::GET_SEQUENCE_PROGRESS(iLocal_91[0]) == 5)
 					{
@@ -7078,7 +7078,7 @@ void func_144()
 				{
 					PED::REMOVE_PED_FROM_GROUP(iLocal_91[0]);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 1227113341) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 1227113341) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_go_to_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_go_to_entity")) != 0)
 				{
 					TASK::TASK_GO_TO_ENTITY(iLocal_91[0], PLAYER::PLAYER_PED_ID(), -1, 6f, 2f, 2f, 0);
 				}
@@ -7098,7 +7098,7 @@ void func_144()
 			else
 			{
 				iLocal_122 = 0;
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 1227113341) == 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], 1227113341) == 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_go_to_entity")) == 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_91[0], joaat("script_task_go_to_entity")) == 0)
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_91[0]);
 				}

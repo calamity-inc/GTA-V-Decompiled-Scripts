@@ -32042,7 +32042,7 @@ void func_209()
 						{
 							sLocal_268 = sLocal_267;
 						}
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_75, -2017877118) == 7)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_75, joaat("script_task_play_anim")) == 7)
 						{
 							TASK::TASK_PLAY_ANIM(iLocal_75, sLocal_268, "LOOP", 2f, -8f, -1, 1, 0f, false, false, false);
 						}
@@ -32285,7 +32285,7 @@ int func_221()
 		{
 			if (!PED::IS_PED_ON_FOOT(iLocal_75))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_75, -828834893) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_75, joaat("script_task_leave_any_vehicle")) == 7)
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_75);
 					TASK::TASK_LEAVE_ANY_VEHICLE(iLocal_75, 0, 0);

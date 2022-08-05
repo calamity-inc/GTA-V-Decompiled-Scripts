@@ -95066,7 +95066,7 @@ void func_533(int* iParam0, int iParam1)
 		{
 			func_552(iParam0, iVar0);
 		}
-		else if ((!func_551(&(iParam0->f_1735[iVar0 /*206*/]), 2) && func_555(iParam0, &(iParam0->f_1735[iVar0 /*206*/]))) && TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_1735[iVar0 /*206*/].f_8, -2017877118) == 1)
+		else if ((!func_551(&(iParam0->f_1735[iVar0 /*206*/]), 2) && func_555(iParam0, &(iParam0->f_1735[iVar0 /*206*/]))) && TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_1735[iVar0 /*206*/].f_8, joaat("script_task_play_anim")) == 1)
 		{
 			TASK::SET_ANIM_RATE(iParam0->f_1735[iVar0 /*206*/].f_8, MISC::GET_RANDOM_FLOAT_IN_RANGE(1f, 2.5f), 0, false);
 			func_550(&(iParam0->f_1735[iVar0 /*206*/]), 2);
@@ -95239,11 +95239,11 @@ void func_539(var uParam0, int iParam1)
 	}
 	if (!ENTITY::IS_ENTITY_DEAD(uParam0->f_1735[iParam1 /*206*/].f_9, false))
 	{
-		if (!func_551(&(uParam0->f_1735[iParam1 /*206*/]), 8) || (!PED::IS_PED_IN_ANY_VEHICLE(uParam0->f_1735[iParam1 /*206*/].f_8, true) && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, 242628503) != 1))
+		if (!func_551(&(uParam0->f_1735[iParam1 /*206*/]), 8) || (!PED::IS_PED_IN_ANY_VEHICLE(uParam0->f_1735[iParam1 /*206*/].f_8, true) && TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, joaat("script_task_perform_sequence")) != 1))
 		{
 			func_541(uParam0, iParam1);
 		}
-		else if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, -235832601) == 1)
+		else if (TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, joaat("script_task_vehicle_follow_waypoint_recording")) == 1)
 		{
 			PED::SET_DRIVER_RACING_MODIFIER(uParam0->f_1735[iParam1 /*206*/].f_8, 1f);
 			VEHICLE::SET_VEHICLE_IS_RACING(uParam0->f_1735[iParam1 /*206*/].f_9, true);
@@ -95818,7 +95818,7 @@ int func_565(int* iParam0)
 	bool bVar6;
 	float fVar7;
 	
-	if (iParam0->f_26[iParam0->f_1735[0 /*206*/].f_11 /*14*/].f_11 != 6 || TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_1735[0 /*206*/].f_8, 1435919172) == 1)
+	if (iParam0->f_26[iParam0->f_1735[0 /*206*/].f_11 /*14*/].f_11 != 6 || TASK::GET_SCRIPT_TASK_STATUS(iParam0->f_1735[0 /*206*/].f_8, joaat("script_task_any")) == 1)
 	{
 		return 0;
 	}
@@ -102080,7 +102080,7 @@ void func_718(int* iParam0, var uParam1)
 	{
 		return;
 	}
-	if (!PED::IS_PED_IN_ANY_VEHICLE(uParam1->f_8, true) && TASK::GET_SCRIPT_TASK_STATUS(uParam1->f_8, 242628503) != 1)
+	if (!PED::IS_PED_IN_ANY_VEHICLE(uParam1->f_8, true) && TASK::GET_SCRIPT_TASK_STATUS(uParam1->f_8, joaat("script_task_perform_sequence")) != 1)
 	{
 		Var0 = { ENTITY::GET_ENTITY_COORDS(uParam1->f_9, true) };
 		Var3 = { ENTITY::GET_ENTITY_COORDS(uParam1->f_8, true) - Var0 * Vector(0.15f, 0.15f, 0.15f) };
@@ -115966,7 +115966,7 @@ void func_980(var uParam0, int iParam1)
 	}
 	if (func_555(uParam0, &(uParam0->f_1735[iParam1 /*206*/])) && iParam1 != 0)
 	{
-		if (!TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, -2017877118) == 1 && !TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, 713668775) == 1)
+		if (!TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, joaat("script_task_play_anim")) == 1 && !TASK::GET_SCRIPT_TASK_STATUS(uParam0->f_1735[iParam1 /*206*/].f_8, joaat("script_task_follow_nav_mesh_to_coord")) == 1)
 		{
 			if (uParam0->f_1735[iParam1 /*206*/].f_12 == 1)
 			{

@@ -1553,7 +1553,7 @@ void func_51()
 	{
 		if ((!PED::IS_PED_FLEEING(iLocal_157) && !PED::IS_PED_IN_COMBAT(iLocal_157, 0)) && !PED::IS_PED_RAGDOLL(iLocal_157))
 		{
-			if (!func_53(iLocal_157, 993674639, 1))
+			if (!func_53(iLocal_157, joaat("script_task_start_scenario_in_place"), 1))
 			{
 				TASK::TASK_START_SCENARIO_IN_PLACE(iLocal_157, "WORLD_HUMAN_STAND_IMPATIENT", -1, true);
 			}
@@ -1566,7 +1566,7 @@ void func_51()
 		}
 		else if (PED::IS_PED_RAGDOLL(iLocal_157))
 		{
-			if (!func_53(iLocal_157, 780511057, 1))
+			if (!func_53(iLocal_157, joaat("script_task_combat"), 1))
 			{
 				PED::SET_PED_SHOULD_PLAY_IMMEDIATE_SCENARIO_EXIT(iLocal_157);
 				TASK::TASK_COMBAT_PED(iLocal_157, PLAYER::PLAYER_PED_ID(), 0, 16);
@@ -1823,7 +1823,7 @@ void func_62(bool bParam0)
 	func_12(&Global_112920);
 	if (func_61(iLocal_157))
 	{
-		if (func_53(iLocal_157, -1098463898, 1) || func_53(iLocal_157, 993674639, 1))
+		if (func_53(iLocal_157, joaat("script_task_start_scenario_at_position"), 1) || func_53(iLocal_157, joaat("script_task_start_scenario_in_place"), 1))
 		{
 			TASK::TASK_WANDER_STANDARD(iLocal_157, 40000f, 0);
 		}

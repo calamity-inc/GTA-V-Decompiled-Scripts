@@ -32841,7 +32841,7 @@ void func_239()
 				break;
 			
 			case 4:
-				if ((TASK::GET_SCRIPT_TASK_STATUS(Local_651.f_1, 242628503) != 1 && VEHICLE::IS_VEHICLE_SEAT_FREE(Local_651.f_0, -1, false)) && !PED::IS_PED_FLEEING(Local_651.f_1))
+				if ((TASK::GET_SCRIPT_TASK_STATUS(Local_651.f_1, joaat("script_task_perform_sequence")) != 1 && VEHICLE::IS_VEHICLE_SEAT_FREE(Local_651.f_0, -1, false)) && !PED::IS_PED_FLEEING(Local_651.f_1))
 				{
 					TASK::OPEN_SEQUENCE_TASK(&iLocal_866);
 					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(Local_651.f_0, -2f, 2f, 0f), 2f, 20000, 0.25f, false, 40000f);

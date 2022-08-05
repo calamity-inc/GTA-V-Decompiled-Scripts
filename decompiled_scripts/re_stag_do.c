@@ -2869,7 +2869,7 @@ void func_74()
 				{
 					PED::REMOVE_PED_FROM_GROUP(iLocal_55);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 1227113341) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 1227113341) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_go_to_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_go_to_entity")) != 0)
 				{
 					TASK::TASK_GO_TO_ENTITY(iLocal_55, PLAYER::PLAYER_PED_ID(), -1, 6f, 2f, 2f, 0);
 				}
@@ -2896,7 +2896,7 @@ void func_74()
 			else
 			{
 				iLocal_125 = 0;
-				if (((TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 1227113341) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 1227113341) == 0) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 1) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 0)
+				if (((TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_go_to_entity")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_go_to_entity")) == 0) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 1) || TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 0)
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_55);
 					if (!PED::IS_PED_IN_GROUP(iLocal_55))
@@ -2908,7 +2908,7 @@ void func_74()
 				}
 			}
 		}
-		else if (((!PED::IS_PED_IN_GROUP(iLocal_55) && !PED::IS_PED_IN_ANY_VEHICLE(iLocal_55, false)) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) != 0)
+		else if (((!PED::IS_PED_IN_GROUP(iLocal_55) && !PED::IS_PED_IN_ANY_VEHICLE(iLocal_55, false)) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) != 1) && TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) != 0)
 		{
 			PED::SET_PED_AS_GROUP_MEMBER(iLocal_55, func_73());
 			PED::SET_PED_NEVER_LEAVES_GROUP(iLocal_55, true);
@@ -3886,7 +3886,7 @@ void func_95()
 						}
 						if (bLocal_118 && !PED::IS_PED_INJURED(iLocal_55))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, 242628503) == 7 || SYSTEM::TIMERA() > 12000)
+							if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_55, joaat("script_task_perform_sequence")) == 7 || SYSTEM::TIMERA() > 12000)
 							{
 								Local_67 = { Local_77 };
 								Local_70 = { Local_80 };

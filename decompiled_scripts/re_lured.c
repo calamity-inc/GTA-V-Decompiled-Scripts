@@ -2295,7 +2295,7 @@ void func_58()
 	{
 		if (!PED::IS_PED_INJURED(iLocal_70))
 		{
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_70, 242628503) == 7 && ENTITY::IS_ENTITY_AT_ENTITY(iLocal_70, PLAYER::PLAYER_PED_ID(), 2.8f, 2.8f, 2.8f, false, true, 0))
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_70, joaat("script_task_perform_sequence")) == 7 && ENTITY::IS_ENTITY_AT_ENTITY(iLocal_70, PLAYER::PLAYER_PED_ID(), 2.8f, 2.8f, 2.8f, false, true, 0))
 			{
 				if (!iLocal_245)
 				{

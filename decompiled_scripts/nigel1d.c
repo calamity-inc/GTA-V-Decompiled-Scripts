@@ -38461,7 +38461,7 @@ void func_312(int iParam0)
 					iLocal_667[iParam0] = 6;
 				}
 			}
-			else if (!func_313(Local_481[iParam0 /*13*/], 242628503))
+			else if (!func_313(Local_481[iParam0 /*13*/], joaat("script_task_perform_sequence")))
 			{
 				TASK::OPEN_SEQUENCE_TASK(&iLocal_775);
 				TASK::TASK_PAUSE(0, MISC::GET_RANDOM_INT_IN_RANGE(5, 200));
@@ -38585,7 +38585,7 @@ void func_317()
 			}
 			if (func_513(Local_455.f_0))
 			{
-				if (!func_313(Local_455.f_0, 474215631))
+				if (!func_313(Local_455.f_0, joaat("script_task_cower")))
 				{
 					TASK::CLEAR_PED_TASKS(Local_455.f_0);
 					TASK::TASK_COWER(Local_455.f_0, -1);
@@ -40848,7 +40848,7 @@ void func_372(int iParam0)
 			break;
 		
 		case 3:
-			if (!func_313(Local_561[iParam0 /*13*/], 1805844857))
+			if (!func_313(Local_561[iParam0 /*13*/], joaat("script_task_smart_flee_ped")))
 			{
 				func_269(iParam0);
 			}
@@ -41357,7 +41357,7 @@ void func_388(int iParam0)
 		case 0:
 			if (ENTITY::IS_ENTITY_AT_ENTITY(PLAYER::PLAYER_PED_ID(), Local_402[iParam0 /*13*/], 6f, 6f, 6f, false, true, 1))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_402[iParam0 /*13*/], 150319005) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_402[iParam0 /*13*/], joaat("script_task_look_at_entity")) != 1)
 				{
 					TASK::TASK_LOOK_AT_ENTITY(Local_402[iParam0 /*13*/], PLAYER::PLAYER_PED_ID(), 500, 12, 2);
 				}

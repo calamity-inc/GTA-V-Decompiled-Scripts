@@ -1333,7 +1333,7 @@ void func_36()
 	}
 	Var1 = { func_34() };
 	fVar4 = func_42();
-	if (SYSTEM::VDIST(ENTITY::GET_ENTITY_COORDS(iLocal_69, true), Var1) > 2f && TASK::GET_SCRIPT_TASK_STATUS(iLocal_69, 713668775) != 1)
+	if (SYSTEM::VDIST(ENTITY::GET_ENTITY_COORDS(iLocal_69, true), Var1) > 2f && TASK::GET_SCRIPT_TASK_STATUS(iLocal_69, joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 	{
 		func_41(0);
 	}
@@ -1348,7 +1348,7 @@ void func_36()
 			break;
 		
 		case 1:
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_69, 713668775) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_69, joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 			{
 				if (MISC::ABSF((fVar4 - ENTITY::GET_ENTITY_HEADING(iLocal_69))) > 1f)
 				{
@@ -1359,7 +1359,7 @@ void func_36()
 			break;
 		
 		case 2:
-			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_69, 1920390111) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_69, joaat("script_task_achieve_heading")) != 1)
 			{
 				TASK::TASK_PLAY_ANIM(iLocal_69, func_39(0), func_38(0), 8f, -8f, -1, 2, 0f, false, false, false);
 				func_41(3);

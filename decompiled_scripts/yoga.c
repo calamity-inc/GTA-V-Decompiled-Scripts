@@ -1503,7 +1503,7 @@ int func_9(int iParam0)
 				func_12(&Local_574, 1);
 				if (PED::GET_SYNCHRONIZED_SCENE_PHASE(iLocal_615) >= 0.95f)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1785177548) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_synchronized_scene")) == 1)
 					{
 						TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
 					}
@@ -87118,7 +87118,7 @@ int func_330(int iParam0, int iParam1)
 {
 	if (!PED::IS_PED_INJURED(iParam0))
 	{
-		if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) == 1)
+		if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) == 1)
 		{
 			if (iParam1 < 2)
 			{

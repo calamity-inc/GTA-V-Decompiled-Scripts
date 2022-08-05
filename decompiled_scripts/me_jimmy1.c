@@ -570,12 +570,12 @@ void func_3()
 						}
 					}
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_392, -1519143300) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_392, joaat("script_task_hands_up")) != 1)
 				{
 					TASK::TASK_HANDS_UP(iLocal_392, -1, 0, -1, false);
 				}
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_392, -1519143300) == 1)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_392, joaat("script_task_hands_up")) == 1)
 			{
 				TASK::CLEAR_PED_TASKS(iLocal_392);
 			}

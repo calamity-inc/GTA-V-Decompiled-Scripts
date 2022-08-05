@@ -99639,7 +99639,7 @@ void func_578(int* iParam0, int iParam1)
 				func_48(&(iParam0->f_1));
 				func_597(iParam0);
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, -982327190) == 7 && TASK::GET_SCRIPT_TASK_STATUS(*iParam0, -2017877118) == 7)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_stand_still")) == 7 && TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_play_anim")) == 7)
 			{
 				func_597(iParam0);
 				iParam0->f_12 = 8;
@@ -106196,7 +106196,7 @@ void func_748(int iParam0)
 					if ((MISC::GET_GAME_TIMER() > Local_95[iParam0 /*36*/].f_23 && func_609(Var6)) && SYSTEM::VDIST2(Var6, ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true)) < 10000f)
 					{
 						TASK::OPEN_SEQUENCE_TASK(&iVar9);
-						if (TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], 242628503) == 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], joaat("script_task_perform_sequence")) == 1)
 						{
 							TASK::TASK_PLAY_ANIM(0, "creatures@deer@amb@world_deer_grazing@exit", "exit", 4f, -8f, -1, 0, 0f, false, false, false);
 						}
@@ -106374,7 +106374,7 @@ void func_748(int iParam0)
 			{
 				if (!Local_95[iParam0 /*36*/].f_9)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], 242628503) == 7 || TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], 242628503) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], joaat("script_task_perform_sequence")) == 7 || TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], joaat("script_task_perform_sequence")) != 1)
 					{
 						TASK::OPEN_SEQUENCE_TASK(&iVar10);
 						TASK::TASK_PLAY_ANIM(0, "creatures@deer@amb@world_deer_grazing@enter", "enter", 8f, -8f, -1, 0, 0f, false, false, false);
@@ -106418,7 +106418,7 @@ void func_748(int iParam0)
 			{
 				if (!Local_95[iParam0 /*36*/].f_9)
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], 242628503) == 7 || TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], 242628503) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], joaat("script_task_perform_sequence")) == 7 || TASK::GET_SCRIPT_TASK_STATUS(Local_95[iParam0 /*36*/], joaat("script_task_perform_sequence")) != 1)
 					{
 						if (MISC::GET_GAME_TIMER() > Local_95[iParam0 /*36*/].f_24)
 						{

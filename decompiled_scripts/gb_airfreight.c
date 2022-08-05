@@ -65305,11 +65305,11 @@ void func_763()
 					{
 						if (!PED::IS_PED_INJURED(func_20(iVar0)))
 						{
-							if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), -1794415470) == 1 || TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), -1794415470) == 0)
+							if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_enter_vehicle")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_enter_vehicle")) == 0)
 							{
 								TASK::CLEAR_PED_TASKS(func_20(iVar0));
 							}
-							if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), 1120685857) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), 1120685857) != 0)
+							if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_combat_hated_targets_in_area")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_combat_hated_targets_in_area")) != 0)
 							{
 								PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(func_20(iVar0), true);
 								PED::SET_PED_ACCURACY(func_20(iVar0), func_765());
@@ -65328,7 +65328,7 @@ void func_763()
 							{
 								if (!PED::IS_PED_INJURED(func_20(iVar0)))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), -1794415470) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), -1794415470) != 0)
+									if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_enter_vehicle")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_enter_vehicle")) != 0)
 									{
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(func_20(iVar0), true);
 										TASK::TASK_ENTER_VEHICLE(func_20(iVar0), func_19(), 20000, -1, 2f, 1, 0);
@@ -65337,7 +65337,7 @@ void func_763()
 							}
 							else if ((((!PED::IS_PED_INJURED(func_20(iVar0)) && func_26(func_20(iVar0))) && func_26(func_19())) && func_979()) && func_26(func_31()))
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), -1273030092) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), -1273030092) != 0)
+								if (TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_vehicle_mission")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_20(iVar0), joaat("script_task_vehicle_mission")) != 0)
 								{
 									PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(func_20(iVar0), true);
 									PED::SET_PED_ACCURACY(func_20(iVar0), func_764());

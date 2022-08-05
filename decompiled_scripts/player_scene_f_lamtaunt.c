@@ -5057,7 +5057,7 @@ int func_125(int* iParam0, int iParam1)
 				break;
 			
 			case 1:
-				if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, 2106541073) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_go_straight_to_coord")) != 1)
 				{
 					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Local_277 + Local_291[iParam1 /*3*/], 1f, -1, 0.25f, bVar0, 40000f);
 					iLocal_270[iParam1] = 2;
@@ -5090,7 +5090,7 @@ int func_125(int* iParam0, int iParam1)
 					iLocal_270[iParam1] = 10;
 					return 1;
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, 713668775) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 				{
 					if (fLocal_308[iParam1] == 0f)
 					{
@@ -5143,7 +5143,7 @@ int func_125(int* iParam0, int iParam1)
 						return 0;
 					}
 					Var8 = { func_126(Local_277 + Local_291[iParam1 /*3*/], func_129((fLocal_308[iParam1] * 0.9f), 10f, 100f), 0f) };
-					if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, 1647992574) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_use_nearest_scenario_to_pos")) == 1)
 					{
 					}
 					else if (PATHFIND::GET_SAFE_COORD_FOR_PED(Var8, false, &Var11, 14))

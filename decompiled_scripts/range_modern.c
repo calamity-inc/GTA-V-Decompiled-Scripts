@@ -111386,7 +111386,7 @@ int func_842(var uParam0, var uParam1, var uParam2)
 		PED::CLEAR_PED_PROP(iLocal_71, 0);
 		return 1;
 	}
-	if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_71, 242628503) != 1)
+	if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_71, joaat("script_task_perform_sequence")) != 1)
 	{
 		if (uParam0->f_22 == 0)
 		{

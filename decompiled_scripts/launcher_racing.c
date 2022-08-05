@@ -6253,7 +6253,7 @@ void func_135(int iParam0)
 				break;
 			
 			case 2:
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_103[iParam0], 242628503) != 1 || PED::IS_PED_FACING_PED(iLocal_103[iParam0], PLAYER::PLAYER_PED_ID(), 20f))
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_103[iParam0], joaat("script_task_perform_sequence")) != 1 || PED::IS_PED_FACING_PED(iLocal_103[iParam0], PLAYER::PLAYER_PED_ID(), 20f))
 				{
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(iLocal_103[iParam0], PLAYER::PLAYER_PED_ID(), -1);
 					if (!iLocal_197)
@@ -7075,7 +7075,7 @@ void func_164()
 						{
 							if (ENTITY::DOES_ENTITY_EXIST(iLocal_103[iVar0]))
 							{
-								if (!ENTITY::IS_ENTITY_DEAD(iLocal_103[iVar0], false) && !func_165(iLocal_103[iVar0], -2017877118))
+								if (!ENTITY::IS_ENTITY_DEAD(iLocal_103[iVar0], false) && !func_165(iLocal_103[iVar0], joaat("script_task_play_anim")))
 								{
 									TASK::TASK_PLAY_ANIM(iLocal_103[iVar0], cLocal_184, sLocal_185[iVar0], 1000f, -1000f, -1, 1, 0f, false, false, false);
 									PED::SET_PED_KEEP_TASK(iLocal_103[iVar0], true);
@@ -7140,7 +7140,7 @@ void func_164()
 						{
 							if (ENTITY::DOES_ENTITY_EXIST(iLocal_103[iVar1]))
 							{
-								if (!ENTITY::IS_ENTITY_DEAD(iLocal_103[iVar1], false) && !func_165(iLocal_103[iVar1], -2017877118))
+								if (!ENTITY::IS_ENTITY_DEAD(iLocal_103[iVar1], false) && !func_165(iLocal_103[iVar1], joaat("script_task_play_anim")))
 								{
 									ENTITY::SET_ENTITY_COORDS_NO_OFFSET(iLocal_103[iVar1], Local_136[iVar1 /*3*/], false, false, true);
 									if (iVar1 != 2 && iVar1 != 3)

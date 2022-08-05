@@ -729,7 +729,7 @@ int func_12()
 				break;
 			
 			case 2:
-				if (func_18(&(Local_81.f_67), 3000, 0) || (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 1227113341) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 1227113341) != 1))
+				if (func_18(&(Local_81.f_67), 3000, 0) || (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_go_to_entity")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_go_to_entity")) != 1))
 				{
 					func_14(&(Local_81.f_67));
 					Local_81.f_66 = 3;
@@ -1374,7 +1374,7 @@ int func_29()
 				break;
 			
 			case 3:
-				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), 1920390111) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), 1920390111) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_achieve_heading")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_achieve_heading")) != 1)
 				{
 					Local_81.f_3 = 4;
 				}
@@ -5671,9 +5671,9 @@ int func_170()
 			break;
 		
 		case 2:
-			if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 713668775) != 0)
+			if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_follow_nav_mesh_to_coord")) != 0)
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 713668775) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 				{
 					if (func_46(PLAYER::PLAYER_ID(), 1, 1))
 					{
@@ -5686,7 +5686,7 @@ int func_170()
 		case 3:
 			if (!BitTest(Local_81.f_25, 5) && !BitTest(Local_154[NETWORK::PARTICIPANT_ID_TO_INT() /*10*/].f_5, 0))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 1227113341) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 1227113341) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_go_to_entity")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_go_to_entity")) != 1)
 				{
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(NETWORK::NET_TO_PED(Local_81.f_15), PLAYER::PLAYER_PED_ID(), 10000);
 					MISC::SET_BIT(&(Local_154[NETWORK::PARTICIPANT_ID_TO_INT() /*10*/].f_5), 0);
@@ -5709,7 +5709,7 @@ int func_170()
 			}
 			if (BitTest(Local_81.f_25, 7) || BitTest(Local_154[NETWORK::PARTICIPANT_ID_TO_INT() /*10*/].f_5, 2))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), -1442466670) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), -1442466670) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_combat_hated_targets_around_ped")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_combat_hated_targets_around_ped")) != 1)
 				{
 					TASK::CLEAR_PED_TASKS(NETWORK::NET_TO_PED(Local_81.f_15));
 					PED::SET_PED_RELATIONSHIP_GROUP_HASH(NETWORK::NET_TO_PED(Local_81.f_15), Global_1837189);
@@ -5720,13 +5720,13 @@ int func_170()
 			break;
 		
 		case 5:
-			if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 242628503) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), 242628503) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_perform_sequence")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_perform_sequence")) != 1)
 			{
 				TASK::CLEAR_PED_TASKS(NETWORK::NET_TO_PED(Local_81.f_15));
 				TASK::TASK_PERFORM_SEQUENCE(NETWORK::NET_TO_PED(Local_81.f_15), iLocal_550);
 				PED::SET_PED_KEEP_TASK(NETWORK::NET_TO_PED(Local_81.f_15), true);
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), -875674219) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), -875674219) != 0)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_turn_ped_to_face_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_15), joaat("script_task_turn_ped_to_face_entity")) != 0)
 			{
 				if (func_18(&uLocal_570, 5000, 0))
 				{
@@ -7132,7 +7132,7 @@ int func_222()
 						}
 						MISC::SET_BIT(&(Local_475.f_52), 17);
 					}
-					else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -875674219) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -875674219) != 0)
+					else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_turn_ped_to_face_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_turn_ped_to_face_entity")) != 0)
 					{
 						if (func_18(&uLocal_570, 5000, 0))
 						{
@@ -7169,7 +7169,7 @@ int func_222()
 					MISC::SET_BIT(&(Local_154[NETWORK::PARTICIPANT_ID_TO_INT() /*10*/]), 0);
 				}
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -875674219) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -875674219) != 0)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_turn_ped_to_face_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_turn_ped_to_face_entity")) != 0)
 			{
 				if (func_18(&uLocal_570, 5000, 0))
 				{
@@ -7197,7 +7197,7 @@ int func_222()
 		case 3:
 			if (!BitTest(Local_475.f_52, 25))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), 1920390111) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), 1920390111) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_achieve_heading")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_achieve_heading")) != 1)
 				{
 					PED::SET_PED_KEEP_TASK(NETWORK::NET_TO_PED(Local_81.f_0), true);
 					PED::SET_PED_FLEE_ATTRIBUTES(NETWORK::NET_TO_PED(Local_81.f_0), 2, false);
@@ -7258,7 +7258,7 @@ int func_222()
 		case 5:
 			if (!BitTest(Local_154[NETWORK::PARTICIPANT_ID_TO_INT() /*10*/], 10))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), 242628503) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), 242628503) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_perform_sequence")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_perform_sequence")) != 1)
 				{
 					if (!PED::IS_PED_RAGDOLL(NETWORK::NET_TO_PED(Local_81.f_0)))
 					{
@@ -7273,7 +7273,7 @@ int func_222()
 					}
 				}
 			}
-			else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -875674219) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -875674219) != 0)
+			else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_turn_ped_to_face_entity")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_turn_ped_to_face_entity")) != 0)
 			{
 				if (func_18(&uLocal_570, 5000, 0))
 				{
@@ -7318,7 +7318,7 @@ int func_222()
 			break;
 		
 		case 7:
-			if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -1442466670) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -1442466670) != 1)
+			if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_combat_hated_targets_around_ped")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_combat_hated_targets_around_ped")) != 1)
 			{
 				if (!func_171())
 				{
@@ -9223,7 +9223,7 @@ void func_266(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 				{
 					PLAYER::SET_PLAYER_CONTROL(PLAYER::PLAYER_ID(), false, 0);
 				}
-				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), -875674219) == 7)
+				if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_turn_ped_to_face_entity")) == 7)
 				{
 					if (!BitTest(iParam8->f_1, 1))
 					{
@@ -18181,7 +18181,7 @@ int func_437(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -18340,7 +18340,7 @@ void func_446()
 								PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(NETWORK::NET_TO_PED(Local_81.f_0), false);
 							}
 						}
-						else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -1442466670) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), -1442466670) != 1)
+						else if (TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_combat_hated_targets_around_ped")) != 0 && TASK::GET_SCRIPT_TASK_STATUS(NETWORK::NET_TO_PED(Local_81.f_0), joaat("script_task_combat_hated_targets_around_ped")) != 1)
 						{
 							TASK::CLEAR_PED_TASKS(NETWORK::NET_TO_PED(Local_81.f_0));
 							if (!WEAPON::HAS_PED_GOT_WEAPON(NETWORK::NET_TO_PED(Local_81.f_0), joaat("weapon_pistol"), false))

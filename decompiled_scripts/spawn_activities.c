@@ -266,7 +266,7 @@ int func_1()
 					break;
 				
 				case 1:
-					if ((func_37() || !func_35(-258271821)) || func_36())
+					if ((func_37() || !func_35(joaat("script_task_vehicle_drive_wander"))) || func_36())
 					{
 						if (PED::IS_PED_IN_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), false))
 						{
@@ -282,7 +282,7 @@ int func_1()
 					break;
 				
 				case 2:
-					if ((func_37() || !func_35(-1146898486)) || func_36())
+					if ((func_37() || !func_35(joaat("script_task_wander_standard"))) || func_36())
 					{
 						TASK::CLEAR_PED_TASKS(PLAYER::PLAYER_PED_ID());
 						iLocal_115 = 0;
@@ -1457,7 +1457,7 @@ int func_23(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;

@@ -1321,7 +1321,7 @@ int func_28(int iParam0, int iParam1)
 					fVar17 = MISC::ABSF((fVar15 - fVar16));
 					if (fVar17 > 45f)
 					{
-						if (!TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], 1920390111) == 1)
+						if (!TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], joaat("script_task_achieve_heading")) == 1)
 						{
 							TASK::TASK_ACHIEVE_HEADING((*iParam0)[iVar0], fVar16, 0);
 						}
@@ -1349,7 +1349,7 @@ int func_28(int iParam0, int iParam1)
 						(*iParam1)[iVar0] = 10;
 						break;
 					}
-					if (!TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], 713668775) == 1 && !TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], 713668775) == 0)
+					if (!TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], joaat("script_task_follow_nav_mesh_to_coord")) == 1 && !TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], joaat("script_task_follow_nav_mesh_to_coord")) == 0)
 					{
 						TASK::TASK_FOLLOW_NAV_MESH_TO_COORD((*iParam0)[iVar0], Var21, 0.5f, -1, 0.25f, false, 40000f);
 						break;
@@ -1357,7 +1357,7 @@ int func_28(int iParam0, int iParam1)
 					break;
 				
 				case 10:
-					if (TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], -71340211) == 7 || TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], -71340211) == 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], joaat("script_task_put_ped_directly_into_melee")) == 7 || TASK::GET_SCRIPT_TASK_STATUS((*iParam0)[iVar0], joaat("script_task_put_ped_directly_into_melee")) == 1)
 					{
 						iVar25 = 0;
 						while (iVar25 < *iParam0)

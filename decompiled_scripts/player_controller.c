@@ -108849,7 +108849,7 @@ void func_659()
 		{
 			if (ENTITY::IS_ENTITY_ON_SCREEN(Local_75.f_17[iLocal_280]))
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(Local_75.f_17[iLocal_280], -1146898486) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(Local_75.f_17[iLocal_280], joaat("script_task_wander_standard")) != 1)
 				{
 					TASK::TASK_WANDER_STANDARD(Local_75.f_17[iLocal_280], 40000f, 0);
 				}
@@ -109064,7 +109064,7 @@ void func_663()
 			{
 				if (!ENTITY::IS_ENTITY_DEAD(Global_99905[iLocal_279], false))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(Global_99905[iLocal_279], -1146898486) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Global_99905[iLocal_279], -251125078) != 1)
+					if (TASK::GET_SCRIPT_TASK_STATUS(Global_99905[iLocal_279], joaat("script_task_wander_standard")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(Global_99905[iLocal_279], -251125078) != 1)
 					{
 						TASK::TASK_WANDER_STANDARD(Global_99905[iLocal_279], 40000f, 0);
 					}

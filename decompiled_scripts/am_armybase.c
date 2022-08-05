@@ -2814,7 +2814,7 @@ void func_108(int iParam0)
 				{
 					TASK::TASK_AIM_GUN_AT_ENTITY(iVar0, func_111(iParam0), -1, false);
 				}
-				if (func_110(iParam0, 1630799643))
+				if (func_110(iParam0, joaat("script_task_aim_gun_at_entity")))
 				{
 					func_47(&(Local_121[NETWORK::PARTICIPANT_ID_TO_INT() /*8*/].f_1[iParam0]), 4);
 				}
@@ -2891,7 +2891,7 @@ void func_108(int iParam0)
 					}
 				}
 			}
-			if (!func_110(iParam0, 1630799643))
+			if (!func_110(iParam0, joaat("script_task_aim_gun_at_entity")))
 			{
 				if (func_112(iParam0))
 				{
@@ -2910,7 +2910,7 @@ void func_108(int iParam0)
 				{
 					TASK::CLEAR_PED_TASKS(iVar0);
 				}
-				if (!func_110(iParam0, 1435919172))
+				if (!func_110(iParam0, joaat("script_task_any")))
 				{
 					func_43(&(Local_121[NETWORK::PARTICIPANT_ID_TO_INT() /*8*/].f_1[iParam0]), 4);
 					func_43(&(Local_121[NETWORK::PARTICIPANT_ID_TO_INT() /*8*/].f_1[iParam0]), 64);

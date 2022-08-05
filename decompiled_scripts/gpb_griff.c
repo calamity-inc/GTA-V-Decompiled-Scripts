@@ -683,7 +683,7 @@ void __EntryFunction__()
 			
 			case 6:
 				GRAPHICS::DRAW_DEBUG_TEXT_2D("WAIT_MOVE_BACK_TO_INITIAL_POSITION", 0.02f, 0.25f, 0f, 0, 0, 255, 255);
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, 713668775) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, 713668775) != 0)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, joaat("script_task_follow_nav_mesh_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, joaat("script_task_follow_nav_mesh_to_coord")) != 0)
 				{
 					GRAPHICS::DRAW_DEBUG_TEXT_2D("WAIT_MOVE_BACK_TO_INITIAL_POSITION TASK_PLAY_ANIM", 0.02f, 0.26f, 0f, 0, 0, 255, 255);
 					TASK::TASK_PLAY_ANIM(iLocal_240, &cLocal_340, "idle_intro", 4f, -4f, -1, 0, 0f, false, false, false);
@@ -2312,7 +2312,7 @@ int func_61()
 
 int func_62()
 {
-	if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, -2017877118) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, -2017877118) != 0)
+	if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, joaat("script_task_play_anim")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_240, joaat("script_task_play_anim")) != 0)
 	{
 		return 0;
 	}

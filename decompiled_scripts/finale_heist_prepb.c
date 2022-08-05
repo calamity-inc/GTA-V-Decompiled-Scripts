@@ -10617,7 +10617,7 @@ void func_190()
 			}
 			if (iLocal_433[0] == 1)
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[0], 150319005) != 0 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[0], 150319005) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[0], joaat("script_task_look_at_entity")) != 0 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[0], joaat("script_task_look_at_entity")) != 1)
 				{
 					iLocal_433[0] = 0;
 				}
@@ -10640,7 +10640,7 @@ void func_190()
 			}
 			if (iLocal_433[1] == 1)
 			{
-				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[1], 150319005) != 0 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[1], 150319005) != 1)
+				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[1], joaat("script_task_look_at_entity")) != 0 || TASK::GET_SCRIPT_TASK_STATUS(iLocal_43[1], joaat("script_task_look_at_entity")) != 1)
 				{
 					iLocal_433[1] = 0;
 				}
@@ -12654,7 +12654,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(912.2f, -1542.5f, 29.8f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[0], 912.2f, -1542.5f, 29.8f, 20f, 0);
 						}
@@ -12664,7 +12664,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(917.4f, -1517.4f, 30f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[1], 917.4f, -1517.4f, 30f, 20f, 0);
 						}
@@ -12674,7 +12674,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(869.8f, -1541.2f, 29.4f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[2], 869.8f, -1541.2f, 29.4f, 20f, 0);
 						}
@@ -12684,7 +12684,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(884.2f, -1574.1f, 30f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[3], 884.2f, -1574.1f, 30f, 20f, 0);
 						}
@@ -12694,7 +12694,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(904f, -1575f, 30f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[4], 904f, -1575f, 30f, 20f, 0);
 						}
@@ -12704,7 +12704,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(905.9f, -1574.8f, 29.9f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[5], 905.9f, -1574.8f, 29.9f, 20f, 0);
 						}
@@ -12714,7 +12714,7 @@ void func_203(int iParam0)
 				{
 					if (TASK::DOES_SCENARIO_EXIST_IN_AREA(889.5f, -1562f, 29.7f, 3f, false))
 					{
-						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], -1680762137) != 1)
+						if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 						{
 							TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[6], 889.5f, -1562f, 29.7f, 20f, 0);
 						}
@@ -12900,7 +12900,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(912.2f, -1542.5f, 29.8f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[0], 912.2f, -1542.5f, 29.8f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[0], true);
@@ -12911,7 +12911,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(917.4f, -1517.4f, 30f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[1], 917.4f, -1517.4f, 30f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[1], true);
@@ -12922,7 +12922,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(869.8f, -1541.2f, 29.4f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[2], 869.8f, -1541.2f, 29.4f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[2], true);
@@ -12933,7 +12933,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(884.2f, -1574.1f, 30f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[3], 884.2f, -1574.1f, 30f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[3], true);
@@ -12944,7 +12944,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(904f, -1575f, 30f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[4], 904f, -1575f, 30f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[4], true);
@@ -12955,7 +12955,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(905.9f, -1574.8f, 29.9f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[5], 905.9f, -1574.8f, 29.9f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[5], true);
@@ -12966,7 +12966,7 @@ void func_203(int iParam0)
 								{
 									if (TASK::DOES_SCENARIO_EXIST_IN_AREA(889.5f, -1562f, 29.7f, 3f, false))
 									{
-										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], -1680762137) != 1)
+										if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 										{
 											TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[6], 889.5f, -1562f, 29.7f, 20f, 0);
 											PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[6], true);
@@ -13022,7 +13022,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(912.2f, -1542.5f, 29.8f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[0], 912.2f, -1542.5f, 29.8f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[0], true);
@@ -13033,7 +13033,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(917.4f, -1517.4f, 30f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[1], 917.4f, -1517.4f, 30f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[1], true);
@@ -13044,7 +13044,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(869.8f, -1541.2f, 29.4f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[2], 869.8f, -1541.2f, 29.4f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[2], true);
@@ -13055,7 +13055,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(884.2f, -1574.1f, 30f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[3], 884.2f, -1574.1f, 30f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[3], true);
@@ -13066,7 +13066,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(904f, -1575f, 30f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[4], 904f, -1575f, 30f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[4], true);
@@ -13077,7 +13077,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(905.9f, -1574.8f, 29.9f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[5], 905.9f, -1574.8f, 29.9f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[5], true);
@@ -13088,7 +13088,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(889.5f, -1562f, 29.7f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[6], 889.5f, -1562f, 29.7f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[6], true);
@@ -13123,7 +13123,7 @@ void func_203(int iParam0)
 						{
 							if (func_184(iParam0, PLAYER::PLAYER_PED_ID(), 1) > 3f)
 							{
-								if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) != 0 || TASK::GET_SCRIPT_TASK_STATUS(iParam0, 242628503) != 1)
+								if (TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) != 0 || TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_perform_sequence")) != 1)
 								{
 									if (!ENTITY::IS_ENTITY_ON_SCREEN(iParam0))
 									{
@@ -13149,7 +13149,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(912.2f, -1542.5f, 29.8f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[0], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[0], 912.2f, -1542.5f, 29.8f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[0], true);
@@ -13160,7 +13160,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(917.4f, -1517.4f, 30f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[1], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[1], 917.4f, -1517.4f, 30f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[1], true);
@@ -13171,7 +13171,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(869.8f, -1541.2f, 29.4f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[2], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[2], 869.8f, -1541.2f, 29.4f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[2], true);
@@ -13182,7 +13182,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(884.2f, -1574.1f, 30f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[3], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[3], 884.2f, -1574.1f, 30f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[3], true);
@@ -13193,7 +13193,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(904f, -1575f, 30f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[4], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[4], 904f, -1575f, 30f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[4], true);
@@ -13204,7 +13204,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(905.9f, -1574.8f, 29.9f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[5], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[5], 905.9f, -1574.8f, 29.9f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[5], true);
@@ -13215,7 +13215,7 @@ void func_203(int iParam0)
 							{
 								if (TASK::DOES_SCENARIO_EXIST_IN_AREA(889.5f, -1562f, 29.7f, 3f, false))
 								{
-									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], 1647992574) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], -1680762137) != 1)
+									if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_to_pos")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(iLocal_35[6], joaat("script_task_use_nearest_scenario_chain_to_pos")) != 1)
 									{
 										TASK::TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD(iLocal_35[6], 889.5f, -1562f, 29.7f, 20f, 0);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_35[6], true);

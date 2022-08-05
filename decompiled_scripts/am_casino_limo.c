@@ -2114,7 +2114,7 @@ void func_42()
 			switch (func_5())
 			{
 				case 1:
-					if (func_43(iVar1, -258271821, 1))
+					if (func_43(iVar1, joaat("script_task_vehicle_drive_wander"), 1))
 					{
 						func_44(2);
 					}
@@ -16385,7 +16385,7 @@ void func_309()
 			}
 			else if (CAM::IS_SCREEN_FADED_IN())
 			{
-				if (func_325(PLAYER::PLAYER_PED_ID(), func_7()) && !func_43(PLAYER::PLAYER_PED_ID(), -828834893, 1))
+				if (func_325(PLAYER::PLAYER_PED_ID(), func_7()) && !func_43(PLAYER::PLAYER_PED_ID(), joaat("script_task_leave_any_vehicle"), 1))
 				{
 					TASK::TASK_LEAVE_ANY_VEHICLE(PLAYER::PLAYER_PED_ID(), 0, 0);
 				}
@@ -16769,7 +16769,7 @@ int func_318(int iParam0)
 	}
 	else
 	{
-		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, -1794415470);
+		iVar0 = TASK::GET_SCRIPT_TASK_STATUS(iParam0, joaat("script_task_enter_vehicle"));
 		if (iVar0 == 0)
 		{
 			return 1;
@@ -17252,7 +17252,7 @@ void func_335()
 				}
 				else if (!func_73(PLAYER::PLAYER_ID(), 0))
 				{
-					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1992968846) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), 1992968846) != 0)
+					if (TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_parachute")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(PLAYER::PLAYER_PED_ID(), joaat("script_task_parachute")) != 0)
 					{
 						NETWORK::SET_LOCAL_PLAYER_VISIBLE_LOCALLY(true);
 						NETWORK::SET_PLAYER_VISIBLE_LOCALLY(PLAYER::PLAYER_ID(), true);
@@ -54479,7 +54479,7 @@ void func_608()
 		case 2:
 			if (bVar2 && bVar3)
 			{
-				if ((func_630(3) && !func_43(iVar1, 242628503, 1)) && func_12())
+				if ((func_630(3) && !func_43(iVar1, joaat("script_task_perform_sequence"), 1)) && func_12())
 				{
 					TASK::OPEN_SEQUENCE_TASK(&iVar4);
 					TASK::TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(0, func_7(), func_50(), func_385(), func_611(), func_528());
@@ -54494,7 +54494,7 @@ void func_608()
 		case 4:
 			if (bVar2 && bVar3)
 			{
-				if ((func_630(3) && !func_43(iVar1, -1273030092, 1)) && func_12())
+				if ((func_630(3) && !func_43(iVar1, joaat("script_task_vehicle_mission"), 1)) && func_12())
 				{
 					TASK::TASK_VEHICLE_MISSION(iVar1, func_7(), func_7(), 22, func_385(), func_611(), -1f, -1f, true);
 				}
@@ -54524,7 +54524,7 @@ void func_608()
 		case 5:
 			if (bVar2 && bVar3)
 			{
-				if ((func_305(iVar0) && !func_43(iVar1, -258271821, 1)) && func_12())
+				if ((func_305(iVar0) && !func_43(iVar1, joaat("script_task_vehicle_drive_wander"), 1)) && func_12())
 				{
 					TASK::TASK_VEHICLE_DRIVE_WANDER(iVar1, func_7(), func_385(), func_611());
 				}

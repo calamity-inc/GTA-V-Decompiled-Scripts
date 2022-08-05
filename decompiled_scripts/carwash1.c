@@ -639,11 +639,11 @@ int func_16(var uParam0, int iParam1)
 	iVar0 = VEHICLE::GET_PED_IN_VEHICLE_SEAT(iParam1, -1, false);
 	if (func_68(iVar0))
 	{
-		iLocal_69 = (TASK::GET_SCRIPT_TASK_STATUS(iVar0, 242628503) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iVar0, 242628503) == 0);
+		iLocal_69 = (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_perform_sequence")) == 1 || TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_perform_sequence")) == 0);
 		if (iLocal_69)
 		{
 			iLocal_71 = TASK::GET_SEQUENCE_PROGRESS(iVar0);
-			iLocal_70 = (TASK::GET_SCRIPT_TASK_STATUS(iVar0, 242628503) == 7 && iLocal_71 == (uParam0->f_350 - 1));
+			iLocal_70 = (TASK::GET_SCRIPT_TASK_STATUS(iVar0, joaat("script_task_perform_sequence")) == 7 && iLocal_71 == (uParam0->f_350 - 1));
 		}
 		if (iLocal_67)
 		{

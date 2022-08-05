@@ -2773,7 +2773,7 @@ void func_79()
 				break;
 			
 			case 2:
-				if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_157, 242628503) != 1 || PED::IS_PED_FACING_PED(iLocal_157, PLAYER::PLAYER_PED_ID(), 20f)) && !AUDIO::IS_SCRIPTED_CONVERSATION_ONGOING())
+				if ((TASK::GET_SCRIPT_TASK_STATUS(iLocal_157, joaat("script_task_perform_sequence")) != 1 || PED::IS_PED_FACING_PED(iLocal_157, PLAYER::PLAYER_PED_ID(), 20f)) && !AUDIO::IS_SCRIPTED_CONVERSATION_ONGOING())
 				{
 					TASK::TASK_TURN_PED_TO_FACE_ENTITY(iLocal_157, PLAYER::PLAYER_PED_ID(), -1);
 					if (!iLocal_162)
