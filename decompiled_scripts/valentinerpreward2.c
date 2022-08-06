@@ -162,7 +162,7 @@ void __EntryFunction__()
 {
 	int iVar0;
 	
-	sLocal_0 = "1.57.03";
+	sLocal_0 = "1.57.03_v2";
 	iLocal_11 = -1;
 	iLocal_28 = -1;
 	iLocal_29 = -1;
@@ -9743,6 +9743,10 @@ void func_344()
 		
 		case joaat("euros"):
 			Global_1966342 = 0.6f;
+			break;
+		
+		case joaat("jb7002"):
+			Global_1966342 = 0.8f;
 			break;
 	}
 }
