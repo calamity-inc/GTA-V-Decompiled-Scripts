@@ -164,7 +164,7 @@ void __EntryFunction__()
 {
 	int iVar0;
 	
-	sLocal_0 = "1.57.06";
+	sLocal_0 = "1.57.07";
 	iLocal_11 = -1;
 	iLocal_28 = -1;
 	iLocal_29 = -1;
@@ -2982,7 +2982,7 @@ int func_102(int iParam0)
 		{
 			if ((ENTITY::DOES_ENTITY_EXIST(uVar5[iVar0]) && ENTITY::IS_ENTITY_A_VEHICLE(uVar5[iVar0])) && !PED::IS_PED_IN_VEHICLE(PLAYER::PLAYER_PED_ID(), uVar5[iVar0], false))
 			{
-				if (!ENTITY::IS_ENTITY_DEAD(uVar5[iVar0], false) && !func_104(uVar5[iVar0], 1))
+				if (!func_104(uVar5[iVar0], 0))
 				{
 					if (func_103(uVar5[iVar0], Var2, 1) < 8f)
 					{
@@ -10256,6 +10256,24 @@ void func_367()
 			Global_1966358 = 0f;
 			Global_1966359 = 180f;
 			break;
+		
+		case joaat("zion3"):
+			Global_1966354 = 0f;
+			Global_1966355 = -1.56f;
+			Global_1966356 = 0.695f;
+			Global_1966357 = -2.6f;
+			Global_1966358 = 0f;
+			Global_1966359 = 180f;
+			break;
+		
+		case joaat("granger2"):
+			Global_1966354 = 0f;
+			Global_1966355 = -2.25f;
+			Global_1966356 = 0.905f;
+			Global_1966357 = -7f;
+			Global_1966358 = 0f;
+			Global_1966359 = 180f;
+			break;
 	}
 }
 
@@ -10333,6 +10351,18 @@ void func_368()
 		
 		case joaat("turismor"):
 			Global_1966342 = 0.42f;
+			break;
+		
+		case joaat("rt3000"):
+			Global_1966342 = 0.6f;
+			break;
+		
+		case joaat("sugoi"):
+			Global_1966342 = 0.58f;
+			break;
+		
+		case joaat("cinquemila"):
+			Global_1966342 = 0.65f;
 			break;
 	}
 }
