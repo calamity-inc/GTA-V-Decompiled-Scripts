@@ -85,9 +85,9 @@
 	var uLocal_83 = 0;
 	var uLocal_84 = 0;
 	var uLocal_85 = 0;
-	var uLocal_86 = -1;
+	var uLocal_86 = 0;
 	var uLocal_87 = 0;
-	var uLocal_88 = 0;
+	var uLocal_88 = -1;
 	var uLocal_89 = 0;
 	var uLocal_90 = 0;
 	var uLocal_91 = 0;
@@ -109,6 +109,8 @@
 	var uLocal_107 = 0;
 	var uLocal_108 = 0;
 	var uLocal_109 = 0;
+	var uLocal_110 = 0;
+	var uLocal_111 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -174,7 +176,7 @@ int func_3(int iParam0, int iParam1, bool bParam2)
 				return 0;
 			}
 		}
-		if (!func_6())
+		if (!func_6(0))
 		{
 			if (iParam0 == 0)
 			{
@@ -229,7 +231,7 @@ int func_3(int iParam0, int iParam1, bool bParam2)
 	}
 	if (iParam1 > -1)
 	{
-		Global_1574665 = iVar0;
+		Global_1574666 = iVar0;
 	}
 	if (iParam0 == 0)
 	{
@@ -270,12 +272,15 @@ int func_4(int iParam0)
 
 bool func_5()
 {
-	return Global_2714635.f_693;
+	return Global_2714762.f_693;
 }
 
-bool func_6()
+bool func_6(bool bParam0)
 {
-	return Global_1575030;
+	if (bParam0)
+	{
+	}
+	return Global_1575033;
 }
 
 void func_7()

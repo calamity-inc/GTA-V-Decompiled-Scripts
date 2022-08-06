@@ -44,11 +44,11 @@ void __EntryFunction__()
 	sLocal_20 = "NULL";
 	while (true)
 	{
-		if (func_7() || Global_1957920 == 1)
+		if (func_7() || Global_1957703 == 1)
 		{
 			func_6();
 		}
-		if (func_1(&uLocal_21, &Global_294351))
+		if (func_1(&uLocal_21, &Global_295821))
 		{
 			func_6();
 		}
@@ -21349,11 +21349,11 @@ void func_2(int iParam0, var uParam1)
 
 int func_3()
 {
-	if (Global_2722503)
+	if (Global_2722673)
 	{
 		return 32;
 	}
-	return (32 - Global_2722504);
+	return (32 - Global_2722674);
 }
 
 int func_4(int iParam0)
@@ -21501,7 +21501,7 @@ void func_6()
 
 int func_7()
 {
-	if (Global_1575030 == 0)
+	if (Global_1575033 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -21512,7 +21512,7 @@ int func_7()
 	{
 		return 1;
 	}
-	if (Global_2727490)
+	if (Global_2727795)
 	{
 		return 1;
 	}
@@ -21562,7 +21562,7 @@ int func_8()
 
 int func_9()
 {
-	switch (Global_2727594)
+	switch (Global_2727899)
 	{
 		case 0:
 			return joaat("freemode");
@@ -21574,12 +21574,12 @@ int func_9()
 
 int func_10()
 {
-	return Global_31511;
+	return Global_31959;
 }
 
 bool func_11()
 {
-	return Global_2714635.f_698;
+	return Global_2714762.f_698;
 }
 
 int func_12(int iParam0)
@@ -21593,11 +21593,11 @@ int func_12(int iParam0)
 
 bool func_13()
 {
-	return Global_2725233;
+	return Global_2725403;
 }
 
 bool func_14()
 {
-	return Global_2714635.f_693;
+	return Global_2714762.f_693;
 }
 

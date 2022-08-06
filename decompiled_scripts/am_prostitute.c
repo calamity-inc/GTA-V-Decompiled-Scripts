@@ -89,7 +89,7 @@ void __EntryFunction__()
 	iLocal_43 = 64;
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		func_48(ScriptParam_0);
+		func_49(ScriptParam_0);
 	}
 	else
 	{
@@ -240,7 +240,7 @@ void func_2()
 		case 2:
 			if (func_4())
 			{
-				Global_31665 = 0f;
+				Global_32113 = 0f;
 				SCRIPT::REQUEST_SCRIPT("pb_prostitute");
 				iLocal_53 = MISC::GET_GAME_TIMER() + 250;
 				Local_58[iVar2 /*3*/].f_2 = 0;
@@ -292,7 +292,7 @@ void func_2()
 
 bool func_3()
 {
-	return Global_1964193;
+	return Global_1963976;
 }
 
 int func_4()
@@ -321,7 +321,7 @@ void func_5()
 	struct<2> Var0;
 	int iVar2;
 	
-	Var0.f_0 = -1322571352;
+	Var0.f_0 = 1866600591;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	iVar2 = func_6(1, 1);
 	if (iVar2 != 0)
@@ -369,7 +369,7 @@ bool func_7(int iParam0, int iParam1)
 	}
 	else
 	{
-		bVar0 = Global_1853131[iParam0 /*888*/].f_205 == 8;
+		bVar0 = Global_1853348[iParam0 /*834*/].f_205 == 8;
 	}
 	if (iParam1 == 1)
 	{
@@ -391,7 +391,7 @@ int func_8(int iParam0, bool bParam1)
 	{
 		iVar1 = func_9();
 	}
-	if (Global_1575034[iVar1] == 1)
+	if (Global_1575038[iVar1] == 1)
 	{
 		if (bParam1)
 		{
@@ -400,7 +400,7 @@ int func_8(int iParam0, bool bParam1)
 	}
 	else
 	{
-		iVar0 = Global_1574909[iVar1];
+		iVar0 = Global_1574912[iVar1];
 		if (bParam1)
 		{
 		}
@@ -410,7 +410,7 @@ int func_8(int iParam0, bool bParam1)
 
 int func_9()
 {
-	return Global_1574915;
+	return Global_1574918;
 }
 
 int func_10(int iParam0, bool bParam1, bool bParam2)
@@ -431,11 +431,11 @@ int func_10(int iParam0, bool bParam1, bool bParam2)
 			}
 			if (bParam2)
 			{
-				if (iVar0 == Global_2703660.f_3)
+				if (iVar0 == Global_2703735.f_3)
 				{
-					return Global_2703660.f_2;
+					return Global_2703735.f_2;
 				}
-				else if (Global_2689224[iVar0 /*451*/] != 4)
+				else if (Global_2689235[iVar0 /*453*/] != 4)
 				{
 					return 0;
 				}
@@ -663,14 +663,14 @@ int func_20(int iParam0)
 {
 	if (func_21(iParam0, 0))
 	{
-		return Global_1893551[iParam0 /*599*/].f_10.f_33;
+		return Global_1892703[iParam0 /*599*/].f_10.f_33;
 	}
 	return -1;
 }
 
 int func_21(int iParam0, int iParam1)
 {
-	if (Global_1893551[iParam0 /*599*/].f_10.f_33 != -1 || (iParam1 && Global_1893551[iParam0 /*599*/].f_10.f_32 != -1))
+	if (Global_1892703[iParam0 /*599*/].f_10.f_33 != -1 || (iParam1 && Global_1892703[iParam0 /*599*/].f_10.f_32 != -1))
 	{
 		return 1;
 	}
@@ -690,14 +690,14 @@ int func_23(int iParam0)
 {
 	if (func_21(iParam0, 0))
 	{
-		return Global_1893551[iParam0 /*599*/].f_10.f_182;
+		return Global_1892703[iParam0 /*599*/].f_10.f_182;
 	}
 	return -1;
 }
 
 bool func_24()
 {
-	return BitTest(Global_1853131[PLAYER::PLAYER_ID() /*888*/].f_36.f_18, 0);
+	return BitTest(Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_36.f_18, 0);
 }
 
 int func_25(int iParam0, bool bParam1, bool bParam2)
@@ -712,7 +712,7 @@ int func_25(int iParam0, bool bParam1, bool bParam2)
 	if (!bParam2)
 	{
 	}
-	if (Global_1853131[iParam0 /*888*/] == -1)
+	if (Global_1853348[iParam0 /*834*/] == -1)
 	{
 		return 0;
 	}
@@ -726,7 +726,7 @@ bool func_26(int iParam0)
 
 var func_27(int iParam0)
 {
-	return BitTest(Global_1853131[iParam0 /*888*/].f_11.f_1, 0);
+	return BitTest(Global_1853348[iParam0 /*834*/].f_11.f_1, 0);
 }
 
 int func_28(int iParam0)
@@ -747,9 +747,9 @@ int func_29(int iParam0)
 	{
 		if (func_10(iParam0, 1, 1))
 		{
-			if (Global_2689224[iParam0 /*451*/].f_317.f_6 != -1)
+			if (Global_2689235[iParam0 /*453*/].f_318.f_6 != -1)
 			{
-				return func_30(Global_2689224[iParam0 /*451*/].f_317.f_6) == 11;
+				return func_30(Global_2689235[iParam0 /*453*/].f_318.f_6) == 11;
 			}
 		}
 	}
@@ -1003,17 +1003,17 @@ int func_31()
 
 bool func_32(int iParam0)
 {
-	return Global_2689224[iParam0 /*451*/].f_119 == 7;
+	return Global_2689235[iParam0 /*453*/].f_119 == 7;
 }
 
 bool func_33(int iParam0)
 {
-	return Global_2689224[iParam0 /*451*/].f_119 == 2;
+	return Global_2689235[iParam0 /*453*/].f_119 == 2;
 }
 
 int func_34()
 {
-	if (Global_1575030 == 0)
+	if (Global_1575033 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -1024,7 +1024,7 @@ int func_34()
 	{
 		return 1;
 	}
-	if (Global_2727490)
+	if (Global_2727795)
 	{
 		return 1;
 	}
@@ -1074,7 +1074,7 @@ int func_35()
 
 int func_36()
 {
-	switch (Global_2727594)
+	switch (Global_2727899)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1086,12 +1086,12 @@ int func_36()
 
 int func_37()
 {
-	return Global_31511;
+	return Global_31959;
 }
 
 bool func_38()
 {
-	return Global_2714635.f_698;
+	return Global_2714762.f_698;
 }
 
 int func_39(int iParam0)
@@ -1105,12 +1105,12 @@ int func_39(int iParam0)
 
 bool func_40()
 {
-	return Global_2725233;
+	return Global_2725403;
 }
 
 bool func_41()
 {
-	return Global_2714635.f_693;
+	return Global_2714762.f_693;
 }
 
 void func_42()
@@ -1128,7 +1128,7 @@ void func_43()
 		STREAMING::REMOVE_ANIM_DICT("mini@prostitutes@sexnorm_veh_first_person");
 		STREAMING::REMOVE_ANIM_DICT("anim@mini@prostitutes@sex@veh_vstr@");
 	}
-	if (!func_47(PLAYER::PLAYER_ID()) && !func_46(PLAYER::PLAYER_ID()))
+	if ((!func_48(PLAYER::PLAYER_ID()) && !func_47(PLAYER::PLAYER_ID())) && !func_46(PLAYER::PLAYER_ID()))
 	{
 		func_45();
 	}
@@ -1141,7 +1141,7 @@ void func_43()
 	{
 		PLAYER::FORCE_CLEANUP_FOR_ALL_THREADS_WITH_THIS_NAME("pb_prostitute", 1);
 	}
-	Global_2810701.f_4 = 0;
+	Global_2815059.f_4 = 0;
 	func_44();
 }
 
@@ -1152,9 +1152,9 @@ void func_44()
 
 void func_45()
 {
-	if (Global_2703660.f_833.f_10)
+	if (Global_2703735.f_833.f_10)
 	{
-		Global_2703660.f_833.f_10 = 0;
+		Global_2703735.f_833.f_10 = 0;
 	}
 }
 
@@ -1162,7 +1162,7 @@ int func_46(int iParam0)
 {
 	if (iParam0 != func_31())
 	{
-		return BitTest(Global_1853131[iParam0 /*888*/].f_267.f_344, 29);
+		return BitTest(Global_2689235[iParam0 /*453*/].f_318.f_5, 4);
 	}
 	return 0;
 }
@@ -1171,15 +1171,24 @@ int func_47(int iParam0)
 {
 	if (iParam0 != func_31())
 	{
-		return BitTest(Global_1853131[iParam0 /*888*/].f_267.f_403.f_2, 16);
+		return BitTest(Global_1853348[iParam0 /*834*/].f_267.f_348, 29);
 	}
 	return 0;
 }
 
-void func_48(struct<21> Param0)
+int func_48(int iParam0)
 {
-	func_51(func_52(Param0.f_0), Param0);
-	func_49(0, -1, 0);
+	if (iParam0 != func_31())
+	{
+		return BitTest(Global_1853348[iParam0 /*834*/].f_267.f_408.f_2, 16);
+	}
+	return 0;
+}
+
+void func_49(struct<21> Param0)
+{
+	func_52(func_53(Param0.f_0), Param0);
+	func_50(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_PLAYER_BROADCAST_VARIABLES(&Local_58, 97, 0);
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -1192,7 +1201,7 @@ void func_48(struct<21> Param0)
 	MISC::SET_THIS_SCRIPT_CAN_BE_PAUSED(false);
 }
 
-int func_49(int iParam0, int iParam1, bool bParam2)
+int func_50(int iParam0, int iParam1, bool bParam2)
 {
 	int iVar0;
 	
@@ -1210,7 +1219,7 @@ int func_49(int iParam0, int iParam1, bool bParam2)
 				return 0;
 			}
 		}
-		if (!func_50())
+		if (!func_51(0))
 		{
 			if (iParam0 == 0)
 			{
@@ -1265,7 +1274,7 @@ int func_49(int iParam0, int iParam1, bool bParam2)
 	}
 	if (iParam1 > -1)
 	{
-		Global_1574665 = iVar0;
+		Global_1574666 = iVar0;
 	}
 	if (iParam0 == 0)
 	{
@@ -1295,12 +1304,15 @@ int func_49(int iParam0, int iParam1, bool bParam2)
 	return 1;
 }
 
-bool func_50()
+bool func_51(bool bParam0)
 {
-	return Global_1575030;
+	if (bParam0)
+	{
+	}
+	return Global_1575033;
 }
 
-void func_51(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
+void func_52(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uParam20, var uParam21)
 {
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -1309,7 +1321,7 @@ void func_51(int iParam0, struct<17> Param1, var uParam18, var uParam19, var uPa
 	NETWORK::NETWORK_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(iParam0, false, Param1.f_16);
 }
 
-int func_52(int iParam0)
+int func_53(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -1665,10 +1677,10 @@ int func_52(int iParam0)
 		case 17:
 			return 2;
 		
-		case 146:
+		case 163:
 			return 32;
 		
-		case 147:
+		case 164:
 			return 32;
 		
 		case 19:
@@ -1692,137 +1704,140 @@ int func_52(int iParam0)
 		case 21:
 			return 32;
 		
-		case 158:
+		case 175:
 			return 32;
 		
-		case 159:
+		case 176:
 			return 32;
-		
-		case 148:
-			return 32;
-		
-		case 149:
-			return 32;
-		
-		case 153:
-			return 32;
-		
-		case 151:
-			return 32;
-		
-		case 152:
-			return 32;
-		
-		case 156:
-			return 32;
-		
-		case 157:
-			return 32;
-		
-		case 154:
-			return 32;
-		
-		case 155:
-			return 32;
-		
-		case 160:
-			return 32;
-		
-		case 161:
-			return 32;
-		
-		case 162:
-			return 32;
-		
-		case 163:
-			return 32;
-		
-		case 164:
-			return 2;
-		
-		case 169:
-			return 1;
 		
 		case 165:
-			return 2;
+			return 32;
 		
 		case 166:
-			return 4;
-		
-		case 167:
-			return 2;
-		
-		case 168:
-			return 2;
-		
-		case 150:
-			return 1;
+			return 32;
 		
 		case 170:
-			return 2;
+			return 32;
+		
+		case 168:
+			return 32;
+		
+		case 169:
+			return 32;
+		
+		case 173:
+			return 32;
+		
+		case 174:
+			return 32;
 		
 		case 171:
-		case 172:
-		case 173:
-		case 174:
-		case 175:
-		case 176:
-			return 0;
+			return 32;
 		
-		case 192:
-			return 1;
+		case 172:
+			return 32;
 		
 		case 177:
-			return 4;
+			return 32;
+		
+		case 178:
+			return 32;
+		
+		case 179:
+			return 32;
 		
 		case 180:
-			return 4;
+			return 32;
 		
 		case 181:
+			return 2;
+		
+		case 186:
 			return 1;
 		
 		case 182:
-			return 1;
+			return 2;
 		
-		case 188:
-			return 1;
+		case 183:
+			return 4;
 		
 		case 184:
 			return 2;
 		
-		case 189:
-			return 1;
-		
 		case 185:
-			return 1;
-		
-		case 183:
 			return 2;
 		
-		case 186:
-			return 8;
-		
-		case 187:
-			return 8;
-		
-		case 190:
+		case 167:
 			return 1;
 		
+		case 187:
+			return 2;
+		
+		case 188:
+		case 189:
+		case 190:
 		case 191:
+		case 192:
+		case 193:
+			return 0;
+		
+		case 209:
+			return 1;
+		
+		case 194:
+			return 4;
+		
+		case 197:
+			return 4;
+		
+		case 198:
+			return 1;
+		
+		case 199:
+			return 1;
+		
+		case 205:
+			return 1;
+		
+		case 201:
+			return 2;
+		
+		case 206:
+			return 1;
+		
+		case 202:
+			return 1;
+		
+		case 200:
+			return 2;
+		
+		case 203:
+			return 8;
+		
+		case 204:
+			return 8;
+		
+		case 207:
+			return 1;
+		
+		case 208:
 			return 2;
 		
 		case 142:
 			return 8;
 		
-		case 178:
+		case 148:
+			return 1;
+		
+		case 195:
 			return 16;
 		
-		case 179:
+		case 196:
 			return 32;
 		
 		default:
 	}
-	switch (func_53(func_54(iParam0, 1)))
+	switch (func_54(func_55(iParam0, 1)))
 	{
 		case 0:
 			return 8;
@@ -1838,7 +1853,7 @@ int func_52(int iParam0)
 	return 0;
 }
 
-int func_53(int iParam0)
+int func_54(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -1881,9 +1896,6 @@ int func_53(int iParam0)
 		case 264:
 			return 0;
 		
-		case 268:
-			return 2;
-		
 		case 269:
 			return 2;
 		
@@ -1893,52 +1905,106 @@ int func_53(int iParam0)
 		case 275:
 			return 2;
 		
+		case 268:
+			return 2;
+		
+		case 286:
+			return 2;
+		
+		case 267:
+			return 0;
+		
+		case 266:
+			return 2;
+		
+		case 287:
+			return 2;
+		
+		case 289:
+			return 2;
+		
+		case 147:
+			return 2;
+		
+		case 291:
+			return 0;
+		
+		case 292:
+			return 0;
+		
+		case 293:
+			return 0;
+		
+		case 294:
+			return 0;
+		
+		case 295:
+			return 0;
+		
+		case 296:
+			return 0;
+		
+		case 297:
+			return 0;
+		
+		case 298:
+			return 0;
+		
+		case 299:
+			return 0;
+		
+		case 300:
+			return 0;
+		
+		case 301:
+			return 0;
+		
 		default:
 	}
 	return -1;
 }
 
-int func_54(int iParam0, bool bParam1)
+int func_55(int iParam0, bool bParam1)
 {
 	switch (iParam0)
 	{
-		case 164:
+		case 181:
 			return 15;
 		
-		case 171:
+		case 188:
 			return 8;
 		
-		case 165:
+		case 182:
 			return 14;
 		
-		case 169:
+		case 186:
 			return 122;
 		
-		case 172:
+		case 189:
 			return 1;
 		
-		case 170:
+		case 187:
 			return 5;
 		
-		case 173:
+		case 190:
 			return 6;
 		
-		case 166:
+		case 183:
 			return 11;
 		
-		case 174:
+		case 191:
 			return 0;
 		
-		case 175:
+		case 192:
 			return 2;
 		
-		case 167:
+		case 184:
 			return 13;
 		
-		case 176:
+		case 193:
 			return 3;
 		
-		case 168:
+		case 185:
 			return 12;
 		
 		case 49:
@@ -2211,11 +2277,59 @@ int func_54(int iParam0, bool bParam1)
 		case 145:
 			return 275;
 		
+		case 146:
+			return 286;
+		
+		case 148:
+			return 267;
+		
+		case 147:
+			return 266;
+		
+		case 151:
+			return 147;
+		
+		case 149:
+			return 287;
+		
+		case 152:
+			return 291;
+		
+		case 153:
+			return 292;
+		
+		case 154:
+			return 293;
+		
+		case 155:
+			return 294;
+		
+		case 156:
+			return 295;
+		
+		case 157:
+			return 296;
+		
+		case 158:
+			return 297;
+		
+		case 159:
+			return 298;
+		
+		case 160:
+			return 299;
+		
+		case 161:
+			return 300;
+		
+		case 162:
+			return 301;
+		
 		default:
 	}
 	if (bParam1)
 	{
 	}
-	return 286;
+	return 304;
 }
 

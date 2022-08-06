@@ -1204,7 +1204,7 @@ void func_33(var uParam0)
 
 int func_34()
 {
-	return func_35(Global_111632.f_20, Global_111632.f_29);
+	return func_35(Global_112096.f_20, Global_112096.f_29);
 }
 
 int func_35(int iParam0, int iParam1)
@@ -1229,7 +1229,7 @@ int func_35(int iParam0, int iParam1)
 
 int func_36()
 {
-	return Global_111632.f_20;
+	return Global_112096.f_20;
 }
 
 void func_37(var uParam0)
@@ -1318,6 +1318,6 @@ void func_40(struct<61> Param0, var uParam61, var uParam62, var uParam63, var uP
 
 void func_41(int iParam0)
 {
-	Global_111632.f_22 = iParam0;
+	Global_112096.f_22 = iParam0;
 }
 

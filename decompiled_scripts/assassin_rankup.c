@@ -80,7 +80,7 @@ void __EntryFunction__()
 	{
 		if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 		{
-			Global_112922.f_19963++;
+			Global_113386.f_19963++;
 			func_1();
 			SCRIPT::TERMINATE_THIS_THREAD();
 		}
@@ -90,7 +90,7 @@ void __EntryFunction__()
 
 void func_1()
 {
-	func_2(&(Global_112922.f_19963.f_1), 2048);
+	func_2(&(Global_113386.f_19963.f_1), 2048);
 }
 
 void func_2(var uParam0, int iParam1)

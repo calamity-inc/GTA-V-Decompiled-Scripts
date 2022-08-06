@@ -48,17 +48,17 @@ void __EntryFunction__()
 	while (true)
 	{
 		SYSTEM::WAIT(0);
-		if (Global_19954.f_1 != 9)
+		if (Global_20266.f_1 != 9)
 		{
-			switch (Global_19954.f_1)
+			switch (Global_20266.f_1)
 			{
 				case 7:
 					if (iLocal_21 == 1)
 					{
-						if (func_8(2, Global_19923, 0))
+						if (func_8(2, Global_20235, 0))
 						{
 							AUDIO::PLAY_SOUND_FRONTEND(-1, "Lester_Laugh_Phone", "DLC_HEIST_HACKING_SNAKE_SOUNDS", true);
-							Global_19932 = 1;
+							Global_20244 = 1;
 							func_10();
 							func_5();
 							SYSTEM::SETTIMERA(0);
@@ -78,18 +78,18 @@ void __EntryFunction__()
 					}
 					if (iLocal_21 == 3)
 					{
-						Global_1836091 = 1;
+						Global_1836093 = 1;
 					}
 					break;
 				
 				case 8:
-					if (func_8(2, Global_19922, 0))
+					if (func_8(2, Global_20234, 0))
 					{
 						func_4();
-						Global_19932 = 1;
-						if (Global_19954.f_1 > 3)
+						Global_20244 = 1;
+						if (Global_20266.f_1 > 3)
 						{
-							Global_19954.f_1 = 7;
+							Global_20266.f_1 = 7;
 						}
 					}
 					break;
@@ -104,7 +104,7 @@ void __EntryFunction__()
 		}
 		else
 		{
-			Global_19956 = 6;
+			Global_20268 = 6;
 			func_2();
 		}
 		if (func_1())
@@ -116,9 +116,9 @@ void __EntryFunction__()
 
 int func_1()
 {
-	if (((Global_19954.f_1 == 1 || Global_19954.f_1 == 3) || Global_19954.f_1 == 0) || Global_19898 == 1)
+	if (((Global_20266.f_1 == 1 || Global_20266.f_1 == 3) || Global_20266.f_1 == 0) || Global_20210 == 1)
 	{
-		Global_19941 = 1;
+		Global_20253 = 1;
 		return 1;
 	}
 	return 0;
@@ -132,9 +132,9 @@ void func_2()
 
 int func_3()
 {
-	if (Global_8430 == 1 || Global_19954.f_1 < 7)
+	if (Global_8742 == 1 || Global_20266.f_1 < 7)
 	{
-		Global_19941 = 1;
+		Global_20253 = 1;
 		return 1;
 	}
 	return 0;
@@ -144,24 +144,24 @@ void func_4()
 {
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 	{
-		AUDIO::PLAY_SOUND_FRONTEND(-1, "Menu_Back", &Global_19943, true);
+		AUDIO::PLAY_SOUND_FRONTEND(-1, "Menu_Back", &Global_20255, true);
 	}
 }
 
 void func_5()
 {
-	if (Global_19942)
+	if (Global_20254)
 	{
-		func_6(Global_19935, "SET_SOFT_KEYS", 2f, 0f, 13f, -1f, -1f, "CELL_201", 0, 0, 0, 0);
-		func_6(Global_19935, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, "CELL_213", 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 2f, 0f, 13f, -1f, -1f, "CELL_201", 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, "CELL_213", 0, 0, 0, 0);
 	}
 	else
 	{
-		func_6(Global_19935, "SET_SOFT_KEYS", 2f, 0f, 13f, -1f, -1f, 0, 0, 0, 0, 0);
-		func_6(Global_19935, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, 0, 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 2f, 0f, 13f, -1f, -1f, 0, 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, 0, 0, 0, 0, 0);
 	}
-	func_6(Global_19935, "SET_SOFT_KEYS", 1f, 0f, 1f, -1f, -1f, 0, 0, 0, 0, 0);
-	MISC::CLEAR_BIT(&Global_7824, 17);
+	func_6(Global_20247, "SET_SOFT_KEYS", 1f, 0f, 1f, -1f, -1f, 0, 0, 0, 0, 0);
+	MISC::CLEAR_BIT(&Global_8136, 17);
 }
 
 void func_6(int iParam0, char* sParam1, float fParam2, float fParam3, float fParam4, float fParam5, float fParam6, char* sParam7, char* sParam8, char* sParam9, char* sParam10, char* sParam11)
@@ -238,18 +238,18 @@ int func_8(int iParam0, int iParam1, int iParam2)
 
 void func_9()
 {
-	if (Global_19942)
+	if (Global_20254)
 	{
-		func_6(Global_19935, "SET_SOFT_KEYS", 2f, 1f, 13f, -1f, -1f, "CELL_201", 0, 0, 0, 0);
-		func_6(Global_19935, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, "CELL_213", 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 2f, 1f, 13f, -1f, -1f, "CELL_201", 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, "CELL_213", 0, 0, 0, 0);
 	}
 	else
 	{
-		func_6(Global_19935, "SET_SOFT_KEYS", 2f, 1f, 13f, -1f, -1f, 0, 0, 0, 0, 0);
-		func_6(Global_19935, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, 0, 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 2f, 1f, 13f, -1f, -1f, 0, 0, 0, 0, 0);
+		func_6(Global_20247, "SET_SOFT_KEYS", 3f, 1f, 14f, -1f, -1f, 0, 0, 0, 0, 0);
 	}
-	func_6(Global_19935, "SET_SOFT_KEYS", 1f, 0f, 1f, -1f, -1f, 0, 0, 0, 0, 0);
-	MISC::CLEAR_BIT(&Global_7824, 17);
+	func_6(Global_20247, "SET_SOFT_KEYS", 1f, 0f, 1f, -1f, -1f, 0, 0, 0, 0, 0);
+	MISC::CLEAR_BIT(&Global_8136, 17);
 }
 
 void func_10()
@@ -261,8 +261,8 @@ void func_10()
 		{
 			SYSTEM::WAIT(0);
 		}
-		func_11(Global_19935, "SET_DATA_SLOT_EMPTY", 23f, -1082130432, -1082130432, -1082130432, -1082130432);
-		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(Global_19935, "SET_DATA_SLOT");
+		func_11(Global_20247, "SET_DATA_SLOT_EMPTY", 23f, -1082130432, -1082130432, -1082130432, -1082130432);
+		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(Global_20247, "SET_DATA_SLOT");
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(23);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(0);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(-99);
@@ -270,18 +270,18 @@ void func_10()
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(100);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(2);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_BOOL(false);
-		if (BitTest(Global_7826, 1))
+		if (BitTest(Global_8138, 1))
 		{
 			GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_FLOAT(0f);
 		}
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-		func_11(Global_19935, "DISPLAY_VIEW", 23f, SYSTEM::TO_FLOAT(1), -1082130432, -1082130432, -1082130432);
+		func_11(Global_20247, "DISPLAY_VIEW", 23f, SYSTEM::TO_FLOAT(1), -1082130432, -1082130432, -1082130432);
 		iLocal_21 = 1;
 	}
 	else if (iLocal_21 == 1)
 	{
-		func_11(Global_19935, "SET_DATA_SLOT_EMPTY", 23f, -1082130432, -1082130432, -1082130432, -1082130432);
-		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(Global_19935, "SET_DATA_SLOT");
+		func_11(Global_20247, "SET_DATA_SLOT_EMPTY", 23f, -1082130432, -1082130432, -1082130432, -1082130432);
+		GRAPHICS::BEGIN_SCALEFORM_MOVIE_METHOD(Global_20247, "SET_DATA_SLOT");
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(23);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(0);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(-99);
@@ -289,12 +289,12 @@ void func_10()
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(100);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(3);
 		GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_BOOL(false);
-		if (BitTest(Global_7826, 1))
+		if (BitTest(Global_8138, 1))
 		{
 			GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_FLOAT(0f);
 		}
 		GRAPHICS::END_SCALEFORM_MOVIE_METHOD();
-		func_11(Global_19935, "DISPLAY_VIEW", 23f, SYSTEM::TO_FLOAT(1), -1082130432, -1082130432, -1082130432);
+		func_11(Global_20247, "DISPLAY_VIEW", 23f, SYSTEM::TO_FLOAT(1), -1082130432, -1082130432, -1082130432);
 		iLocal_21 = 2;
 	}
 }

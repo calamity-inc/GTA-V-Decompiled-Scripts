@@ -162,24 +162,24 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_11(PLAYER::PLAYER_PED_ID());
-		if (Global_31516 == 1)
+		if (Global_31964 == 1)
 		{
 			func_12();
 		}
 		if (bLocal_85)
 		{
-			if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (290f + 50f)))
+			if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (290f + 50f), 1))
 			{
-				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (290f + 50f)))
+				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (290f + 50f), 1))
 				{
 					func_12();
 				}
 			}
 			if (iLocal_77 != 0)
 			{
-				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (fLocal_90 + 50f)))
+				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (fLocal_90 + 50f), 1))
 				{
-					if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (fLocal_90 + 50f)))
+					if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (fLocal_90 + 50f), 1))
 					{
 						AUDIO::SET_AMBIENT_ZONE_STATE_PERSISTENT("AZ_SPECIAL_UFO_01", false, true);
 						AUDIO::SET_AMBIENT_ZONE_STATE_PERSISTENT("AZ_SPECIAL_UFO_02", false, true);
@@ -197,7 +197,7 @@ void __EntryFunction__()
 				iVar0 = 0;
 				while (iVar0 < Local_78.f_0)
 				{
-					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_90))
+					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_90, 1))
 					{
 						iLocal_76 = iVar0;
 						iLocal_77 = 1;
@@ -213,7 +213,7 @@ void __EntryFunction__()
 				iVar0 = 0;
 				while (iVar0 < Local_78.f_0)
 				{
-					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_87))
+					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_87, 1))
 					{
 						iLocal_76 = iVar0;
 						iLocal_77 = 2;
@@ -236,7 +236,7 @@ void __EntryFunction__()
 				break;
 			
 			case 3:
-				if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_87))
+				if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_87, 1))
 				{
 					iLocal_75 = (MISC::GET_GAME_TIMER() - iLocal_74);
 					if (iLocal_75 >= iLocal_91)
@@ -270,7 +270,7 @@ void __EntryFunction__()
 				{
 					func_4(&iLocal_92);
 				}
-				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_90))
+				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_90, 1))
 				{
 					func_1();
 					iLocal_76 = -1;
@@ -409,7 +409,7 @@ void func_8()
 	{
 		return;
 	}
-	if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_88))
+	if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_88, 1))
 	{
 		return;
 	}
@@ -437,9 +437,9 @@ Vector3 func_9(struct<3> Param0)
 	return Param0;
 }
 
-bool func_10(int iParam0, struct<3> Param1, float fParam4)
+bool func_10(int iParam0, struct<3> Param1, float fParam4, bool bParam5)
 {
-	return SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(iParam0, true), Param1) <= (fParam4 * fParam4);
+	return SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(iParam0, bParam5), Param1) <= (fParam4 * fParam4);
 }
 
 bool func_11(int iParam0)
