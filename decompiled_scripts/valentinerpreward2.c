@@ -164,7 +164,7 @@ void __EntryFunction__()
 {
 	int iVar0;
 	
-	sLocal_0 = "1.57.05";
+	sLocal_0 = "1.57.06";
 	iLocal_11 = -1;
 	iLocal_28 = -1;
 	iLocal_29 = -1;
@@ -323,10 +323,14 @@ void func_1()
 			}
 			if (!BitTest(iVar0, 3))
 			{
-				if (func_18(124, -1) || func_18(120, -1))
+				if (func_18(120, -1))
 				{
 					MISC::SET_BIT(&iVar0, 3);
 				}
+			}
+			else if (func_18(124, -1) && !func_18(120, -1))
+			{
+				MISC::CLEAR_BIT(&iVar0, 3);
 			}
 			if (!BitTest(iVar0, 4))
 			{
