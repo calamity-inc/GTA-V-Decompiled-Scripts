@@ -7086,7 +7086,7 @@ int func_141(int iParam0)
 	{
 		return 0;
 	}
-	if (FILES::_0x7796B21B76221BC5(iParam0, 11, joaat("JUGG_SUIT")))
+	if (FILES::_0x7796B21B76221BC5(iParam0, 11, joaat("jugg_suit")))
 	{
 		return 1;
 	}

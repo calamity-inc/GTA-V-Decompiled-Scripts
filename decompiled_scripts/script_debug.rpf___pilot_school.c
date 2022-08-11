@@ -7720,7 +7720,7 @@ int __IS_ITEM_A_HAT (int iParam0, int iParam1, int iParam2)
 					}
 					else if (iParam2 >= 291)
 					{
-						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 3), joaat("HAT"), 1);
+						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 3), joaat("hat"), 1);
 					}
 					break;
 			}
@@ -7736,7 +7736,7 @@ int __IS_ITEM_A_HAT (int iParam0, int iParam1, int iParam2)
 					}
 					else if (iParam2 >= 291)
 					{
-						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 4), joaat("HAT"), 1);
+						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 4), joaat("hat"), 1);
 					}
 					break;
 			}
@@ -8274,7 +8274,7 @@ int __IS_ITEM_PAIR_OF_GLASSES (int iParam0, int iParam1, int iParam2)
 				}
 				else if (iParam2 >= 291)
 				{
-					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 3), joaat("GLASSES"), 1);
+					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 3), joaat("glasses"), 1);
 				}
 			}
 			break;
@@ -8288,7 +8288,7 @@ int __IS_ITEM_PAIR_OF_GLASSES (int iParam0, int iParam1, int iParam2)
 				}
 				else if (iParam2 >= 291)
 				{
-					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 4), joaat("GLASSES"), 1);
+					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(__GET_NAME_HASH_FROM_PED_COMP_ITEM (iParam0, iParam2, 14, 4), joaat("glasses"), 1);
 				}
 			}
 			break;

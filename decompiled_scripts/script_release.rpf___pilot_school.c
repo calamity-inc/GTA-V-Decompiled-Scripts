@@ -5550,7 +5550,7 @@ int func_46(int iParam0, int iParam1, int iParam2)
 					}
 					else if (iParam2 >= 291)
 					{
-						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 3), joaat("HAT"), 1);
+						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 3), joaat("hat"), 1);
 					}
 					break;
 			}
@@ -5566,7 +5566,7 @@ int func_46(int iParam0, int iParam1, int iParam2)
 					}
 					else if (iParam2 >= 291)
 					{
-						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 4), joaat("HAT"), 1);
+						return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 4), joaat("hat"), 1);
 					}
 					break;
 			}
@@ -6104,7 +6104,7 @@ int func_51(int iParam0, int iParam1, int iParam2)
 				}
 				else if (iParam2 >= 291)
 				{
-					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 3), joaat("GLASSES"), 1);
+					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 3), joaat("glasses"), 1);
 				}
 			}
 			break;
@@ -6118,7 +6118,7 @@ int func_51(int iParam0, int iParam1, int iParam2)
 				}
 				else if (iParam2 >= 291)
 				{
-					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 4), joaat("GLASSES"), 1);
+					return FILES::DOES_SHOP_PED_APPAREL_HAVE_RESTRICTION_TAG(func_47(iParam0, iParam2, 14, 4), joaat("glasses"), 1);
 				}
 			}
 			break;
