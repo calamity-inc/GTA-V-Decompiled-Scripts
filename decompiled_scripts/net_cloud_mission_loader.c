@@ -1277,7 +1277,7 @@ int func_17(int iParam0)
 		case 157:
 			return -979045660;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return joaat("yachtcaptain");
 		
 		case 167:
@@ -20586,7 +20586,7 @@ int func_293(int iParam0)
 			return joaat("weapon_marksmanrifle");
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (func_173())
 			{
 				return joaat("weapon_heavysniper_mk2");
@@ -46546,7 +46546,7 @@ int func_537(int iParam0, bool bParam1)
 		case 78:
 			return 217;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 218;
 		
 		case 80:

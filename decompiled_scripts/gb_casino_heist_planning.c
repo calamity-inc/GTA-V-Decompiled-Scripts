@@ -9489,7 +9489,7 @@ int func_279(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -14572,7 +14572,7 @@ int func_401(int iParam0, int iParam1, int iParam2)
 			{
 				case 77:
 				case 78:
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 += 2;
 					break;
 			}
@@ -14880,7 +14880,7 @@ int func_402(int iParam0, int iParam1)
 					iVar0 = iVar0;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 = iVar0;
 					break;
 				
@@ -17316,7 +17316,7 @@ int func_435(int iParam0, int iParam1, int iParam2)
 			{
 				case 77:
 				case 78:
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 += 2;
 					break;
 			}
@@ -17660,7 +17660,7 @@ int func_438(int iParam0, int iParam1)
 					iVar0 += 3;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 += 3;
 					break;
 				
@@ -22126,7 +22126,7 @@ int func_565(var uParam0, int iParam1, int iParam2)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -22223,7 +22223,7 @@ void func_566(int iParam0, int iParam1, var uParam2, int iParam3, bool bParam4)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -23200,7 +23200,7 @@ struct<6> func_570(int iParam0, bool bParam1)
 			Var0.f_3 = { 0f, 0f, -14.5f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { -742.2565f, 587.6547f, 143.0577f };
 			Var0.f_3 = { 0f, 0f, -29f };
 			break;
@@ -23518,7 +23518,7 @@ int func_571(var uParam0, int iParam1, int iParam2)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -26000,7 +26000,7 @@ Vector3 func_681(int iParam0)
 			Var0 = { 939.7161f, -1459.204f, 30.467f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { 189.7624f, 309.7488f, 104.4714f };
 			break;
 		
@@ -26297,7 +26297,7 @@ int func_682(int iParam0)
 			return 63;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 64;
 			break;
 		

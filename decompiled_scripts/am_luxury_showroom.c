@@ -1235,7 +1235,7 @@ int func_27(int iParam0, int iParam1)
 				case 78:
 					return 264;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 265;
 				
 				case 80:
@@ -1866,7 +1866,7 @@ int func_27(int iParam0, int iParam1)
 				case 78:
 					return 348;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 356;
 				
 				case 80:
@@ -2397,7 +2397,7 @@ int func_27(int iParam0, int iParam1)
 				case 78:
 					return 150;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 151;
 				
 				case 80:
@@ -13505,7 +13505,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3342;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3350;
 				
 				case 80:
@@ -14629,7 +14629,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3343;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3351;
 				
 				case 80:
@@ -15753,7 +15753,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3344;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3352;
 				
 				case 80:
@@ -16877,7 +16877,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3345;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3353;
 				
 				case 80:
@@ -18001,7 +18001,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3346;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3354;
 				
 				case 80:
@@ -19080,7 +19080,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3349;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3357;
 				
 				case 80:
@@ -20159,7 +20159,7 @@ int func_150(int iParam0, int iParam1)
 				case 78:
 					return 3348;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3355;
 				
 				case 80:
@@ -25359,7 +25359,7 @@ int func_246(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -25819,7 +25819,7 @@ int func_248(int iParam0, int iParam1)
 		case 78:
 			return joaat("annihilator");
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return joaat("mammatus");
 		
 		case 80:
@@ -30297,7 +30297,7 @@ bool func_278(int iParam0, char* sParam1, var uParam2, var uParam3, var uParam4)
 			*uParam4 = 64;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "MIGHT_PURPLE", 16);
 			*uParam2 = 0;
 			*uParam3 = 146;
@@ -42290,7 +42290,7 @@ int func_335(int iParam0, int iParam1, int iParam2)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			switch (iParam1)
 			{
 				case 0:
@@ -54251,7 +54251,7 @@ int func_354(int iParam0, int iParam1, int iParam2, char* sParam3, bool bParam4,
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (Global_1585307 == 38 && iVar1 != joaat("greenwood"))
 			{
 				switch (iParam1)
@@ -57260,7 +57260,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_13461;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_13464;
 					break;
 				
@@ -57355,7 +57355,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_13473;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_12388;
 					break;
 				
@@ -57450,7 +57450,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_12384;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_13475;
 					break;
 				
@@ -57545,7 +57545,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_12384;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_12388;
 					break;
 				
@@ -57640,7 +57640,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_12384;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_12388;
 					break;
 				
@@ -57712,7 +57712,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_20150;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_20154;
 					break;
 				
@@ -57822,7 +57822,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_20127;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_20131;
 					break;
 				
@@ -57924,7 +57924,7 @@ int func_371(int iParam0, bool bParam1)
 					return Global_262145.f_20173;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return Global_262145.f_20177;
 					break;
 				
@@ -58023,7 +58023,7 @@ int func_371(int iParam0, bool bParam1)
 					return (Global_262145.f_12384 * iVar1);
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return (Global_262145.f_12388 * iVar1);
 					break;
 				
@@ -70791,7 +70791,7 @@ int func_402(int iParam0, int iParam1, bool bParam2)
 		case 14:
 			return func_418(iVar2, func_415(iParam1), bParam2);
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return func_418(iVar2, func_415(iParam1), bParam2);
 		
 		case 24:
@@ -75873,7 +75873,7 @@ int func_415(int iParam0)
 		case 14:
 			return Global_262145.f_4066;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return Global_262145.f_4067;
 		
 		case 24:
@@ -77022,7 +77022,7 @@ int func_426(int iParam0, int iParam1)
 		case 78:
 			return 22;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 23;
 		
 		case 80:
@@ -78892,7 +78892,7 @@ int func_456(int iParam0)
 			return 25244;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 25245;
 			break;
 		

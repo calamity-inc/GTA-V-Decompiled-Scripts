@@ -10749,7 +10749,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3342;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3350;
 				
 				case 80:
@@ -11873,7 +11873,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3343;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3351;
 				
 				case 80:
@@ -12997,7 +12997,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3344;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3352;
 				
 				case 80:
@@ -14121,7 +14121,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3345;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3353;
 				
 				case 80:
@@ -15245,7 +15245,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3346;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3354;
 				
 				case 80:
@@ -16324,7 +16324,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3349;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3357;
 				
 				case 80:
@@ -17403,7 +17403,7 @@ int func_281(int iParam0, int iParam1)
 				case 78:
 					return 3348;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3355;
 				
 				case 80:
@@ -24468,7 +24468,7 @@ bool func_367(int iParam0, char* sParam1, var uParam2, var uParam3, var uParam4)
 			*uParam4 = 64;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "MIGHT_PURPLE", 16);
 			*uParam2 = 0;
 			*uParam3 = 146;
@@ -39878,7 +39878,7 @@ char* func_612(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -39987,7 +39987,7 @@ char* func_613(int iParam0)
 			break;
 		
 		case 59:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 99:
 		case 119:
 			return "TINT_MICROSMG";
@@ -40423,7 +40423,7 @@ char* func_614(int iParam0)
 			return "GREEN_TINT_HEAD";
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "GREEN_TINT_HEAD";
 			break;
 		
@@ -41392,7 +41392,7 @@ int func_618(int iParam0)
 		case 78:
 			return 200;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 200;
 		
 		case 80:
@@ -44027,7 +44027,7 @@ int func_653(int iParam0, int iParam1)
 		case 78:
 			return joaat("annihilator");
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return joaat("mammatus");
 		
 		case 80:
@@ -46303,7 +46303,7 @@ int func_661(int iParam0)
 			return 25244;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 25245;
 			break;
 		
@@ -47697,7 +47697,7 @@ int func_662(int iParam0, int iParam1)
 		case 78:
 			return 22;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 23;
 		
 		case 80:
@@ -52457,7 +52457,7 @@ int func_711(int iParam0)
 		case 78:
 			return joaat("blazer4");
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return joaat("f620");
 		
 		case 80:
@@ -52889,7 +52889,7 @@ int func_713(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -55932,7 +55932,7 @@ char* func_771(int iParam0)
 		case 78:
 			return "CLO_HSTF_U_16_5";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "CLO_SMF_U_3_5";
 		
 		case 80:
@@ -56747,7 +56747,7 @@ int func_774(int iParam0, bool bParam1)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -59694,7 +59694,7 @@ int func_883(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -64176,7 +64176,7 @@ int func_916(int iParam0, bool bParam1)
 			return joaat("weapon_wrench");
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return joaat("weapon_doubleaction");
 			break;
 		

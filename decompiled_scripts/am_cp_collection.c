@@ -2917,7 +2917,7 @@ int func_59(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -4403,7 +4403,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return 913.9593f, -976.4005f, 81.0321f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return 970.9194f, -2510.112f, 64f;
 							
 							case 80:
@@ -4775,7 +4775,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return 1205.465f, 336.8802f, 80.9909f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return 531.8229f, -27.4548f, 69.6295f;
 							
 							case 80:
@@ -5150,7 +5150,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return -1100.793f, -2846.705f, 53.132f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return -1274.324f, -2448.849f, 99.9299f;
 							
 							case 80:
@@ -5522,7 +5522,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return -219.3889f, -2386.881f, 5.0014f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return 109.4531f, -2816.037f, 9.7899f;
 							
 							case 80:
@@ -5897,7 +5897,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return -88.2f, 4579f, 135.4f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return -3051.213f, 4178.12f, 72.7681f;
 							
 							case 80:
@@ -6269,7 +6269,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return 501.2704f, 5598.329f, 795.0286f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return 625.9471f, 5675.894f, 747.5628f;
 							
 							case 80:
@@ -6644,7 +6644,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return 1880.169f, 4244.354f, 80.3363f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return 1791.897f, 4595.955f, 48.6224f;
 							
 							case 80:
@@ -7016,7 +7016,7 @@ Vector3 func_117(int iParam0, bool bParam1, int iParam2, int iParam3)
 							case 78:
 								return 1719.677f, 3692.743f, 33.513f;
 							
-							case joaat("mpsv_lp0_31"):
+							case 79:
 								return 1530.711f, 3076.231f, 39.9815f;
 							
 							case 80:
@@ -9528,7 +9528,7 @@ int func_177(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -23330,7 +23330,7 @@ int func_743(int iParam0)
 		case 78:
 			return 32;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 32;
 		
 		case 80:
@@ -23837,7 +23837,7 @@ int func_744(int iParam0, bool bParam1)
 		case 78:
 			return 217;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 218;
 		
 		case 80:

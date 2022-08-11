@@ -12708,7 +12708,7 @@ bool func_217(int iParam0, char* sParam1, var uParam2, var uParam3, var uParam4)
 			*uParam4 = 64;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "MIGHT_PURPLE", 16);
 			*uParam2 = 0;
 			*uParam3 = 146;
@@ -13640,7 +13640,7 @@ int func_221(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -16875,7 +16875,7 @@ void func_301(int iParam0)
 			func_302(14);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			func_302(3);
 			break;
 		

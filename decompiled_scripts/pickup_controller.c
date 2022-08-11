@@ -1244,7 +1244,7 @@ Vector3 func_28(int iParam0, bool bParam1)
 			return -467.0458f, -934.8019f, 46.9844f;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 226.7f, -1761f, 28.5f;
 			break;
 		

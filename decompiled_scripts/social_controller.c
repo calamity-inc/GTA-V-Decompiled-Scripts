@@ -15599,7 +15599,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3342;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3350;
 				
 				case 80:
@@ -16723,7 +16723,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3343;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3351;
 				
 				case 80:
@@ -17847,7 +17847,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3344;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3352;
 				
 				case 80:
@@ -18971,7 +18971,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3345;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3353;
 				
 				case 80:
@@ -20095,7 +20095,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3346;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3354;
 				
 				case 80:
@@ -21174,7 +21174,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3349;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3357;
 				
 				case 80:
@@ -22253,7 +22253,7 @@ int func_369(int iParam0, int iParam1)
 				case 78:
 					return 3348;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3355;
 				
 				case 80:
@@ -25863,7 +25863,7 @@ bool func_388(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4)
 			*iParam4 = 64;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "MIGHT_PURPLE", 16);
 			*iParam2 = 0;
 			*iParam3 = 146;
@@ -28001,7 +28001,7 @@ int func_400(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -28956,7 +28956,7 @@ int func_409(int iParam0, int iParam1, bool bParam2)
 			case 72:
 			case 43:
 			case 44:
-			case joaat("mpsv_lp0_31"):
+			case 79:
 				return 137;
 				break;
 			}
@@ -32096,7 +32096,7 @@ int func_473(int iParam0)
 		case 78:
 			return 44;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 44;
 		
 		case 80:

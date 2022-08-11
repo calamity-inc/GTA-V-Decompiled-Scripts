@@ -2983,7 +2983,7 @@ struct<15> func_48(int iParam0, int iParam1)
 			Var0.f_10 = 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0.f_0 = -1725728509;
 			Var0.f_1 = 99;
 			Var0.f_2 = joaat("v_ilev_trev_doorfront");
@@ -4488,7 +4488,7 @@ int func_67(int iParam0)
 		case 78:
 			return 32;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 32;
 		
 		case 80:
@@ -5106,7 +5106,7 @@ int func_69(int iParam0, bool bParam1)
 		case 78:
 			return 217;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 218;
 		
 		case 80:

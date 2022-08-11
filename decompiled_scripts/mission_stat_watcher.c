@@ -5266,7 +5266,7 @@ void func_73(int iParam0)
 			STATS::LEADERBOARDS_WRITE_ADD_COLUMN(132, func_74(652), 0f);
 			return;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0.f_0 = 737;
 			STATS::LEADERBOARDS2_WRITE_DATA(&Var0);
 			STATS::LEADERBOARDS_WRITE_ADD_COLUMN(131, Global_75395, 0f);

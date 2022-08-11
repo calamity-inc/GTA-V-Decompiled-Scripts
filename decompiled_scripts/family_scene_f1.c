@@ -3071,7 +3071,7 @@ int func_81(int iParam0, char* sParam1)
 			StringCopy(sParam1, "TIMETABLE@MAID@CLEANING_SURFACE_1@", 64);
 			return 1;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "TIMETABLE@MAID@CLEANING_WINDOW@BASE", 64);
 			return 1;
 			break;

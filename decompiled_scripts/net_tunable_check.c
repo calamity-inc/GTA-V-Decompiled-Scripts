@@ -835,7 +835,7 @@ void func_2(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;

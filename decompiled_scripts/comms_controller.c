@@ -13345,7 +13345,7 @@ void func_281(int iParam0, char* sParam1)
 			StringCopy(sParam1, "AH_", 16);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "BH_", 16);
 			break;
 		

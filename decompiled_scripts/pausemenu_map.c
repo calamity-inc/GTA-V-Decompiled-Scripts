@@ -3428,7 +3428,7 @@ int func_88(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -4923,7 +4923,7 @@ Vector3 func_139(int iParam0)
 			Var0 = { 939.7161f, -1459.204f, 30.467f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { 189.7624f, 309.7488f, 104.4714f };
 			break;
 		
@@ -5220,7 +5220,7 @@ int func_140(int iParam0)
 			return 63;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 64;
 			break;
 		
@@ -8506,7 +8506,7 @@ int func_238(int iParam0)
 		case 805:
 			return 6;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 7;
 		
 		case 106:

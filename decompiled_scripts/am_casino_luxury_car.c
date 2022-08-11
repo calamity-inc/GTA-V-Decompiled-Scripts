@@ -5567,7 +5567,7 @@ int func_71(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -13405,7 +13405,7 @@ void func_230(int iParam0)
 			func_232(-639.3558f, 696.9992f, 150.5134f, 77.481f);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			func_232(-763.4828f, 668.4921f, 142.8936f, 236.9954f);
 			func_232(-759.3964f, 690.4262f, 143.0253f, 214.9099f);
 			func_232(-671.5947f, 646.5754f, 148.3114f, 49.9935f);

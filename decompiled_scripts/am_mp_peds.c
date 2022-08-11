@@ -2645,7 +2645,7 @@ int func_24(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -28687,7 +28687,7 @@ void func_497(var uParam0, int iParam1, int iParam2, bool bParam3)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bParam3)
 			{
 				uParam0->f_44 = 1;
@@ -31579,7 +31579,7 @@ void func_503(var uParam0, int iParam1, int iParam2, bool bParam3)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bParam3)
 			{
 				uParam0->f_44 = 1;
@@ -34343,7 +34343,7 @@ void func_538(int iParam0, var uParam1, int iParam2, int iParam3, int iParam4, b
 			StringCopy(&(uParam1->f_2), func_719(iParam3, iParam4, iParam2, bParam5), 64);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			*uParam1 = func_722(bParam5);
 			uParam1->f_54 = 2;
 			uParam1->f_53 = 3;
@@ -35358,7 +35358,7 @@ int func_542(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -58454,7 +58454,7 @@ void func_791(var uParam0, int iParam1, bool bParam2)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bParam2)
 			{
 				uParam0->f_44 = 1;
@@ -62488,7 +62488,7 @@ void func_792(var uParam0, int iParam1, bool bParam2)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bParam2)
 			{
 				uParam0->f_44 = 1;
@@ -67372,7 +67372,7 @@ void func_867(int iParam0, int iParam1, int iParam2, int iParam3)
 						iParam0->f_4 = "GENERIC_HOWSITGOING";
 						break;
 					
-					case joaat("mpsv_lp0_31"):
+					case 79:
 						iParam0->f_2 = 1;
 						iParam0->f_1 = 1;
 						iParam0->f_4 = "HS4BP_IG1_A";
@@ -69919,7 +69919,7 @@ void func_887(int iParam0, var uParam1, int iParam2, int iParam3, int iParam4, b
 			StringCopy(&(uParam1->f_2), func_1073(iParam3, iParam4, iParam2, bParam5), 64);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			*uParam1 = func_1076(bParam5);
 			uParam1->f_54 = 2;
 			uParam1->f_53 = 3;
@@ -93854,7 +93854,7 @@ void func_1185(var uParam0, var uParam1, int iParam2, bool bParam3)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bParam3)
 			{
 				uParam1->f_44 = 1;
@@ -100500,7 +100500,7 @@ int func_1329(int iParam0)
 			iVar0 = joaat("a_m_y_vinewood_01");
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar0 = joaat("a_m_y_smartcaspat_01");
 			break;
 		

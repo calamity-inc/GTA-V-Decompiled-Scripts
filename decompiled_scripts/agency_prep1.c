@@ -4503,7 +4503,7 @@ void func_100(int iParam0)
 			func_101(14);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			func_101(3);
 			break;
 		

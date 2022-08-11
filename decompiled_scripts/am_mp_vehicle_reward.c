@@ -2398,7 +2398,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3342;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3350;
 				
 				case 80:
@@ -3522,7 +3522,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3343;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3351;
 				
 				case 80:
@@ -4646,7 +4646,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3344;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3352;
 				
 				case 80:
@@ -5770,7 +5770,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3345;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3353;
 				
 				case 80:
@@ -6894,7 +6894,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3346;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3354;
 				
 				case 80:
@@ -7973,7 +7973,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3349;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3357;
 				
 				case 80:
@@ -9052,7 +9052,7 @@ int func_75(int iParam0, int iParam1)
 				case 78:
 					return 3348;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					return 3355;
 				
 				case 80:
@@ -16531,7 +16531,7 @@ bool func_169(int iParam0, char* sParam1, var uParam2, var uParam3, var uParam4)
 			*uParam4 = 64;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "MIGHT_PURPLE", 16);
 			*uParam2 = 0;
 			*uParam3 = 146;
@@ -35119,7 +35119,7 @@ int func_427(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -42632,7 +42632,7 @@ void func_569(int iParam0)
 			func_571(-639.3558f, 696.9992f, 150.5134f, 77.481f);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			func_571(-763.4828f, 668.4921f, 142.8936f, 236.9954f);
 			func_571(-759.3964f, 690.4262f, 143.0253f, 214.9099f);
 			func_571(-671.5947f, 646.5754f, 148.3114f, 49.9935f);

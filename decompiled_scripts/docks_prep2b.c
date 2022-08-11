@@ -17348,7 +17348,7 @@ void func_285(int iParam0)
 			func_250(14);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			func_250(3);
 			break;
 		

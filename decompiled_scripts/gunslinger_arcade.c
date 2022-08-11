@@ -1232,7 +1232,7 @@ int func_10(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -1620,7 +1620,7 @@ int func_17(int iParam0)
 		case 78:
 			return 32;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 32;
 		
 		case 80:
@@ -2238,7 +2238,7 @@ int func_19(int iParam0, bool bParam1)
 		case 78:
 			return 217;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 218;
 		
 		case 80:
@@ -3257,7 +3257,7 @@ float func_53(int iParam0, int iParam1)
 			fVar0 = 0.695f;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 78:
 			fVar0 = 0.98f;
 			break;
@@ -11785,7 +11785,7 @@ bool func_188(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 					*uParam2 = 3795;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					*uParam2 = 3796;
 					break;
 				
@@ -12842,7 +12842,7 @@ bool func_188(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 					*uParam2 = 3803;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					*uParam2 = 3804;
 					break;
 				
@@ -14800,7 +14800,7 @@ void func_195(int iParam0, int iParam1)
 			iVar11 = 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "HT_FMF_9_4", 16);
 			iVar6 = 9;
 			iVar7 = 4;
@@ -18574,7 +18574,7 @@ void func_199(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 4;
 			iVar7 = 15;
 			iVar1 = 0;
@@ -20259,7 +20259,7 @@ void func_200(int iParam0, int iParam1)
 			iVar1 = 230;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 4;
 			iVar7 = 15;
 			iVar1 = 280;
@@ -22342,7 +22342,7 @@ void func_203(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "U_FMF_11_8", 16);
 			iVar6 = 11;
 			iVar7 = 8;
@@ -23610,7 +23610,7 @@ void func_211(int iParam0, int iParam1)
 			iVar1 = 40;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 4;
 			iVar7 = 15;
 			iVar1 = 0;
@@ -25403,7 +25403,7 @@ void func_212(int iParam0, int iParam1)
 			iVar1 = 0;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 14;
 			iVar7 = 0;
 			iVar1 = 475;
@@ -26737,7 +26737,7 @@ void func_218(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "HT_FMM_9_4", 16);
 			iVar6 = 9;
 			iVar7 = 4;
@@ -29772,7 +29772,7 @@ void func_220(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 12;
 			iVar7 = 6;
 			iVar1 = 0;
@@ -30609,7 +30609,7 @@ void func_222(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 4;
 			iVar7 = 15;
 			iVar1 = 0;
@@ -32295,7 +32295,7 @@ void func_223(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 4;
 			iVar7 = 15;
 			iVar1 = 0;
@@ -34474,7 +34474,7 @@ void func_226(int iParam0, int iParam1)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "SP_FMM_3_15", 16);
 			iVar6 = 4;
 			iVar7 = 15;
@@ -36695,7 +36695,7 @@ void func_227(int iParam0, int iParam1)
 			iVar1 = 3125;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 4;
 			iVar7 = 15;
 			iVar1 = 0;
@@ -38337,7 +38337,7 @@ void func_228(int iParam0, int iParam1)
 			iVar1 = SYSTEM::ROUND((SYSTEM::TO_FLOAT(iVar1) * Global_262145.f_2542[65]));
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar6 = 13;
 			iVar7 = 5;
 			iVar1 = 0;
@@ -38558,7 +38558,7 @@ int func_230(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 13;
 		
 		case 80:
@@ -53346,7 +53346,7 @@ int func_293(int iParam0, int iParam1, int iParam2)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			switch (iParam1)
 			{
 				case 0:
@@ -55266,7 +55266,7 @@ char* func_301(int iParam0)
 			return "LEG_LEFT_KNEE";
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "LEG_LEFT_ANKLE";
 			break;
 		
@@ -57297,7 +57297,7 @@ bool func_303(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 						func_309(sParam0, iParam1, iParam3, "NO_LABEL", "multiplayer_overlays", "mp_fm_branding_006", "torsoDecal", iParam2, 100, 0);
 						break;
 					
-					case joaat("mpsv_lp0_31"):
+					case 79:
 						func_309(sParam0, iParam1, iParam3, "NO_LABEL", "multiplayer_overlays", "mp_fm_branding_009", "torsoDecal", iParam2, 100, 0);
 						break;
 					
@@ -57514,7 +57514,7 @@ bool func_303(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 						func_309(sParam0, iParam1, iParam3, "NO_LABEL", "multiplayer_overlays", "mp_fm_branding_052", "torsoDecal", iParam2, 100, 0);
 						break;
 					
-					case joaat("mpsv_lp0_31"):
+					case 79:
 						func_309(sParam0, iParam1, iParam3, "NO_LABEL", "multiplayer_overlays", "mp_fm_branding_053", "torsoDecal", iParam2, 100, 0);
 						break;
 					
@@ -60651,7 +60651,7 @@ int func_330(int iParam0)
 			return 160;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 161;
 			break;
 		
@@ -71242,7 +71242,7 @@ int func_371(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bVar85)
 			{
 				FILES::GET_SHOP_PED_COMPONENT(joaat("dlc_mp_heist_m_berd_12_1"), &Var51);
@@ -79068,7 +79068,7 @@ int func_476(int iParam0)
 			case 74:
 			case 78:
 			case 75:
-			case joaat("mpsv_lp0_31"):
+			case 79:
 			case 80:
 			case 82:
 			case 81:
@@ -79367,7 +79367,7 @@ int func_478(int iParam0)
 		case 78:
 			return 6;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 6;
 		
 		case 80:
@@ -79936,7 +79936,7 @@ char* func_479(int iParam0)
 		case 78:
 			return "GB_TRANSPORTER";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "GB_FORTIFIED";
 		
 		case 80:
@@ -81660,7 +81660,7 @@ void func_508(int iParam0, int iParam1, int iParam2, var uParam3)
 					uParam3->f_2[1] = "exit_prop_phone_ing";
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					uParam3->f_1 = "fail_react";
 					uParam3->f_2[0] = "fail_react_ch_prop_ch_usb_drive01x";
 					uParam3->f_2[1] = "fail_react_prop_phone_ing";
@@ -83213,7 +83213,7 @@ void func_564(int iParam0, char* sParam1, char* sParam2)
 			StringCopy(sParam2, "DLC_H3_ArcMac_BR2_Animal_Sounds", 64);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(sParam1, "Vulture_Appear", 32);
 			StringCopy(sParam2, "DLC_H3_ArcMac_BR2_Animal_Sounds", 64);
 			break;
@@ -87514,7 +87514,7 @@ char* func_666(int iParam0)
 				
 				case 77:
 				case 78:
-				case joaat("mpsv_lp0_31"):
+				case 79:
 				case 80:
 				case 81:
 				case 82:
@@ -88317,7 +88317,7 @@ char* func_667(int iParam0)
 		case 78:
 			return "Attack";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "Death";
 		
 		case 80:

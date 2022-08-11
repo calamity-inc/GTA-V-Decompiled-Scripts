@@ -5829,7 +5829,7 @@ int func_149(int iParam0, char* sParam1, char* sParam2, char* sParam3, var uPara
 			return 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			func_150(sParam1, sParam2, sParam3, "SWITCH@MICHAEL@SITTING", "IDLE", "EXIT_FORWARD");
 			*uParam4 |= 1024;
 			*uParam5 |= 1024;
@@ -11308,7 +11308,7 @@ int func_168(int iParam0, var uParam1, char* sParam2)
 			return 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			*uParam1 = 20.353f;
 			StringCopy(sParam2, "v_michael", 32);
 			return 1;
@@ -13519,7 +13519,7 @@ int func_169(int iParam0, int iParam1, var uParam2, var uParam3)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 86:
 			switch (iParam0)
 			{

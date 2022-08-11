@@ -8526,7 +8526,7 @@ int func_149(int iParam0, var uParam1, var uParam2)
 			return 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			iVar0 = 2;
 			switch (MISC::GET_RANDOM_INT_IN_RANGE(0, iVar0))
 			{
@@ -8697,7 +8697,7 @@ int func_150(int iParam0, struct<3> Param1)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (Param1.f_2 == 1f)
 			{
 				Param1.f_2 = 28.1893f;
@@ -11127,7 +11127,7 @@ void func_196(int iParam0, bool bParam1)
 							case 145:
 							case 146:
 							case 78:
-							case joaat("mpsv_lp0_31"):
+							case 79:
 							case 88:
 							case 124:
 							case 112:

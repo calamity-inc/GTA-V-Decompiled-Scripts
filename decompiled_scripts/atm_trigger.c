@@ -3630,7 +3630,7 @@ char* func_33(int iParam0)
 			return "S_G_10";
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "S_G_11";
 			break;
 		

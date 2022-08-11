@@ -11527,7 +11527,7 @@ void func_328(var uParam0, var uParam1)
 				func_250(uParam0, 0, 0);
 				break;
 			
-			case joaat("mpsv_lp0_31"):
+			case 79:
 				if (uParam0->f_411 == 1 || uParam0->f_411 == 0)
 				{
 					bVar24 = true;

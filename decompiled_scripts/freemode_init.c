@@ -13659,7 +13659,7 @@ void func_359(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, b
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			if (bParam5)
 			{
 				*uParam1 = { -3030.311f, 3338.619f, 11.60767f };

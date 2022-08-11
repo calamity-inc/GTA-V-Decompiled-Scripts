@@ -6884,7 +6884,7 @@ char* __GET_SP_MISSION_DISPLAY_STRING_FROM_ID (int iParam0, bool bParam1)
 			return "H_FINALE_PREP_A";
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "H_FINALE_PREP_B";
 			break;
 		
@@ -10186,7 +10186,7 @@ void __FILL_PED_COMP_DATA_TREVOR_PROPS (int iParam0)
 			iVar8 = 10;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "PROPS_P2_E2_5", 16);
 			iVar6 = 2;
 			iVar7 = 5;
@@ -14698,7 +14698,7 @@ void __FILL_PED_COMP_DATA_TREVOR_FEET (int iParam0)
 			iVar1 = 120;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "FEET_P2_20_11", 16);
 			iVar6 = 20;
 			iVar7 = 11;
@@ -15309,7 +15309,7 @@ void __FILL_PED_COMP_DATA_TREVOR_LEGS (int iParam0)
 			iVar1 = 80;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "LEGS_P2_21_8", 16);
 			iVar6 = 21;
 			iVar7 = 8;
@@ -16749,7 +16749,7 @@ void __FILL_PED_COMP_DATA_TREVOR_TORSO_1 (int iParam0)
 			iVar1 = 90;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "TORSO_P2_14_8", 16);
 			iVar6 = 14;
 			iVar7 = 8;
@@ -18662,7 +18662,7 @@ void __FILL_PED_COMP_DATA_FRANKLIN_PROPS (int iParam0)
 			iVar8 = 0;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "PROPS_P1_H19_15", 16);
 			iVar6 = 19;
 			iVar7 = 15;
@@ -21245,7 +21245,7 @@ void __FILL_PED_COMP_DATA_FRANKLIN_FEET (int iParam0)
 			iVar1 = 700;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "FEET_P1_16_5", 16);
 			iVar6 = 16;
 			iVar7 = 5;
@@ -22187,7 +22187,7 @@ void __FILL_PED_COMP_DATA_FRANKLIN_LEGS (int iParam0)
 			bVar0 = true;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "LEGS_P1_20_0", 16);
 			iVar6 = 20;
 			iVar7 = 0;
@@ -24652,7 +24652,7 @@ void __FILL_PED_COMP_DATA_FRANKLIN_TORSO_1 (int iParam0)
 			iVar1 = 38;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "TORSO_P1_8_6", 16);
 			iVar6 = 8;
 			iVar7 = 6;
@@ -25800,7 +25800,7 @@ void __FILL_PED_COMP_DATA_MICHAEL_PROPS (int iParam0)
 			iVar8 = 10;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "PROPS_P0_E6", 16);
 			iVar6 = 6;
 			iVar7 = 0;
@@ -28332,7 +28332,7 @@ void __FILL_PED_COMP_DATA_MICHAEL_FEET (int iParam0)
 			iVar1 = 130;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "FEET_P0_20_8", 16);
 			iVar6 = 20;
 			iVar7 = 8;
@@ -29035,7 +29035,7 @@ void __FILL_PED_COMP_DATA_MICHAEL_LEGS (int iParam0)
 			iVar1 = 15;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "LEGS_P0_18_7", 16);
 			iVar6 = 18;
 			iVar7 = 7;
@@ -29446,7 +29446,7 @@ void __FILL_PED_COMP_DATA_MICHAEL_TORSO_2 (int iParam0)
 			iVar1 = 20;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var2, "TORSO_P0_16_2", 16);
 			iVar6 = 16;
 			iVar7 = 2;
@@ -31574,7 +31574,7 @@ int __GET_PED_COMPONENT_ITEM_REQUISITE_SP (int iParam0, int iParam1, int iParam2
 										iVar0 = 8;
 										break;
 									
-									case joaat("mpsv_lp0_31"):
+									case 79:
 										iVar0 = 9;
 										break;
 									
@@ -32056,7 +32056,7 @@ int __GET_PED_COMPONENT_ITEM_REQUISITE_SP (int iParam0, int iParam1, int iParam2
 										iVar0 = 22;
 										break;
 									
-									case joaat("mpsv_lp0_31"):
+									case 79:
 										iVar0 = 23;
 										break;
 									
@@ -40592,7 +40592,7 @@ char* __GET_FLAG_DISPLAY_STRING_FROM_FLAG_ID (int iParam0)
 			return "Trev Done Activity with Lamar";
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "Amanda Michael Event Skipped";
 			break;
 		

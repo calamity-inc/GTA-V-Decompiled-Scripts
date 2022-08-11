@@ -3855,7 +3855,7 @@ int func_143(var uParam0, int iParam1, int iParam2)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -3952,7 +3952,7 @@ void func_144(int iParam0, int iParam1, var uParam2, int iParam3, bool bParam4)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -4929,7 +4929,7 @@ struct<6> func_148(int iParam0, bool bParam1)
 			Var0.f_3 = { 0f, 0f, -14.5f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { -742.2565f, 587.6547f, 143.0577f };
 			Var0.f_3 = { 0f, 0f, -29f };
 			break;
@@ -5247,7 +5247,7 @@ int func_149(var uParam0, int iParam1, int iParam2)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -5714,7 +5714,7 @@ int func_174(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -8098,7 +8098,7 @@ Vector3 func_271(int iParam0)
 			Var0 = { 939.7161f, -1459.204f, 30.467f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { 189.7624f, 309.7488f, 104.4714f };
 			break;
 		
@@ -8395,7 +8395,7 @@ int func_272(int iParam0)
 			return 63;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 64;
 			break;
 		
@@ -10804,7 +10804,7 @@ char* func_361(var uParam0, int iParam1)
 		case 78:
 			return "H4P_FIN2_PARA_I";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "H4P_FIN2_WBEA_I";
 		
 		case 80:
@@ -11399,7 +11399,7 @@ int func_381(bool bParam0)
 			return 1;
 		
 		case 14:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 2;
 		
 		case 15:
@@ -12089,7 +12089,7 @@ int func_415(var uParam0, int iParam1)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -15936,7 +15936,7 @@ void func_575(var uParam0, bool bParam1)
 			Global_1975224[PLAYER::PLAYER_ID() /*53*/].f_5.f_40 = 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Global_1975224[PLAYER::PLAYER_ID() /*53*/].f_5.f_40 = 2;
 			break;
 		
@@ -16323,7 +16323,7 @@ char* func_582(var uParam0, bool bParam1)
 		case 78:
 			return "PARACHUTING";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "WEST_BEACH";
 		
 		case 80:
@@ -16693,7 +16693,7 @@ char* func_584(var uParam0, bool bParam1)
 		case 78:
 			return func_404(NETWORK::NETWORK_IS_ACTIVITY_SESSION(), "H4P_FIN2_PARA_D", "H4P_FIN2_INFI_D");
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return func_404(NETWORK::NETWORK_IS_ACTIVITY_SESSION(), "H4P_FIN2_WBEA_D", "H4P_FIN2_INFI_D");
 		
 		case 80:
@@ -17034,7 +17034,7 @@ char* func_586(var uParam0, int iParam1)
 		case 78:
 			return "H4P_FIN2_PARA_T";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "H4P_FIN2_WBEA_T";
 		
 		case 80:
@@ -17524,7 +17524,7 @@ void func_598(var uParam0)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -23236,7 +23236,7 @@ int func_757(int iParam0, int iParam1, int iParam2)
 			{
 				case 77:
 				case 78:
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 += 2;
 					break;
 			}
@@ -23544,7 +23544,7 @@ int func_758(int iParam0, int iParam1)
 					iVar0 = iVar0;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 = iVar0;
 					break;
 				
@@ -25980,7 +25980,7 @@ int func_791(int iParam0, int iParam1, int iParam2)
 			{
 				case 77:
 				case 78:
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 += 2;
 					break;
 			}
@@ -26324,7 +26324,7 @@ int func_794(int iParam0, int iParam1)
 					iVar0 += 3;
 					break;
 				
-				case joaat("mpsv_lp0_31"):
+				case 79:
 					iVar0 += 3;
 					break;
 				
@@ -27671,7 +27671,7 @@ void func_823(var uParam0, int iParam1)
 			
 			case 77:
 			case 78:
-			case joaat("mpsv_lp0_31"):
+			case 79:
 			case 80:
 			case 81:
 			case 82:

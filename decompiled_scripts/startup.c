@@ -1938,7 +1938,7 @@ int func_34(var uParam0, int iParam1)
 			return 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			uParam0->f_35 = func_35(iParam1);
 			func_53(uParam0, uParam0->f_35);
 			func_51(uParam0, 10);
@@ -2757,7 +2757,7 @@ int func_35(int iParam0)
 			return 63;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 64;
 			break;
 		
@@ -2888,7 +2888,7 @@ void func_36(var uParam0, int iParam1)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -3659,7 +3659,7 @@ void func_37(int iParam0, var uParam1, var uParam2, int iParam3)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -3804,7 +3804,7 @@ void func_38(int iParam0, int iParam1, var uParam2, bool bParam3)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -4509,7 +4509,7 @@ void func_43(var uParam0, int iParam1)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -4681,7 +4681,7 @@ int func_46(int iParam0, int iParam1)
 			case 75:
 			case 76:
 			case 78:
-			case joaat("mpsv_lp0_31"):
+			case 79:
 			case 80:
 			case 81:
 			case 82:
@@ -4696,7 +4696,7 @@ int func_46(int iParam0, int iParam1)
 		{
 			case 77:
 			case 78:
-			case joaat("mpsv_lp0_31"):
+			case 79:
 			case 80:
 			case 81:
 			case 82:
@@ -4804,7 +4804,7 @@ void func_48(int iParam0, int iParam1, var uParam2, int iParam3, bool bParam4)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -5681,7 +5681,7 @@ struct<6> func_49(int iParam0, bool bParam1)
 			Var0.f_3 = { 0f, 0f, -14.5f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { -742.2565f, 587.6547f, 143.0577f };
 			Var0.f_3 = { 0f, 0f, -29f };
 			break;
@@ -6011,7 +6011,7 @@ int func_50(int iParam0)
 		
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -8108,7 +8108,7 @@ void func_53(var uParam0, int iParam1)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 		case 81:
 		case 82:
@@ -8544,7 +8544,7 @@ void func_54(var uParam0, int iParam1)
 			uParam0->f_9 = 1;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			(*uParam0)[0] = 98;
 			uParam0->f_9 = 1;
 			break;
@@ -8972,7 +8972,7 @@ void func_55(var uParam0, int iParam1)
 			uParam0->f_34 = 4;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			*uParam0 = { 177.8842f, 318.7285f, 122.2674f };
 			uParam0->f_3[0 /*3*/] = { 189.8949f, 309.2079f, 104.3896f };
 			uParam0->f_3[1 /*3*/] = { 177.9027f, 308.8062f, 104.3697f };
@@ -12171,7 +12171,7 @@ struct<4> func_65(int iParam0)
 			StringCopy(&Var0, "MP_PROP_89DES", 16);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var0, "MP_PROP_90DES", 16);
 			break;
 		
@@ -12584,7 +12584,7 @@ struct<4> func_66(int iParam0)
 			StringCopy(&Var0, "MP_PROP_89", 16);
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			StringCopy(&Var0, "MP_PROP_90", 16);
 			break;
 		
@@ -13042,7 +13042,7 @@ int func_67(int iParam0)
 		case 78:
 			return Global_262145.f_13317;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return Global_262145.f_13318;
 		
 		case 80:

@@ -4873,7 +4873,7 @@ void func_98(int iParam0, int iParam1, bool bParam2)
 						switch (iParam1)
 						{
 							case 77:
-							case joaat("mpsv_lp0_31"):
+							case 79:
 							case 293:
 							case 225:
 							case 348:

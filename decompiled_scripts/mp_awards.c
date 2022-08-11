@@ -5220,7 +5220,7 @@ int func_49(int iParam0, int iParam1, int iParam2)
 			}
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			switch (iParam1)
 			{
 				case 0:
@@ -7331,7 +7331,7 @@ int func_61(int iParam0, int iParam1)
 		case 78:
 			return 1;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 1;
 		
 		case 80:
@@ -10634,7 +10634,7 @@ char* func_107(int iParam0, int iParam1)
 		case 78:
 			return "MPAwardCasinoHeist";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "MPAwardCasinoHeist";
 		
 		case 80:
@@ -11026,7 +11026,7 @@ char* func_108(int iParam0, int iParam1)
 		case 78:
 			return "PistolAtDawn";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "BeatTheTraffic";
 		
 		case 80:
@@ -11486,7 +11486,7 @@ char* func_109(int iParam0, int iParam1, int iParam2, bool bParam3)
 		case 78:
 			return "AWS_872";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "AWS_873";
 		
 		case 80:
@@ -11932,7 +11932,7 @@ char* func_110(int iParam0, int iParam1, bool bParam2)
 		case 78:
 			return "AWT_872";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "AWT_873";
 		
 		case 80:
@@ -12377,7 +12377,7 @@ int func_111(int iParam0, int iParam1)
 		case 78:
 			return 1;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 1;
 		
 		case 80:
@@ -12920,7 +12920,7 @@ char* func_115(int iParam0, int iParam1, int iParam2)
 		case 78:
 			return "MPAwardsArena";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "MPAwardsArena";
 		
 		case 80:
@@ -13288,7 +13288,7 @@ char* func_116(int iParam0, int iParam1, int iParam2)
 		case 78:
 			return "CROWDPARTICIPATION";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "KILLORBEKILLED";
 		
 		case 80:
@@ -13788,7 +13788,7 @@ char* func_117(int iParam0, int iParam1, int iParam2)
 		case 78:
 			return "AWS_827";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "AWS_828";
 		
 		case 80:
@@ -14708,7 +14708,7 @@ char* func_118(int iParam0, int iParam1)
 		case 78:
 			return "AWT_827";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "AWT_828";
 		
 		case 80:

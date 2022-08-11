@@ -766,7 +766,7 @@ char* func_6(int iParam0)
 		case 78:
 			return "GB_TRANSPORTER";
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return "GB_FORTIFIED";
 		
 		case 80:
@@ -1785,7 +1785,7 @@ int func_28(int iParam0, bool bParam1)
 		case 78:
 			return 9;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 10;
 		
 		case 80:
@@ -3357,7 +3357,7 @@ int func_81(int iParam0)
 		case 73:
 		case 76:
 		case 77:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 8;
 		
 		default:
@@ -6911,7 +6911,7 @@ int func_170(int iParam0)
 		case 76:
 		case 77:
 		case 78:
-		case joaat("mpsv_lp0_31"):
+		case 79:
 		case 80:
 			return 4;
 			break;
@@ -8149,7 +8149,7 @@ Vector3 func_211(int iParam0)
 			Var0 = { 939.7161f, -1459.204f, 30.467f };
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			Var0 = { 189.7624f, 309.7488f, 104.4714f };
 			break;
 		
@@ -8446,7 +8446,7 @@ int func_212(int iParam0)
 			return 63;
 			break;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 64;
 			break;
 		
@@ -13650,7 +13650,7 @@ int func_297(int iParam0, bool bParam1)
 		case 78:
 			return 217;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 218;
 		
 		case 80:
@@ -15011,7 +15011,7 @@ int func_327(int iParam0)
 			case 74:
 			case 78:
 			case 75:
-			case joaat("mpsv_lp0_31"):
+			case 79:
 			case 80:
 			case 82:
 			case 81:
@@ -15310,7 +15310,7 @@ int func_329(int iParam0)
 		case 78:
 			return 6;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 6;
 		
 		case 80:
@@ -17273,7 +17273,7 @@ int func_411(int iParam0)
 		case 78:
 			return 32;
 		
-		case joaat("mpsv_lp0_31"):
+		case 79:
 			return 32;
 		
 		case 80:
