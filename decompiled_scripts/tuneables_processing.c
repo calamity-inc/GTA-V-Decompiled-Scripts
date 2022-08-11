@@ -27190,7 +27190,7 @@ void func_62(int iParam0, int iParam1)
 	func_10(iParam0, iParam1, 1494459443, &(Global_262145.f_9172), 1);
 	func_10(iParam0, iParam1, 1155842175, &(Global_262145.f_9173), 1);
 	func_10(iParam0, iParam1, -169912556, &(Global_262145.f_9174), 1);
-	func_8(iParam0, iParam1, joaat("currentvehiclesalesseason"), &(Global_262145.f_10695), 1);
+	func_8(iParam0, iParam1, joaat("CURRENTVEHICLESALESSEASON"), &(Global_262145.f_10695), 1);
 	func_8(iParam0, iParam1, 789145715, &(Global_262145.f_10696), 1);
 	func_8(iParam0, iParam1, 1328818364, &(Global_262145.f_10697), 1);
 	func_8(iParam0, iParam1, -1904652865, &(Global_262145.f_10698), 1);
@@ -30978,7 +30978,7 @@ void func_81(int iParam0, int iParam1)
 	func_5(iParam0, iParam1, joaat("Discount_Female_Lowers_Pink_Checked_Bikini"), &(Global_262145.f_1255[249]), 1);
 	func_8(iParam0, iParam1, 1176327172, &(Global_262145.f_10711), 1);
 	func_8(iParam0, iParam1, -1552891378, &(Global_262145.f_10712), 1);
-	func_8(iParam0, iParam1, joaat("currentvehiclesalestuseason"), &(Global_262145.f_10713), 1);
+	func_8(iParam0, iParam1, joaat("CURRENTVEHICLESALESTUSEASON"), &(Global_262145.f_10713), 1);
 	func_8(iParam0, iParam1, joaat("PERMANENTCAPREPEATOFFENDER1"), &(Global_262145.f_10714), 1);
 	func_8(iParam0, iParam1, joaat("PERMANENTCAPREPEATOFFENDER2"), &(Global_262145.f_10715), 1);
 	func_8(iParam0, iParam1, -1024925342, &(Global_262145.f_10734), 1);

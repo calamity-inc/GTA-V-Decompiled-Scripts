@@ -3133,7 +3133,7 @@ int func_29(int iParam0)
 								func_31("MONEY_EARN_JOBSHARED");
 								break;
 							
-							case joaat("money_earn_rockstar_award"):
+							case joaat("MONEY_EARN_ROCKSTAR_AWARD"):
 								func_31("MONEY_EARN_ROCKSTAR_AWARD");
 								break;
 							

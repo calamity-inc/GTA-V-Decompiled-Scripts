@@ -19390,7 +19390,7 @@ int func_474(int iParam0)
 			return 1548197805;
 		
 		case 151:
-			return 1252576609;
+			return joaat("tony");
 		
 		case 14:
 			return joaat("JIMMY");
@@ -19426,7 +19426,7 @@ int func_474(int iParam0)
 			return 1028278171;
 		
 		case 69:
-			return -1120398581;
+			return joaat("omega");
 		
 		case 154:
 			return joaat("paige");
