@@ -7338,833 +7338,833 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case 1520364990:
-		case 580303643:
+		case joaat("dlc_mp_sum2_g9ec_m_berd_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_0_0"):
 			return 34397;
 			break;
 		
-		case -354644421:
-		case 1729643469:
+		case joaat("dlc_mp_sum2_g9ec_m_berd_0_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_0_1"):
 			return 34398;
 			break;
 		
-		case -974982704:
-		case 48543421:
+		case joaat("dlc_mp_sum2_g9ec_m_berd_1_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_1_0"):
 			return 34395;
 			break;
 		
-		case -1215015629:
-		case -238218098:
+		case joaat("dlc_mp_sum2_g9ec_m_berd_1_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_1_1"):
 			return 34396;
 			break;
 		
-		case -130244513:
-		case -377978101:
-		case -283591927:
-		case -767655595:
+		case joaat("dlc_mp_sum2_g9ec_m_berd_4_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_berd_4_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_4_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_4_1"):
 			return 34399;
 			break;
 		
-		case 758732542:
-		case 2020479751:
+		case joaat("dlc_mp_sum2_g9ec_m_berd_2_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_berd_2_0"):
 			return 34400;
 			break;
 	}
 	switch (iParam0)
 	{
-		case -735454758:
-		case 1952506611:
+		case joaat("dlc_mp_sum2_g9ec_m_outfit_mummy"):
+		case joaat("dlc_mp_sum2_g9ec_f_outfit_mummy"):
 			return 34389;
 			break;
 		
-		case -1837429117:
-		case 1681548323:
+		case joaat("dlc_mp_sum2_g9ec_m_legs_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_legs_0_0"):
 			return 34410;
 			break;
 		
-		case 12806934:
-		case 849379568:
+		case joaat("dlc_mp_sum2_g9ec_m_legs_0_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_legs_0_1"):
 			return 34409;
 			break;
 		
-		case -970841270:
-		case -1440833821:
-		case -1955249270:
-		case -723098420:
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_1_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_1_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_2_0"):
 			return 34404;
 			break;
 		
-		case 465882766:
-		case -739773835:
-		case -1657018601:
-		case -1474491590:
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_0_1"):
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_1_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_1_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_2_1"):
 			return 34403;
 			break;
 		
-		case 253027288:
-		case -64946144:
-		case 885438896:
-		case -1608650338:
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_2_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_3_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_3_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_4_0"):
 			return 34406;
 			break;
 		
-		case 1504277040:
-		case 1142343046:
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_6_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_8_0"):
 			return 34408;
 			break;
 		
-		case 2110919036:
-		case 950515127:
+		case joaat("dlc_mp_sum2_g9ec_m_jbib_7_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_jbib_5_0"):
 			return 34405;
 			break;
 		
-		case 1531318984:
-		case -1461011165:
-		case -135772036:
-		case -1089236040:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_phead_1_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_1_0"):
 			return 34391;
 			break;
 		
-		case 355696682:
-		case 186553326:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_2_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_2_0"):
 			return 34394;
 			break;
 		
-		case 826171005:
-		case -1872155720:
-		case 1656291234:
-		case -75647343:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_3_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_phead_4_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_3_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_4_0"):
 			return 34390;
 			break;
 		
-		case -1144766172:
-		case -1870060660:
-		case 929958499:
-		case -702925102:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_6_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_phead_7_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_6_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_7_0"):
 			return 34392;
 			break;
 		
-		case -700742821:
-		case -495437453:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_0"):
 			return 34393;
 			break;
 		
-		case 1416462269:
-		case 876109046:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_1"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_1"):
 			return 34730;
 			break;
 		
-		case 1102699094:
-		case 1050636740:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_2"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_2"):
 			return 34731;
 			break;
 		
-		case 804239042:
-		case 450898502:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_3"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_3"):
 			return 34732;
 			break;
 		
-		case -1955435054:
-		case -1696814531:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_4"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_4"):
 			return 34733;
 			break;
 		
-		case 1421148248:
-		case -911603753:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_7"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_7"):
 			return 34736;
 			break;
 		
-		case -729284612:
-		case 1890899494:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_8"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_8"):
 			return 34737;
 			break;
 		
-		case 2034289007:
-		case -317534552:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_5"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_5"):
 			return 34734;
 			break;
 		
-		case 1726194869:
-		case -144186542:
+		case joaat("dlc_mp_sum2_g9ec_m_phead_5_6"):
+		case joaat("dlc_mp_sum2_g9ec_f_phead_5_6"):
 			return 34735;
 			break;
 		
-		case 1301358015:
-		case 1152102991:
+		case joaat("dlc_mp_sum2_g9ec_m_pears_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_pears_0_0"):
 			return 34401;
 			break;
 		
-		case 1331092996:
-		case 1068341747:
-		case 955945551:
-		case -297679123:
+		case joaat("dlc_mp_sum2_g9ec_m_pleft_wrist_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_m_pright_wrist_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_pleft_wrist_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_pright_wrist_0_0"):
 			return 34402;
 			break;
 		
-		case -1558054305:
-		case -1120646463:
+		case joaat("dlc_mp_sum2_g9ec_m_decl_0_0"):
+		case joaat("dlc_mp_sum2_g9ec_f_decl_0_0"):
 			return 34407;
 			break;
 	}
 	switch (iParam0)
 	{
-		case 1724366146:
-		case 1150798956:
+		case joaat("dlc_mp_sum2_m_berd_5_0"):
+		case joaat("dlc_mp_sum2_f_berd_5_0"):
 			return 34451;
 			break;
 		
-		case 1368232654:
-		case 1386965139:
+		case joaat("dlc_mp_sum2_m_berd_5_1"):
+		case joaat("dlc_mp_sum2_f_berd_5_1"):
 			return 34452;
 			break;
 		
-		case -94018437:
-		case -1709770903:
+		case joaat("dlc_mp_sum2_m_berd_5_2"):
+		case joaat("dlc_mp_sum2_f_berd_5_2"):
 			return 34453;
 			break;
 		
-		case -450610695:
-		case 1751061498:
+		case joaat("dlc_mp_sum2_m_berd_5_3"):
+		case joaat("dlc_mp_sum2_f_berd_5_3"):
 			return 34454;
 			break;
 		
-		case 1609015485:
-		case 126910647:
+		case joaat("dlc_mp_sum2_m_berd_6_0"):
+		case joaat("dlc_mp_sum2_f_berd_6_0"):
 			return 34418;
 			break;
 		
-		case 680702484:
-		case -1550141239:
+		case joaat("dlc_mp_sum2_m_berd_6_1"):
+		case joaat("dlc_mp_sum2_f_berd_6_1"):
 			return 34419;
 			break;
 		
-		case 1146349974:
-		case -1252172722:
+		case joaat("dlc_mp_sum2_m_berd_6_2"):
+		case joaat("dlc_mp_sum2_f_berd_6_2"):
 			return 34420;
 			break;
 		
-		case -526952607:
-		case -569683525:
+		case joaat("dlc_mp_sum2_m_berd_7_0"):
+		case joaat("dlc_mp_sum2_f_berd_7_0"):
 			return 34372;
 			break;
 		
-		case 474546626:
-		case -384657478:
+		case joaat("dlc_mp_sum2_m_berd_8_0"):
+		case joaat("dlc_mp_sum2_f_berd_8_0"):
 			return 34421;
 			break;
 		
-		case 1451698965:
-		case 594636211:
+		case joaat("dlc_mp_sum2_m_berd_9_0"):
+		case joaat("dlc_mp_sum2_f_berd_9_0"):
 			return 34415;
 			break;
 		
-		case 1689143139:
-		case -941181281:
+		case joaat("dlc_mp_sum2_m_berd_9_1"):
+		case joaat("dlc_mp_sum2_f_berd_9_1"):
 			return 34416;
 			break;
 		
-		case 996832476:
-		case -640886165:
+		case joaat("dlc_mp_sum2_m_berd_9_2"):
+		case joaat("dlc_mp_sum2_f_berd_9_2"):
 			return 34417;
 			break;
 		
-		case -1493061257:
-		case -79907447:
+		case joaat("dlc_mp_sum2_m_berd_10_0"):
+		case joaat("dlc_mp_sum2_f_berd_10_0"):
 			return 34425;
 			break;
 		
-		case -2082706651:
-		case 142495756:
+		case joaat("dlc_mp_sum2_m_berd_10_1"):
+		case joaat("dlc_mp_sum2_f_berd_10_1"):
 			return 34426;
 			break;
 		
-		case 1354564847:
-		case -542048670:
+		case joaat("dlc_mp_sum2_m_berd_10_2"):
+		case joaat("dlc_mp_sum2_f_berd_10_2"):
 			return 34427;
 			break;
 		
-		case 1810774865:
-		case -318531305:
+		case joaat("dlc_mp_sum2_m_berd_10_3"):
+		case joaat("dlc_mp_sum2_f_berd_10_3"):
 			return 34428;
 			break;
 		
-		case 1981796276:
-		case -1278531945:
+		case joaat("dlc_mp_sum2_m_berd_10_4"):
+		case joaat("dlc_mp_sum2_f_berd_10_4"):
 			return 34429;
 			break;
 		
-		case 2136597032:
-		case -1047477726:
+		case joaat("dlc_mp_sum2_m_berd_10_5"):
+		case joaat("dlc_mp_sum2_f_berd_10_5"):
 			return 34430;
 			break;
 		
-		case 592718366:
-		case -1739755620:
+		case joaat("dlc_mp_sum2_m_berd_10_6"):
+		case joaat("dlc_mp_sum2_f_berd_10_6"):
 			return 34431;
 			break;
 		
-		case -219002533:
-		case -1509160167:
+		case joaat("dlc_mp_sum2_m_berd_10_7"):
+		case joaat("dlc_mp_sum2_f_berd_10_7"):
 			return 34432;
 			break;
 		
-		case 1025924546:
-		case 1437198938:
+		case joaat("dlc_mp_sum2_m_berd_10_8"):
+		case joaat("dlc_mp_sum2_f_berd_10_8"):
 			return 34433;
 			break;
 		
-		case 1182036062:
-		case 1665926558:
+		case joaat("dlc_mp_sum2_m_berd_10_9"):
+		case joaat("dlc_mp_sum2_f_berd_10_9"):
 			return 34434;
 			break;
 		
-		case 701427629:
-		case 1785401618:
+		case joaat("dlc_mp_sum2_m_berd_10_10"):
+		case joaat("dlc_mp_sum2_f_berd_10_10"):
 			return 34435;
 			break;
 		
-		case 394349330:
-		case 2136914681:
+		case joaat("dlc_mp_sum2_m_berd_10_11"):
+		case joaat("dlc_mp_sum2_f_berd_10_11"):
 			return 34436;
 			break;
 		
-		case 1643077609:
-		case -988920289:
+		case joaat("dlc_mp_sum2_m_berd_10_12"):
+		case joaat("dlc_mp_sum2_f_berd_10_12"):
 			return 34437;
 			break;
 		
-		case -1885324470:
-		case -682136911:
+		case joaat("dlc_mp_sum2_m_berd_10_13"):
+		case joaat("dlc_mp_sum2_f_berd_10_13"):
 			return 34438;
 			break;
 		
-		case 1107468304:
-		case 562855706:
+		case joaat("dlc_mp_sum2_m_berd_10_14"):
+		case joaat("dlc_mp_sum2_f_berd_10_14"):
 			return 34439;
 			break;
 		
-		case 1881865312:
-		case -230809474:
+		case joaat("dlc_mp_sum2_m_berd_10_15"):
+		case joaat("dlc_mp_sum2_f_berd_10_15"):
 			return 34440;
 			break;
 		
-		case -1768240833:
-		case 1042921556:
+		case joaat("dlc_mp_sum2_m_berd_10_16"):
+		case joaat("dlc_mp_sum2_f_berd_10_16"):
 			return 34441;
 			break;
 		
-		case -992074299:
-		case 273734819:
+		case joaat("dlc_mp_sum2_m_berd_10_17"):
+		case joaat("dlc_mp_sum2_f_berd_10_17"):
 			return 34442;
 			break;
 		
-		case 2076185482:
-		case 1519874351:
+		case joaat("dlc_mp_sum2_m_berd_10_18"):
+		case joaat("dlc_mp_sum2_f_berd_10_18"):
 			return 34443;
 			break;
 		
-		case -1458409938:
-		case 725193332:
+		case joaat("dlc_mp_sum2_m_berd_10_19"):
+		case joaat("dlc_mp_sum2_f_berd_10_19"):
 			return 34444;
 			break;
 		
-		case 2068888083:
-		case 219467307:
+		case joaat("dlc_mp_sum2_m_berd_10_20"):
+		case joaat("dlc_mp_sum2_f_berd_10_20"):
 			return 34445;
 			break;
 		
-		case 1628276109:
-		case -1155028386:
+		case joaat("dlc_mp_sum2_m_berd_10_21"):
+		case joaat("dlc_mp_sum2_f_berd_10_21"):
 			return 34446;
 			break;
 		
-		case -1880988874:
-		case -224880333:
+		case joaat("dlc_mp_sum2_m_berd_10_22"):
+		case joaat("dlc_mp_sum2_f_berd_10_22"):
 			return 34447;
 			break;
 		
-		case -2052829510:
-		case 551220663:
+		case joaat("dlc_mp_sum2_m_berd_10_23"):
+		case joaat("dlc_mp_sum2_f_berd_10_23"):
 			return 34448;
 			break;
 		
-		case -1463511814:
-		case -967589706:
+		case joaat("dlc_mp_sum2_m_berd_10_24"):
+		case joaat("dlc_mp_sum2_f_berd_10_24"):
 			return 34449;
 			break;
 		
-		case -695766913:
-		case 1972510516:
+		case joaat("dlc_mp_sum2_m_berd_10_25"):
+		case joaat("dlc_mp_sum2_f_berd_10_25"):
 			return 34450;
 			break;
 		
-		case 991438416:
-		case -843223043:
+		case joaat("dlc_mp_sum2_m_berd_0_0"):
+		case joaat("dlc_mp_sum2_f_berd_0_0"):
 			return 34423;
 			break;
 		
-		case 1548914004:
-		case -123672751:
+		case joaat("dlc_mp_sum2_m_berd_1_0"):
+		case joaat("dlc_mp_sum2_f_berd_1_0"):
 			return 34703;
 			break;
 		
-		case -1925419225:
-		case -1661685694:
+		case joaat("dlc_mp_sum2_m_berd_1_1"):
+		case joaat("dlc_mp_sum2_f_berd_1_1"):
 			return 34704;
 			break;
 		
-		case 2060307018:
-		case -1353820939:
+		case joaat("dlc_mp_sum2_m_berd_1_2"):
+		case joaat("dlc_mp_sum2_f_berd_1_2"):
 			return 34705;
 			break;
 		
-		case 1323846664:
-		case -427532527:
+		case joaat("dlc_mp_sum2_m_berd_3_0"):
+		case joaat("dlc_mp_sum2_f_berd_3_0"):
 			return 34424;
 			break;
 		
-		case -1274794483:
-		case -9589384:
+		case joaat("dlc_mp_sum2_m_berd_4_0"):
+		case joaat("dlc_mp_sum2_f_berd_4_0"):
 			return 34422;
 			break;
 	}
 	switch (iParam0)
 	{
-		case 1812702544:
-		case 1981007875:
+		case joaat("dlc_mp_sum2_m_outfit_sasquatch"):
+		case joaat("dlc_mp_sum2_f_outfit_sasquatch"):
 			return 34411;
 			break;
 		
-		case -671033806:
-		case 1119071129:
+		case joaat("dlc_mp_sum2_m_legs_2_0"):
+		case joaat("dlc_mp_sum2_f_legs_0_0"):
 			return 34506;
 			break;
 		
-		case -913655482:
-		case 882446180:
+		case joaat("dlc_mp_sum2_m_legs_2_1"):
+		case joaat("dlc_mp_sum2_f_legs_0_1"):
 			return 34507;
 			break;
 		
-		case 143421535:
-		case -1761958295:
-		case 1270947816:
+		case joaat("dlc_mp_sum2_m_jbib_13_0"):
+		case joaat("dlc_mp_sum2_f_jbib_15_0"):
+		case joaat("dlc_mp_sum2_f_jbib_16_0"):
 			return 34380;
 			break;
 		
-		case -1001558832:
-		case -1576706555:
+		case joaat("dlc_mp_sum2_m_jbib_14_0"):
+		case joaat("dlc_mp_sum2_f_jbib_19_0"):
 			return 34388;
 			break;
 		
-		case -911845435:
-		case 314419657:
-		case 1037561437:
+		case joaat("dlc_mp_sum2_m_jbib_15_0"):
+		case joaat("dlc_mp_sum2_m_jbib_16_0"):
+		case joaat("dlc_mp_sum2_f_jbib_20_0"):
 			return 34383;
 			break;
 		
-		case 1929751173:
-		case 1658833420:
-		case 189073720:
+		case joaat("dlc_mp_sum2_m_jbib_15_1"):
+		case joaat("dlc_mp_sum2_m_jbib_16_1"):
+		case joaat("dlc_mp_sum2_f_jbib_20_1"):
 			return 34381;
 			break;
 		
-		case -1404003046:
-		case 2031875716:
-		case -241642020:
+		case joaat("dlc_mp_sum2_m_jbib_15_2"):
+		case joaat("dlc_mp_sum2_m_jbib_16_2"):
+		case joaat("dlc_mp_sum2_f_jbib_20_2"):
 			return 34385;
 			break;
 		
-		case -1346545254:
-		case -926305599:
+		case joaat("dlc_mp_sum2_m_jbib_17_0"):
+		case joaat("dlc_mp_sum2_f_jbib_8_0"):
 			return 34382;
 			break;
 		
-		case -751416224:
-		case 2008532977:
-		case 1892374951:
-		case -458118385:
+		case joaat("dlc_mp_sum2_m_jbib_7_0"):
+		case joaat("dlc_mp_sum2_m_jbib_8_0"):
+		case joaat("dlc_mp_sum2_f_jbib_24_0"):
+		case joaat("dlc_mp_sum2_f_jbib_21_0"):
 			return 34384;
 			break;
 		
-		case 559556286:
-		case -1685979367:
+		case joaat("dlc_mp_sum2_m_phead_6_0"):
+		case joaat("dlc_mp_sum2_f_phead_6_0"):
 			return 34455;
 			break;
 		
-		case 1893746121:
-		case -1984799878:
+		case joaat("dlc_mp_sum2_m_phead_6_1"):
+		case joaat("dlc_mp_sum2_f_phead_6_1"):
 			return 34456;
 			break;
 		
-		case -2111412139:
-		case -1348229268:
+		case joaat("dlc_mp_sum2_m_phead_6_2"):
+		case joaat("dlc_mp_sum2_f_phead_6_2"):
 			return 34457;
 			break;
 		
-		case 1412598894:
-		case -1646853165:
+		case joaat("dlc_mp_sum2_m_phead_6_3"):
+		case joaat("dlc_mp_sum2_f_phead_6_3"):
 			return 34458;
 			break;
 		
-		case -1381777825:
-		case -753308073:
+		case joaat("dlc_mp_sum2_m_phead_6_4"):
+		case joaat("dlc_mp_sum2_f_phead_6_4"):
 			return 34459;
 			break;
 		
-		case 2076433048:
-		case -1032598260:
+		case joaat("dlc_mp_sum2_m_phead_6_5"):
+		case joaat("dlc_mp_sum2_f_phead_6_5"):
 			return 34460;
 			break;
 		
-		case -2032013100:
-		case 1987720474:
+		case joaat("dlc_mp_sum2_m_phead_6_6"):
+		case joaat("dlc_mp_sum2_f_phead_6_6"):
 			return 34461;
 			break;
 		
-		case 1478169415:
-		case 1692373477:
+		case joaat("dlc_mp_sum2_m_phead_6_7"):
+		case joaat("dlc_mp_sum2_f_phead_6_7"):
 			return 34462;
 			break;
 		
-		case 859949461:
-		case -1709310879:
+		case joaat("dlc_mp_sum2_m_phead_6_8"):
+		case joaat("dlc_mp_sum2_f_phead_6_8"):
 			return 34463;
 			break;
 		
-		case 1085072491:
-		case -1983718485:
+		case joaat("dlc_mp_sum2_m_phead_6_9"):
+		case joaat("dlc_mp_sum2_f_phead_6_9"):
 			return 34464;
 			break;
 		
-		case -1615111379:
-		case 1420344251:
+		case joaat("dlc_mp_sum2_m_phead_6_10"):
+		case joaat("dlc_mp_sum2_f_phead_6_10"):
 			return 34465;
 			break;
 		
-		case 1313880152:
-		case 870841382:
+		case joaat("dlc_mp_sum2_m_phead_6_11"):
+		case joaat("dlc_mp_sum2_f_phead_6_11"):
 			return 34466;
 			break;
 		
-		case -2006766467:
-		case 512512367:
+		case joaat("dlc_mp_sum2_m_phead_6_12"):
+		case joaat("dlc_mp_sum2_f_phead_6_12"):
 			return 34467;
 			break;
 		
-		case 1922367713:
-		case -792119830:
+		case joaat("dlc_mp_sum2_m_phead_6_13"):
+		case joaat("dlc_mp_sum2_f_phead_6_13"):
 			return 34468;
 			break;
 		
-		case -235225048:
-		case 1715116009:
-		case 887067243:
-		case 1317891885:
+		case joaat("dlc_mp_sum2_m_phead_0_0"):
+		case joaat("dlc_mp_sum2_m_phead_1_0"):
+		case joaat("dlc_mp_sum2_f_phead_0_0"):
+		case joaat("dlc_mp_sum2_f_phead_1_0"):
 			return 34375;
 			break;
 		
-		case -465470364:
-		case 1043334673:
-		case 789845898:
-		case -394412060:
+		case joaat("dlc_mp_sum2_m_phead_2_0"):
+		case joaat("dlc_mp_sum2_m_phead_4_0"):
+		case joaat("dlc_mp_sum2_f_phead_2_0"):
+		case joaat("dlc_mp_sum2_f_phead_4_0"):
 			return 34508;
 			break;
 		
-		case -416906702:
-		case -1402379642:
-		case 1021489959:
-		case -741370232:
+		case joaat("dlc_mp_sum2_m_phead_2_1"):
+		case joaat("dlc_mp_sum2_m_phead_4_1"):
+		case joaat("dlc_mp_sum2_f_phead_2_1"):
+		case joaat("dlc_mp_sum2_f_phead_4_1"):
 			return 34509;
 			break;
 		
-		case 961926275:
-		case 1123357994:
-		case 1539883241:
-		case 1091005714:
+		case joaat("dlc_mp_sum2_m_phead_3_0"):
+		case joaat("dlc_mp_sum2_m_phead_7_0"):
+		case joaat("dlc_mp_sum2_f_phead_3_0"):
+		case joaat("dlc_mp_sum2_f_phead_7_0"):
 			return 34510;
 			break;
 		
-		case -888504515:
-		case -1014747586:
+		case joaat("dlc_mp_sum2_m_phead_8_0"):
+		case joaat("dlc_mp_sum2_f_phead_8_0"):
 			return 34387;
 			break;
 		
-		case 2146292094:
-		case -396677513:
+		case joaat("dlc_mp_sum2_m_pears_0_0"):
+		case joaat("dlc_mp_sum2_f_pears_0_0"):
 			return 34469;
 			break;
 		
-		case -1936266544:
-		case 1153951575:
+		case joaat("dlc_mp_sum2_m_pears_0_1"):
+		case joaat("dlc_mp_sum2_f_pears_0_1"):
 			return 34470;
 			break;
 		
-		case -1636528489:
-		case 914934489:
+		case joaat("dlc_mp_sum2_m_pears_0_2"):
+		case joaat("dlc_mp_sum2_f_pears_0_2"):
 			return 34471;
 			break;
 		
-		case -1358549062:
-		case -41363246:
+		case joaat("dlc_mp_sum2_m_pears_0_3"):
+		case joaat("dlc_mp_sum2_f_pears_0_3"):
 			return 34472;
 			break;
 		
-		case -1189002256:
-		case 793295961:
+		case joaat("dlc_mp_sum2_m_pears_0_4"):
+		case joaat("dlc_mp_sum2_f_pears_0_4"):
 			return 34473;
 			break;
 		
-		case -915413875:
-		case 569614739:
+		case joaat("dlc_mp_sum2_m_pears_0_5"):
+		case joaat("dlc_mp_sum2_f_pears_0_5"):
 			return 34474;
 			break;
 		
-		case -214419427:
-		case 246381331:
+		case joaat("dlc_mp_sum2_m_pears_0_6"):
+		case joaat("dlc_mp_sum2_f_pears_0_6"):
 			return 34475;
 			break;
 		
-		case -477128512:
-		case -521101418:
+		case joaat("dlc_mp_sum2_m_pears_0_7"):
+		case joaat("dlc_mp_sum2_f_pears_0_7"):
 			return 34476;
 			break;
 		
-		case -172671733:
-		case -366235124:
+		case joaat("dlc_mp_sum2_m_pears_0_8"):
+		case joaat("dlc_mp_sum2_f_pears_0_8"):
 			return 34477;
 			break;
 		
-		case 1003967:
-		case 1797075941:
+		case joaat("dlc_mp_sum2_m_pears_0_9"):
+		case joaat("dlc_mp_sum2_f_pears_0_9"):
 			return 34478;
 			break;
 		
-		case -1484108735:
-		case 325782160:
+		case joaat("dlc_mp_sum2_m_pears_0_10"):
+		case joaat("dlc_mp_sum2_f_pears_0_10"):
 			return 34479;
 			break;
 		
-		case -683332682:
-		case 679163056:
+		case joaat("dlc_mp_sum2_m_pears_0_11"):
+		case joaat("dlc_mp_sum2_f_pears_0_11"):
 			return 34480;
 			break;
 		
-		case -1332620073:
-		case 499837685:
+		case joaat("dlc_mp_sum2_m_special_1_0"):
+		case joaat("dlc_mp_sum2_f_special_1_0"):
 			return 34386;
 			break;
 		
-		case -1258274341:
-		case -51159746:
+		case joaat("dlc_mp_sum2_m_feet_5_0"):
+		case joaat("dlc_mp_sum2_f_feet_5_0"):
 			return 34481;
 			break;
 		
-		case -1555161481:
-		case 110981266:
+		case joaat("dlc_mp_sum2_m_feet_5_1"):
+		case joaat("dlc_mp_sum2_f_feet_5_1"):
 			return 34482;
 			break;
 		
-		case 287734290:
-		case -2001210171:
+		case joaat("dlc_mp_sum2_m_feet_5_2"):
+		case joaat("dlc_mp_sum2_f_feet_5_2"):
 			return 34483;
 			break;
 		
-		case -1316734493:
-		case 1653647479:
+		case joaat("dlc_mp_sum2_m_feet_5_3"):
+		case joaat("dlc_mp_sum2_f_feet_5_3"):
 			return 34484;
 			break;
 		
-		case -1019355818:
-		case 909430720:
+		case joaat("dlc_mp_sum2_m_feet_5_4"):
+		case joaat("dlc_mp_sum2_f_feet_5_4"):
 			return 34485;
 			break;
 		
-		case -975052130:
-		case 1073931100:
+		case joaat("dlc_mp_sum2_m_feet_5_5"):
+		case joaat("dlc_mp_sum2_f_feet_5_5"):
 			return 34486;
 			break;
 		
-		case 1470072347:
-		case -585753204:
+		case joaat("dlc_mp_sum2_m_feet_5_6"):
+		case joaat("dlc_mp_sum2_f_feet_5_6"):
 			return 34487;
 			break;
 		
-		case 1805430293:
-		case -427282320:
+		case joaat("dlc_mp_sum2_m_feet_5_7"):
+		case joaat("dlc_mp_sum2_f_feet_5_7"):
 			return 34488;
 			break;
 		
-		case -1908018329:
-		case -1198041977:
+		case joaat("dlc_mp_sum2_m_feet_5_8"):
+		case joaat("dlc_mp_sum2_f_feet_5_8"):
 			return 34489;
 			break;
 		
-		case 1512195414:
-		case -189883950:
+		case joaat("dlc_mp_sum2_m_feet_6_0"):
+		case joaat("dlc_mp_sum2_f_feet_6_0"):
 			return 34490;
 			break;
 		
-		case 1214292435:
-		case -409075791:
+		case joaat("dlc_mp_sum2_m_feet_6_1"):
+		case joaat("dlc_mp_sum2_f_feet_6_1"):
 			return 34491;
 			break;
 		
-		case 1187815083:
-		case -785132835:
+		case joaat("dlc_mp_sum2_m_feet_6_2"):
+		case joaat("dlc_mp_sum2_f_feet_6_2"):
 			return 34492;
 			break;
 		
-		case 891550558:
-		case -984958197:
+		case joaat("dlc_mp_sum2_m_feet_6_3"):
+		case joaat("dlc_mp_sum2_f_feet_6_3"):
 			return 34493;
 			break;
 		
-		case -1649849245:
-		case -1223156058:
+		case joaat("dlc_mp_sum2_m_feet_6_4"):
+		case joaat("dlc_mp_sum2_f_feet_6_4"):
 			return 34494;
 			break;
 		
-		case -1947555610:
-		case -1596132820:
+		case joaat("dlc_mp_sum2_m_feet_6_5"):
+		case joaat("dlc_mp_sum2_f_feet_6_5"):
 			return 34495;
 			break;
 		
-		case 2044298436:
-		case -1826662735:
+		case joaat("dlc_mp_sum2_m_feet_6_6"):
+		case joaat("dlc_mp_sum2_f_feet_6_6"):
 			return 34496;
 			break;
 		
-		case 1746395457:
-		case 2085693717:
+		case joaat("dlc_mp_sum2_m_feet_6_7"):
+		case joaat("dlc_mp_sum2_f_feet_6_7"):
 			return 34497;
 			break;
 		
-		case -398761590:
-		case 1855622568:
+		case joaat("dlc_mp_sum2_m_feet_6_8"):
+		case joaat("dlc_mp_sum2_f_feet_6_8"):
 			return 34498;
 			break;
 		
-		case -426746316:
-		case 1475567706:
+		case joaat("dlc_mp_sum2_m_feet_6_9"):
+		case joaat("dlc_mp_sum2_f_feet_6_9"):
 			return 34499;
 			break;
 		
-		case -1093070644:
-		case 382065296:
+		case joaat("dlc_mp_sum2_m_feet_6_10"):
+		case joaat("dlc_mp_sum2_f_feet_6_10"):
 			return 34500;
 			break;
 		
-		case 2060159158:
-		case 1778549024:
+		case joaat("dlc_mp_sum2_m_feet_6_11"):
+		case joaat("dlc_mp_sum2_f_feet_6_11"):
 			return 34501;
 			break;
 		
-		case -1400673243:
-		case 2060001965:
+		case joaat("dlc_mp_sum2_m_feet_6_12"):
+		case joaat("dlc_mp_sum2_f_feet_6_12"):
 			return 34502;
 			break;
 		
-		case 1464648121:
-		case 1301923919:
+		case joaat("dlc_mp_sum2_m_feet_6_13"):
+		case joaat("dlc_mp_sum2_f_feet_6_13"):
 			return 34503;
 			break;
 		
-		case -2015386914:
-		case 1616080322:
+		case joaat("dlc_mp_sum2_m_feet_6_14"):
+		case joaat("dlc_mp_sum2_f_feet_6_14"):
 			return 34504;
 			break;
 	}
 	switch (iParam0)
 	{
-		case -240057754:
-		case -2417894:
+		case joaat("dlc_mp_fixer_m_jbib_10_2"):
+		case joaat("dlc_mp_fixer_f_jbib_10_2"):
 			return 32309;
 			break;
 		
-		case -1166011267:
+		case joaat("dlc_mp_fixer_m_jbib_10_3"):
 		case -906547381:
 			return 32310;
 			break;
 		
-		case -721794703:
+		case joaat("dlc_mp_fixer_m_jbib_10_4"):
 		case 308133919:
 			return 32311;
 			break;
 		
-		case 488495423:
-		case 1072091359:
+		case joaat("dlc_mp_fixer_m_jbib_10_0"):
+		case joaat("dlc_mp_fixer_f_jbib_13_0"):
 			return 32307;
 			break;
 		
-		case -523083487:
-		case 508464559:
+		case joaat("dlc_mp_fixer_m_jbib_10_1"):
+		case joaat("dlc_mp_fixer_f_jbib_13_1"):
 			return 32308;
 			break;
 		
-		case -1498989066:
-		case 452715244:
+		case joaat("dlc_mp_fixer_m_berd_0_0"):
+		case joaat("dlc_mp_fixer_f_berd_0_0"):
 			return 32295;
 			break;
 		
-		case 1281689967:
-		case -112025702:
+		case joaat("dlc_mp_fixer_m_berd_0_1"):
+		case joaat("dlc_mp_fixer_f_berd_0_1"):
 			return 32296;
 			break;
 		
-		case 841209069:
-		case 128072761:
+		case joaat("dlc_mp_fixer_m_berd_0_2"):
+		case joaat("dlc_mp_fixer_f_berd_0_2"):
 			return 32297;
 			break;
 		
-		case 1742192724:
-		case -705996596:
+		case joaat("dlc_mp_fixer_m_berd_0_3"):
+		case joaat("dlc_mp_fixer_f_berd_0_3"):
 			return 32298;
 			break;
 		
-		case -2022943269:
-		case 733291825:
+		case joaat("dlc_mp_fixer_m_berd_1_0"):
+		case joaat("dlc_mp_fixer_f_berd_1_0"):
 			return 32299;
 			break;
 		
-		case -804690608:
-		case -101367374:
+		case joaat("dlc_mp_fixer_m_berd_1_1"):
+		case joaat("dlc_mp_fixer_f_berd_1_1"):
 			return 32300;
 			break;
 		
-		case -1100955137:
-		case 1328802862:
+		case joaat("dlc_mp_fixer_m_berd_1_2"):
+		case joaat("dlc_mp_fixer_f_berd_1_2"):
 			return 32301;
 			break;
 		
-		case 2089631321:
-		case 495519961:
+		case joaat("dlc_mp_fixer_m_berd_1_3"):
+		case joaat("dlc_mp_fixer_f_berd_1_3"):
 			return 32302;
 			break;
 		
-		case 591101258:
-		case -693204279:
+		case joaat("dlc_mp_fixer_m_berd_2_0"):
+		case joaat("dlc_mp_fixer_f_berd_2_0"):
 			return 32303;
 			break;
 		
-		case -1278730655:
-		case 150499164:
+		case joaat("dlc_mp_fixer_m_berd_2_1"):
+		case joaat("dlc_mp_fixer_f_berd_2_1"):
 			return 32304;
 			break;
 		
-		case -1215879713:
-		case -129905169:
+		case joaat("dlc_mp_fixer_m_berd_2_2"):
+		case joaat("dlc_mp_fixer_f_berd_2_2"):
 			return 32305;
 			break;
 		
-		case -918271655:
-		case 612902523:
+		case joaat("dlc_mp_fixer_m_berd_2_3"):
+		case joaat("dlc_mp_fixer_f_berd_2_3"):
 			return 32306;
 			break;
 	}
 	switch (iParam0)
 	{
-		case 1313302606:
-		case 1409068743:
+		case joaat("dlc_mp_tuner_m_decl_30_1"):
+		case joaat("dlc_mp_tuner_f_decl_29_1"):
 			return 32273;
 			break;
 		
@@ -8178,10 +8178,10 @@ int func_221(int iParam0)
 			return 31769;
 			break;
 		
-		case -1659998431:
-		case -2112473443:
-		case -947707813:
-		case 693543937:
+		case joaat("dlc_mp_tuner_m_jbib_11_0"):
+		case joaat("dlc_mp_tuner_m_jbib_12_0"):
+		case joaat("dlc_mp_tuner_f_jbib_11_0"):
+		case joaat("dlc_mp_tuner_f_jbib_12_0"):
 			return 31784;
 			break;
 		
@@ -8190,59 +8190,59 @@ int func_221(int iParam0)
 			return 31770;
 			break;
 		
-		case -11432663:
-		case 1005080874:
-		case 1248902972:
-		case 39557656:
-		case 272288400:
-		case 1299492081:
+		case joaat("dlc_mp_tuner_m_outfit_boiler_1"):
+		case joaat("dlc_mp_tuner_m_jbib_1_3"):
+		case joaat("dlc_mp_tuner_m_legs_1_3"):
+		case joaat("dlc_mp_tuner_f_outfit_boiler_1"):
+		case joaat("dlc_mp_tuner_f_jbib_1_3"):
+		case joaat("dlc_mp_tuner_f_legs_1_3"):
 			return 31777;
 			break;
 		
-		case -126686984:
-		case 2057911750:
+		case joaat("dlc_mp_tuner_m_jbib_9_15"):
+		case joaat("dlc_mp_tuner_f_jbib_9_15"):
 			return 31788;
 			break;
 		
-		case 1527426310:
-		case 652346313:
-		case -493474820:
+		case joaat("dlc_mp_tuner_m_jbib_13_2"):
+		case joaat("dlc_mp_tuner_m_jbib_14_2"):
+		case joaat("dlc_mp_tuner_f_jbib_13_2"):
 			return 31787;
 			break;
 		
-		case -926775180:
-		case -2002794681:
-		case 1039426231:
+		case joaat("dlc_mp_tuner_m_jbib_13_0"):
+		case joaat("dlc_mp_tuner_m_jbib_14_0"):
+		case joaat("dlc_mp_tuner_f_jbib_13_0"):
 			return 31786;
 			break;
 		
-		case 915891232:
-		case -1732614276:
-		case -811071968:
+		case joaat("dlc_mp_tuner_m_jbib_13_1"):
+		case joaat("dlc_mp_tuner_m_jbib_14_1"):
+		case joaat("dlc_mp_tuner_f_jbib_13_1"):
 			return 31785;
 			break;
 		
-		case -1530567150:
-		case -1187110619:
-		case 1112304057:
-		case -1366594938:
+		case joaat("dlc_mp_tuner_m_phead_1_0"):
+		case joaat("dlc_mp_tuner_m_phead_2_0"):
+		case joaat("dlc_mp_tuner_f_phead_1_0"):
+		case joaat("dlc_mp_tuner_f_phead_2_0"):
 			return 31766;
 			break;
 		
-		case -1830763959:
-		case -1778066765:
-		case 796541973:
-		case 2004974703:
+		case joaat("dlc_mp_tuner_m_phead_1_1"):
+		case joaat("dlc_mp_tuner_m_phead_2_1"):
+		case joaat("dlc_mp_tuner_f_phead_1_1"):
+		case joaat("dlc_mp_tuner_f_phead_2_1"):
 			return 31767;
 			break;
 		
-		case -1174740608:
-		case 1620783517:
+		case joaat("dlc_mp_tuner_m_outfit_morph_0"):
+		case joaat("dlc_mp_tuner_f_outfit_morph_0"):
 			return 31789;
 			break;
 		
-		case -1943796269:
-		case -1699338794:
+		case joaat("dlc_mp_tuner_m_outfit_morph_1"):
+		case joaat("dlc_mp_tuner_f_outfit_morph_1"):
 			return 31790;
 			break;
 		
@@ -8283,12 +8283,12 @@ int func_221(int iParam0)
 			return 31775;
 			break;
 		
-		case 602068555:
-		case 774354345:
-		case -1820765864:
-		case -1559667847:
-		case 503440926:
-		case 1098093807:
+		case joaat("dlc_mp_tuner_m_outfit_boiler_0"):
+		case joaat("dlc_mp_tuner_m_jbib_1_2"):
+		case joaat("dlc_mp_tuner_m_legs_1_2"):
+		case joaat("dlc_mp_tuner_f_outfit_boiler_0"):
+		case joaat("dlc_mp_tuner_f_jbib_1_2"):
+		case joaat("dlc_mp_tuner_f_legs_1_2"):
 			return 31776;
 			break;
 	}
@@ -8498,30 +8498,30 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_H4_F_JBIB_8_0"):
-		case joaat("DLC_MP_H4_F_JBIB_9_0"):
-		case joaat("DLC_MP_H4_M_JBIB_8_0"):
-		case joaat("DLC_MP_H4_M_JBIB_9_0"):
+		case joaat("dlc_mp_h4_f_jbib_8_0"):
+		case joaat("dlc_mp_h4_f_jbib_9_0"):
+		case joaat("dlc_mp_h4_m_jbib_8_0"):
+		case joaat("dlc_mp_h4_m_jbib_9_0"):
 			return 30563;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_10_0"):
-		case joaat("DLC_MP_H4_M_JBIB_10_0"):
+		case joaat("dlc_mp_h4_f_jbib_10_0"):
+		case joaat("dlc_mp_h4_m_jbib_10_0"):
 			return 30564;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_5_0"):
-		case joaat("DLC_MP_H4_M_JBIB_6_0"):
+		case joaat("dlc_mp_h4_f_jbib_5_0"):
+		case joaat("dlc_mp_h4_m_jbib_6_0"):
 			return 30565;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_5_1"):
-		case joaat("DLC_MP_H4_M_JBIB_6_1"):
+		case joaat("dlc_mp_h4_f_jbib_5_1"):
+		case joaat("dlc_mp_h4_m_jbib_6_1"):
 			return 30566;
 			break;
 		
-		case joaat("DLC_MP_H4_M_JBIB_0_5"):
-		case joaat("DLC_MP_H4_F_JBIB_7_1"):
+		case joaat("dlc_mp_h4_m_jbib_0_5"):
+		case joaat("dlc_mp_h4_f_jbib_7_1"):
 			return 30567;
 			break;
 		
@@ -8545,659 +8545,659 @@ int func_221(int iParam0)
 			return 30571;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_7_5"):
-		case joaat("DLC_MP_H4_M_JBIB_0_9"):
+		case joaat("dlc_mp_h4_f_jbib_7_5"):
+		case joaat("dlc_mp_h4_m_jbib_0_9"):
 			return 30572;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_7_4"):
-		case joaat("DLC_MP_H4_M_JBIB_0_8"):
+		case joaat("dlc_mp_h4_f_jbib_7_4"):
+		case joaat("dlc_mp_h4_m_jbib_0_8"):
 			return 30573;
 			break;
 		
-		case joaat("DLC_MP_H4_M_DECL_0_0"):
-		case joaat("DLC_MP_H4_F_DECL_0_0"):
+		case joaat("dlc_mp_h4_m_decl_0_0"):
+		case joaat("dlc_mp_h4_f_decl_0_0"):
 			return 30574;
 			break;
 		
-		case joaat("DLC_MP_H4_M_JBIB_0_6"):
-		case joaat("DLC_MP_H4_F_JBIB_7_2"):
+		case joaat("dlc_mp_h4_m_jbib_0_6"):
+		case joaat("dlc_mp_h4_f_jbib_7_2"):
 			return 30575;
 			break;
 		
-		case joaat("DLC_MP_H4_M_JBIB_0_7"):
-		case joaat("DLC_MP_H4_F_JBIB_7_3"):
+		case joaat("dlc_mp_h4_m_jbib_0_7"):
+		case joaat("dlc_mp_h4_f_jbib_7_3"):
 			return 30576;
 			break;
 		
-		case joaat("DLC_MP_H4_M_JBIB_5_0"):
-		case joaat("DLC_MP_H4_F_JBIB_4_0"):
+		case joaat("dlc_mp_h4_m_jbib_5_0"):
+		case joaat("dlc_mp_h4_f_jbib_4_0"):
 			return 30577;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_6_4"):
-		case joaat("DLC_MP_H4_M_JBIB_7_4"):
+		case joaat("dlc_mp_h4_f_jbib_6_4"):
+		case joaat("dlc_mp_h4_m_jbib_7_4"):
 			return 30578;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_6_3"):
-		case joaat("DLC_MP_H4_M_JBIB_7_3"):
+		case joaat("dlc_mp_h4_f_jbib_6_3"):
+		case joaat("dlc_mp_h4_m_jbib_7_3"):
 			return 30579;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_6_2"):
-		case joaat("DLC_MP_H4_M_JBIB_7_2"):
+		case joaat("dlc_mp_h4_f_jbib_6_2"):
+		case joaat("dlc_mp_h4_m_jbib_7_2"):
 			return 30580;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_6_1"):
-		case joaat("DLC_MP_H4_M_JBIB_7_1"):
+		case joaat("dlc_mp_h4_f_jbib_6_1"):
+		case joaat("dlc_mp_h4_m_jbib_7_1"):
 			return 30581;
 			break;
 		
-		case joaat("DLC_MP_H4_F_JBIB_6_0"):
-		case joaat("DLC_MP_H4_M_JBIB_7_0"):
+		case joaat("dlc_mp_h4_f_jbib_6_0"):
+		case joaat("dlc_mp_h4_m_jbib_7_0"):
 			return 30582;
 			break;
 		
-		case joaat("DLC_MP_H4_F_LEGS_1_0"):
-		case joaat("DLC_MP_H4_M_LEGS_1_0"):
+		case joaat("dlc_mp_h4_f_legs_1_0"):
+		case joaat("dlc_mp_h4_m_legs_1_0"):
 			return 30583;
 			break;
 		
-		case joaat("DLC_MP_H4_F_LEGS_1_1"):
-		case joaat("DLC_MP_H4_M_LEGS_1_1"):
+		case joaat("dlc_mp_h4_f_legs_1_1"):
+		case joaat("dlc_mp_h4_m_legs_1_1"):
 			return 30584;
 			break;
 		
-		case joaat("DLC_MP_H4_F_LEGS_1_2"):
-		case joaat("DLC_MP_H4_M_LEGS_1_2"):
+		case joaat("dlc_mp_h4_f_legs_1_2"):
+		case joaat("dlc_mp_h4_m_legs_1_2"):
 			return 30585;
 			break;
 		
-		case joaat("DLC_MP_H4_F_LEGS_0_0"):
-		case joaat("DLC_MP_H4_M_LEGS_0_0"):
+		case joaat("dlc_mp_h4_f_legs_0_0"):
+		case joaat("dlc_mp_h4_m_legs_0_0"):
 			return 30586;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PHEAD_1_0"):
-		case joaat("DLC_MP_H4_M_PHEAD_1_0"):
-		case joaat("DLC_MP_H4_F_PHEAD_2_0"):
-		case joaat("DLC_MP_H4_M_PHEAD_2_0"):
+		case joaat("dlc_mp_h4_f_phead_1_0"):
+		case joaat("dlc_mp_h4_m_phead_1_0"):
+		case joaat("dlc_mp_h4_f_phead_2_0"):
+		case joaat("dlc_mp_h4_m_phead_2_0"):
 			return 30587;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PHEAD_1_1"):
-		case joaat("DLC_MP_H4_M_PHEAD_1_1"):
-		case joaat("DLC_MP_H4_F_PHEAD_2_1"):
-		case joaat("DLC_MP_H4_M_PHEAD_2_1"):
+		case joaat("dlc_mp_h4_f_phead_1_1"):
+		case joaat("dlc_mp_h4_m_phead_1_1"):
+		case joaat("dlc_mp_h4_f_phead_2_1"):
+		case joaat("dlc_mp_h4_m_phead_2_1"):
 			return 30588;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PHEAD_1_2"):
-		case joaat("DLC_MP_H4_M_PHEAD_1_2"):
-		case joaat("DLC_MP_H4_F_PHEAD_2_2"):
-		case joaat("DLC_MP_H4_M_PHEAD_2_2"):
+		case joaat("dlc_mp_h4_f_phead_1_2"):
+		case joaat("dlc_mp_h4_m_phead_1_2"):
+		case joaat("dlc_mp_h4_f_phead_2_2"):
+		case joaat("dlc_mp_h4_m_phead_2_2"):
 			return 30589;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PHEAD_1_3"):
-		case joaat("DLC_MP_H4_M_PHEAD_1_3"):
-		case joaat("DLC_MP_H4_F_PHEAD_2_3"):
-		case joaat("DLC_MP_H4_M_PHEAD_2_3"):
+		case joaat("dlc_mp_h4_f_phead_1_3"):
+		case joaat("dlc_mp_h4_m_phead_1_3"):
+		case joaat("dlc_mp_h4_f_phead_2_3"):
+		case joaat("dlc_mp_h4_m_phead_2_3"):
 			return 30590;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PHEAD_1_4"):
-		case joaat("DLC_MP_H4_M_PHEAD_1_4"):
-		case joaat("DLC_MP_H4_F_PHEAD_2_4"):
-		case joaat("DLC_MP_H4_M_PHEAD_2_4"):
+		case joaat("dlc_mp_h4_f_phead_1_4"):
+		case joaat("dlc_mp_h4_m_phead_1_4"):
+		case joaat("dlc_mp_h4_f_phead_2_4"):
+		case joaat("dlc_mp_h4_m_phead_2_4"):
 			return 30591;
 			break;
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_0"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_0"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_0"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_0"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_0"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_0"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_0"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_0"):
 			return 30592;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_1"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_1"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_1"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_1"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_1"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_1"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_1"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_1"):
 			return 30593;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_2"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_2"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_2"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_2"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_2"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_2"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_2"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_2"):
 			return 30594;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_3"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_3"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_3"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_3"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_3"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_3"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_3"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_3"):
 			return 30595;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_4"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_4"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_4"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_4"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_4"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_4"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_4"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_4"):
 			return 30596;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_5"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_5"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_5"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_5"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_5"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_5"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_5"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_5"):
 			return 30597;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_6"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_6"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_6"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_6"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_6"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_6"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_6"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_6"):
 			return 30598;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_7"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_7"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_7"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_7"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_7"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_7"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_7"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_7"):
 			return 30599;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_8"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_8"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_8"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_8"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_8"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_8"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_8"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_8"):
 			return 30600;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_9"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_9"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_9"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_9"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_9"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_9"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_9"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_9"):
 			return 30601;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_10"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_10"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_10"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_10"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_10"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_10"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_10"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_10"):
 			return 30602;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PLEFT_WRIST_0_11"):
-		case joaat("DLC_MP_H4_F_PRIGHT_WRIST_0_11"):
-		case joaat("DLC_MP_H4_M_PLEFT_WRIST_0_11"):
-		case joaat("DLC_MP_H4_M_PRIGHT_WRIST_0_11"):
+		case joaat("dlc_mp_h4_f_pleft_wrist_0_11"):
+		case joaat("dlc_mp_h4_f_pright_wrist_0_11"):
+		case joaat("dlc_mp_h4_m_pleft_wrist_0_11"):
+		case joaat("dlc_mp_h4_m_pright_wrist_0_11"):
 			return 30603;
 			break;
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_H4_F_PEYES_0_0"):
-		case joaat("DLC_MP_H4_M_PEYES_0_0"):
+		case joaat("dlc_mp_h4_f_peyes_0_0"):
+		case joaat("dlc_mp_h4_m_peyes_0_0"):
 			return 30604;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_1"):
-		case joaat("DLC_MP_H4_M_PEYES_0_1"):
+		case joaat("dlc_mp_h4_f_peyes_0_1"):
+		case joaat("dlc_mp_h4_m_peyes_0_1"):
 			return 30605;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_2"):
-		case joaat("DLC_MP_H4_M_PEYES_0_2"):
+		case joaat("dlc_mp_h4_f_peyes_0_2"):
+		case joaat("dlc_mp_h4_m_peyes_0_2"):
 			return 30606;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_3"):
-		case joaat("DLC_MP_H4_M_PEYES_0_3"):
+		case joaat("dlc_mp_h4_f_peyes_0_3"):
+		case joaat("dlc_mp_h4_m_peyes_0_3"):
 			return 30607;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_4"):
-		case joaat("DLC_MP_H4_M_PEYES_0_4"):
+		case joaat("dlc_mp_h4_f_peyes_0_4"):
+		case joaat("dlc_mp_h4_m_peyes_0_4"):
 			return 30608;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_5"):
-		case joaat("DLC_MP_H4_M_PEYES_0_5"):
+		case joaat("dlc_mp_h4_f_peyes_0_5"):
+		case joaat("dlc_mp_h4_m_peyes_0_5"):
 			return 30609;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_6"):
-		case joaat("DLC_MP_H4_M_PEYES_0_6"):
+		case joaat("dlc_mp_h4_f_peyes_0_6"):
+		case joaat("dlc_mp_h4_m_peyes_0_6"):
 			return 30610;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_7"):
-		case joaat("DLC_MP_H4_M_PEYES_0_7"):
+		case joaat("dlc_mp_h4_f_peyes_0_7"):
+		case joaat("dlc_mp_h4_m_peyes_0_7"):
 			return 30611;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_8"):
-		case joaat("DLC_MP_H4_M_PEYES_0_8"):
+		case joaat("dlc_mp_h4_f_peyes_0_8"):
+		case joaat("dlc_mp_h4_m_peyes_0_8"):
 			return 30612;
 			break;
 		
-		case joaat("ch1_12_props_combo10_87_lod"):
-		case joaat("DLC_MP_H4_M_PEYES_0_9"):
+		case joaat("dlc_mp_h4_f_peyes_0_9"):
+		case joaat("dlc_mp_h4_m_peyes_0_9"):
 			return 30613;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_10"):
-		case joaat("DLC_MP_H4_M_PEYES_0_10"):
+		case joaat("dlc_mp_h4_f_peyes_0_10"):
+		case joaat("dlc_mp_h4_m_peyes_0_10"):
 			return 30614;
 			break;
 		
-		case joaat("DLC_MP_H4_F_PEYES_0_11"):
-		case joaat("DLC_MP_H4_M_PEYES_0_11"):
+		case joaat("dlc_mp_h4_f_peyes_0_11"):
+		case joaat("dlc_mp_h4_m_peyes_0_11"):
 			return 30615;
 			break;
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_H4_F_TEETH_13_0"):
-		case joaat("DLC_MP_H4_M_TEETH_13_0"):
-		case joaat("DLC_MP_H4_F_TEETH_14_0"):
-		case joaat("DLC_MP_H4_M_TEETH_14_0"):
+		case joaat("dlc_mp_h4_f_teeth_13_0"):
+		case joaat("dlc_mp_h4_m_teeth_13_0"):
+		case joaat("dlc_mp_h4_f_teeth_14_0"):
+		case joaat("dlc_mp_h4_m_teeth_14_0"):
 			return 30616;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_1"):
-		case joaat("DLC_MP_H4_M_TEETH_13_1"):
-		case joaat("DLC_MP_H4_F_TEETH_14_1"):
-		case joaat("DLC_MP_H4_M_TEETH_14_1"):
+		case joaat("dlc_mp_h4_f_teeth_13_1"):
+		case joaat("dlc_mp_h4_m_teeth_13_1"):
+		case joaat("dlc_mp_h4_f_teeth_14_1"):
+		case joaat("dlc_mp_h4_m_teeth_14_1"):
 			return 30617;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_2"):
-		case joaat("DLC_MP_H4_M_TEETH_13_2"):
-		case joaat("DLC_MP_H4_F_TEETH_14_2"):
-		case joaat("DLC_MP_H4_M_TEETH_14_2"):
+		case joaat("dlc_mp_h4_f_teeth_13_2"):
+		case joaat("dlc_mp_h4_m_teeth_13_2"):
+		case joaat("dlc_mp_h4_f_teeth_14_2"):
+		case joaat("dlc_mp_h4_m_teeth_14_2"):
 			return 30618;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_3"):
-		case joaat("DLC_MP_H4_M_TEETH_13_3"):
-		case joaat("DLC_MP_H4_F_TEETH_14_3"):
-		case joaat("DLC_MP_H4_M_TEETH_14_3"):
+		case joaat("dlc_mp_h4_f_teeth_13_3"):
+		case joaat("dlc_mp_h4_m_teeth_13_3"):
+		case joaat("dlc_mp_h4_f_teeth_14_3"):
+		case joaat("dlc_mp_h4_m_teeth_14_3"):
 			return 30619;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_4"):
-		case joaat("DLC_MP_H4_M_TEETH_13_4"):
-		case joaat("DLC_MP_H4_F_TEETH_14_4"):
-		case joaat("DLC_MP_H4_M_TEETH_14_4"):
+		case joaat("dlc_mp_h4_f_teeth_13_4"):
+		case joaat("dlc_mp_h4_m_teeth_13_4"):
+		case joaat("dlc_mp_h4_f_teeth_14_4"):
+		case joaat("dlc_mp_h4_m_teeth_14_4"):
 			return 30620;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_5"):
-		case joaat("DLC_MP_H4_M_TEETH_13_5"):
-		case joaat("DLC_MP_H4_F_TEETH_14_5"):
-		case joaat("DLC_MP_H4_M_TEETH_14_5"):
+		case joaat("dlc_mp_h4_f_teeth_13_5"):
+		case joaat("dlc_mp_h4_m_teeth_13_5"):
+		case joaat("dlc_mp_h4_f_teeth_14_5"):
+		case joaat("dlc_mp_h4_m_teeth_14_5"):
 			return 30621;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_6"):
-		case joaat("DLC_MP_H4_M_TEETH_13_6"):
-		case joaat("DLC_MP_H4_F_TEETH_14_6"):
-		case joaat("DLC_MP_H4_M_TEETH_14_6"):
+		case joaat("dlc_mp_h4_f_teeth_13_6"):
+		case joaat("dlc_mp_h4_m_teeth_13_6"):
+		case joaat("dlc_mp_h4_f_teeth_14_6"):
+		case joaat("dlc_mp_h4_m_teeth_14_6"):
 			return 30622;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_7"):
-		case joaat("DLC_MP_H4_M_TEETH_13_7"):
-		case joaat("DLC_MP_H4_F_TEETH_14_7"):
-		case joaat("DLC_MP_H4_M_TEETH_14_7"):
+		case joaat("dlc_mp_h4_f_teeth_13_7"):
+		case joaat("dlc_mp_h4_m_teeth_13_7"):
+		case joaat("dlc_mp_h4_f_teeth_14_7"):
+		case joaat("dlc_mp_h4_m_teeth_14_7"):
 			return 30623;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_8"):
-		case joaat("DLC_MP_H4_M_TEETH_13_8"):
-		case joaat("DLC_MP_H4_F_TEETH_14_8"):
-		case joaat("DLC_MP_H4_M_TEETH_14_8"):
+		case joaat("dlc_mp_h4_f_teeth_13_8"):
+		case joaat("dlc_mp_h4_m_teeth_13_8"):
+		case joaat("dlc_mp_h4_f_teeth_14_8"):
+		case joaat("dlc_mp_h4_m_teeth_14_8"):
 			return 30624;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_9"):
-		case joaat("DLC_MP_H4_M_TEETH_13_9"):
-		case joaat("DLC_MP_H4_F_TEETH_14_9"):
-		case joaat("DLC_MP_H4_M_TEETH_14_9"):
+		case joaat("dlc_mp_h4_f_teeth_13_9"):
+		case joaat("dlc_mp_h4_m_teeth_13_9"):
+		case joaat("dlc_mp_h4_f_teeth_14_9"):
+		case joaat("dlc_mp_h4_m_teeth_14_9"):
 			return 30625;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_10"):
-		case joaat("DLC_MP_H4_M_TEETH_13_10"):
-		case joaat("DLC_MP_H4_F_TEETH_14_10"):
-		case joaat("DLC_MP_H4_M_TEETH_14_10"):
+		case joaat("dlc_mp_h4_f_teeth_13_10"):
+		case joaat("dlc_mp_h4_m_teeth_13_10"):
+		case joaat("dlc_mp_h4_f_teeth_14_10"):
+		case joaat("dlc_mp_h4_m_teeth_14_10"):
 			return 30626;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_11"):
-		case joaat("DLC_MP_H4_M_TEETH_13_11"):
-		case joaat("DLC_MP_H4_F_TEETH_14_11"):
-		case joaat("DLC_MP_H4_M_TEETH_14_11"):
+		case joaat("dlc_mp_h4_f_teeth_13_11"):
+		case joaat("dlc_mp_h4_m_teeth_13_11"):
+		case joaat("dlc_mp_h4_f_teeth_14_11"):
+		case joaat("dlc_mp_h4_m_teeth_14_11"):
 			return 30627;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_12"):
-		case joaat("DLC_MP_H4_M_TEETH_13_12"):
-		case joaat("DLC_MP_H4_F_TEETH_14_12"):
-		case joaat("DLC_MP_H4_M_TEETH_14_12"):
+		case joaat("dlc_mp_h4_f_teeth_13_12"):
+		case joaat("dlc_mp_h4_m_teeth_13_12"):
+		case joaat("dlc_mp_h4_f_teeth_14_12"):
+		case joaat("dlc_mp_h4_m_teeth_14_12"):
 			return 30628;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_13"):
-		case joaat("DLC_MP_H4_M_TEETH_13_13"):
-		case joaat("DLC_MP_H4_F_TEETH_14_13"):
-		case joaat("DLC_MP_H4_M_TEETH_14_13"):
+		case joaat("dlc_mp_h4_f_teeth_13_13"):
+		case joaat("dlc_mp_h4_m_teeth_13_13"):
+		case joaat("dlc_mp_h4_f_teeth_14_13"):
+		case joaat("dlc_mp_h4_m_teeth_14_13"):
 			return 30629;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_14"):
-		case joaat("DLC_MP_H4_M_TEETH_13_14"):
-		case joaat("DLC_MP_H4_F_TEETH_14_14"):
-		case joaat("DLC_MP_H4_M_TEETH_14_14"):
+		case joaat("dlc_mp_h4_f_teeth_13_14"):
+		case joaat("dlc_mp_h4_m_teeth_13_14"):
+		case joaat("dlc_mp_h4_f_teeth_14_14"):
+		case joaat("dlc_mp_h4_m_teeth_14_14"):
 			return 30630;
 			break;
 		
-		case joaat("DLC_MP_H4_F_TEETH_13_15"):
-		case joaat("DLC_MP_H4_M_TEETH_13_15"):
-		case joaat("DLC_MP_H4_F_TEETH_14_15"):
-		case joaat("DLC_MP_H4_M_TEETH_14_15"):
+		case joaat("dlc_mp_h4_f_teeth_13_15"):
+		case joaat("dlc_mp_h4_m_teeth_13_15"):
+		case joaat("dlc_mp_h4_f_teeth_14_15"):
+		case joaat("dlc_mp_h4_m_teeth_14_15"):
 			return 30631;
 			break;
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_H4_M_BERD_4_0"):
-		case joaat("DLC_MP_H4_F_BERD_4_0"):
+		case joaat("dlc_mp_h4_m_berd_4_0"):
+		case joaat("dlc_mp_h4_f_berd_4_0"):
 			return 30674;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_1"):
-		case joaat("DLC_MP_H4_F_BERD_4_1"):
+		case joaat("dlc_mp_h4_m_berd_4_1"):
+		case joaat("dlc_mp_h4_f_berd_4_1"):
 			return 30675;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_2"):
-		case joaat("DLC_MP_H4_F_BERD_4_2"):
+		case joaat("dlc_mp_h4_m_berd_4_2"):
+		case joaat("dlc_mp_h4_f_berd_4_2"):
 			return 30676;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_3"):
-		case joaat("DLC_MP_H4_F_BERD_4_3"):
+		case joaat("dlc_mp_h4_m_berd_4_3"):
+		case joaat("dlc_mp_h4_f_berd_4_3"):
 			return 30677;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_4"):
-		case joaat("DLC_MP_H4_F_BERD_4_4"):
+		case joaat("dlc_mp_h4_m_berd_4_4"):
+		case joaat("dlc_mp_h4_f_berd_4_4"):
 			return 30678;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_5"):
-		case joaat("DLC_MP_H4_F_BERD_4_5"):
+		case joaat("dlc_mp_h4_m_berd_4_5"):
+		case joaat("dlc_mp_h4_f_berd_4_5"):
 			return 30679;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_6"):
-		case joaat("DLC_MP_H4_F_BERD_4_6"):
+		case joaat("dlc_mp_h4_m_berd_4_6"):
+		case joaat("dlc_mp_h4_f_berd_4_6"):
 			return 30680;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_7"):
-		case joaat("DLC_MP_H4_F_BERD_4_7"):
+		case joaat("dlc_mp_h4_m_berd_4_7"):
+		case joaat("dlc_mp_h4_f_berd_4_7"):
 			return 30681;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_8"):
-		case joaat("DLC_MP_H4_F_BERD_4_8"):
+		case joaat("dlc_mp_h4_m_berd_4_8"):
+		case joaat("dlc_mp_h4_f_berd_4_8"):
 			return 30682;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_9"):
-		case joaat("DLC_MP_H4_F_BERD_4_9"):
+		case joaat("dlc_mp_h4_m_berd_4_9"):
+		case joaat("dlc_mp_h4_f_berd_4_9"):
 			return 30683;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_10"):
-		case joaat("DLC_MP_H4_F_BERD_4_10"):
+		case joaat("dlc_mp_h4_m_berd_4_10"):
+		case joaat("dlc_mp_h4_f_berd_4_10"):
 			return 30684;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_11"):
-		case joaat("DLC_MP_H4_F_BERD_4_11"):
+		case joaat("dlc_mp_h4_m_berd_4_11"):
+		case joaat("dlc_mp_h4_f_berd_4_11"):
 			return 30685;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_12"):
-		case joaat("DLC_MP_H4_F_BERD_4_12"):
+		case joaat("dlc_mp_h4_m_berd_4_12"):
+		case joaat("dlc_mp_h4_f_berd_4_12"):
 			return 30686;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_13"):
-		case joaat("DLC_MP_H4_F_BERD_4_13"):
+		case joaat("dlc_mp_h4_m_berd_4_13"):
+		case joaat("dlc_mp_h4_f_berd_4_13"):
 			return 30687;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_14"):
-		case joaat("DLC_MP_H4_F_BERD_4_14"):
+		case joaat("dlc_mp_h4_m_berd_4_14"):
+		case joaat("dlc_mp_h4_f_berd_4_14"):
 			return 30688;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_15"):
-		case joaat("DLC_MP_H4_F_BERD_4_15"):
+		case joaat("dlc_mp_h4_m_berd_4_15"):
+		case joaat("dlc_mp_h4_f_berd_4_15"):
 			return 30689;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_16"):
-		case joaat("DLC_MP_H4_F_BERD_4_16"):
+		case joaat("dlc_mp_h4_m_berd_4_16"):
+		case joaat("dlc_mp_h4_f_berd_4_16"):
 			return 30690;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_17"):
-		case joaat("DLC_MP_H4_F_BERD_4_17"):
+		case joaat("dlc_mp_h4_m_berd_4_17"):
+		case joaat("dlc_mp_h4_f_berd_4_17"):
 			return 30691;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_18"):
-		case joaat("DLC_MP_H4_F_BERD_4_18"):
+		case joaat("dlc_mp_h4_m_berd_4_18"):
+		case joaat("dlc_mp_h4_f_berd_4_18"):
 			return 30692;
 			break;
 		
-		case joaat("DLC_MP_H4_M_BERD_4_19"):
-		case joaat("DLC_MP_H4_F_BERD_4_19"):
+		case joaat("dlc_mp_h4_m_berd_4_19"):
+		case joaat("dlc_mp_h4_f_berd_4_19"):
 			return 30693;
 			break;
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_H4_M_PEYES_1_0"):
-		case joaat("DLC_MP_H4_F_PEYES_1_0"):
+		case joaat("dlc_mp_h4_m_peyes_1_0"):
+		case joaat("dlc_mp_h4_f_peyes_1_0"):
 			return 30638;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_1"):
-		case joaat("DLC_MP_H4_F_PEYES_1_1"):
+		case joaat("dlc_mp_h4_m_peyes_1_1"):
+		case joaat("dlc_mp_h4_f_peyes_1_1"):
 			return 30639;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_2"):
-		case joaat("DLC_MP_H4_F_PEYES_1_2"):
+		case joaat("dlc_mp_h4_m_peyes_1_2"):
+		case joaat("dlc_mp_h4_f_peyes_1_2"):
 			return 30640;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_3"):
-		case joaat("DLC_MP_H4_F_PEYES_1_3"):
+		case joaat("dlc_mp_h4_m_peyes_1_3"):
+		case joaat("dlc_mp_h4_f_peyes_1_3"):
 			return 30641;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_4"):
-		case joaat("DLC_MP_H4_F_PEYES_1_4"):
+		case joaat("dlc_mp_h4_m_peyes_1_4"):
+		case joaat("dlc_mp_h4_f_peyes_1_4"):
 			return 30642;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_5"):
-		case joaat("DLC_MP_H4_F_PEYES_1_5"):
+		case joaat("dlc_mp_h4_m_peyes_1_5"):
+		case joaat("dlc_mp_h4_f_peyes_1_5"):
 			return 30643;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_6"):
-		case joaat("DLC_MP_H4_F_PEYES_1_6"):
+		case joaat("dlc_mp_h4_m_peyes_1_6"):
+		case joaat("dlc_mp_h4_f_peyes_1_6"):
 			return 30644;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_7"):
-		case joaat("DLC_MP_H4_F_PEYES_1_7"):
+		case joaat("dlc_mp_h4_m_peyes_1_7"):
+		case joaat("dlc_mp_h4_f_peyes_1_7"):
 			return 30645;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_8"):
-		case joaat("DLC_MP_H4_F_PEYES_1_8"):
+		case joaat("dlc_mp_h4_m_peyes_1_8"):
+		case joaat("dlc_mp_h4_f_peyes_1_8"):
 			return 30646;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_9"):
-		case joaat("DLC_MP_H4_F_PEYES_1_9"):
+		case joaat("dlc_mp_h4_m_peyes_1_9"):
+		case joaat("dlc_mp_h4_f_peyes_1_9"):
 			return 30647;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_10"):
-		case joaat("DLC_MP_H4_F_PEYES_1_10"):
+		case joaat("dlc_mp_h4_m_peyes_1_10"):
+		case joaat("dlc_mp_h4_f_peyes_1_10"):
 			return 30648;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_1_11"):
-		case joaat("DLC_MP_H4_F_PEYES_1_11"):
+		case joaat("dlc_mp_h4_m_peyes_1_11"):
+		case joaat("dlc_mp_h4_f_peyes_1_11"):
 			return 30649;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_0"):
-		case joaat("DLC_MP_H4_F_PEYES_2_0"):
+		case joaat("dlc_mp_h4_m_peyes_2_0"):
+		case joaat("dlc_mp_h4_f_peyes_2_0"):
 			return 30650;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_1"):
-		case joaat("DLC_MP_H4_F_PEYES_2_1"):
+		case joaat("dlc_mp_h4_m_peyes_2_1"):
+		case joaat("dlc_mp_h4_f_peyes_2_1"):
 			return 30651;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_2"):
-		case joaat("DLC_MP_H4_F_PEYES_2_2"):
+		case joaat("dlc_mp_h4_m_peyes_2_2"):
+		case joaat("dlc_mp_h4_f_peyes_2_2"):
 			return 30652;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_3"):
-		case joaat("DLC_MP_H4_F_PEYES_2_3"):
+		case joaat("dlc_mp_h4_m_peyes_2_3"):
+		case joaat("dlc_mp_h4_f_peyes_2_3"):
 			return 30653;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_4"):
-		case joaat("DLC_MP_H4_F_PEYES_2_4"):
+		case joaat("dlc_mp_h4_m_peyes_2_4"):
+		case joaat("dlc_mp_h4_f_peyes_2_4"):
 			return 30654;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_5"):
-		case joaat("DLC_MP_H4_F_PEYES_2_5"):
+		case joaat("dlc_mp_h4_m_peyes_2_5"):
+		case joaat("dlc_mp_h4_f_peyes_2_5"):
 			return 30655;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_6"):
-		case joaat("DLC_MP_H4_F_PEYES_2_6"):
+		case joaat("dlc_mp_h4_m_peyes_2_6"):
+		case joaat("dlc_mp_h4_f_peyes_2_6"):
 			return 30656;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_7"):
-		case joaat("DLC_MP_H4_F_PEYES_2_7"):
+		case joaat("dlc_mp_h4_m_peyes_2_7"):
+		case joaat("dlc_mp_h4_f_peyes_2_7"):
 			return 30657;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_8"):
-		case joaat("DLC_MP_H4_F_PEYES_2_8"):
+		case joaat("dlc_mp_h4_m_peyes_2_8"):
+		case joaat("dlc_mp_h4_f_peyes_2_8"):
 			return 30658;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_9"):
-		case joaat("DLC_MP_H4_F_PEYES_2_9"):
+		case joaat("dlc_mp_h4_m_peyes_2_9"):
+		case joaat("dlc_mp_h4_f_peyes_2_9"):
 			return 30659;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_10"):
-		case joaat("DLC_MP_H4_F_PEYES_2_10"):
+		case joaat("dlc_mp_h4_m_peyes_2_10"):
+		case joaat("dlc_mp_h4_f_peyes_2_10"):
 			return 30660;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_2_11"):
-		case joaat("DLC_MP_H4_F_PEYES_2_11"):
+		case joaat("dlc_mp_h4_m_peyes_2_11"):
+		case joaat("dlc_mp_h4_f_peyes_2_11"):
 			return 30661;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_0"):
-		case joaat("DLC_MP_H4_F_PEYES_3_0"):
+		case joaat("dlc_mp_h4_m_peyes_3_0"):
+		case joaat("dlc_mp_h4_f_peyes_3_0"):
 			return 30662;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_1"):
-		case joaat("DLC_MP_H4_F_PEYES_3_1"):
+		case joaat("dlc_mp_h4_m_peyes_3_1"):
+		case joaat("dlc_mp_h4_f_peyes_3_1"):
 			return 30663;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_2"):
-		case joaat("DLC_MP_H4_F_PEYES_3_2"):
+		case joaat("dlc_mp_h4_m_peyes_3_2"):
+		case joaat("dlc_mp_h4_f_peyes_3_2"):
 			return 30664;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_3"):
-		case joaat("DLC_MP_H4_F_PEYES_3_3"):
+		case joaat("dlc_mp_h4_m_peyes_3_3"):
+		case joaat("dlc_mp_h4_f_peyes_3_3"):
 			return 30665;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_4"):
-		case joaat("DLC_MP_H4_F_PEYES_3_4"):
+		case joaat("dlc_mp_h4_m_peyes_3_4"):
+		case joaat("dlc_mp_h4_f_peyes_3_4"):
 			return 30666;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_5"):
-		case joaat("DLC_MP_H4_F_PEYES_3_5"):
+		case joaat("dlc_mp_h4_m_peyes_3_5"):
+		case joaat("dlc_mp_h4_f_peyes_3_5"):
 			return 30667;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_6"):
-		case joaat("DLC_MP_H4_F_PEYES_3_6"):
+		case joaat("dlc_mp_h4_m_peyes_3_6"):
+		case joaat("dlc_mp_h4_f_peyes_3_6"):
 			return 30668;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_7"):
-		case joaat("DLC_MP_H4_F_PEYES_3_7"):
+		case joaat("dlc_mp_h4_m_peyes_3_7"):
+		case joaat("dlc_mp_h4_f_peyes_3_7"):
 			return 30669;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_8"):
-		case joaat("DLC_MP_H4_F_PEYES_3_8"):
+		case joaat("dlc_mp_h4_m_peyes_3_8"):
+		case joaat("dlc_mp_h4_f_peyes_3_8"):
 			return 30670;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_9"):
-		case joaat("DLC_MP_H4_F_PEYES_3_9"):
+		case joaat("dlc_mp_h4_m_peyes_3_9"):
+		case joaat("dlc_mp_h4_f_peyes_3_9"):
 			return 30671;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_10"):
-		case joaat("DLC_MP_H4_F_PEYES_3_10"):
+		case joaat("dlc_mp_h4_m_peyes_3_10"):
+		case joaat("dlc_mp_h4_f_peyes_3_10"):
 			return 30672;
 			break;
 		
-		case joaat("DLC_MP_H4_M_PEYES_3_11"):
-		case joaat("DLC_MP_H4_F_PEYES_3_11"):
+		case joaat("dlc_mp_h4_m_peyes_3_11"):
+		case joaat("dlc_mp_h4_f_peyes_3_11"):
 			return 30673;
 			break;
 	}
@@ -9353,135 +9353,135 @@ int func_221(int iParam0)
 			return 30289;
 			break;
 		
-		case 1868506246:
-		case -307572086:
+		case joaat("dlc_mp_sum_m_berd_3_4"):
+		case joaat("dlc_mp_sum_f_berd_3_4"):
 			return 30290;
 			break;
 		
-		case 1686703834:
-		case -1486436861:
+		case joaat("dlc_mp_sum_m_berd_3_5"):
+		case joaat("dlc_mp_sum_f_berd_3_5"):
 			return 30291;
 			break;
 		
-		case -1811091999:
-		case -1705464857:
+		case joaat("dlc_mp_sum_m_berd_3_6"):
+		case joaat("dlc_mp_sum_f_berd_3_6"):
 			return 30292;
 			break;
 		
-		case 414381867:
-		case -469188798:
+		case joaat("dlc_mp_sum_m_berd_3_7"):
+		case joaat("dlc_mp_sum_f_berd_3_7"):
 			return 30293;
 			break;
 		
-		case -1206261789:
-		case 692621401:
+		case joaat("dlc_mp_sum_m_legs_1_25"):
+		case joaat("dlc_mp_sum_f_legs_2_25"):
 			return 30294;
 			break;
 		
-		case 1395785293:
-		case 60231546:
+		case joaat("dlc_mp_sum_m_jbib_0_25"):
+		case joaat("dlc_mp_sum_f_jbib_0_25"):
 			return 30295;
 			break;
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_VWD_M_DECL_1_0"):
-		case joaat("DLC_MP_VWD_F_DECL_1_0"):
+		case joaat("dlc_mp_vwd_m_decl_1_0"):
+		case joaat("dlc_mp_vwd_f_decl_1_0"):
 			return 27194;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_6"):
-		case joaat("DLC_MP_VWD_F_DECL_1_6"):
+		case joaat("dlc_mp_vwd_m_decl_1_6"):
+		case joaat("dlc_mp_vwd_f_decl_1_6"):
 			return 27195;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_7"):
-		case joaat("DLC_MP_VWD_F_DECL_1_7"):
+		case joaat("dlc_mp_vwd_m_decl_1_7"):
+		case joaat("dlc_mp_vwd_f_decl_1_7"):
 			return 27196;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_8"):
-		case joaat("DLC_MP_VWD_F_DECL_1_8"):
+		case joaat("dlc_mp_vwd_m_decl_1_8"):
+		case joaat("dlc_mp_vwd_f_decl_1_8"):
 			return 27197;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_5"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_5"):
+		case joaat("dlc_mp_vwd_m_jbib_23_5"):
+		case joaat("dlc_mp_vwd_f_jbib_21_5"):
 			return 27198;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_8"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_8"):
+		case joaat("dlc_mp_vwd_m_jbib_23_8"):
+		case joaat("dlc_mp_vwd_f_jbib_21_8"):
 			return 27199;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_9"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_9"):
+		case joaat("dlc_mp_vwd_m_jbib_23_9"):
+		case joaat("dlc_mp_vwd_f_jbib_21_9"):
 			return 27200;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_10"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_10"):
+		case joaat("dlc_mp_vwd_m_jbib_23_10"):
+		case joaat("dlc_mp_vwd_f_jbib_21_10"):
 			return 27201;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_11"):
-		case joaat("DLC_MP_VWD_F_DECL_1_11"):
+		case joaat("dlc_mp_vwd_m_decl_1_11"):
+		case joaat("dlc_mp_vwd_f_decl_1_11"):
 			return 27202;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_12"):
-		case joaat("DLC_MP_VWD_F_DECL_1_12"):
+		case joaat("dlc_mp_vwd_m_decl_1_12"):
+		case joaat("dlc_mp_vwd_f_decl_1_12"):
 			return 27203;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_13"):
-		case joaat("DLC_MP_VWD_F_DECL_1_13"):
+		case joaat("dlc_mp_vwd_m_decl_1_13"):
+		case joaat("dlc_mp_vwd_f_decl_1_13"):
 			return 27204;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_14"):
-		case joaat("DLC_MP_VWD_F_DECL_1_14"):
+		case joaat("dlc_mp_vwd_m_decl_1_14"):
+		case joaat("dlc_mp_vwd_f_decl_1_14"):
 			return 27205;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_15"):
-		case joaat("DLC_MP_VWD_F_DECL_1_15"):
+		case joaat("dlc_mp_vwd_m_decl_1_15"):
+		case joaat("dlc_mp_vwd_f_decl_1_15"):
 			return 27206;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_16"):
-		case joaat("DLC_MP_VWD_F_DECL_1_16"):
+		case joaat("dlc_mp_vwd_m_decl_1_16"):
+		case joaat("dlc_mp_vwd_f_decl_1_16"):
 			return 27207;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_17"):
-		case joaat("DLC_MP_VWD_F_DECL_1_17"):
+		case joaat("dlc_mp_vwd_m_decl_1_17"):
+		case joaat("dlc_mp_vwd_f_decl_1_17"):
 			return 27208;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_DECL_1_18"):
-		case joaat("DLC_MP_VWD_F_DECL_1_18"):
+		case joaat("dlc_mp_vwd_m_decl_1_18"):
+		case joaat("dlc_mp_vwd_f_decl_1_18"):
 			return 27209;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_0"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_0"):
+		case joaat("dlc_mp_vwd_m_jbib_23_0"):
+		case joaat("dlc_mp_vwd_f_jbib_21_0"):
 			return 27210;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_2"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_2"):
+		case joaat("dlc_mp_vwd_m_jbib_23_2"):
+		case joaat("dlc_mp_vwd_f_jbib_21_2"):
 			return 27211;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_4"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_4"):
+		case joaat("dlc_mp_vwd_m_jbib_23_4"):
+		case joaat("dlc_mp_vwd_f_jbib_21_4"):
 			return 27212;
 			break;
 		
-		case joaat("DLC_MP_VWD_M_JBIB_23_7"):
-		case joaat("DLC_MP_VWD_F_JBIB_21_7"):
+		case joaat("dlc_mp_vwd_m_jbib_23_7"):
+		case joaat("dlc_mp_vwd_f_jbib_21_7"):
 			return 27213;
 			break;
 	}
@@ -9829,60 +9829,60 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_ARENA_F_JBIB_16_0"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_0"):
+		case joaat("dlc_mp_arena_f_jbib_16_0"):
+		case joaat("dlc_mp_arena_m_jbib_16_0"):
 			return 25022;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_1"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_1"):
+		case joaat("dlc_mp_arena_f_jbib_16_1"):
+		case joaat("dlc_mp_arena_m_jbib_16_1"):
 			return 25023;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_2"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_2"):
+		case joaat("dlc_mp_arena_f_jbib_16_2"):
+		case joaat("dlc_mp_arena_m_jbib_16_2"):
 			return 25024;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_3"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_3"):
+		case joaat("dlc_mp_arena_f_jbib_16_3"):
+		case joaat("dlc_mp_arena_m_jbib_16_3"):
 			return 25025;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_4"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_4"):
+		case joaat("dlc_mp_arena_f_jbib_16_4"):
+		case joaat("dlc_mp_arena_m_jbib_16_4"):
 			return 25026;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_5"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_5"):
+		case joaat("dlc_mp_arena_f_jbib_16_5"):
+		case joaat("dlc_mp_arena_m_jbib_16_5"):
 			return 25027;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_6"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_6"):
+		case joaat("dlc_mp_arena_f_jbib_16_6"):
+		case joaat("dlc_mp_arena_m_jbib_16_6"):
 			return 25028;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_7"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_7"):
+		case joaat("dlc_mp_arena_f_jbib_16_7"):
+		case joaat("dlc_mp_arena_m_jbib_16_7"):
 			return 25019;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_8"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_8"):
+		case joaat("dlc_mp_arena_f_jbib_16_8"):
+		case joaat("dlc_mp_arena_m_jbib_16_8"):
 			return 25029;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_9"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_9"):
+		case joaat("dlc_mp_arena_f_jbib_16_9"):
+		case joaat("dlc_mp_arena_m_jbib_16_9"):
 			return 25021;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_10"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_10"):
+		case joaat("dlc_mp_arena_f_jbib_16_10"):
+		case joaat("dlc_mp_arena_m_jbib_16_10"):
 			return 25018;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_11"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_11"):
+		case joaat("dlc_mp_arena_f_jbib_16_11"):
+		case joaat("dlc_mp_arena_m_jbib_16_11"):
 			return 25020;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_12"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_12"):
+		case joaat("dlc_mp_arena_f_jbib_16_12"):
+		case joaat("dlc_mp_arena_m_jbib_16_12"):
 			return 25030;
 		
-		case joaat("DLC_MP_ARENA_F_JBIB_16_13"):
-		case joaat("DLC_MP_ARENA_M_JBIB_16_13"):
+		case joaat("dlc_mp_arena_f_jbib_16_13"):
+		case joaat("dlc_mp_arena_m_jbib_16_13"):
 			return 25031;
 		
 		default:
@@ -10152,196 +10152,196 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_LTS_M_OUTFIT_14"):
-		case joaat("DLC_MP_LTS_F_OUTFIT_14"):
+		case joaat("dlc_mp_lts_m_outfit_14"):
+		case joaat("dlc_mp_lts_f_outfit_14"):
 			return 18099;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_X17_M_OUTFIT_MORPH_0"):
-		case joaat("DLC_MP_X17_M_BERD_2_0"):
-		case joaat("DLC_MP_X17_M_LEGS_1_0"):
-		case joaat("DLC_MP_X17_M_FEET_1_0"):
-		case joaat("DLC_MP_X17_M_JBIB_5_0"):
-		case joaat("DLC_MP_X17_F_OUTFIT_MORPH_0"):
-		case joaat("DLC_MP_X17_F_BERD_2_0"):
-		case joaat("DLC_MP_X17_F_LEGS_1_0"):
-		case joaat("DLC_MP_X17_F_FEET_1_0"):
-		case joaat("DLC_MP_X17_F_JBIB_5_0"):
+		case joaat("dlc_mp_x17_m_outfit_morph_0"):
+		case joaat("dlc_mp_x17_m_berd_2_0"):
+		case joaat("dlc_mp_x17_m_legs_1_0"):
+		case joaat("dlc_mp_x17_m_feet_1_0"):
+		case joaat("dlc_mp_x17_m_jbib_5_0"):
+		case joaat("dlc_mp_x17_f_outfit_morph_0"):
+		case joaat("dlc_mp_x17_f_berd_2_0"):
+		case joaat("dlc_mp_x17_f_legs_1_0"):
+		case joaat("dlc_mp_x17_f_feet_1_0"):
+		case joaat("dlc_mp_x17_f_jbib_5_0"):
 			return 18121;
 		
-		case joaat("DLC_MP_X17_M_OUTFIT_MORPH_1"):
-		case joaat("DLC_MP_X17_M_BERD_2_1"):
-		case joaat("DLC_MP_X17_M_LEGS_1_1"):
-		case joaat("DLC_MP_X17_M_FEET_1_1"):
-		case joaat("DLC_MP_X17_M_JBIB_5_1"):
-		case joaat("DLC_MP_X17_F_OUTFIT_MORPH_1"):
-		case joaat("DLC_MP_X17_F_BERD_2_1"):
-		case joaat("DLC_MP_X17_F_LEGS_1_1"):
-		case joaat("DLC_MP_X17_F_FEET_1_1"):
-		case joaat("DLC_MP_X17_F_JBIB_5_1"):
+		case joaat("dlc_mp_x17_m_outfit_morph_1"):
+		case joaat("dlc_mp_x17_m_berd_2_1"):
+		case joaat("dlc_mp_x17_m_legs_1_1"):
+		case joaat("dlc_mp_x17_m_feet_1_1"):
+		case joaat("dlc_mp_x17_m_jbib_5_1"):
+		case joaat("dlc_mp_x17_f_outfit_morph_1"):
+		case joaat("dlc_mp_x17_f_berd_2_1"):
+		case joaat("dlc_mp_x17_f_legs_1_1"):
+		case joaat("dlc_mp_x17_f_feet_1_1"):
+		case joaat("dlc_mp_x17_f_jbib_5_1"):
 			return 18122;
 		
-		case joaat("DLC_MP_X17_M_OUTFIT_MORPH_2"):
-		case joaat("DLC_MP_X17_M_BERD_2_2"):
-		case joaat("DLC_MP_X17_M_LEGS_1_2"):
-		case joaat("DLC_MP_X17_M_FEET_1_2"):
-		case joaat("DLC_MP_X17_M_JBIB_5_2"):
-		case joaat("DLC_MP_X17_F_OUTFIT_MORPH_2"):
-		case joaat("DLC_MP_X17_F_BERD_2_2"):
-		case joaat("DLC_MP_X17_F_LEGS_1_2"):
-		case joaat("DLC_MP_X17_F_FEET_1_2"):
-		case joaat("DLC_MP_X17_F_JBIB_5_2"):
+		case joaat("dlc_mp_x17_m_outfit_morph_2"):
+		case joaat("dlc_mp_x17_m_berd_2_2"):
+		case joaat("dlc_mp_x17_m_legs_1_2"):
+		case joaat("dlc_mp_x17_m_feet_1_2"):
+		case joaat("dlc_mp_x17_m_jbib_5_2"):
+		case joaat("dlc_mp_x17_f_outfit_morph_2"):
+		case joaat("dlc_mp_x17_f_berd_2_2"):
+		case joaat("dlc_mp_x17_f_legs_1_2"):
+		case joaat("dlc_mp_x17_f_feet_1_2"):
+		case joaat("dlc_mp_x17_f_jbib_5_2"):
 			return 18123;
 		
-		case joaat("DLC_MP_X17_M_OUTFIT_MORPH_3"):
-		case joaat("DLC_MP_X17_M_BERD_2_3"):
-		case joaat("DLC_MP_X17_M_LEGS_1_3"):
-		case joaat("DLC_MP_X17_M_FEET_1_3"):
-		case joaat("DLC_MP_X17_M_JBIB_5_3"):
-		case joaat("DLC_MP_X17_F_OUTFIT_MORPH_3"):
-		case joaat("DLC_MP_X17_F_BERD_2_3"):
-		case joaat("DLC_MP_X17_F_LEGS_1_3"):
-		case joaat("DLC_MP_X17_F_FEET_1_3"):
-		case joaat("DLC_MP_X17_F_JBIB_5_3"):
+		case joaat("dlc_mp_x17_m_outfit_morph_3"):
+		case joaat("dlc_mp_x17_m_berd_2_3"):
+		case joaat("dlc_mp_x17_m_legs_1_3"):
+		case joaat("dlc_mp_x17_m_feet_1_3"):
+		case joaat("dlc_mp_x17_m_jbib_5_3"):
+		case joaat("dlc_mp_x17_f_outfit_morph_3"):
+		case joaat("dlc_mp_x17_f_berd_2_3"):
+		case joaat("dlc_mp_x17_f_legs_1_3"):
+		case joaat("dlc_mp_x17_f_feet_1_3"):
+		case joaat("dlc_mp_x17_f_jbib_5_3"):
 			return 18124;
 		
-		case joaat("DLC_MP_X17_M_OUTFIT_MORPH_4"):
-		case joaat("DLC_MP_X17_M_BERD_2_4"):
-		case joaat("DLC_MP_X17_M_LEGS_1_4"):
-		case joaat("DLC_MP_X17_M_FEET_1_4"):
-		case joaat("DLC_MP_X17_M_JBIB_5_4"):
-		case joaat("DLC_MP_X17_F_OUTFIT_MORPH_4"):
-		case joaat("DLC_MP_X17_F_BERD_2_4"):
-		case joaat("DLC_MP_X17_F_LEGS_1_4"):
-		case joaat("DLC_MP_X17_F_FEET_1_4"):
-		case joaat("DLC_MP_X17_F_JBIB_5_4"):
+		case joaat("dlc_mp_x17_m_outfit_morph_4"):
+		case joaat("dlc_mp_x17_m_berd_2_4"):
+		case joaat("dlc_mp_x17_m_legs_1_4"):
+		case joaat("dlc_mp_x17_m_feet_1_4"):
+		case joaat("dlc_mp_x17_m_jbib_5_4"):
+		case joaat("dlc_mp_x17_f_outfit_morph_4"):
+		case joaat("dlc_mp_x17_f_berd_2_4"):
+		case joaat("dlc_mp_x17_f_legs_1_4"):
+		case joaat("dlc_mp_x17_f_feet_1_4"):
+		case joaat("dlc_mp_x17_f_jbib_5_4"):
 			return 18125;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_X17_M_BERD_10_0"):
-		case joaat("DLC_MP_X17_F_BERD_10_0"):
+		case joaat("dlc_mp_x17_m_berd_10_0"):
+		case joaat("dlc_mp_x17_f_berd_10_0"):
 			return 18134;
 		
-		case joaat("DLC_MP_X17_M_BERD_10_1"):
-		case joaat("DLC_MP_X17_F_BERD_10_1"):
+		case joaat("dlc_mp_x17_m_berd_10_1"):
+		case joaat("dlc_mp_x17_f_berd_10_1"):
 			return 18135;
 		
-		case joaat("DLC_MP_X17_M_BERD_10_2"):
-		case joaat("DLC_MP_X17_F_BERD_10_2"):
+		case joaat("dlc_mp_x17_m_berd_10_2"):
+		case joaat("dlc_mp_x17_f_berd_10_2"):
 			return 18136;
 		
-		case joaat("DLC_MP_X17_M_BERD_10_3"):
-		case joaat("DLC_MP_X17_F_BERD_10_3"):
+		case joaat("dlc_mp_x17_m_berd_10_3"):
+		case joaat("dlc_mp_x17_f_berd_10_3"):
 			return 18137;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_GR_M_JBIB_19_0"):
-		case joaat("DLC_MP_GR_F_JBIB_25_0"):
+		case joaat("dlc_mp_gr_m_jbib_19_0"):
+		case joaat("dlc_mp_gr_f_jbib_25_0"):
 			return 15417;
 		
-		case joaat("DLC_MP_GR_M_JBIB_19_1"):
-		case joaat("DLC_MP_GR_F_JBIB_25_1"):
+		case joaat("dlc_mp_gr_m_jbib_19_1"):
+		case joaat("dlc_mp_gr_f_jbib_25_1"):
 			return 15418;
 		
-		case joaat("DLC_MP_GR_M_JBIB_20_0"):
-		case joaat("DLC_MP_GR_F_JBIB_26_0"):
+		case joaat("dlc_mp_gr_m_jbib_20_0"):
+		case joaat("dlc_mp_gr_f_jbib_26_0"):
 			return 15425;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_GR_M_DECL_5_0"):
-		case joaat("DLC_MP_GR_F_DECL_5_0"):
+		case joaat("dlc_mp_gr_m_decl_5_0"):
+		case joaat("dlc_mp_gr_f_decl_5_0"):
 			return 15405;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_1"):
-		case joaat("DLC_MP_GR_F_DECL_5_1"):
+		case joaat("dlc_mp_gr_m_decl_5_1"):
+		case joaat("dlc_mp_gr_f_decl_5_1"):
 			return 15393;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_2"):
-		case joaat("DLC_MP_GR_F_DECL_5_2"):
+		case joaat("dlc_mp_gr_m_decl_5_2"):
+		case joaat("dlc_mp_gr_f_decl_5_2"):
 			return 15409;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_3"):
-		case joaat("DLC_MP_GR_F_DECL_5_3"):
+		case joaat("dlc_mp_gr_m_decl_5_3"):
+		case joaat("dlc_mp_gr_f_decl_5_3"):
 			return 15396;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_4"):
-		case joaat("DLC_MP_GR_F_DECL_5_4"):
+		case joaat("dlc_mp_gr_m_decl_5_4"):
+		case joaat("dlc_mp_gr_f_decl_5_4"):
 			return 15412;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_6"):
-		case joaat("DLC_MP_GR_F_DECL_5_6"):
+		case joaat("dlc_mp_gr_m_decl_5_6"):
+		case joaat("dlc_mp_gr_f_decl_5_6"):
 			return 15403;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_8"):
-		case joaat("DLC_MP_GR_F_DECL_5_8"):
+		case joaat("dlc_mp_gr_m_decl_5_8"):
+		case joaat("dlc_mp_gr_f_decl_5_8"):
 			return 15389;
 		
-		case joaat("DLC_MP_GR_M_DECL_5_10"):
-		case joaat("DLC_MP_GR_F_DECL_5_10"):
+		case joaat("dlc_mp_gr_m_decl_5_10"):
+		case joaat("dlc_mp_gr_f_decl_5_10"):
 			return 15398;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_GR_M_PHEAD_6_0"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_0"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_0"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_0"):
+		case joaat("dlc_mp_gr_m_phead_6_0"):
+		case joaat("dlc_mp_gr_f_phead_6_0"):
+		case joaat("dlc_mp_gr_m_phead_7_0"):
+		case joaat("dlc_mp_gr_f_phead_7_0"):
 			return 15400;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_2"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_2"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_2"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_2"):
+		case joaat("dlc_mp_gr_m_phead_6_2"):
+		case joaat("dlc_mp_gr_f_phead_6_2"):
+		case joaat("dlc_mp_gr_m_phead_7_2"):
+		case joaat("dlc_mp_gr_f_phead_7_2"):
 			return 15408;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_4"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_4"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_4"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_4"):
+		case joaat("dlc_mp_gr_m_phead_6_4"):
+		case joaat("dlc_mp_gr_f_phead_6_4"):
+		case joaat("dlc_mp_gr_m_phead_7_4"):
+		case joaat("dlc_mp_gr_f_phead_7_4"):
 			return 15411;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_5"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_5"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_5"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_5"):
+		case joaat("dlc_mp_gr_m_phead_6_5"):
+		case joaat("dlc_mp_gr_f_phead_6_5"):
+		case joaat("dlc_mp_gr_m_phead_7_5"):
+		case joaat("dlc_mp_gr_f_phead_7_5"):
 			return 15397;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_6"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_6"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_6"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_6"):
+		case joaat("dlc_mp_gr_m_phead_6_6"):
+		case joaat("dlc_mp_gr_f_phead_6_6"):
+		case joaat("dlc_mp_gr_m_phead_7_6"):
+		case joaat("dlc_mp_gr_f_phead_7_6"):
 			return 15413;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_7"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_7"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_7"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_7"):
+		case joaat("dlc_mp_gr_m_phead_6_7"):
+		case joaat("dlc_mp_gr_f_phead_6_7"):
+		case joaat("dlc_mp_gr_m_phead_7_7"):
+		case joaat("dlc_mp_gr_f_phead_7_7"):
 			return 15391;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_8"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_8"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_8"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_8"):
+		case joaat("dlc_mp_gr_m_phead_6_8"):
+		case joaat("dlc_mp_gr_f_phead_6_8"):
+		case joaat("dlc_mp_gr_m_phead_7_8"):
+		case joaat("dlc_mp_gr_f_phead_7_8"):
 			return 15388;
 		
-		case joaat("DLC_MP_GR_M_PHEAD_6_10"):
-		case joaat("DLC_MP_GR_F_PHEAD_6_10"):
-		case joaat("DLC_MP_GR_M_PHEAD_7_10"):
-		case joaat("DLC_MP_GR_F_PHEAD_7_10"):
+		case joaat("dlc_mp_gr_m_phead_6_10"):
+		case joaat("dlc_mp_gr_f_phead_6_10"):
+		case joaat("dlc_mp_gr_m_phead_7_10"):
+		case joaat("dlc_mp_gr_f_phead_7_10"):
 			return 15401;
 		
 		default:
@@ -10404,8 +10404,8 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_IE_M_BERD_7_0"):
-		case joaat("DLC_MP_IE_F_BERD_7_0"):
+		case joaat("dlc_mp_ie_m_berd_7_0"):
+		case joaat("dlc_mp_ie_f_berd_7_0"):
 			return 9443;
 		
 		default:
@@ -10476,288 +10476,288 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_BIKER_M_DECL_0_0"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_0"):
+		case joaat("dlc_mp_biker_m_decl_0_0"):
+		case joaat("dlc_mp_biker_f_decl_0_0"):
 			return 9375;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_1"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_1"):
+		case joaat("dlc_mp_biker_m_decl_0_1"):
+		case joaat("dlc_mp_biker_f_decl_0_1"):
 			return 9376;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_2"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_2"):
+		case joaat("dlc_mp_biker_m_decl_0_2"):
+		case joaat("dlc_mp_biker_f_decl_0_2"):
 			return 9377;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_3"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_3"):
+		case joaat("dlc_mp_biker_m_decl_0_3"):
+		case joaat("dlc_mp_biker_f_decl_0_3"):
 			return 9378;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_4"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_4"):
+		case joaat("dlc_mp_biker_m_decl_0_4"):
+		case joaat("dlc_mp_biker_f_decl_0_4"):
 			return 9379;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_5"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_5"):
+		case joaat("dlc_mp_biker_m_decl_0_5"):
+		case joaat("dlc_mp_biker_f_decl_0_5"):
 			return 9380;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_6"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_6"):
+		case joaat("dlc_mp_biker_m_decl_0_6"):
+		case joaat("dlc_mp_biker_f_decl_0_6"):
 			return 9381;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_7"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_7"):
+		case joaat("dlc_mp_biker_m_decl_0_7"):
+		case joaat("dlc_mp_biker_f_decl_0_7"):
 			return 9382;
 		
-		case joaat("DLC_MP_BIKER_M_DECL_0_8"):
-		case joaat("DLC_MP_BIKER_F_DECL_0_8"):
+		case joaat("dlc_mp_biker_m_decl_0_8"):
+		case joaat("dlc_mp_biker_f_decl_0_8"):
 			return 9383;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_0"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_11_0"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_12_0"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_0"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_11_0"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_12_0"):
+		case joaat("dlc_mp_stunt_m_outfit_e_0"):
+		case joaat("dlc_mp_stunt_m_phead_11_0"):
+		case joaat("dlc_mp_stunt_m_phead_12_0"):
+		case joaat("dlc_mp_stunt_f_outfit_e_0"):
+		case joaat("dlc_mp_stunt_f_phead_11_0"):
+		case joaat("dlc_mp_stunt_f_phead_12_0"):
 			return 7595;
 		
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_1"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_11_1"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_12_1"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_1"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_11_1"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_12_1"):
+		case joaat("dlc_mp_stunt_m_outfit_e_1"):
+		case joaat("dlc_mp_stunt_m_phead_11_1"):
+		case joaat("dlc_mp_stunt_m_phead_12_1"):
+		case joaat("dlc_mp_stunt_f_outfit_e_1"):
+		case joaat("dlc_mp_stunt_f_phead_11_1"):
+		case joaat("dlc_mp_stunt_f_phead_12_1"):
 			return 7596;
 		
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_2"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_11_2"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_12_2"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_2"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_11_2"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_12_2"):
+		case joaat("dlc_mp_stunt_m_outfit_e_2"):
+		case joaat("dlc_mp_stunt_m_phead_11_2"):
+		case joaat("dlc_mp_stunt_m_phead_12_2"):
+		case joaat("dlc_mp_stunt_f_outfit_e_2"):
+		case joaat("dlc_mp_stunt_f_phead_11_2"):
+		case joaat("dlc_mp_stunt_f_phead_12_2"):
 			return 7597;
 		
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_3"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_11_3"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_12_3"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_3"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_11_3"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_12_3"):
+		case joaat("dlc_mp_stunt_m_outfit_e_3"):
+		case joaat("dlc_mp_stunt_m_phead_11_3"):
+		case joaat("dlc_mp_stunt_m_phead_12_3"):
+		case joaat("dlc_mp_stunt_f_outfit_e_3"):
+		case joaat("dlc_mp_stunt_f_phead_11_3"):
+		case joaat("dlc_mp_stunt_f_phead_12_3"):
 			return 7599;
 		
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_4"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_11_4"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_12_4"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_4"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_11_4"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_12_4"):
+		case joaat("dlc_mp_stunt_m_outfit_e_4"):
+		case joaat("dlc_mp_stunt_m_phead_11_4"):
+		case joaat("dlc_mp_stunt_m_phead_12_4"):
+		case joaat("dlc_mp_stunt_f_outfit_e_4"):
+		case joaat("dlc_mp_stunt_f_phead_11_4"):
+		case joaat("dlc_mp_stunt_f_phead_12_4"):
 			return 7600;
 		
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_5"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_13_0"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_14_0"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_5"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_13_0"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_14_0"):
+		case joaat("dlc_mp_stunt_m_outfit_e_5"):
+		case joaat("dlc_mp_stunt_m_phead_13_0"):
+		case joaat("dlc_mp_stunt_m_phead_14_0"):
+		case joaat("dlc_mp_stunt_f_outfit_e_5"):
+		case joaat("dlc_mp_stunt_f_phead_13_0"):
+		case joaat("dlc_mp_stunt_f_phead_14_0"):
 			return 7598;
 		
-		case joaat("DLC_MP_STUNT_M_OUTFIT_E_6"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_13_1"):
-		case joaat("DLC_MP_STUNT_M_PHEAD_14_1"):
-		case joaat("DLC_MP_STUNT_F_OUTFIT_E_6"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_13_1"):
-		case joaat("DLC_MP_STUNT_F_PHEAD_14_1"):
+		case joaat("dlc_mp_stunt_m_outfit_e_6"):
+		case joaat("dlc_mp_stunt_m_phead_13_1"):
+		case joaat("dlc_mp_stunt_m_phead_14_1"):
+		case joaat("dlc_mp_stunt_f_outfit_e_6"):
+		case joaat("dlc_mp_stunt_f_phead_13_1"):
+		case joaat("dlc_mp_stunt_f_phead_14_1"):
 			return 7601;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_EXEC_F_JBIB_15_0"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_0"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_0"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_0"):
+		case joaat("dlc_mp_exec_f_jbib_15_0"):
+		case joaat("dlc_mp_exec_f_legs_1_0"):
+		case joaat("dlc_mp_exec_m_jbib_15_0"):
+		case joaat("dlc_mp_exec_m_legs_1_0"):
 			return 7482;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_1"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_1"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_1"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_1"):
+		case joaat("dlc_mp_exec_f_jbib_15_1"):
+		case joaat("dlc_mp_exec_f_legs_1_1"):
+		case joaat("dlc_mp_exec_m_jbib_15_1"):
+		case joaat("dlc_mp_exec_m_legs_1_1"):
 			return 7483;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_2"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_2"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_2"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_2"):
+		case joaat("dlc_mp_exec_f_jbib_15_2"):
+		case joaat("dlc_mp_exec_f_legs_1_2"):
+		case joaat("dlc_mp_exec_m_jbib_15_2"):
+		case joaat("dlc_mp_exec_m_legs_1_2"):
 			return 7484;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_3"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_3"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_3"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_3"):
+		case joaat("dlc_mp_exec_f_jbib_15_3"):
+		case joaat("dlc_mp_exec_f_legs_1_3"):
+		case joaat("dlc_mp_exec_m_jbib_15_3"):
+		case joaat("dlc_mp_exec_m_legs_1_3"):
 			return 7485;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_4"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_4"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_4"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_4"):
+		case joaat("dlc_mp_exec_f_jbib_15_4"):
+		case joaat("dlc_mp_exec_f_legs_1_4"):
+		case joaat("dlc_mp_exec_m_jbib_15_4"):
+		case joaat("dlc_mp_exec_m_legs_1_4"):
 			return 7486;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_5"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_5"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_5"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_5"):
+		case joaat("dlc_mp_exec_f_jbib_15_5"):
+		case joaat("dlc_mp_exec_f_legs_1_5"):
+		case joaat("dlc_mp_exec_m_jbib_15_5"):
+		case joaat("dlc_mp_exec_m_legs_1_5"):
 			return 7487;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_6"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_6"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_6"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_6"):
+		case joaat("dlc_mp_exec_f_jbib_15_6"):
+		case joaat("dlc_mp_exec_f_legs_1_6"):
+		case joaat("dlc_mp_exec_m_jbib_15_6"):
+		case joaat("dlc_mp_exec_m_legs_1_6"):
 			return 7488;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_7"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_7"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_7"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_7"):
+		case joaat("dlc_mp_exec_f_jbib_15_7"):
+		case joaat("dlc_mp_exec_f_legs_1_7"):
+		case joaat("dlc_mp_exec_m_jbib_15_7"):
+		case joaat("dlc_mp_exec_m_legs_1_7"):
 			return 7489;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_8"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_8"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_8"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_8"):
+		case joaat("dlc_mp_exec_f_jbib_15_8"):
+		case joaat("dlc_mp_exec_f_legs_1_8"):
+		case joaat("dlc_mp_exec_m_jbib_15_8"):
+		case joaat("dlc_mp_exec_m_legs_1_8"):
 			return 7490;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_9"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_9"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_9"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_9"):
+		case joaat("dlc_mp_exec_f_jbib_15_9"):
+		case joaat("dlc_mp_exec_f_legs_1_9"):
+		case joaat("dlc_mp_exec_m_jbib_15_9"):
+		case joaat("dlc_mp_exec_m_legs_1_9"):
 			return 7491;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_10"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_10"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_10"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_10"):
+		case joaat("dlc_mp_exec_f_jbib_15_10"):
+		case joaat("dlc_mp_exec_f_legs_1_10"):
+		case joaat("dlc_mp_exec_m_jbib_15_10"):
+		case joaat("dlc_mp_exec_m_legs_1_10"):
 			return 7492;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_11"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_11"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_11"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_11"):
+		case joaat("dlc_mp_exec_f_jbib_15_11"):
+		case joaat("dlc_mp_exec_f_legs_1_11"):
+		case joaat("dlc_mp_exec_m_jbib_15_11"):
+		case joaat("dlc_mp_exec_m_legs_1_11"):
 			return 7493;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_12"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_12"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_12"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_12"):
+		case joaat("dlc_mp_exec_f_jbib_15_12"):
+		case joaat("dlc_mp_exec_f_legs_1_12"):
+		case joaat("dlc_mp_exec_m_jbib_15_12"):
+		case joaat("dlc_mp_exec_m_legs_1_12"):
 			return 7494;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_15_13"):
-		case joaat("DLC_MP_EXEC_F_LEGS_1_13"):
-		case joaat("DLC_MP_EXEC_M_JBIB_15_13"):
-		case joaat("DLC_MP_EXEC_M_LEGS_1_13"):
+		case joaat("dlc_mp_exec_f_jbib_15_13"):
+		case joaat("dlc_mp_exec_f_legs_1_13"):
+		case joaat("dlc_mp_exec_m_jbib_15_13"):
+		case joaat("dlc_mp_exec_m_legs_1_13"):
 			return 7495;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_0"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_0"):
+		case joaat("dlc_mp_exec_f_jbib_16_0"):
+		case joaat("dlc_mp_exec_m_jbib_16_0"):
 			return 7515;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_1"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_1"):
+		case joaat("dlc_mp_exec_f_jbib_16_1"):
+		case joaat("dlc_mp_exec_m_jbib_16_1"):
 			return 7516;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_2"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_2"):
+		case joaat("dlc_mp_exec_f_jbib_16_2"):
+		case joaat("dlc_mp_exec_m_jbib_16_2"):
 			return 7517;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_3"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_3"):
+		case joaat("dlc_mp_exec_f_jbib_16_3"):
+		case joaat("dlc_mp_exec_m_jbib_16_3"):
 			return 7518;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_4"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_4"):
+		case joaat("dlc_mp_exec_f_jbib_16_4"):
+		case joaat("dlc_mp_exec_m_jbib_16_4"):
 			return 7519;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_5"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_5"):
+		case joaat("dlc_mp_exec_f_jbib_16_5"):
+		case joaat("dlc_mp_exec_m_jbib_16_5"):
 			return 7520;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_6"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_6"):
+		case joaat("dlc_mp_exec_f_jbib_16_6"):
+		case joaat("dlc_mp_exec_m_jbib_16_6"):
 			return 7521;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_7"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_7"):
+		case joaat("dlc_mp_exec_f_jbib_16_7"):
+		case joaat("dlc_mp_exec_m_jbib_16_7"):
 			return 7522;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_8"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_8"):
+		case joaat("dlc_mp_exec_f_jbib_16_8"):
+		case joaat("dlc_mp_exec_m_jbib_16_8"):
 			return 7523;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_9"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_9"):
+		case joaat("dlc_mp_exec_f_jbib_16_9"):
+		case joaat("dlc_mp_exec_m_jbib_16_9"):
 			return 7524;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_10"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_10"):
+		case joaat("dlc_mp_exec_f_jbib_16_10"):
+		case joaat("dlc_mp_exec_m_jbib_16_10"):
 			return 7525;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_11"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_11"):
+		case joaat("dlc_mp_exec_f_jbib_16_11"):
+		case joaat("dlc_mp_exec_m_jbib_16_11"):
 			return 7526;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_12"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_12"):
+		case joaat("dlc_mp_exec_f_jbib_16_12"):
+		case joaat("dlc_mp_exec_m_jbib_16_12"):
 			return 7527;
 		
-		case joaat("DLC_MP_EXEC_F_JBIB_16_13"):
-		case joaat("DLC_MP_EXEC_M_JBIB_16_13"):
+		case joaat("dlc_mp_exec_f_jbib_16_13"):
+		case joaat("dlc_mp_exec_m_jbib_16_13"):
 			return 7528;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_LOW_F_PHEAD_1_0"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_0"):
+		case joaat("dlc_mp_low_f_phead_1_0"):
+		case joaat("dlc_mp_low_m_phead_1_0"):
 			return 4247;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_1"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_1"):
+		case joaat("dlc_mp_low_f_phead_1_1"):
+		case joaat("dlc_mp_low_m_phead_1_1"):
 			return 4248;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_2"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_2"):
+		case joaat("dlc_mp_low_f_phead_1_2"):
+		case joaat("dlc_mp_low_m_phead_1_2"):
 			return 4249;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_3"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_3"):
+		case joaat("dlc_mp_low_f_phead_1_3"):
+		case joaat("dlc_mp_low_m_phead_1_3"):
 			return 4250;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_4"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_4"):
+		case joaat("dlc_mp_low_f_phead_1_4"):
+		case joaat("dlc_mp_low_m_phead_1_4"):
 			return 4251;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_5"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_5"):
+		case joaat("dlc_mp_low_f_phead_1_5"):
+		case joaat("dlc_mp_low_m_phead_1_5"):
 			return 4252;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_6"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_6"):
+		case joaat("dlc_mp_low_f_phead_1_6"):
+		case joaat("dlc_mp_low_m_phead_1_6"):
 			return 4253;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_7"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_7"):
+		case joaat("dlc_mp_low_f_phead_1_7"):
+		case joaat("dlc_mp_low_m_phead_1_7"):
 			return 4254;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_8"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_8"):
+		case joaat("dlc_mp_low_f_phead_1_8"):
+		case joaat("dlc_mp_low_m_phead_1_8"):
 			return 4255;
 		
-		case joaat("DLC_MP_LOW_F_PHEAD_1_9"):
-		case joaat("DLC_MP_LOW_M_PHEAD_1_9"):
+		case joaat("dlc_mp_low_f_phead_1_9"):
+		case joaat("dlc_mp_low_m_phead_1_9"):
 			return 4256;
 		
 		case 1743008394:
@@ -10800,36 +10800,36 @@ int func_221(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_IND_F_PHEAD_6_0"):
-		case joaat("DLC_MP_IND_M_PHEAD_6_0"):
+		case joaat("dlc_mp_ind_f_phead_6_0"):
+		case joaat("dlc_mp_ind_m_phead_6_0"):
 			return 3594;
 		
-		case joaat("DLC_MP_IND_F_PHEAD_6_1"):
-		case joaat("DLC_MP_IND_M_PHEAD_6_1"):
+		case joaat("dlc_mp_ind_f_phead_6_1"):
+		case joaat("dlc_mp_ind_m_phead_6_1"):
 			return 3595;
 		
-		case joaat("DLC_MP_IND_F_PHEAD_6_2"):
-		case joaat("DLC_MP_IND_M_PHEAD_6_2"):
+		case joaat("dlc_mp_ind_f_phead_6_2"):
+		case joaat("dlc_mp_ind_m_phead_6_2"):
 			return 3596;
 		
-		case joaat("DLC_MP_IND_F_PHEAD_6_3"):
-		case joaat("DLC_MP_IND_M_PHEAD_6_3"):
+		case joaat("dlc_mp_ind_f_phead_6_3"):
+		case joaat("dlc_mp_ind_m_phead_6_3"):
 			return 3597;
 		
-		case joaat("DLC_MP_IND_F_PHEAD_6_4"):
-		case joaat("DLC_MP_IND_M_PHEAD_6_4"):
+		case joaat("dlc_mp_ind_f_phead_6_4"):
+		case joaat("dlc_mp_ind_m_phead_6_4"):
 			return 3598;
 		
-		case joaat("DLC_MP_IND_F_PHEAD_6_5"):
-		case joaat("DLC_MP_IND_M_PHEAD_6_5"):
+		case joaat("dlc_mp_ind_f_phead_6_5"):
+		case joaat("dlc_mp_ind_m_phead_6_5"):
 			return 3599;
 		
 		default:
 	}
 	switch (iParam0)
 	{
-		case joaat("DLC_MP_LTS_M_BERD_2_0"):
-		case joaat("DLC_MP_LTS_F_BERD_2_0"):
+		case joaat("dlc_mp_lts_m_berd_2_0"):
+		case joaat("dlc_mp_lts_f_berd_2_0"):
 			return 3616;
 		
 		case joaat("FM_LTS_M_Tshirt_000"):
@@ -14133,129 +14133,129 @@ bool func_239(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 			case 1:
 				switch (iParam0)
 				{
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_0"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_0"):
+					case joaat("dlc_mp_stunt_m_phead_15_0"):
+					case joaat("dlc_mp_stunt_m_phead_0_0"):
 						*uParam2 = 972;
 						*uParam3 = 19;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_1"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_1"):
+					case joaat("dlc_mp_stunt_m_phead_15_1"):
+					case joaat("dlc_mp_stunt_m_phead_0_1"):
 						*uParam2 = 972;
 						*uParam3 = 20;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_2"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_2"):
+					case joaat("dlc_mp_stunt_m_phead_15_2"):
+					case joaat("dlc_mp_stunt_m_phead_0_2"):
 						*uParam2 = 972;
 						*uParam3 = 21;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_3"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_3"):
+					case joaat("dlc_mp_stunt_m_phead_15_3"):
+					case joaat("dlc_mp_stunt_m_phead_0_3"):
 						*uParam2 = 972;
 						*uParam3 = 22;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_4"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_4"):
+					case joaat("dlc_mp_stunt_m_phead_15_4"):
+					case joaat("dlc_mp_stunt_m_phead_0_4"):
 						*uParam2 = 972;
 						*uParam3 = 23;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_5"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_5"):
+					case joaat("dlc_mp_stunt_m_phead_15_5"):
+					case joaat("dlc_mp_stunt_m_phead_0_5"):
 						*uParam2 = 972;
 						*uParam3 = 24;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_6"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_6"):
+					case joaat("dlc_mp_stunt_m_phead_15_6"):
+					case joaat("dlc_mp_stunt_m_phead_0_6"):
 						*uParam2 = 972;
 						*uParam3 = 25;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_7"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_7"):
+					case joaat("dlc_mp_stunt_m_phead_15_7"):
+					case joaat("dlc_mp_stunt_m_phead_0_7"):
 						*uParam2 = 972;
 						*uParam3 = 26;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_0"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_0"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_0"):
+					case joaat("dlc_mp_biker_m_special_0_0"):
+					case joaat("dlc_mp_biker_m_special_2_0"):
+					case joaat("dlc_mp_biker_m_special_4_0"):
 						*uParam2 = 936;
 						*uParam3 = 0;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_1"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_1"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_1"):
+					case joaat("dlc_mp_biker_m_special_0_1"):
+					case joaat("dlc_mp_biker_m_special_2_1"):
+					case joaat("dlc_mp_biker_m_special_4_1"):
 						*uParam2 = 936;
 						*uParam3 = 1;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_2"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_2"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_2"):
+					case joaat("dlc_mp_biker_m_special_0_2"):
+					case joaat("dlc_mp_biker_m_special_2_2"):
+					case joaat("dlc_mp_biker_m_special_4_2"):
 						*uParam2 = 936;
 						*uParam3 = 2;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_3"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_3"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_3"):
+					case joaat("dlc_mp_biker_m_special_0_3"):
+					case joaat("dlc_mp_biker_m_special_2_3"):
+					case joaat("dlc_mp_biker_m_special_4_3"):
 						*uParam2 = 936;
 						*uParam3 = 3;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_4"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_4"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_4"):
+					case joaat("dlc_mp_biker_m_special_0_4"):
+					case joaat("dlc_mp_biker_m_special_2_4"):
+					case joaat("dlc_mp_biker_m_special_4_4"):
 						*uParam2 = 936;
 						*uParam3 = 4;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_5"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_5"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_5"):
+					case joaat("dlc_mp_biker_m_special_0_5"):
+					case joaat("dlc_mp_biker_m_special_2_5"):
+					case joaat("dlc_mp_biker_m_special_4_5"):
 						*uParam2 = 936;
 						*uParam3 = 5;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_7"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_7"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_7"):
+					case joaat("dlc_mp_biker_m_special_0_7"):
+					case joaat("dlc_mp_biker_m_special_2_7"):
+					case joaat("dlc_mp_biker_m_special_4_7"):
 						*uParam2 = 936;
 						*uParam3 = 7;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_8"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_8"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_8"):
+					case joaat("dlc_mp_biker_m_special_0_8"):
+					case joaat("dlc_mp_biker_m_special_2_8"):
+					case joaat("dlc_mp_biker_m_special_4_8"):
 						*uParam2 = 936;
 						*uParam3 = 8;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_BIKER_M_SPECIAL_0_11"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_2_11"):
-					case joaat("DLC_MP_BIKER_M_SPECIAL_4_11"):
+					case joaat("dlc_mp_biker_m_special_0_11"):
+					case joaat("dlc_mp_biker_m_special_2_11"):
+					case joaat("dlc_mp_biker_m_special_4_11"):
 						*uParam2 = 936;
 						*uParam3 = 11;
 						return 1;
@@ -14266,57 +14266,57 @@ bool func_239(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 			case 2:
 				switch (iParam0)
 				{
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_0"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_0"):
+					case joaat("dlc_mp_stunt_m_phead_15_0"):
+					case joaat("dlc_mp_stunt_m_phead_0_0"):
 						*uParam2 = 1024;
 						*uParam3 = 19;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_1"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_1"):
+					case joaat("dlc_mp_stunt_m_phead_15_1"):
+					case joaat("dlc_mp_stunt_m_phead_0_1"):
 						*uParam2 = 1024;
 						*uParam3 = 20;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_2"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_2"):
+					case joaat("dlc_mp_stunt_m_phead_15_2"):
+					case joaat("dlc_mp_stunt_m_phead_0_2"):
 						*uParam2 = 1024;
 						*uParam3 = 21;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_3"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_3"):
+					case joaat("dlc_mp_stunt_m_phead_15_3"):
+					case joaat("dlc_mp_stunt_m_phead_0_3"):
 						*uParam2 = 1024;
 						*uParam3 = 22;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_4"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_4"):
+					case joaat("dlc_mp_stunt_m_phead_15_4"):
+					case joaat("dlc_mp_stunt_m_phead_0_4"):
 						*uParam2 = 1024;
 						*uParam3 = 23;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_5"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_5"):
+					case joaat("dlc_mp_stunt_m_phead_15_5"):
+					case joaat("dlc_mp_stunt_m_phead_0_5"):
 						*uParam2 = 1024;
 						*uParam3 = 24;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_6"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_6"):
+					case joaat("dlc_mp_stunt_m_phead_15_6"):
+					case joaat("dlc_mp_stunt_m_phead_0_6"):
 						*uParam2 = 1024;
 						*uParam3 = 25;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_M_PHEAD_15_7"):
-					case joaat("DLC_MP_STUNT_M_PHEAD_0_7"):
+					case joaat("dlc_mp_stunt_m_phead_15_7"):
+					case joaat("dlc_mp_stunt_m_phead_0_7"):
 						*uParam2 = 1024;
 						*uParam3 = 26;
 						return 1;
@@ -14332,57 +14332,57 @@ bool func_239(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 			case 1:
 				switch (iParam0)
 				{
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_0"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_0"):
+					case joaat("dlc_mp_stunt_f_phead_15_0"):
+					case joaat("dlc_mp_stunt_f_phead_0_0"):
 						*uParam2 = 972;
 						*uParam3 = 19;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_1"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_1"):
+					case joaat("dlc_mp_stunt_f_phead_15_1"):
+					case joaat("dlc_mp_stunt_f_phead_0_1"):
 						*uParam2 = 972;
 						*uParam3 = 20;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_2"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_2"):
+					case joaat("dlc_mp_stunt_f_phead_15_2"):
+					case joaat("dlc_mp_stunt_f_phead_0_2"):
 						*uParam2 = 972;
 						*uParam3 = 21;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_3"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_3"):
+					case joaat("dlc_mp_stunt_f_phead_15_3"):
+					case joaat("dlc_mp_stunt_f_phead_0_3"):
 						*uParam2 = 972;
 						*uParam3 = 22;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_4"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_4"):
+					case joaat("dlc_mp_stunt_f_phead_15_4"):
+					case joaat("dlc_mp_stunt_f_phead_0_4"):
 						*uParam2 = 972;
 						*uParam3 = 23;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_5"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_5"):
+					case joaat("dlc_mp_stunt_f_phead_15_5"):
+					case joaat("dlc_mp_stunt_f_phead_0_5"):
 						*uParam2 = 972;
 						*uParam3 = 24;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_6"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_6"):
+					case joaat("dlc_mp_stunt_f_phead_15_6"):
+					case joaat("dlc_mp_stunt_f_phead_0_6"):
 						*uParam2 = 972;
 						*uParam3 = 25;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_7"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_7"):
+					case joaat("dlc_mp_stunt_f_phead_15_7"):
+					case joaat("dlc_mp_stunt_f_phead_0_7"):
 						*uParam2 = 972;
 						*uParam3 = 26;
 						return 1;
@@ -14393,57 +14393,57 @@ bool func_239(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 			case 2:
 				switch (iParam0)
 				{
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_0"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_0"):
+					case joaat("dlc_mp_stunt_f_phead_15_0"):
+					case joaat("dlc_mp_stunt_f_phead_0_0"):
 						*uParam2 = 1024;
 						*uParam3 = 19;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_1"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_1"):
+					case joaat("dlc_mp_stunt_f_phead_15_1"):
+					case joaat("dlc_mp_stunt_f_phead_0_1"):
 						*uParam2 = 1024;
 						*uParam3 = 20;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_2"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_2"):
+					case joaat("dlc_mp_stunt_f_phead_15_2"):
+					case joaat("dlc_mp_stunt_f_phead_0_2"):
 						*uParam2 = 1024;
 						*uParam3 = 21;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_3"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_3"):
+					case joaat("dlc_mp_stunt_f_phead_15_3"):
+					case joaat("dlc_mp_stunt_f_phead_0_3"):
 						*uParam2 = 1024;
 						*uParam3 = 22;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_4"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_4"):
+					case joaat("dlc_mp_stunt_f_phead_15_4"):
+					case joaat("dlc_mp_stunt_f_phead_0_4"):
 						*uParam2 = 1024;
 						*uParam3 = 23;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_5"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_5"):
+					case joaat("dlc_mp_stunt_f_phead_15_5"):
+					case joaat("dlc_mp_stunt_f_phead_0_5"):
 						*uParam2 = 1024;
 						*uParam3 = 24;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_6"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_6"):
+					case joaat("dlc_mp_stunt_f_phead_15_6"):
+					case joaat("dlc_mp_stunt_f_phead_0_6"):
 						*uParam2 = 1024;
 						*uParam3 = 25;
 						return 1;
 						break;
 					
-					case joaat("DLC_MP_STUNT_F_PHEAD_15_7"):
-					case joaat("DLC_MP_STUNT_F_PHEAD_0_7"):
+					case joaat("dlc_mp_stunt_f_phead_15_7"):
+					case joaat("dlc_mp_stunt_f_phead_0_7"):
 						*uParam2 = 1024;
 						*uParam3 = 26;
 						return 1;

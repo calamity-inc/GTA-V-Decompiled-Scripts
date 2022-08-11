@@ -27088,7 +27088,7 @@ int func_394(char* sParam0)
 	iVar0 = MISC::GET_HASH_KEY(sParam0);
 	switch (iVar0)
 	{
-		case joaat("black"):
+		case joaat("BLACK"):
 			return 2520;
 			break;
 		
@@ -27112,7 +27112,7 @@ int func_394(char* sParam0)
 			return 2340;
 			break;
 		
-		case joaat("silver"):
+		case joaat("SILVER"):
 			return 2460;
 			break;
 		
@@ -27140,7 +27140,7 @@ int func_394(char* sParam0)
 			return 2640;
 			break;
 		
-		case joaat("red"):
+		case joaat("RED"):
 			return 4200;
 			break;
 		
@@ -27188,7 +27188,7 @@ int func_394(char* sParam0)
 			return 20000;
 			break;
 		
-		case joaat("pink"):
+		case joaat("PINK"):
 			return 19200;
 			break;
 		
@@ -27200,7 +27200,7 @@ int func_394(char* sParam0)
 			return 15800;
 			break;
 		
-		case joaat("orange"):
+		case joaat("ORANGE"):
 			return 15480;
 			break;
 		
@@ -27208,7 +27208,7 @@ int func_394(char* sParam0)
 			return 15620;
 			break;
 		
-		case joaat("gold"):
+		case joaat("GOLD"):
 			return 3500;
 			break;
 		
@@ -27216,7 +27216,7 @@ int func_394(char* sParam0)
 			return 3450;
 			break;
 		
-		case joaat("yellow"):
+		case joaat("YELLOW"):
 			return 15590;
 			break;
 		
@@ -27272,7 +27272,7 @@ int func_394(char* sParam0)
 			return 2700;
 			break;
 		
-		case joaat("blue"):
+		case joaat("BLUE"):
 			return 3840;
 			break;
 		
@@ -27360,7 +27360,7 @@ int func_394(char* sParam0)
 			return 2340;
 			break;
 		
-		case joaat("purple"):
+		case joaat("PURPLE"):
 			return 5650;
 			break;
 		
@@ -27380,7 +27380,7 @@ int func_394(char* sParam0)
 			return 2340;
 			break;
 		
-		case joaat("white"):
+		case joaat("WHITE"):
 			return 2430;
 			break;
 		
@@ -27406,7 +27406,7 @@ int func_395(char* sParam0)
 	iVar0 = MISC::GET_HASH_KEY(sParam0);
 	switch (iVar0)
 	{
-		case joaat("black"):
+		case joaat("BLACK"):
 			return 2200;
 			break;
 		
@@ -27418,11 +27418,11 @@ int func_395(char* sParam0)
 			return 2000;
 			break;
 		
-		case joaat("white"):
+		case joaat("WHITE"):
 			return 2120;
 			break;
 		
-		case joaat("blue"):
+		case joaat("BLUE"):
 			return 14250;
 			break;
 		
@@ -27438,11 +27438,11 @@ int func_395(char* sParam0)
 			return 13750;
 			break;
 		
-		case joaat("purple"):
+		case joaat("PURPLE"):
 			return 17000;
 			break;
 		
-		case joaat("red"):
+		case joaat("RED"):
 			return 12500;
 			break;
 		
@@ -27450,11 +27450,11 @@ int func_395(char* sParam0)
 			return 15000;
 			break;
 		
-		case joaat("orange"):
+		case joaat("ORANGE"):
 			return 14000;
 			break;
 		
-		case joaat("yellow"):
+		case joaat("YELLOW"):
 			return 11600;
 			break;
 		
@@ -27462,7 +27462,7 @@ int func_395(char* sParam0)
 			return 17500;
 			break;
 		
-		case joaat("green"):
+		case joaat("GREEN"):
 			return 2130;
 			break;
 		
@@ -27504,7 +27504,7 @@ int func_396(char* sParam0)
 	iVar0 = MISC::GET_HASH_KEY(sParam0);
 	switch (iVar0)
 	{
-		case joaat("black"):
+		case joaat("BLACK"):
 			return 1400;
 			break;
 		
@@ -27528,7 +27528,7 @@ int func_396(char* sParam0)
 			return 1300;
 			break;
 		
-		case joaat("silver"):
+		case joaat("SILVER"):
 			return 1370;
 			break;
 		
@@ -27556,7 +27556,7 @@ int func_396(char* sParam0)
 			return 1470;
 			break;
 		
-		case joaat("red"):
+		case joaat("RED"):
 			return 1530;
 			break;
 		
@@ -27604,7 +27604,7 @@ int func_396(char* sParam0)
 			return 15000;
 			break;
 		
-		case joaat("pink"):
+		case joaat("PINK"):
 			return 13750;
 			break;
 		
@@ -27616,7 +27616,7 @@ int func_396(char* sParam0)
 			return 11000;
 			break;
 		
-		case joaat("orange"):
+		case joaat("ORANGE"):
 			return 7500;
 			break;
 		
@@ -27624,7 +27624,7 @@ int func_396(char* sParam0)
 			return 9000;
 			break;
 		
-		case joaat("gold"):
+		case joaat("GOLD"):
 			return 1650;
 			break;
 		
@@ -27632,7 +27632,7 @@ int func_396(char* sParam0)
 			return 1550;
 			break;
 		
-		case joaat("yellow"):
+		case joaat("YELLOW"):
 			return 8500;
 			break;
 		
@@ -27688,7 +27688,7 @@ int func_396(char* sParam0)
 			return 1500;
 			break;
 		
-		case joaat("blue"):
+		case joaat("BLUE"):
 			return 1430;
 			break;
 		
@@ -27776,7 +27776,7 @@ int func_396(char* sParam0)
 			return 1300;
 			break;
 		
-		case joaat("purple"):
+		case joaat("PURPLE"):
 			return 7500;
 			break;
 		
@@ -27796,7 +27796,7 @@ int func_396(char* sParam0)
 			return 1300;
 			break;
 		
-		case joaat("white"):
+		case joaat("WHITE"):
 			return 1350;
 			break;
 		
@@ -28136,7 +28136,7 @@ int func_401(char* sParam0)
 	iVar0 = MISC::GET_HASH_KEY(sParam0);
 	switch (iVar0)
 	{
-		case joaat("black"):
+		case joaat("BLACK"):
 			return 840;
 			break;
 		
@@ -28160,7 +28160,7 @@ int func_401(char* sParam0)
 			return 780;
 			break;
 		
-		case joaat("silver"):
+		case joaat("SILVER"):
 			return 820;
 			break;
 		
@@ -28188,7 +28188,7 @@ int func_401(char* sParam0)
 			return 880;
 			break;
 		
-		case joaat("red"):
+		case joaat("RED"):
 			return 920;
 			break;
 		
@@ -28236,7 +28236,7 @@ int func_401(char* sParam0)
 			return 12500;
 			break;
 		
-		case joaat("pink"):
+		case joaat("PINK"):
 			return 11000;
 			break;
 		
@@ -28248,7 +28248,7 @@ int func_401(char* sParam0)
 			return 8800;
 			break;
 		
-		case joaat("orange"):
+		case joaat("ORANGE"):
 			return 4500;
 			break;
 		
@@ -28256,7 +28256,7 @@ int func_401(char* sParam0)
 			return 5400;
 			break;
 		
-		case joaat("gold"):
+		case joaat("GOLD"):
 			return 990;
 			break;
 		
@@ -28264,7 +28264,7 @@ int func_401(char* sParam0)
 			return 930;
 			break;
 		
-		case joaat("yellow"):
+		case joaat("YELLOW"):
 			return 5100;
 			break;
 		
@@ -28320,7 +28320,7 @@ int func_401(char* sParam0)
 			return 900;
 			break;
 		
-		case joaat("blue"):
+		case joaat("BLUE"):
 			return 860;
 			break;
 		
@@ -28408,7 +28408,7 @@ int func_401(char* sParam0)
 			return 780;
 			break;
 		
-		case joaat("purple"):
+		case joaat("PURPLE"):
 			return 4500;
 			break;
 		
@@ -28428,7 +28428,7 @@ int func_401(char* sParam0)
 			return 780;
 			break;
 		
-		case joaat("white"):
+		case joaat("WHITE"):
 			return 810;
 			break;
 		
@@ -29280,7 +29280,7 @@ int func_413(char* sParam0)
 	iVar0 = MISC::GET_HASH_KEY(sParam0);
 	switch (iVar0)
 	{
-		case joaat("black"):
+		case joaat("BLACK"):
 			return 1;
 			break;
 		
@@ -29308,7 +29308,7 @@ int func_413(char* sParam0)
 			return 7;
 			break;
 		
-		case joaat("silver"):
+		case joaat("SILVER"):
 			return 8;
 			break;
 		
@@ -29336,7 +29336,7 @@ int func_413(char* sParam0)
 			return 14;
 			break;
 		
-		case joaat("red"):
+		case joaat("RED"):
 			return 15;
 			break;
 		
@@ -29384,7 +29384,7 @@ int func_413(char* sParam0)
 			return 26;
 			break;
 		
-		case joaat("pink"):
+		case joaat("PINK"):
 			return 27;
 			break;
 		
@@ -29396,7 +29396,7 @@ int func_413(char* sParam0)
 			return 29;
 			break;
 		
-		case joaat("orange"):
+		case joaat("ORANGE"):
 			return 30;
 			break;
 		
@@ -29404,7 +29404,7 @@ int func_413(char* sParam0)
 			return 31;
 			break;
 		
-		case joaat("gold"):
+		case joaat("GOLD"):
 			return 32;
 			break;
 		
@@ -29412,7 +29412,7 @@ int func_413(char* sParam0)
 			return 33;
 			break;
 		
-		case joaat("yellow"):
+		case joaat("YELLOW"):
 			return 34;
 			break;
 		
@@ -29468,7 +29468,7 @@ int func_413(char* sParam0)
 			return 47;
 			break;
 		
-		case joaat("blue"):
+		case joaat("BLUE"):
 			return 48;
 			break;
 		
@@ -29556,7 +29556,7 @@ int func_413(char* sParam0)
 			return 69;
 			break;
 		
-		case joaat("purple"):
+		case joaat("PURPLE"):
 			return 70;
 			break;
 		
@@ -29576,7 +29576,7 @@ int func_413(char* sParam0)
 			return 74;
 			break;
 		
-		case joaat("white"):
+		case joaat("WHITE"):
 			return 75;
 			break;
 		
@@ -29596,7 +29596,7 @@ int func_413(char* sParam0)
 			return 79;
 			break;
 		
-		case joaat("green"):
+		case joaat("GREEN"):
 			return 80;
 			break;
 		
