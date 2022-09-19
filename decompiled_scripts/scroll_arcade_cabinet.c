@@ -497,18 +497,18 @@ void func_11()
 {
 	if (Local_156.f_2879 != 0)
 	{
-		GRAPHICS::_STOP_BINK_MOVIE(Local_156.f_2879);
-		GRAPHICS::_RELEASE_BINK_MOVIE(Local_156.f_2879);
+		GRAPHICS::STOP_BINK_MOVIE(Local_156.f_2879);
+		GRAPHICS::RELEASE_BINK_MOVIE(Local_156.f_2879);
 	}
 	if (Local_156.f_2880 != 0)
 	{
-		GRAPHICS::_STOP_BINK_MOVIE(Local_156.f_2880);
-		GRAPHICS::_RELEASE_BINK_MOVIE(Local_156.f_2880);
+		GRAPHICS::STOP_BINK_MOVIE(Local_156.f_2880);
+		GRAPHICS::RELEASE_BINK_MOVIE(Local_156.f_2880);
 	}
 	if (Local_156.f_2881 != 0)
 	{
-		GRAPHICS::_STOP_BINK_MOVIE(Local_156.f_2881);
-		GRAPHICS::_RELEASE_BINK_MOVIE(Local_156.f_2881);
+		GRAPHICS::STOP_BINK_MOVIE(Local_156.f_2881);
+		GRAPHICS::RELEASE_BINK_MOVIE(Local_156.f_2881);
 	}
 }
 
@@ -870,7 +870,7 @@ void func_20(int iParam0, bool bParam1, int iParam2, int iParam3)
 					{
 						ENTITY::FREEZE_ENTITY_POSITION(iVar27, false);
 					}
-					ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar27, true);
+					ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar27, true);
 				}
 				else if (!bVar21)
 				{
@@ -878,7 +878,7 @@ void func_20(int iParam0, bool bParam1, int iParam2, int iParam3)
 				}
 				PED::SET_PED_CAN_BE_TARGETTED(iVar27, true);
 				PLAYER::SET_PLAYER_INVINCIBLE(iParam0, false);
-				PLAYER::_SET_PLAYER_INVINCIBLE_KEEP_RAGDOLL_ENABLED(iParam0, false);
+				PLAYER::SET_PLAYER_INVINCIBLE_BUT_HAS_REACTIONS(iParam0, false);
 				if (PED::HAS_PED_HEAD_BLEND_FINISHED(iVar27) && PED::HAVE_ALL_STREAMING_REQUESTS_COMPLETED(iVar27))
 				{
 					PED::FINALIZE_HEAD_BLEND(iVar27);
@@ -924,7 +924,7 @@ void func_20(int iParam0, bool bParam1, int iParam2, int iParam3)
 						}
 						if (!bVar16)
 						{
-							ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar27, true);
+							ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar27, true);
 						}
 					}
 					if (func_21(Global_4718592.f_168757))
@@ -1067,7 +1067,7 @@ void func_25(bool bParam0, int iParam1, int iParam2)
 		{
 			if (PED::IS_PED_A_PLAYER(iParam1))
 			{
-				if (!NETWORK::_NETWORK_IS_PLAYER_EQUAL_TO_INDEX(PLAYER::PLAYER_ID(), NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iParam1)))
+				if (!NETWORK::NETWORK_ARE_PLAYERS_IN_SAME_TUTORIAL_SESSION(PLAYER::PLAYER_ID(), NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iParam1)))
 				{
 					iVar0 = 1;
 				}
@@ -1237,9 +1237,9 @@ int func_36(bool bParam0, bool bParam1, int iParam2, bool bParam3)
 	iVar0 = 0;
 	if (MISC::IS_PC_VERSION())
 	{
-		if (CUTSCENE::_0xA0FE76168A189DDB() != bParam0 && iParam2)
+		if (CUTSCENE::IS_MULTIHEAD_FADE_UP() != bParam0 && iParam2)
 		{
-			CUTSCENE::_0x20746F7B1032A3C7(bParam0, bParam1, true, bParam3);
+			CUTSCENE::SET_CUTSCENE_MULTIHEAD_FADE(bParam0, bParam1, true, bParam3);
 			iVar0 = 1;
 		}
 	}
@@ -1285,7 +1285,7 @@ void func_40()
 		return;
 	}
 	Local_134.f_19 = (NETWORK::GET_NETWORK_TIME_ACCURATE() - Local_134.f_19);
-	STATS::_PLAYSTATS_ARCADEGAME(MISC::GET_HASH_KEY(&Local_134), Local_134.f_16, Local_134.f_17, Local_134.f_18, Local_134.f_19, Local_134.f_20, Local_134.f_21);
+	STATS::PLAYSTATS_ARCADE_GAME(MISC::GET_HASH_KEY(&Local_134), Local_134.f_16, Local_134.f_17, Local_134.f_18, Local_134.f_19, Local_134.f_20, Local_134.f_21);
 }
 
 int func_41()
@@ -1747,15 +1747,15 @@ void func_57()
 
 void func_58()
 {
-	Local_156.f_2880 = GRAPHICS::_SET_BINK_MOVIE("I&P_intro_16x9");
-	GRAPHICS::_PLAY_BINK_MOVIE(Local_156.f_2880);
-	GRAPHICS::_SET_BINK_SHOULD_SKIP(Local_156.f_2880, true);
+	Local_156.f_2880 = GRAPHICS::SET_BINK_MOVIE("I&P_intro_16x9");
+	GRAPHICS::PLAY_BINK_MOVIE(Local_156.f_2880);
+	GRAPHICS::SET_BINK_SHOULD_SKIP(Local_156.f_2880, true);
 }
 
 void func_59()
 {
-	GRAPHICS::_STOP_BINK_MOVIE(Local_156.f_2881);
-	GRAPHICS::_RELEASE_BINK_MOVIE(Local_156.f_2881);
+	GRAPHICS::STOP_BINK_MOVIE(Local_156.f_2881);
+	GRAPHICS::RELEASE_BINK_MOVIE(Local_156.f_2881);
 }
 
 int func_60()
@@ -1784,7 +1784,7 @@ int func_61()
 	int iVar0;
 	
 	iVar0 = 199;
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		iVar0 = 201;
 	}
@@ -1816,7 +1816,7 @@ void func_62()
 	{
 		StringCopy(&Var0, "IAP_H_LBD2", 16);
 	}
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		StringConCat(&Var0, "_PC", 16);
 	}
@@ -1851,7 +1851,7 @@ int func_65(char* sParam0)
 
 bool func_66()
 {
-	return (MISC::IS_ORBIS_VERSION() || MISC::_0x807ABE1AB65C24D2());
+	return (MISC::IS_ORBIS_VERSION() || MISC::IS_PROSPERO_VERSION());
 }
 
 void func_67()
@@ -1897,7 +1897,7 @@ void func_67()
 	iVar6 = 226;
 	iVar7 = 191;
 	iVar8 = 194;
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		iVar7 = 237;
 		iVar8 = 238;
@@ -2145,7 +2145,7 @@ void func_74(int iParam0, int iParam1, int iParam2, var uParam3, var uParam4, in
 	iVar7 = func_75(iParam0);
 	if (!iVar7 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 7, iVar7);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iVar7);
 	}
 }
 
@@ -2277,7 +2277,7 @@ void func_82()
 	int iVar6;
 	int iVar7;
 	
-	GRAPHICS::_DRAW_BINK_MOVIE(Local_156.f_2881, 0.5f, 0.5f, (1f * fLocal_131), 1f, 0f, 255, 255, 255, 255);
+	GRAPHICS::DRAW_BINK_MOVIE(Local_156.f_2881, 0.5f, 0.5f, (1f * fLocal_131), 1f, 0f, 255, 255, 255, 255);
 	fVar5 = 0.22f;
 	iVar6 = 0;
 	iVar6 = 0;
@@ -2444,7 +2444,7 @@ void func_84(char* sParam0, char* sParam1, float fParam2, float fParam3, float f
 	fParam3 = (SYSTEM::TO_FLOAT(iVar0) * (1f / IntToFloat(iLocal_133)));
 	iVar0 = SYSTEM::ROUND(((fParam5 * IntToFloat(iLocal_133)) / 4f)) * 4;
 	fParam5 = (SYSTEM::TO_FLOAT(iVar0) * (1f / IntToFloat(iLocal_133)));
-	GRAPHICS::_0x2D3B147AFAD49DE0(sParam0, sParam1, func_99(fParam2), fParam3, (fParam4 * fLocal_131), fParam5, fParam6, Param7.f_0, Param7.f_1, Param7.f_2, Param7.f_3, 0, 1);
+	GRAPHICS::DRAW_SPRITE_ARX(sParam0, sParam1, func_99(fParam2), fParam3, (fParam4 * fLocal_131), fParam5, fParam6, Param7.f_0, Param7.f_1, Param7.f_2, Param7.f_3, 0, 1);
 }
 
 void func_85()
@@ -4404,13 +4404,13 @@ void func_114(int iParam0, int iParam1, int iParam2)
 
 void func_115()
 {
-	Local_156.f_2881 = GRAPHICS::_SET_BINK_MOVIE("I&P_Leaderboard_loop_16x9");
-	GRAPHICS::_PLAY_BINK_MOVIE(Local_156.f_2881);
+	Local_156.f_2881 = GRAPHICS::SET_BINK_MOVIE("I&P_Leaderboard_loop_16x9");
+	GRAPHICS::PLAY_BINK_MOVIE(Local_156.f_2881);
 }
 
 int func_116()
 {
-	if (NETWORK::_NETWORK_GET_ROS_PRIVILEGE_9() == 0)
+	if (NETWORK::NETWORK_HAVE_SCS_PRIVATE_MSG_PRIV() == 0)
 	{
 		return 0;
 	}
@@ -4446,7 +4446,7 @@ int func_116()
 
 bool func_117()
 {
-	return (MISC::IS_DURANGO_VERSION() || MISC::_0xC545AB1CF97ABB34());
+	return (MISC::IS_DURANGO_VERSION() || MISC::IS_SCARLETT_VERSION());
 }
 
 int func_118(var uParam0, int iParam1, bool bParam2)
@@ -4528,7 +4528,7 @@ int func_122()
 		return 0;
 	}
 	iVar0 = 223;
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		iVar0 = 237;
 	}
@@ -4736,7 +4736,7 @@ void func_128(int iParam0, bool bParam1, int iParam2)
 	{
 		iParam2 = func_31();
 	}
-	STATS::_SET_PACKED_STAT_BOOL(iParam0, bParam1, iParam2);
+	STATS::SET_PACKED_STAT_BOOL_CODE(iParam0, bParam1, iParam2);
 }
 
 void func_129(int iParam0, bool bParam1, int iParam2, bool bParam3)
@@ -5676,7 +5676,7 @@ void func_177(struct<4> Param0)
 
 void func_178(char* sParam0, char* sParam1, float fParam2, float fParam3, float fParam4, float fParam5, float fParam6, struct<4> Param7)
 {
-	GRAPHICS::_0x2D3B147AFAD49DE0(sParam0, sParam1, func_179(fParam2), fParam3, (fParam4 * fLocal_131), fParam5, fParam6, Param7.f_0, Param7.f_1, Param7.f_2, Param7.f_3, 0, 1);
+	GRAPHICS::DRAW_SPRITE_ARX(sParam0, sParam1, func_179(fParam2), fParam3, (fParam4 * fLocal_131), fParam5, fParam6, Param7.f_0, Param7.f_1, Param7.f_2, Param7.f_3, 0, 1);
 }
 
 float func_179(float fParam0)
@@ -6358,7 +6358,7 @@ void func_207()
 	StringCopy(&Var0, Local_156.f_2903, 16);
 	if (Local_156.f_2902 == -1)
 	{
-		if (PAD::_IS_USING_KEYBOARD(2))
+		if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 		{
 			StringConCat(&Var0, "_PC", 16);
 		}
@@ -9497,7 +9497,7 @@ void func_294()
 	}
 	iVar0 = 223;
 	iVar1 = 229;
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		iVar0 = 237;
 		iVar1 = 70;
@@ -9855,7 +9855,7 @@ void func_305()
 	iVar5 = 228;
 	iVar6 = 363;
 	fVar7 = 1f;
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		iVar0 = 234;
 		iVar1 = 235;
@@ -9921,7 +9921,7 @@ void func_306(int iParam0, bool bParam1, float fParam2)
 	int iVar0;
 	
 	iVar0 = 100;
-	if (PAD::_IS_USING_KEYBOARD(2) && (fParam2 > (0.65f * 0.3f) || fParam2 < (-0.65f * 0.3f)))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2) && (fParam2 > (0.65f * 0.3f) || fParam2 < (-0.65f * 0.3f)))
 	{
 		iVar0 = 50;
 	}
@@ -10361,8 +10361,8 @@ void func_322(bool bParam0)
 
 void func_323()
 {
-	GRAPHICS::_STOP_BINK_MOVIE(Local_156.f_2880);
-	GRAPHICS::_RELEASE_BINK_MOVIE(Local_156.f_2880);
+	GRAPHICS::STOP_BINK_MOVIE(Local_156.f_2880);
+	GRAPHICS::RELEASE_BINK_MOVIE(Local_156.f_2880);
 }
 
 void func_324()
@@ -10400,7 +10400,7 @@ int func_325()
 	{
 		case 0:
 		case 1:
-			if (PAD::_IS_USING_KEYBOARD(2))
+			if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 			{
 				return 188;
 			}
@@ -10412,7 +10412,7 @@ int func_325()
 		
 		case 2:
 		case 3:
-			if (PAD::_IS_USING_KEYBOARD(2))
+			if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 			{
 				return 187;
 			}
@@ -10424,7 +10424,7 @@ int func_325()
 		
 		case 4:
 		case 6:
-			if (PAD::_IS_USING_KEYBOARD(2))
+			if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 			{
 				return 189;
 			}
@@ -10436,7 +10436,7 @@ int func_325()
 		
 		case 5:
 		case 7:
-			if (PAD::_IS_USING_KEYBOARD(2))
+			if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 			{
 				return 190;
 			}
@@ -10447,7 +10447,7 @@ int func_325()
 			break;
 		
 		case 8:
-			if (PAD::_IS_USING_KEYBOARD(2))
+			if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 			{
 				return 238;
 			}
@@ -10458,7 +10458,7 @@ int func_325()
 			break;
 		
 		case 9:
-			if (PAD::_IS_USING_KEYBOARD(2))
+			if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 			{
 				return 237;
 			}
@@ -10475,7 +10475,7 @@ void func_326()
 {
 	if (BitTest(Local_156.f_2368.f_333, 9))
 	{
-		if (GRAPHICS::_GET_BINK_MOVIE_TIME(Local_156.f_2880) >= 95f)
+		if (GRAPHICS::GET_BINK_MOVIE_TIME(Local_156.f_2880) >= 95f)
 		{
 			func_12(func_13(6));
 			MISC::SET_BIT(&(Local_156.f_2368.f_333), 10);
@@ -10488,7 +10488,7 @@ void func_326()
 	}
 	if (!BitTest(Local_156.f_2368.f_333, 9) && BitTest(Local_156.f_2368.f_333, 10))
 	{
-		if (GRAPHICS::_GET_BINK_MOVIE_TIME(Local_156.f_2880) >= 99f || GRAPHICS::_GET_BINK_MOVIE_TIME(Local_156.f_2880) <= 1f)
+		if (GRAPHICS::GET_BINK_MOVIE_TIME(Local_156.f_2880) >= 99f || GRAPHICS::GET_BINK_MOVIE_TIME(Local_156.f_2880) <= 1f)
 		{
 			func_12(func_13(0));
 			MISC::SET_BIT(&(Local_156.f_2368.f_333), 9);
@@ -10506,7 +10506,7 @@ void func_327()
 	{
 		StringConCat(&Var0, "_PS4", 16);
 	}
-	else if (PAD::_IS_USING_KEYBOARD(2))
+	else if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		StringConCat(&Var0, "_PC", 16);
 	}
@@ -10520,10 +10520,10 @@ void func_327()
 
 void func_328()
 {
-	GRAPHICS::_DRAW_BINK_MOVIE(Local_156.f_2880, 0.5f, 0.5f, (1f * fLocal_131), 1f, 0f, 255, 255, 255, 255);
+	GRAPHICS::DRAW_BINK_MOVIE(Local_156.f_2880, 0.5f, 0.5f, (1f * fLocal_131), 1f, 0f, 255, 255, 255, 255);
 	if (LOCALIZATION::GET_CURRENT_LANGUAGE() != 0)
 	{
-		if (GRAPHICS::_GET_BINK_MOVIE_TIME(Local_156.f_2880) < 30f)
+		if (GRAPHICS::GET_BINK_MOVIE_TIME(Local_156.f_2880) < 30f)
 		{
 			HUD::BEGIN_TEXT_COMMAND_PRINT("IAP_INTRO");
 			HUD::END_TEXT_COMMAND_PRINT(1, true);
@@ -10589,13 +10589,13 @@ void func_331()
 
 int func_332()
 {
-	GRAPHICS::_DRAW_BINK_MOVIE(Local_156.f_2879, 0.5f, 0.5f, (1f * fLocal_131), 1f, 0f, 255, 255, 255, 255);
+	GRAPHICS::DRAW_BINK_MOVIE(Local_156.f_2879, 0.5f, 0.5f, (1f * fLocal_131), 1f, 0f, 255, 255, 255, 255);
 	func_85();
 	func_83();
-	if (GRAPHICS::_GET_BINK_MOVIE_TIME(Local_156.f_2879) >= 99f)
+	if (GRAPHICS::GET_BINK_MOVIE_TIME(Local_156.f_2879) >= 99f)
 	{
-		GRAPHICS::_STOP_BINK_MOVIE(Local_156.f_2879);
-		GRAPHICS::_RELEASE_BINK_MOVIE(Local_156.f_2879);
+		GRAPHICS::STOP_BINK_MOVIE(Local_156.f_2879);
+		GRAPHICS::RELEASE_BINK_MOVIE(Local_156.f_2879);
 		return 1;
 	}
 	return 0;
@@ -10614,9 +10614,9 @@ void func_333()
 
 void func_334()
 {
-	Local_156.f_2879 = GRAPHICS::_SET_BINK_MOVIE("_1992_DegenatronLogo_720_auto");
-	GRAPHICS::_PLAY_BINK_MOVIE(Local_156.f_2879);
-	GRAPHICS::_SET_BINK_SHOULD_SKIP(Local_156.f_2879, true);
+	Local_156.f_2879 = GRAPHICS::SET_BINK_MOVIE("_1992_DegenatronLogo_720_auto");
+	GRAPHICS::PLAY_BINK_MOVIE(Local_156.f_2879);
+	GRAPHICS::SET_BINK_SHOULD_SKIP(Local_156.f_2879, true);
 	func_51("Frontend_Degenatron_Screen");
 }
 
@@ -11739,8 +11739,8 @@ void func_357()
 void func_358(bool bParam0)
 {
 	func_371();
-	PAD::_0x7F4724035FDCA1DD(0);
-	PAD::_0x7F4724035FDCA1DD(2);
+	PAD::ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT(0);
+	PAD::ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT(2);
 	if (MISC::IS_PC_VERSION())
 	{
 		PAD::DISABLE_CONTROL_ACTION(2, 200, true);
@@ -11763,7 +11763,7 @@ void func_358(bool bParam0)
 		}
 	}
 	func_359();
-	RECORDING::_STOP_RECORDING_THIS_FRAME();
+	RECORDING::REPLAY_PREVENT_RECORDING_THIS_FRAME();
 }
 
 void func_359()
@@ -11891,7 +11891,7 @@ int func_365(int iParam0)
 			return 0;
 		}
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("cellphone_flashhand")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("cellphone_flashhand")) > 0)
 	{
 		return 1;
 	}
@@ -11951,8 +11951,8 @@ float func_372()
 
 float func_373()
 {
-	GRAPHICS::_GET_ACTIVE_SCREEN_RESOLUTION(&uLocal_132, &iLocal_133);
-	fLocal_130 = GRAPHICS::_GET_ASPECT_RATIO(false);
+	GRAPHICS::GET_ACTUAL_SCREEN_RESOLUTION(&uLocal_132, &iLocal_133);
+	fLocal_130 = GRAPHICS::GET_ASPECT_RATIO(false);
 	if (MISC::IS_PC_VERSION())
 	{
 		if (fLocal_130 >= 4f)
@@ -11984,7 +11984,7 @@ void func_375(int iParam0, int iParam1)
 	iVar3 = func_75(iParam0);
 	if (!iVar3 == 0 && func_81(iParam0, 0, 1))
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 3, iVar3);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 3, iVar3);
 	}
 }
 
@@ -12176,7 +12176,7 @@ void func_380(var uParam0, int iParam1)
 		iVar10 = func_75(PLAYER::PLAYER_ID());
 		if (iVar10 != -1)
 		{
-			SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 8, iVar10);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iVar10);
 			uParam0->f_5 = 1;
 		}
 	}
@@ -12226,7 +12226,7 @@ int func_382()
 		return 0;
 	}
 	iVar0 = 202;
-	if (PAD::_IS_USING_KEYBOARD(2))
+	if (PAD::IS_USING_KEYBOARD_AND_MOUSE(2))
 	{
 		iVar0 = 214;
 	}

@@ -252,7 +252,7 @@ void __EntryFunction__()
 	{
 		func_32();
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("ambient_tonyacall5")) > 1)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("ambient_tonyacall5")) > 1)
 	{
 		SCRIPT::TERMINATE_THIS_THREAD();
 	}
@@ -1067,7 +1067,7 @@ int func_28()
 			{
 				if (TASK::GET_SCRIPT_TASK_STATUS(iLocal_38, joaat("script_task_follow_nav_mesh_to_coord")) != 1)
 				{
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_38, Local_57, 1f, -1, 0.25f, false, fLocal_60);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_38, Local_57, 1f, -1, 0.25f, 0, fLocal_60);
 					PED::SET_PED_KEEP_TASK(iLocal_38, true);
 				}
 				return 1;

@@ -395,7 +395,7 @@ void func_11(var uParam0, bool bParam1)
 		if (iVar40 != 0)
 		{
 			uParam0->f_32 = 1;
-			SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 39, iVar40);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 39, iVar40);
 		}
 	}
 }
@@ -1413,7 +1413,7 @@ void func_44(int iParam0, bool bParam1, int iParam2, int iParam3)
 					{
 						ENTITY::FREEZE_ENTITY_POSITION(iVar27, false);
 					}
-					ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar27, true);
+					ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar27, true);
 				}
 				else if (!bVar21)
 				{
@@ -1421,7 +1421,7 @@ void func_44(int iParam0, bool bParam1, int iParam2, int iParam3)
 				}
 				PED::SET_PED_CAN_BE_TARGETTED(iVar27, true);
 				PLAYER::SET_PLAYER_INVINCIBLE(iParam0, false);
-				PLAYER::_SET_PLAYER_INVINCIBLE_KEEP_RAGDOLL_ENABLED(iParam0, false);
+				PLAYER::SET_PLAYER_INVINCIBLE_BUT_HAS_REACTIONS(iParam0, false);
 				if (PED::HAS_PED_HEAD_BLEND_FINISHED(iVar27) && PED::HAVE_ALL_STREAMING_REQUESTS_COMPLETED(iVar27))
 				{
 					PED::FINALIZE_HEAD_BLEND(iVar27);
@@ -1467,7 +1467,7 @@ void func_44(int iParam0, bool bParam1, int iParam2, int iParam3)
 						}
 						if (!bVar16)
 						{
-							ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar27, true);
+							ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar27, true);
 						}
 					}
 					if (func_45(Global_4718592.f_168757))
@@ -1610,7 +1610,7 @@ void func_49(bool bParam0, int iParam1, int iParam2)
 		{
 			if (PED::IS_PED_A_PLAYER(iParam1))
 			{
-				if (!NETWORK::_NETWORK_IS_PLAYER_EQUAL_TO_INDEX(PLAYER::PLAYER_ID(), NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iParam1)))
+				if (!NETWORK::NETWORK_ARE_PLAYERS_IN_SAME_TUTORIAL_SESSION(PLAYER::PLAYER_ID(), NETWORK::NETWORK_GET_PLAYER_INDEX_FROM_PED(iParam1)))
 				{
 					iVar0 = 1;
 				}
@@ -2129,7 +2129,7 @@ void func_62(int iParam0, bool bParam1, int iParam2)
 	{
 		iParam2 = func_15();
 	}
-	STATS::_SET_PACKED_STAT_BOOL(iParam0, bParam1, iParam2);
+	STATS::SET_PACKED_STAT_BOOL_CODE(iParam0, bParam1, iParam2);
 }
 
 bool func_63(int iParam0, int iParam1)
@@ -2138,7 +2138,7 @@ bool func_63(int iParam0, int iParam1)
 	{
 		iParam1 = func_15();
 	}
-	return STATS::_GET_PACKED_STAT_BOOL(iParam0, iParam1);
+	return STATS::GET_PACKED_STAT_BOOL_CODE(iParam0, iParam1);
 }
 
 void func_64(var uParam0, int iParam1)
@@ -2187,7 +2187,7 @@ void func_66()
 	{
 		Var0.f_10 = 0;
 	}
-	STATS::_PLAYSTATS_ARCADE_CABINET(&Var0);
+	STATS::PLAYSTATS_ARCADE_CABINET(&Var0);
 }
 
 int func_67(int iParam0)
@@ -2661,7 +2661,7 @@ void func_79(var uParam0, int iParam1)
 		iVar10 = func_17(PLAYER::PLAYER_ID());
 		if (iVar10 != -1)
 		{
-			SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 8, iVar10);
+			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iVar10);
 			uParam0->f_5 = 1;
 		}
 	}
@@ -2765,7 +2765,7 @@ void func_85(var uParam0, var uParam1, var uParam2, var uParam3)
 	iVar6 = func_86(1);
 	if (!iVar6 == 0)
 	{
-		SCRIPT::_TRIGGER_SCRIPT_EVENT_2(1, &Var0, 6, iVar6);
+		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, iVar6);
 	}
 }
 
@@ -3378,7 +3378,7 @@ int func_108()
 	}
 	if (func_109() != 0)
 	{
-		if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(func_109()) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(func_109()) == 0)
 		{
 			return 1;
 		}

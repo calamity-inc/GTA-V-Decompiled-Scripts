@@ -271,7 +271,7 @@ void __EntryFunction__()
 								{
 									if (func_38(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), iLocal_68 + 1, 0, 0))
 									{
-										PLAYER::_0x4669B3ED80F24B4E(PLAYER::PLAYER_ID());
+										PLAYER::SUPPRESS_LOSING_WANTED_LEVEL_IF_HIDDEN_THIS_FRAME(PLAYER::PLAYER_ID());
 										iLocal_69++;
 									}
 									else
@@ -302,7 +302,7 @@ void __EntryFunction__()
 										iLocal_47[iLocal_70] = 1;
 									}
 									Local_72 = { func_33(bLocal_37) };
-									if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(MISC::GET_HASH_KEY(&Local_72)) == 0)
+									if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(MISC::GET_HASH_KEY(&Local_72)) == 0)
 									{
 										if (!Global_32174[bLocal_37])
 										{
@@ -449,7 +449,7 @@ void __EntryFunction__()
 								if (func_34(bLocal_37))
 								{
 									Local_72 = { func_33(bLocal_37) };
-									if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(MISC::GET_HASH_KEY(&Local_72)) == 0)
+									if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(MISC::GET_HASH_KEY(&Local_72)) == 0)
 									{
 										func_32(bLocal_37, 0);
 										iLocal_38[iLocal_70] = 0;
@@ -1137,7 +1137,7 @@ int func_25()
 			{
 				return 1;
 			}
-			if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("ambient_solomon")) > 0)
+			if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("ambient_solomon")) > 0)
 			{
 				return 1;
 			}

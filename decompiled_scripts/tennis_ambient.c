@@ -666,7 +666,7 @@ void __EntryFunction__()
 	Local_185 = { -2f, -0.04f, 0.6f };
 	Local_188 = { -2f, -0.04f, -0.6f };
 	Local_191 = { -3.2f, -0.04f, -0.6f };
-	if (((func_338(10) && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("tennis")) == 0) || Global_97369) && !ScriptParam_0.f_1)
+	if (((func_338(10) && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("tennis")) == 0) || Global_97369) && !ScriptParam_0.f_1)
 	{
 		SCRIPT::TERMINATE_THIS_THREAD();
 	}
@@ -1057,7 +1057,7 @@ void __EntryFunction__()
 				func_306(&Var0);
 			}
 		}
-		if ((func_338(10) && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("tennis")) == 0) && !ScriptParam_0.f_1)
+		if ((func_338(10) && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("tennis")) == 0) && !ScriptParam_0.f_1)
 		{
 			func_306(&Var0);
 		}
@@ -1186,9 +1186,9 @@ void func_2(var uParam0, var uParam1, int iParam2, int iParam3, int iParam4, var
 					func_262(uParam0, iParam3, iParam4, 0, 0);
 					ENTITY::SET_ENTITY_VISIBLE((uParam0[iParam4 /*94*/])->f_33, false, false);
 					ENTITY::SET_ENTITY_VISIBLE((uParam0[iParam3 /*94*/])->f_33, true, false);
-					OBJECT::_0xB2D0BDE54F0E8E5A((uParam0[iParam3 /*94*/])->f_33, true);
+					OBJECT::SET_ENTITY_FLAG_RENDER_SMALL_SHADOW((uParam0[iParam3 /*94*/])->f_33, true);
 					ENTITY::SET_ENTITY_VISIBLE((uParam0[iParam4 /*94*/])->f_33, true, false);
-					OBJECT::_0xB2D0BDE54F0E8E5A((uParam0[iParam4 /*94*/])->f_33, true);
+					OBJECT::SET_ENTITY_FLAG_RENDER_SMALL_SHADOW((uParam0[iParam4 /*94*/])->f_33, true);
 					func_261(func_265(uParam0[iParam3 /*94*/]), 1);
 					func_261(func_265(uParam0[iParam4 /*94*/]), 1);
 					if (uParam0->f_189 == 0)
@@ -2004,7 +2004,7 @@ void func_5(var uParam0, int iParam1, var uParam2, int iParam3, var uParam4)
 			Global_113386.f_20021.f_12++;
 		}
 	}
-	else if (MISC::_0x19BFED045C647C49(iParam1) || MISC::GET_TENNIS_SWING_ANIM_COMPLETE(iParam1))
+	else if (MISC::GET_TENNIS_SWING_ANIM_CAN_BE_INTERRUPTED(iParam1) || MISC::GET_TENNIS_SWING_ANIM_COMPLETE(iParam1))
 	{
 		func_277(uParam0, 1024);
 		TASK::CLEAR_PED_TASKS(iParam1);
@@ -2607,7 +2607,7 @@ void func_53(var uParam0, var uParam1)
 		if (TASK::GET_SCRIPT_TASK_STATUS(func_265(uParam0), joaat("script_task_follow_nav_mesh_to_coord")) != 1 && TASK::GET_SCRIPT_TASK_STATUS(func_265(uParam0), joaat("script_task_perform_sequence")) != 1)
 		{
 			Var0 = { uParam0->f_37 - uParam1->f_29 * Vector(0.93f, 0.93f, 0.93f) };
-			TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(func_265(uParam0), uParam1->f_29 + Var0, 2f, 20000, 0.25f, false, 40000f);
+			TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(func_265(uParam0), uParam1->f_29 + Var0, 2f, 20000, 0.25f, 0, 40000f);
 			func_58(uParam0, 2048);
 			func_54("FAR_FROM_COURT", -1);
 		}
@@ -3506,7 +3506,7 @@ int func_106(var uParam0, var uParam1, var uParam2, int iParam3, int iParam4, in
 		}
 		if (func_153(uParam0))
 		{
-			PAD::SET_PAD_SHAKE(0, 50, 85);
+			PAD::SET_CONTROL_SHAKE(0, 50, 85);
 		}
 	}
 	else
@@ -3711,7 +3711,7 @@ void func_108(var uParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 	}
 	if (uParam0->f_31 != 4)
 	{
-		PAD::SET_PAD_SHAKE(0, iVar0, 256);
+		PAD::SET_CONTROL_SHAKE(0, iVar0, 256);
 	}
 }
 
@@ -3892,7 +3892,7 @@ void func_114(int iParam0, bool bParam1)
 		if ((ENTITY::IS_ENTITY_VISIBLE(iParam0) && !bParam1) || (!ENTITY::IS_ENTITY_VISIBLE(iParam0) && bParam1))
 		{
 			ENTITY::SET_ENTITY_VISIBLE(iParam0, bParam1, false);
-			OBJECT::_0xB2D0BDE54F0E8E5A(iParam0, bParam1);
+			OBJECT::SET_ENTITY_FLAG_RENDER_SMALL_SHADOW(iParam0, bParam1);
 		}
 	}
 }
@@ -4475,7 +4475,7 @@ int func_133(var uParam0, var uParam1, struct<3> Param2, bool bParam5)
 	{
 		return 0;
 	}
-	if (!PED::IS_PED_INJURED(func_265(uParam0)) && MISC::_0xE95B0C7D5BA3B96B(func_265(uParam0)))
+	if (!PED::IS_PED_INJURED(func_265(uParam0)) && MISC::GET_TENNIS_SWING_ANIM_SWUNG(func_265(uParam0)))
 	{
 		return 0;
 	}
@@ -4697,7 +4697,7 @@ int func_139(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4)
 	
 	iVar0 = 75;
 	fVar1 = 1000f;
-	MISC::_0xF56DFB7B61BE7276(*uParam3, *uParam4, uParam0->f_37, uParam0->f_40, &fVar2);
+	MISC::GET_LINE_PLANE_INTERSECTION(*uParam3, *uParam4, uParam0->f_37, uParam0->f_40, &fVar2);
 	fVar9 = func_327(uParam0->f_31 != 4, 0.5f, 1.2f);
 	if (fVar2 <= fVar9)
 	{
@@ -4791,7 +4791,7 @@ int func_143(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	struct<3> Var9;
 	
 	fVar0 = 0f;
-	MISC::_0xF56DFB7B61BE7276(*uParam1, *uParam2, uParam0->f_37, uParam0->f_40, &fVar0);
+	MISC::GET_LINE_PLANE_INTERSECTION(*uParam1, *uParam2, uParam0->f_37, uParam0->f_40, &fVar0);
 	if (fVar0 < 0f || fVar0 > 1f)
 	{
 		return 0;
@@ -4805,8 +4805,8 @@ int func_143(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	}
 	uVar8 = Var4.f_2;
 	Var9 = { fVar7, 0f, uVar8 };
-	*fParam7 = MISC::_GET_PROGRESS_ALONG_LINE_BETWEEN_COORDS(Var9, *uParam5, *uParam3, false);
-	*fParam8 = MISC::_GET_PROGRESS_ALONG_LINE_BETWEEN_COORDS(Var9, func_116(bParam6, *uParam5, *uParam4), func_116(bParam6, *uParam4, *uParam5), false);
+	*fParam7 = MISC::GET_RATIO_OF_CLOSEST_POINT_ON_LINE(Var9, *uParam5, *uParam3, false);
+	*fParam8 = MISC::GET_RATIO_OF_CLOSEST_POINT_ON_LINE(Var9, func_116(bParam6, *uParam5, *uParam4), func_116(bParam6, *uParam4, *uParam5), false);
 	if (((*fParam7 < 0f || *fParam7 > 2f) || *fParam8 < 0f) || *fParam8 > 2f)
 	{
 		return 0;
@@ -5025,7 +5025,7 @@ int func_150(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	iVar0 = 75;
 	fVar1 = 0.75f;
 	fVar2 = 100f;
-	MISC::_0xF56DFB7B61BE7276(*(uParam4[0 /*3*/]), *(uParam4[1 /*3*/]), uParam0->f_37, uParam0->f_40, &fVar10);
+	MISC::GET_LINE_PLANE_INTERSECTION(*(uParam4[0 /*3*/]), *(uParam4[1 /*3*/]), uParam0->f_37, uParam0->f_40, &fVar10);
 	Var11 = { *(uParam4[1 /*3*/]) - *(uParam4[0 /*3*/]) * Vector(fVar10, fVar10, fVar10) };
 	Var14 = { *(uParam4[0 /*3*/]) + Var11 };
 	Var17 = { Var14 - uParam0->f_37 };
@@ -5827,7 +5827,7 @@ int func_199(var uParam0, var uParam1, int iParam2, var uParam3, bool bParam4)
 			{
 				func_58(uParam0, 64);
 				func_128(&iVar0, &iVar1, &iVar1, &iVar1, 1, 1);
-				if (PAD::_IS_USING_KEYBOARD_2(2))
+				if (PAD::IS_USING_CURSOR(2))
 				{
 					iVar0 = (SYSTEM::ROUND((PAD::GET_CONTROL_NORMAL(2, 239) * 256f)) - 128);
 				}
@@ -5852,7 +5852,7 @@ int func_199(var uParam0, var uParam1, int iParam2, var uParam3, bool bParam4)
 				{
 					*uParam3 = { uParam1->f_282[0 /*2*/] };
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SMASH_MASTER", func_265(uParam0), 0, false, 0);
-					PAD::SET_PAD_SHAKE(0, 450, 256);
+					PAD::SET_CONTROL_SHAKE(0, 450, 256);
 					if (func_205(uParam0) >= 0.995f && 1)
 					{
 						func_278(&(uParam1->f_247), 32);
@@ -5863,38 +5863,38 @@ int func_199(var uParam0, var uParam1, int iParam2, var uParam3, bool bParam4)
 				{
 					*uParam3 = { uParam1->f_282[1 /*2*/] };
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SMASH_MASTER", func_265(uParam0), 0, false, 0);
-					PAD::SET_PAD_SHAKE(0, 250, 256);
+					PAD::SET_CONTROL_SHAKE(0, 250, 256);
 				}
 				else if (func_205(uParam0) > 0.7f)
 				{
 					*uParam3 = { uParam1->f_282[2 /*2*/] };
-					PAD::SET_PAD_SHAKE(0, 200, 256);
+					PAD::SET_CONTROL_SHAKE(0, 200, 256);
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SERVE_MASTER", func_265(uParam0), 0, false, 0);
 				}
 				else if (func_205(uParam0) > 0.45f)
 				{
 					*uParam3 = { uParam1->f_282[3 /*2*/] };
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SERVE_MASTER", func_265(uParam0), 0, false, 0);
-					PAD::SET_PAD_SHAKE(0, 150, 256);
+					PAD::SET_CONTROL_SHAKE(0, 150, 256);
 				}
 				else if (func_205(uParam0) > 0.2f)
 				{
 					*uParam3 = { uParam1->f_282[4 /*2*/] };
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SERVE_MASTER", func_265(uParam0), 0, false, 0);
-					PAD::SET_PAD_SHAKE(0, 100, 256);
+					PAD::SET_CONTROL_SHAKE(0, 100, 256);
 				}
 				else if (func_205(uParam0) >= 0f)
 				{
 					*uParam3 = { uParam1->f_282[5 /*2*/] };
 					AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SERVE_MASTER", func_265(uParam0), 0, false, 0);
-					PAD::SET_PAD_SHAKE(0, 70, 256);
+					PAD::SET_CONTROL_SHAKE(0, 70, 256);
 				}
 			}
 			else
 			{
 				*uParam3 = { uParam1->f_282[6 /*2*/] };
 				AUDIO::PLAY_SOUND_FROM_ENTITY(-1, "TENNIS_PLYR_SERVE_MASTER", func_265(uParam0), 0, false, 0);
-				PAD::SET_PAD_SHAKE(0, 50, 256);
+				PAD::SET_CONTROL_SHAKE(0, 50, 256);
 			}
 			if (!func_203(uParam0, uParam1, iParam2, func_204(uParam0)))
 			{
@@ -6302,7 +6302,7 @@ void func_218(var uParam0, var uParam1, int iParam2, int iParam3, bool bParam4, 
 				}
 				else
 				{
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var11, 1f, 20000, 0.25f, true, 40000f);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var11, 1f, 20000, 0.25f, 1, 40000f);
 				}
 				func_222(uParam0, func_26(uParam0) + 1);
 			}
@@ -6313,7 +6313,7 @@ void func_218(var uParam0, var uParam1, int iParam2, int iParam3, bool bParam4, 
 			}
 			else
 			{
-				TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var1, 1f, 20000, 0.25f, false, fVar4);
+				TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var1, 1f, 20000, 0.25f, 0, fVar4);
 				func_222(uParam0, func_26(uParam0) + 1);
 			}
 			sVar14 = func_194(func_195(uParam0), "mini@tennis", "mini@tennis@female");
@@ -6520,11 +6520,11 @@ void func_227(var uParam0, var uParam1, int iParam2, int iParam3, bool bParam4, 
 				}
 				else
 				{
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var10, 1f, 20000, 0.25f, true, 40000f);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var10, 1f, 20000, 0.25f, 1, 40000f);
 				}
 				func_222(uParam0, func_26(uParam0) + 1);
 			}
-			TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var1, 1f, 20000, 0.25f, false, fVar4);
+			TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Var1, 1f, 20000, 0.25f, 0, fVar4);
 			func_222(uParam0, func_26(uParam0) + 1);
 			TASK::TASK_PLAY_ANIM(0, "mini@tennis", "idle_2_serve", 8f, -8f, -1, 0, 0f, false, false, false);
 			func_222(uParam0, func_26(uParam0) + 1);
@@ -6693,7 +6693,7 @@ void func_236(var uParam0, var uParam1, int iParam2, int iParam3, bool bParam4, 
 		if (MISC::IS_TENNIS_MODE(func_265(uParam0)) && fVar5 < 0f)
 		{
 			fVar6 = func_69(uParam0->f_43, func_283(&(uParam1->f_247)) - uParam0->f_37);
-			MISC::_0x54F157E0336A3822(func_265(uParam0), "ForcedStopDirection", fVar6);
+			MISC::SET_TENNIS_MOVE_NETWORK_SIGNAL_FLOAT(func_265(uParam0), "ForcedStopDirection", fVar6);
 		}
 	}
 	else if (uParam0->f_31 != 3)
@@ -6945,7 +6945,7 @@ void func_239(var uParam0, int iParam1, int iParam2, var uParam3, var uParam4)
 		case 1:
 			if (func_75(uParam0) == 75)
 			{
-				MISC::_0xF56DFB7B61BE7276(func_283(uParam4), func_283(uParam4) + uParam4->f_10, uParam0->f_37, uParam0->f_40, &fVar9);
+				MISC::GET_LINE_PLANE_INTERSECTION(func_283(uParam4), func_283(uParam4) + uParam4->f_10, uParam0->f_37, uParam0->f_40, &fVar9);
 				Var19 = { func_283(uParam4) - func_283(uParam4) + uParam4->f_10 * Vector(fVar9, fVar9, fVar9) };
 				Var16 = { func_283(uParam4) + Var19 };
 				Var10 = { Var3 - uParam0->f_37 };
@@ -7298,7 +7298,7 @@ void func_267(var uParam0, int iParam1)
 	}
 	Var0 = { uParam0->f_189.f_29 };
 	uParam0->f_247 = OBJECT::CREATE_OBJECT(joaat("prop_tennis_ball"), Var0, false, false, false);
-	OBJECT::_0xB2D0BDE54F0E8E5A(uParam0->f_247, true);
+	OBJECT::SET_ENTITY_FLAG_RENDER_SMALL_SHADOW(uParam0->f_247, true);
 	ENTITY::SET_ENTITY_RECORDS_COLLISIONS(uParam0->f_247, true);
 	func_114(uParam0->f_247, 0);
 	ENTITY::FREEZE_ENTITY_POSITION(uParam0->f_247, false);
@@ -7613,7 +7613,7 @@ int func_279(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	*uParam1 = { *uParam1 + *uParam2 * Vector(fVar3, fVar3, fVar3) };
 	if (uParam1->f_2 < uParam0->f_29.f_2)
 	{
-		MISC::_0xF56DFB7B61BE7276(Var31, *uParam1, uParam0->f_29, 0f, 0f, 1f, &fVar34);
+		MISC::GET_LINE_PLANE_INTERSECTION(Var31, *uParam1, uParam0->f_29, 0f, 0f, 1f, &fVar34);
 		Var35 = { *uParam2 * Vector(fVar3, fVar3, fVar3) * Vector(fVar34, fVar34, fVar34) };
 		*uParam1 = { Var31 + Var35 };
 		uParam1->f_2 = (uParam1->f_2 + 0.05f);
@@ -7670,12 +7670,12 @@ int func_282(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	struct<3> Var10;
 	float fVar13;
 	
-	MISC::_0xF56DFB7B61BE7276(*uParam1, *uParam2, uParam0->f_29, *uParam3, &fVar0);
+	MISC::GET_LINE_PLANE_INTERSECTION(*uParam1, *uParam2, uParam0->f_29, *uParam3, &fVar0);
 	if (fVar0 >= 0f && fVar0 <= 1f)
 	{
 		Var1 = { *uParam1 + *uParam2 - *uParam1 * Vector(fVar0, fVar0, fVar0) };
-		fVar7 = MISC::_GET_PROGRESS_ALONG_LINE_BETWEEN_COORDS(Var1, uParam0->f_39[0 /*3*/], uParam0->f_39[1 /*3*/], false);
-		fVar8 = MISC::_GET_PROGRESS_ALONG_LINE_BETWEEN_COORDS(Var1, uParam0->f_39[1 /*3*/], uParam0->f_39[2 /*3*/], false);
+		fVar7 = MISC::GET_RATIO_OF_CLOSEST_POINT_ON_LINE(Var1, uParam0->f_39[0 /*3*/], uParam0->f_39[1 /*3*/], false);
+		fVar8 = MISC::GET_RATIO_OF_CLOSEST_POINT_ON_LINE(Var1, uParam0->f_39[1 /*3*/], uParam0->f_39[2 /*3*/], false);
 		if (fVar7 > 0f && fVar7 < 1f)
 		{
 			Var4 = { uParam0->f_39[0 /*3*/] + uParam0->f_39[1 /*3*/] - uParam0->f_39[0 /*3*/] * Vector(fVar7, fVar7, fVar7) };
@@ -7796,7 +7796,7 @@ void func_290(var uParam0, int iParam1, var uParam2, int iParam3, int iParam4, b
 {
 	bool bVar0;
 	
-	PAD::_0x7F4724035FDCA1DD(0);
+	PAD::ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT(0);
 	if (iParam1 >= 12 && iParam1 < 14)
 	{
 		func_302(&(uParam0->f_247));
@@ -8022,7 +8022,7 @@ int func_299(int iParam0)
 			return 0;
 		}
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("cellphone_flashhand")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("cellphone_flashhand")) > 0)
 	{
 		return 1;
 	}
@@ -10020,7 +10020,7 @@ int func_336()
 
 int func_337(bool bParam0)
 {
-	if (!bParam0 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("benchmark")) > 0)
+	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("benchmark")) > 0)
 	{
 		return 1;
 	}

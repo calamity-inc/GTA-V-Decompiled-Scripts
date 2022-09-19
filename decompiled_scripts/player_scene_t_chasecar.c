@@ -1781,7 +1781,7 @@ int func_46(bool bParam0, bool bParam1, bool bParam2)
 	{
 		return 0;
 	}
-	if (NETWORK::_NETWORK_IS_TEXT_CHAT_ACTIVE())
+	if (NETWORK::NETWORK_TEXT_CHAT_IS_TYPING())
 	{
 		return 0;
 	}
@@ -1789,7 +1789,7 @@ int func_46(bool bParam0, bool bParam1, bool bParam2)
 	{
 		return 0;
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("appinternet")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("appinternet")) > 0)
 	{
 		return 0;
 	}
@@ -2026,7 +2026,7 @@ int func_55(int iParam0)
 			return 0;
 		}
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("cellphone_flashhand")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("cellphone_flashhand")) > 0)
 	{
 		return 1;
 	}
@@ -2595,7 +2595,7 @@ int func_69(int iParam0, int iParam1)
 					else
 					{
 						PLAYER::REPORT_POLICE_SPOTTED_PLAYER(PLAYER::PLAYER_ID());
-						PLAYER::_0xBC9490CA15AEA8FB(PLAYER::PLAYER_ID());
+						PLAYER::UPDATE_WANTED_POSITION_THIS_FRAME(PLAYER::PLAYER_ID());
 					}
 				}
 				if (fVar4 >= fLocal_539)
@@ -2644,7 +2644,7 @@ int func_69(int iParam0, int iParam1)
 					PED::SET_PED_COMBAT_ATTRIBUTES(iLocal_451[iParam0], 1, true);
 					PED::SET_PED_KEEP_TASK(iLocal_451[iParam0], true);
 					PLAYER::REPORT_POLICE_SPOTTED_PLAYER(PLAYER::PLAYER_ID());
-					PLAYER::_0xBC9490CA15AEA8FB(PLAYER::PLAYER_ID());
+					PLAYER::UPDATE_WANTED_POSITION_THIS_FRAME(PLAYER::PLAYER_ID());
 					iLocal_529[iParam0] = 3;
 				}
 				return 0;
@@ -3346,7 +3346,7 @@ void func_89()
 			iLocal_462[iVar0] = VEHICLE::CREATE_VEHICLE(iLocal_467[iVar0], Local_492 + Local_472[iVar0 /*3*/], (fLocal_495 + fLocal_485[iVar0]), true, true, false);
 			VEHICLE::SET_VEHICLE_COLOUR_COMBINATION(iLocal_462[iVar0], iLocal_490);
 			STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iLocal_467[iVar0]);
-			ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_462[iVar0], true);
+			ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_462[iVar0], true);
 		}
 		if (iLocal_456[iVar0] != 0)
 		{

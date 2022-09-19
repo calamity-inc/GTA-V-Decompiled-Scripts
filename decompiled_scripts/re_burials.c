@@ -392,7 +392,7 @@ void __EntryFunction__()
 					func_212();
 				}
 			}
-			RECORDING::_0x208784099002BC30("RE_BU", 0);
+			RECORDING::REPLAY_CHECK_FOR_EVENT_THIS_FRAME("RE_BU", 0);
 			switch (iLocal_48)
 			{
 				case 0:
@@ -1238,7 +1238,7 @@ int func_15()
 
 int func_16(bool bParam0)
 {
-	if (!bParam0 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("benchmark")) > 0)
+	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("benchmark")) > 0)
 	{
 		return 1;
 	}
@@ -1543,10 +1543,10 @@ int func_21(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	iVar0 = PLAYER::_GET_ACHIEVEMENT_PROGRESS(iParam0);
+	iVar0 = PLAYER::GET_ACHIEVEMENT_PROGRESS(iParam0);
 	if (iParam1 > iVar0)
 	{
-		return PLAYER::_SET_ACHIEVEMENT_PROGRESS(iParam0, iParam1);
+		return PLAYER::SET_ACHIEVEMENT_PROGRESS(iParam0, iParam1);
 	}
 	return 0;
 }
@@ -1557,7 +1557,7 @@ void func_22(int iParam0, bool bParam1, int iParam2)
 	{
 		iParam2 = func_23();
 	}
-	STATS::_SET_PACKED_STAT_BOOL(iParam0, bParam1, iParam2);
+	STATS::SET_PACKED_STAT_BOOL_CODE(iParam0, bParam1, iParam2);
 }
 
 int func_23()
@@ -2765,12 +2765,12 @@ void func_52()
 	{
 		if ((((((func_56("REBU2_LV2_2") || func_56("REBU2_LV2_3")) || func_56("REBU2_LV2_4")) || func_56("REBU2_LV2_5")) || func_56("REBU2_LV2_6")) || func_56("REBU2_LV2_7")) || func_56("REBU2_LV2_8"))
 		{
-			TASK::TASK_USE_MOBILE_PHONE(iLocal_53, 1, 1);
+			TASK::TASK_USE_MOBILE_PHONE(iLocal_53, true, 1);
 			TASK::TASK_CLEAR_LOOK_AT(iLocal_53);
 		}
 		if (func_56("REBU2_LV2_9") || iLocal_72 > 1)
 		{
-			TASK::TASK_USE_MOBILE_PHONE(iLocal_53, 0, 1);
+			TASK::TASK_USE_MOBILE_PHONE(iLocal_53, false, 1);
 		}
 	}
 	if (func_70() && !func_12())
@@ -3255,7 +3255,7 @@ void func_63()
 				PED::REMOVE_PED_FROM_GROUP(iLocal_53);
 				if (ENTITY::IS_ENTITY_AT_COORD(iLocal_53, Local_139, 100f, 100f, 100f, false, true, 0))
 				{
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_53, 1740.797f, 4648.756f, 42.6529f, 1f, -1, 0.25f, false, 40000f);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_53, 1740.797f, 4648.756f, 42.6529f, 1f, -1, 0.25f, 0, 40000f);
 					PED::SET_PED_KEEP_TASK(iLocal_53, true);
 				}
 				func_110();
@@ -3294,7 +3294,7 @@ void func_64()
 				PED::REMOVE_PED_FROM_GROUP(iLocal_53);
 				if (ENTITY::IS_ENTITY_AT_COORD(iLocal_53, Local_139, 100f, 100f, 100f, false, true, 0))
 				{
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_53, Local_139, 1f, -1, 0.25f, false, 40000f);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_53, Local_139, 1f, -1, 0.25f, 0, 40000f);
 					PED::SET_PED_KEEP_TASK(iLocal_53, true);
 				}
 				else
@@ -4549,9 +4549,9 @@ int func_105(bool bParam0, bool bParam1, var uParam2, bool bParam3)
 	iVar0 = 0;
 	if (MISC::IS_PC_VERSION())
 	{
-		if (CUTSCENE::_0xA0FE76168A189DDB() != bParam0 && uParam2)
+		if (CUTSCENE::IS_MULTIHEAD_FADE_UP() != bParam0 && uParam2)
 		{
-			CUTSCENE::_0x20746F7B1032A3C7(bParam0, bParam1, true, bParam3);
+			CUTSCENE::SET_CUTSCENE_MULTIHEAD_FADE(bParam0, bParam1, true, bParam3);
 			iVar0 = 1;
 		}
 	}
@@ -7544,7 +7544,7 @@ int func_164()
 {
 	if (MISC::IS_PC_VERSION())
 	{
-		if (MISC::_0xD10282B6E3751BA0() == 1f)
+		if (MISC::GET_CITY_DENSITY() == 1f)
 		{
 			return 1;
 		}
@@ -7596,7 +7596,7 @@ void func_167(int iParam0)
 		return;
 	}
 	func_169(iParam0);
-	MISC::_0x65D2EBB47E1CEC21(false);
+	MISC::SET_SCRIPT_HIGH_PRIO(false);
 	MISC::SET_RANDOM_EVENT_FLAG(true);
 	Global_113372 = 0;
 	func_168();
@@ -8379,7 +8379,7 @@ int func_198()
 
 int func_199()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("player_timetable_scene")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("player_timetable_scene")) > 0)
 	{
 		return 1;
 	}
@@ -8589,7 +8589,7 @@ int func_211()
 	{
 		if (NETWORK::NETWORK_HAS_VALID_ROS_CREDENTIALS())
 		{
-			if (NETWORK::_NETWORK_GET_ROS_PRIVILEGE_24())
+			if (NETWORK::NETWORK_HAS_ROS_PRIVILEGE_PLAYED_LAST_GEN())
 			{
 				STATS::STAT_GET_INT(joaat("sp_unlock_exclus_content"), &iVar0, -1);
 				MISC::SET_BIT(&iVar0, 2);
@@ -8603,7 +8603,7 @@ int func_211()
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
 					MISC::SET_BIT(&iVar0, 0);
-					STATS::_SET_HAS_CONTENT_UNLOCKS_FLAGS(iVar0);
+					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;
 			}

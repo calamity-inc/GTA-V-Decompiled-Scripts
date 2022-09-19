@@ -555,11 +555,11 @@ void func_1()
 			Local_430[2 /*3*/] = { 0f, -1.5f, 0f };
 			Local_430[3 /*3*/] = { -1f, -1.5f, 0f };
 			Local_430[4 /*3*/] = { -2f, -1.5f, 0f };
-			Local_446[0 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[0 /*3*/]) };
-			Local_446[1 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[1 /*3*/]) };
-			Local_446[2 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[2 /*3*/]) };
-			Local_446[3 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[3 /*3*/]) };
-			Local_446[4 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_421, 57.3018f, Local_430[4 /*3*/]) };
+			Local_446[0 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[0 /*3*/]) };
+			Local_446[1 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[1 /*3*/]) };
+			Local_446[2 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[2 /*3*/]) };
+			Local_446[3 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[3 /*3*/]) };
+			Local_446[4 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_421, 57.3018f, Local_430[4 /*3*/]) };
 			MISC::CLEAR_AREA_OF_VEHICLES(Local_421, 10f, false, false, false, false, false, false, 0);
 			iLocal_467 = 1;
 			break;
@@ -742,8 +742,8 @@ void func_3()
 		case 0:
 			Local_241[0 /*3*/] = { 1f, 0f, 0f };
 			Local_241[1 /*3*/] = { -1f, 0f, 0f };
-			Local_248[0 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_232, 140.0094f, 1f, 0f, 0f) };
-			Local_248[1 /*3*/] = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Local_232, 140.0094f, -1f, 0f, 0f) };
+			Local_248[0 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_232, 140.0094f, 1f, 0f, 0f) };
+			Local_248[1 /*3*/] = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Local_232, 140.0094f, -1f, 0f, 0f) };
 			iLocal_284 = 1;
 			break;
 		
@@ -805,7 +805,7 @@ void func_4()
 					TASK::CLEAR_PED_TASKS(iLocal_228[0]);
 					TASK::CLEAR_SEQUENCE_TASK(&iLocal_282);
 					TASK::OPEN_SEQUENCE_TASK(&iLocal_282);
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_255, 1f, 20000, 0.25f, false, fLocal_258);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_255, 1f, 20000, 0.25f, 0, fLocal_258);
 					TASK::TASK_START_SCENARIO_IN_PLACE(0, "WORLD_HUMAN_GUARD_STAND_ARMY", -1, false);
 					TASK::CLOSE_SEQUENCE_TASK(iLocal_282);
 					if (!ENTITY::IS_ENTITY_DEAD(iLocal_228[0], false))
@@ -826,7 +826,7 @@ void func_4()
 					TASK::CLEAR_PED_TASKS(iLocal_228[1]);
 					TASK::CLEAR_SEQUENCE_TASK(&iLocal_283);
 					TASK::OPEN_SEQUENCE_TASK(&iLocal_283);
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_259, 1f, 20000, 0.25f, false, fLocal_262);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_259, 1f, 20000, 0.25f, 0, fLocal_262);
 					TASK::TASK_START_SCENARIO_IN_PLACE(0, "WORLD_HUMAN_GUARD_STAND_ARMY", -1, false);
 					TASK::CLOSE_SEQUENCE_TASK(iLocal_283);
 					if (!ENTITY::IS_ENTITY_DEAD(iLocal_228[1], false))
@@ -870,7 +870,7 @@ void func_4()
 							iLocal_270 = 0;
 							if (!ENTITY::IS_ENTITY_DEAD(iLocal_228[0], false))
 							{
-								TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_228[0], -1587.327f, 2798.517f, 15.8582f, 1f, 20000, 0.25f, false, 216.3294f);
+								TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_228[0], -1587.327f, 2798.517f, 15.8582f, 1f, 20000, 0.25f, 0, 216.3294f);
 							}
 							iLocal_275 = 1;
 						}
@@ -965,7 +965,7 @@ void func_4()
 						iLocal_272 = 0;
 						if (!ENTITY::IS_ENTITY_DEAD(iLocal_228[1], false))
 						{
-							TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_228[0], -2307.763f, 3385.597f, 29.9984f, 1f, 20000, 0.25f, false, 58.9552f);
+							TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(iLocal_228[0], -2307.763f, 3385.597f, 29.9984f, 1f, 20000, 0.25f, 0, 58.9552f);
 						}
 						iLocal_276 = 1;
 					}
@@ -1910,7 +1910,7 @@ void func_38()
 							{
 								Var0 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) };
 								fVar6 = ENTITY::GET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID());
-								Var3 = { OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(Var0, fVar6, 0f, -150f, 0f) };
+								Var3 = { OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(Var0, fVar6, 0f, -150f, 0f) };
 								fVar7 = ENTITY::GET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID());
 								fVar7 = fVar7;
 								if (!func_39(Var3))
@@ -1921,7 +1921,7 @@ void func_38()
 										fVar7 = ENTITY::GET_ENTITY_HEADING(iLocal_285);
 										ENTITY::SET_ENTITY_ROTATION(iLocal_285, 0f, 0f, fVar6, 2, true);
 										VEHICLE::CONTROL_LANDING_GEAR(iLocal_285, 3);
-										ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_285, false);
+										ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_285, false);
 										iLocal_291 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_285, 5, joaat("s_m_y_marine_01"), -1, true, true);
 										PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(iLocal_291, true);
 										if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
@@ -1929,7 +1929,7 @@ void func_38()
 											VEHICLE::SET_VEHICLE_SHOOT_AT_TARGET(iLocal_291, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true));
 											WEAPON::SET_CURRENT_PED_VEHICLE_WEAPON(iLocal_291, joaat("vehicle_weapon_space_rocket"));
 										}
-										TASK::TASK_PLANE_MISSION(iLocal_291, iLocal_285, iLocal_286, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 6, 70f, -1f, 30f, 7.006492E-43f, 7.006492E-44f, 1);
+										TASK::TASK_PLANE_MISSION(iLocal_291, iLocal_285, iLocal_286, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 6, 70f, -1f, 30f, 7.006492E-43f, 7.006492E-44f, true);
 										iLocal_345 = 1;
 									}
 								}
@@ -1967,7 +1967,7 @@ void func_40()
 				if (PLAYER::GET_PLAYER_WANTED_LEVEL(PLAYER::PLAYER_ID()) == 0 || !func_49(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 3, 350, 0))
 				{
 					TASK::CLEAR_PED_TASKS(iLocal_291);
-					TASK::TASK_PLANE_MISSION(iLocal_291, iLocal_285, iLocal_286, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 8, 70f, -1f, 30f, 7.006492E-43f, 7.006492E-44f, 1);
+					TASK::TASK_PLANE_MISSION(iLocal_291, iLocal_285, iLocal_286, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 8, 70f, -1f, 30f, 7.006492E-43f, 7.006492E-44f, true);
 					PED::SET_PED_KEEP_TASK(iLocal_291, true);
 					ENTITY::SET_VEHICLE_AS_NO_LONGER_NEEDED(&iLocal_285);
 					bLocal_344 = true;
@@ -2696,7 +2696,7 @@ void func_59()
 		if ((!ENTITY::IS_ENTITY_DEAD(iLocal_291, false) && !ENTITY::IS_ENTITY_DEAD(iLocal_285, false)) && !ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 		{
 			TASK::CLEAR_PED_TASKS(iLocal_291);
-			TASK::TASK_PLANE_MISSION(iLocal_291, iLocal_285, 0, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 8, 70f, -1f, 30f, 7.006492E-43f, 7.006492E-44f, 1);
+			TASK::TASK_PLANE_MISSION(iLocal_291, iLocal_285, 0, PLAYER::PLAYER_PED_ID(), ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 8, 70f, -1f, 30f, 7.006492E-43f, 7.006492E-44f, true);
 			PED::SET_PED_KEEP_TASK(iLocal_291, true);
 			ENTITY::SET_PED_AS_NO_LONGER_NEEDED(&iLocal_291);
 		}
@@ -2865,7 +2865,7 @@ void func_61(int iParam0, var uParam1)
 			{
 				if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 				{
-					TASK::TASK_PLANE_MISSION(*uParam1, *iParam0, 0, 0, ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 8, 50f, -1f, 30f, 1.401298E-43f, 7.006492E-44f, 1);
+					TASK::TASK_PLANE_MISSION(*uParam1, *iParam0, 0, 0, ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 8, 50f, -1f, 30f, 1.401298E-43f, 7.006492E-44f, true);
 				}
 			}
 		}
@@ -2932,7 +2932,7 @@ int func_64()
 	{
 		return 1;
 	}
-	if (!func_27(14) && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("director_mode")) > 0)
+	if (!func_27(14) && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("director_mode")) > 0)
 	{
 		return 1;
 	}

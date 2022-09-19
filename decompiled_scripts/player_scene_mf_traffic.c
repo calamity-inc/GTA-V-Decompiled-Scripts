@@ -499,7 +499,7 @@ bool func_17(int iParam0, int iParam1)
 
 int func_18()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("player_timetable_scene")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("player_timetable_scene")) > 0)
 	{
 		return 1;
 	}
@@ -782,7 +782,7 @@ void func_33()
 					iLocal_77[iVar0] = VEHICLE::CREATE_VEHICLE(iLocal_90[iVar0], Local_237 + Local_103[iVar0 /*3*/], (fLocal_240 + uLocal_140[iVar0]), true, true, false);
 					ENTITY::SET_ENTITY_LOD_DIST(iLocal_77[iVar0], 250);
 					VEHICLE::SET_VEHICLE_LOD_MULTIPLIER(iLocal_77[iVar0], 2f);
-					ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_77[iVar0], true);
+					ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_77[iVar0], true);
 				}
 			}
 			iVar0++;
@@ -803,7 +803,7 @@ void func_33()
 					iLocal_153[iVar0] = VEHICLE::CREATE_VEHICLE(iLocal_158[iVar0], Local_237 + Local_163[iVar0 /*3*/], (fLocal_240 + uLocal_176[iVar0]), true, true, false);
 					ENTITY::SET_ENTITY_LOD_DIST(iLocal_153[iVar0], 250);
 					VEHICLE::SET_VEHICLE_LOD_MULTIPLIER(iLocal_153[iVar0], 2f);
-					ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_153[iVar0], true);
+					ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_153[iVar0], true);
 				}
 			}
 			iVar0++;
@@ -824,7 +824,7 @@ void func_33()
 					iLocal_181[iVar0] = VEHICLE::CREATE_VEHICLE(iLocal_186[iVar0], Local_237 + Local_191[iVar0 /*3*/], (fLocal_240 + uLocal_204[iVar0]), true, true, false);
 					ENTITY::SET_ENTITY_LOD_DIST(iLocal_181[iVar0], 250);
 					VEHICLE::SET_VEHICLE_LOD_MULTIPLIER(iLocal_181[iVar0], 2f);
-					ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_181[iVar0], true);
+					ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_181[iVar0], true);
 				}
 			}
 			iVar0++;
@@ -845,7 +845,7 @@ void func_33()
 					iLocal_209[iVar0] = VEHICLE::CREATE_VEHICLE(iLocal_214[iVar0], Local_237 + Local_219[iVar0 /*3*/], (fLocal_240 + uLocal_232[iVar0]), true, true, false);
 					ENTITY::SET_ENTITY_LOD_DIST(iLocal_209[iVar0], 250);
 					VEHICLE::SET_VEHICLE_LOD_MULTIPLIER(iLocal_209[iVar0], 2f);
-					ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_209[iVar0], true);
+					ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_209[iVar0], true);
 				}
 			}
 			iVar0++;
@@ -863,8 +863,8 @@ void func_33()
 		{
 			iVar3 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_77[iVar0], 4, iLocal_72[func_36()], -1, true, true);
 			func_34(iVar3);
-			ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_77[iVar0], true);
-			ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar3, true);
+			ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_77[iVar0], true);
+			ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar3, true);
 			STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iLocal_90[iVar0]);
 		}
 		iVar0++;
@@ -878,8 +878,8 @@ void func_33()
 			{
 				iVar4 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_153[iVar0], 4, iLocal_72[func_36()], -1, true, true);
 				func_34(iVar4);
-				ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_77[iVar0], true);
-				ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar4, true);
+				ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_77[iVar0], true);
+				ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar4, true);
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iLocal_158[iVar0]);
 			}
 		}
@@ -902,8 +902,8 @@ void func_33()
 			{
 				iVar5 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_181[iVar0], 4, iLocal_72[func_36()], -1, true, true);
 				func_34(iVar5);
-				ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_77[iVar0], true);
-				ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar5, true);
+				ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_77[iVar0], true);
+				ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar5, true);
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iLocal_186[iVar0]);
 			}
 		}
@@ -918,8 +918,8 @@ void func_33()
 			{
 				iVar6 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_209[iVar0], 4, iLocal_72[func_36()], -1, true, true);
 				func_34(iVar6);
-				ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iLocal_77[iVar0], true);
-				ENTITY::_SET_ENTITY_CLEANUP_BY_ENGINE(iVar6, true);
+				ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iLocal_77[iVar0], true);
+				ENTITY::SET_ENTITY_SHOULD_FREEZE_WAITING_ON_COLLISION(iVar6, true);
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iLocal_214[iVar0]);
 			}
 		}

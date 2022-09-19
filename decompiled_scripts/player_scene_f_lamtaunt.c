@@ -2688,7 +2688,7 @@ void func_53(int iParam0, bool bParam1, int iParam2)
 	{
 		iParam2 = func_52();
 	}
-	STATS::_SET_PACKED_STAT_BOOL(iParam0, bParam1, iParam2);
+	STATS::SET_PACKED_STAT_BOOL_CODE(iParam0, bParam1, iParam2);
 }
 
 void func_54(int iParam0)
@@ -2821,7 +2821,7 @@ bool func_57(int iParam0, int iParam1)
 	{
 		iParam1 = func_52();
 	}
-	return STATS::_GET_PACKED_STAT_BOOL(iParam0, iParam1);
+	return STATS::GET_PACKED_STAT_BOOL_CODE(iParam0, iParam1);
 }
 
 int func_58(bool bParam0)
@@ -3090,10 +3090,10 @@ int func_72(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	iVar0 = PLAYER::_GET_ACHIEVEMENT_PROGRESS(iParam0);
+	iVar0 = PLAYER::GET_ACHIEVEMENT_PROGRESS(iParam0);
 	if (iParam1 > iVar0)
 	{
-		return PLAYER::_SET_ACHIEVEMENT_PROGRESS(iParam0, iParam1);
+		return PLAYER::SET_ACHIEVEMENT_PROGRESS(iParam0, iParam1);
 	}
 	return 0;
 }
@@ -3356,11 +3356,11 @@ int func_84(int iParam0, char* sParam1, int iParam2, int iParam3, char* sParam4,
 		{
 			return 0;
 		}
-		if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("apptextmessage")) > 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("apptextmessage")) > 0)
 		{
 			return 0;
 		}
-		if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("apptextmessage")) > 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("apptextmessage")) > 0)
 		{
 			return 0;
 		}
@@ -3544,7 +3544,7 @@ void func_85(int iParam0, char* sParam1, bool bParam2, int iParam3)
 	{
 		return;
 	}
-	STATS::_PLAYSTATS_NPC_PHONE(iParam0, 1654525105, MISC::GET_HASH_KEY(sParam1), 0, bParam2, iParam3);
+	STATS::PLAYSTATS_NPC_PHONE(iParam0, 1654525105, MISC::GET_HASH_KEY(sParam1), 0, bParam2, iParam3);
 	if (bParam2)
 	{
 		Global_1973156 = -1;
@@ -4360,7 +4360,7 @@ int func_103(int iParam0)
 
 int func_104(bool bParam0)
 {
-	if (!bParam0 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("benchmark")) > 0)
+	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("benchmark")) > 0)
 	{
 		return 1;
 	}
@@ -4976,7 +4976,7 @@ int func_124(int iParam0)
 
 int func_125(int* iParam0, int iParam1)
 {
-	bool bVar0;
+	int iVar0;
 	float fVar1;
 	float fVar2;
 	float fVar3;
@@ -4986,7 +4986,7 @@ int func_125(int* iParam0, int iParam1)
 	struct<3> Var11;
 	int iVar14;
 	
-	bVar0 = false;
+	iVar0 = 0;
 	if (ENTITY::DOES_ENTITY_EXIST(*iParam0))
 	{
 		if (!func_137(2, *iParam0))
@@ -5059,7 +5059,7 @@ int func_125(int* iParam0, int iParam1)
 			case 1:
 				if (TASK::GET_SCRIPT_TASK_STATUS(*iParam0, joaat("script_task_go_straight_to_coord")) != 1)
 				{
-					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Local_277 + Local_291[iParam1 /*3*/], 1f, -1, 0.25f, bVar0, 40000f);
+					TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Local_277 + Local_291[iParam1 /*3*/], 1f, -1, 0.25f, iVar0, 40000f);
 					iLocal_270[iParam1] = 2;
 					return 1;
 				}
@@ -5068,7 +5068,7 @@ int func_125(int* iParam0, int iParam1)
 				{
 					if (!func_130() && !ENTITY::IS_ENTITY_ON_SCREEN(*iParam0))
 					{
-						TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Local_277 + Local_291[iParam1 /*3*/], 1f, -1, 0.25f, bVar0, 40000f);
+						TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Local_277 + Local_291[iParam1 /*3*/], 1f, -1, 0.25f, iVar0, 40000f);
 						iLocal_270[iParam1] = 2;
 						return 1;
 					}
@@ -5150,7 +5150,7 @@ int func_125(int* iParam0, int iParam1)
 					{
 						if (SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(*iParam0, true), Var11) > 100f)
 						{
-							TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Var11, 1f, -1, 0.25f, bVar0, 40000f);
+							TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(*iParam0, Var11, 1f, -1, 0.25f, iVar0, 40000f);
 							iLocal_270[iParam1] = 1;
 							return 1;
 						}
@@ -5258,7 +5258,7 @@ float func_129(float fParam0, float fParam1, float fParam2)
 
 int func_130()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("player_timetable_scene")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("player_timetable_scene")) > 0)
 	{
 		return 1;
 	}

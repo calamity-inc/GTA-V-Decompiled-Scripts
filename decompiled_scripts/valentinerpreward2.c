@@ -187,7 +187,7 @@ void func_1()
 	bool bVar1;
 	int iVar2;
 	
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_deathmatch_creator")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_creator")) == 0)
 	{
 		iVar0 = 0;
 		while (iVar0 <= (Global_4718592.f_180134.f_2817 - 1))
@@ -419,7 +419,7 @@ int func_11()
 
 void func_12()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_race_controler")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_race_controler")) == 0)
 	{
 		iLocal_116 = 0;
 		return;
@@ -507,7 +507,7 @@ void func_18()
 	
 	if (iLocal_102)
 	{
-		if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller_2020")) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_2020")) == 0)
 		{
 			iLocal_102 = 0;
 		}
@@ -515,13 +515,13 @@ void func_18()
 	}
 	if (iLocal_103)
 	{
-		if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller")) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller")) == 0)
 		{
 			iLocal_103 = 0;
 		}
 		return;
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller_2020")) == 0 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_2020")) == 0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller")) == 0)
 	{
 		return;
 	}
@@ -558,11 +558,11 @@ void func_18()
 		}
 		iVar0++;
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller_2020")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_2020")) > 0)
 	{
 		iLocal_102 = 1;
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller")) > 0)
 	{
 		iLocal_103 = 1;
 	}
@@ -761,7 +761,7 @@ void func_23()
 	int iVar0;
 	int iVar1;
 	
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_deathmatch_controler")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) == 0)
 	{
 		return;
 	}
@@ -819,7 +819,7 @@ void func_25()
 	int iVar1;
 	int iVar2;
 	
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_deathmatch_controler")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) == 0)
 	{
 		iLocal_76 = 0;
 		return;
@@ -898,7 +898,7 @@ void func_27()
 					return;
 				}
 				bVar1 = true;
-				if (!PAD::_IS_USING_KEYBOARD(0))
+				if (!PAD::IS_USING_KEYBOARD_AND_MOUSE(0))
 				{
 					func_32(&(uVar2[0]), &(uVar2[1]), &(uVar2[2]), &(uVar2[3]), 0);
 					iVar7 = 0;
@@ -1242,7 +1242,7 @@ void func_49()
 
 void func_50()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_deathmatch_controler")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_controler")) == 0)
 	{
 		return;
 	}
@@ -1254,7 +1254,7 @@ void func_50()
 
 void func_51()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_deathmatch_creator")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_deathmatch_creator")) == 0)
 	{
 		return;
 	}
@@ -1523,7 +1523,7 @@ void func_71()
 
 void func_72()
 {
-	MISC::_COPY_MEMORY(&(Global_2667225.f_714), &(Global_2667225.f_1233), 519);
+	MISC::COPY_SCRIPT_STRUCT(&(Global_2667225.f_714), &(Global_2667225.f_1233), 519);
 	Global_2667225.f_490 = { Global_2667225.f_496 };
 	if (SCRIPT::GET_ID_OF_THIS_THREAD() == Global_2667225.f_714.f_518)
 	{
@@ -1551,7 +1551,7 @@ void func_74()
 	}
 	if (!SCRIPT::GET_ID_OF_THIS_THREAD() == Global_2667225.f_714.f_518)
 	{
-		MISC::_COPY_MEMORY(&(Global_2667225.f_1233), &(Global_2667225.f_714), 519);
+		MISC::COPY_SCRIPT_STRUCT(&(Global_2667225.f_1233), &(Global_2667225.f_714), 519);
 		Global_2667225.f_496 = { Global_2667225.f_490 };
 		Global_2667225.f_1752 = 1;
 	}
@@ -1674,10 +1674,10 @@ void func_82(int iParam0, int iParam1, char* sParam2, int iParam3, bool bParam4)
 				{
 					iVar19 = iVar18;
 				}
-				StringCopy(&cVar2, HUD::_GET_TEXT_SUBSTRING_SAFE(sParam2, 0, iVar19, 31), 32);
+				StringCopy(&cVar2, HUD::GET_CHARACTER_FROM_AUDIO_CONVERSATION_FILENAME_WITH_BYTE_LIMIT(sParam2, 0, iVar19, 31), 32);
 				if (iVar18 > 10)
 				{
-					StringCopy(&cVar10, HUD::_GET_TEXT_SUBSTRING_SAFE(sParam2, 10, iVar18, 31), 32);
+					StringCopy(&cVar10, HUD::GET_CHARACTER_FROM_AUDIO_CONVERSATION_FILENAME_WITH_BYTE_LIMIT(sParam2, 10, iVar18, 31), 32);
 				}
 			}
 			STATS::STAT_SET_STRING(iVar0, &cVar2, bParam4);
@@ -1694,7 +1694,7 @@ int func_83()
 
 char* func_84()
 {
-	return HUD::_GET_LABEL_TEXT("GB_REST_ACCM");
+	return HUD::GET_FILENAME_FOR_AUDIO_CONVERSATION("GB_REST_ACCM");
 }
 
 struct<16> func_85(int iParam0, int iParam1, int iParam2)
@@ -1948,7 +1948,7 @@ int func_100()
 
 bool func_101()
 {
-	return SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("am_luxury_showroom")) > 0;
+	return SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("am_luxury_showroom")) > 0;
 }
 
 int func_102(int iParam0)
@@ -2303,7 +2303,7 @@ void func_108()
 			func_114(7869, iVar1 + 1, -1, 1, 0);
 			Var2.f_1 = 1;
 			Var2.f_0 = 24;
-			STATS::_PLAYSTATS_GUNRUN_MISSION_ENDED(&Var2);
+			STATS::PLAYSTATS_GUNRUNNING_MISSION_ENDED(&Var2);
 			Local_20 = { ENTITY::GET_ENTITY_COORDS(iLocal_9, false) };
 			iLocal_23 = 0;
 		}
@@ -2469,7 +2469,7 @@ int func_117()
 	int iVar1;
 	float fVar2;
 	
-	MISC::_GET_WEATHER_TYPE_TRANSITION(&iVar0, &iVar1, &fVar2);
+	MISC::GET_CURR_WEATHER_STATE(&iVar0, &iVar1, &fVar2);
 	if (fVar2 < 0.5f)
 	{
 		if ((iVar0 == joaat("rain") || iVar0 == joaat("THUNDER")) || iVar1 == -1429616491)
@@ -2495,7 +2495,7 @@ bool func_119(int iParam0, int iParam1)
 	{
 		iParam1 = func_46();
 	}
-	return STATS::_GET_PACKED_STAT_BOOL(iParam0, iParam1);
+	return STATS::GET_PACKED_STAT_BOOL_CODE(iParam0, iParam1);
 }
 
 void func_120()
@@ -2633,7 +2633,7 @@ int func_127(int iParam0, int iParam1)
 
 void func_128()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller_2020")) == 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_2020")) == 0)
 	{
 		if (iLocal_105)
 		{
@@ -3766,7 +3766,7 @@ void func_162(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, i
 	if (bVar0)
 	{
 		func_166(&(Global_1888831.f_3));
-		unk_0x887DAD63CF5B7908(&(Global_1888831.f_3));
+		STATS::PLAYSTATS_INVENTORY(&(Global_1888831.f_3));
 		func_165();
 	}
 	Global_1888831 = 1;
@@ -3898,7 +3898,7 @@ int func_171(int iParam0)
 	{
 		return 0;
 	}
-	if (FILES::_0x7796B21B76221BC5(iParam0, 11, joaat("jugg_suit")))
+	if (FILES::DOES_CURRENT_PED_COMPONENT_HAVE_RESTRICTION_TAG(iParam0, 11, joaat("jugg_suit")))
 	{
 		return 1;
 	}
@@ -4708,7 +4708,7 @@ int func_202(int iParam0)
 			return 0;
 		}
 	}
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("cellphone_flashhand")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("cellphone_flashhand")) > 0)
 	{
 		return 1;
 	}
@@ -5007,7 +5007,7 @@ int func_214(int iParam0, int iParam1, int iParam2)
 
 void func_215()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("fm_mission_controller_2020")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("fm_mission_controller_2020")) > 0)
 	{
 		func_218();
 	}
@@ -5030,7 +5030,7 @@ void func_216()
 	{
 		if (BitTest(iLocal_32, bVar0))
 		{
-			AUDIO::_SET_RADIO_STATION_IS_VISIBLE(func_217(bVar0), false);
+			AUDIO::SET_RADIO_STATION_AS_FAVOURITE(func_217(bVar0), false);
 			MISC::CLEAR_BIT(&iLocal_32, bVar0);
 		}
 		bVar0++;
@@ -5145,7 +5145,7 @@ void func_218()
 			{
 			}
 			MISC::SET_BIT(&iLocal_33, bVar0);
-			AUDIO::_SET_RADIO_STATION_IS_VISIBLE(func_217(bVar0), true);
+			AUDIO::SET_RADIO_STATION_AS_FAVOURITE(func_217(bVar0), true);
 		}
 		if (!BitTest(uVar1, bVar0) && !BitTest(iLocal_32, bVar0))
 		{
@@ -5573,11 +5573,11 @@ Vector3 func_243(int iParam0, int iParam1)
 	switch (iParam0)
 	{
 		case 0:
-			return OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(func_245(iParam1, 0), func_244(iParam1, 0), 6.1458f, 3.6035f, 0.0002f);
+			return OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(func_245(iParam1, 0), func_244(iParam1, 0), 6.1458f, 3.6035f, 0.0002f);
 			break;
 		
 		case 1:
-			return OBJECT::_GET_OBJECT_OFFSET_FROM_COORDS(func_245(iParam1, 0), func_244(iParam1, 0), 9.8062f, -0.0547f, 2.8373f);
+			return OBJECT::GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(func_245(iParam1, 0), func_244(iParam1, 0), 9.8062f, -0.0547f, 2.8373f);
 			break;
 	}
 	return 0f, 0f, 0f;
@@ -6199,7 +6199,7 @@ int func_251()
 
 void func_252()
 {
-	if ((Global_112332 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("director_mode")) <= 0) && func_41())
+	if ((Global_112332 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("director_mode")) <= 0) && func_41())
 	{
 		NETWORK::SHUTDOWN_AND_LAUNCH_SINGLE_PLAYER_GAME();
 	}

@@ -381,7 +381,7 @@ void __EntryFunction__()
 					func_176();
 				}
 			}
-			RECORDING::_0x208784099002BC30("RE_PL", 0);
+			RECORDING::REPLAY_CHECK_FOR_EVENT_THIS_FRAME("RE_PL", 0);
 			switch (iLocal_53)
 			{
 				case 0:
@@ -618,7 +618,7 @@ void __EntryFunction__()
 											TASK::TASK_LOOK_AT_ENTITY(0, PLAYER::PLAYER_PED_ID(), 5000, 2048, 2);
 											TASK::TASK_TURN_PED_TO_FACE_ENTITY(0, PLAYER::PLAYER_PED_ID(), 0);
 											TASK::TASK_PAUSE(0, 1500);
-											TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_91, 1f, -1, 0.25f, false, 333.9002f);
+											TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_91, 1f, -1, 0.25f, 0, 333.9002f);
 											TASK::TASK_START_SCENARIO_IN_PLACE(0, "WORLD_HUMAN_SMOKING", 0, true);
 											TASK::CLOSE_SEQUENCE_TASK(iLocal_74);
 											TASK::TASK_PERFORM_SEQUENCE(iLocal_72, iLocal_74);
@@ -1420,7 +1420,7 @@ void func_15()
 		TASK::TASK_LOOK_AT_ENTITY(0, PLAYER::PLAYER_PED_ID(), 5000, 2048, 2);
 		TASK::TASK_LEAVE_ANY_VEHICLE(0, 0, 0);
 		TASK::TASK_TURN_PED_TO_FACE_ENTITY(0, PLAYER::PLAYER_PED_ID(), 0);
-		TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_91, 1f, -1, 0.25f, false, 333.9002f);
+		TASK::TASK_FOLLOW_NAV_MESH_TO_COORD(0, Local_91, 1f, -1, 0.25f, 0, 333.9002f);
 		TASK::TASK_START_SCENARIO_IN_PLACE(0, "WORLD_HUMAN_SMOKING", 0, true);
 		TASK::CLOSE_SEQUENCE_TASK(iLocal_74);
 		TASK::TASK_PERFORM_SEQUENCE(iLocal_72, iLocal_74);
@@ -1499,7 +1499,7 @@ int func_18()
 
 int func_19(bool bParam0)
 {
-	if (!bParam0 && SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("benchmark")) > 0)
+	if (!bParam0 && SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("benchmark")) > 0)
 	{
 		return 1;
 	}
@@ -1809,10 +1809,10 @@ int func_25(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	iVar0 = PLAYER::_GET_ACHIEVEMENT_PROGRESS(iParam0);
+	iVar0 = PLAYER::GET_ACHIEVEMENT_PROGRESS(iParam0);
 	if (iParam1 > iVar0)
 	{
-		return PLAYER::_SET_ACHIEVEMENT_PROGRESS(iParam0, iParam1);
+		return PLAYER::SET_ACHIEVEMENT_PROGRESS(iParam0, iParam1);
 	}
 	return 0;
 }
@@ -1823,7 +1823,7 @@ void func_26(int iParam0, bool bParam1, int iParam2)
 	{
 		iParam2 = func_27();
 	}
-	STATS::_SET_PACKED_STAT_BOOL(iParam0, bParam1, iParam2);
+	STATS::SET_PACKED_STAT_BOOL_CODE(iParam0, bParam1, iParam2);
 }
 
 int func_27()
@@ -4640,7 +4640,7 @@ void func_108()
 		VEHICLE::SET_VEHICLE_ENGINE_HEALTH(iLocal_79, 0f);
 		VEHICLE::SET_VEHICLE_DOOR_OPEN(iLocal_79, 4, false, false);
 		VEHICLE::SET_VEHICLE_TYRE_BURST(iLocal_79, 0, false, 1000f);
-		VEHICLE::_0x0AD9E8F87FF7C16F(iLocal_79, false);
+		VEHICLE::SET_VEHICLE_INFLUENCES_WANTED_LEVEL(iLocal_79, false);
 		MISC::SHOOT_SINGLE_BULLET_BETWEEN_COORDS(1525.566f, 2172.512f, 80.1985f, 1524.423f, 2173.894f, 80.1342f, 100, true, joaat("weapon_assaultrifle"), 0, true, true, -1f);
 		iVar0 = PED::CREATE_PED_INSIDE_VEHICLE(iLocal_79, 26, joaat("s_m_y_ranger_01"), -1, true, true);
 		PED::SET_PED_CONFIG_FLAG(iVar0, 326, true);
@@ -6051,7 +6051,7 @@ int func_128()
 {
 	if (MISC::IS_PC_VERSION())
 	{
-		if (MISC::_0xD10282B6E3751BA0() == 1f)
+		if (MISC::GET_CITY_DENSITY() == 1f)
 		{
 			return 1;
 		}
@@ -6103,7 +6103,7 @@ void func_131(int iParam0)
 		return;
 	}
 	func_133(iParam0);
-	MISC::_0x65D2EBB47E1CEC21(false);
+	MISC::SET_SCRIPT_HIGH_PRIO(false);
 	MISC::SET_RANDOM_EVENT_FLAG(true);
 	Global_113372 = 0;
 	func_132();
@@ -6886,7 +6886,7 @@ int func_162()
 
 int func_163()
 {
-	if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("player_timetable_scene")) > 0)
+	if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("player_timetable_scene")) > 0)
 	{
 		return 1;
 	}
@@ -7096,7 +7096,7 @@ int func_175()
 	{
 		if (NETWORK::NETWORK_HAS_VALID_ROS_CREDENTIALS())
 		{
-			if (NETWORK::_NETWORK_GET_ROS_PRIVILEGE_24())
+			if (NETWORK::NETWORK_HAS_ROS_PRIVILEGE_PLAYED_LAST_GEN())
 			{
 				STATS::STAT_GET_INT(joaat("sp_unlock_exclus_content"), &iVar0, -1);
 				MISC::SET_BIT(&iVar0, 2);
@@ -7110,7 +7110,7 @@ int func_175()
 				{
 					iVar0 = MISC::GET_PROFILE_SETTING(866);
 					MISC::SET_BIT(&iVar0, 0);
-					STATS::_SET_HAS_CONTENT_UNLOCKS_FLAGS(iVar0);
+					STATS::SET_HAS_SPECIALEDITION_CONTENT(iVar0);
 				}
 				return 1;
 			}
