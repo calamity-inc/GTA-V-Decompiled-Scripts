@@ -890,9 +890,13 @@ scene_builder
 sclub_front_bouncer
 script_debug.rpf___pilot_school
 script_debug.rpf___pilotschool_dlc_startup
+script_debug.rpf_pilot_school
+script_debug.rpf_pilotschool_dlc_startup
 script_metrics
 script_release.rpf___pilot_school
 script_release.rpf___pilotschool_dlc_startup
+script_release.rpf_pilot_school
+script_release.rpf_pilotschool_dlc_startup
 scripted_cam_editor
 scriptplayground
 scripttest1
