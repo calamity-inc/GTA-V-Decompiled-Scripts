@@ -102068,8 +102068,8 @@ int func_745(int iParam0)
 		case joaat("mule4"):
 		case joaat("pounder2"):
 		case joaat("terbyte"):
-		case -1576586413:
-		case 1384502824:
+		case joaat("brickade2"):
+		case joaat("manchez3"):
 			return 1;
 		
 		case joaat("monster3"):

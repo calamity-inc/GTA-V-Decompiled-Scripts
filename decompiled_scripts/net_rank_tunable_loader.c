@@ -8334,7 +8334,7 @@ int func_4(int iParam0)
 			break;
 		
 		case 1:
-			return joaat("MP_Global");
+			return joaat("mp_global");
 			break;
 		
 		case 2:

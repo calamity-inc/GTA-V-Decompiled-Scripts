@@ -103867,98 +103867,98 @@ int func_971(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 			*uParam5 = 0.29f;
 			break;
 		
-		case -1386336041:
+		case joaat("powersurge"):
 			*uParam2 = { -1f, 0.3f, 0.37f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.1f;
 			break;
 		
-		case 1748565021:
+		case joaat("entity3"):
 			*uParam2 = { -1f, 0.5f, 0.225f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.25f;
 			break;
 		
-		case 1384502824:
+		case joaat("manchez3"):
 			*uParam2 = { -1f, 0.066f, 0.329f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.1f;
 			break;
 		
-		case -1035489563:
+		case joaat("surfer3"):
 			*uParam2 = { -1f, 1.19f, 0.18f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.4f;
 			break;
 		
-		case 996383885:
+		case joaat("boor"):
 			*uParam2 = { -1f, 0.25f, 0.4f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.4f;
 			break;
 		
-		case -1249788006:
+		case joaat("eudora"):
 			*uParam2 = { 0f, 1.623f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.7f;
 			break;
 		
-		case 268758436:
+		case joaat("tulip2"):
 			*uParam2 = { -1f, 0f, 0.22f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 1076201208:
+		case joaat("r300"):
 			*uParam2 = { -1f, 0f, 0.22f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 669204833:
+		case joaat("virtue"):
 			*uParam2 = { -1f, 0f, 0.22f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 1550581940:
+		case joaat("issi8"):
 			*uParam2 = { -1f, 0.3f, 0f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -1933242328:
+		case joaat("broadway"):
 			*uParam2 = { -1f, -0.4f, 0.375f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 2100457220:
+		case joaat("panthere"):
 			*uParam2 = { -1f, 0.069f, 0.13f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.3f;
 			break;
 		
-		case -461850249:
+		case joaat("tahoma"):
 			*uParam2 = { -1f, -0.253f, 0.39f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -131348178:
+		case joaat("everon2"):
 			*uParam2 = { -1f, 0.101f, 0.227f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
@@ -104187,8 +104187,8 @@ int func_977(int iParam0)
 		case joaat("burrito2"):
 		case joaat("ignus"):
 		case joaat("draugur"):
-		case -1576586413:
-		case -1627077503:
+		case joaat("brickade2"):
+		case joaat("journey2"):
 			return 1;
 			break;
 		
@@ -104905,8 +104905,8 @@ int func_993(int iParam0)
 		case joaat("champion"):
 		case joaat("greenwood"):
 		case joaat("omnisegt"):
-		case 669204833:
-		case 1076201208:
+		case joaat("virtue"):
+		case joaat("r300"):
 			return 1;
 			break;
 	}
@@ -105016,7 +105016,7 @@ void func_994(int iParam0, var uParam1, bool bParam2, bool bParam3)
 				iVar4++;
 			}
 		}
-		else if (uParam1->f_66 == -1035489563)
+		else if (uParam1->f_66 == joaat("surfer3"))
 		{
 			iVar5 = 1;
 			while (iVar5 <= 2)
@@ -111336,112 +111336,112 @@ int func_1070(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1384502824)
+	else if (iParam0 == joaat("manchez3"))
 	{
 		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1576586413)
+	else if (iParam0 == joaat("brickade2"))
 	{
 		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1249788006)
+	else if (iParam0 == joaat("eudora"))
 	{
 		if (!Global_262145.f_33971 && iVar1 < Global_262145.f_33954)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1386336041)
+	else if (iParam0 == joaat("powersurge"))
 	{
 		if (!Global_262145.f_33965 && iVar1 < Global_262145.f_33949)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1627077503)
+	else if (iParam0 == joaat("journey2"))
 	{
 		if (!Global_262145.f_33959 && iVar1 < Global_262145.f_33943)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1035489563)
+	else if (iParam0 == joaat("surfer3"))
 	{
 		if (!Global_262145.f_33960 && iVar1 < Global_262145.f_33944)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1748565021)
+	else if (iParam0 == joaat("entity3"))
 	{
 		if (!Global_262145.f_33957 && iVar1 < Global_262145.f_33941)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 2100457220)
+	else if (iParam0 == joaat("panthere"))
 	{
 		if (!Global_262145.f_33968 && iVar1 < Global_262145.f_33952)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 996383885)
+	else if (iParam0 == joaat("boor"))
 	{
 		if (!Global_262145.f_33972 && iVar1 < Global_262145.f_33956)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -131348178)
+	else if (iParam0 == joaat("everon2"))
 	{
 		if (!Global_262145.f_33969 && iVar1 < Global_262145.f_33953)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 268758436)
+	else if (iParam0 == joaat("tulip2"))
 	{
 		if (!Global_262145.f_33958 && iVar1 < Global_262145.f_33942)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1076201208)
+	else if (iParam0 == joaat("r300"))
 	{
 		if (!Global_262145.f_33961 && iVar1 < Global_262145.f_33945)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 669204833)
+	else if (iParam0 == joaat("virtue"))
 	{
 		if (!Global_262145.f_33970 && iVar1 < Global_262145.f_33955)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1550581940)
+	else if (iParam0 == joaat("issi8"))
 	{
 		if (!Global_262145.f_33966 && iVar1 < Global_262145.f_33950)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1933242328)
+	else if (iParam0 == joaat("broadway"))
 	{
 		if (!Global_262145.f_33967 && iVar1 < Global_262145.f_33951)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -461850249)
+	else if (iParam0 == joaat("tahoma"))
 	{
 		if (!Global_262145.f_33964 && iVar1 < Global_262145.f_33948)
 		{

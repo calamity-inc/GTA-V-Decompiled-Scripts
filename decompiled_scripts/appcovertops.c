@@ -6220,8 +6220,8 @@ void func_223(float* fParam0, float* fParam1, int iParam2, int iParam3, int iPar
 	
 	iVar0 = func_228(iParam2, iParam3, 0, iParam4, iParam5);
 	iVar1 = func_227(iParam6);
-	func_224(iVar0, iVar1, joaat("XP_MULTIPLIER"), fParam0, 1);
-	func_224(iVar0, iVar1, joaat("CASH_MULTIPLIER"), fParam1, 1);
+	func_224(iVar0, iVar1, joaat("xp_multiplier"), fParam0, 1);
+	func_224(iVar0, iVar1, joaat("cash_multiplier"), fParam1, 1);
 }
 
 void func_224(int iParam0, int iParam1, int iParam2, float* fParam3, bool bParam4)
@@ -6487,7 +6487,7 @@ int func_226(int iParam0)
 			break;
 		
 		case 1:
-			return joaat("MP_Global");
+			return joaat("mp_global");
 			break;
 		
 		case 2:

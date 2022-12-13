@@ -12498,19 +12498,19 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 63:
-					iVar0 = -1249788006;
+					iVar0 = joaat("eudora");
 					break;
 				
 				case 64:
-					iVar0 = 268758436;
+					iVar0 = joaat("tulip2");
 					break;
 				
 				case 65:
-					iVar0 = -461850249;
+					iVar0 = joaat("tahoma");
 					break;
 				
 				case 66:
-					iVar0 = -1933242328;
+					iVar0 = joaat("broadway");
 					break;
 			}
 			break;
@@ -12823,15 +12823,15 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 77:
-					iVar0 = 2100457220;
+					iVar0 = joaat("panthere");
 					break;
 				
 				case 78:
-					iVar0 = -131348178;
+					iVar0 = joaat("everon2");
 					break;
 				
 				case 79:
-					iVar0 = 1076201208;
+					iVar0 = joaat("r300");
 					break;
 			}
 			break;
@@ -13193,11 +13193,11 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 50:
-					iVar0 = 1748565021;
+					iVar0 = joaat("entity3");
 					break;
 				
 				case 51:
-					iVar0 = 669204833;
+					iVar0 = joaat("virtue");
 					break;
 			}
 			break;
@@ -13350,7 +13350,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 37:
-					iVar0 = 1550581940;
+					iVar0 = joaat("issi8");
 					break;
 			}
 			break;
@@ -13551,7 +13551,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 48:
-					iVar0 = 996383885;
+					iVar0 = joaat("boor");
 					break;
 			}
 			break;
@@ -13744,7 +13744,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 47:
-					iVar0 = -1386336041;
+					iVar0 = joaat("powersurge");
 					break;
 			}
 			break;
@@ -13980,7 +13980,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 14:
-					iVar0 = -1576586413;
+					iVar0 = joaat("brickade2");
 					break;
 			}
 			break;
@@ -14199,11 +14199,11 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 33:
-					iVar0 = -1627077503;
+					iVar0 = joaat("journey2");
 					break;
 				
 				case 34:
-					iVar0 = -1035489563;
+					iVar0 = joaat("surfer3");
 					break;
 			}
 			break;
@@ -14478,7 +14478,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 26:
-					iVar0 = -1958189855;
+					iVar0 = joaat("cargoplane2");
 					break;
 			}
 			break;
@@ -15106,7 +15106,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 8:
-					iVar0 = 1550581940;
+					iVar0 = joaat("issi8");
 					break;
 			}
 			break;
@@ -15140,7 +15140,7 @@ int func_269(int iParam0, int iParam1)
 					break;
 				
 				case 3:
-					iVar0 = 1550581940;
+					iVar0 = joaat("issi8");
 					break;
 			}
 			break;
@@ -15502,7 +15502,7 @@ int func_275(int iParam0)
 	switch (iParam0)
 	{
 		case joaat("cargoplane"):
-		case -1958189855:
+		case joaat("cargoplane2"):
 			return 1;
 		
 		default:
@@ -20373,98 +20373,98 @@ int func_313(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 			*uParam5 = 0.29f;
 			break;
 		
-		case -1386336041:
+		case joaat("powersurge"):
 			*uParam2 = { -1f, 0.3f, 0.37f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.1f;
 			break;
 		
-		case 1748565021:
+		case joaat("entity3"):
 			*uParam2 = { -1f, 0.5f, 0.225f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.25f;
 			break;
 		
-		case 1384502824:
+		case joaat("manchez3"):
 			*uParam2 = { -1f, 0.066f, 0.329f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.1f;
 			break;
 		
-		case -1035489563:
+		case joaat("surfer3"):
 			*uParam2 = { -1f, 1.19f, 0.18f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.4f;
 			break;
 		
-		case 996383885:
+		case joaat("boor"):
 			*uParam2 = { -1f, 0.25f, 0.4f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.4f;
 			break;
 		
-		case -1249788006:
+		case joaat("eudora"):
 			*uParam2 = { 0f, 1.623f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.7f;
 			break;
 		
-		case 268758436:
+		case joaat("tulip2"):
 			*uParam2 = { -1f, 0f, 0.22f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 1076201208:
+		case joaat("r300"):
 			*uParam2 = { -1f, 0f, 0.22f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 669204833:
+		case joaat("virtue"):
 			*uParam2 = { -1f, 0f, 0.22f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 1550581940:
+		case joaat("issi8"):
 			*uParam2 = { -1f, 0.3f, 0f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -1933242328:
+		case joaat("broadway"):
 			*uParam2 = { -1f, -0.4f, 0.375f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 2100457220:
+		case joaat("panthere"):
 			*uParam2 = { -1f, 0.069f, 0.13f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.3f;
 			break;
 		
-		case -461850249:
+		case joaat("tahoma"):
 			*uParam2 = { -1f, -0.253f, 0.39f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -131348178:
+		case joaat("everon2"):
 			*uParam2 = { -1f, 0.101f, 0.227f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
@@ -20684,8 +20684,8 @@ int func_318(int iParam0)
 		case joaat("burrito2"):
 		case joaat("ignus"):
 		case joaat("draugur"):
-		case -1576586413:
-		case -1627077503:
+		case joaat("brickade2"):
+		case joaat("journey2"):
 			return 1;
 			break;
 		
@@ -21478,8 +21478,8 @@ int func_342(int iParam0)
 		case joaat("champion"):
 		case joaat("greenwood"):
 		case joaat("omnisegt"):
-		case 669204833:
-		case 1076201208:
+		case joaat("virtue"):
+		case joaat("r300"):
 			return 1;
 			break;
 	}
@@ -21589,7 +21589,7 @@ void func_343(int iParam0, var uParam1, bool bParam2, bool bParam3)
 				iVar4++;
 			}
 		}
-		else if (uParam1->f_66 == -1035489563)
+		else if (uParam1->f_66 == joaat("surfer3"))
 		{
 			iVar5 = 1;
 			while (iVar5 <= 2)
@@ -28467,26 +28467,26 @@ int func_404(int iParam0)
 {
 	switch (iParam0)
 	{
-		case -1386336041:
-		case -1627077503:
-		case -1249788006:
-		case -1035489563:
+		case joaat("powersurge"):
+		case joaat("journey2"):
+		case joaat("eudora"):
+		case joaat("surfer3"):
 		case joaat("speedo2"):
-		case -1958189855:
+		case joaat("cargoplane2"):
 		case joaat("dune2"):
-		case 1748565021:
-		case 2100457220:
-		case 996383885:
-		case 669204833:
-		case -131348178:
-		case 1076201208:
-		case -1576586413:
-		case 268758436:
+		case joaat("entity3"):
+		case joaat("panthere"):
+		case joaat("boor"):
+		case joaat("virtue"):
+		case joaat("everon2"):
+		case joaat("r300"):
+		case joaat("brickade2"):
+		case joaat("tulip2"):
 			return 1;
 		
 		default:
 	}
-	if ((iParam0 == -1933242328 || iParam0 == 1550581940) || iParam0 == -461850249)
+	if ((iParam0 == joaat("broadway") || iParam0 == joaat("issi8")) || iParam0 == joaat("tahoma"))
 	{
 		return 1;
 	}
@@ -38962,7 +38962,7 @@ bool func_700(int iParam0)
 
 int func_701()
 {
-	return -1576586413;
+	return joaat("brickade2");
 }
 
 int func_702(int iParam0, int iParam1)
@@ -39608,7 +39608,7 @@ int func_703(int iParam0, int iParam1, int iParam2)
 		return 0;
 	}
 	iVar12 = func_711(iVar0);
-	if (iVar12 != -1 || iVar0 == -1576586413)
+	if (iVar12 != -1 || iVar0 == joaat("brickade2"))
 	{
 		if (func_704(iVar0))
 		{
@@ -39627,25 +39627,25 @@ int func_704(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case -1627077503:
+		case joaat("journey2"):
 			return func_708(0, 0);
 		
-		case -1035489563:
+		case joaat("surfer3"):
 			return func_708(4, 0);
 		
-		case 669204833:
+		case joaat("virtue"):
 			return func_708(10, 0);
 		
 		case joaat("hotring"):
 			return func_304(11843, -1, 0) >= 10;
 		
-		case -131348178:
+		case joaat("everon2"):
 			return func_304(11843, -1, 0) >= 20;
 		
 		case joaat("taxi"):
 			return func_707(158, -1);
 		
-		case -1576586413:
+		case joaat("brickade2"):
 			return func_705(0);
 		
 		default:
@@ -39791,25 +39791,25 @@ int func_711(int iParam0)
 {
 	switch (iParam0)
 	{
-		case -1627077503:
+		case joaat("journey2"):
 			return 0;
 		
-		case -1035489563:
+		case joaat("surfer3"):
 			return 1;
 		
-		case 669204833:
+		case joaat("virtue"):
 			return 2;
 		
 		case joaat("hotring"):
 			return 3;
 		
-		case -131348178:
+		case joaat("everon2"):
 			return 4;
 		
 		case joaat("taxi"):
 			return 5;
 		
-		case -1576586413:
+		case joaat("brickade2"):
 			return 6;
 		
 		default:
@@ -43660,52 +43660,52 @@ int func_770(int iParam0, int iParam1)
 			return joaat("conada");
 		
 		case 583:
-			return -1576586413;
+			return joaat("brickade2");
 		
 		case 584:
-			return 1384502824;
+			return joaat("manchez3");
 		
 		case 585:
-			return 2100457220;
+			return joaat("panthere");
 		
 		case 586:
-			return -461850249;
+			return joaat("tahoma");
 		
 		case 587:
-			return 268758436;
+			return joaat("tulip2");
 		
 		case 588:
-			return -131348178;
+			return joaat("everon2");
 		
 		case 589:
-			return -1627077503;
+			return joaat("journey2");
 		
 		case 590:
-			return -1035489563;
+			return joaat("surfer3");
 		
 		case 591:
-			return 669204833;
+			return joaat("virtue");
 		
 		case 592:
-			return 1076201208;
+			return joaat("r300");
 		
 		case 593:
-			return 1550581940;
+			return joaat("issi8");
 		
 		case 594:
-			return 1748565021;
+			return joaat("entity3");
 		
 		case 595:
-			return -1386336041;
+			return joaat("powersurge");
 		
 		case 596:
-			return 996383885;
+			return joaat("boor");
 		
 		case 597:
-			return -1933242328;
+			return joaat("broadway");
 		
 		case 598:
-			return -1249788006;
+			return joaat("eudora");
 		
 		default:
 	}
@@ -45851,67 +45851,67 @@ int func_772(int iParam0)
 	{
 		return 569;
 	}
-	else if (iParam0 == -1576586413)
+	else if (iParam0 == joaat("brickade2"))
 	{
 		return 583;
 	}
-	else if (iParam0 == 1384502824)
+	else if (iParam0 == joaat("manchez3"))
 	{
 		return 584;
 	}
-	else if (iParam0 == -1627077503)
+	else if (iParam0 == joaat("journey2"))
 	{
 		return 589;
 	}
-	else if (iParam0 == 2100457220)
+	else if (iParam0 == joaat("panthere"))
 	{
 		return 585;
 	}
-	else if (iParam0 == -461850249)
+	else if (iParam0 == joaat("tahoma"))
 	{
 		return 586;
 	}
-	else if (iParam0 == 268758436)
+	else if (iParam0 == joaat("tulip2"))
 	{
 		return 587;
 	}
-	else if (iParam0 == -131348178)
+	else if (iParam0 == joaat("everon2"))
 	{
 		return 588;
 	}
-	else if (iParam0 == -1249788006)
+	else if (iParam0 == joaat("eudora"))
 	{
 		return 598;
 	}
-	else if (iParam0 == -1933242328)
+	else if (iParam0 == joaat("broadway"))
 	{
 		return 597;
 	}
-	else if (iParam0 == 1550581940)
+	else if (iParam0 == joaat("issi8"))
 	{
 		return 593;
 	}
-	else if (iParam0 == 996383885)
+	else if (iParam0 == joaat("boor"))
 	{
 		return 596;
 	}
-	else if (iParam0 == -1386336041)
+	else if (iParam0 == joaat("powersurge"))
 	{
 		return 595;
 	}
-	else if (iParam0 == 669204833)
+	else if (iParam0 == joaat("virtue"))
 	{
 		return 591;
 	}
-	else if (iParam0 == 1076201208)
+	else if (iParam0 == joaat("r300"))
 	{
 		return 592;
 	}
-	else if (iParam0 == 1748565021)
+	else if (iParam0 == joaat("entity3"))
 	{
 		return 594;
 	}
-	else if (iParam0 == -1035489563)
+	else if (iParam0 == joaat("surfer3"))
 	{
 		return 590;
 	}
@@ -136505,112 +136505,112 @@ int func_1356(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1384502824)
+	else if (iParam0 == joaat("manchez3"))
 	{
 		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1576586413)
+	else if (iParam0 == joaat("brickade2"))
 	{
 		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1249788006)
+	else if (iParam0 == joaat("eudora"))
 	{
 		if (!Global_262145.f_33971 && iVar1 < Global_262145.f_33954)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1386336041)
+	else if (iParam0 == joaat("powersurge"))
 	{
 		if (!Global_262145.f_33965 && iVar1 < Global_262145.f_33949)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1627077503)
+	else if (iParam0 == joaat("journey2"))
 	{
 		if (!Global_262145.f_33959 && iVar1 < Global_262145.f_33943)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1035489563)
+	else if (iParam0 == joaat("surfer3"))
 	{
 		if (!Global_262145.f_33960 && iVar1 < Global_262145.f_33944)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1748565021)
+	else if (iParam0 == joaat("entity3"))
 	{
 		if (!Global_262145.f_33957 && iVar1 < Global_262145.f_33941)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 2100457220)
+	else if (iParam0 == joaat("panthere"))
 	{
 		if (!Global_262145.f_33968 && iVar1 < Global_262145.f_33952)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 996383885)
+	else if (iParam0 == joaat("boor"))
 	{
 		if (!Global_262145.f_33972 && iVar1 < Global_262145.f_33956)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -131348178)
+	else if (iParam0 == joaat("everon2"))
 	{
 		if (!Global_262145.f_33969 && iVar1 < Global_262145.f_33953)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 268758436)
+	else if (iParam0 == joaat("tulip2"))
 	{
 		if (!Global_262145.f_33958 && iVar1 < Global_262145.f_33942)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1076201208)
+	else if (iParam0 == joaat("r300"))
 	{
 		if (!Global_262145.f_33961 && iVar1 < Global_262145.f_33945)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 669204833)
+	else if (iParam0 == joaat("virtue"))
 	{
 		if (!Global_262145.f_33970 && iVar1 < Global_262145.f_33955)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1550581940)
+	else if (iParam0 == joaat("issi8"))
 	{
 		if (!Global_262145.f_33966 && iVar1 < Global_262145.f_33950)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1933242328)
+	else if (iParam0 == joaat("broadway"))
 	{
 		if (!Global_262145.f_33967 && iVar1 < Global_262145.f_33951)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -461850249)
+	else if (iParam0 == joaat("tahoma"))
 	{
 		if (!Global_262145.f_33964 && iVar1 < Global_262145.f_33948)
 		{
@@ -151040,7 +151040,7 @@ int func_1688(int iParam0, int iParam1, int iParam2)
 
 char* func_1689(int iParam0, int iParam1)
 {
-	if (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam0 == joaat("stt_prop_track_start") || iParam0 == joaat("stt_prop_track_start_02")) || iParam0 == joaat("stt_prop_track_straight_s")) || iParam0 == joaat("stt_prop_track_straight_m")) || iParam0 == joaat("stt_prop_track_straight_lm")) || iParam0 == joaat("ba_prop_track_straight_lm")) || iParam0 == joaat("stt_prop_track_straight_l")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_01")) || iParam0 == joaat("stt_prop_track_bend_m")) || iParam0 == joaat("stt_prop_track_bend_l")) || iParam0 == joaat("stt_prop_track_bend2_l")) || iParam0 == joaat("stt_prop_track_bend_5d")) || iParam0 == joaat("stt_prop_track_bend_15d")) || iParam0 == joaat("stt_prop_track_bend_30d")) || iParam0 == joaat("stt_prop_track_bend_180d")) || iParam0 == joaat("sum_prop_track_ac_bend_180d")) || iParam0 == joaat("stt_prop_track_fork")) || iParam0 == joaat("stt_prop_track_cross")) || iParam0 == joaat("stt_prop_track_straight_bar_s")) || iParam0 == joaat("stt_prop_track_straight_bar_m")) || iParam0 == joaat("stt_prop_track_straight_lm_bar")) || iParam0 == joaat("stt_prop_track_straight_bar_l")) || iParam0 == joaat("stt_prop_track_bend_bar_m")) || iParam0 == joaat("stt_prop_track_bend_bar_l")) || iParam0 == joaat("stt_prop_track_bend2_bar_l")) || iParam0 == joaat("stt_prop_track_bend_5d_bar")) || iParam0 == joaat("stt_prop_track_bend_15d_bar")) || iParam0 == joaat("stt_prop_track_bend_30d_bar")) || iParam0 == joaat("stt_prop_track_bend_180d_bar")) || iParam0 == joaat("stt_prop_track_fork_bar")) || iParam0 == joaat("stt_prop_track_cross_bar")) || iParam0 == joaat("stt_prop_track_funnel")) || iParam0 == joaat("stt_prop_track_funnel_ads_01a")) || iParam0 == joaat("stt_prop_track_funnel_ads_01b")) || iParam0 == joaat("stt_prop_track_funnel_ads_01c")) || iParam0 == joaat("stt_prop_track_link")) || iParam0 == joaat("stt_prop_track_chicane_l")) || iParam0 == joaat("stt_prop_track_chicane_r")) || iParam0 == joaat("stt_prop_track_chicane_l_02")) || iParam0 == joaat("stt_prop_track_chicane_r_02")) || iParam0 == joaat("stt_prop_race_start_line_01")) || iParam0 == joaat("stt_prop_race_start_line_01b")) || iParam0 == joaat("sr_prop_sr_start_line_02")) || iParam0 == joaat("stt_prop_race_start_line_02b")) || iParam0 == joaat("stt_prop_race_start_line_03")) || iParam0 == joaat("stt_prop_race_start_line_03b")) || iParam0 == joaat("ch_prop_track_pit_stop_01")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_30r")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_16l")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_16r")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_30l")) || iParam0 == joaat("stt_prop_track_block_03")) || iParam0 == 901501250) || iParam0 == -297099405) || iParam0 == joaat("stt_prop_track_bend_bar_l_b")) || iParam0 == joaat("stt_prop_track_bend2_bar_l_b")) || iParam0 == joaat("stt_prop_track_bend_l_b")) || iParam0 == joaat("ba_prop_track_bend_l_b")) || iParam0 == joaat("stt_prop_track_bend2_l_b")) || iParam0 == joaat("stt_prop_track_block_01")) || iParam0 == joaat("stt_prop_track_block_02")) || iParam0 == joaat("sr_prop_track_straight_l_d5")) || iParam0 == joaat("sr_prop_track_straight_l_d15")) || iParam0 == joaat("sr_prop_track_straight_l_d30")) || iParam0 == joaat("sr_prop_track_straight_l_d45")) || iParam0 == joaat("sr_prop_track_straight_l_u5")) || iParam0 == joaat("sr_prop_track_straight_l_u15")) || iParam0 == joaat("sr_prop_track_straight_l_u30")) || iParam0 == joaat("sr_prop_track_straight_l_u45")) || iParam0 == joaat("ch_prop_track_ch_bend_bar_45d")) || iParam0 == joaat("sum_prop_track_ac_bend_bar_45")) || iParam0 == joaat("ch_prop_track_ch_bend_45")) || iParam0 == joaat("sum_prop_track_ac_bend_45")) || iParam0 == joaat("ch_prop_track_ch_bend_bar_135")) || iParam0 == joaat("sum_prop_track_ac_bend_bar_135")) || iParam0 == joaat("ch_prop_track_ch_bend_135")) || iParam0 == joaat("sum_prop_track_ac_bend_135")) || iParam0 == joaat("stt_prop_stunt_tube_xxs")) || iParam0 == joaat("bkr_prop_biker_tube_xxs")) || iParam0 == joaat("stt_prop_stunt_tube_xs")) || iParam0 == joaat("bkr_prop_biker_tube_xs")) || iParam0 == joaat("stt_prop_stunt_tube_s")) || iParam0 == joaat("bkr_prop_biker_tube_s")) || iParam0 == joaat("stt_prop_stunt_tube_m")) || iParam0 == joaat("bkr_prop_biker_tube_m")) || iParam0 == joaat("stt_prop_stunt_tube_l")) || iParam0 == joaat("bkr_prop_biker_tube_l")) || iParam0 == joaat("stt_prop_stunt_tube_crn")) || iParam0 == joaat("bkr_prop_biker_tube_crn")) || iParam0 == joaat("stt_prop_stunt_tube_crn_5d")) || iParam0 == joaat("stt_prop_stunt_tube_crn_15d")) || iParam0 == joaat("stt_prop_stunt_tube_crn_30d")) || iParam0 == joaat("stt_prop_stunt_tube_crn2")) || iParam0 == joaat("bkr_prop_biker_tube_crn2")) || iParam0 == joaat("stt_prop_stunt_tube_fork")) || iParam0 == joaat("stt_prop_stunt_tube_cross")) || iParam0 == joaat("bkr_prop_biker_tube_cross")) || iParam0 == joaat("stt_prop_stunt_tube_gap_01")) || iParam0 == joaat("bkr_prop_biker_tube_gap_01")) || iParam0 == joaat("stt_prop_stunt_tube_gap_02")) || iParam0 == joaat("bkr_prop_biker_tube_gap_02")) || iParam0 == joaat("stt_prop_stunt_tube_gap_03")) || iParam0 == joaat("bkr_prop_biker_tube_gap_03")) || iParam0 == joaat("stt_prop_stunt_tube_qg")) || iParam0 == joaat("stt_prop_stunt_tube_hg")) || iParam0 == joaat("stt_prop_stunt_tube_jmp")) || iParam0 == joaat("stt_prop_stunt_tube_jmp2")) || iParam0 == joaat("stt_prop_stunt_tube_fn_01")) || iParam0 == joaat("stt_prop_stunt_tube_fn_02")) || iParam0 == joaat("stt_prop_stunt_tube_fn_03")) || iParam0 == joaat("stt_prop_stunt_tube_fn_04")) || iParam0 == joaat("stt_prop_stunt_tube_fn_05")) || iParam0 == joaat("ba_prop_battle_tube_fn_01")) || iParam0 == joaat("ba_prop_battle_tube_fn_02")) || iParam0 == joaat("ba_prop_battle_tube_fn_03")) || iParam0 == joaat("ba_prop_battle_tube_fn_04")) || iParam0 == joaat("ba_prop_battle_tube_fn_05")) || iParam0 == joaat("stt_prop_stunt_tube_ent")) || iParam0 == joaat("stt_prop_stunt_tube_end")) || iParam0 == joaat("sr_prop_sr_tube_end")) || iParam0 == joaat("stt_prop_track_tube_01")) || iParam0 == joaat("as_prop_as_tube_gap_03")) || iParam0 == joaat("as_prop_as_tube_xxs")) || iParam0 == joaat("stt_prop_tyre_wall_01")) || iParam0 == joaat("sum_prop_ac_tyre_wall_lit_01")) || iParam0 == joaat("stt_prop_tyre_wall_02")) || iParam0 == joaat("stt_prop_tyre_wall_03")) || iParam0 == joaat("stt_prop_tyre_wall_04")) || iParam0 == joaat("stt_prop_tyre_wall_05")) || iParam0 == joaat("stt_prop_tyre_wall_06")) || iParam0 == joaat("stt_prop_tyre_wall_07")) || iParam0 == joaat("stt_prop_tyre_wall_08")) || iParam0 == joaat("stt_prop_tyre_wall_09")) || iParam0 == joaat("stt_prop_tyre_wall_010")) || iParam0 == joaat("stt_prop_tyre_wall_011")) || iParam0 == joaat("stt_prop_tyre_wall_012")) || iParam0 == joaat("stt_prop_tyre_wall_013")) || iParam0 == joaat("stt_prop_tyre_wall_014")) || iParam0 == joaat("stt_prop_tyre_wall_015")) || iParam0 == joaat("stt_prop_tyre_wall_0r1")) || iParam0 == joaat("sum_prop_ac_tyre_wall_lit_0r1")) || iParam0 == joaat("stt_prop_tyre_wall_0r2")) || iParam0 == joaat("stt_prop_tyre_wall_0r3")) || iParam0 == joaat("stt_prop_tyre_wall_0r04")) || iParam0 == joaat("stt_prop_tyre_wall_0r05")) || iParam0 == joaat("stt_prop_tyre_wall_0r06")) || iParam0 == joaat("stt_prop_tyre_wall_0r07")) || iParam0 == joaat("stt_prop_tyre_wall_0r08")) || iParam0 == joaat("stt_prop_tyre_wall_0r09")) || iParam0 == joaat("stt_prop_tyre_wall_0r010")) || iParam0 == joaat("stt_prop_tyre_wall_0r011")) || iParam0 == joaat("stt_prop_tyre_wall_0r012")) || iParam0 == joaat("stt_prop_tyre_wall_0r013")) || iParam0 == joaat("stt_prop_tyre_wall_0r014")) || iParam0 == joaat("stt_prop_tyre_wall_0r015")) || iParam0 == joaat("stt_prop_tyre_wall_0r016")) || iParam0 == joaat("stt_prop_tyre_wall_0r017")) || iParam0 == joaat("stt_prop_tyre_wall_0r018")) || iParam0 == joaat("stt_prop_tyre_wall_0r019")) || iParam0 == joaat("stt_prop_tyre_wall_0l1")) || iParam0 == joaat("sum_prop_ac_tyre_wall_lit_0l1")) || iParam0 == joaat("stt_prop_tyre_wall_0l2")) || iParam0 == joaat("stt_prop_tyre_wall_0l3")) || iParam0 == joaat("stt_prop_tyre_wall_0l04")) || iParam0 == joaat("stt_prop_tyre_wall_0l05")) || iParam0 == joaat("stt_prop_tyre_wall_0l06")) || iParam0 == joaat("stt_prop_tyre_wall_0l07")) || iParam0 == joaat("stt_prop_tyre_wall_0l08")) || iParam0 == 1784795865) || iParam0 == joaat("stt_prop_tyre_wall_0l010")) || iParam0 == 1307595665) || iParam0 == joaat("stt_prop_tyre_wall_0l012")) || iParam0 == joaat("stt_prop_tyre_wall_0l013")) || iParam0 == joaat("stt_prop_tyre_wall_0l014")) || iParam0 == joaat("stt_prop_tyre_wall_0l015")) || iParam0 == joaat("stt_prop_tyre_wall_0l16")) || iParam0 == joaat("stt_prop_tyre_wall_0l17")) || iParam0 == joaat("stt_prop_tyre_wall_0l018")) || iParam0 == joaat("stt_prop_tyre_wall_0l019")) || iParam0 == joaat("stt_prop_tyre_wall_0l020")) || iParam0 == joaat("sum_prop_ac_tyre_wall_pit_l")) || iParam0 == joaat("sum_prop_ac_tyre_wall_pit_r")) || iParam0 == joaat("sum_prop_ac_tyre_wall_u_l")) || iParam0 == joaat("sum_prop_ac_tyre_wall_u_r")) || iParam0 == joaat("stt_prop_track_stop_sign")) || iParam0 == joaat("stt_prop_stunt_target_small")) || iParam0 == joaat("stt_prop_stunt_target")) || iParam0 == joaat("stt_prop_stunt_bowlpin_stand")) || iParam0 == joaat("stt_prop_stunt_landing_zone_01")) || iParam0 == joaat("stt_prop_hoop_tyre_01a")) || iParam0 == joaat("as_prop_as_stunt_target")) || iParam0 == joaat("as_prop_as_stunt_target_small")) || iParam0 == joaat("stt_prop_stunt_bblock_sml1")) || iParam0 == joaat("stt_prop_stunt_bblock_sml2")) || iParam0 == joaat("stt_prop_stunt_bblock_sml3")) || iParam0 == joaat("stt_prop_stunt_bblock_mdm1")) || iParam0 == joaat("stt_prop_stunt_bblock_mdm2")) || iParam0 == joaat("stt_prop_stunt_bblock_mdm3")) || iParam0 == joaat("stt_prop_stunt_bblock_lrg1")) || iParam0 == joaat("stt_prop_stunt_bblock_lrg2")) || iParam0 == joaat("stt_prop_stunt_bblock_lrg3")) || iParam0 == joaat("stt_prop_stunt_bblock_xl1")) || iParam0 == joaat("stt_prop_stunt_bblock_xl2")) || iParam0 == joaat("stt_prop_stunt_bblock_xl3")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_01")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_02")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_03")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_04")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_05")) || iParam0 == joaat("stt_prop_stunt_bowling_ball")) || iParam0 == joaat("ar_prop_ar_ammu_sign")) || iParam0 == joaat("sr_mp_spec_races_ammu_sign")) || iParam0 == joaat("stt_prop_stunt_soccer_goal")) || iParam0 == joaat("stt_prop_stunt_track_start")) || iParam0 == joaat("stt_prop_stunt_track_start_02")) || iParam0 == joaat("stt_prop_stunt_track_st_01")) || iParam0 == joaat("stt_prop_stunt_track_st_02")) || iParam0 == joaat("stt_prop_stunt_track_exshort")) || iParam0 == joaat("stt_prop_stunt_track_short")) || iParam0 == joaat("stt_prop_stunt_track_straight")) || iParam0 == joaat("stt_prop_stunt_track_turn")) || iParam0 == joaat("stt_prop_stunt_track_sh15")) || iParam0 == joaat("stt_prop_stunt_track_sh30")) || iParam0 == 1055253756) || iParam0 == joaat("stt_prop_stunt_track_sh45_a")) || iParam0 == joaat("stt_prop_stunt_track_uturn")) || iParam0 == joaat("stt_prop_stunt_track_cutout")) || iParam0 == joaat("stt_prop_stunt_track_otake")) || iParam0 == joaat("stt_prop_stunt_track_fork")) || iParam0 == joaat("stt_prop_stunt_track_funnel")) || iParam0 == joaat("stt_prop_stunt_track_funlng")) || iParam0 == joaat("stt_prop_stunt_track_slope15")) || iParam0 == joaat("stt_prop_stunt_track_slope30")) || iParam0 == joaat("stt_prop_stunt_track_slope45")) || iParam0 == joaat("stt_prop_stunt_track_link")) || iParam0 == joaat("stt_prop_stunt_track_dwlink")) || iParam0 == joaat("stt_prop_stunt_track_dwlink_02")) || iParam0 == joaat("stt_prop_stunt_track_hill")) || iParam0 == joaat("stt_prop_stunt_track_hill2")) || iParam0 == joaat("stt_prop_stunt_track_bumps")) || iParam0 == joaat("stt_prop_stunt_track_jump")) || iParam0 == joaat("stt_prop_stunt_jump15")) || iParam0 == joaat("stt_prop_stunt_jump30")) || iParam0 == joaat("stt_prop_stunt_jump45")) || iParam0 == joaat("stt_prop_stunt_track_dwshort")) || iParam0 == joaat("stt_prop_stunt_track_dwsh15")) || iParam0 == joaat("stt_prop_stunt_track_dwturn")) || iParam0 == joaat("stt_prop_stunt_track_dwuturn")) || iParam0 == joaat("stt_prop_stunt_track_dwslope15")) || iParam0 == joaat("as_prop_as_dwslope30")) || iParam0 == joaat("stt_prop_stunt_track_dwslope45")) || iParam0 == joaat("stt_prop_track_tube_02")) || iParam0 == joaat("ba_prop_battle_track_exshort")) || iParam0 == joaat("ba_prop_battle_track_short")) || iParam0 == joaat("stt_prop_stunt_jump_s")) || iParam0 == joaat("stt_prop_stunt_jump_m")) || iParam0 == joaat("stt_prop_stunt_jump_l")) || iParam0 == joaat("stt_prop_stunt_jump_sb")) || iParam0 == joaat("stt_prop_stunt_jump_mb")) || iParam0 == joaat("stt_prop_stunt_jump_lb")) || iParam0 == joaat("stt_prop_ramp_jump_xs")) || iParam0 == joaat("stt_prop_ramp_jump_s")) || iParam0 == joaat("stt_prop_ramp_jump_m")) || iParam0 == joaat("stt_prop_ramp_jump_l")) || iParam0 == joaat("stt_prop_ramp_jump_xl")) || iParam0 == joaat("stt_prop_ramp_jump_xxl")) || iParam0 == joaat("stt_prop_track_jump_01a")) || iParam0 == joaat("stt_prop_track_jump_01b")) || iParam0 == joaat("stt_prop_track_jump_01c")) || iParam0 == joaat("stt_prop_track_jump_02a")) || iParam0 == joaat("stt_prop_track_jump_02b")) || iParam0 == joaat("stt_prop_track_jump_02c")) || iParam0 == joaat("stt_prop_ramp_adj_flip_s")) || iParam0 == joaat("stt_prop_ramp_adj_flip_sb")) || iParam0 == joaat("stt_prop_ramp_adj_flip_m")) || iParam0 == joaat("stt_prop_ramp_adj_flip_mb")) || iParam0 == joaat("stt_prop_stunt_ramp")) || iParam0 == joaat("stt_prop_stunt_wideramp")) || iParam0 == joaat("stt_prop_stunt_bblock_qp")) || iParam0 == joaat("stt_prop_stunt_bblock_qp2")) || iParam0 == joaat("stt_prop_stunt_bblock_qp3")) || iParam0 == joaat("stt_prop_stunt_bblock_hump_01")) || iParam0 == joaat("stt_prop_stunt_bblock_hump_02")) || iParam0 == joaat("bkr_prop_biker_jump_s")) || iParam0 == joaat("bkr_prop_biker_jump_m")) || iParam0 == joaat("bkr_prop_biker_jump_l")) || iParam0 == joaat("bkr_prop_biker_jump_sb")) || iParam0 == joaat("bkr_prop_biker_jump_mb")) || iParam0 == joaat("bkr_prop_biker_jump_lb")) || iParam0 == joaat("bkr_prop_biker_jump_01a")) || iParam0 == joaat("bkr_prop_biker_jump_01b")) || iParam0 == joaat("bkr_prop_biker_jump_01c")) || iParam0 == joaat("bkr_prop_biker_jump_02a")) || iParam0 == joaat("bkr_prop_biker_jump_02b")) || iParam0 == joaat("bkr_prop_biker_jump_02c")) || iParam0 == joaat("stt_prop_stunt_wideramp")) || iParam0 == joaat("imp_prop_impexp_bblock_qp3")) || iParam0 == joaat("bkr_prop_biker_bblock_qp2")) || iParam0 == joaat("bkr_prop_biker_bblock_qp")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_01")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_02")) || iParam0 == joaat("bkr_prop_biker_bblock_cor")) || iParam0 == joaat("bkr_prop_biker_bblock_cor_02")) || iParam0 == joaat("bkr_prop_biker_bblock_cor_03")) || iParam0 == joaat("stt_prop_wallride_05")) || iParam0 == joaat("stt_prop_ramp_adj_loop")) || iParam0 == joaat("stt_prop_ramp_multi_loop_rb")) || iParam0 == joaat("stt_prop_stunt_jump_loop")) || iParam0 == joaat("stt_prop_ramp_spiral_s")) || iParam0 == joaat("stt_prop_ramp_spiral_l_s")) || iParam0 == joaat("stt_prop_ramp_spiral_m")) || iParam0 == joaat("stt_prop_ramp_spiral_l_m")) || iParam0 == joaat("stt_prop_ramp_spiral_l")) || iParam0 == joaat("stt_prop_ramp_spiral_l_l")) || iParam0 == joaat("stt_prop_ramp_spiral_xxl")) || iParam0 == joaat("stt_prop_ramp_spiral_l_xxl")) || iParam0 == joaat("stt_prop_ramp_adj_hloop")) || iParam0 == joaat("stt_prop_wallride_01")) || iParam0 == joaat("stt_prop_wallride_01b")) || iParam0 == joaat("stt_prop_wallride_04")) || iParam0 == joaat("stt_prop_wallride_45r")) || iParam0 == joaat("stt_prop_wallride_45ra")) || iParam0 == joaat("stt_prop_wallride_45l")) || iParam0 == joaat("stt_prop_wallride_45la")) || iParam0 == joaat("stt_prop_wallride_90r")) || iParam0 == joaat("stt_prop_wallride_90rb")) || iParam0 == joaat("stt_prop_wallride_90l")) || iParam0 == joaat("stt_prop_wallride_90lb")) || iParam0 == joaat("stt_prop_wallride_02")) || iParam0 == joaat("stt_prop_wallride_02b")) || iParam0 == joaat("stt_prop_wallride_05b")) || iParam0 == joaat("bkr_prop_biker_bblock_sml1")) || iParam0 == joaat("bkr_prop_biker_bblock_sml2")) || iParam0 == joaat("bkr_prop_biker_bblock_sml3")) || iParam0 == joaat("bkr_prop_biker_bblock_mdm1")) || iParam0 == joaat("bkr_prop_biker_bblock_mdm2")) || iParam0 == joaat("bkr_prop_biker_bblock_mdm3")) || iParam0 == joaat("bkr_prop_biker_bblock_lrg1")) || iParam0 == joaat("bkr_prop_biker_bblock_lrg2")) || iParam0 == joaat("bkr_prop_biker_bblock_lrg3")) || iParam0 == joaat("bkr_prop_biker_bblock_xl1")) || iParam0 == joaat("bkr_prop_biker_bblock_xl2")) || iParam0 == joaat("bkr_prop_biker_bblock_xl3")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_01")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_02")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_03")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_04")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_05")) || iParam0 == joaat("bkr_prop_biker_bblock_qp")) || iParam0 == joaat("bkr_prop_biker_bblock_qp2")) || iParam0 == joaat("imp_prop_impexp_bblock_qp3")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_01")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_02")) || iParam0 == joaat("bkr_prop_biker_landing_zone_01")) || iParam0 == joaat("bkr_prop_biker_bowlpin_stand")) || iParam0 == joaat("bkr_prop_biker_target_small")) || iParam0 == joaat("bkr_prop_biker_target")) || iParam0 == joaat("sr_mp_spec_races_blimp_sign")) || iParam0 == joaat("sr_mp_spec_races_take_flight_sign")) || iParam0 == joaat("sr_mp_spec_races_ron_sign")) || iParam0 == joaat("sr_mp_spec_races_xero_sign")) || iParam0 == joaat("ar_prop_ar_tube_crn")) || iParam0 == joaat("ar_prop_ar_tube_crn_15d")) || iParam0 == joaat("ar_prop_ar_tube_crn_30d")) || iParam0 == joaat("ar_prop_ar_tube_crn_5d")) || iParam0 == joaat("ar_prop_ar_tube_crn2")) || iParam0 == joaat("ar_prop_ar_tube_cross")) || iParam0 == joaat("ar_prop_ar_tube_fork")) || iParam0 == joaat("ar_prop_ar_tube_hg")) || iParam0 == joaat("ar_prop_ar_tube_jmp")) || iParam0 == joaat("ar_prop_ar_tube_l")) || iParam0 == joaat("ar_prop_ar_tube_m")) || iParam0 == joaat("ar_prop_ar_tube_qg")) || iParam0 == joaat("ar_prop_ar_tube_s")) || iParam0 == joaat("ar_prop_ar_tube_xxs")) || iParam0 == joaat("ar_prop_ar_tube_xs")) || iParam0 == joaat("as_prop_as_tube_gap_02")) || iParam0 == joaat("ar_prop_ar_tube_4x_l")) || iParam0 == joaat("ar_prop_ar_tube_4x_m")) || iParam0 == joaat("ar_prop_ar_tube_4x_s")) || iParam0 == joaat("ar_prop_ar_tube_4x_xs")) || iParam0 == joaat("ar_prop_ar_tube_4x_xxs")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn2")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn_30d")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn_15d")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn_5d")) || iParam0 == joaat("ar_prop_ar_tube_4x_gap_02")) || iParam0 == joaat("ar_prop_ar_tube_2x_l")) || iParam0 == joaat("ar_prop_ar_tube_2x_m")) || iParam0 == joaat("ar_prop_ar_tube_2x_s")) || iParam0 == joaat("ar_prop_ar_tube_2x_xs")) || iParam0 == joaat("ar_prop_ar_tube_2x_xxs")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn2")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn_30d")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn_15d")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn_5d")) || iParam0 == joaat("ar_prop_ar_tube_2x_gap_02")) || iParam0 == joaat("ar_prop_ar_neon_gate_01a")) || iParam0 == joaat("ar_prop_ar_neon_gate_01b")) || iParam0 == joaat("ar_prop_ar_neon_gate_02a")) || iParam0 == joaat("ar_prop_ar_neon_gate_02b")) || iParam0 == joaat("ar_prop_ar_neon_gate_03a")) || iParam0 == joaat("ar_prop_ar_neon_gate_04a")) || iParam0 == joaat("ar_prop_ar_neon_gate_05a")) || iParam0 == joaat("ar_prop_ar_start_01a")) || iParam0 == joaat("ar_prop_inflategates_cp_loop")) || iParam0 == joaat("ar_prop_inflategates_cp")) || iParam0 == joaat("ar_prop_inflategates_cp_h1")) || iParam0 == joaat("ar_prop_inflategates_cp_h2")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_h2")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_h1")) || iParam0 == joaat("ar_prop_gate_cp_90d_h1")) || iParam0 == joaat("ar_prop_gate_cp_90d_h2")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_01a")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_01b")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_01c")) || iParam0 == joaat("ar_prop_ig_sprunk_cp_b")) || iParam0 == joaat("ar_prop_ig_raine_cp_b")) || iParam0 == joaat("ar_prop_ig_flow_cp_b")) || iParam0 == joaat("ar_prop_ig_shark_cp_b")) || iParam0 == joaat("ar_prop_ig_jackal_cp_b")) || iParam0 == joaat("ar_prop_ig_metv_cp_b")) || iParam0 == joaat("ar_prop_ig_metv_cp_single")) || iParam0 == joaat("ar_prop_ig_jackal_cp_single")) || iParam0 == joaat("ar_prop_ig_shark_cp_single")) || iParam0 == joaat("ar_prop_ig_flow_cp_single")) || iParam0 == joaat("ar_prop_ig_raine_cp_single")) || iParam0 == joaat("ar_prop_ig_sprunk_cp_single")) || iParam0 == joaat("ar_prop_gate_cp_90d")) || iParam0 == joaat("ar_prop_gate_cp_90d_01a")) || iParam0 == joaat("ar_prop_gate_cp_90d_01b")) || iParam0 == joaat("ar_prop_gate_cp_90d_01c")) || iParam0 == joaat("ar_prop_ar_jump_loop")) || iParam0 == joaat("gr_prop_gr_target_5_01b")) || iParam0 == joaat("ch_prop_stunt_landing_zone_01a")) || iParam0 == joaat("sum_prop_archway_02")) || iParam0 == joaat("sum_prop_race_barrier_01_sec")) || iParam0 == joaat("sum_prop_race_barrier_02_sec")) || iParam0 == joaat("sum_prop_race_barrier_04_sec")) || iParam0 == joaat("sum_prop_race_barrier_08_sec")) || iParam0 == joaat("sum_prop_race_barrier_16_sec")) || iParam0 == joaat("sum_prop_barrier_ac_bend_05d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_15d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_30d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_45d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_90d")) || iParam0 == joaat("sum_prop_ac_long_barrier_05d")) || iParam0 == joaat("sum_prop_ac_long_barrier_15d")) || iParam0 == joaat("sum_prop_ac_long_barrier_30d")) || iParam0 == joaat("sum_prop_ac_long_barrier_45d")) || iParam0 == joaat("sum_prop_ac_long_barrier_90d")) || iParam0 == joaat("sum_prop_ac_short_barrier_05d")) || iParam0 == joaat("sum_prop_ac_short_barrier_15d")) || iParam0 == joaat("sum_prop_ac_short_barrier_30d")) || iParam0 == joaat("sum_prop_ac_short_barrier_45d")) || iParam0 == joaat("sum_prop_ac_short_barrier_90d")) || iParam0 == joaat("ch_prop_track_ch_bend_180d")) || iParam0 == joaat("sum_prop_track_ac_bend_bar_180d")) || iParam0 == joaat("ch_prop_track_bend_bar_lc")) || iParam0 == joaat("sum_prop_track_ac_bend_lc"))
+	if (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam0 == joaat("stt_prop_track_start") || iParam0 == joaat("stt_prop_track_start_02")) || iParam0 == joaat("stt_prop_track_straight_s")) || iParam0 == joaat("stt_prop_track_straight_m")) || iParam0 == joaat("stt_prop_track_straight_lm")) || iParam0 == joaat("ba_prop_track_straight_lm")) || iParam0 == joaat("stt_prop_track_straight_l")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_01")) || iParam0 == joaat("stt_prop_track_bend_m")) || iParam0 == joaat("stt_prop_track_bend_l")) || iParam0 == joaat("stt_prop_track_bend2_l")) || iParam0 == joaat("stt_prop_track_bend_5d")) || iParam0 == joaat("stt_prop_track_bend_15d")) || iParam0 == joaat("stt_prop_track_bend_30d")) || iParam0 == joaat("stt_prop_track_bend_180d")) || iParam0 == joaat("sum_prop_track_ac_bend_180d")) || iParam0 == joaat("stt_prop_track_fork")) || iParam0 == joaat("stt_prop_track_cross")) || iParam0 == joaat("stt_prop_track_straight_bar_s")) || iParam0 == joaat("stt_prop_track_straight_bar_m")) || iParam0 == joaat("stt_prop_track_straight_lm_bar")) || iParam0 == joaat("stt_prop_track_straight_bar_l")) || iParam0 == joaat("stt_prop_track_bend_bar_m")) || iParam0 == joaat("stt_prop_track_bend_bar_l")) || iParam0 == joaat("stt_prop_track_bend2_bar_l")) || iParam0 == joaat("stt_prop_track_bend_5d_bar")) || iParam0 == joaat("stt_prop_track_bend_15d_bar")) || iParam0 == joaat("stt_prop_track_bend_30d_bar")) || iParam0 == joaat("stt_prop_track_bend_180d_bar")) || iParam0 == joaat("stt_prop_track_fork_bar")) || iParam0 == joaat("stt_prop_track_cross_bar")) || iParam0 == joaat("stt_prop_track_funnel")) || iParam0 == joaat("stt_prop_track_funnel_ads_01a")) || iParam0 == joaat("stt_prop_track_funnel_ads_01b")) || iParam0 == joaat("stt_prop_track_funnel_ads_01c")) || iParam0 == joaat("stt_prop_track_link")) || iParam0 == joaat("stt_prop_track_chicane_l")) || iParam0 == joaat("stt_prop_track_chicane_r")) || iParam0 == joaat("stt_prop_track_chicane_l_02")) || iParam0 == joaat("stt_prop_track_chicane_r_02")) || iParam0 == joaat("stt_prop_race_start_line_01")) || iParam0 == joaat("stt_prop_race_start_line_01b")) || iParam0 == joaat("sr_prop_sr_start_line_02")) || iParam0 == joaat("stt_prop_race_start_line_02b")) || iParam0 == joaat("stt_prop_race_start_line_03")) || iParam0 == joaat("stt_prop_race_start_line_03b")) || iParam0 == joaat("ch_prop_track_pit_stop_01")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_30r")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_16l")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_16r")) || iParam0 == joaat("sum_prop_ac_track_pit_stop_30l")) || iParam0 == joaat("stt_prop_track_block_03")) || iParam0 == 901501250) || iParam0 == -297099405) || iParam0 == joaat("stt_prop_track_bend_bar_l_b")) || iParam0 == joaat("stt_prop_track_bend2_bar_l_b")) || iParam0 == joaat("stt_prop_track_bend_l_b")) || iParam0 == joaat("ba_prop_track_bend_l_b")) || iParam0 == joaat("stt_prop_track_bend2_l_b")) || iParam0 == joaat("stt_prop_track_block_01")) || iParam0 == joaat("stt_prop_track_block_02")) || iParam0 == joaat("sr_prop_track_straight_l_d5")) || iParam0 == joaat("sr_prop_track_straight_l_d15")) || iParam0 == joaat("sr_prop_track_straight_l_d30")) || iParam0 == joaat("sr_prop_track_straight_l_d45")) || iParam0 == joaat("sr_prop_track_straight_l_u5")) || iParam0 == joaat("sr_prop_track_straight_l_u15")) || iParam0 == joaat("sr_prop_track_straight_l_u30")) || iParam0 == joaat("sr_prop_track_straight_l_u45")) || iParam0 == joaat("ch_prop_track_ch_bend_bar_45d")) || iParam0 == joaat("sum_prop_track_ac_bend_bar_45")) || iParam0 == joaat("ch_prop_track_ch_bend_45")) || iParam0 == joaat("sum_prop_track_ac_bend_45")) || iParam0 == joaat("ch_prop_track_ch_bend_bar_135")) || iParam0 == joaat("sum_prop_track_ac_bend_bar_135")) || iParam0 == joaat("ch_prop_track_ch_bend_135")) || iParam0 == joaat("sum_prop_track_ac_bend_135")) || iParam0 == joaat("stt_prop_stunt_tube_xxs")) || iParam0 == joaat("bkr_prop_biker_tube_xxs")) || iParam0 == joaat("stt_prop_stunt_tube_xs")) || iParam0 == joaat("bkr_prop_biker_tube_xs")) || iParam0 == joaat("stt_prop_stunt_tube_s")) || iParam0 == joaat("bkr_prop_biker_tube_s")) || iParam0 == joaat("stt_prop_stunt_tube_m")) || iParam0 == joaat("bkr_prop_biker_tube_m")) || iParam0 == joaat("stt_prop_stunt_tube_l")) || iParam0 == joaat("bkr_prop_biker_tube_l")) || iParam0 == joaat("stt_prop_stunt_tube_crn")) || iParam0 == joaat("bkr_prop_biker_tube_crn")) || iParam0 == joaat("stt_prop_stunt_tube_crn_5d")) || iParam0 == joaat("stt_prop_stunt_tube_crn_15d")) || iParam0 == joaat("stt_prop_stunt_tube_crn_30d")) || iParam0 == joaat("stt_prop_stunt_tube_crn2")) || iParam0 == joaat("bkr_prop_biker_tube_crn2")) || iParam0 == joaat("stt_prop_stunt_tube_fork")) || iParam0 == joaat("stt_prop_stunt_tube_cross")) || iParam0 == joaat("bkr_prop_biker_tube_cross")) || iParam0 == joaat("stt_prop_stunt_tube_gap_01")) || iParam0 == joaat("bkr_prop_biker_tube_gap_01")) || iParam0 == joaat("stt_prop_stunt_tube_gap_02")) || iParam0 == joaat("bkr_prop_biker_tube_gap_02")) || iParam0 == joaat("stt_prop_stunt_tube_gap_03")) || iParam0 == joaat("bkr_prop_biker_tube_gap_03")) || iParam0 == joaat("stt_prop_stunt_tube_qg")) || iParam0 == joaat("stt_prop_stunt_tube_hg")) || iParam0 == joaat("stt_prop_stunt_tube_jmp")) || iParam0 == joaat("stt_prop_stunt_tube_jmp2")) || iParam0 == joaat("stt_prop_stunt_tube_fn_01")) || iParam0 == joaat("stt_prop_stunt_tube_fn_02")) || iParam0 == joaat("stt_prop_stunt_tube_fn_03")) || iParam0 == joaat("stt_prop_stunt_tube_fn_04")) || iParam0 == joaat("stt_prop_stunt_tube_fn_05")) || iParam0 == joaat("ba_prop_battle_tube_fn_01")) || iParam0 == joaat("ba_prop_battle_tube_fn_02")) || iParam0 == joaat("ba_prop_battle_tube_fn_03")) || iParam0 == joaat("ba_prop_battle_tube_fn_04")) || iParam0 == joaat("ba_prop_battle_tube_fn_05")) || iParam0 == joaat("stt_prop_stunt_tube_ent")) || iParam0 == joaat("stt_prop_stunt_tube_end")) || iParam0 == joaat("sr_prop_sr_tube_end")) || iParam0 == joaat("stt_prop_track_tube_01")) || iParam0 == joaat("as_prop_as_tube_gap_03")) || iParam0 == joaat("as_prop_as_tube_xxs")) || iParam0 == joaat("stt_prop_tyre_wall_01")) || iParam0 == joaat("sum_prop_ac_tyre_wall_lit_01")) || iParam0 == joaat("stt_prop_tyre_wall_02")) || iParam0 == joaat("stt_prop_tyre_wall_03")) || iParam0 == joaat("stt_prop_tyre_wall_04")) || iParam0 == joaat("stt_prop_tyre_wall_05")) || iParam0 == joaat("stt_prop_tyre_wall_06")) || iParam0 == joaat("stt_prop_tyre_wall_07")) || iParam0 == joaat("stt_prop_tyre_wall_08")) || iParam0 == joaat("stt_prop_tyre_wall_09")) || iParam0 == joaat("stt_prop_tyre_wall_010")) || iParam0 == joaat("stt_prop_tyre_wall_011")) || iParam0 == joaat("stt_prop_tyre_wall_012")) || iParam0 == joaat("stt_prop_tyre_wall_013")) || iParam0 == joaat("stt_prop_tyre_wall_014")) || iParam0 == joaat("stt_prop_tyre_wall_015")) || iParam0 == joaat("stt_prop_tyre_wall_0r1")) || iParam0 == joaat("sum_prop_ac_tyre_wall_lit_0r1")) || iParam0 == joaat("stt_prop_tyre_wall_0r2")) || iParam0 == joaat("stt_prop_tyre_wall_0r3")) || iParam0 == joaat("stt_prop_tyre_wall_0r04")) || iParam0 == joaat("stt_prop_tyre_wall_0r05")) || iParam0 == joaat("stt_prop_tyre_wall_0r06")) || iParam0 == joaat("stt_prop_tyre_wall_0r07")) || iParam0 == joaat("stt_prop_tyre_wall_0r08")) || iParam0 == joaat("stt_prop_tyre_wall_0r09")) || iParam0 == joaat("stt_prop_tyre_wall_0r010")) || iParam0 == joaat("stt_prop_tyre_wall_0r011")) || iParam0 == joaat("stt_prop_tyre_wall_0r012")) || iParam0 == joaat("stt_prop_tyre_wall_0r013")) || iParam0 == joaat("stt_prop_tyre_wall_0r014")) || iParam0 == joaat("stt_prop_tyre_wall_0r015")) || iParam0 == joaat("stt_prop_tyre_wall_0r016")) || iParam0 == joaat("stt_prop_tyre_wall_0r017")) || iParam0 == joaat("stt_prop_tyre_wall_0r018")) || iParam0 == joaat("stt_prop_tyre_wall_0r019")) || iParam0 == joaat("stt_prop_tyre_wall_0l1")) || iParam0 == joaat("sum_prop_ac_tyre_wall_lit_0l1")) || iParam0 == joaat("stt_prop_tyre_wall_0l2")) || iParam0 == joaat("stt_prop_tyre_wall_0l3")) || iParam0 == joaat("stt_prop_tyre_wall_0l04")) || iParam0 == joaat("stt_prop_tyre_wall_0l05")) || iParam0 == joaat("stt_prop_tyre_wall_0l06")) || iParam0 == joaat("stt_prop_tyre_wall_0l07")) || iParam0 == joaat("stt_prop_tyre_wall_0l08")) || iParam0 == 1784795865) || iParam0 == joaat("stt_prop_tyre_wall_0l010")) || iParam0 == 1307595665) || iParam0 == joaat("stt_prop_tyre_wall_0l012")) || iParam0 == joaat("stt_prop_tyre_wall_0l013")) || iParam0 == joaat("stt_prop_tyre_wall_0l014")) || iParam0 == joaat("stt_prop_tyre_wall_0l015")) || iParam0 == joaat("stt_prop_tyre_wall_0l16")) || iParam0 == joaat("stt_prop_tyre_wall_0l17")) || iParam0 == joaat("stt_prop_tyre_wall_0l018")) || iParam0 == joaat("stt_prop_tyre_wall_0l019")) || iParam0 == joaat("stt_prop_tyre_wall_0l020")) || iParam0 == joaat("sum_prop_ac_tyre_wall_pit_l")) || iParam0 == joaat("sum_prop_ac_tyre_wall_pit_r")) || iParam0 == joaat("sum_prop_ac_tyre_wall_u_l")) || iParam0 == joaat("sum_prop_ac_tyre_wall_u_r")) || iParam0 == joaat("stt_prop_track_stop_sign")) || iParam0 == joaat("stt_prop_stunt_target_small")) || iParam0 == joaat("stt_prop_stunt_target")) || iParam0 == joaat("stt_prop_stunt_bowlpin_stand")) || iParam0 == joaat("stt_prop_stunt_landing_zone_01")) || iParam0 == joaat("stt_prop_hoop_tyre_01a")) || iParam0 == joaat("as_prop_as_stunt_target")) || iParam0 == joaat("as_prop_as_stunt_target_small")) || iParam0 == joaat("stt_prop_stunt_bblock_sml1")) || iParam0 == joaat("stt_prop_stunt_bblock_sml2")) || iParam0 == joaat("stt_prop_stunt_bblock_sml3")) || iParam0 == joaat("stt_prop_stunt_bblock_mdm1")) || iParam0 == joaat("stt_prop_stunt_bblock_mdm2")) || iParam0 == joaat("stt_prop_stunt_bblock_mdm3")) || iParam0 == joaat("stt_prop_stunt_bblock_lrg1")) || iParam0 == joaat("stt_prop_stunt_bblock_lrg2")) || iParam0 == joaat("stt_prop_stunt_bblock_lrg3")) || iParam0 == joaat("stt_prop_stunt_bblock_xl1")) || iParam0 == joaat("stt_prop_stunt_bblock_xl2")) || iParam0 == joaat("stt_prop_stunt_bblock_xl3")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_01")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_02")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_03")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_04")) || iParam0 == joaat("stt_prop_stunt_bblock_huge_05")) || iParam0 == joaat("stt_prop_stunt_bowling_ball")) || iParam0 == joaat("ar_prop_ar_ammu_sign")) || iParam0 == joaat("sr_mp_spec_races_ammu_sign")) || iParam0 == joaat("stt_prop_stunt_soccer_goal")) || iParam0 == joaat("stt_prop_stunt_track_start")) || iParam0 == joaat("stt_prop_stunt_track_start_02")) || iParam0 == joaat("stt_prop_stunt_track_st_01")) || iParam0 == joaat("stt_prop_stunt_track_st_02")) || iParam0 == joaat("stt_prop_stunt_track_exshort")) || iParam0 == joaat("stt_prop_stunt_track_short")) || iParam0 == joaat("stt_prop_stunt_track_straight")) || iParam0 == joaat("stt_prop_stunt_track_turn")) || iParam0 == joaat("stt_prop_stunt_track_sh15")) || iParam0 == joaat("stt_prop_stunt_track_sh30")) || iParam0 == joaat("xm3_prop_stunt_track_sh45")) || iParam0 == joaat("stt_prop_stunt_track_sh45_a")) || iParam0 == joaat("stt_prop_stunt_track_uturn")) || iParam0 == joaat("stt_prop_stunt_track_cutout")) || iParam0 == joaat("stt_prop_stunt_track_otake")) || iParam0 == joaat("stt_prop_stunt_track_fork")) || iParam0 == joaat("stt_prop_stunt_track_funnel")) || iParam0 == joaat("stt_prop_stunt_track_funlng")) || iParam0 == joaat("stt_prop_stunt_track_slope15")) || iParam0 == joaat("stt_prop_stunt_track_slope30")) || iParam0 == joaat("stt_prop_stunt_track_slope45")) || iParam0 == joaat("stt_prop_stunt_track_link")) || iParam0 == joaat("stt_prop_stunt_track_dwlink")) || iParam0 == joaat("stt_prop_stunt_track_dwlink_02")) || iParam0 == joaat("stt_prop_stunt_track_hill")) || iParam0 == joaat("stt_prop_stunt_track_hill2")) || iParam0 == joaat("stt_prop_stunt_track_bumps")) || iParam0 == joaat("stt_prop_stunt_track_jump")) || iParam0 == joaat("stt_prop_stunt_jump15")) || iParam0 == joaat("stt_prop_stunt_jump30")) || iParam0 == joaat("stt_prop_stunt_jump45")) || iParam0 == joaat("stt_prop_stunt_track_dwshort")) || iParam0 == joaat("stt_prop_stunt_track_dwsh15")) || iParam0 == joaat("stt_prop_stunt_track_dwturn")) || iParam0 == joaat("stt_prop_stunt_track_dwuturn")) || iParam0 == joaat("stt_prop_stunt_track_dwslope15")) || iParam0 == joaat("as_prop_as_dwslope30")) || iParam0 == joaat("stt_prop_stunt_track_dwslope45")) || iParam0 == joaat("stt_prop_track_tube_02")) || iParam0 == joaat("ba_prop_battle_track_exshort")) || iParam0 == joaat("ba_prop_battle_track_short")) || iParam0 == joaat("stt_prop_stunt_jump_s")) || iParam0 == joaat("stt_prop_stunt_jump_m")) || iParam0 == joaat("stt_prop_stunt_jump_l")) || iParam0 == joaat("stt_prop_stunt_jump_sb")) || iParam0 == joaat("stt_prop_stunt_jump_mb")) || iParam0 == joaat("stt_prop_stunt_jump_lb")) || iParam0 == joaat("stt_prop_ramp_jump_xs")) || iParam0 == joaat("stt_prop_ramp_jump_s")) || iParam0 == joaat("stt_prop_ramp_jump_m")) || iParam0 == joaat("stt_prop_ramp_jump_l")) || iParam0 == joaat("stt_prop_ramp_jump_xl")) || iParam0 == joaat("stt_prop_ramp_jump_xxl")) || iParam0 == joaat("stt_prop_track_jump_01a")) || iParam0 == joaat("stt_prop_track_jump_01b")) || iParam0 == joaat("stt_prop_track_jump_01c")) || iParam0 == joaat("stt_prop_track_jump_02a")) || iParam0 == joaat("stt_prop_track_jump_02b")) || iParam0 == joaat("stt_prop_track_jump_02c")) || iParam0 == joaat("stt_prop_ramp_adj_flip_s")) || iParam0 == joaat("stt_prop_ramp_adj_flip_sb")) || iParam0 == joaat("stt_prop_ramp_adj_flip_m")) || iParam0 == joaat("stt_prop_ramp_adj_flip_mb")) || iParam0 == joaat("stt_prop_stunt_ramp")) || iParam0 == joaat("stt_prop_stunt_wideramp")) || iParam0 == joaat("stt_prop_stunt_bblock_qp")) || iParam0 == joaat("stt_prop_stunt_bblock_qp2")) || iParam0 == joaat("stt_prop_stunt_bblock_qp3")) || iParam0 == joaat("stt_prop_stunt_bblock_hump_01")) || iParam0 == joaat("stt_prop_stunt_bblock_hump_02")) || iParam0 == joaat("bkr_prop_biker_jump_s")) || iParam0 == joaat("bkr_prop_biker_jump_m")) || iParam0 == joaat("bkr_prop_biker_jump_l")) || iParam0 == joaat("bkr_prop_biker_jump_sb")) || iParam0 == joaat("bkr_prop_biker_jump_mb")) || iParam0 == joaat("bkr_prop_biker_jump_lb")) || iParam0 == joaat("bkr_prop_biker_jump_01a")) || iParam0 == joaat("bkr_prop_biker_jump_01b")) || iParam0 == joaat("bkr_prop_biker_jump_01c")) || iParam0 == joaat("bkr_prop_biker_jump_02a")) || iParam0 == joaat("bkr_prop_biker_jump_02b")) || iParam0 == joaat("bkr_prop_biker_jump_02c")) || iParam0 == joaat("stt_prop_stunt_wideramp")) || iParam0 == joaat("imp_prop_impexp_bblock_qp3")) || iParam0 == joaat("bkr_prop_biker_bblock_qp2")) || iParam0 == joaat("bkr_prop_biker_bblock_qp")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_01")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_02")) || iParam0 == joaat("bkr_prop_biker_bblock_cor")) || iParam0 == joaat("bkr_prop_biker_bblock_cor_02")) || iParam0 == joaat("bkr_prop_biker_bblock_cor_03")) || iParam0 == joaat("stt_prop_wallride_05")) || iParam0 == joaat("stt_prop_ramp_adj_loop")) || iParam0 == joaat("stt_prop_ramp_multi_loop_rb")) || iParam0 == joaat("stt_prop_stunt_jump_loop")) || iParam0 == joaat("stt_prop_ramp_spiral_s")) || iParam0 == joaat("stt_prop_ramp_spiral_l_s")) || iParam0 == joaat("stt_prop_ramp_spiral_m")) || iParam0 == joaat("stt_prop_ramp_spiral_l_m")) || iParam0 == joaat("stt_prop_ramp_spiral_l")) || iParam0 == joaat("stt_prop_ramp_spiral_l_l")) || iParam0 == joaat("stt_prop_ramp_spiral_xxl")) || iParam0 == joaat("stt_prop_ramp_spiral_l_xxl")) || iParam0 == joaat("stt_prop_ramp_adj_hloop")) || iParam0 == joaat("stt_prop_wallride_01")) || iParam0 == joaat("stt_prop_wallride_01b")) || iParam0 == joaat("stt_prop_wallride_04")) || iParam0 == joaat("stt_prop_wallride_45r")) || iParam0 == joaat("stt_prop_wallride_45ra")) || iParam0 == joaat("stt_prop_wallride_45l")) || iParam0 == joaat("stt_prop_wallride_45la")) || iParam0 == joaat("stt_prop_wallride_90r")) || iParam0 == joaat("stt_prop_wallride_90rb")) || iParam0 == joaat("stt_prop_wallride_90l")) || iParam0 == joaat("stt_prop_wallride_90lb")) || iParam0 == joaat("stt_prop_wallride_02")) || iParam0 == joaat("stt_prop_wallride_02b")) || iParam0 == joaat("stt_prop_wallride_05b")) || iParam0 == joaat("bkr_prop_biker_bblock_sml1")) || iParam0 == joaat("bkr_prop_biker_bblock_sml2")) || iParam0 == joaat("bkr_prop_biker_bblock_sml3")) || iParam0 == joaat("bkr_prop_biker_bblock_mdm1")) || iParam0 == joaat("bkr_prop_biker_bblock_mdm2")) || iParam0 == joaat("bkr_prop_biker_bblock_mdm3")) || iParam0 == joaat("bkr_prop_biker_bblock_lrg1")) || iParam0 == joaat("bkr_prop_biker_bblock_lrg2")) || iParam0 == joaat("bkr_prop_biker_bblock_lrg3")) || iParam0 == joaat("bkr_prop_biker_bblock_xl1")) || iParam0 == joaat("bkr_prop_biker_bblock_xl2")) || iParam0 == joaat("bkr_prop_biker_bblock_xl3")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_01")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_02")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_03")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_04")) || iParam0 == joaat("bkr_prop_biker_bblock_huge_05")) || iParam0 == joaat("bkr_prop_biker_bblock_qp")) || iParam0 == joaat("bkr_prop_biker_bblock_qp2")) || iParam0 == joaat("imp_prop_impexp_bblock_qp3")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_01")) || iParam0 == joaat("bkr_prop_biker_bblock_hump_02")) || iParam0 == joaat("bkr_prop_biker_landing_zone_01")) || iParam0 == joaat("bkr_prop_biker_bowlpin_stand")) || iParam0 == joaat("bkr_prop_biker_target_small")) || iParam0 == joaat("bkr_prop_biker_target")) || iParam0 == joaat("sr_mp_spec_races_blimp_sign")) || iParam0 == joaat("sr_mp_spec_races_take_flight_sign")) || iParam0 == joaat("sr_mp_spec_races_ron_sign")) || iParam0 == joaat("sr_mp_spec_races_xero_sign")) || iParam0 == joaat("ar_prop_ar_tube_crn")) || iParam0 == joaat("ar_prop_ar_tube_crn_15d")) || iParam0 == joaat("ar_prop_ar_tube_crn_30d")) || iParam0 == joaat("ar_prop_ar_tube_crn_5d")) || iParam0 == joaat("ar_prop_ar_tube_crn2")) || iParam0 == joaat("ar_prop_ar_tube_cross")) || iParam0 == joaat("ar_prop_ar_tube_fork")) || iParam0 == joaat("ar_prop_ar_tube_hg")) || iParam0 == joaat("ar_prop_ar_tube_jmp")) || iParam0 == joaat("ar_prop_ar_tube_l")) || iParam0 == joaat("ar_prop_ar_tube_m")) || iParam0 == joaat("ar_prop_ar_tube_qg")) || iParam0 == joaat("ar_prop_ar_tube_s")) || iParam0 == joaat("ar_prop_ar_tube_xxs")) || iParam0 == joaat("ar_prop_ar_tube_xs")) || iParam0 == joaat("as_prop_as_tube_gap_02")) || iParam0 == joaat("ar_prop_ar_tube_4x_l")) || iParam0 == joaat("ar_prop_ar_tube_4x_m")) || iParam0 == joaat("ar_prop_ar_tube_4x_s")) || iParam0 == joaat("ar_prop_ar_tube_4x_xs")) || iParam0 == joaat("ar_prop_ar_tube_4x_xxs")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn2")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn_30d")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn_15d")) || iParam0 == joaat("ar_prop_ar_tube_4x_crn_5d")) || iParam0 == joaat("ar_prop_ar_tube_4x_gap_02")) || iParam0 == joaat("ar_prop_ar_tube_2x_l")) || iParam0 == joaat("ar_prop_ar_tube_2x_m")) || iParam0 == joaat("ar_prop_ar_tube_2x_s")) || iParam0 == joaat("ar_prop_ar_tube_2x_xs")) || iParam0 == joaat("ar_prop_ar_tube_2x_xxs")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn2")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn_30d")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn_15d")) || iParam0 == joaat("ar_prop_ar_tube_2x_crn_5d")) || iParam0 == joaat("ar_prop_ar_tube_2x_gap_02")) || iParam0 == joaat("ar_prop_ar_neon_gate_01a")) || iParam0 == joaat("ar_prop_ar_neon_gate_01b")) || iParam0 == joaat("ar_prop_ar_neon_gate_02a")) || iParam0 == joaat("ar_prop_ar_neon_gate_02b")) || iParam0 == joaat("ar_prop_ar_neon_gate_03a")) || iParam0 == joaat("ar_prop_ar_neon_gate_04a")) || iParam0 == joaat("ar_prop_ar_neon_gate_05a")) || iParam0 == joaat("ar_prop_ar_start_01a")) || iParam0 == joaat("ar_prop_inflategates_cp_loop")) || iParam0 == joaat("ar_prop_inflategates_cp")) || iParam0 == joaat("ar_prop_inflategates_cp_h1")) || iParam0 == joaat("ar_prop_inflategates_cp_h2")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_h2")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_h1")) || iParam0 == joaat("ar_prop_gate_cp_90d_h1")) || iParam0 == joaat("ar_prop_gate_cp_90d_h2")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_01a")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_01b")) || iParam0 == joaat("ar_prop_inflategates_cp_loop_01c")) || iParam0 == joaat("ar_prop_ig_sprunk_cp_b")) || iParam0 == joaat("ar_prop_ig_raine_cp_b")) || iParam0 == joaat("ar_prop_ig_flow_cp_b")) || iParam0 == joaat("ar_prop_ig_shark_cp_b")) || iParam0 == joaat("ar_prop_ig_jackal_cp_b")) || iParam0 == joaat("ar_prop_ig_metv_cp_b")) || iParam0 == joaat("ar_prop_ig_metv_cp_single")) || iParam0 == joaat("ar_prop_ig_jackal_cp_single")) || iParam0 == joaat("ar_prop_ig_shark_cp_single")) || iParam0 == joaat("ar_prop_ig_flow_cp_single")) || iParam0 == joaat("ar_prop_ig_raine_cp_single")) || iParam0 == joaat("ar_prop_ig_sprunk_cp_single")) || iParam0 == joaat("ar_prop_gate_cp_90d")) || iParam0 == joaat("ar_prop_gate_cp_90d_01a")) || iParam0 == joaat("ar_prop_gate_cp_90d_01b")) || iParam0 == joaat("ar_prop_gate_cp_90d_01c")) || iParam0 == joaat("ar_prop_ar_jump_loop")) || iParam0 == joaat("gr_prop_gr_target_5_01b")) || iParam0 == joaat("ch_prop_stunt_landing_zone_01a")) || iParam0 == joaat("sum_prop_archway_02")) || iParam0 == joaat("sum_prop_race_barrier_01_sec")) || iParam0 == joaat("sum_prop_race_barrier_02_sec")) || iParam0 == joaat("sum_prop_race_barrier_04_sec")) || iParam0 == joaat("sum_prop_race_barrier_08_sec")) || iParam0 == joaat("sum_prop_race_barrier_16_sec")) || iParam0 == joaat("sum_prop_barrier_ac_bend_05d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_15d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_30d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_45d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_90d")) || iParam0 == joaat("sum_prop_ac_long_barrier_05d")) || iParam0 == joaat("sum_prop_ac_long_barrier_15d")) || iParam0 == joaat("sum_prop_ac_long_barrier_30d")) || iParam0 == joaat("sum_prop_ac_long_barrier_45d")) || iParam0 == joaat("sum_prop_ac_long_barrier_90d")) || iParam0 == joaat("sum_prop_ac_short_barrier_05d")) || iParam0 == joaat("sum_prop_ac_short_barrier_15d")) || iParam0 == joaat("sum_prop_ac_short_barrier_30d")) || iParam0 == joaat("sum_prop_ac_short_barrier_45d")) || iParam0 == joaat("sum_prop_ac_short_barrier_90d")) || iParam0 == joaat("ch_prop_track_ch_bend_180d")) || iParam0 == joaat("sum_prop_track_ac_bend_bar_180d")) || iParam0 == joaat("ch_prop_track_bend_bar_lc")) || iParam0 == joaat("sum_prop_track_ac_bend_lc"))
 	{
 		switch (iParam1)
 		{
@@ -152761,7 +152761,7 @@ int func_1691(int iParam0, int iParam1)
 					return joaat("sum_prop_ac_rock_01e");
 				
 				case 23:
-					return -907252016;
+					return joaat("xm3_prop_xm3_prop_tree_01a");
 				
 				default:
 			}
@@ -152963,7 +152963,7 @@ int func_1691(int iParam0, int iParam1)
 					return joaat("prop_bikerset");
 				
 				case 64:
-					return 1288851068;
+					return joaat("reh_prop_reh_jammer_01a");
 				
 				default:
 			}
@@ -153243,10 +153243,10 @@ int func_1691(int iParam0, int iParam1)
 					return joaat("sum_prop_ac_aircon_02a");
 				
 				case 90:
-					return 875636249;
+					return joaat("xm3_prop_xm3_container_01d");
 				
 				case 91:
-					return 294396006;
+					return joaat("xm3_prop_xm3_spkr_wall_01a");
 				
 				default:
 			}
@@ -154568,7 +154568,7 @@ int func_1691(int iParam0, int iParam1)
 					return joaat("stt_prop_stunt_track_sh30");
 				
 				case 10:
-					return 1055253756;
+					return joaat("xm3_prop_stunt_track_sh45");
 				
 				case 11:
 					return joaat("stt_prop_stunt_track_sh45_a");
@@ -154955,7 +154955,7 @@ int func_1691(int iParam0, int iParam1)
 					return joaat("bkr_prop_weed_smallbag_01a");
 				
 				case 19:
-					return 1536058492;
+					return joaat("xm3_prop_xm3_shelves_01a");
 				
 				default:
 			}
@@ -155976,25 +155976,25 @@ int func_1691(int iParam0, int iParam1)
 					return joaat("reh_prop_reh_bomb_tech_01a");
 				
 				case 93:
-					return -1645352616;
+					return joaat("xm3_prop_xm3_walloverlay");
 				
 				case 94:
-					return -1968453349;
+					return joaat("xm3_prop_xm3_door_whs_01a");
 				
 				case 95:
-					return 875636249;
+					return joaat("xm3_prop_xm3_container_01d");
 				
 				case 96:
-					return 554268330;
+					return joaat("xm3_prop_xm3_tent_01a");
 				
 				case 97:
-					return -1031722861;
+					return joaat("xm3_prop_xm3_sign_plate_01a");
 				
 				case 98:
-					return -1336946248;
+					return joaat("xm3_prop_xm3_bag_grinder_01a");
 				
 				case 99:
-					return -1347301960;
+					return joaat("xm3_prop_xm3_box_pharma_01a");
 				
 				default:
 			}
@@ -156909,7 +156909,7 @@ int func_1693(int iParam0)
 	{
 		return 0;
 	}
-	if ((((((((((((((((((((((((((((((((((func_1695(iParam0) || iParam0 == joaat("sm_prop_smug_cover_01a")) || iParam0 == joaat("xm_prop_x17_cover_01")) || iParam0 == joaat("stt_prop_stunt_bowling_ball")) || iParam0 == joaat("ar_prop_ar_ammu_sign")) || iParam0 == joaat("sr_mp_spec_races_ammu_sign")) || iParam0 == joaat("gr_prop_inttruck_door_01")) || iParam0 == joaat("sum_prop_race_barrier_01_sec")) || iParam0 == joaat("sum_prop_race_barrier_02_sec")) || iParam0 == joaat("sum_prop_race_barrier_04_sec")) || iParam0 == joaat("sum_prop_race_barrier_08_sec")) || iParam0 == joaat("sum_prop_race_barrier_16_sec")) || iParam0 == joaat("sum_prop_barrier_ac_bend_05d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_15d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_30d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_45d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_90d")) || iParam0 == joaat("sum_prop_ac_long_barrier_05d")) || iParam0 == joaat("sum_prop_ac_long_barrier_15d")) || iParam0 == joaat("sum_prop_ac_long_barrier_30d")) || iParam0 == joaat("sum_prop_ac_long_barrier_45d")) || iParam0 == joaat("sum_prop_ac_long_barrier_90d")) || iParam0 == joaat("tr_prop_tr_container_01a")) || iParam0 == joaat("tr_prop_tr_container_01b")) || iParam0 == joaat("tr_prop_tr_container_01c")) || iParam0 == joaat("tr_prop_tr_container_01d")) || iParam0 == joaat("tr_prop_tr_container_01e")) || iParam0 == joaat("tr_prop_tr_container_01f")) || iParam0 == joaat("tr_prop_tr_container_01g")) || iParam0 == joaat("tr_prop_tr_container_01h")) || iParam0 == joaat("tr_prop_tr_container_01i")) || iParam0 == joaat("prop_container_03_ld")) || iParam0 == 1188944846) || func_1694(iParam0)) || func_1690(iParam0, 51))
+	if ((((((((((((((((((((((((((((((((((func_1695(iParam0) || iParam0 == joaat("sm_prop_smug_cover_01a")) || iParam0 == joaat("xm_prop_x17_cover_01")) || iParam0 == joaat("stt_prop_stunt_bowling_ball")) || iParam0 == joaat("ar_prop_ar_ammu_sign")) || iParam0 == joaat("sr_mp_spec_races_ammu_sign")) || iParam0 == joaat("gr_prop_inttruck_door_01")) || iParam0 == joaat("sum_prop_race_barrier_01_sec")) || iParam0 == joaat("sum_prop_race_barrier_02_sec")) || iParam0 == joaat("sum_prop_race_barrier_04_sec")) || iParam0 == joaat("sum_prop_race_barrier_08_sec")) || iParam0 == joaat("sum_prop_race_barrier_16_sec")) || iParam0 == joaat("sum_prop_barrier_ac_bend_05d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_15d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_30d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_45d")) || iParam0 == joaat("sum_prop_barrier_ac_bend_90d")) || iParam0 == joaat("sum_prop_ac_long_barrier_05d")) || iParam0 == joaat("sum_prop_ac_long_barrier_15d")) || iParam0 == joaat("sum_prop_ac_long_barrier_30d")) || iParam0 == joaat("sum_prop_ac_long_barrier_45d")) || iParam0 == joaat("sum_prop_ac_long_barrier_90d")) || iParam0 == joaat("tr_prop_tr_container_01a")) || iParam0 == joaat("tr_prop_tr_container_01b")) || iParam0 == joaat("tr_prop_tr_container_01c")) || iParam0 == joaat("tr_prop_tr_container_01d")) || iParam0 == joaat("tr_prop_tr_container_01e")) || iParam0 == joaat("tr_prop_tr_container_01f")) || iParam0 == joaat("tr_prop_tr_container_01g")) || iParam0 == joaat("tr_prop_tr_container_01h")) || iParam0 == joaat("tr_prop_tr_container_01i")) || iParam0 == joaat("prop_container_03_ld")) || iParam0 == joaat("xm3_prop_xm3_drug_pkg_01a")) || func_1694(iParam0)) || func_1690(iParam0, 51))
 	{
 		return 1;
 	}
@@ -157388,7 +157388,7 @@ int func_1709(int iParam0, bool bParam1)
 	iVar0 = ENTITY::GET_ENTITY_MODEL(iParam0);
 	if (bParam1)
 	{
-		if (iVar0 == 2082893870)
+		if (iVar0 == joaat("xm3_prop_xm3_crate_01a"))
 		{
 			return 1;
 		}

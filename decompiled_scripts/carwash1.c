@@ -39065,11 +39065,11 @@ int func_370(int iParam0)
 	{
 		return 1;
 	}
-	if ((iVar0 == 1748565021 && VEHICLE::GET_VEHICLE_MOD(iParam0, 10) >= 0) && VEHICLE::GET_VEHICLE_MOD(iParam0, 10) <= 4)
+	if ((iVar0 == joaat("entity3") && VEHICLE::GET_VEHICLE_MOD(iParam0, 10) >= 0) && VEHICLE::GET_VEHICLE_MOD(iParam0, 10) <= 4)
 	{
 		return 1;
 	}
-	if (iVar0 == 996383885 && VEHICLE::GET_VEHICLE_MOD(iParam0, 10) == 0)
+	if (iVar0 == joaat("boor") && VEHICLE::GET_VEHICLE_MOD(iParam0, 10) == 0)
 	{
 		return 1;
 	}

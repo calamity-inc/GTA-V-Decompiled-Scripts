@@ -6216,7 +6216,7 @@ char* func_122(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 465894841:
+		case joaat("weapon_pistolxm3"):
 			if (bParam1)
 			{
 				return "WTU_PISTOLXM3";
@@ -6227,7 +6227,7 @@ char* func_122(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 1703483498:
+		case joaat("weapon_candycane"):
 			if (bParam1)
 			{
 				return "WTU_CANDYCANE";
@@ -6238,7 +6238,7 @@ char* func_122(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case -22923932:
+		case joaat("weapon_railgunxm3"):
 			if (bParam1)
 			{
 				return "WTU_RAILGUNXM3";

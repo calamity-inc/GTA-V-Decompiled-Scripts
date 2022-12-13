@@ -89530,9 +89530,9 @@ int func_336(int iParam0)
 			case joaat("weapon_metaldetector"):
 			case joaat("weapon_precisionrifle"):
 			case joaat("weapon_tacticalrifle"):
-			case 465894841:
-			case 1703483498:
-			case -22923932:
+			case joaat("weapon_pistolxm3"):
+			case joaat("weapon_candycane"):
+			case joaat("weapon_railgunxm3"):
 				return 1;
 				break;
 			}
@@ -102682,7 +102682,7 @@ char* func_626(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 465894841:
+		case joaat("weapon_pistolxm3"):
 			if (bParam1)
 			{
 				return "WTU_PISTOLXM3";
@@ -102693,7 +102693,7 @@ char* func_626(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 1703483498:
+		case joaat("weapon_candycane"):
 			if (bParam1)
 			{
 				return "WTU_CANDYCANE";
@@ -102704,7 +102704,7 @@ char* func_626(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case -22923932:
+		case joaat("weapon_railgunxm3"):
 			if (bParam1)
 			{
 				return "WTU_RAILGUNXM3";
@@ -114164,15 +114164,15 @@ int func_881(int iParam0)
 			return 94;
 			break;
 		
-		case 465894841:
+		case joaat("weapon_pistolxm3"):
 			return 95;
 			break;
 		
-		case 1703483498:
+		case joaat("weapon_candycane"):
 			return 96;
 			break;
 		
-		case -22923932:
+		case joaat("weapon_railgunxm3"):
 			return 97;
 			break;
 	}

@@ -16394,9 +16394,9 @@ void func_372(var uParam0, var uParam1)
 	{
 		iVar4 = func_384(Global_794709.f_4[*uParam1 /*88*/].f_65, Global_794709.f_4[*uParam1 /*88*/].f_68, 0, 0, 0);
 		iVar5 = func_383(Global_794709.f_159989[*uParam1 /*13*/].f_1);
-		func_380(iVar4, iVar5, joaat("XP_MULTIPLIER"), &fVar0, 1);
+		func_380(iVar4, iVar5, joaat("xp_multiplier"), &fVar0, 1);
 		func_380(iVar4, iVar5, -31280827, &fVar3, 1);
-		func_380(iVar4, iVar5, joaat("CASH_MULTIPLIER"), &fVar1, 1);
+		func_380(iVar4, iVar5, joaat("cash_multiplier"), &fVar1, 1);
 		func_380(iVar4, iVar5, -1245438974, &fVar2, 1);
 		if (fVar3 > 0f)
 		{
@@ -16899,7 +16899,7 @@ int func_382(int iParam0)
 			break;
 		
 		case 1:
-			return joaat("MP_Global");
+			return joaat("mp_global");
 			break;
 		
 		case 2:

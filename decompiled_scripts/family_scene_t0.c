@@ -52634,9 +52634,9 @@ int func_408(int iParam0)
 			case joaat("weapon_metaldetector"):
 			case joaat("weapon_precisionrifle"):
 			case joaat("weapon_tacticalrifle"):
-			case 465894841:
-			case 1703483498:
-			case -22923932:
+			case joaat("weapon_pistolxm3"):
+			case joaat("weapon_candycane"):
+			case joaat("weapon_railgunxm3"):
 				return 1;
 				break;
 			}

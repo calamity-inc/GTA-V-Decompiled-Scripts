@@ -8722,7 +8722,7 @@ int func_206(int iParam0)
 			return 31;
 			break;
 	}
-	if (func_208(iParam0) || iParam0 == -1576586413)
+	if (func_208(iParam0) || iParam0 == joaat("brickade2"))
 	{
 		return 38;
 	}
@@ -10263,17 +10263,17 @@ int func_207(int iParam0)
 		case joaat("sentinel4"):
 		case joaat("conada"):
 		case joaat("omnisegt"):
-		case -1249788006:
-		case -1035489563:
-		case -1627077503:
-		case 1748565021:
-		case 2100457220:
-		case 996383885:
-		case -131348178:
-		case 268758436:
-		case 1550581940:
-		case -1933242328:
-		case -461850249:
+		case joaat("eudora"):
+		case joaat("surfer3"):
+		case joaat("journey2"):
+		case joaat("entity3"):
+		case joaat("panthere"):
+		case joaat("boor"):
+		case joaat("everon2"):
+		case joaat("tulip2"):
+		case joaat("issi8"):
+		case joaat("broadway"):
+		case joaat("tahoma"):
 			return 1;
 			break;
 	}
@@ -10292,8 +10292,8 @@ int func_208(int iParam0)
 		case joaat("champion"):
 		case joaat("greenwood"):
 		case joaat("omnisegt"):
-		case 669204833:
-		case 1076201208:
+		case joaat("virtue"):
+		case joaat("r300"):
 			return 1;
 			break;
 	}
@@ -31198,7 +31198,7 @@ int func_419(int iParam0, int iParam1, int iParam2, int iParam3)
 		}
 		if (func_449(iParam1, iParam3))
 		{
-			if (iVar0 == -1576586413 || iVar0 == 1384502824)
+			if (iVar0 == joaat("brickade2") || iVar0 == joaat("manchez3"))
 			{
 				return 1;
 			}
@@ -31518,14 +31518,14 @@ int func_428(int iParam0)
 		case joaat("burrito2"):
 			return 1;
 		
-		case -1576586413:
+		case joaat("brickade2"):
 			if (func_415(PLAYER::PLAYER_ID()))
 			{
 				return 1;
 			}
 			break;
 		
-		case -1627077503:
+		case joaat("journey2"):
 			return 1;
 			break;
 	}
@@ -48364,35 +48364,35 @@ int func_499(int iParam0)
 			return 8;
 			break;
 		
-		case -1518694851:
+		case joaat("horn_cnote_c0"):
 			return 9;
 			break;
 		
-		case 685937731:
+		case joaat("horn_cnote_d0"):
 			return 10;
 			break;
 		
-		case 1107182854:
+		case joaat("horn_cnote_e0"):
 			return 11;
 			break;
 		
-		case 1795528252:
+		case joaat("horn_cnote_f0"):
 			return 12;
 			break;
 		
-		case 963431690:
+		case joaat("horn_cnote_g0"):
 			return 13;
 			break;
 		
-		case 7683469:
+		case joaat("horn_cnote_a0"):
 			return 14;
 			break;
 		
-		case -1485567420:
+		case joaat("horn_cnote_b0"):
 			return 15;
 			break;
 		
-		case joaat("HORN_CNOTE_C1"):
+		case joaat("horn_cnote_c1"):
 			return 16;
 			break;
 		
@@ -48741,22 +48741,22 @@ int func_502(int iParam0)
 		case joaat("ruiner4"):
 		case joaat("sentinel4"):
 		case joaat("omnisegt"):
-		case 1384502824:
-		case -1576586413:
-		case -1249788006:
-		case -1386336041:
-		case -1035489563:
-		case -1627077503:
-		case 1748565021:
-		case 2100457220:
-		case 996383885:
-		case -131348178:
-		case 268758436:
-		case 1076201208:
-		case 669204833:
-		case 1550581940:
-		case -1933242328:
-		case -461850249:
+		case joaat("manchez3"):
+		case joaat("brickade2"):
+		case joaat("eudora"):
+		case joaat("powersurge"):
+		case joaat("surfer3"):
+		case joaat("journey2"):
+		case joaat("entity3"):
+		case joaat("panthere"):
+		case joaat("boor"):
+		case joaat("everon2"):
+		case joaat("tulip2"):
+		case joaat("r300"):
+		case joaat("virtue"):
+		case joaat("issi8"):
+		case joaat("broadway"):
+		case joaat("tahoma"):
 			return 1;
 			break;
 	}

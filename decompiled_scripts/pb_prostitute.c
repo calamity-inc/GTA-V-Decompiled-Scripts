@@ -3742,7 +3742,7 @@ int func_93(int iParam0)
 				}
 				break;
 			
-			case 1748565021:
+			case joaat("entity3"):
 				if (VEHICLE::GET_VEHICLE_MOD(iParam0, 10) == 0)
 				{
 					return 0;

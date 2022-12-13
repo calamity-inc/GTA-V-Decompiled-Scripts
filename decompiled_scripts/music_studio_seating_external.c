@@ -68126,15 +68126,15 @@ int func_326(int iParam0)
 			return 94;
 			break;
 		
-		case 465894841:
+		case joaat("weapon_pistolxm3"):
 			return 95;
 			break;
 		
-		case 1703483498:
+		case joaat("weapon_candycane"):
 			return 96;
 			break;
 		
-		case -22923932:
+		case joaat("weapon_railgunxm3"):
 			return 97;
 			break;
 	}
@@ -68572,15 +68572,15 @@ int func_329(int iParam0)
 			return 498;
 			break;
 		
-		case 465894841:
+		case joaat("weapon_pistolxm3"):
 			return 500;
 			break;
 		
-		case 1703483498:
+		case joaat("weapon_candycane"):
 			return 502;
 			break;
 		
-		case -22923932:
+		case joaat("weapon_railgunxm3"):
 			return 504;
 			break;
 	}

@@ -102285,31 +102285,31 @@ void func_1349(var uParam0, int iParam1, int iParam2, var uParam3)
 			switch (iParam2)
 			{
 				case 0:
-					*uParam3 = -1746523451;
+					*uParam3 = joaat("xm3_prop_xm3_sheet_acid_01a");
 					break;
 				
 				case 1:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("xm3_prop_xm3_pipette_01a");
 					break;
 				
 				case 2:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("xm3_prop_xm3_pipette_01a");
 					break;
 				
 				case 3:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("xm3_prop_xm3_pipette_01a");
 					break;
 				
 				case 4:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("xm3_prop_xm3_pipette_01a");
 					break;
 				
 				case 5:
-					*uParam3 = 1923966299;
+					*uParam3 = joaat("xm3_prop_xm3_pipette_01a");
 					break;
 				
 				case 6:
-					*uParam3 = 2137507795;
+					*uParam3 = joaat("xm3_prop_xm3_rack_vial_01a");
 					break;
 			}
 			break;
@@ -102318,19 +102318,19 @@ void func_1349(var uParam0, int iParam1, int iParam2, var uParam3)
 			switch (iParam2)
 			{
 				case 0:
-					*uParam3 = 860085123;
+					*uParam3 = joaat("xm3_prop_xm3_clipboard_sl");
 					break;
 				
 				case 1:
-					*uParam3 = 1321344860;
+					*uParam3 = joaat("xm3_prop_xm3_lsd_bottle_02b");
 					break;
 				
 				case 2:
-					*uParam3 = 1337892921;
+					*uParam3 = joaat("xm3_prop_xm3_lsd_bottle_03a");
 					break;
 				
 				case 3:
-					*uParam3 = 1337892921;
+					*uParam3 = joaat("xm3_prop_xm3_lsd_bottle_03a");
 					break;
 			}
 			break;
@@ -102339,7 +102339,7 @@ void func_1349(var uParam0, int iParam1, int iParam2, var uParam3)
 			switch (iParam2)
 			{
 				case 0:
-					*uParam3 = -327664799;
+					*uParam3 = joaat("xm3_prop_xm3_clipboard_cc");
 					break;
 				
 				case 1:
@@ -105283,15 +105283,15 @@ int func_1397(int iParam0)
 			break;
 		
 		case 83:
-			iVar0 = 620276966;
+			iVar0 = joaat("g_m_m_fooliganz_01");
 			break;
 		
 		case 84:
-			iVar0 = -485249910;
+			iVar0 = joaat("ig_fooliganz_01");
 			break;
 		
 		case 85:
-			iVar0 = 944592636;
+			iVar0 = joaat("ig_fooliganz_02");
 			break;
 		
 		case 86:
@@ -105299,19 +105299,19 @@ int func_1397(int iParam0)
 			break;
 		
 		case 87:
-			iVar0 = -244824852;
+			iVar0 = joaat("ig_dax");
 			break;
 		
 		case 88:
-			iVar0 = -131188087;
+			iVar0 = joaat("ig_luchadora");
 			break;
 		
 		case 89:
-			iVar0 = -1612882478;
+			iVar0 = joaat("ig_labrat");
 			break;
 		
 		case 90:
-			iVar0 = -109594583;
+			iVar0 = joaat("ig_acidlabcook");
 			break;
 	}
 	return iVar0;

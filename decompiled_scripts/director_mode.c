@@ -5191,7 +5191,7 @@ int func_57(int iParam0)
 		case joaat("a_c_poodle"):
 		case joaat("a_c_pug"):
 		case joaat("a_c_rabbit_01"):
-		case 1553815115:
+		case joaat("a_c_rabbit_02"):
 		case joaat("a_c_retriever"):
 		case joaat("a_c_rottweiler"):
 		case joaat("a_c_shepherd"):
@@ -6009,15 +6009,15 @@ int func_63(int iParam0)
 			return 94;
 			break;
 		
-		case 465894841:
+		case joaat("weapon_pistolxm3"):
 			return 95;
 			break;
 		
-		case 1703483498:
+		case joaat("weapon_candycane"):
 			return 96;
 			break;
 		
-		case -22923932:
+		case joaat("weapon_railgunxm3"):
 			return 97;
 			break;
 	}
@@ -6305,9 +6305,9 @@ int func_68(int iParam0)
 			case joaat("weapon_metaldetector"):
 			case joaat("weapon_precisionrifle"):
 			case joaat("weapon_tacticalrifle"):
-			case 465894841:
-			case 1703483498:
-			case -22923932:
+			case joaat("weapon_pistolxm3"):
+			case joaat("weapon_candycane"):
+			case joaat("weapon_railgunxm3"):
 				return 1;
 				break;
 			}
@@ -7027,15 +7027,15 @@ int func_73(int iParam0)
 			break;
 		
 		case 148:
-			return 465894841;
+			return joaat("weapon_pistolxm3");
 			break;
 		
 		case 149:
-			return 1703483498;
+			return joaat("weapon_candycane");
 			break;
 		
 		case 150:
-			return -22923932;
+			return joaat("weapon_railgunxm3");
 			break;
 	}
 	return 0;
@@ -14698,52 +14698,52 @@ int func_173(int iParam0, int iParam1)
 			return joaat("conada");
 		
 		case 583:
-			return -1576586413;
+			return joaat("brickade2");
 		
 		case 584:
-			return 1384502824;
+			return joaat("manchez3");
 		
 		case 585:
-			return 2100457220;
+			return joaat("panthere");
 		
 		case 586:
-			return -461850249;
+			return joaat("tahoma");
 		
 		case 587:
-			return 268758436;
+			return joaat("tulip2");
 		
 		case 588:
-			return -131348178;
+			return joaat("everon2");
 		
 		case 589:
-			return -1627077503;
+			return joaat("journey2");
 		
 		case 590:
-			return -1035489563;
+			return joaat("surfer3");
 		
 		case 591:
-			return 669204833;
+			return joaat("virtue");
 		
 		case 592:
-			return 1076201208;
+			return joaat("r300");
 		
 		case 593:
-			return 1550581940;
+			return joaat("issi8");
 		
 		case 594:
-			return 1748565021;
+			return joaat("entity3");
 		
 		case 595:
-			return -1386336041;
+			return joaat("powersurge");
 		
 		case 596:
-			return 996383885;
+			return joaat("boor");
 		
 		case 597:
-			return -1933242328;
+			return joaat("broadway");
 		
 		case 598:
-			return -1249788006;
+			return joaat("eudora");
 		
 		default:
 	}
@@ -137248,7 +137248,7 @@ int func_970(int iParam0, int iParam1, int iParam2)
 		return 0;
 	}
 	iVar12 = func_977(iVar0);
-	if (iVar12 != -1 || iVar0 == -1576586413)
+	if (iVar12 != -1 || iVar0 == joaat("brickade2"))
 	{
 		if (func_971(iVar0))
 		{
@@ -137267,25 +137267,25 @@ int func_971(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case -1627077503:
+		case joaat("journey2"):
 			return func_974(0, 0);
 		
-		case -1035489563:
+		case joaat("surfer3"):
 			return func_974(4, 0);
 		
-		case 669204833:
+		case joaat("virtue"):
 			return func_974(10, 0);
 		
 		case joaat("hotring"):
 			return func_357(11843, -1, 0) >= 10;
 		
-		case -131348178:
+		case joaat("everon2"):
 			return func_357(11843, -1, 0) >= 20;
 		
 		case joaat("taxi"):
 			return func_642(158, -1);
 		
-		case -1576586413:
+		case joaat("brickade2"):
 			return func_972(0);
 		
 		default:
@@ -137418,25 +137418,25 @@ int func_977(int iParam0)
 {
 	switch (iParam0)
 	{
-		case -1627077503:
+		case joaat("journey2"):
 			return 0;
 		
-		case -1035489563:
+		case joaat("surfer3"):
 			return 1;
 		
-		case 669204833:
+		case joaat("virtue"):
 			return 2;
 		
 		case joaat("hotring"):
 			return 3;
 		
-		case -131348178:
+		case joaat("everon2"):
 			return 4;
 		
 		case joaat("taxi"):
 			return 5;
 		
-		case -1576586413:
+		case joaat("brickade2"):
 			return 6;
 		
 		default:
@@ -141761,7 +141761,7 @@ void func_1038(int iParam0, var uParam1, bool bParam2, bool bParam3)
 				iVar4++;
 			}
 		}
-		else if (uParam1->f_66 == -1035489563)
+		else if (uParam1->f_66 == joaat("surfer3"))
 		{
 			iVar5 = 1;
 			while (iVar5 <= 2)

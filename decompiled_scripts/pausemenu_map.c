@@ -629,13 +629,13 @@ void func_6(int iParam0, char* sParam1, char* sParam2, int iParam3, char* sParam
 						iVar10 = func_15(iVar0);
 					}
 				}
-				func_9(iVar9, iVar10, joaat("XP_MULTIPLIER"), &fVar1, 1);
+				func_9(iVar9, iVar10, joaat("xp_multiplier"), &fVar1, 1);
 				func_9(iVar9, iVar10, -31280827, &fVar4, 1);
-				func_9(iVar9, iVar10, joaat("CASH_MULTIPLIER"), &fVar2, 1);
+				func_9(iVar9, iVar10, joaat("cash_multiplier"), &fVar2, 1);
 				func_9(iVar9, iVar10, -1245438974, &fVar5, 1);
 				if (func_8(iParam12))
 				{
-					func_9(iVar9, iVar10, -1258787971, &fVar3, 1);
+					func_9(iVar9, iVar10, joaat("ap_multiplier"), &fVar3, 1);
 				}
 				else
 				{
@@ -1017,7 +1017,7 @@ int func_11(int iParam0)
 			break;
 		
 		case 1:
-			return joaat("MP_Global");
+			return joaat("mp_global");
 			break;
 		
 		case 2:

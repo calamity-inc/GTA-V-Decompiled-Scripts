@@ -28592,56 +28592,56 @@ int func_791(int iParam0, bool bParam1)
 		switch (iParam0)
 		{
 			case 21:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -1535523991, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("heist_pacific_standard_job_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9132;
 			
 			case 22:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -1697146966, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("heist_prison_break_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9129;
 			
 			case 23:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -478542030, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("heist_humane_labs_raid_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9130;
 			
 			case 24:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), joaat("HEIST_SERIES_A_FUNDING_CASH_REWARD"), &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("heist_series_a_funding_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9131;
 			
 			case 25:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -736791602, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("heist_fleeca_job_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9128;
 			
 			case 26:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), 419800513, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), 419800513, &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9133;
 			
 			case 27:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), -829097151, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), -829097151, &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9134;
 			
 			case 28:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("MP_Global"), 287993374, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), 287993374, &iVar0))
 				{
 					return iVar0;
 				}

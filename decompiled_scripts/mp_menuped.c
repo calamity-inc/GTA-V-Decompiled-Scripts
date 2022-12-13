@@ -772,7 +772,7 @@ int func_23(int iParam0, var* uParam1, char* sParam2, int iParam3, int iParam4, 
 	}
 	if (iParam0 < 32)
 	{
-		if (iParam3 == 1 && NETWORK::NETWORK_TRY_ACCESS_TUNABLE_BOOL_HASH(joaat("MP_Global"), 2064649238, true))
+		if (iParam3 == 1 && NETWORK::NETWORK_TRY_ACCESS_TUNABLE_BOOL_HASH(joaat("mp_global"), 2064649238, true))
 		{
 			return iParam0;
 		}

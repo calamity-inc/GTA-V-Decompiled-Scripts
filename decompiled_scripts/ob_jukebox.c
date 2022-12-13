@@ -323,7 +323,7 @@ void __EntryFunction__()
 			}
 			else if (iLocal_117 == 130)
 			{
-				iLocal_112 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(Local_136, 2f, 827492794, true, false, false);
+				iLocal_112 = OBJECT::GET_CLOSEST_OBJECT_OF_TYPE(Local_136, 2f, joaat("xm3_prop_xm3_jukebox_01a"), true, false, false);
 			}
 			else
 			{
