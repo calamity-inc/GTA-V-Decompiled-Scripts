@@ -144,7 +144,7 @@ void __EntryFunction__()
 {
 	int iVar0;
 	
-	sLocal_0 = "1.58.11";
+	sLocal_0 = "1.58.12";
 	iLocal_3 = -1;
 	iLocal_4 = -1;
 	iLocal_24 = -1;
@@ -8635,6 +8635,24 @@ void func_358()
 			Global_1966153 = 0f;
 			Global_1966154 = 180f;
 			break;
+		
+		case joaat("tropos"):
+			Global_1966149 = 0f;
+			Global_1966150 = -1.52f;
+			Global_1966151 = 0.745f;
+			Global_1966152 = -2.6f;
+			Global_1966153 = 0f;
+			Global_1966154 = 180f;
+			break;
+		
+		case joaat("ztype"):
+			Global_1966149 = 0f;
+			Global_1966150 = -2.23f;
+			Global_1966151 = 0.685f;
+			Global_1966152 = -6.7f;
+			Global_1966153 = 0f;
+			Global_1966154 = 180f;
+			break;
 	}
 }
 
@@ -8772,6 +8790,14 @@ void func_359()
 		
 		case joaat("baller7"):
 			Global_1966137 = 1.17f;
+			break;
+		
+		case joaat("windsor2"):
+			Global_1966137 = 0.7f;
+			break;
+		
+		case joaat("postlude"):
+			Global_1966137 = 0.625f;
 			break;
 	}
 }
