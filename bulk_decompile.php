@@ -21,6 +21,7 @@ $descriptorspec = array(
 	2 => array("pipe", "w"),
 );
 $decompiled_scripts = [];
+$failed_scripts = [];
 $procs = [];
 $last_out = "";
 
@@ -54,7 +55,7 @@ if($total_scripts == 0)
 
 function manageprocs()
 {
-	global $out_dir, $native_tables_dir, $cls, $total_scripts, $scripts_to_decompile, $decompiled_scripts, $procs, $last_out;
+	global $out_dir, $native_tables_dir, $cls, $total_scripts, $scripts_to_decompile, $decompiled_scripts, $failed_scripts, $procs, $last_out;
 	$script_names = [];
 	foreach($procs as $script => $proc)
 	{
@@ -68,13 +69,18 @@ function manageprocs()
 			unset($scripts_to_decompile[$script]);
 			unset($procs[$script]);
 			$decompiled_scripts[$script] = true;
+			$src = "scripts/{$script}_ysc/{$script}.ysc.full.c";
+			if (!file_exists($src))
+			{
+				array_push($failed_scripts, $script);
+			}
 			// move decompiled script
 			$dest = $out_dir."/{$script}.c";
 			if(is_file($dest))
 			{
 				unlink($dest);
 			}
-			rename("scripts/{$script}_ysc/{$script}.ysc.full.c", $dest);
+			rename($src, $dest);
 			// move native table
 			$dest = $native_tables_dir."/{$script}.txt";
 			if(is_file($dest))
@@ -118,6 +124,11 @@ while(count($procs) > 0)
 	usleep(50000);
 }
 echo $cls;
+
+if (count($failed_scripts) != 0)
+{
+	echo "Failed scripts: ".join(", ", $failed_scripts)."\n";
+}
 
 if($full_decompile)
 {
