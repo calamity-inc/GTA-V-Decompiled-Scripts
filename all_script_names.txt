@@ -69,6 +69,7 @@ am_lowrider_int
 am_lsia_take_off_cinematic
 am_luxury_showroom
 am_mission_launch
+am_mp_acid_lab
 am_mp_arc_cab_manager
 am_mp_arcade_claw_crane
 am_mp_arcade_fortune_teller
@@ -102,6 +103,8 @@ am_mp_hacker_truck
 am_mp_hangar
 am_mp_ie_warehouse
 am_mp_island
+am_mp_juggalo_hideout
+am_mp_multistorey_garage
 am_mp_music_studio
 am_mp_nightclub
 am_mp_orbital_cannon
@@ -403,8 +406,12 @@ flowstartaccept
 flyunderbridges
 fm_bj_race_controler
 fm_capture_creator
+fm_content_acid_lab_sell
+fm_content_acid_lab_setup
+fm_content_acid_lab_source
 fm_content_ammunation
 fm_content_auto_shop_delivery
+fm_content_bank_shootout
 fm_content_bar_resupply
 fm_content_bike_shop_delivery
 fm_content_business_battles
@@ -414,7 +421,9 @@ fm_content_club_management
 fm_content_club_odd_jobs
 fm_content_club_source
 fm_content_clubhouse_contracts
+fm_content_convoy
 fm_content_crime_scene
+fm_content_drug_lab_work
 fm_content_drug_vehicle
 fm_content_export_cargo
 fm_content_golden_gun
@@ -429,6 +438,7 @@ fm_content_mp_intro
 fm_content_parachuter
 fm_content_payphone_hit
 fm_content_phantom_car
+fm_content_robbery
 fm_content_security_contract
 fm_content_sightseeing
 fm_content_skydive
@@ -436,9 +446,12 @@ fm_content_slasher
 fm_content_smuggler_plane
 fm_content_smuggler_trail
 fm_content_source_research
+fm_content_stash_house
+fm_content_taxi_driver
 fm_content_tuner_robbery
 fm_content_vehicle_list
 fm_content_vip_contract_1
+fm_content_xmas_mugger
 fm_deathmatch_controler
 fm_deathmatch_creator
 fm_hideout_controler
@@ -456,6 +469,7 @@ fm_mission_controller
 fm_mission_creator
 fm_race_controler
 fm_race_creator
+fm_street_dealer
 fm_survival_controller
 fm_survival_creator
 fmmc_launcher
@@ -602,6 +616,7 @@ hunting_ambient
 idlewarper
 ingamehud
 initial
+item_ownership_output
 jewelry_heist
 jewelry_prep1a
 jewelry_prep1b
@@ -611,6 +626,8 @@ josh1
 josh2
 josh3
 josh4
+juggalo_hideout_carmod
+juggalo_hideout_seating
 lamar1
 landing_pre_startup
 laptop_trigger
@@ -699,6 +716,8 @@ mpstatsinit
 mptestbed
 mrsphilips1
 mrsphilips2
+multistorey_garage_ext_seating
+multistorey_garage_seating
 murdermystery
 music_studio_seating_external
 music_studio_seating
@@ -888,15 +907,7 @@ scaleformprofiling
 scaleformtest
 scene_builder
 sclub_front_bouncer
-script_debug.rpf___pilot_school
-script_debug.rpf___pilotschool_dlc_startup
-script_debug.rpf_pilot_school
-script_debug.rpf_pilotschool_dlc_startup
 script_metrics
-script_release.rpf___pilot_school
-script_release.rpf___pilotschool_dlc_startup
-script_release.rpf_pilot_school
-script_release.rpf_pilotschool_dlc_startup
 scripted_cam_editor
 scriptplayground
 scripttest1
