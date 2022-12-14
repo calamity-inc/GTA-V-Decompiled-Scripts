@@ -7857,29 +7857,29 @@ int func_171(int iParam0)
 {
 	switch (iParam0)
 	{
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_02_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_03_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_04_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_05_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_06_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_07_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_08_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_09_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_10_SLIDE"):
-		case joaat("COMPONENT_PISTOL_MK2_CAMO_IND_01_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_02_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_03_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_04_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_05_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_06_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_07_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_08_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_09_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_10_SLIDE"):
-		case joaat("COMPONENT_SNSPISTOL_MK2_CAMO_IND_01_SLIDE"):
-		case 1011473080:
+		case joaat("component_pistol_mk2_camo_slide"):
+		case joaat("component_pistol_mk2_camo_02_slide"):
+		case joaat("component_pistol_mk2_camo_03_slide"):
+		case joaat("component_pistol_mk2_camo_04_slide"):
+		case joaat("component_pistol_mk2_camo_05_slide"):
+		case joaat("component_pistol_mk2_camo_06_slide"):
+		case joaat("component_pistol_mk2_camo_07_slide"):
+		case joaat("component_pistol_mk2_camo_08_slide"):
+		case joaat("component_pistol_mk2_camo_09_slide"):
+		case joaat("component_pistol_mk2_camo_10_slide"):
+		case joaat("component_pistol_mk2_camo_ind_01_slide"):
+		case joaat("component_snspistol_mk2_camo_slide"):
+		case joaat("component_snspistol_mk2_camo_02_slide"):
+		case joaat("component_snspistol_mk2_camo_03_slide"):
+		case joaat("component_snspistol_mk2_camo_04_slide"):
+		case joaat("component_snspistol_mk2_camo_05_slide"):
+		case joaat("component_snspistol_mk2_camo_06_slide"):
+		case joaat("component_snspistol_mk2_camo_07_slide"):
+		case joaat("component_snspistol_mk2_camo_08_slide"):
+		case joaat("component_snspistol_mk2_camo_09_slide"):
+		case joaat("component_snspistol_mk2_camo_10_slide"):
+		case joaat("component_snspistol_mk2_camo_ind_01_slide"):
+		case joaat("component_pistol_mk2_varmod_xm3_slide"):
 			return 1;
 			break;
 	}
@@ -8350,7 +8350,7 @@ int func_173(int iParam0, bool bParam1)
 					break;
 				
 				case 4:
-					iVar0 = 330905451;
+					iVar0 = joaat("component_pumpshotgun_varmod_xm3");
 					break;
 			}
 			break;
@@ -8757,43 +8757,43 @@ int func_173(int iParam0, bool bParam1)
 			switch (bParam1)
 			{
 				case 0:
-					iVar0 = 716207715;
+					iVar0 = joaat("component_bat_varmod_xm3");
 					break;
 				
 				case 1:
-					iVar0 = 446271089;
+					iVar0 = joaat("component_bat_varmod_xm3_01");
 					break;
 				
 				case 2:
-					iVar0 = 1045616099;
+					iVar0 = joaat("component_bat_varmod_xm3_02");
 					break;
 				
 				case 3:
-					iVar0 = 1336277129;
+					iVar0 = joaat("component_bat_varmod_xm3_03");
 					break;
 				
 				case 4:
-					iVar0 = -513369076;
+					iVar0 = joaat("component_bat_varmod_xm3_04");
 					break;
 				
 				case 5:
-					iVar0 = -447700000;
+					iVar0 = joaat("component_bat_varmod_xm3_05");
 					break;
 				
 				case 6:
-					iVar0 = -149207179;
+					iVar0 = joaat("component_bat_varmod_xm3_06");
 					break;
 				
 				case 7:
-					iVar0 = 166784288;
+					iVar0 = joaat("component_bat_varmod_xm3_07");
 					break;
 				
 				case 8:
-					iVar0 = 2068729789;
+					iVar0 = joaat("component_bat_varmod_xm3_08");
 					break;
 				
 				case 9:
-					iVar0 = 1761389338;
+					iVar0 = joaat("component_bat_varmod_xm3_09");
 					break;
 			}
 			break;
@@ -95041,95 +95041,95 @@ int func_476(int iParam0)
 	switch (iParam0)
 	{
 		case joaat("component_pistol_mk2_camo"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_SLIDE");
+			return joaat("component_pistol_mk2_camo_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_02"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_02_SLIDE");
+			return joaat("component_pistol_mk2_camo_02_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_03"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_03_SLIDE");
+			return joaat("component_pistol_mk2_camo_03_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_04"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_04_SLIDE");
+			return joaat("component_pistol_mk2_camo_04_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_05"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_05_SLIDE");
+			return joaat("component_pistol_mk2_camo_05_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_06"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_06_SLIDE");
+			return joaat("component_pistol_mk2_camo_06_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_07"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_07_SLIDE");
+			return joaat("component_pistol_mk2_camo_07_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_08"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_08_SLIDE");
+			return joaat("component_pistol_mk2_camo_08_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_09"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_09_SLIDE");
+			return joaat("component_pistol_mk2_camo_09_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_10"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_10_SLIDE");
+			return joaat("component_pistol_mk2_camo_10_slide");
 			break;
 		
 		case joaat("component_pistol_mk2_camo_ind_01"):
-			return joaat("COMPONENT_PISTOL_MK2_CAMO_IND_01_SLIDE");
+			return joaat("component_pistol_mk2_camo_ind_01_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_SLIDE");
+			return joaat("component_snspistol_mk2_camo_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_02"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_02_SLIDE");
+			return joaat("component_snspistol_mk2_camo_02_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_03"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_03_SLIDE");
+			return joaat("component_snspistol_mk2_camo_03_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_04"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_04_SLIDE");
+			return joaat("component_snspistol_mk2_camo_04_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_05"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_05_SLIDE");
+			return joaat("component_snspistol_mk2_camo_05_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_06"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_06_SLIDE");
+			return joaat("component_snspistol_mk2_camo_06_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_07"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_07_SLIDE");
+			return joaat("component_snspistol_mk2_camo_07_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_08"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_08_SLIDE");
+			return joaat("component_snspistol_mk2_camo_08_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_09"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_09_SLIDE");
+			return joaat("component_snspistol_mk2_camo_09_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_10"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_10_SLIDE");
+			return joaat("component_snspistol_mk2_camo_10_slide");
 			break;
 		
 		case joaat("component_snspistol_mk2_camo_ind_01"):
-			return joaat("COMPONENT_SNSPISTOL_MK2_CAMO_IND_01_SLIDE");
+			return joaat("component_snspistol_mk2_camo_ind_01_slide");
 			break;
 		
-		case 1141184690:
-			return 1011473080;
+		case joaat("component_pistol_mk2_varmod_xm3"):
+			return joaat("component_pistol_mk2_varmod_xm3_slide");
 			break;
 	}
 	return 0;
@@ -95205,7 +95205,7 @@ int func_478(int iParam0)
 		case joaat("component_pistol_mk2_camo_09"):
 		case joaat("component_pistol_mk2_camo_10"):
 		case joaat("component_pistol_mk2_camo_ind_01"):
-		case 1141184690:
+		case joaat("component_pistol_mk2_varmod_xm3"):
 		case joaat("component_smg_mk2_camo"):
 		case joaat("component_smg_mk2_camo_02"):
 		case joaat("component_smg_mk2_camo_03"):

@@ -32848,7 +32848,7 @@ void func_768(int iParam0, int iParam1, bool bParam2)
 
 int func_769()
 {
-	return 503494624;
+	return joaat("component_pistolxm3_supp");
 }
 
 void func_770(int iParam0, int iParam1)
