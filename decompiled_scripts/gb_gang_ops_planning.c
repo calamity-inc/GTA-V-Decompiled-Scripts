@@ -28627,21 +28627,21 @@ int func_791(int iParam0, bool bParam1)
 				return Global_262145.f_9128;
 			
 			case 26:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), 419800513, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("gangops_the_iaa_job_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9133;
 			
 			case 27:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), -829097151, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("gangops_the_submarine_job_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}
 				return Global_262145.f_9134;
 			
 			case 28:
-				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), 287993374, &iVar0))
+				if (NETWORK::NETWORK_ACCESS_TUNABLE_INT_HASH(joaat("mp_global"), joaat("gangops_the_missile_silo_job_cash_reward"), &iVar0))
 				{
 					return iVar0;
 				}

@@ -96953,7 +96953,7 @@ void func_868(int iParam0, int iParam1)
 	Global_262145.f_8726 = 0;
 	Global_262145.f_8727 = 0;
 	func_872(iParam0, iParam1, joaat("cash_reward_bet_stake_gift"), &(Global_262145.f_8729), 1);
-	func_872(iParam0, iParam1, -228877647, &(Global_262145.f_8730), 1);
+	func_872(iParam0, iParam1, joaat("armour_reward_gift"), &(Global_262145.f_8730), 1);
 	func_869(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_dm"), &(Global_262145.f_8719), 1);
 	func_869(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_races_car"), &(Global_262145.f_8720), 1);
 	func_869(iParam0, iParam1, joaat("toggle_on_bet_stake_gift_races_cycle"), &(Global_262145.f_8721), 1);
