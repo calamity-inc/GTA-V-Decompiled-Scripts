@@ -2334,7 +2334,7 @@ int func_56(int iParam0, bool bParam1)
 
 var func_57()
 {
-	return Global_2683862.f_19;
+	return Global_2683864.f_19;
 }
 
 bool func_58(int iParam0)
@@ -2344,7 +2344,7 @@ bool func_58(int iParam0)
 
 var func_59()
 {
-	return Global_2683862.f_18;
+	return Global_2683864.f_18;
 }
 
 bool func_60()
@@ -2846,7 +2846,7 @@ void func_77(var uParam0, int iParam1, bool bParam2)
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_2793044.f_4690, 26))
+		if (BitTest(Global_2793046.f_4690, 26))
 		{
 			return;
 		}

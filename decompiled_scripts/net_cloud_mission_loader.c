@@ -331,10 +331,10 @@ void __EntryFunction__()
 					Global_2625315.f_29 = Local_160.f_68;
 					Global_2625315.f_30 = { Local_160.f_22 };
 					Global_2625315.f_46 = { Local_160.f_38 };
-					Global_2683862.f_5 = iVar30;
-					Global_2683862.f_6 = iVar30;
-					Global_2683862.f_7 = iVar30;
-					Global_2683862.f_8 = iVar30;
+					Global_2683864.f_5 = iVar30;
+					Global_2683864.f_6 = iVar30;
+					Global_2683864.f_7 = iVar30;
+					Global_2683864.f_8 = iVar30;
 					Global_2629262 = { Local_160 };
 				}
 				else
@@ -1577,13 +1577,13 @@ int func_24(int iParam0)
 		iVar1 = func_25();
 		if (iVar1 > -1)
 		{
-			Global_2804739 = 0;
+			Global_2804741 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2804739 = 1;
+			Global_2804741 = 1;
 		}
 	}
 	return iVar0;
@@ -2990,11 +2990,11 @@ char* func_87()
 
 int func_88()
 {
-	if (Global_2691794)
+	if (Global_2691796)
 	{
 		return 32;
 	}
-	return (32 - Global_2691795);
+	return (32 - Global_2691797);
 }
 
 Vector3 func_89(int iParam0)
@@ -3375,7 +3375,7 @@ void func_108()
 
 bool func_109()
 {
-	return Global_2692733.f_4;
+	return Global_2692735.f_4;
 }
 
 int func_110()
@@ -3419,7 +3419,7 @@ int func_112()
 
 bool func_113()
 {
-	return Global_2695031;
+	return Global_2695033;
 }
 
 bool func_114()
@@ -3584,8 +3584,8 @@ bool func_119()
 
 void func_120()
 {
-	Global_2692733.f_8 = 0;
-	Global_2692733.f_7 = 0;
+	Global_2692735.f_8 = 0;
+	Global_2692735.f_7 = 0;
 }
 
 int func_121(var uParam0, char* sParam1, int* iParam2, int iParam3, bool bParam4, int iParam5, bool bParam6, int iParam7, bool bParam8, bool bParam9, bool bParam10, bool bParam11, bool bParam12, bool bParam13)
@@ -3775,7 +3775,7 @@ int func_121(var uParam0, char* sParam1, int* iParam2, int iParam3, bool bParam4
 
 void func_122()
 {
-	Global_2683862.f_43.f_57 = 1;
+	Global_2683864.f_43.f_57 = 1;
 }
 
 int func_123()
@@ -3813,27 +3813,27 @@ void func_124(int iParam0)
 
 void func_125()
 {
-	MISC::SET_BIT(&(Global_2683862.f_2), 3);
+	MISC::SET_BIT(&(Global_2683864.f_2), 3);
 }
 
 bool func_126()
 {
-	return BitTest(Global_2683862.f_2, 3);
+	return BitTest(Global_2683864.f_2, 3);
 }
 
 bool func_127()
 {
-	return BitTest(Global_2684799.f_1.f_2809, 8);
+	return BitTest(Global_2684801.f_1.f_2809, 8);
 }
 
 void func_128()
 {
-	MISC::SET_BIT(&Global_2683862, 4);
+	MISC::SET_BIT(&Global_2683864, 4);
 }
 
 void func_129()
 {
-	MISC::SET_BIT(&Global_2683862, 28);
+	MISC::SET_BIT(&Global_2683864, 28);
 }
 
 int func_130(struct<3> Param0)
@@ -4505,8 +4505,8 @@ int func_152(var uParam0, char* sParam1, int iParam2, bool bParam3, bool bParam4
 									uParam0->f_31 = -1;
 								}
 							}
-							Global_2684799.f_4312.f_3 = NETWORK::UGC_GET_CONTENT_RATING_NEGATIVE_COUNT(0, 0);
-							Global_2684799.f_4312.f_2 = NETWORK::UGC_GET_CONTENT_RATING_POSITIVE_COUNT(0, 0);
+							Global_2684801.f_4312.f_3 = NETWORK::UGC_GET_CONTENT_RATING_NEGATIVE_COUNT(0, 0);
+							Global_2684801.f_4312.f_2 = NETWORK::UGC_GET_CONTENT_RATING_POSITIVE_COUNT(0, 0);
 							if (Global_4718592.f_114294 == 1 || Global_4718592.f_114294 == 2)
 							{
 								StringCopy(&(Global_4718592.f_113700), func_87(), 64);
@@ -4581,8 +4581,8 @@ int func_152(var uParam0, char* sParam1, int iParam2, bool bParam3, bool bParam4
 						sVar1 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 						iVar2 = DATAFILE::DATADICT_GET_DICT(sVar1, "mission");
 						iVar3 = DATAFILE::DATADICT_GET_DICT(iVar2, "gen");
-						StringCopy(&(Global_2672505.f_3550), NETWORK::UGC_GET_CONTENT_NAME(0), 32);
-						Global_2672505.f_3550.f_8 = DATAFILE::DATADICT_GET_INT(iVar3, "type");
+						StringCopy(&(Global_2672505.f_3551), NETWORK::UGC_GET_CONTENT_NAME(0), 32);
+						Global_2672505.f_3551.f_8 = DATAFILE::DATADICT_GET_INT(iVar3, "type");
 						uParam0->f_17 = NETWORK::UGC_GET_CONTENT_HAS_PLAYER_RECORD(0);
 						*uParam0 = 1;
 						func_120();
@@ -5565,7 +5565,7 @@ void func_160(var uParam0, bool bParam1)
 
 bool func_161()
 {
-	return Global_2683862.f_719;
+	return Global_2683864.f_719;
 }
 
 int func_162()
@@ -5579,22 +5579,22 @@ int func_162()
 
 var func_163()
 {
-	return BitTest(Global_2683862, 1);
+	return BitTest(Global_2683864, 1);
 }
 
 var func_164()
 {
-	return BitTest(Global_2683862, 2);
+	return BitTest(Global_2683864, 2);
 }
 
 var func_165()
 {
-	return BitTest(Global_2683862, 20);
+	return BitTest(Global_2683864, 20);
 }
 
 var func_166()
 {
-	return Global_2683862.f_698;
+	return Global_2683864.f_698;
 }
 
 int func_167(int iParam0)
@@ -5842,7 +5842,7 @@ int func_175(var uParam0, int iParam1, bool bParam2, bool bParam3)
 
 void func_176()
 {
-	MISC::SET_BIT(&(Global_2683862.f_43.f_4), 7);
+	MISC::SET_BIT(&(Global_2683864.f_43.f_4), 7);
 }
 
 int func_177()
@@ -5943,12 +5943,12 @@ int func_182(struct<3> Param0)
 	{
 		return 1;
 	}
-	if (Global_2765947)
+	if (Global_2765949)
 	{
 		iVar0 = 0;
 		while (iVar0 < 3)
 		{
-			if (OBJECT::IS_POINT_IN_ANGLED_AREA(Param0, Global_2765947.f_1[iVar0 /*3*/], Global_2765947.f_11[iVar0 /*3*/], Global_2765947.f_21[iVar0], false, true))
+			if (OBJECT::IS_POINT_IN_ANGLED_AREA(Param0, Global_2765949.f_1[iVar0 /*3*/], Global_2765949.f_11[iVar0 /*3*/], Global_2765949.f_21[iVar0], false, true))
 			{
 				return 1;
 			}
@@ -6088,13 +6088,13 @@ void func_184(int iParam0, struct<16> Param1)
 {
 	if (iParam0 == 0)
 	{
-		StringCopy(&Global_2696972, "", 64);
+		StringCopy(&Global_2696974, "", 64);
 	}
 	else
 	{
-		Global_2696972 = { Param1 };
+		Global_2696974 = { Param1 };
 	}
-	Global_2696971 = iParam0;
+	Global_2696973 = iParam0;
 }
 
 int func_185(var uParam0, char* sParam1)
@@ -6124,12 +6124,12 @@ bool func_186()
 
 bool func_187()
 {
-	return Global_2683862.f_43.f_55;
+	return Global_2683864.f_43.f_55;
 }
 
 int func_188()
 {
-	return Global_2694977;
+	return Global_2694979;
 }
 
 bool func_189()
@@ -6936,7 +6936,7 @@ void func_213(int iParam0)
 
 bool func_214()
 {
-	return BitTest(Global_2684799.f_1.f_2809, 5);
+	return BitTest(Global_2684801.f_1.f_2809, 5);
 }
 
 bool func_215(int iParam0)
@@ -37270,21 +37270,21 @@ void func_397(char* sParam0, int iParam1, bool bParam2)
 	}
 	if (Global_4718592 == 0)
 	{
-		if (Global_2683862.f_669.f_11 != 0 && Global_4718592.f_1200 != Global_2683862.f_669.f_11)
+		if (Global_2683864.f_669.f_11 != 0 && Global_4718592.f_1200 != Global_2683864.f_669.f_11)
 		{
 			if (!Global_262145.f_4736 && func_62(Global_4718592.f_166301))
 			{
 				iVar305 = func_414();
-				if (Global_2683862.f_669.f_11 < iVar305)
+				if (Global_2683864.f_669.f_11 < iVar305)
 				{
-					Global_2683862.f_669.f_11 = iVar305;
+					Global_2683864.f_669.f_11 = iVar305;
 					if (PLAYER::PLAYER_ID() != -1)
 					{
-						Global_1890444[PLAYER::PLAYER_ID() /*129*/] = Global_2683862.f_669.f_11;
+						Global_1890444[PLAYER::PLAYER_ID() /*129*/] = Global_2683864.f_669.f_11;
 					}
 				}
 			}
-			Global_4718592.f_1200 = Global_2683862.f_669.f_11;
+			Global_4718592.f_1200 = Global_2683864.f_669.f_11;
 			Global_4718592.f_1199 = Global_4718592.f_1200;
 		}
 		else if ((func_411() || func_409()) && func_408())
@@ -40150,7 +40150,7 @@ int func_409()
 
 var func_410()
 {
-	return Global_2683862.f_19;
+	return Global_2683864.f_19;
 }
 
 int func_411()
@@ -40184,7 +40184,7 @@ int func_412(int iParam0)
 
 var func_413()
 {
-	return Global_2683862.f_17;
+	return Global_2683864.f_17;
 }
 
 int func_414()
@@ -40208,7 +40208,7 @@ int func_414()
 
 bool func_415()
 {
-	return BitTest(Global_2683862.f_669.f_1, 0);
+	return BitTest(Global_2683864.f_669.f_1, 0);
 }
 
 struct<16> func_416()
@@ -42201,14 +42201,14 @@ void func_452()
 {
 	if (func_453())
 	{
-		Global_2692733.f_8 = 1;
+		Global_2692735.f_8 = 1;
 	}
-	Global_2692733.f_7 = 1;
+	Global_2692735.f_7 = 1;
 }
 
 bool func_453()
 {
-	return BitTest(Global_2683862.f_2, 11);
+	return BitTest(Global_2683864.f_2, 11);
 }
 
 int func_454(int iParam0)
@@ -47828,17 +47828,17 @@ bool func_570()
 
 var func_571()
 {
-	return BitTest(Global_2683862, 4);
+	return BitTest(Global_2683864, 4);
 }
 
 var func_572()
 {
-	return BitTest(Global_2683862, 28);
+	return BitTest(Global_2683864, 28);
 }
 
 var func_573()
 {
-	return Global_2683862.f_692;
+	return Global_2683864.f_692;
 }
 
 void func_574()
@@ -47859,12 +47859,12 @@ void func_574()
 
 void func_575()
 {
-	MISC::CLEAR_BIT(&Global_2683862, 4);
+	MISC::CLEAR_BIT(&Global_2683864, 4);
 }
 
 void func_576()
 {
-	MISC::CLEAR_BIT(&Global_2683862, 28);
+	MISC::CLEAR_BIT(&Global_2683864, 28);
 }
 
 void func_577(bool bParam0, bool bParam1, bool bParam2)

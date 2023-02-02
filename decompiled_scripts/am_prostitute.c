@@ -321,7 +321,7 @@ void func_5()
 	struct<2> Var0;
 	int iVar2;
 	
-	Var0.f_0 = -1763294690;
+	Var0.f_0 = -1215008560;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	iVar2 = func_6(1, 1);
 	if (iVar2 != 0)
@@ -1059,7 +1059,7 @@ int func_36()
 	{
 		return 1;
 	}
-	if (Global_2696915)
+	if (Global_2696917)
 	{
 		return 1;
 	}
@@ -1109,7 +1109,7 @@ int func_37()
 
 int func_38()
 {
-	switch (Global_2697019)
+	switch (Global_2697021)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1126,7 +1126,7 @@ int func_39()
 
 bool func_40()
 {
-	return Global_2683862.f_698;
+	return Global_2683864.f_698;
 }
 
 int func_41(int iParam0)
@@ -1140,12 +1140,12 @@ int func_41(int iParam0)
 
 bool func_42()
 {
-	return Global_2694524;
+	return Global_2694526;
 }
 
 bool func_43()
 {
-	return Global_2683862.f_693;
+	return Global_2683864.f_693;
 }
 
 void func_44()
@@ -1176,7 +1176,7 @@ void func_45()
 	{
 		PLAYER::FORCE_CLEANUP_FOR_ALL_THREADS_WITH_THIS_NAME("pb_prostitute", 1);
 	}
-	Global_2793044.f_4 = 0;
+	Global_2793046.f_4 = 0;
 	func_46();
 }
 
@@ -1187,9 +1187,9 @@ void func_46()
 
 void func_47()
 {
-	if (Global_2672505.f_946.f_10)
+	if (Global_2672505.f_947.f_10)
 	{
-		Global_2672505.f_946.f_10 = 0;
+		Global_2672505.f_947.f_10 = 0;
 	}
 }
 

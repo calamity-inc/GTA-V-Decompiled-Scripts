@@ -782,7 +782,7 @@ void func_4()
 				STREAMING::REQUEST_IPL("xm3_warehouse_grnd");
 			}
 		}
-		if (Global_2764890)
+		if (Global_2764892)
 		{
 			if (STREAMING::IS_IPL_ACTIVE("xs_arena_banners_ipl"))
 			{
@@ -906,16 +906,16 @@ void func_6(int iParam0, bool bParam1)
 		}
 		if (!bParam1)
 		{
-			if (Global_2802789.f_93[iParam0])
+			if (Global_2802791.f_93[iParam0])
 			{
-				Global_2802789.f_93[iParam0] = 0;
-				Global_2802789.f_136 = (Global_2802789.f_136 + -1);
+				Global_2802791.f_93[iParam0] = 0;
+				Global_2802791.f_136 = (Global_2802791.f_136 + -1);
 			}
-			if (Global_2802789.f_136 <= 0)
+			if (Global_2802791.f_136 <= 0)
 			{
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(func_8());
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(func_7());
-				Global_2802789.f_136 = 0;
+				Global_2802791.f_136 = 0;
 			}
 		}
 	}
@@ -1014,7 +1014,7 @@ int func_16(int iParam0)
 
 var func_17()
 {
-	return Global_2683862.f_19;
+	return Global_2683864.f_19;
 }
 
 void func_18()
@@ -1029,7 +1029,7 @@ void func_18()
 
 bool func_19()
 {
-	return Global_2696070;
+	return Global_2696072;
 }
 
 void func_20()
@@ -9375,11 +9375,11 @@ void func_93()
 	{
 		return;
 	}
-	if (Global_2694521)
+	if (Global_2694523)
 	{
 		func_89();
 		func_105(0);
-		Global_2694521 = 0;
+		Global_2694523 = 0;
 	}
 	if (STREAMING::IS_NEW_LOAD_SCENE_ACTIVE() && (!STREAMING::IS_PLAYER_SWITCH_IN_PROGRESS() || STREAMING::GET_PLAYER_SWITCH_STATE() != 5))
 	{
@@ -9618,7 +9618,7 @@ void func_97()
 
 bool func_98()
 {
-	return Global_2683862.f_691;
+	return Global_2683864.f_691;
 }
 
 void func_99()
@@ -10232,7 +10232,7 @@ void func_108()
 	{
 		if (((!Global_113648.f_7263.f_426 || BitTest(iLocal_46, 0)) || NETWORK::NETWORK_IS_GAME_IN_PROGRESS()) || Global_38615)
 		{
-			if (!Global_2696069)
+			if (!Global_2696071)
 			{
 				if (BitTest(iLocal_46, 0) || Global_38615)
 				{
@@ -10273,22 +10273,22 @@ int func_109()
 
 var func_110()
 {
-	return Global_2683862.f_843;
+	return Global_2683864.f_843;
 }
 
 var func_111()
 {
-	return Global_2683862.f_693;
+	return Global_2683864.f_693;
 }
 
 var func_112()
 {
-	return Global_2683862.f_706;
+	return Global_2683864.f_706;
 }
 
 var func_113()
 {
-	return BitTest(Global_2683862, 21);
+	return BitTest(Global_2683864, 21);
 }
 
 int func_114()

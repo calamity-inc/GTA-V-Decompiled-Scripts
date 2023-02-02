@@ -773,7 +773,7 @@ int func_18()
 
 bool func_19()
 {
-	return Global_2695031;
+	return Global_2695033;
 }
 
 struct<4> func_20(var uParam0)

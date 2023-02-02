@@ -407,7 +407,7 @@ void __EntryFunction__()
 	Local_351 = { 0f, 0f, -3.96f };
 	Local_338 = { ScriptParam_0.f_1[0 /*3*/] };
 	Local_338 = { 349.9853f, -997.8344f, -99.1952f };
-	if ((PLAYER::HAS_FORCE_CLEANUP_OCCURRED(18) || func_84()) || Global_2793044.f_1947)
+	if ((PLAYER::HAS_FORCE_CLEANUP_OCCURRED(18) || func_84()) || Global_2793046.f_1947)
 	{
 		func_83();
 	}
@@ -794,9 +794,9 @@ void func_3(int iParam0)
 
 void func_4()
 {
-	if (Global_2672505.f_946.f_10)
+	if (Global_2672505.f_947.f_10)
 	{
-		Global_2672505.f_946.f_10 = 0;
+		Global_2672505.f_947.f_10 = 0;
 	}
 }
 
@@ -892,7 +892,7 @@ void func_13(int iParam0, int iParam1)
 
 void func_14()
 {
-	Global_2793044.f_4629 = 0;
+	Global_2793046.f_4629 = 0;
 }
 
 void func_15()
@@ -1384,11 +1384,11 @@ void func_29()
 {
 	struct<3> Var0;
 	
-	Global_2672505.f_1023 = 0;
 	Global_2672505.f_1024 = 0;
-	Global_2672505.f_1025 = { 9999.9f, 9999.9f, 9999.9f };
-	Global_2672505.f_1030 = -1;
-	Global_2672505.f_1031 = 0;
+	Global_2672505.f_1025 = 0;
+	Global_2672505.f_1026 = { 9999.9f, 9999.9f, 9999.9f };
+	Global_2672505.f_1031 = -1;
+	Global_2672505.f_1032 = 0;
 	Global_2635559.f_2692 = { Var0 };
 }
 
@@ -1519,7 +1519,7 @@ int func_35()
 
 int func_36()
 {
-	if (BitTest(Global_1853910[PLAYER::PLAYER_ID() /*862*/].f_861, 2) && !Global_2684799.f_2846.f_216 == -1)
+	if (BitTest(Global_1853910[PLAYER::PLAYER_ID() /*862*/].f_861, 2) && !Global_2684801.f_2846.f_216 == -1)
 	{
 		return 1;
 	}
@@ -1546,9 +1546,9 @@ bool func_38(char* sParam0)
 
 void func_39()
 {
-	if (!Global_2672505.f_946.f_10)
+	if (!Global_2672505.f_947.f_10)
 	{
-		Global_2672505.f_946.f_10 = 1;
+		Global_2672505.f_947.f_10 = 1;
 	}
 }
 
@@ -2027,7 +2027,7 @@ int func_61()
 
 int func_62()
 {
-	return Global_2694553;
+	return Global_2694555;
 }
 
 int func_63()
@@ -2072,7 +2072,7 @@ int func_66()
 	{
 		return 1;
 	}
-	if (Global_2696915)
+	if (Global_2696917)
 	{
 		return 1;
 	}
@@ -2122,7 +2122,7 @@ int func_67()
 
 int func_68()
 {
-	switch (Global_2697019)
+	switch (Global_2697021)
 	{
 		case 0:
 			return joaat("freemode");
@@ -2139,7 +2139,7 @@ int func_69()
 
 bool func_70()
 {
-	return Global_2683862.f_698;
+	return Global_2683864.f_698;
 }
 
 int func_71(int iParam0)
@@ -2153,12 +2153,12 @@ int func_71(int iParam0)
 
 bool func_72()
 {
-	return Global_2694524;
+	return Global_2694526;
 }
 
 bool func_73()
 {
-	return Global_2683862.f_693;
+	return Global_2683864.f_693;
 }
 
 int func_74()

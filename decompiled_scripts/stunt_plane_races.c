@@ -7240,7 +7240,7 @@ var func_115(int iParam0, int iParam1)
 
 bool func_116(int iParam0)
 {
-	return func_117(&(Global_2672505.f_183), iParam0);
+	return func_117(&(Global_2672505.f_184), iParam0);
 }
 
 var func_117(var uParam0, var uParam1)
@@ -9915,7 +9915,7 @@ void func_209(var uParam0, int iParam1, bool bParam2)
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_2793044.f_4690, 26))
+		if (BitTest(Global_2793046.f_4690, 26))
 		{
 			return;
 		}
@@ -10598,7 +10598,7 @@ int func_227(int iParam0, bool bParam1)
 
 var func_228()
 {
-	return Global_2683862.f_19;
+	return Global_2683864.f_19;
 }
 
 bool func_229(int iParam0)
@@ -10608,7 +10608,7 @@ bool func_229(int iParam0)
 
 var func_230()
 {
-	return Global_2683862.f_18;
+	return Global_2683864.f_18;
 }
 
 bool func_231()
@@ -14265,7 +14265,7 @@ void func_376(var uParam0, int iParam1)
 	{
 		func_377(&(Global_2103068.f_49));
 	}
-	Global_2793044.f_4062 = 0;
+	Global_2793046.f_4062 = 0;
 }
 
 void func_377(var uParam0)
@@ -16537,7 +16537,7 @@ bool func_457()
 
 var func_458()
 {
-	return Global_2692733.f_3;
+	return Global_2692735.f_3;
 }
 
 int func_459(int iParam0)
@@ -16948,7 +16948,7 @@ int func_470(int iParam0, var uParam1, var uParam2, int iParam3, int iParam4, bo
 		}
 		if (!bParam6)
 		{
-			if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && Global_2692733.f_3)
+			if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS() && Global_2692735.f_3)
 			{
 				STATS::LEADERBOARDS2_WRITE_DATA_FOR_EVENT_TYPE(&Var0, &(Global_1935368.f_10));
 			}
@@ -19586,7 +19586,7 @@ int func_489()
 
 bool func_490()
 {
-	return Global_2695031;
+	return Global_2695033;
 }
 
 bool func_491()
@@ -25175,7 +25175,7 @@ void func_558(int iParam0)
 
 void func_559()
 {
-	Global_2793044.f_4629 = 0;
+	Global_2793046.f_4629 = 0;
 }
 
 void func_560(bool bParam0)

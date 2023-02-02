@@ -460,7 +460,7 @@ void func_2(int iParam0)
 
 bool func_3()
 {
-	return Global_2672505.f_2513[0 /*80*/].f_1 != 0;
+	return Global_2672505.f_2514[0 /*80*/].f_1 != 0;
 }
 
 bool func_4(bool bParam0)
@@ -887,7 +887,7 @@ void func_26()
 	{
 		if (func_31(0))
 		{
-			if (!MISC::IS_STRING_NULL_OR_EMPTY(&(Global_2683862.f_785.f_12)))
+			if (!MISC::IS_STRING_NULL_OR_EMPTY(&(Global_2683864.f_785.f_12)))
 			{
 				func_30();
 				func_27(6, 0, 0);
@@ -1035,16 +1035,16 @@ var func_29()
 
 void func_30()
 {
-	Global_2683862.f_785.f_28 = 0;
+	Global_2683864.f_785.f_28 = 0;
 }
 
 bool func_31(bool bParam0)
 {
 	if (bParam0)
 	{
-		return (Global_2683862.f_785.f_28 && MISC::GET_HASH_KEY(SCRIPT::GET_THIS_SCRIPT_NAME()) == Global_2683862.f_785.f_31);
+		return (Global_2683864.f_785.f_28 && MISC::GET_HASH_KEY(SCRIPT::GET_THIS_SCRIPT_NAME()) == Global_2683864.f_785.f_31);
 	}
-	return Global_2683862.f_785.f_28;
+	return Global_2683864.f_785.f_28;
 }
 
 bool func_32()

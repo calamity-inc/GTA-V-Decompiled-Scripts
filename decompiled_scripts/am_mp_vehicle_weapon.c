@@ -667,7 +667,7 @@ int func_14()
 
 int func_15(bool bParam0, bool bParam1)
 {
-	if (Global_2672505.f_1684.f_701 != 0)
+	if (Global_2672505.f_1685.f_701 != 0)
 	{
 		return 1;
 	}
@@ -2669,7 +2669,7 @@ int func_81()
 	{
 		if (PLAYER::NETWORK_PLAYER_ID_TO_INT() != -1)
 		{
-			return Global_2672505.f_913[PLAYER::NETWORK_PLAYER_ID_TO_INT()];
+			return Global_2672505.f_914[PLAYER::NETWORK_PLAYER_ID_TO_INT()];
 		}
 	}
 	return -1;
@@ -3712,12 +3712,12 @@ void func_109()
 
 void func_110(int iParam0)
 {
-	Global_2696952 = iParam0;
+	Global_2696954 = iParam0;
 }
 
 bool func_111()
 {
-	return Global_2696952;
+	return Global_2696954;
 }
 
 void func_112(int iParam0)
@@ -4566,11 +4566,11 @@ void func_141()
 {
 	struct<3> Var0;
 	
-	Global_2672505.f_1023 = 0;
 	Global_2672505.f_1024 = 0;
-	Global_2672505.f_1025 = { 9999.9f, 9999.9f, 9999.9f };
-	Global_2672505.f_1030 = -1;
-	Global_2672505.f_1031 = 0;
+	Global_2672505.f_1025 = 0;
+	Global_2672505.f_1026 = { 9999.9f, 9999.9f, 9999.9f };
+	Global_2672505.f_1031 = -1;
+	Global_2672505.f_1032 = 0;
 	Global_2635559.f_2692 = { Var0 };
 }
 
@@ -4706,7 +4706,7 @@ int func_148()
 
 int func_149()
 {
-	if (BitTest(Global_1853910[PLAYER::PLAYER_ID() /*862*/].f_861, 2) && !Global_2684799.f_2846.f_216 == -1)
+	if (BitTest(Global_1853910[PLAYER::PLAYER_ID() /*862*/].f_861, 2) && !Global_2684801.f_2846.f_216 == -1)
 	{
 		return 1;
 	}
@@ -5228,7 +5228,7 @@ bool func_175()
 
 int func_176()
 {
-	if (Global_2672505.f_946.f_5 == -1)
+	if (Global_2672505.f_947.f_5 == -1)
 	{
 		return 0;
 	}
@@ -5389,7 +5389,7 @@ int func_185()
 	{
 		return 1;
 	}
-	if (Global_2696915)
+	if (Global_2696917)
 	{
 		return 1;
 	}
@@ -5439,7 +5439,7 @@ int func_186()
 
 int func_187()
 {
-	switch (Global_2697019)
+	switch (Global_2697021)
 	{
 		case 0:
 			return joaat("freemode");
@@ -5456,7 +5456,7 @@ int func_188()
 
 bool func_189()
 {
-	return Global_2683862.f_698;
+	return Global_2683864.f_698;
 }
 
 int func_190(int iParam0)
@@ -5470,12 +5470,12 @@ int func_190(int iParam0)
 
 bool func_191()
 {
-	return Global_2694524;
+	return Global_2694526;
 }
 
 bool func_192()
 {
-	return Global_2683862.f_693;
+	return Global_2683864.f_693;
 }
 
 void func_193()

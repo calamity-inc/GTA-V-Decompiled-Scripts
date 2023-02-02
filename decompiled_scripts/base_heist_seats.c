@@ -313,7 +313,7 @@ int func_15(int iParam0)
 
 int func_16()
 {
-	if (Global_2672505.f_946.f_5 == -1)
+	if (Global_2672505.f_947.f_5 == -1)
 	{
 		return 0;
 	}
@@ -731,7 +731,7 @@ int func_28(int iParam0)
 
 int func_29()
 {
-	if (Global_2672505.f_946.f_5 == -1)
+	if (Global_2672505.f_947.f_5 == -1)
 	{
 		return 0;
 	}
@@ -813,18 +813,18 @@ void func_35(bool bParam0)
 	{
 		if (func_36())
 		{
-			Global_2683862.f_41 = 1;
+			Global_2683864.f_41 = 1;
 		}
 	}
 	else
 	{
-		Global_2683862.f_41 = 0;
+		Global_2683864.f_41 = 0;
 	}
 }
 
 bool func_36()
 {
-	return BitTest(Global_2683862.f_2, 11);
+	return BitTest(Global_2683864.f_2, 11);
 }
 
 void func_37()
@@ -1410,7 +1410,7 @@ int func_66()
 	{
 		return 1;
 	}
-	if (Global_2696915)
+	if (Global_2696917)
 	{
 		return 1;
 	}
@@ -1460,7 +1460,7 @@ int func_67()
 
 int func_68()
 {
-	switch (Global_2697019)
+	switch (Global_2697021)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1477,7 +1477,7 @@ int func_69()
 
 bool func_70()
 {
-	return Global_2683862.f_698;
+	return Global_2683864.f_698;
 }
 
 int func_71(int iParam0)
@@ -1491,12 +1491,12 @@ int func_71(int iParam0)
 
 bool func_72()
 {
-	return Global_2694524;
+	return Global_2694526;
 }
 
 bool func_73()
 {
-	return Global_2683862.f_693;
+	return Global_2683864.f_693;
 }
 
 bool func_74(int iParam0)

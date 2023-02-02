@@ -331,7 +331,7 @@ void func_4()
 
 bool func_5()
 {
-	return Global_2766478;
+	return Global_2766480;
 }
 
 int func_6(int iParam0)

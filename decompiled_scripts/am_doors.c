@@ -270,7 +270,7 @@ void __EntryFunction__()
 			
 			case 1:
 				func_43();
-				Global_2793044.f_4600 = 1;
+				Global_2793046.f_4600 = 1;
 				func_34();
 				func_9();
 				break;
@@ -518,17 +518,17 @@ void func_9()
 	
 	Var1 = { func_33(PLAYER::PLAYER_ID()) };
 	fVar0 = SYSTEM::VDIST(Var1, Local_123[iLocal_228 /*17*/].f_3);
-	if ((BitTest(Global_2802658, iLocal_228) || BitTest(Global_2802658.f_1, iLocal_228)) || BitTest(Global_2802658.f_2, iLocal_228))
+	if ((BitTest(Global_2802660, iLocal_228) || BitTest(Global_2802660.f_1, iLocal_228)) || BitTest(Global_2802660.f_2, iLocal_228))
 	{
-		if (BitTest(Global_2802658, iLocal_228))
+		if (BitTest(Global_2802660, iLocal_228))
 		{
 			MISC::SET_BIT(&(Local_279[PLAYER::PLAYER_ID() /*4*/].f_2), iLocal_228);
 		}
-		if (BitTest(Global_2802658.f_1, bLocal_228))
+		if (BitTest(Global_2802660.f_1, bLocal_228))
 		{
 			MISC::CLEAR_BIT(&(Local_279[PLAYER::PLAYER_ID() /*4*/].f_2), bLocal_228);
 		}
-		if (BitTest(Global_2802658.f_2, bLocal_228))
+		if (BitTest(Global_2802660.f_2, bLocal_228))
 		{
 			MISC::SET_BIT(&(Local_279[PLAYER::PLAYER_ID() /*4*/].f_3), bLocal_228);
 		}
@@ -544,7 +544,7 @@ void func_9()
 		}
 		if ((bLocal_228 == 0 || bLocal_228 == 1) || bLocal_228 == 5)
 		{
-			if (Global_2696081 || !func_13())
+			if (Global_2696083 || !func_13())
 			{
 				if (OBJECT::IS_POINT_IN_ANGLED_AREA(Var1, Local_123[bLocal_228 /*17*/].f_10, Local_123[bLocal_228 /*17*/].f_13, Local_123[bLocal_228 /*17*/].f_16, false, true))
 				{
@@ -588,9 +588,9 @@ bool func_10(int iParam0)
 {
 	if (iParam0 < 32)
 	{
-		return BitTest(Global_2672505.f_61.f_1, iParam0);
+		return BitTest(Global_2672505.f_62.f_1, iParam0);
 	}
-	return BitTest(Global_2672505.f_61.f_2, (iParam0 - 32));
+	return BitTest(Global_2672505.f_62.f_2, (iParam0 - 32));
 }
 
 int func_11()
@@ -4213,7 +4213,7 @@ int func_61(int iParam0)
 
 bool func_62()
 {
-	return Global_2683862.f_693;
+	return Global_2683864.f_693;
 }
 
 int func_63(int iParam0, int iParam1, bool bParam2)
@@ -5419,8 +5419,8 @@ int func_69(int iParam0, bool bParam1)
 void func_70()
 {
 	func_71(iLocal_121);
-	Global_2793044.f_1734 = 0;
-	Global_2793044.f_4600 = 0;
+	Global_2793046.f_1734 = 0;
+	Global_2793046.f_4600 = 0;
 	func_65();
 }
 
@@ -5460,7 +5460,7 @@ int func_72()
 	{
 		return 1;
 	}
-	if (Global_2696915)
+	if (Global_2696917)
 	{
 		return 1;
 	}
@@ -5510,7 +5510,7 @@ int func_73()
 
 int func_74()
 {
-	switch (Global_2697019)
+	switch (Global_2697021)
 	{
 		case 0:
 			return joaat("freemode");
@@ -5522,11 +5522,11 @@ int func_74()
 
 bool func_75()
 {
-	return Global_2683862.f_698;
+	return Global_2683864.f_698;
 }
 
 bool func_76()
 {
-	return Global_2694524;
+	return Global_2694526;
 }
 
