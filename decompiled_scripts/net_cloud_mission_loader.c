@@ -21401,7 +21401,7 @@ int func_311(int iParam0)
 		case joaat("pickup_weapon_assaultsmg"):
 		case joaat("pickup_weapon_assaultrifle"):
 		case joaat("pickup_weapon_carbinerifle"):
-		case 1491498856:
+		case joaat("pickup_weapon_heavyrifle"):
 		case joaat("pickup_weapon_advancedrifle"):
 		case joaat("pickup_weapon_mg"):
 		case joaat("pickup_weapon_combatmg"):
@@ -21531,24 +21531,24 @@ int func_311(int iParam0)
 		case joaat("pickup_weapon_marksmanrifle_mk2"):
 		case joaat("pickup_weapon_doubleaction"):
 		case joaat("pickup_weapon_stone_hatchet"):
-		case joaat("PICKUP_WEAPON_NAVYREVOLVER"):
+		case joaat("pickup_weapon_navyrevolver"):
 		case -1140081444:
-		case joaat("PICKUP_WEAPON_COMBATSHOTGUN"):
+		case joaat("pickup_weapon_combatshotgun"):
 		case joaat("pickup_weapon_raycarbine"):
 		case joaat("pickup_weapon_rayminigun"):
 		case joaat("pickup_weapon_raypistol"):
-		case joaat("PICKUP_WEAPON_GADGETPISTOL"):
-		case -1269285374:
-		case 1491498856:
-		case -10738165:
-		case joaat("PICKUP_WEAPON_CERAMICPISTOL"):
-		case joaat("PICKUP_WEAPON_MILITARYRIFLE"):
-		case -1978262176:
-		case -1473941020:
-		case -1231884221:
-		case 1337246736:
-		case -185034829:
-		case joaat("PICKUP_PORTABLE_PACKAGE_LARGE_RADIUS"):
+		case joaat("pickup_weapon_gadgetpistol"):
+		case joaat("pickup_weapon_stungun_mp"):
+		case joaat("pickup_weapon_heavyrifle"):
+		case joaat("pickup_weapon_emplauncher"):
+		case joaat("pickup_weapon_ceramicpistol"):
+		case joaat("pickup_weapon_militaryrifle"):
+		case joaat("pickup_weapon_tacticalrifle"):
+		case joaat("pickup_weapon_precisionrifle"):
+		case joaat("pickup_weapon_pistolxm3"):
+		case joaat("pickup_weapon_candycane"):
+		case joaat("pickup_weapon_railgunxm3"):
+		case joaat("pickup_portable_package_large_radius"):
 			return 1;
 		
 		default:
@@ -21557,7 +21557,7 @@ int func_311(int iParam0)
 	{
 		switch (iParam0)
 		{
-			case -586037937:
+			case joaat("pickup_weapon_fertilizercan"):
 				return 1;
 			}
 		

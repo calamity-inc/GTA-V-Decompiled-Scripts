@@ -22750,7 +22750,7 @@ int func_509(int iParam0)
 		Call_Loc(Local_564.f_120.f_28);
 		return StackVal;
 	}
-	return 68603185;
+	return joaat("pickup_portable_crate_unfixed_inairvehicle_with_passengers_upright");
 }
 
 Vector3 func_510(int iParam0)

@@ -22333,7 +22333,7 @@ int func_490(int iParam0)
 		Call_Loc(Local_401.f_120.f_28);
 		return StackVal;
 	}
-	return 68603185;
+	return joaat("pickup_portable_crate_unfixed_inairvehicle_with_passengers_upright");
 }
 
 Vector3 func_491(int iParam0)
@@ -23229,7 +23229,7 @@ void func_544()
 				STREAMING::REQUEST_MODEL(joaat("xm3_prop_xm3_present_01a"));
 				if (STREAMING::HAS_MODEL_LOADED(joaat("xm3_prop_xm3_present_01a")))
 				{
-					Local_114.f_24 = OBJECT::CREATE_NON_NETWORKED_PORTABLE_PICKUP(1610516839, Local_114.f_24.f_1, true, joaat("xm3_prop_xm3_present_01a"));
+					Local_114.f_24 = OBJECT::CREATE_NON_NETWORKED_PORTABLE_PICKUP(joaat("pickup_portable_fm_content_mission_entity_small"), Local_114.f_24.f_1, true, joaat("xm3_prop_xm3_present_01a"));
 					OBJECT::PLACE_OBJECT_ON_GROUND_PROPERLY(Local_114.f_24);
 					ENTITY::SET_ENTITY_LOD_DIST(Local_114.f_24, 1200);
 					ENTITY::SET_ENTITY_HEALTH(Local_114.f_24, 50, 0);
