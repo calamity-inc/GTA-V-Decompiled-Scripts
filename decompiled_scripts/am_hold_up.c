@@ -9771,19 +9771,19 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 						case 3:
 							func_110(1276, 1, -1);
 							func_109(16, 1, -1);
-							func_278(1, -251807494, 1359863693, 1, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, -251807494, 1359863693, 1, func_285(), joaat("purchase"), 0, joaat("pa"));
 							break;
 						
 						case 1:
 							func_110(1277, 1, -1);
 							func_109(15, 1, -1);
-							func_278(1, 1199442189, 1359863693, 1, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, 1199442189, 1359863693, 1, func_285(), joaat("purchase"), 0, joaat("pa"));
 							break;
 						
 						case 2:
 							func_109(14, 1, -1);
 							func_110(1278, 1, -1);
-							func_278(1, 1486811039, 1359863693, 1, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, 1486811039, 1359863693, 1, func_285(), joaat("purchase"), 0, joaat("pa"));
 							break;
 						
 						case 4:
@@ -9792,23 +9792,23 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 							{
 								uParam0->f_55 = (20 - func_131(1098, -1, 0));
 							}
-							func_278(1, -181862273, 1359863693, uParam0->f_55, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, -181862273, 1359863693, uParam0->f_55, func_285(), joaat("purchase"), 0, joaat("pa"));
 							func_110(1098, uParam0->f_55, -1);
 							break;
 						
 						case 0:
 							func_110(62, 1, -1);
-							func_278(1, -39155154, 1359863693, 1, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, -39155154, 1359863693, 1, func_285(), joaat("purchase"), 0, joaat("pa"));
 							break;
 						
 						case 5:
 							func_110(63, 1, -1);
-							func_278(1, -1600998734, 1359863693, 1, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, -1600998734, 1359863693, 1, func_285(), joaat("purchase"), 0, joaat("pa"));
 							break;
 						
 						case 6:
 							func_110(10404, 1, -1);
-							func_278(1, 495696637, 1359863693, 1, func_285(), -1317518156, 0, joaat("pa"));
+							func_278(1, 495696637, 1359863693, 1, func_285(), joaat("purchase"), 0, joaat("pa"));
 							break;
 					}
 				}
@@ -9826,7 +9826,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 								iVar1 = func_389(uParam0, uParam0->f_12);
 							}
 							func_110(1276, 1, -1);
-							func_278(1, -251807494, 1359863693, 1, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, -251807494, 1359863693, 1, func_285(), joaat("purchase"), 0, 1037810546);
 							func_109(16, 1, -1);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM1"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
@@ -9841,7 +9841,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 								iVar1 = func_389(uParam0, uParam0->f_12);
 							}
 							func_110(1277, 1, -1);
-							func_278(1, 1199442189, 1359863693, 1, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, 1199442189, 1359863693, 1, func_285(), joaat("purchase"), 0, 1037810546);
 							func_109(15, 1, -1);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM2"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
@@ -9857,7 +9857,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 							}
 							func_109(14, 1, -1);
 							func_110(1278, 1, -1);
-							func_278(1, 1486811039, 1359863693, 1, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, 1486811039, 1359863693, 1, func_285(), joaat("purchase"), 0, 1037810546);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM3"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
 						
@@ -9876,7 +9876,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 								uParam0->f_55 = (20 - func_131(1098, -1, 0));
 							}
 							func_110(1098, uParam0->f_55, -1);
-							func_278(1, -181862273, 1359863693, uParam0->f_55, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, -181862273, 1359863693, uParam0->f_55, func_285(), joaat("purchase"), 0, 1037810546);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM4"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
 						
@@ -9890,7 +9890,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 								iVar1 = func_389(uParam0, uParam0->f_12);
 							}
 							func_110(62, 1, -1);
-							func_278(1, -39155154, 1359863693, 1, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, -39155154, 1359863693, 1, func_285(), joaat("purchase"), 0, 1037810546);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM5"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
 						
@@ -9904,7 +9904,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 								iVar1 = func_389(uParam0, uParam0->f_12);
 							}
 							func_110(10404, 1, -1);
-							func_278(1, 495696637, 1359863693, 1, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, 495696637, 1359863693, 1, func_285(), joaat("purchase"), 0, 1037810546);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM7"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
 						
@@ -9918,7 +9918,7 @@ void func_271(var uParam0, var uParam1, var uParam2, var uParam3, struct<3> Para
 								iVar1 = func_389(uParam0, uParam0->f_12);
 							}
 							func_110(63, 1, -1);
-							func_278(1, -1600998734, 1359863693, 1, func_285(), -1317518156, 0, 1037810546);
+							func_278(1, -1600998734, 1359863693, 1, func_285(), joaat("purchase"), 0, 1037810546);
 							MONEY::NETWORK_BUY_ITEM(iVar1, MISC::GET_HASH_KEY("SNK_ITEM6"), 12, 1, false, 0, 0, 0, 0, true);
 							break;
 						}
@@ -12852,7 +12852,7 @@ void func_327(var uParam0, bool bParam1)
 	if (!func_396(uParam0->f_12))
 	{
 		iVar1 = (func_331(uParam0->f_12) - func_131(func_330(uParam0->f_12), -1, 0));
-		func_278(1, func_329(uParam0->f_12), 1359863693, iVar1, func_285(), -1317518156, 1, func_328(bParam1, joaat("pa"), 1037810546));
+		func_278(1, func_329(uParam0->f_12), 1359863693, iVar1, func_285(), joaat("purchase"), 1, func_328(bParam1, joaat("pa"), 1037810546));
 		func_128(func_330(uParam0->f_12), func_331(uParam0->f_12), -1, 1, 0);
 		bVar0 = true;
 	}

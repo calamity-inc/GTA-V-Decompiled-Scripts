@@ -5692,9 +5692,9 @@ void func_90()
 			Local_3615.f_19 = func_192();
 			Local_3615.f_17 = func_190(&uLocal_3611, 0, 0);
 			Local_3615.f_7 = func_401();
-			Local_3641.f_2 = joaat("QUIT");
-			Local_3615.f_4 = joaat("QUIT");
-			Local_3615.f_25 = joaat("QUIT");
+			Local_3641.f_2 = joaat("quit");
+			Local_3615.f_4 = joaat("quit");
+			Local_3615.f_25 = joaat("quit");
 			if (Local_2028.f_0 > 1 || Local_1771[PLAYER::PLAYER_ID() /*8*/].f_1 != 0)
 			{
 				if (Global_262145.f_26826)

@@ -65250,7 +65250,7 @@ void func_250(int iParam0)
 				NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_312(func_313()));
 			}
 			iVar2 = func_311();
-			func_285(2, func_310(), 1359863693, 1, func_292(), -1317518156, 0, 768194215);
+			func_285(2, func_310(), 1359863693, 1, func_292(), joaat("purchase"), 0, 768194215);
 			if (func_284(0) > 0)
 			{
 				MONEY::NETWORK_BUY_ITEM(iParam0, iVar2, 12, 1, false, 0, 0, 0, 0, false);

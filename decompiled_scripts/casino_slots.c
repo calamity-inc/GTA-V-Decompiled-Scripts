@@ -2082,7 +2082,7 @@ void func_45()
 			{
 				if (((iLocal_1637 == 8 || iLocal_1637 == 14) || iLocal_1637 == 9) || iLocal_1637 == 15)
 				{
-					if (func_33() > 0.99f || ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), 2044168827))
+					if (func_33() > 0.99f || ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), joaat("start_spin")))
 					{
 						if (BitTest(uLocal_1633, 0))
 						{
@@ -8083,7 +8083,7 @@ void func_220(bool bParam0)
 		}
 		else
 		{
-			Var0.f_2 = joaat("QUIT");
+			Var0.f_2 = joaat("quit");
 		}
 		Var0.f_3 = Local_2080.f_2;
 		Var0.f_4 = func_190();

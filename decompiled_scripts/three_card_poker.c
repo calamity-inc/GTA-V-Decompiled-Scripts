@@ -6028,9 +6028,9 @@ void func_95()
 	Local_1919.f_11 = func_209();
 	if ((((((((PAD::IS_CONTROL_JUST_PRESSED(2, 202) && !NETWORK::NETWORK_TEXT_CHAT_IS_TYPING()) && !func_339()) && !HUD::IS_WARNING_MESSAGE_ACTIVE()) && !ENTITY::IS_ENTITY_PLAYING_ANIM(PLAYER::PLAYER_PED_ID(), func_92(), "cards_pickup", 3)) && !BitTest(Local_1033.f_20, 0)) && !BitTest(Local_1033.f_20, 3)) && !Local_1033.f_1) && !func_208())
 	{
-		Local_1896.f_4 = joaat("QUIT");
-		Local_1919.f_2 = joaat("QUIT");
-		Local_1896.f_22 = joaat("QUIT");
+		Local_1896.f_4 = joaat("quit");
+		Local_1919.f_2 = joaat("quit");
+		Local_1896.f_22 = joaat("quit");
 		Local_1896.f_7 = func_402();
 		Local_1896.f_17 = func_207(&uLocal_1892, 0, 0);
 		Local_1896.f_18 = func_408();
@@ -6948,8 +6948,8 @@ void func_95()
 								}
 								else
 								{
-									Local_1896.f_4 = joaat("QUIT");
-									Local_1919.f_2 = joaat("QUIT");
+									Local_1896.f_4 = joaat("quit");
+									Local_1919.f_2 = joaat("quit");
 									Local_1896.f_7 = func_402();
 									Local_1896.f_17 = func_207(&uLocal_1892, 0, 0);
 									Local_1896.f_18 = func_408();

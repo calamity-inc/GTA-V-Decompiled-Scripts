@@ -531,7 +531,7 @@ void __EntryFunction__()
 	iLocal_223 = 1850241841;
 	iLocal_224 = -378388578;
 	iLocal_225 = 1893421006;
-	iLocal_226 = -1887701248;
+	iLocal_226 = joaat("garage_door");
 	iLocal_227 = -1831288286;
 	iLocal_228 = -96283321;
 	iLocal_229 = -293141277;
