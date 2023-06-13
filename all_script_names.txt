@@ -117,6 +117,7 @@ am_mp_simeon_showroom
 am_mp_smoking_activity
 am_mp_smpl_interior_ext
 am_mp_smpl_interior_int
+am_mp_social_club_garage
 am_mp_solomon_office
 am_mp_submarine
 am_mp_vehicle_reward
@@ -149,6 +150,7 @@ animal_controller
 apartment_minigame_launcher
 apparcadebusiness
 apparcadebusinesshub
+appavengeroperations
 appbikerbusiness
 appbroadcast
 appbunkerbusiness
@@ -170,6 +172,7 @@ appmpbossagency
 appmpemail
 appmpjoblistnew
 apporganiser
+appprogresshub
 apprepeatplay
 appsecurohack
 appsecuroserv
@@ -410,9 +413,11 @@ fm_content_acid_lab_sell
 fm_content_acid_lab_setup
 fm_content_acid_lab_source
 fm_content_ammunation
+fm_content_armoured_truck
 fm_content_auto_shop_delivery
 fm_content_bank_shootout
 fm_content_bar_resupply
+fm_content_bicycle_time_trial
 fm_content_bike_shop_delivery
 fm_content_business_battles
 fm_content_cargo
@@ -426,6 +431,7 @@ fm_content_crime_scene
 fm_content_drug_lab_work
 fm_content_drug_vehicle
 fm_content_export_cargo
+fm_content_ghosthunt
 fm_content_golden_gun
 fm_content_gunrunning
 fm_content_hsw_setup
@@ -438,16 +444,21 @@ fm_content_mp_intro
 fm_content_parachuter
 fm_content_payphone_hit
 fm_content_phantom_car
+fm_content_possessed_animals
 fm_content_robbery
 fm_content_security_contract
 fm_content_sightseeing
 fm_content_skydive
 fm_content_slasher
+fm_content_smuggler_ops
 fm_content_smuggler_plane
+fm_content_smuggler_resupply
+fm_content_smuggler_sell
 fm_content_smuggler_trail
 fm_content_source_research
 fm_content_stash_house
 fm_content_taxi_driver
+fm_content_test
 fm_content_tuner_robbery
 fm_content_vehicle_list
 fm_content_vip_contract_1
@@ -472,6 +483,7 @@ fm_race_creator
 fm_street_dealer
 fm_survival_controller
 fm_survival_creator
+fmmc_contentquicklauncher
 fmmc_launcher
 fmmc_playlist_controller
 forsalesigns
@@ -731,7 +743,6 @@ net_bot_simplebrain
 net_cloud_mission_loader
 net_combat_soaktest
 net_jacking_soaktest
-net_rank_tunable_loader
 net_session_soaktest
 net_test_drive
 net_tunable_check
@@ -790,6 +801,7 @@ pausemenu_map
 pausemenu_multiplayer
 pausemenu_sp_repeat
 pausemenu
+pausemenucareerhublaunch
 pb_busker
 pb_homeless
 pb_preacher

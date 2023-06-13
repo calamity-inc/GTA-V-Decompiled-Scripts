@@ -69,7 +69,7 @@ void __EntryFunction__()
 						{
 							if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("michael2")) > 0)
 							{
-								if (Global_97112)
+								if (Global_97244)
 								{
 									if (STREAMING::HAS_ANIM_DICT_LOADED("map_objects"))
 									{
@@ -94,7 +94,7 @@ void __EntryFunction__()
 							}
 							else
 							{
-								Global_97113 = 1;
+								Global_97245 = 1;
 								iLocal_2 = 4;
 							}
 						}
