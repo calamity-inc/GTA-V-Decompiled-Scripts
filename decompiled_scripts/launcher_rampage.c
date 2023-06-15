@@ -20447,7 +20447,7 @@ void func_317(char* sParam0, char[8] cParam1, char[4] cParam3, char[4] cParam4, 
 					StringCopy(sParam0, "VE_MANCHEZ3_t0_v4", 64);
 				}
 			}
-			else if (iParam5 == -426933872)
+			else if (iParam5 == joaat("avenger3"))
 			{
 				if (iParam7 == 40)
 				{

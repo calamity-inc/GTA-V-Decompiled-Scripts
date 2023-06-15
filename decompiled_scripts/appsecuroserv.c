@@ -13490,7 +13490,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 		else if (iParam1 == joaat("brickade2"))
 		{
 		}
-		else if (iParam1 == -897824023 || iParam1 == -1983622024)
+		else if (iParam1 == joaat("inductor") || iParam1 == joaat("inductor2"))
 		{
 			bVar3 = true;
 		}
@@ -20087,7 +20087,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1763675285:
+			case joaat("l35"):
 				iVar1 = 1670000;
 				if (bVar0 && Global_262145.f_35780 >= 0)
 				{
@@ -20095,7 +20095,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -536105557:
+			case joaat("ratel"):
 				iVar1 = 1873000;
 				if (bVar0 && Global_262145.f_35781 >= 0)
 				{
@@ -20103,7 +20103,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 802856453:
+			case joaat("monstrociti"):
 				iVar1 = 1485000;
 				if (bVar0 && Global_262145.f_35782 >= 0)
 				{
@@ -20111,7 +20111,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -654498607:
+			case joaat("brigham"):
 				iVar1 = 1499000;
 				if (bVar0 && Global_262145.f_35785 >= 0)
 				{
@@ -20119,7 +20119,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -979292575:
+			case joaat("clique2"):
 				iVar1 = 1205000;
 				if (bVar0 && Global_262145.f_35788 >= 0)
 				{
@@ -20127,7 +20127,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -897824023:
+			case joaat("inductor"):
 				iVar1 = 50000;
 				if (bVar0 && Global_262145.f_35783 >= 0)
 				{
@@ -20135,7 +20135,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1983622024:
+			case joaat("inductor2"):
 				iVar1 = 50000;
 				if (bVar0 && Global_262145.f_35784 >= 0)
 				{
@@ -20143,7 +20143,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 191916658:
+			case joaat("streamer216"):
 				iVar1 = 2238000;
 				if (bVar0 && Global_262145.f_35778 >= 0)
 				{
@@ -20151,7 +20151,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1659004814:
+			case joaat("conada2"):
 				iVar1 = 3385000;
 				if (bVar0 && Global_262145.f_35779 >= 0)
 				{
@@ -20159,7 +20159,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 239897677:
+			case joaat("raiju"):
 				iVar1 = 6855000;
 				if (bVar0 && Global_262145.f_35777 >= 0)
 				{
@@ -20176,7 +20176,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 1447690049:
+			case joaat("stingertt"):
 				iVar1 = 2380000;
 				if (bVar0 && Global_262145.f_35789 >= 0)
 				{
@@ -20184,7 +20184,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 165968051:
+			case joaat("buffalo5"):
 				iVar1 = 2140000;
 				if (bVar0 && Global_262145.f_35790 >= 0)
 				{
@@ -20192,7 +20192,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 610429990:
+			case joaat("coureur"):
 				iVar1 = 1990000;
 				if (bVar0 && Global_262145.f_35786 >= 0)
 				{
@@ -20200,7 +20200,7 @@ int func_276(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 1336514315:
+			case joaat("gauntlet6"):
 				iVar1 = 1810000;
 				if (bVar0 && Global_262145.f_35787 >= 0)
 				{
@@ -22296,7 +22296,7 @@ int func_279(int iParam0, int iParam1)
 		case joaat("brickade2"):
 			return Global_262145.f_32913;
 		
-		case -426933872:
+		case joaat("avenger3"):
 			if (iParam1 == 61)
 			{
 				return Global_262145.f_35164;

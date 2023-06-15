@@ -49257,7 +49257,7 @@ int func_372(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return func_373(2, 1, 1);
 		
 		case joaat("squaddie"):
@@ -49348,7 +49348,7 @@ int func_376(int iParam0)
 {
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return 0;
 		
 		case joaat("squaddie"):
@@ -53454,46 +53454,46 @@ int func_443(int iParam0, int iParam1)
 			return joaat("mesa");
 		
 		case 600:
-			return -1763675285;
+			return joaat("l35");
 		
 		case 603:
-			return -654498607;
+			return joaat("brigham");
 		
 		case 604:
-			return -979292575;
+			return joaat("clique2");
 		
 		case 601:
-			return -536105557;
+			return joaat("ratel");
 		
 		case 602:
-			return 802856453;
+			return joaat("monstrociti");
 		
 		case 605:
-			return -897824023;
+			return joaat("inductor");
 		
 		case 606:
-			return -1983622024;
+			return joaat("inductor2");
 		
 		case 607:
-			return 191916658;
+			return joaat("streamer216");
 		
 		case 608:
-			return -1659004814;
+			return joaat("conada2");
 		
 		case 609:
-			return 239897677;
+			return joaat("raiju");
 		
 		case 610:
-			return 1336514315;
+			return joaat("gauntlet6");
 		
 		case 611:
-			return 1447690049;
+			return joaat("stingertt");
 		
 		case 612:
-			return 165968051;
+			return joaat("buffalo5");
 		
 		case 613:
-			return 610429990;
+			return joaat("coureur");
 		
 		default:
 	}
@@ -55759,59 +55759,59 @@ int func_445(int iParam0)
 	{
 		return 599;
 	}
-	else if (iParam0 == -1763675285)
+	else if (iParam0 == joaat("l35"))
 	{
 		return 600;
 	}
-	else if (iParam0 == -654498607)
+	else if (iParam0 == joaat("brigham"))
 	{
 		return 603;
 	}
-	else if (iParam0 == -979292575)
+	else if (iParam0 == joaat("clique2"))
 	{
 		return 604;
 	}
-	else if (iParam0 == -536105557)
+	else if (iParam0 == joaat("ratel"))
 	{
 		return 601;
 	}
-	else if (iParam0 == 802856453)
+	else if (iParam0 == joaat("monstrociti"))
 	{
 		return 602;
 	}
-	else if (iParam0 == -897824023)
+	else if (iParam0 == joaat("inductor"))
 	{
 		return 605;
 	}
-	else if (iParam0 == -1983622024)
+	else if (iParam0 == joaat("inductor2"))
 	{
 		return 606;
 	}
-	else if (iParam0 == 191916658)
+	else if (iParam0 == joaat("streamer216"))
 	{
 		return 607;
 	}
-	else if (iParam0 == -1659004814)
+	else if (iParam0 == joaat("conada2"))
 	{
 		return 608;
 	}
-	else if (iParam0 == 239897677)
+	else if (iParam0 == joaat("raiju"))
 	{
 		return 609;
 	}
-	else if (iParam0 == 1336514315)
+	else if (iParam0 == joaat("gauntlet6"))
 	{
 		return 610;
 	}
-	else if (iParam0 == 1447690049)
+	else if (iParam0 == joaat("stingertt"))
 	{
 		return 611;
 	}
-	else if (iParam0 == 165968051)
+	else if (iParam0 == joaat("buffalo5"))
 	{
 		return 612;
 	}
-	else if (iParam0 == 610429990)
+	else if (iParam0 == joaat("coureur"))
 	{
 		return 613;
 	}

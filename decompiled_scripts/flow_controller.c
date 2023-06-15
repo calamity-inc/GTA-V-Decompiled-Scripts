@@ -30186,7 +30186,7 @@ int func_147(bool bParam0)
 {
 	if (bParam0)
 	{
-		return -426933872;
+		return joaat("avenger3");
 	}
 	return joaat("avenger");
 }
@@ -30246,11 +30246,11 @@ int func_148(int iParam0)
 		case joaat("alkonost"):
 		case joaat("annihilator2"):
 		case joaat("conada"):
-		case -1659004814:
+		case joaat("conada2"):
 		case joaat("avenger"):
-		case -426933872:
-		case 191916658:
-		case 239897677:
+		case joaat("avenger3"):
+		case joaat("streamer216"):
+		case joaat("raiju"):
 			return 1;
 		
 		default:
@@ -33084,7 +33084,7 @@ int func_171(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return func_173(2, 1, 1);
 		
 		case joaat("squaddie"):
@@ -33184,7 +33184,7 @@ int func_176(int iParam0)
 {
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return 0;
 		
 		case joaat("squaddie"):
@@ -39727,46 +39727,46 @@ int func_255(int iParam0, int iParam1)
 			return joaat("mesa");
 		
 		case 600:
-			return -1763675285;
+			return joaat("l35");
 		
 		case 603:
-			return -654498607;
+			return joaat("brigham");
 		
 		case 604:
-			return -979292575;
+			return joaat("clique2");
 		
 		case 601:
-			return -536105557;
+			return joaat("ratel");
 		
 		case 602:
-			return 802856453;
+			return joaat("monstrociti");
 		
 		case 605:
-			return -897824023;
+			return joaat("inductor");
 		
 		case 606:
-			return -1983622024;
+			return joaat("inductor2");
 		
 		case 607:
-			return 191916658;
+			return joaat("streamer216");
 		
 		case 608:
-			return -1659004814;
+			return joaat("conada2");
 		
 		case 609:
-			return 239897677;
+			return joaat("raiju");
 		
 		case 610:
-			return 1336514315;
+			return joaat("gauntlet6");
 		
 		case 611:
-			return 1447690049;
+			return joaat("stingertt");
 		
 		case 612:
-			return 165968051;
+			return joaat("buffalo5");
 		
 		case 613:
-			return 610429990;
+			return joaat("coureur");
 		
 		default:
 	}
@@ -54014,35 +54014,35 @@ int func_431(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1336514315)
+	else if (iParam0 == joaat("gauntlet6"))
 	{
 		if (!Global_262145.f_35473 && iVar1 < Global_262145.f_35460)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1659004814)
+	else if (iParam0 == joaat("conada2"))
 	{
 		if (!Global_262145.f_35472 && iVar1 < Global_262145.f_35459)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -654498607)
+	else if (iParam0 == joaat("brigham"))
 	{
 		if (!Global_262145.f_35474 && iVar1 < Global_262145.f_35461)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -979292575)
+	else if (iParam0 == joaat("clique2"))
 	{
 		if (!Global_262145.f_35465 && iVar1 < Global_262145.f_35452)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1763675285)
+	else if (iParam0 == joaat("l35"))
 	{
 		if (!Global_262145.f_35462 && iVar1 < Global_262145.f_35449)
 		{
@@ -54053,63 +54053,63 @@ int func_431(int iParam0, int iParam1)
 	{
 		iVar0 = 1;
 	}
-	else if (iParam0 == -536105557)
+	else if (iParam0 == joaat("ratel"))
 	{
 		if (!Global_262145.f_35463 && iVar1 < Global_262145.f_35450)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1447690049)
+	else if (iParam0 == joaat("stingertt"))
 	{
 		if (!Global_262145.f_35466 && iVar1 < Global_262145.f_35453)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 165968051)
+	else if (iParam0 == joaat("buffalo5"))
 	{
 		if (!Global_262145.f_35469 && iVar1 < Global_262145.f_35456)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 191916658)
+	else if (iParam0 == joaat("streamer216"))
 	{
 		if (!Global_262145.f_35467 && iVar1 < Global_262145.f_35454)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 802856453)
+	else if (iParam0 == joaat("monstrociti"))
 	{
 		if (!Global_262145.f_35464 && iVar1 < Global_262145.f_35451)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 610429990)
+	else if (iParam0 == joaat("coureur"))
 	{
 		if (!Global_262145.f_35471 && iVar1 < Global_262145.f_35458)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 239897677)
+	else if (iParam0 == joaat("raiju"))
 	{
 		if (!Global_262145.f_35468 && iVar1 < Global_262145.f_35455)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -897824023)
+	else if (iParam0 == joaat("inductor"))
 	{
 		if (!Global_262145.f_35470 && iVar1 < Global_262145.f_35457)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1983622024)
+	else if (iParam0 == joaat("inductor2"))
 	{
 		if (!Global_262145.f_35470 && iVar1 < Global_262145.f_35457)
 		{

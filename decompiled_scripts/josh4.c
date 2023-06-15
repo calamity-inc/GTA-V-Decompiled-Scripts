@@ -41800,7 +41800,7 @@ int func_355(bool bParam0)
 {
 	if (bParam0)
 	{
-		return -426933872;
+		return joaat("avenger3");
 	}
 	return joaat("avenger");
 }
@@ -42665,7 +42665,7 @@ int func_377(int iParam0, bool bParam1, var uParam2)
 		*uParam2 = 2;
 		return 0;
 	}
-	if (((((((((((((((((((((iParam0 == joaat("caddy") || iParam0 == joaat("forklift")) || iParam0 == joaat("caddy2")) || iParam0 == joaat("crusader")) || iParam0 == joaat("tribike")) || iParam0 == joaat("tribike2")) || iParam0 == joaat("tribike3")) || iParam0 == joaat("tractor")) || iParam0 == joaat("tractor2")) || iParam0 == joaat("mower")) || iParam0 == joaat("tornado4")) || iParam0 == joaat("docktug")) || iParam0 == joaat("stretch")) || iParam0 == joaat("bison2")) || iParam0 == joaat("bison3")) || iParam0 == joaat("benson")) || iParam0 == joaat("pounder")) || iParam0 == joaat("submersible")) || iParam0 == joaat("emperor3")) || iParam0 == joaat("dune2")) || iParam0 == -897824023) || iParam0 == -1983622024)
+	if (((((((((((((((((((((iParam0 == joaat("caddy") || iParam0 == joaat("forklift")) || iParam0 == joaat("caddy2")) || iParam0 == joaat("crusader")) || iParam0 == joaat("tribike")) || iParam0 == joaat("tribike2")) || iParam0 == joaat("tribike3")) || iParam0 == joaat("tractor")) || iParam0 == joaat("tractor2")) || iParam0 == joaat("mower")) || iParam0 == joaat("tornado4")) || iParam0 == joaat("docktug")) || iParam0 == joaat("stretch")) || iParam0 == joaat("bison2")) || iParam0 == joaat("bison3")) || iParam0 == joaat("benson")) || iParam0 == joaat("pounder")) || iParam0 == joaat("submersible")) || iParam0 == joaat("emperor3")) || iParam0 == joaat("dune2")) || iParam0 == joaat("inductor")) || iParam0 == joaat("inductor2"))
 	{
 		*uParam2 = 2;
 		return 0;
@@ -46498,35 +46498,35 @@ int func_388(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1336514315)
+	else if (iParam0 == joaat("gauntlet6"))
 	{
 		if (!Global_262145.f_35473 && iVar1 < Global_262145.f_35460)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1659004814)
+	else if (iParam0 == joaat("conada2"))
 	{
 		if (!Global_262145.f_35472 && iVar1 < Global_262145.f_35459)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -654498607)
+	else if (iParam0 == joaat("brigham"))
 	{
 		if (!Global_262145.f_35474 && iVar1 < Global_262145.f_35461)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -979292575)
+	else if (iParam0 == joaat("clique2"))
 	{
 		if (!Global_262145.f_35465 && iVar1 < Global_262145.f_35452)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1763675285)
+	else if (iParam0 == joaat("l35"))
 	{
 		if (!Global_262145.f_35462 && iVar1 < Global_262145.f_35449)
 		{
@@ -46537,63 +46537,63 @@ int func_388(int iParam0, int iParam1)
 	{
 		iVar0 = 1;
 	}
-	else if (iParam0 == -536105557)
+	else if (iParam0 == joaat("ratel"))
 	{
 		if (!Global_262145.f_35463 && iVar1 < Global_262145.f_35450)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 1447690049)
+	else if (iParam0 == joaat("stingertt"))
 	{
 		if (!Global_262145.f_35466 && iVar1 < Global_262145.f_35453)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 165968051)
+	else if (iParam0 == joaat("buffalo5"))
 	{
 		if (!Global_262145.f_35469 && iVar1 < Global_262145.f_35456)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 191916658)
+	else if (iParam0 == joaat("streamer216"))
 	{
 		if (!Global_262145.f_35467 && iVar1 < Global_262145.f_35454)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 802856453)
+	else if (iParam0 == joaat("monstrociti"))
 	{
 		if (!Global_262145.f_35464 && iVar1 < Global_262145.f_35451)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 610429990)
+	else if (iParam0 == joaat("coureur"))
 	{
 		if (!Global_262145.f_35471 && iVar1 < Global_262145.f_35458)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 239897677)
+	else if (iParam0 == joaat("raiju"))
 	{
 		if (!Global_262145.f_35468 && iVar1 < Global_262145.f_35455)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -897824023)
+	else if (iParam0 == joaat("inductor"))
 	{
 		if (!Global_262145.f_35470 && iVar1 < Global_262145.f_35457)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1983622024)
+	else if (iParam0 == joaat("inductor2"))
 	{
 		if (!Global_262145.f_35470 && iVar1 < Global_262145.f_35457)
 		{

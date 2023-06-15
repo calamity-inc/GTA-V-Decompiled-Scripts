@@ -1858,7 +1858,7 @@ void func_30(var uParam0, var uParam1, var uParam2)
 			if (func_351())
 			{
 				func_350("HELP_PASSIVE", 4000);
-				if ((func_348(PLAYER::PLAYER_ID()) || ENTITY::GET_ENTITY_MODEL(uParam2->f_9) == joaat("avenger")) || ENTITY::GET_ENTITY_MODEL(uParam2->f_9) == -426933872)
+				if ((func_348(PLAYER::PLAYER_ID()) || ENTITY::GET_ENTITY_MODEL(uParam2->f_9) == joaat("avenger")) || ENTITY::GET_ENTITY_MODEL(uParam2->f_9) == joaat("avenger3"))
 				{
 					func_339(9, 0, 1);
 				}

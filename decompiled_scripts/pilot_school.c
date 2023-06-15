@@ -106364,7 +106364,7 @@ int func_841(bool bParam0)
 {
 	if (bParam0)
 	{
-		return -426933872;
+		return joaat("avenger3");
 	}
 	return joaat("avenger");
 }

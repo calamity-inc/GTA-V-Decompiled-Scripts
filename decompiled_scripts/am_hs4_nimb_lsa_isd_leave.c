@@ -2184,7 +2184,7 @@ int func_84(int iParam0)
 		case joaat("pounder2"):
 		case joaat("mule4"):
 		case joaat("speedo4"):
-		case -44799464:
+		case joaat("speedo5"):
 		case joaat("imperator"):
 		case joaat("deathbike"):
 		case joaat("cerberus"):
@@ -5057,7 +5057,7 @@ int func_103(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 			break;
 		
 		case joaat("avenger"):
-		case -426933872:
+		case joaat("avenger3"):
 			*uParam2 = { -2.02f, 6.45f, -0.716f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
@@ -5347,7 +5347,7 @@ int func_103(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 			break;
 		
 		case joaat("speedo4"):
-		case -44799464:
+		case joaat("speedo5"):
 			*uParam2 = { -1.5f, 0.833f, 0.391f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
@@ -6504,63 +6504,63 @@ int func_103(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	}
 	switch (ENTITY::GET_ENTITY_MODEL(iParam0))
 	{
-		case -1763675285:
+		case joaat("l35"):
 			*uParam2 = { -1f, 0.2f, 0.43f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.3f;
 			break;
 		
-		case -654498607:
+		case joaat("brigham"):
 			*uParam2 = { -0.003f, 2.764f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.25f;
 			break;
 		
-		case 1336514315:
+		case joaat("gauntlet6"):
 			*uParam2 = { -1.5f, 0.4f, 0.1f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.24f;
 			break;
 		
-		case 1447690049:
+		case joaat("stingertt"):
 			*uParam2 = { 0f, 1.623f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.25f;
 			break;
 		
-		case 165968051:
+		case joaat("buffalo5"):
 			*uParam2 = { 0f, 1.5f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.3f;
 			break;
 		
-		case -536105557:
+		case joaat("ratel"):
 			*uParam2 = { -1f, 0.128f, 0.212f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.42f;
 			break;
 		
-		case -979292575:
+		case joaat("clique2"):
 			*uParam2 = { -1f, 0.088f, 0.438f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.28f;
 			break;
 		
-		case 610429990:
+		case joaat("coureur"):
 			*uParam2 = { -1f, 0f, 0.295f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 802856453:
+		case joaat("monstrociti"):
 			*uParam2 = { -1f, 0f, 0.295f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
@@ -6803,8 +6803,8 @@ int func_109(int iParam0)
 		case joaat("draugur"):
 		case joaat("brickade2"):
 		case joaat("journey2"):
-		case -654498607:
-		case 1447690049:
+		case joaat("brigham"):
+		case joaat("stingertt"):
 			return 1;
 			break;
 		
@@ -7875,10 +7875,10 @@ int func_136(int iParam0)
 		case joaat("omnisegt"):
 		case joaat("virtue"):
 		case joaat("r300"):
-		case 1447690049:
-		case 165968051:
-		case 610429990:
-		case 802856453:
+		case joaat("stingertt"):
+		case joaat("buffalo5"):
+		case joaat("coureur"):
+		case joaat("monstrociti"):
 			return 1;
 			break;
 	}
@@ -8214,7 +8214,7 @@ int func_138(bool bParam0)
 {
 	if (bParam0)
 	{
-		return -426933872;
+		return joaat("avenger3");
 	}
 	return joaat("avenger");
 }

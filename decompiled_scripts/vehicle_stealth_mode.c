@@ -364,7 +364,7 @@ int func_23(int iParam0)
 {
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return 1;
 			break;
 	}
@@ -402,7 +402,7 @@ void func_26(int* iParam0, int iParam1)
 				iVar1 = 36624;
 				break;
 			
-			case 239897677:
+			case joaat("raiju"):
 				iVar1 = 36625;
 				break;
 		}
@@ -499,7 +499,7 @@ int func_34(int* iParam0)
 			case joaat("annihilator2"):
 				return func_29(36624, -1) < 3;
 			
-			case 239897677:
+			case joaat("raiju"):
 				return func_29(36625, -1) < 3;
 			}
 		
@@ -581,7 +581,7 @@ int func_38(int* iParam0)
 	{
 		case joaat("akula"):
 		case joaat("annihilator2"):
-		case 239897677:
+		case joaat("raiju"):
 			switch (iParam0->f_4)
 			{
 				case -1:
@@ -749,7 +749,7 @@ void func_52(int iParam0, bool bParam1)
 				VEHICLE::SET_DEPLOY_FOLDING_WINGS(iParam0, !bParam1, false);
 				break;
 			
-			case 239897677:
+			case joaat("raiju"):
 				unk_0x0C02468829E4AA65(iParam0, !bParam1);
 				break;
 			}
@@ -1233,7 +1233,7 @@ int func_69(int iParam0)
 	{
 		case joaat("akula"):
 		case joaat("annihilator2"):
-		case 239897677:
+		case joaat("raiju"):
 			return 1;
 		
 		default:
@@ -1358,7 +1358,7 @@ bool func_74(int* iParam0)
 				bVar0 = !VEHICLE::ARE_FOLDING_WINGS_DEPLOYED(iParam0->f_1);
 				break;
 			
-			case 239897677:
+			case joaat("raiju"):
 				bVar0 = !unk_0xEA4743874D515F13(iParam0->f_1);
 				break;
 		}

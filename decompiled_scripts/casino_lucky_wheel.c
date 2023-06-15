@@ -25106,11 +25106,11 @@ int func_376(int iParam0)
 		case joaat("alkonost"):
 		case joaat("annihilator2"):
 		case joaat("conada"):
-		case -1659004814:
+		case joaat("conada2"):
 		case joaat("avenger"):
-		case -426933872:
-		case 191916658:
-		case 239897677:
+		case joaat("avenger3"):
+		case joaat("streamer216"):
+		case joaat("raiju"):
 			return 1;
 		
 		default:
@@ -27496,9 +27496,9 @@ int func_394(int iParam0)
 		case joaat("strikeforce"):
 		case joaat("alkonost"):
 		case joaat("annihilator2"):
-		case -1659004814:
-		case 191916658:
-		case 239897677:
+		case joaat("conada2"):
+		case joaat("streamer216"):
+		case joaat("raiju"):
 			return 1;
 			break;
 	}
@@ -27529,7 +27529,7 @@ int func_395(int iParam0)
 		case joaat("volatol"):
 		case joaat("seasparrow"):
 		case joaat("seasparrow2"):
-		case -426933872:
+		case joaat("avenger3"):
 			return 1;
 			break;
 	}
@@ -27658,10 +27658,10 @@ int func_397(int iParam0)
 		case joaat("omnisegt"):
 		case joaat("virtue"):
 		case joaat("r300"):
-		case 1447690049:
-		case 165968051:
-		case 610429990:
-		case 802856453:
+		case joaat("stingertt"):
+		case joaat("buffalo5"):
+		case joaat("coureur"):
+		case joaat("monstrociti"):
 			return 1;
 			break;
 	}
@@ -27871,7 +27871,7 @@ int func_398(int iParam0)
 			break;
 		
 		case joaat("speedo4"):
-		case -44799464:
+		case joaat("speedo5"):
 			return 36;
 			break;
 		
@@ -29232,7 +29232,7 @@ int func_399(int iParam0)
 		case joaat("akula"):
 		case joaat("thruster"):
 		case joaat("avenger"):
-		case -426933872:
+		case joaat("avenger3"):
 		case joaat("barrage"):
 		case joaat("volatol"):
 		case joaat("comet4"):
@@ -29462,11 +29462,11 @@ int func_399(int iParam0)
 		case joaat("issi8"):
 		case joaat("broadway"):
 		case joaat("tahoma"):
-		case 1336514315:
-		case -654498607:
-		case -979292575:
-		case -1763675285:
-		case -536105557:
+		case joaat("gauntlet6"):
+		case joaat("brigham"):
+		case joaat("clique2"):
+		case joaat("l35"):
+		case joaat("ratel"):
 			return 1;
 			break;
 	}
@@ -29772,7 +29772,7 @@ int func_407(int iParam0)
 	{
 		return 1;
 	}
-	if (iParam0 == -897824023 || iParam0 == -1983622024)
+	if (iParam0 == joaat("inductor") || iParam0 == joaat("inductor2"))
 	{
 		return 1;
 	}
@@ -29855,7 +29855,7 @@ int func_408(int iParam0)
 		case joaat("mule4"):
 		case joaat("pounder2"):
 		case joaat("speedo4"):
-		case -44799464:
+		case joaat("speedo5"):
 		case joaat("oppressor2"):
 		case joaat("strikeforce"):
 		case joaat("clique"):
@@ -29913,10 +29913,10 @@ int func_408(int iParam0)
 		case joaat("panthere"):
 		case joaat("broadway"):
 		case joaat("issi8"):
-		case -1659004814:
-		case 191916658:
-		case 239897677:
-		case -426933872:
+		case joaat("conada2"):
+		case joaat("streamer216"):
+		case joaat("raiju"):
+		case joaat("avenger3"):
 			return 3;
 			break;
 	}
@@ -30126,7 +30126,7 @@ void func_410(char* sParam0, char[8] cParam1, char[4] cParam3, char[4] cParam4, 
 					StringCopy(sParam0, "VE_MANCHEZ3_t0_v4", 64);
 				}
 			}
-			else if (iParam5 == -426933872)
+			else if (iParam5 == joaat("avenger3"))
 			{
 				if (iParam7 == 40)
 				{
@@ -36291,7 +36291,7 @@ int func_521(int iParam0)
 				break;
 			
 			case joaat("avenger"):
-			case -426933872:
+			case joaat("avenger3"):
 				return 190;
 				break;
 			
@@ -36365,7 +36365,7 @@ int func_522(int iParam0, bool bParam1)
 			break;
 		
 		case joaat("avenger"):
-		case -426933872:
+		case joaat("avenger3"):
 		case joaat("khanjali"):
 		case joaat("chernobog"):
 		case joaat("riot2"):
@@ -36756,7 +36756,7 @@ int func_536(bool bParam0)
 {
 	if (bParam0)
 	{
-		return -426933872;
+		return joaat("avenger3");
 	}
 	return joaat("avenger");
 }
@@ -47919,46 +47919,46 @@ int func_691(int iParam0, int iParam1)
 			return joaat("mesa");
 		
 		case 600:
-			return -1763675285;
+			return joaat("l35");
 		
 		case 603:
-			return -654498607;
+			return joaat("brigham");
 		
 		case 604:
-			return -979292575;
+			return joaat("clique2");
 		
 		case 601:
-			return -536105557;
+			return joaat("ratel");
 		
 		case 602:
-			return 802856453;
+			return joaat("monstrociti");
 		
 		case 605:
-			return -897824023;
+			return joaat("inductor");
 		
 		case 606:
-			return -1983622024;
+			return joaat("inductor2");
 		
 		case 607:
-			return 191916658;
+			return joaat("streamer216");
 		
 		case 608:
-			return -1659004814;
+			return joaat("conada2");
 		
 		case 609:
-			return 239897677;
+			return joaat("raiju");
 		
 		case 610:
-			return 1336514315;
+			return joaat("gauntlet6");
 		
 		case 611:
-			return 1447690049;
+			return joaat("stingertt");
 		
 		case 612:
-			return 165968051;
+			return joaat("buffalo5");
 		
 		case 613:
-			return 610429990;
+			return joaat("coureur");
 		
 		default:
 	}
@@ -50627,7 +50627,7 @@ int func_703(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return func_704(2, 1, 1);
 		
 		case joaat("squaddie"):
@@ -50718,7 +50718,7 @@ int func_707(int iParam0)
 {
 	switch (iParam0)
 	{
-		case 239897677:
+		case joaat("raiju"):
 			return 0;
 		
 		case joaat("squaddie"):
@@ -54790,59 +54790,59 @@ int func_762(int iParam0)
 	{
 		return 599;
 	}
-	else if (iParam0 == -1763675285)
+	else if (iParam0 == joaat("l35"))
 	{
 		return 600;
 	}
-	else if (iParam0 == -654498607)
+	else if (iParam0 == joaat("brigham"))
 	{
 		return 603;
 	}
-	else if (iParam0 == -979292575)
+	else if (iParam0 == joaat("clique2"))
 	{
 		return 604;
 	}
-	else if (iParam0 == -536105557)
+	else if (iParam0 == joaat("ratel"))
 	{
 		return 601;
 	}
-	else if (iParam0 == 802856453)
+	else if (iParam0 == joaat("monstrociti"))
 	{
 		return 602;
 	}
-	else if (iParam0 == -897824023)
+	else if (iParam0 == joaat("inductor"))
 	{
 		return 605;
 	}
-	else if (iParam0 == -1983622024)
+	else if (iParam0 == joaat("inductor2"))
 	{
 		return 606;
 	}
-	else if (iParam0 == 191916658)
+	else if (iParam0 == joaat("streamer216"))
 	{
 		return 607;
 	}
-	else if (iParam0 == -1659004814)
+	else if (iParam0 == joaat("conada2"))
 	{
 		return 608;
 	}
-	else if (iParam0 == 239897677)
+	else if (iParam0 == joaat("raiju"))
 	{
 		return 609;
 	}
-	else if (iParam0 == 1336514315)
+	else if (iParam0 == joaat("gauntlet6"))
 	{
 		return 610;
 	}
-	else if (iParam0 == 1447690049)
+	else if (iParam0 == joaat("stingertt"))
 	{
 		return 611;
 	}
-	else if (iParam0 == 165968051)
+	else if (iParam0 == joaat("buffalo5"))
 	{
 		return 612;
 	}
-	else if (iParam0 == 610429990)
+	else if (iParam0 == joaat("coureur"))
 	{
 		return 613;
 	}

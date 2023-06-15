@@ -473,11 +473,11 @@ int func_2(int iParam0)
 		case joaat("alkonost"):
 		case joaat("annihilator2"):
 		case joaat("conada"):
-		case -1659004814:
+		case joaat("conada2"):
 		case joaat("avenger"):
-		case -426933872:
-		case 191916658:
-		case 239897677:
+		case joaat("avenger3"):
+		case joaat("streamer216"):
+		case joaat("raiju"):
 			return 1;
 		
 		default:

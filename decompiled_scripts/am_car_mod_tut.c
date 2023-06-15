@@ -6880,21 +6880,21 @@ int func_166(int iParam0)
 		case joaat("issi8"):
 		case joaat("broadway"):
 		case joaat("tahoma"):
-		case -1659004814:
-		case 1336514315:
-		case -654498607:
-		case -979292575:
-		case -1763675285:
-		case -536105557:
-		case 1447690049:
-		case 165968051:
-		case 191916658:
-		case 802856453:
-		case 610429990:
-		case -44799464:
-		case 239897677:
-		case -897824023:
-		case -1983622024:
+		case joaat("conada2"):
+		case joaat("gauntlet6"):
+		case joaat("brigham"):
+		case joaat("clique2"):
+		case joaat("l35"):
+		case joaat("ratel"):
+		case joaat("stingertt"):
+		case joaat("buffalo5"):
+		case joaat("streamer216"):
+		case joaat("monstrociti"):
+		case joaat("coureur"):
+		case joaat("speedo5"):
+		case joaat("raiju"):
+		case joaat("inductor"):
+		case joaat("inductor2"):
 			return 1;
 			break;
 	}
@@ -7148,7 +7148,7 @@ int func_177(bool bParam0)
 {
 	if (bParam0)
 	{
-		return -426933872;
+		return joaat("avenger3");
 	}
 	return joaat("avenger");
 }
@@ -7717,7 +7717,7 @@ int func_198(int iParam0, bool bParam1, var uParam2)
 		*uParam2 = 2;
 		return 0;
 	}
-	if (((((((((((((((((((((iParam0 == joaat("caddy") || iParam0 == joaat("forklift")) || iParam0 == joaat("caddy2")) || iParam0 == joaat("crusader")) || iParam0 == joaat("tribike")) || iParam0 == joaat("tribike2")) || iParam0 == joaat("tribike3")) || iParam0 == joaat("tractor")) || iParam0 == joaat("tractor2")) || iParam0 == joaat("mower")) || iParam0 == joaat("tornado4")) || iParam0 == joaat("docktug")) || iParam0 == joaat("stretch")) || iParam0 == joaat("bison2")) || iParam0 == joaat("bison3")) || iParam0 == joaat("benson")) || iParam0 == joaat("pounder")) || iParam0 == joaat("submersible")) || iParam0 == joaat("emperor3")) || iParam0 == joaat("dune2")) || iParam0 == -897824023) || iParam0 == -1983622024)
+	if (((((((((((((((((((((iParam0 == joaat("caddy") || iParam0 == joaat("forklift")) || iParam0 == joaat("caddy2")) || iParam0 == joaat("crusader")) || iParam0 == joaat("tribike")) || iParam0 == joaat("tribike2")) || iParam0 == joaat("tribike3")) || iParam0 == joaat("tractor")) || iParam0 == joaat("tractor2")) || iParam0 == joaat("mower")) || iParam0 == joaat("tornado4")) || iParam0 == joaat("docktug")) || iParam0 == joaat("stretch")) || iParam0 == joaat("bison2")) || iParam0 == joaat("bison3")) || iParam0 == joaat("benson")) || iParam0 == joaat("pounder")) || iParam0 == joaat("submersible")) || iParam0 == joaat("emperor3")) || iParam0 == joaat("dune2")) || iParam0 == joaat("inductor")) || iParam0 == joaat("inductor2"))
 	{
 		*uParam2 = 2;
 		return 0;

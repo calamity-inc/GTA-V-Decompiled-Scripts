@@ -39640,8 +39640,8 @@ int func_380(int iParam0)
 		case joaat("comet7"):
 		case joaat("sm722"):
 		case joaat("draugur"):
-		case -536105557:
-		case -1763675285:
+		case joaat("ratel"):
+		case joaat("l35"):
 			return 1;
 			break;
 	}

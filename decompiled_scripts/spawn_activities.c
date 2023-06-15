@@ -102546,7 +102546,7 @@ int func_753(int iParam0)
 			return Global_262145.f_23607;
 		
 		case joaat("avenger"):
-		case -426933872:
+		case joaat("avenger3"):
 			return Global_262145.f_23608;
 		
 		case joaat("volatol"):
@@ -102609,7 +102609,7 @@ int func_754(int iParam0)
 		case joaat("oppressor2"):
 		case joaat("paragon2"):
 		case joaat("toreador"):
-		case -426933872:
+		case joaat("avenger3"):
 			return 1;
 		
 		default:

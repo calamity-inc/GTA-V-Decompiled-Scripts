@@ -108392,7 +108392,7 @@ int func_1466(int iParam0)
 			break;
 		
 		case 92:
-			iVar0 = 2086307585;
+			iVar0 = joaat("ig_roostermccraw");
 			break;
 	}
 	return iVar0;
