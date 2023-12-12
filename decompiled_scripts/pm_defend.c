@@ -1038,7 +1038,7 @@ void func_30(var uParam0)
 {
 	if (!func_20(uParam0->f_76) && !func_20(uParam0->f_79))
 	{
-		uParam0->f_82 = PED::ADD_SCENARIO_BLOCKING_AREA((uParam0->f_76 - uParam0->f_79), (uParam0->f_76.f_1 - uParam0->f_79.f_1), (uParam0->f_76.f_2 - uParam0->f_79.f_2), (uParam0->f_76 + uParam0->f_79), (uParam0->f_76.f_1 + uParam0->f_79.f_1), (uParam0->f_76.f_2 + uParam0->f_79.f_2), false, true, true, true);
+		uParam0->f_82 = PED::ADD_SCENARIO_BLOCKING_AREA((uParam0->f_76 - uParam0->f_79), (uParam0->f_76.f_1 - uParam0->f_79.f_1), (uParam0->f_76.f_2 - uParam0->f_79.f_2), (uParam0->f_76 + uParam0->f_79), (uParam0->f_76.f_1 + uParam0->f_79.f_1), (uParam0->f_76.f_2 + uParam0->f_79.f_2), false, true, true, true, 1);
 	}
 	if (!func_20(uParam0->f_72) && !uParam0->f_75 <= 0f)
 	{
@@ -1202,7 +1202,7 @@ void func_33(var uParam0)
 
 int func_34()
 {
-	return func_35(Global_112519.f_20, Global_112519.f_29);
+	return func_35(Global_113079.f_20, Global_113079.f_29);
 }
 
 int func_35(int iParam0, int iParam1)
@@ -1227,7 +1227,7 @@ int func_35(int iParam0, int iParam1)
 
 int func_36()
 {
-	return Global_112519.f_20;
+	return Global_113079.f_20;
 }
 
 void func_37(var uParam0)
@@ -1316,6 +1316,6 @@ void func_40(struct<61> Param0, var uParam61, var uParam62, var uParam63, var uP
 
 void func_41(int iParam0)
 {
-	Global_112519.f_22 = iParam0;
+	Global_113079.f_22 = iParam0;
 }
 

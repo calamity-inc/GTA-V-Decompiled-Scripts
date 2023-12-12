@@ -140,7 +140,7 @@ void __EntryFunction__()
 	{
 		func_37(0);
 	}
-	if (func_36(Global_113810.f_20120, 16384))
+	if (func_36(Global_114370.f_20120, 16384))
 	{
 		func_37(0);
 	}
@@ -151,7 +151,7 @@ void __EntryFunction__()
 		{
 			if (ENTITY::IS_ENTITY_DEAD(iLocal_93, false) && !iLocal_97 == 7)
 			{
-				func_35(&(Global_113810.f_20120), 16384);
+				func_35(&(Global_114370.f_20120), 16384);
 				iLocal_97 = 7;
 			}
 		}
@@ -365,9 +365,9 @@ int func_6(int iParam0, bool bParam1, int iParam2)
 	int iVar0;
 	
 	iVar0 = func_7(iParam0, !bParam1, 0);
-	if ((iParam2 != 145 && HUD::DOES_BLIP_EXIST(iVar0)) && HUD::DOES_TEXT_LABEL_EXIST(&(Global_2058[iParam2 /*29*/].f_3)))
+	if ((iParam2 != 145 && HUD::DOES_BLIP_EXIST(iVar0)) && HUD::DOES_TEXT_LABEL_EXIST(&(Global_2139[iParam2 /*29*/].f_3)))
 	{
-		HUD::SET_BLIP_NAME_FROM_TEXT_FILE(iVar0, &(Global_2058[iParam2 /*29*/].f_3));
+		HUD::SET_BLIP_NAME_FROM_TEXT_FILE(iVar0, &(Global_2139[iParam2 /*29*/].f_3));
 	}
 	return iVar0;
 }
@@ -501,7 +501,7 @@ int func_13(float fParam0, bool bParam1)
 			while (iVar37 < 63)
 			{
 				iVar32 = iVar37;
-				if (BitTest(Global_113810.f_18577[iVar32 /*6*/], 2) && !BitTest(Global_113810.f_18577[iVar32 /*6*/], 3))
+				if (BitTest(Global_114370.f_18577[iVar32 /*6*/], 2) && !BitTest(Global_114370.f_18577[iVar32 /*6*/], 3))
 				{
 					func_14(iVar32, &Var0);
 					fVar35 = MISC::GET_DISTANCE_BETWEEN_COORDS(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false), Var0.f_6, true);
@@ -1363,7 +1363,7 @@ struct<2> func_18(int iParam0)
 int func_19()
 {
 	func_20();
-	switch (Global_113810.f_2366.f_539.f_4321)
+	switch (Global_114370.f_2366.f_539.f_4321)
 	{
 		case 0:
 			return 1;
@@ -1386,35 +1386,35 @@ void func_20()
 	
 	if (ENTITY::DOES_ENTITY_EXIST(PLAYER::PLAYER_PED_ID()))
 	{
-		if (func_23(Global_113810.f_2366.f_539.f_4321) != ENTITY::GET_ENTITY_MODEL(PLAYER::PLAYER_PED_ID()))
+		if (func_23(Global_114370.f_2366.f_539.f_4321) != ENTITY::GET_ENTITY_MODEL(PLAYER::PLAYER_PED_ID()))
 		{
 			iVar0 = func_22(PLAYER::PLAYER_PED_ID());
-			if (func_25(iVar0) && (!func_21(14) || Global_112760))
+			if (func_25(iVar0) && (!func_21(14) || Global_113320))
 			{
-				if (Global_113810.f_2366.f_539.f_4321 != iVar0 && func_25(Global_113810.f_2366.f_539.f_4321))
+				if (Global_114370.f_2366.f_539.f_4321 != iVar0 && func_25(Global_114370.f_2366.f_539.f_4321))
 				{
-					Global_113810.f_2366.f_539.f_4322 = Global_113810.f_2366.f_539.f_4321;
+					Global_114370.f_2366.f_539.f_4322 = Global_114370.f_2366.f_539.f_4321;
 				}
-				Global_113810.f_2366.f_539.f_4323 = iVar0;
-				Global_113810.f_2366.f_539.f_4321 = iVar0;
+				Global_114370.f_2366.f_539.f_4323 = iVar0;
+				Global_114370.f_2366.f_539.f_4321 = iVar0;
 				return;
 			}
 		}
 		else
 		{
-			if (Global_113810.f_2366.f_539.f_4321 != 145)
+			if (Global_114370.f_2366.f_539.f_4321 != 145)
 			{
-				Global_113810.f_2366.f_539.f_4323 = Global_113810.f_2366.f_539.f_4321;
+				Global_114370.f_2366.f_539.f_4323 = Global_114370.f_2366.f_539.f_4321;
 			}
 			return;
 		}
 	}
-	Global_113810.f_2366.f_539.f_4321 = 145;
+	Global_114370.f_2366.f_539.f_4321 = 145;
 }
 
 bool func_21(int iParam0)
 {
-	return Global_43377 == iParam0;
+	return Global_43922 == iParam0;
 }
 
 int func_22(int iParam0)
@@ -1452,7 +1452,7 @@ int func_23(int iParam0)
 
 var func_24(int iParam0)
 {
-	return Global_2058[iParam0 /*29*/];
+	return Global_2139[iParam0 /*29*/];
 }
 
 bool func_25(int iParam0)
@@ -1463,7 +1463,7 @@ bool func_25(int iParam0)
 int func_26()
 {
 	func_20();
-	return Global_113810.f_2366.f_539.f_4321;
+	return Global_114370.f_2366.f_539.f_4321;
 }
 
 int func_27()
@@ -1493,12 +1493,12 @@ int func_28()
 
 bool func_29()
 {
-	return Global_113528 > 0;
+	return Global_114088 > 0;
 }
 
 int func_30()
 {
-	if (Global_97735 != -1)
+	if (Global_98294 != -1)
 	{
 		return 1;
 	}
@@ -1507,16 +1507,16 @@ int func_30()
 
 int func_31()
 {
-	if (Global_97735 != -1)
+	if (Global_98294 != -1)
 	{
-		return BitTest(Global_91601[Global_97735 /*34*/].f_15, 20);
+		return BitTest(Global_92160[Global_98294 /*34*/].f_15, 20);
 	}
 	return 0;
 }
 
 bool func_32(int iParam0)
 {
-	return func_33(iParam0, Global_43377);
+	return func_33(iParam0, Global_43922);
 }
 
 int func_33(int iParam0, int iParam1)

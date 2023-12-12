@@ -42,11 +42,11 @@ void __EntryFunction__()
 	sLocal_18 = "NULL";
 	while (true)
 	{
-		if (func_7() || Global_1962785 == 1)
+		if (func_7() || Global_1955016 == 1)
 		{
 			func_6();
 		}
-		if (func_1(&uLocal_19, &Global_298026))
+		if (func_1(&uLocal_19, &Global_298726))
 		{
 			func_6();
 		}
@@ -21347,11 +21347,11 @@ void func_2(int iParam0, var uParam1)
 
 int func_3()
 {
-	if (Global_2691837)
+	if (Global_2692280)
 	{
 		return 32;
 	}
-	return (32 - Global_2691838);
+	return (32 - Global_2692281);
 }
 
 int func_4(int iParam0)
@@ -21488,7 +21488,7 @@ void func_5()
 {
 	MISC::CLEAR_TACTICAL_NAV_MESH_POINTS();
 	MISC::ADD_STUNT_JUMP(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0, 0);
-	PED::ADD_SCENARIO_BLOCKING_AREA(-9f, -9f, -9f, -10f, -10f, -10f, false, true, true, true);
+	PED::ADD_SCENARIO_BLOCKING_AREA(-9f, -9f, -9f, -10f, -10f, -10f, false, true, true, true, 1);
 	func_5();
 }
 
@@ -21499,7 +21499,7 @@ void func_6()
 
 int func_7()
 {
-	if (Global_1575038 == 0)
+	if (Global_1575052 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -21510,7 +21510,7 @@ int func_7()
 	{
 		return 1;
 	}
-	if (Global_2696994)
+	if (Global_2698534)
 	{
 		return 1;
 	}
@@ -21560,7 +21560,7 @@ int func_8()
 
 int func_9()
 {
-	switch (Global_2697098)
+	switch (Global_2698640)
 	{
 		case 0:
 			return joaat("freemode");
@@ -21572,12 +21572,12 @@ int func_9()
 
 int func_10()
 {
-	return Global_32283;
+	return Global_32828;
 }
 
 bool func_11()
 {
-	return Global_2683883.f_698;
+	return Global_2684312.f_698;
 }
 
 int func_12(int iParam0)
@@ -21591,11 +21591,11 @@ int func_12(int iParam0)
 
 bool func_13()
 {
-	return Global_2694576;
+	return Global_2695951;
 }
 
 bool func_14()
 {
-	return Global_2683883.f_693;
+	return Global_2684312.f_693;
 }
 

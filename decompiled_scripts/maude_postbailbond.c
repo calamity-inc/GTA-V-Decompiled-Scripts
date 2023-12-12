@@ -466,24 +466,24 @@ void func_16(bool bParam0)
 
 void func_17()
 {
-	Global_20711 = 0;
+	Global_21032 = 0;
 	func_18();
 }
 
 void func_18()
 {
 	AUDIO::RESTART_SCRIPTED_CONVERSATION();
-	Global_22856 = 0;
+	Global_23177 = 0;
 	if (AUDIO::IS_SCRIPTED_CONVERSATION_ONGOING())
 	{
 		AUDIO::STOP_SCRIPTED_CONVERSATION(false);
-		Global_21845 = 6;
+		Global_22166 = 6;
 	}
 }
 
 void func_19()
 {
-	Global_20711 = 0;
+	Global_21032 = 0;
 	func_20();
 }
 
@@ -492,28 +492,28 @@ void func_20()
 	if (AUDIO::IS_SCRIPTED_CONVERSATION_ONGOING())
 	{
 		AUDIO::RESTART_SCRIPTED_CONVERSATION();
-		Global_22856 = 0;
+		Global_23177 = 0;
 		AUDIO::STOP_SCRIPTED_CONVERSATION(true);
-		Global_21845 = 6;
+		Global_22166 = 6;
 		return;
 	}
 }
 
 char* func_21()
 {
-	if (BitTest(Global_113810.f_24989, 3))
+	if (BitTest(Global_114370.f_24989, 3))
 	{
 		return "BB4_loiter";
 	}
-	else if (BitTest(Global_113810.f_24989, 2))
+	else if (BitTest(Global_114370.f_24989, 2))
 	{
 		return "BB3_loiter";
 	}
-	else if (BitTest(Global_113810.f_24989, 1))
+	else if (BitTest(Global_114370.f_24989, 1))
 	{
 		return "BB2_loiter";
 	}
-	else if (BitTest(Global_113810.f_24989, 0))
+	else if (BitTest(Global_114370.f_24989, 0))
 	{
 		return "BB1_loiter";
 	}
@@ -525,16 +525,16 @@ struct<6> func_22()
 	struct<6> Var0;
 	
 	StringCopy(&Var0, "NULL", 24);
-	if (Global_21845 == 4)
+	if (Global_22166 == 4)
 	{
-		return Global_21464;
+		return Global_21785;
 	}
 	return Var0;
 }
 
 int func_23()
 {
-	if (Global_21845 != 0 || AUDIO::IS_SCRIPTED_CONVERSATION_ONGOING())
+	if (Global_22166 != 0 || AUDIO::IS_SCRIPTED_CONVERSATION_ONGOING())
 	{
 		return 1;
 	}
@@ -1133,54 +1133,54 @@ void func_44(var uParam0, char* sParam1, char* sParam2, int iParam3, int iParam4
 			iParam3 = 7;
 		}
 	}
-	MISC::SET_BIT(&Global_20711, 0);
-	Global_21848 = iParam3;
-	StringCopy(&Global_21835, sParam2, 24);
+	MISC::SET_BIT(&Global_21032, 0);
+	Global_22169 = iParam3;
+	StringCopy(&Global_22156, sParam2, 24);
 }
 
 void func_45(var uParam0, int iParam1, char* sParam2, int iParam3, int iParam4, int iParam5)
 {
-	Global_21299 = { *uParam0 };
-	Global_7686 = iParam1;
-	StringCopy(&Global_21915, sParam2, 24);
-	Global_22834 = iParam5;
+	Global_21620 = { *uParam0 };
+	Global_7999 = iParam1;
+	StringCopy(&Global_22236, sParam2, 24);
+	Global_23155 = iParam5;
 	if (iParam3 == 0)
 	{
-		Global_22832 = 1;
-		Global_22830 = 0;
+		Global_23153 = 1;
+		Global_23151 = 0;
 	}
 	else
 	{
-		Global_22832 = 0;
-		Global_22830 = 1;
+		Global_23153 = 0;
+		Global_23151 = 1;
 	}
 	if (iParam4 == 0)
 	{
-		Global_22833 = 1;
-		Global_22831 = 0;
+		Global_23154 = 1;
+		Global_23152 = 0;
 	}
 	else
 	{
-		Global_22833 = 0;
-		Global_22831 = 1;
+		Global_23154 = 0;
+		Global_23152 = 1;
 	}
 }
 
 char* func_46()
 {
-	if (BitTest(Global_113810.f_24989, 3))
+	if (BitTest(Global_114370.f_24989, 3))
 	{
 		return "BB4AUD";
 	}
-	else if (BitTest(Global_113810.f_24989, 2))
+	else if (BitTest(Global_114370.f_24989, 2))
 	{
 		return "BB3AUD";
 	}
-	else if (BitTest(Global_113810.f_24989, 1))
+	else if (BitTest(Global_114370.f_24989, 1))
 	{
 		return "BB2AUD";
 	}
-	else if (BitTest(Global_113810.f_24989, 0))
+	else if (BitTest(Global_114370.f_24989, 0))
 	{
 		return "BB1AUD";
 	}
@@ -1197,7 +1197,7 @@ void func_47(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4, 
 	(uParam0[iParam1 /*10*/])->f_7 = 1;
 	(uParam0[iParam1 /*10*/])->f_8 = iParam4;
 	(uParam0[iParam1 /*10*/])->f_9 = iParam5;
-	if (!Global_78689)
+	if (!Global_79248)
 	{
 		if (!PED::IS_PED_INJURED(iParam2))
 		{
@@ -1233,7 +1233,7 @@ void func_48(bool bParam0, var uParam1)
 	Var3 = { 2739.981f, 4155.221f, 50.28859f };
 	if (bParam0)
 	{
-		*uParam1 = PED::ADD_SCENARIO_BLOCKING_AREA(Var0, Var3, false, true, true, true);
+		*uParam1 = PED::ADD_SCENARIO_BLOCKING_AREA(Var0, Var3, false, true, true, true, 1);
 		PED::SET_PED_NON_CREATION_AREA(Var0, Var3);
 		VEHICLE::SET_ALL_VEHICLE_GENERATORS_ACTIVE_IN_AREA(Var0, Var3, false, true);
 		VEHICLE::REMOVE_VEHICLES_FROM_GENERATORS_IN_AREA(Var0, Var3, 0);
@@ -1251,19 +1251,19 @@ void func_48(bool bParam0, var uParam1)
 
 int func_49()
 {
-	if (BitTest(Global_113810.f_24989, 3))
+	if (BitTest(Global_114370.f_24989, 3))
 	{
 		return 4;
 	}
-	else if (BitTest(Global_113810.f_24989, 2))
+	else if (BitTest(Global_114370.f_24989, 2))
 	{
 		return 4;
 	}
-	else if (BitTest(Global_113810.f_24989, 1))
+	else if (BitTest(Global_114370.f_24989, 1))
 	{
 		return 4;
 	}
-	else if (BitTest(Global_113810.f_24989, 0))
+	else if (BitTest(Global_114370.f_24989, 0))
 	{
 		return 3;
 	}
@@ -1380,7 +1380,7 @@ int func_53(int iParam0)
 
 var func_54(int iParam0)
 {
-	return Global_2058[iParam0 /*29*/];
+	return Global_2139[iParam0 /*29*/];
 }
 
 bool func_55(int iParam0)
