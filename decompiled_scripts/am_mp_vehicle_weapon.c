@@ -2475,9 +2475,9 @@ int func_73(int iParam0)
 			return 1;
 			break;
 		
-		case -1233767450:
+		case joaat("polgauntlet"):
 		case joaat("pranger"):
-		case -1674384553:
+		case joaat("police5"):
 			return 1;
 			break;
 	}

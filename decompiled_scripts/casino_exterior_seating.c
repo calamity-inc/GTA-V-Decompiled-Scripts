@@ -69884,11 +69884,11 @@ int func_324(int iParam0)
 			return 98;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 99;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 100;
 			break;
 	}
@@ -70346,11 +70346,11 @@ int func_327(int iParam0)
 			return 510;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 512;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 514;
 			break;
 	}

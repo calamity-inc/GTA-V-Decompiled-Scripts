@@ -40568,7 +40568,7 @@ char* func_312(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			if (bParam1)
 			{
 				return "WTU_BATTLERIFLE";
@@ -40579,7 +40579,7 @@ char* func_312(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			if (bParam1)
 			{
 				return "WTU_SNOWLNCHR";
@@ -41593,10 +41593,10 @@ int func_327(int iParam0)
 		case 350597077:
 			return -2002358675;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return -999731178;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return -121283285;
 		
 		case joaat("weapon_snowball"):

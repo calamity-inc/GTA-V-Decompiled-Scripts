@@ -20698,8 +20698,8 @@ int func_297(int iParam0)
 		case joaat("policeold2"):
 		case joaat("policet"):
 		case joaat("taxi"):
-		case -671564942:
-		case -902029319:
+		case joaat("towtruck3"):
+		case joaat("towtruck4"):
 		case joaat("submersible"):
 		case joaat("submersible2"):
 		case joaat("monster"):
@@ -24219,56 +24219,56 @@ int func_301(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -122993285)
+	else if (iParam0 == joaat("turismo3"))
 	{
 		if (!Global_262145.f_36286 && iVar1 < Global_262145.f_36266)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -38879449)
+	else if (iParam0 == joaat("aleutian"))
 	{
 		if (!Global_262145.f_36291 && iVar1 < Global_262145.f_36271)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -465825307)
+	else if (iParam0 == joaat("fr36"))
 	{
 		if (!Global_262145.f_36285 && iVar1 < Global_262145.f_36265)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -441209695)
+	else if (iParam0 == joaat("dominator9"))
 	{
 		if (!Global_262145.f_36292 && iVar1 < Global_262145.f_36272)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1233767450)
+	else if (iParam0 == joaat("polgauntlet"))
 	{
 		if (!Global_262145.f_36297 && iVar1 < Global_262145.f_36277)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1674384553)
+	else if (iParam0 == joaat("police5"))
 	{
 		if (!Global_262145.f_36288 && iVar1 < Global_262145.f_36268)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -478639183)
+	else if (iParam0 == joaat("impaler5"))
 	{
 		if (!Global_262145.f_36296 && iVar1 < Global_262145.f_36276)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1029730482)
+	else if (iParam0 == joaat("cavalcade3"))
 	{
 		if (!Global_262145.f_36295 && iVar1 < Global_262145.f_36275)
 		{
@@ -24282,63 +24282,63 @@ int func_301(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 372621319)
+	else if (iParam0 == joaat("vigero3"))
 	{
 		if (!Global_262145.f_36287 && iVar1 < Global_262145.f_36267)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -741120335)
+	else if (iParam0 == joaat("asterope2"))
 	{
 		if (!Global_262145.f_36293 && iVar1 < Global_262145.f_36273)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -863358884)
+	else if (iParam0 == joaat("baller8"))
 	{
 		if (!Global_262145.f_36301 && iVar1 < Global_262145.f_36281)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -768044142)
+	else if (iParam0 == joaat("dorado"))
 	{
 		if (!Global_262145.f_36300 && iVar1 < Global_262145.f_36280)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -178442374)
+	else if (iParam0 == joaat("impaler6"))
 	{
 		if (!Global_262145.f_36299 && iVar1 < Global_262145.f_36279)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 167522317)
+	else if (iParam0 == joaat("terminus"))
 	{
 		if (!Global_262145.f_36302 && iVar1 < Global_262145.f_36282)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1372798934)
+	else if (iParam0 == joaat("vivanite"))
 	{
 		if (!Global_262145.f_36298 && iVar1 < Global_262145.f_36278)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -842765535)
+	else if (iParam0 == joaat("boxville6"))
 	{
 		if (!Global_262145.f_36303 && iVar1 < Global_262145.f_36283)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 728350375)
+	else if (iParam0 == joaat("benson2"))
 	{
 		if (!Global_262145.f_36304 && iVar1 < Global_262145.f_36284)
 		{
@@ -29039,8 +29039,8 @@ int func_408(int iParam0)
 			case joaat("weapon_candycane"):
 			case joaat("weapon_railgunxm3"):
 			case 350597077:
-			case 1924557585:
-			case 62870901:
+			case joaat("weapon_battlerifle"):
+			case joaat("weapon_snowlauncher"):
 				return 1;
 				break;
 			}
@@ -29887,7 +29887,7 @@ int func_409(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (bParam1)
 			{
 				case 0:

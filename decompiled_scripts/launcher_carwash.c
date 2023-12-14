@@ -1671,7 +1671,7 @@ int func_63(int iParam0)
 		
 		default:
 	}
-	if ((iVar0 == joaat("zr350") || iVar0 == 1923534526) && VEHICLE::GET_VEHICLE_MOD(iParam0, 0) > 10)
+	if ((iVar0 == joaat("zr350") || iVar0 == joaat("driftzr350")) && VEHICLE::GET_VEHICLE_MOD(iParam0, 0) > 10)
 	{
 		return 1;
 	}
@@ -1784,8 +1784,8 @@ int func_64(int iParam0)
 		case joaat("draugur"):
 		case joaat("ratel"):
 		case joaat("l35"):
-		case 372621319:
-		case 167522317:
+		case joaat("vigero3"):
+		case joaat("terminus"):
 			return 1;
 			break;
 	}

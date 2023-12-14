@@ -37956,7 +37956,7 @@ int func_280(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam1)
 			{
 				case 0:

@@ -13967,7 +13967,7 @@ void func_308(char* sParam0, bool bParam1)
 
 int func_309(int iParam0)
 {
-	if ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam0 == joaat("weapon_pistol") || iParam0 == joaat("weapon_microsmg")) || iParam0 == joaat("weapon_smg")) || iParam0 == joaat("weapon_assaultrifle")) || iParam0 == joaat("weapon_advancedrifle")) || iParam0 == joaat("weapon_mg")) || iParam0 == joaat("weapon_combatmg")) || iParam0 == joaat("weapon_pumpshotgun")) || iParam0 == joaat("weapon_sawnoffshotgun")) || iParam0 == joaat("weapon_sniperrifle")) || iParam0 == joaat("weapon_heavysniper")) || iParam0 == joaat("weapon_grenadelauncher")) || iParam0 == joaat("weapon_rpg")) || iParam0 == joaat("weapon_minigun")) || iParam0 == joaat("weapon_knife")) || iParam0 == joaat("weapon_bat")) || iParam0 == joaat("weapon_unarmed")) || iParam0 == joaat("weapon_machinepistol")) || iParam0 == joaat("weapon_grenade")) || iParam0 == joaat("weapon_stickybomb")) || iParam0 == joaat("weapon_molotov")) || iParam0 == joaat("weapon_pipebomb")) || iParam0 == joaat("weapon_carbinerifle")) || iParam0 == joaat("weapon_crowbar")) || iParam0 == joaat("weapon_hammer")) || iParam0 == joaat("weapon_wrench")) || iParam0 == joaat("weapon_specialcarbine")) || iParam0 == joaat("weapon_bullpuprifle")) || iParam0 == joaat("weapon_heavyshotgun")) || iParam0 == joaat("weapon_bullpupshotgun")) || iParam0 == joaat("weapon_assaultshotgun")) || iParam0 == joaat("weapon_assaultsmg")) || iParam0 == joaat("weapon_combatpdw")) || iParam0 == joaat("weapon_specialcarbine_mk2")) || iParam0 == joaat("weapon_pistol_mk2")) || iParam0 == joaat("weapon_militaryrifle")) || iParam0 == joaat("weapon_assaultrifle_mk2")) || iParam0 == joaat("weapon_compactrifle")) || iParam0 == joaat("weapon_minismg")) || iParam0 == joaat("weapon_snspistol")) || iParam0 == joaat("weapon_vintagepistol")) || iParam0 == joaat("weapon_dbshotgun")) || iParam0 == joaat("weapon_musket")) || iParam0 == joaat("weapon_navyrevolver")) || iParam0 == joaat("weapon_bottle")) || iParam0 == joaat("weapon_dagger")) || iParam0 == joaat("weapon_hatchet")) || iParam0 == joaat("weapon_combatpistol")) || iParam0 == joaat("weapon_pistol50")) || iParam0 == joaat("weapon_snspistol")) || iParam0 == joaat("weapon_snspistol_mk2")) || iParam0 == joaat("weapon_heavypistol")) || iParam0 == joaat("weapon_vintagepistol")) || iParam0 == joaat("weapon_ceramicpistol")) || iParam0 == joaat("weapon_vintagepistol")) || iParam0 == joaat("weapon_marksmanrifle")) || iParam0 == joaat("weapon_revolver")) || iParam0 == joaat("weapon_revolver_mk2")) || iParam0 == joaat("weapon_doubleaction")) || iParam0 == joaat("weapon_navyrevolver")) || iParam0 == joaat("weapon_stungun")) || iParam0 == joaat("weapon_flaregun")) || iParam0 == joaat("weapon_raypistol")) || iParam0 == joaat("weapon_pumpshotgun_mk2")) || iParam0 == joaat("weapon_musket")) || iParam0 == joaat("weapon_dbshotgun")) || iParam0 == joaat("weapon_autoshotgun")) || iParam0 == joaat("weapon_assaultrifle_mk2")) || iParam0 == joaat("weapon_carbinerifle_mk2")) || iParam0 == joaat("weapon_bullpuprifle_mk2")) || iParam0 == joaat("weapon_compactrifle")) || iParam0 == joaat("weapon_minismg")) || iParam0 == joaat("weapon_smg_mk2")) || iParam0 == joaat("weapon_combatmg_mk2")) || iParam0 == joaat("weapon_gusenberg")) || iParam0 == joaat("weapon_raycarbine")) || iParam0 == joaat("weapon_firework")) || iParam0 == joaat("weapon_hominglauncher")) || iParam0 == joaat("weapon_compactlauncher")) || iParam0 == joaat("weapon_rayminigun")) || iParam0 == joaat("weapon_heavysniper_mk2")) || iParam0 == joaat("weapon_marksmanrifle")) || iParam0 == joaat("weapon_marksmanrifle_mk2")) || iParam0 == joaat("weapon_stone_hatchet")) || iParam0 == joaat("weapon_poolcue")) || iParam0 == joaat("weapon_battleaxe")) || iParam0 == joaat("weapon_nightstick")) || iParam0 == joaat("weapon_switchblade")) || iParam0 == joaat("weapon_flashlight")) || iParam0 == joaat("weapon_knuckle")) || iParam0 == joaat("weapon_golfclub")) || iParam0 == joaat("weapon_stungun_mp")) || iParam0 == joaat("weapon_emplauncher")) || iParam0 == joaat("weapon_tacticalrifle")) || iParam0 == joaat("weapon_precisionrifle")) || iParam0 == joaat("weapon_heavyrifle")) || iParam0 == joaat("weapon_pistolxm3")) || iParam0 == joaat("weapon_candycane")) || iParam0 == joaat("weapon_railgunxm3")) || iParam0 == 350597077) || iParam0 == 1924557585)
+	if ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam0 == joaat("weapon_pistol") || iParam0 == joaat("weapon_microsmg")) || iParam0 == joaat("weapon_smg")) || iParam0 == joaat("weapon_assaultrifle")) || iParam0 == joaat("weapon_advancedrifle")) || iParam0 == joaat("weapon_mg")) || iParam0 == joaat("weapon_combatmg")) || iParam0 == joaat("weapon_pumpshotgun")) || iParam0 == joaat("weapon_sawnoffshotgun")) || iParam0 == joaat("weapon_sniperrifle")) || iParam0 == joaat("weapon_heavysniper")) || iParam0 == joaat("weapon_grenadelauncher")) || iParam0 == joaat("weapon_rpg")) || iParam0 == joaat("weapon_minigun")) || iParam0 == joaat("weapon_knife")) || iParam0 == joaat("weapon_bat")) || iParam0 == joaat("weapon_unarmed")) || iParam0 == joaat("weapon_machinepistol")) || iParam0 == joaat("weapon_grenade")) || iParam0 == joaat("weapon_stickybomb")) || iParam0 == joaat("weapon_molotov")) || iParam0 == joaat("weapon_pipebomb")) || iParam0 == joaat("weapon_carbinerifle")) || iParam0 == joaat("weapon_crowbar")) || iParam0 == joaat("weapon_hammer")) || iParam0 == joaat("weapon_wrench")) || iParam0 == joaat("weapon_specialcarbine")) || iParam0 == joaat("weapon_bullpuprifle")) || iParam0 == joaat("weapon_heavyshotgun")) || iParam0 == joaat("weapon_bullpupshotgun")) || iParam0 == joaat("weapon_assaultshotgun")) || iParam0 == joaat("weapon_assaultsmg")) || iParam0 == joaat("weapon_combatpdw")) || iParam0 == joaat("weapon_specialcarbine_mk2")) || iParam0 == joaat("weapon_pistol_mk2")) || iParam0 == joaat("weapon_militaryrifle")) || iParam0 == joaat("weapon_assaultrifle_mk2")) || iParam0 == joaat("weapon_compactrifle")) || iParam0 == joaat("weapon_minismg")) || iParam0 == joaat("weapon_snspistol")) || iParam0 == joaat("weapon_vintagepistol")) || iParam0 == joaat("weapon_dbshotgun")) || iParam0 == joaat("weapon_musket")) || iParam0 == joaat("weapon_navyrevolver")) || iParam0 == joaat("weapon_bottle")) || iParam0 == joaat("weapon_dagger")) || iParam0 == joaat("weapon_hatchet")) || iParam0 == joaat("weapon_combatpistol")) || iParam0 == joaat("weapon_pistol50")) || iParam0 == joaat("weapon_snspistol")) || iParam0 == joaat("weapon_snspistol_mk2")) || iParam0 == joaat("weapon_heavypistol")) || iParam0 == joaat("weapon_vintagepistol")) || iParam0 == joaat("weapon_ceramicpistol")) || iParam0 == joaat("weapon_vintagepistol")) || iParam0 == joaat("weapon_marksmanrifle")) || iParam0 == joaat("weapon_revolver")) || iParam0 == joaat("weapon_revolver_mk2")) || iParam0 == joaat("weapon_doubleaction")) || iParam0 == joaat("weapon_navyrevolver")) || iParam0 == joaat("weapon_stungun")) || iParam0 == joaat("weapon_flaregun")) || iParam0 == joaat("weapon_raypistol")) || iParam0 == joaat("weapon_pumpshotgun_mk2")) || iParam0 == joaat("weapon_musket")) || iParam0 == joaat("weapon_dbshotgun")) || iParam0 == joaat("weapon_autoshotgun")) || iParam0 == joaat("weapon_assaultrifle_mk2")) || iParam0 == joaat("weapon_carbinerifle_mk2")) || iParam0 == joaat("weapon_bullpuprifle_mk2")) || iParam0 == joaat("weapon_compactrifle")) || iParam0 == joaat("weapon_minismg")) || iParam0 == joaat("weapon_smg_mk2")) || iParam0 == joaat("weapon_combatmg_mk2")) || iParam0 == joaat("weapon_gusenberg")) || iParam0 == joaat("weapon_raycarbine")) || iParam0 == joaat("weapon_firework")) || iParam0 == joaat("weapon_hominglauncher")) || iParam0 == joaat("weapon_compactlauncher")) || iParam0 == joaat("weapon_rayminigun")) || iParam0 == joaat("weapon_heavysniper_mk2")) || iParam0 == joaat("weapon_marksmanrifle")) || iParam0 == joaat("weapon_marksmanrifle_mk2")) || iParam0 == joaat("weapon_stone_hatchet")) || iParam0 == joaat("weapon_poolcue")) || iParam0 == joaat("weapon_battleaxe")) || iParam0 == joaat("weapon_nightstick")) || iParam0 == joaat("weapon_switchblade")) || iParam0 == joaat("weapon_flashlight")) || iParam0 == joaat("weapon_knuckle")) || iParam0 == joaat("weapon_golfclub")) || iParam0 == joaat("weapon_stungun_mp")) || iParam0 == joaat("weapon_emplauncher")) || iParam0 == joaat("weapon_tacticalrifle")) || iParam0 == joaat("weapon_precisionrifle")) || iParam0 == joaat("weapon_heavyrifle")) || iParam0 == joaat("weapon_pistolxm3")) || iParam0 == joaat("weapon_candycane")) || iParam0 == joaat("weapon_railgunxm3")) || iParam0 == 350597077) || iParam0 == joaat("weapon_battlerifle"))
 	{
 		return 1;
 	}
@@ -17992,7 +17992,7 @@ int func_338(int iParam0)
 {
 	if (!func_184())
 	{
-		if ((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam0 == joaat("trash2") || iParam0 == joaat("emperor2")) || iParam0 == joaat("emperor3")) || iParam0 == joaat("barracks3")) || iParam0 == joaat("slamvan2")) || iParam0 == joaat("boxville3")) || iParam0 == joaat("boxville4")) || iParam0 == joaat("picador")) || iParam0 == joaat("peyote")) || iParam0 == joaat("tornado")) || iParam0 == joaat("tr2")) || iParam0 == joaat("lurcher")) || iParam0 == joaat("btype2")) || iParam0 == joaat("limo2")) || iParam0 == joaat("dune4")) || iParam0 == joaat("ruiner3")) || iParam0 == joaat("cargoplane")) || iParam0 == joaat("trailerlarge")) || iParam0 == joaat("phantom3")) || iParam0 == joaat("hauler2")) || iParam0 == joaat("submersible2")) || iParam0 == joaat("policet")) || iParam0 == joaat("terbyte")) || iParam0 == joaat("blimp3")) || iParam0 == joaat("cargobob4")) || iParam0 == joaat("minitank")) || iParam0 == joaat("bison3")) || iParam0 == joaat("boxville")) || iParam0 == joaat("burrito")) || iParam0 == joaat("burrito2")) || iParam0 == joaat("pony")) || iParam0 == joaat("rancherxl")) || iParam0 == joaat("rebel2")) || iParam0 == joaat("seashark3")) || iParam0 == joaat("forklift")) || iParam0 == joaat("dloader")) || iParam0 == joaat("kosatka")) || iParam0 == joaat("avisa")) || iParam0 == joaat("seasparrow2")) || iParam0 == joaat("boattrailer")) || iParam0 == joaat("youga4")) || iParam0 == joaat("mule5")) || iParam0 == joaat("airbus")) || iParam0 == joaat("rentalbus")) || iParam0 == joaat("speedo2")) || iParam0 == joaat("dune2")) || iParam0 == joaat("cargoplane2")) || iParam0 == joaat("journey2")) || iParam0 == joaat("surfer3")) || iParam0 == joaat("brickade2")) || iParam0 == joaat("avenger2")) || iParam0 == joaat("avenger4")) || iParam0 == joaat("police2")) || iParam0 == joaat("trailers2")) || iParam0 == -1233767450)
+		if ((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam0 == joaat("trash2") || iParam0 == joaat("emperor2")) || iParam0 == joaat("emperor3")) || iParam0 == joaat("barracks3")) || iParam0 == joaat("slamvan2")) || iParam0 == joaat("boxville3")) || iParam0 == joaat("boxville4")) || iParam0 == joaat("picador")) || iParam0 == joaat("peyote")) || iParam0 == joaat("tornado")) || iParam0 == joaat("tr2")) || iParam0 == joaat("lurcher")) || iParam0 == joaat("btype2")) || iParam0 == joaat("limo2")) || iParam0 == joaat("dune4")) || iParam0 == joaat("ruiner3")) || iParam0 == joaat("cargoplane")) || iParam0 == joaat("trailerlarge")) || iParam0 == joaat("phantom3")) || iParam0 == joaat("hauler2")) || iParam0 == joaat("submersible2")) || iParam0 == joaat("policet")) || iParam0 == joaat("terbyte")) || iParam0 == joaat("blimp3")) || iParam0 == joaat("cargobob4")) || iParam0 == joaat("minitank")) || iParam0 == joaat("bison3")) || iParam0 == joaat("boxville")) || iParam0 == joaat("burrito")) || iParam0 == joaat("burrito2")) || iParam0 == joaat("pony")) || iParam0 == joaat("rancherxl")) || iParam0 == joaat("rebel2")) || iParam0 == joaat("seashark3")) || iParam0 == joaat("forklift")) || iParam0 == joaat("dloader")) || iParam0 == joaat("kosatka")) || iParam0 == joaat("avisa")) || iParam0 == joaat("seasparrow2")) || iParam0 == joaat("boattrailer")) || iParam0 == joaat("youga4")) || iParam0 == joaat("mule5")) || iParam0 == joaat("airbus")) || iParam0 == joaat("rentalbus")) || iParam0 == joaat("speedo2")) || iParam0 == joaat("dune2")) || iParam0 == joaat("cargoplane2")) || iParam0 == joaat("journey2")) || iParam0 == joaat("surfer3")) || iParam0 == joaat("brickade2")) || iParam0 == joaat("avenger2")) || iParam0 == joaat("avenger4")) || iParam0 == joaat("police2")) || iParam0 == joaat("trailers2")) || iParam0 == joaat("polgauntlet"))
 		{
 			return 1;
 		}
@@ -18140,7 +18140,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 10:
-					iVar0 = -465825307;
+					iVar0 = joaat("fr36");
 					break;
 			}
 			break;
@@ -18273,7 +18273,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 31:
-					iVar0 = -741120335;
+					iVar0 = joaat("asterope2");
 					break;
 				
 				case 32:
@@ -18281,7 +18281,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 33:
-					iVar0 = -478639183;
+					iVar0 = joaat("impaler5");
 					break;
 			}
 			break;
@@ -18566,15 +18566,15 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 70:
-					iVar0 = -441209695;
+					iVar0 = joaat("dominator9");
 					break;
 				
 				case 71:
-					iVar0 = -178442374;
+					iVar0 = joaat("impaler6");
 					break;
 				
 				case 72:
-					iVar0 = 372621319;
+					iVar0 = joaat("vigero3");
 					break;
 			}
 			break;
@@ -19277,7 +19277,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 52:
-					iVar0 = -122993285;
+					iVar0 = joaat("turismo3");
 					break;
 			}
 			break;
@@ -19434,23 +19434,23 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 38:
-					iVar0 = -38879449;
+					iVar0 = joaat("aleutian");
 					break;
 				
 				case 39:
-					iVar0 = -1029730482;
+					iVar0 = joaat("cavalcade3");
 					break;
 				
 				case 40:
-					iVar0 = -863358884;
+					iVar0 = joaat("baller8");
 					break;
 				
 				case 41:
-					iVar0 = -768044142;
+					iVar0 = joaat("dorado");
 					break;
 				
 				case 42:
-					iVar0 = -1372798934;
+					iVar0 = joaat("vivanite");
 					break;
 			}
 			break;
@@ -19667,7 +19667,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 52:
-					iVar0 = 167522317;
+					iVar0 = joaat("terminus");
 					break;
 				
 				case 53:
@@ -20055,7 +20055,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 16:
-					iVar0 = -1233767450;
+					iVar0 = joaat("polgauntlet");
 					break;
 			}
 			break;
@@ -20347,7 +20347,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 35:
-					iVar0 = 728350375;
+					iVar0 = joaat("benson2");
 					break;
 				
 				case 36:
@@ -20355,7 +20355,7 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 37:
-					iVar0 = -842765535;
+					iVar0 = joaat("boxville6");
 					break;
 			}
 			break;
@@ -21306,11 +21306,11 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 13:
-					iVar0 = 372621319;
+					iVar0 = joaat("vigero3");
 					break;
 				
 				case 14:
-					iVar0 = -1372798934;
+					iVar0 = joaat("vivanite");
 					break;
 			}
 			break;
@@ -21356,11 +21356,11 @@ int func_341(int iParam0, int iParam1)
 					break;
 				
 				case 6:
-					iVar0 = 372621319;
+					iVar0 = joaat("vigero3");
 					break;
 				
 				case 7:
-					iVar0 = -1372798934;
+					iVar0 = joaat("vivanite");
 					break;
 			}
 			break;
@@ -21394,35 +21394,35 @@ int func_341(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = -1696319096;
+					iVar0 = joaat("drifttampa");
 					break;
 				
 				case 1:
-					iVar0 = -1681653521;
+					iVar0 = joaat("driftyosemite");
 					break;
 				
 				case 2:
-					iVar0 = 821121576;
+					iVar0 = joaat("drifteuros");
 					break;
 				
 				case 3:
-					iVar0 = -181562642;
+					iVar0 = joaat("driftfuto");
 					break;
 				
 				case 4:
-					iVar0 = -1763273939;
+					iVar0 = joaat("driftjester");
 					break;
 				
 				case 5:
-					iVar0 = -1624083468;
+					iVar0 = joaat("driftremus");
 					break;
 				
 				case 6:
-					iVar0 = 1923534526;
+					iVar0 = joaat("driftzr350");
 					break;
 				
 				case 7:
-					iVar0 = -1479935577;
+					iVar0 = joaat("driftfr36");
 					break;
 			}
 			break;
@@ -23125,13 +23125,13 @@ int func_351(int iParam0, int iParam1)
 					return joaat("h4_prop_h4_fence_arches_x3_01a");
 				
 				case 77:
-					return -176324913;
+					return joaat("m23_1_prop_m31_haybales_01a");
 				
 				case 78:
-					return 921829819;
+					return joaat("m23_1_prop_m31_haybales_01b");
 				
 				case 79:
-					return 1218422038;
+					return joaat("m23_1_prop_m31_haybales_01c");
 				
 				case 80:
 					return joaat("prop_fncsec_04a");
@@ -24203,16 +24203,16 @@ int func_351(int iParam0, int iParam1)
 					return joaat("reh_prop_reh_jammer_01a");
 				
 				case 65:
-					return 582722470;
+					return joaat("m23_1_prop_m31_stack_pk_01a");
 				
 				case 66:
-					return 349636573;
+					return joaat("m23_1_prop_m31_stack_pk_01b");
 				
 				case 67:
-					return 109898569;
+					return joaat("m23_1_prop_m31_stack_pk_01c");
 				
 				case 68:
-					return -1167523343;
+					return joaat("m23_1_prop_m31_crate_pk_01a");
 				
 				case 69:
 					return 1291271306;
@@ -24730,7 +24730,7 @@ int func_351(int iParam0, int iParam1)
 					return joaat("reh_prop_reh_keypad_01a");
 				
 				case 60:
-					return 963212829;
+					return joaat("m23_1_prop_m31_ladder_01a");
 				
 				default:
 			}
@@ -27294,10 +27294,10 @@ int func_351(int iParam0, int iParam1)
 					return joaat("xm3_prop_xm3_box_pharma_01a");
 				
 				case 100:
-					return -998003313;
+					return joaat("m23_1_prop_m31_railstack_01a");
 				
 				case 101:
-					return -1306781618;
+					return joaat("m23_1_prop_m31_mogul_crashed");
 				
 				case 102:
 					return 1975365981;
@@ -28216,22 +28216,22 @@ int func_351(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return -713365156;
+					return joaat("m23_1_prop_m31_coffin_pile_01a");
 				
 				case 1:
-					return 2011166066;
+					return joaat("m23_1_prop_m31_gravestones_01a");
 				
 				case 2:
-					return 974782863;
+					return joaat("m23_1_prop_m31_gravestones_02a");
 				
 				case 3:
-					return 222046936;
+					return joaat("m23_1_prop_m31_gravestones_07a");
 				
 				case 4:
-					return -1958687786;
+					return joaat("m23_1_prop_m31_gravetomb_01a");
 				
 				case 5:
-					return 1538098401;
+					return joaat("m23_1_prop_m31_orn_bat_01a");
 				
 				case 6:
 					return joaat("reh_prop_reh_lantern_pk_01a");
@@ -31644,7 +31644,7 @@ int func_370(int iParam0)
 			break;
 		
 		case 42:
-			return 1924557585;
+			return joaat("weapon_battlerifle");
 			break;
 		
 		case 43:
@@ -31756,7 +31756,7 @@ int func_370(int iParam0)
 			break;
 		
 		case 70:
-			return 62870901;
+			return joaat("weapon_snowlauncher");
 			break;
 		
 		case 71:

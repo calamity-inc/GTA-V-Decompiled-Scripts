@@ -4688,7 +4688,7 @@ void func_97()
 			Var18 = { func_70(Var3.f_11) };
 			if (func_113())
 			{
-				func_100(-180141073, iLocal_497, &iVar1, 0, 0, 0);
+				func_100(joaat("service_spend_lose_wanted_level"), iLocal_497, &iVar1, 0, 0, 0);
 				Global_4535851[iVar1 /*85*/].f_14 = { Var18 };
 			}
 			else
@@ -4773,86 +4773,86 @@ void func_100(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 	}
 	switch (iParam0)
 	{
-		case -1645229221:
-		case -585718395:
-		case -1359375127:
-		case 454359403:
-		case -982394051:
-		case 1643659499:
-		case -2072289654:
-		case 650665123:
-		case 1654961868:
-		case -876847842:
-		case 68030260:
-		case -2122299283:
-		case 366672791:
-		case 283351220:
-		case 291576838:
-		case 1182673174:
-		case -516219046:
-		case 1036455748:
-		case 277665518:
-		case 2043854386:
-		case 1839532116:
-		case 1022400740:
-		case 1940862352:
-		case -1389227906:
-		case 711665950:
-		case 1704445500:
-		case 1515774909:
-		case 1173654533:
-		case -899802304:
-		case -663944335:
-		case 1208553146:
-		case -613221010:
-		case -671062876:
-		case -407201236:
-		case -754024203:
-		case -1885444887:
-		case 1931729587:
-		case 1064954035:
-		case -180141073:
-		case 2131324797:
-		case 1612072658:
-		case -517447402:
-		case 1948102096:
-		case 1108628223:
-		case -1834046564:
-		case -1239008812:
-		case -222363842:
-		case -1276678868:
-		case 1564537328:
-		case -96593501:
-		case 742499889:
-		case 2050093329:
-		case -1752488069:
-		case 634375935:
-		case 2115896461:
-		case 797947947:
-		case 1941570214:
-		case 665109499:
-		case -1330755006:
-		case 1976384368:
-		case 268924934:
-		case 1869490922:
-		case -336803850:
-		case -1412692765:
-		case 618167454:
-		case 980623936:
-		case 437291904:
-		case -135813048:
-		case -930104477:
-		case -1420909320:
-		case -1733398043:
-		case -1892760262:
-		case -1545737048:
-		case 2039302543:
-		case 402505853:
-		case -1143510182:
-		case 1678112166:
-		case 837955913:
-		case -1532467144:
-		case 1815541181:
+		case joaat("service_spend_mechanic_wage"):
+		case joaat("service_spend_utility_bills"):
+		case joaat("service_spend_prostitutes"):
+		case joaat("service_spend_strip_club"):
+		case joaat("service_spend_cinema"):
+		case joaat("service_spend_fairground"):
+		case joaat("service_spend_lottery"):
+		case joaat("service_spend_telescope"):
+		case joaat("service_spend_call_player"):
+		case joaat("service_spend_vehicle_insurance"):
+		case joaat("service_spend_vehicle_insurance_premium"):
+		case joaat("service_spend_car_repair"):
+		case joaat("service_spend_personal_vehicle_dropoff"):
+		case joaat("service_spend_pegasus_delivery"):
+		case joaat("service_spend_car_impound"):
+		case joaat("service_spend_carwash"):
+		case joaat("service_spend_healthcare"):
+		case joaat("service_spend_other_player_healthcare"):
+		case joaat("service_spend_arrest_bail"):
+		case joaat("service_spend_cash_drop"):
+		case joaat("service_spend_robbed_by_mugger"):
+		case joaat("service_spend_cash_drop_holdup"):
+		case joaat("service_spend_match_entry_fee"):
+		case joaat("service_spend_race_vehicle_rental"):
+		case joaat("service_spend_challenge_wager"):
+		case joaat("service_spend_betting"):
+		case joaat("service_spend_airstrike"):
+		case joaat("service_spend_ammo_drop"):
+		case joaat("service_spend_backup_gang"):
+		case joaat("service_spend_backup_heli"):
+		case joaat("service_spend_boat_pickup"):
+		case joaat("service_spend_bounty"):
+		case joaat("service_spend_bull_shark"):
+		case joaat("service_spend_cops_turn_eye"):
+		case joaat("service_spend_heli_pickup"):
+		case joaat("service_spend_hire_mercenary"):
+		case joaat("service_spend_hire_mugger"):
+		case joaat("service_spend_locate_vehicle"):
+		case joaat("service_spend_lose_wanted_level"):
+		case joaat("service_spend_off_the_radar"):
+		case joaat("service_spend_passive"):
+		case joaat("service_spend_request_heist"):
+		case joaat("service_spend_request_job"):
+		case joaat("service_spend_reveal_players"):
+		case joaat("service_spend_taxi"):
+		case joaat("service_spend_bank_interest"):
+		case joaat("service_spend_cash_gift"):
+		case joaat("service_spend_cash_shared"):
+		case joaat("service_spend_impromptu_race_fee"):
+		case joaat("service_spend_bounty_dm"):
+		case joaat("service_spend_wager"):
+		case joaat("service_spend_pay_boss"):
+		case joaat("service_spend_pay_goon"):
+		case joaat("service_spend_rename_organization"):
+		case joaat("service_spend_rename_acid_product"):
+		case joaat("service_spend_rename_acid_lab"):
+		case joaat("service_spend_pa_service_heli_pickup"):
+		case joaat("service_spend_order_bodyguard_vehicle"):
+		case joaat("service_spend_order_warehouse_vehicle"):
+		case joaat("service_spend_jukebox"):
+		case joaat("service_spend_business"):
+		case joaat("service_spend_ba_vp_bounty"):
+		case joaat("service_spend_ba_vp_bullshark"):
+		case joaat("service_spend_ba_sarge_ammo"):
+		case joaat("service_spend_ba_sarge_molotov"):
+		case joaat("service_spend_ba_enforcer_armour"):
+		case joaat("service_spend_vehicle_export_mods"):
+		case joaat("service_spend_import_export_repair"):
+		case joaat("service_spend_employ_assassins"):
+		case joaat("service_spend_gangops_cannon"):
+		case joaat("service_spend_gangops_skip_mission"):
+		case joaat("service_spend_gangops_start_strand"):
+		case joaat("service_spend_gangops_trip_skip"):
+		case joaat("service_spend_gangops_repair_cost"):
+		case joaat("service_spend_nightclub_entry_fee"):
+		case joaat("service_spend_nightclub_bar_drink"):
+		case joaat("service_spend_nightclub_dj_rehire"):
+		case joaat("service_spend_arena_join_spectator"):
+		case joaat("service_spend_arena_spectator_box"):
+		case joaat("service_spend_make_it_rain"):
 		case 571787049:
 			if (iParam1 > 0 || Global_262145.f_28652)
 			{
@@ -4860,152 +4860,152 @@ void func_100(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 			}
 			break;
 		
-		case -31156877:
-		case -1027218631:
-		case -1398318418:
-		case 1652884147:
-		case -57868256:
-		case -1216489292:
-		case -46622315:
-		case -352356931:
-		case -990286235:
-		case 563463121:
-		case 1734805203:
-		case 941287179:
-		case -1186079845:
-		case -1985150258:
-		case -1127021384:
-		case -109201286:
-		case 1982688246:
-		case -661030418:
-		case 1301046174:
-		case -1586170317:
-		case 393059668:
-		case 23796958:
-		case -1077156170:
-		case 1780666425:
-		case -2043695058:
-		case -1922554349:
-		case 1287308202:
-		case 691372038:
-		case 1480707108:
-		case 1512499951:
-		case 562283735:
-		case -154732333:
-		case -1362660491:
-		case 645708827:
-		case 767907967:
-		case -1970151306:
-		case 718859568:
-		case -1955564771:
-		case 892388724:
+		case joaat("service_earn_pickup"):
+		case joaat("service_earn_jobs"):
+		case joaat("service_earn_betting"):
+		case joaat("service_earn_lottery"):
+		case joaat("service_earn_challenge_win"):
+		case joaat("service_earn_property_sales"):
+		case joaat("service_earn_vehicle_sales"):
+		case joaat("service_earn_lester_target_kill"):
+		case joaat("service_earn_bounty_collected"):
+		case joaat("service_earn_crate_drop"):
+		case joaat("service_earn_holdups"):
+		case joaat("service_earn_import_export"):
+		case joaat("service_earn_armored_trucks"):
+		case joaat("service_earn_jobshare_cash"):
+		case joaat("service_earn_not_badsport"):
+		case joaat("service_earn_bank_interest"):
+		case joaat("service_earn_debug"):
+		case joaat("service_earn_cncw"):
+		case joaat("service_earn_cncb"):
+		case joaat("service_earn_job_bonus"):
+		case joaat("service_earn_bend_job"):
+		case joaat("service_earn_personal_vehicle"):
+		case joaat("service_earn_daily_objectives"):
+		case joaat("service_earn_ambient_job_plane_takedown"):
+		case joaat("service_earn_ambient_job_distract_cops"):
+		case joaat("service_earn_ambient_job_destroy_veh"):
+		case joaat("service_earn_refund_backup_vagos"):
+		case joaat("service_earn_refund_backup_lost"):
+		case joaat("service_earn_refund_backup_families"):
+		case joaat("service_earn_refund_hire_mugger"):
+		case joaat("service_earn_refund_hire_mercenary"):
+		case joaat("service_earn_refund_buy_cardropoff"):
+		case joaat("service_earn_refund_heli_pickup"):
+		case joaat("service_earn_refund_boat_pickup"):
+		case joaat("service_earn_refund_clear_wanted"):
+		case joaat("service_earn_refund_head_2_head"):
+		case joaat("service_earn_refund_challenge"):
+		case joaat("service_earn_refund_share_last_job"):
+		case joaat("service_earn_refund_lottery"):
 		case -1426920838:
-		case 1349151477:
-		case 1620609399:
-		case 1961641934:
-		case 210955503:
-		case -59668082:
-		case 1736933716:
-		case -1468524125:
-		case 111573502:
-		case 1525644423:
-		case 968073639:
-		case 1577781788:
-		case -934465332:
-		case -1194253122:
-		case -212607085:
-		case -815546555:
-		case 1048226110:
-		case 569170531:
-		case -856006867:
-		case 848090538:
-		case -47546905:
-		case -293060240:
-		case 463142405:
-		case 1550217370:
-		case -101307780:
-		case -664597565:
-		case 599804707:
-		case -327918414:
-		case 550898518:
-		case 835976347:
-		case 1347433368:
-		case 1052472386:
-		case -2130199671:
-		case -1227654538:
-		case 1864522104:
-		case 215608230:
-		case -876012764:
-		case -722894325:
-		case 1407278493:
-		case -1579394494:
-		case -27443911:
-		case 1179783540:
-		case 923419301:
-		case -308826175:
-		case 603298940:
-		case -12619854:
-		case -311112675:
-		case 870439158:
-		case -974288740:
-		case -4138654:
-		case -1180954122:
-		case -1918051016:
-		case 844330594:
-		case 1934825517:
-		case 1852024236:
-		case 2099238988:
-		case 1952643559:
-		case -1172900789:
-		case -2015399333:
-		case -1574795641:
-		case -961034881:
-		case 1135468152:
-		case 1265272476:
-		case -634726636:
-		case 696556762:
-		case 403506509:
-		case -883876414:
-		case -1064150715:
-		case -1387253055:
-		case -716963152:
-		case 1138089938:
-		case -561012053:
+		case joaat("service_earn_gangattack_pickup"):
+		case joaat("service_earn_ambient_job_hot_target_deliver"):
+		case joaat("service_earn_ambient_job_hot_target_kill"):
+		case joaat("service_earn_ambient_job_urban_warfare"):
+		case joaat("service_earn_ambient_job_checkpoint_collection"):
+		case joaat("service_earn_ambient_job_time_trial"):
+		case joaat("service_earn_ambient_job_challenges"):
+		case joaat("service_earn_ambient_job_heli_hot_target"):
+		case joaat("service_earn_ambient_job_dead_drop"):
+		case joaat("service_earn_ambient_job_penned_in"):
+		case joaat("service_earn_ambient_job_pass_parcel"):
+		case joaat("service_earn_ambient_job_blast"):
+		case joaat("service_earn_ambient_job_hot_property"):
+		case joaat("service_earn_ambient_job_king"):
+		case joaat("service_earn_ambient_job_beast"):
+		case joaat("service_earn_boss"):
+		case joaat("service_earn_goon"):
+		case joaat("service_earn_boss_agency"):
+		case joaat("service_earn_from_destroying_contraband"):
+		case joaat("service_earn_premium_job"):
+		case joaat("service_earn_from_vehicle_export"):
+		case joaat("service_earn_smuggler_agency"):
+		case joaat("service_earn_wage_payment_bonus"):
+		case joaat("service_earn_wage_payment"):
+		case joaat("service_earn_refundammodrop"):
+		case joaat("service_earn_salvage_checkpoint_collection"):
+		case joaat("service_earn_ambient_mugging"):
+		case joaat("service_earn_ambient_pickup"):
+		case joaat("service_earn_deathmatch_bounty"):
+		case joaat("service_earn_cashing_out"):
+		case joaat("service_earn_job_bonus_criminal_mastermind"):
+		case joaat("service_earn_job_bonus_heist_award"):
+		case joaat("service_earn_job_bonus_first_time_bonus"):
+		case joaat("service_earn_refund_orbital_manual"):
+		case joaat("service_earn_refund_orbital_auto"):
+		case joaat("service_earn_gangops_wages"):
+		case joaat("service_earn_gangops_wages_bonus"):
+		case joaat("service_earn_gangops_prep_participation"):
+		case joaat("service_earn_gangops_setup"):
+		case joaat("service_earn_gangops_setup_fail"):
+		case joaat("service_earn_gangops_finale"):
+		case joaat("service_earn_gangops_award_mastermind_2"):
+		case joaat("service_earn_gangops_award_mastermind_3"):
+		case joaat("service_earn_gangops_award_mastermind_4"):
+		case joaat("service_earn_gangops_award_loyalty_award_2"):
+		case joaat("service_earn_gangops_award_loyalty_award_3"):
+		case joaat("service_earn_gangops_award_loyalty_award_4"):
+		case joaat("service_earn_gangops_award_first_time_xm_base"):
+		case joaat("service_earn_gangops_award_first_time_xm_submarine"):
+		case joaat("service_earn_gangops_award_first_time_xm_silo"):
+		case joaat("service_earn_gangops_award_supporting"):
+		case joaat("service_earn_gangops_award_order"):
+		case joaat("service_earn_gangops_elite_xm_base"):
+		case joaat("service_earn_gangops_elite_xm_submarine"):
+		case joaat("service_earn_gangops_elite_xm_silo"):
+		case joaat("service_earn_gangops_rival_delivery"):
+		case joaat("service_earn_doomsday_finale_bonus"):
+		case joaat("service_earn_bounty_hunter_reward"):
+		case joaat("service_earn_from_business_battle"):
+		case joaat("service_earn_from_club_management_participation"):
+		case joaat("service_earn_from_fmbb_phonecall_mission"):
+		case joaat("service_earn_from_business_hub_sell"):
+		case joaat("service_earn_from_fmbb_boss_work"):
+		case joaat("service_earn_fmbb_wage_bonus"):
+		case joaat("service_earn_bb_event_bonus"):
+		case joaat("service_earn_arena_skill_lvl_award"):
+		case joaat("service_earn_arena_career_tier_progression_1"):
+		case joaat("service_earn_arena_career_tier_progression_2"):
+		case joaat("service_earn_arena_career_tier_progression_3"):
+		case joaat("service_earn_arena_career_tier_progression_4"):
+		case joaat("service_earn_spin_the_wheel_cash"):
 			func_101(iParam2, -1135378931, 1445302971, 1474183246, iParam0, iParam1, iVar0, 7);
 			break;
 	}
 	switch (iParam0)
 	{
-		case -1342064661:
-		case -1693570755:
-		case 1868043300:
-		case -697248883:
-		case -1295545795:
-		case 914079366:
-		case 395122350:
-		case -331981076:
-		case 1671535231:
-		case -1896606724:
-		case -1291433573:
-		case 538631715:
-		case 133782822:
-		case 2081885153:
-		case -1314365345:
-		case 1322977732:
-		case 396623013:
-		case 1981664462:
-		case -1921250821:
-		case -1370731547:
-		case 1683798242:
-		case -910968288:
-		case -168319378:
-		case 1637817605:
-		case 830018386:
-		case 1051883823:
-		case -2013760296:
-		case -1033889004:
-		case -2081984382:
-		case 1089562091:
+		case joaat("service_spend_spin_the_wheel_payment"):
+		case joaat("service_spend_casino_generic"):
+		case joaat("service_spend_arcade_game"):
+		case joaat("service_spend_arcade_generic"):
+		case joaat("service_spend_casino_heist_skip_mission"):
+		case joaat("service_spend_casino_heist_setup_heist"):
+		case joaat("service_spend_casino_heist_casino_model"):
+		case joaat("service_spend_casino_heist_vault_door"):
+		case joaat("service_spend_casino_heist_door_security"):
+		case joaat("service_spend_island_heist_support_airstrike"):
+		case joaat("service_spend_island_heist_support_heavy_weapon"):
+		case joaat("service_spend_island_heist_support_sniper"):
+		case joaat("service_spend_island_heist_support_air_support"):
+		case joaat("service_spend_island_heist_support_drone"):
+		case joaat("service_spend_island_heist_support_weapon_stash"):
+		case joaat("service_spend_island_heist_suppressors"):
+		case joaat("service_spend_island_heist_replay"):
+		case joaat("service_spend_beach_party_generic"):
+		case joaat("service_spend_submarine_utility_fee"):
+		case joaat("service_spend_submarine_boat"):
+		case joaat("service_spend_submarine_relocation"):
+		case joaat("service_spend_casino_club_generic"):
+		case joaat("service_spend_business_expenses"):
+		case joaat("service_spend_fixer_hq_concierge"):
+		case joaat("service_spend_request_company_suv"):
+		case joaat("service_spend_interaction_menu_ability"):
+		case joaat("service_spend_agent_14_vehicle_request"):
+		case joaat("service_spend_tony_limo"):
+		case joaat("service_spend_nightclub_toilet_attendant"):
+		case joaat("service_spend_jugallo_boss_vehicle_request"):
 		case 1989973742:
 			if (iParam1 > 0 || Global_262145.f_28652)
 			{
@@ -5013,120 +5013,120 @@ void func_100(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4,
 			}
 			break;
 		
-		case 1240683675:
-		case 1241904665:
-		case -1100963799:
-		case -494565059:
-		case 827308208:
-		case -1857685192:
-		case 1698417709:
-		case 1057653594:
-		case 1810506918:
-		case 451427308:
-		case 824622151:
-		case 1253978276:
-		case -1576080766:
-		case 1508411869:
-		case 1428501742:
-		case -1918967151:
-		case 1261538664:
-		case 1180397655:
-		case 1414674366:
-		case 261460130:
-		case -2027658376:
-		case -2017925037:
-		case 1668610896:
-		case -2032529561:
-		case -1224479447:
-		case -319306689:
-		case -466527264:
-		case 1925965142:
-		case 592152676:
-		case 2035612943:
-		case 1568659720:
-		case 1220095570:
-		case 2050320631:
-		case 592672421:
-		case 1775876058:
-		case -842062976:
-		case -518651910:
-		case 14658715:
-		case -604793592:
-		case -823426392:
-		case -1401862980:
-		case -173354274:
-		case 409533976:
-		case -1472522337:
-		case 542574408:
-		case -1261799063:
-		case 784631574:
-		case -2027479156:
-		case -837690641:
-		case -1029672338:
-		case -1503749970:
-		case -1843409092:
-		case 1669058563:
-		case 2102747615:
-		case 2030771998:
-		case 1708747007:
-		case 645293860:
-		case -818859193:
-		case 300796227:
-		case -1999832346:
-		case 1058055395:
-		case -321151125:
-		case 2078731875:
-		case 1280785534:
-		case -1878824774:
-		case 247992227:
-		case -229237358:
-		case -1123183389:
-		case 1814197076:
-		case 713955548:
-		case -2026544524:
-		case -719580138:
-		case -163417439:
-		case -550417574:
-		case 208223429:
-		case -1433071892:
-		case 761999406:
-		case -1101941763:
-		case 1748245957:
-		case 1036772696:
-		case -1384648535:
-		case -800037808:
-		case -695852120:
-		case 77355315:
-		case 2097889166:
-		case 1707592130:
-		case 1628412596:
-		case 883337077:
-		case -1274418755:
-		case -1853979468:
-		case -239888995:
-		case 1163066566:
-		case -955087020:
-		case 1874391251:
-		case 1633116913:
-		case 668586600:
-		case 15168061:
-		case 590289134:
-		case 99792878:
-		case 1866258778:
-		case -178394060:
-		case 409592287:
-		case 593836803:
-		case 1973036520:
-		case 2063456538:
-		case -728008329:
-		case 119239868:
-		case -456458353:
-		case 1900048468:
-		case 333526332:
-		case -2091351051:
-		case -373571001:
-		case -367430800:
-		case 1823444356:
+		case joaat("service_earn_assassinate_target_killed"):
+		case joaat("service_earn_arena_war"):
+		case joaat("service_earn_refund_arena_spec_box_entry"):
+		case joaat("service_earn_ambient_job_rc_time_trial"):
+		case joaat("service_earn_daily_objective_event"):
+		case joaat("service_earn_collectables_action_figures"):
+		case joaat("service_earn_casino_mission_reward"):
+		case joaat("service_earn_casino_award_mission_one_first_time"):
+		case joaat("service_earn_casino_award_mission_two_first_time"):
+		case joaat("service_earn_casino_award_mission_three_first_time"):
+		case joaat("service_earn_casino_award_mission_four_first_time"):
+		case joaat("service_earn_casino_award_mission_five_first_time"):
+		case joaat("service_earn_casino_award_mission_six_first_time"):
+		case joaat("service_earn_casino_award_straight_flush"):
+		case joaat("service_earn_casino_award_top_pair"):
+		case joaat("service_earn_casino_award_full_house"):
+		case joaat("service_earn_casino_award_lucky_lucky"):
+		case joaat("service_earn_casino_award_high_roller_bronze"):
+		case joaat("service_earn_casino_award_high_roller_silver"):
+		case joaat("service_earn_casino_award_high_roller_gold"):
+		case joaat("service_earn_casino_award_high_roller_platinum"):
+		case joaat("service_earn_casino_story_mission_reward"):
+		case joaat("service_earn_casino_heist_setup_mission"):
+		case joaat("service_earn_casino_heist_prep_mission"):
+		case joaat("service_earn_casino_heist_finale"):
+		case joaat("service_earn_casino_heist_award_smash_n_grab"):
+		case joaat("service_earn_casino_heist_award_in_plain_sight"):
+		case joaat("service_earn_casino_heist_award_undetected"):
+		case joaat("service_earn_casino_heist_award_all_rounder"):
+		case joaat("service_earn_casino_heist_award_elite_thief"):
+		case joaat("service_earn_casino_heist_award_professional"):
+		case joaat("service_earn_casino_heist_elite_stealth"):
+		case joaat("service_earn_casino_heist_elite_subterfuge"):
+		case joaat("service_earn_casino_heist_elite_direct"):
+		case joaat("service_earn_collectable_item"):
+		case joaat("service_earn_collectable_completed_collection"):
+		case joaat("service_earn_collectables_signal_jammers"):
+		case joaat("service_earn_collectables_signal_jammers_complete"):
+		case joaat("service_earn_island_heist_finale"):
+		case joaat("service_earn_island_heist_elite_challenge"):
+		case joaat("service_earn_island_heist_award_professional"):
+		case joaat("service_earn_island_heist_award_elite_thief"):
+		case joaat("service_earn_island_heist_award_the_island_heist"):
+		case joaat("service_earn_island_heist_award_going_alone"):
+		case joaat("service_earn_island_heist_award_team_work"):
+		case joaat("service_earn_island_heist_award_cat_burglar"):
+		case joaat("service_earn_island_heist_award_pro_thief"):
+		case joaat("service_earn_island_heist_award_mixing_it_up"):
+		case joaat("service_earn_island_heist_prep"):
+		case joaat("service_earn_island_heist_dj_mission"):
+		case joaat("service_earn_tuner_robbery_prep"):
+		case joaat("service_earn_tuner_robbery_finale"):
+		case joaat("service_earn_tuner_car_club_membership"):
+		case joaat("service_earn_tuner_daily_vehicle"):
+		case joaat("service_earn_tuner_daily_vehicle_bonus"):
+		case joaat("service_earn_tuner_award_union_depository"):
+		case joaat("service_earn_tuner_award_military_convoy"):
+		case joaat("service_earn_tuner_award_fleeca_bank"):
+		case joaat("service_earn_tuner_award_freight_train"):
+		case joaat("service_earn_tuner_award_bolingbroke_ass"):
+		case joaat("service_earn_tuner_award_iaa_raid"):
+		case joaat("service_earn_tuner_award_meth_job"):
+		case joaat("service_earn_tuner_award_bunker_raid"):
+		case joaat("service_earn_auto_shop_delivery_award"):
+		case joaat("service_earn_agency_security_contract"):
+		case joaat("service_earn_agency_payphone_hit"):
+		case joaat("service_earn_agency_story_prep"):
+		case joaat("service_earn_agency_story_finale"):
+		case joaat("service_earn_fixer_award_sec_con"):
+		case joaat("service_earn_fixer_award_phone_hit"):
+		case joaat("service_earn_fixer_award_agency_story"):
+		case joaat("service_earn_fixer_award_short_trip"):
+		case joaat("service_earn_fixer_rival_delivery"):
+		case joaat("service_earn_music_studio_short_trip"):
+		case joaat("service_earn_from_contraband"):
+		case joaat("service_earn_nclub_troublemaker"):
+		case joaat("service_earn_sightseeing_reward"):
+		case joaat("service_earn_ambient_job_clubhouse_contract"):
+		case joaat("service_earn_ambient_job_underwater_cargo"):
+		case joaat("service_earn_ambient_job_crime_scene"):
+		case joaat("service_earn_ambient_job_metal_detector"):
+		case joaat("service_earn_ambient_job_smuggler_plane"):
+		case joaat("service_earn_ambient_job_smuggler_trail"):
+		case joaat("service_earn_ambient_job_golden_gun"):
+		case joaat("service_earn_ambient_job_ammunation_delivery"):
+		case joaat("service_earn_ambient_job_source_research"):
+		case joaat("service_earn_yohan_source_goods"):
+		case joaat("service_earn_taxi_job"):
+		case joaat("service_earn_daily_stash_house_participation"):
+		case joaat("service_earn_daily_stash_house_completed"):
+		case joaat("service_earn_ambient_job_gang_convoy"):
+		case joaat("service_earn_ambient_job_shop_robbery"):
+		case joaat("service_earn_ambient_job_xmas_mugger"):
+		case joaat("service_earn_ambient_job_maze_bank"):
+		case joaat("service_earn_juggalo_story_mission"):
+		case joaat("service_earn_juggalo_story_mission_participation"):
+		case joaat("service_earn_juggalo_phone_mission"):
+		case joaat("service_earn_juggalo_phone_mission_participation"):
+		case joaat("service_earn_winter_22_award_juggalo_story"):
+		case joaat("service_earn_winter_22_award_acid_lab"):
+		case joaat("service_earn_winter_22_award_daily_stash"):
+		case joaat("service_earn_winter_22_award_dead_drop"):
+		case joaat("service_earn_winter_22_award_random_event"):
+		case joaat("service_earn_winter_22_award_taxi"):
+		case joaat("service_earn_acid_lab_setup_participation"):
+		case joaat("service_earn_acid_lab_source_participation"):
+		case joaat("service_earn_acid_lab_sell_participation"):
+		case joaat("service_earn_smuggler_ops"):
+		case joaat("service_earn_ambient_job_armored_truck"):
+		case joaat("service_earn_ambient_job_bicycle_time_trial"):
+		case joaat("service_earn_cayo_attrition_bonus_objective"):
+		case joaat("service_earn_avenger_operations"):
+		case joaat("service_earn_avenger_ops_bonus"):
+		case joaat("service_earn_ambient_job_drug_vehicle"):
 		case 649031587:
 		case -1539520895:
 		case 560526114:
@@ -5245,7 +5245,7 @@ void func_102(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 {
 	switch (iParam1)
 	{
-		case 1704445500:
+		case joaat("service_spend_betting"):
 			MISC::SET_BIT(&(Global_2657921[PLAYER::PLAYER_ID() /*463*/].f_126.f_71), false);
 			break;
 	}
@@ -33376,7 +33376,7 @@ int func_863(int iParam0, int iParam1, int iParam2)
 		}
 		return 0;
 	}
-	if ((iVar0 == joaat("riot") || iVar0 == -842765535) || iVar0 == 728350375)
+	if ((iVar0 == joaat("riot") || iVar0 == joaat("boxville6")) || iVar0 == joaat("benson2"))
 	{
 		if (func_865(iVar0))
 		{
@@ -33400,22 +33400,22 @@ int func_864(int iParam0)
 {
 	switch (iParam0)
 	{
-		case -1233767450:
+		case joaat("polgauntlet"):
 			return 0;
 		
 		case joaat("police4"):
 			return 1;
 		
-		case -1674384553:
+		case joaat("police5"):
 			return 2;
 		
 		case joaat("riot"):
 			return 3;
 		
-		case -842765535:
+		case joaat("boxville6"):
 			return 4;
 		
-		case 728350375:
+		case joaat("benson2"):
 			return 5;
 		
 		default:
@@ -33431,22 +33431,22 @@ int func_865(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case -1233767450:
+		case joaat("polgauntlet"):
 			return func_869(1);
 		
 		case joaat("police4"):
 			return func_362(1, 0, 1);
 		
-		case -1674384553:
+		case joaat("police5"):
 			return (func_866() || func_230(41942, -1));
 		
 		case joaat("riot"):
 			return func_230(42123, -1);
 		
-		case -842765535:
+		case joaat("boxville6"):
 			return func_230(42233, -1);
 		
-		case 728350375:
+		case joaat("benson2"):
 			return func_230(42234, -1);
 		
 		default:
@@ -39383,61 +39383,61 @@ int func_939(int iParam0, int iParam1)
 			return joaat("coureur");
 		
 		case 614:
-			return -1233767450;
+			return joaat("polgauntlet");
 		
 		case 615:
 			return joaat("police4");
 		
 		case 616:
-			return -1674384553;
+			return joaat("police5");
 		
 		case 617:
 			return joaat("riot");
 		
 		case 618:
-			return -768044142;
+			return joaat("dorado");
 		
 		case 619:
-			return -478639183;
+			return joaat("impaler5");
 		
 		case 620:
-			return -178442374;
+			return joaat("impaler6");
 		
 		case 621:
-			return -741120335;
+			return joaat("asterope2");
 		
 		case 622:
-			return -441209695;
+			return joaat("dominator9");
 		
 		case 623:
-			return -465825307;
+			return joaat("fr36");
 		
 		case 624:
-			return -863358884;
+			return joaat("baller8");
 		
 		case 625:
-			return -38879449;
+			return joaat("aleutian");
 		
 		case 626:
-			return -122993285;
+			return joaat("turismo3");
 		
 		case 627:
-			return -1029730482;
+			return joaat("cavalcade3");
 		
 		case 628:
-			return 372621319;
+			return joaat("vigero3");
 		
 		case 629:
-			return 167522317;
+			return joaat("terminus");
 		
 		case 630:
-			return -1372798934;
+			return joaat("vivanite");
 		
 		case 631:
-			return -842765535;
+			return joaat("boxville6");
 		
 		case 632:
-			return 728350375;
+			return joaat("benson2");
 		
 		default:
 	}
@@ -57466,56 +57466,56 @@ int func_1013(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -122993285)
+	else if (iParam0 == joaat("turismo3"))
 	{
 		if (!Global_262145.f_36286 && iVar1 < Global_262145.f_36266)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -38879449)
+	else if (iParam0 == joaat("aleutian"))
 	{
 		if (!Global_262145.f_36291 && iVar1 < Global_262145.f_36271)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -465825307)
+	else if (iParam0 == joaat("fr36"))
 	{
 		if (!Global_262145.f_36285 && iVar1 < Global_262145.f_36265)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -441209695)
+	else if (iParam0 == joaat("dominator9"))
 	{
 		if (!Global_262145.f_36292 && iVar1 < Global_262145.f_36272)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1233767450)
+	else if (iParam0 == joaat("polgauntlet"))
 	{
 		if (!Global_262145.f_36297 && iVar1 < Global_262145.f_36277)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1674384553)
+	else if (iParam0 == joaat("police5"))
 	{
 		if (!Global_262145.f_36288 && iVar1 < Global_262145.f_36268)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -478639183)
+	else if (iParam0 == joaat("impaler5"))
 	{
 		if (!Global_262145.f_36296 && iVar1 < Global_262145.f_36276)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1029730482)
+	else if (iParam0 == joaat("cavalcade3"))
 	{
 		if (!Global_262145.f_36295 && iVar1 < Global_262145.f_36275)
 		{
@@ -57529,63 +57529,63 @@ int func_1013(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 372621319)
+	else if (iParam0 == joaat("vigero3"))
 	{
 		if (!Global_262145.f_36287 && iVar1 < Global_262145.f_36267)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -741120335)
+	else if (iParam0 == joaat("asterope2"))
 	{
 		if (!Global_262145.f_36293 && iVar1 < Global_262145.f_36273)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -863358884)
+	else if (iParam0 == joaat("baller8"))
 	{
 		if (!Global_262145.f_36301 && iVar1 < Global_262145.f_36281)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -768044142)
+	else if (iParam0 == joaat("dorado"))
 	{
 		if (!Global_262145.f_36300 && iVar1 < Global_262145.f_36280)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -178442374)
+	else if (iParam0 == joaat("impaler6"))
 	{
 		if (!Global_262145.f_36299 && iVar1 < Global_262145.f_36279)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 167522317)
+	else if (iParam0 == joaat("terminus"))
 	{
 		if (!Global_262145.f_36302 && iVar1 < Global_262145.f_36282)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1372798934)
+	else if (iParam0 == joaat("vivanite"))
 	{
 		if (!Global_262145.f_36298 && iVar1 < Global_262145.f_36278)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -842765535)
+	else if (iParam0 == joaat("boxville6"))
 	{
 		if (!Global_262145.f_36303 && iVar1 < Global_262145.f_36283)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 728350375)
+	else if (iParam0 == joaat("benson2"))
 	{
 		if (!Global_262145.f_36304 && iVar1 < Global_262145.f_36284)
 		{
@@ -57812,11 +57812,11 @@ int func_1015(int iParam0)
 	switch (iParam0)
 	{
 		case joaat("mule5"):
-		case -129283887:
-		case -842765535:
-		case 728350375:
-		case -671564942:
-		case -902029319:
+		case joaat("phantom4"):
+		case joaat("boxville6"):
+		case joaat("benson2"):
+		case joaat("towtruck3"):
+		case joaat("towtruck4"):
 			return 0;
 		
 		default:
@@ -58396,7 +58396,7 @@ void func_1031()
 					{
 						if (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(39), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17))
 						{
-							iVar0 = func_1036(283351220, func_86(39), 0, 0);
+							iVar0 = func_1036(joaat("service_spend_pegasus_delivery"), func_86(39), 0, 0);
 							if (iVar0 == 1)
 							{
 								MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -58476,55 +58476,55 @@ void func_1033(int iParam0, int iParam1, int iParam2, bool bParam3)
 	switch (iParam1)
 	{
 		case 0:
-			iVar12 = 1287308202;
+			iVar12 = joaat("service_earn_refund_backup_vagos");
 			break;
 		
 		case 1:
-			iVar12 = 691372038;
+			iVar12 = joaat("service_earn_refund_backup_lost");
 			break;
 		
 		case 2:
-			iVar12 = 1480707108;
+			iVar12 = joaat("service_earn_refund_backup_families");
 			break;
 		
 		case 3:
-			iVar12 = 1512499951;
+			iVar12 = joaat("service_earn_refund_hire_mugger");
 			break;
 		
 		case 4:
-			iVar12 = 562283735;
+			iVar12 = joaat("service_earn_refund_hire_mercenary");
 			break;
 		
 		case 5:
-			iVar12 = -154732333;
+			iVar12 = joaat("service_earn_refund_buy_cardropoff");
 			break;
 		
 		case 6:
-			iVar12 = -1362660491;
+			iVar12 = joaat("service_earn_refund_heli_pickup");
 			break;
 		
 		case 7:
-			iVar12 = 645708827;
+			iVar12 = joaat("service_earn_refund_boat_pickup");
 			break;
 		
 		case 8:
-			iVar12 = 767907967;
+			iVar12 = joaat("service_earn_refund_clear_wanted");
 			break;
 		
 		case 9:
-			iVar12 = -1970151306;
+			iVar12 = joaat("service_earn_refund_head_2_head");
 			break;
 		
 		case 10:
-			iVar12 = 718859568;
+			iVar12 = joaat("service_earn_refund_challenge");
 			break;
 		
 		case 11:
-			iVar12 = -1955564771;
+			iVar12 = joaat("service_earn_refund_share_last_job");
 			break;
 		
 		case 12:
-			iVar12 = 892388724;
+			iVar12 = joaat("service_earn_refund_lottery");
 			break;
 		
 		case 13:
@@ -58532,19 +58532,19 @@ void func_1033(int iParam0, int iParam1, int iParam2, bool bParam3)
 			break;
 		
 		case 14:
-			iVar12 = -664597565;
+			iVar12 = joaat("service_earn_refundammodrop");
 			break;
 		
 		case 15:
-			iVar12 = 1864522104;
+			iVar12 = joaat("service_earn_refund_orbital_manual");
 			break;
 		
 		case 16:
-			iVar12 = 215608230;
+			iVar12 = joaat("service_earn_refund_orbital_auto");
 			break;
 		
 		case 17:
-			iVar12 = -1100963799;
+			iVar12 = joaat("service_earn_refund_arena_spec_box_entry");
 			break;
 	}
 	if (func_113())
@@ -58670,7 +58670,7 @@ int func_1036(int iParam0, int iParam1, bool bParam2, int iParam3)
 		{
 			if (func_1040(iLocal_1060) == 2)
 			{
-				if (iParam0 != 1064954035)
+				if (iParam0 != joaat("service_spend_locate_vehicle"))
 				{
 					NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_1039(iLocal_1060));
 					func_1038(iParam0, iParam1, iParam3);
@@ -58684,7 +58684,7 @@ int func_1036(int iParam0, int iParam1, bool bParam2, int iParam3)
 				{
 					func_1037(func_115(1, 1), Local_128.f_363, Local_128.f_361);
 				}
-				if (iParam0 != 1064954035)
+				if (iParam0 != joaat("service_spend_locate_vehicle"))
 				{
 					func_103(iLocal_1060);
 				}
@@ -58720,56 +58720,56 @@ void func_1038(int iParam0, int iParam1, int iParam2)
 	
 	switch (iParam0)
 	{
-		case -407201236:
+		case joaat("service_spend_cops_turn_eye"):
 			MONEY::NETWORK_SPENT_NO_COPS(iParam1, false, true, joaat("char_lester"));
 			break;
 		
-		case -1885444887:
+		case joaat("service_spend_hire_mercenary"):
 			MONEY::NETWORK_SPENT_HIRE_MERCENARY(iParam1, false, true, joaat("char_mp_merryweather"));
 			break;
 		
-		case -671062876:
+		case joaat("service_spend_bull_shark"):
 			MONEY::NETWORK_SPENT_BULL_SHARK(iParam1, false, true, joaat("char_mp_brucie"));
 			break;
 		
-		case 2131324797:
+		case joaat("service_spend_off_the_radar"):
 			MONEY::NETWORK_SPENT_BUY_OFFTHERADAR(iParam1, false, true, joaat("char_lester"));
 			break;
 		
-		case -180141073:
+		case joaat("service_spend_lose_wanted_level"):
 			Var0 = { func_70(PLAYER::PLAYER_ID()) };
 			MONEY::NETWORK_SPENT_BUY_WANTEDLEVEL(iParam1, &Var0, false, true, joaat("char_lester"));
 			break;
 		
-		case 1108628223:
+		case joaat("service_spend_reveal_players"):
 			MONEY::NETWORK_SPENT_BUY_REVEAL_PLAYERS(iParam1, false, true, joaat("char_lester"));
 			break;
 		
-		case 1173654533:
+		case joaat("service_spend_ammo_drop"):
 			MONEY::NETWORK_SPENT_AMMO_DROP(iParam1, false, true, joaat("char_mp_merryweather"));
 			break;
 		
-		case 1208553146:
+		case joaat("service_spend_boat_pickup"):
 			MONEY::NETWORK_SPENT_BOAT_PICKUP(iParam1, false, true, joaat("char_mp_merryweather"));
 			break;
 		
-		case -663944335:
+		case joaat("service_spend_backup_heli"):
 			MONEY::NETWORK_BUY_HELI_STRIKE(iParam1, false, true, joaat("char_mp_merryweather"));
 			break;
 		
-		case 1515774909:
+		case joaat("service_spend_airstrike"):
 			MONEY::NETWORK_BUY_AIRSTRIKE(iParam1, false, true, joaat("char_mp_merryweather"));
 			break;
 		
-		case -754024203:
+		case joaat("service_spend_heli_pickup"):
 			MONEY::NETWORK_SPENT_HELI_PICKUP(iParam1, false, true, joaat("char_mp_merryweather"));
 			break;
 		
-		case 1931729587:
+		case joaat("service_spend_hire_mugger"):
 			MONEY::NETWORK_SPENT_HIRE_MUGGER(iParam1, false, true, joaat("char_lamar"));
 			break;
 		
-		case 283351220:
+		case joaat("service_spend_pegasus_delivery"):
 			MONEY::NETWORK_BUY_ITEM(iParam1, Global_2672741.f_3792, 10, -1, false, "PEGASUS", 0, 0, 0, true);
 			break;
 		
@@ -58781,23 +58781,23 @@ void func_1038(int iParam0, int iParam1, int iParam2)
 			MONEY::NETWORK_SPENT_BOAT_PICKUP(iParam1, false, true, 0);
 			break;
 		
-		case 74383614:
+		case joaat("service_spend_pa_service_impound"):
 			MONEY::NETWORK_SPENT_PA_SERVICE_IMPOUND(iParam1, 0, 1);
 			break;
 		
-		case 1941570214:
+		case joaat("service_spend_pa_service_heli_pickup"):
 			MONEY::NETWORK_SPENT_PA_HELI_PICKUP(iParam1, iParam2, 0, 1);
 			break;
 		
-		case -1658225921:
+		case joaat("service_spend_request_supply"):
 			MONEY::NETWORK_SPEND_SUPPLY(iParam1, 0, 1, iParam2);
 			break;
 		
-		case -551835600:
+		case joaat("service_spend_request_source_motorcycle"):
 			MONEY::NETWORK_SPEND_SOURCE_BIKE(iParam1, 0, 1, iParam2);
 			break;
 		
-		case -1230687625:
+		case joaat("service_spend_request_out_of_sight"):
 			MONEY::NETWORK_SPEND_HIDDEN(iParam1, 0, 1, iParam2);
 			break;
 	}
@@ -61746,7 +61746,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("tampa2"):
-			case -1696319096:
+			case joaat("drifttampa"):
 				iVar1 = 995000;
 				if (bVar0)
 				{
@@ -64781,7 +64781,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("yosemite2"):
-			case -1681653521:
+			case joaat("driftyosemite"):
 				if (bParam2)
 				{
 					iVar1 = 981000;
@@ -65655,7 +65655,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("jester4"):
-			case -1763273939:
+			case joaat("driftjester"):
 				iVar1 = 1970000;
 				if (bVar0 && Global_262145.f_31498 >= 0)
 				{
@@ -65673,7 +65673,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("remus"):
-			case -1624083468:
+			case joaat("driftremus"):
 				iVar1 = 1370000;
 				if (bVar0 && Global_262145.f_31495 >= 0)
 				{
@@ -65708,7 +65708,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("zr350"):
-			case 1923534526:
+			case joaat("driftzr350"):
 				iVar1 = 1615000;
 				if (bVar0 && Global_262145.f_31493 >= 0)
 				{
@@ -65760,7 +65760,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("futo2"):
-			case -181562642:
+			case joaat("driftfuto"):
 				iVar1 = 1590000;
 				if (bVar0 && Global_262145.f_31504 >= 0)
 				{
@@ -65829,7 +65829,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				break;
 			
 			case joaat("euros"):
-			case 821121576:
+			case joaat("drifteuros"):
 				iVar1 = 1800000;
 				if (bVar0 && Global_262145.f_31497 >= 0)
 				{
@@ -66535,7 +66535,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1233767450:
+			case joaat("polgauntlet"):
 				iVar1 = 5420000;
 				if (bVar0 && Global_262145.f_36093 >= 0)
 				{
@@ -66552,7 +66552,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1674384553:
+			case joaat("police5"):
 				iVar1 = 4690000;
 				if (bVar0 && Global_262145.f_36094 >= 0)
 				{
@@ -66610,7 +66610,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -842765535:
+			case joaat("boxville6"):
 				if (bParam2)
 				{
 					iVar1 = 475000;
@@ -66634,7 +66634,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 728350375:
+			case joaat("benson2"):
 				if (bParam2)
 				{
 					iVar1 = 685000;
@@ -66658,8 +66658,8 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -465825307:
-			case -1479935577:
+			case joaat("fr36"):
+			case joaat("driftfr36"):
 				iVar1 = 1610000;
 				if (bVar0 && Global_262145.f_36103 >= 0)
 				{
@@ -66667,7 +66667,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -122993285:
+			case joaat("turismo3"):
 				iVar1 = 2845000;
 				if (bVar0 && Global_262145.f_36099 >= 0)
 				{
@@ -66675,7 +66675,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -38879449:
+			case joaat("aleutian"):
 				iVar1 = 1835000;
 				if (bVar0 && Global_262145.f_36108 >= 0)
 				{
@@ -66683,7 +66683,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -441209695:
+			case joaat("dominator9"):
 				iVar1 = 2195000;
 				if (bVar0 && Global_262145.f_36102 >= 0)
 				{
@@ -66691,7 +66691,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1029730482:
+			case joaat("cavalcade3"):
 				iVar1 = 1665000;
 				if (bVar0 && Global_262145.f_36100 >= 0)
 				{
@@ -66699,7 +66699,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -478639183:
+			case joaat("impaler5"):
 				iVar1 = 1280000;
 				if (bVar0 && Global_262145.f_36105 >= 0)
 				{
@@ -66707,7 +66707,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 372621319:
+			case joaat("vigero3"):
 				iVar1 = 2295000;
 				if (bVar0 && Global_262145.f_36110 >= 0)
 				{
@@ -66715,7 +66715,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -741120335:
+			case joaat("asterope2"):
 				iVar1 = 459000;
 				if (bVar0 && Global_262145.f_36107 >= 0)
 				{
@@ -66723,7 +66723,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -863358884:
+			case joaat("baller8"):
 				iVar1 = 1715000;
 				if (bVar0 && Global_262145.f_36101 >= 0)
 				{
@@ -66731,7 +66731,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -768044142:
+			case joaat("dorado"):
 				iVar1 = 1375000;
 				if (bVar0 && Global_262145.f_36104 >= 0)
 				{
@@ -66739,7 +66739,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case 167522317:
+			case joaat("terminus"):
 				iVar1 = 1877500;
 				if (bVar0 && Global_262145.f_36109 >= 0)
 				{
@@ -66747,7 +66747,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -178442374:
+			case joaat("impaler6"):
 				iVar1 = 1465000;
 				if (bVar0 && Global_262145.f_36106 >= 0)
 				{
@@ -66755,7 +66755,7 @@ int func_1068(var uParam0, int iParam1, bool bParam2, int iParam3)
 				}
 				break;
 			
-			case -1372798934:
+			case joaat("vivanite"):
 				iVar1 = 1605000;
 				if (bVar0 && Global_262145.f_36111 >= 0)
 				{
@@ -68822,39 +68822,39 @@ int func_1070(int iParam0, int iParam1)
 			}
 			break;
 		
-		case -1479935577:
+		case joaat("driftfr36"):
 			return Global_262145.f_36121;
 			break;
 		
-		case -1681653521:
+		case joaat("driftyosemite"):
 			return Global_262145.f_36126;
 			break;
 		
-		case -1696319096:
+		case joaat("drifttampa"):
 			return Global_262145.f_36125;
 			break;
 		
-		case -1624083468:
+		case joaat("driftremus"):
 			return Global_262145.f_36124;
 			break;
 		
-		case 821121576:
+		case joaat("drifteuros"):
 			return Global_262145.f_36120;
 			break;
 		
-		case -181562642:
+		case joaat("driftfuto"):
 			return Global_262145.f_36122;
 			break;
 		
-		case -1763273939:
+		case joaat("driftjester"):
 			return Global_262145.f_36123;
 			break;
 		
-		case 1923534526:
+		case joaat("driftzr350"):
 			return Global_262145.f_36127;
 			break;
 		
-		case -465825307:
+		case joaat("fr36"):
 		case joaat("yosemite2"):
 		case joaat("tampa2"):
 		case joaat("remus"):
@@ -69082,7 +69082,7 @@ void func_1081(bool bParam0)
 		{
 			if (func_113())
 			{
-				func_100(68030260, Global_1585741.f_2, &iVar0, 1, 1, 0);
+				func_100(joaat("service_spend_vehicle_insurance_premium"), Global_1585741.f_2, &iVar0, 1, 1, 0);
 				Global_4535851[iVar0 /*85*/] = Global_1586504[Global_1585741.f_3 /*142*/].f_66;
 			}
 			else
@@ -69472,7 +69472,7 @@ void func_1091()
 		case 1:
 			if (iLocal_503 >= 0)
 			{
-				if (func_101(&iLocal_1781, -1135378931, 537254313, 1474183246, 68030260, iLocal_503, 4, 3))
+				if (func_101(&iLocal_1781, -1135378931, 537254313, 1474183246, joaat("service_spend_vehicle_insurance_premium"), iLocal_503, 4, 3))
 				{
 					iLocal_1780++;
 				}
@@ -69538,7 +69538,7 @@ void func_1091()
 		case 1:
 			if (Global_1585741.f_2 >= 0)
 			{
-				if (func_101(&iLocal_1783, -1135378931, 537254313, 1474183246, 68030260, Global_1585741.f_2, 4, 3))
+				if (func_101(&iLocal_1783, -1135378931, 537254313, 1474183246, joaat("service_spend_vehicle_insurance_premium"), Global_1585741.f_2, 4, 3))
 				{
 					iLocal_1782++;
 				}
@@ -69593,7 +69593,7 @@ void func_1091()
 		case 11:
 			if (Global_1585741.f_2 >= 0)
 			{
-				if (func_101(&iLocal_1783, -1135378931, 537254313, 1474183246, 68030260, Global_1585741.f_2, 4, 3))
+				if (func_101(&iLocal_1783, -1135378931, 537254313, 1474183246, joaat("service_spend_vehicle_insurance_premium"), Global_1585741.f_2, 4, 3))
 				{
 					iLocal_1782++;
 				}
@@ -69636,7 +69636,7 @@ void func_1091()
 		case 1:
 			if (Global_1585741.f_2 > 0)
 			{
-				if (func_101(&iLocal_1785, -1135378931, 537254313, 1474183246, 68030260, Global_1585741.f_2, 4, 3))
+				if (func_101(&iLocal_1785, -1135378931, 537254313, 1474183246, joaat("service_spend_vehicle_insurance_premium"), Global_1585741.f_2, 4, 3))
 				{
 					iLocal_1784++;
 				}
@@ -69682,7 +69682,7 @@ void func_1092(int iParam0, int iParam1, bool bParam2)
 		{
 			if (func_113())
 			{
-				func_100(68030260, iParam0, &iVar0, 1, 1, 0);
+				func_100(joaat("service_spend_vehicle_insurance_premium"), iParam0, &iVar0, 1, 1, 0);
 				Global_4535851[iVar0 /*85*/] = Global_1586504[iParam1 /*142*/].f_66;
 			}
 			else
@@ -69867,7 +69867,7 @@ void func_1099(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam
 		{
 			if (func_113())
 			{
-				func_100(68030260, iParam0, &iVar0, 1, 1, 0);
+				func_100(joaat("service_spend_vehicle_insurance_premium"), iParam0, &iVar0, 1, 1, 0);
 				Global_4535851[iVar0 /*85*/] = Global_1586504[iParam1 /*142*/].f_66;
 			}
 			else
@@ -70289,7 +70289,7 @@ int func_1118()
 	{
 		return 0;
 	}
-	iVar0 = func_1036(283351220, func_86(22), 0, 0);
+	iVar0 = func_1036(joaat("service_spend_pegasus_delivery"), func_86(22), 0, 0);
 	if (iVar0 == -1)
 	{
 		return 0;
@@ -70667,8 +70667,8 @@ int func_1143(int iParam0)
 		case joaat("boxville3"):
 		case joaat("boxville4"):
 		case joaat("boxville5"):
-		case -842765535:
-		case 728350375:
+		case joaat("boxville6"):
+		case joaat("benson2"):
 			return 1;
 		
 		default:
@@ -74909,7 +74909,7 @@ void func_1255()
 					{
 						if (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(iLocal_1061), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17))
 						{
-							iVar1 = func_1036(1064954035, func_86(iLocal_1061), 0, 0);
+							iVar1 = func_1036(joaat("service_spend_locate_vehicle"), func_86(iLocal_1061), 0, 0);
 							if (iVar1 == 1)
 							{
 								MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -75030,7 +75030,7 @@ void func_1255()
 						iVar2 = func_86(35);
 						if ((func_1274(1) >= iVar2 || MONEY::NETWORK_CAN_SPEND_MONEY(iVar2, false, true, false, -1, 0)) || BitTest(Local_128.f_362, 17))
 						{
-							iVar3 = func_1036(-407201236, iVar2, 0, 0);
+							iVar3 = func_1036(joaat("service_spend_cops_turn_eye"), iVar2, 0, 0);
 							if (iVar3 == 1)
 							{
 								MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -79410,7 +79410,7 @@ void func_1395(bool bParam0)
 	iVar5 = 6;
 	if (func_113())
 	{
-		func_100(268924934, iVar3, &iVar6, 0, 1, 0);
+		func_100(joaat("service_spend_business"), iVar3, &iVar6, 0, 1, 0);
 		Global_4535851[iVar6 /*85*/] = iVar4;
 		Global_4535851[iVar6 /*85*/].f_1 = iVar5;
 		Global_4535851[iVar6 /*85*/].f_9 = iVar2;
@@ -79447,7 +79447,7 @@ void func_1396()
 				iVar2 = Local_128.f_0;
 				if (func_113())
 				{
-					func_100(1089562091, 0, &iVar0, 0, 1, 0);
+					func_100(joaat("service_spend_jugallo_boss_vehicle_request"), 0, &iVar0, 0, 1, 0);
 					Global_4535851[iVar0 /*85*/] = iVar2;
 					Global_4535851[iVar0 /*85*/].f_66.f_15 = iVar1;
 				}
@@ -79527,7 +79527,7 @@ void func_1400()
 				iVar2 = func_490(iVar0);
 				if (func_113())
 				{
-					func_100(-2013760296, 0, &iVar1, 0, 1, 0);
+					func_100(joaat("service_spend_agent_14_vehicle_request"), 0, &iVar1, 0, 1, 0);
 					Global_4535851[iVar1 /*85*/] = iVar2;
 				}
 				else
@@ -79585,7 +79585,7 @@ void func_1402()
 				iVar3 = func_502(iVar0);
 				if (func_113())
 				{
-					func_100(-1033889004, 0, &iVar1, 0, 1, 0);
+					func_100(joaat("service_spend_tony_limo"), 0, &iVar1, 0, 1, 0);
 					Global_4535851[iVar1 /*85*/] = iVar2;
 					Global_4535851[iVar1 /*85*/].f_66.f_15 = iVar3;
 				}
@@ -79672,7 +79672,7 @@ void func_1404()
 				iVar3 = -333798998;
 				if (func_113())
 				{
-					func_100(830018386, 0, &iVar2, 0, 1, 0);
+					func_100(joaat("service_spend_request_company_suv"), 0, &iVar2, 0, 1, 0);
 					if (iVar2 >= 0)
 					{
 						Global_4535851[iVar2 /*85*/] = iVar3;
@@ -79692,7 +79692,7 @@ void func_1404()
 				func_1270(77, -1, -1);
 				if (func_113())
 				{
-					func_100(830018386, 0, &iVar2, 0, 1, 0);
+					func_100(joaat("service_spend_request_company_suv"), 0, &iVar2, 0, 1, 0);
 					if (iVar2 >= 0)
 					{
 						Global_4535851[iVar2 /*85*/] = iVar3;
@@ -80008,7 +80008,7 @@ int func_1416(int iParam0, int iParam1, char* sParam2)
 	
 	if (func_113())
 	{
-		func_100(-1693570755, iParam0, &iVar0, 0, 1, 0);
+		func_100(joaat("service_spend_casino_generic"), iParam0, &iVar0, 0, 1, 0);
 		StringCopy(&(Global_4535851[iVar0 /*85*/].f_14.f_26), sParam2, 32);
 		Global_4535851[iVar0 /*85*/] = iParam1;
 		return iVar0;
@@ -80716,7 +80716,7 @@ void func_1440()
 					{
 						if (func_113())
 						{
-							func_100(-754024203, func_86(40), &iVar3, 1, 1, 0);
+							func_100(joaat("service_spend_heli_pickup"), func_86(40), &iVar3, 1, 1, 0);
 							if (iVar3 >= 0)
 							{
 								Global_4535851[iVar3 /*85*/] = -1266520414;
@@ -80762,7 +80762,7 @@ void func_1440()
 					{
 						if (func_113())
 						{
-							func_100(1208553146, func_86(41), &iVar3, 1, 1, 0);
+							func_100(joaat("service_spend_boat_pickup"), func_86(41), &iVar3, 1, 1, 0);
 							if (iVar3 >= 0)
 							{
 								Global_4535851[iVar3 /*85*/] = -1266520414;
@@ -80944,7 +80944,7 @@ void func_1445()
 	iVar1 = func_1447(iVar0);
 	if (func_113())
 	{
-		func_100(-517447402, iVar1, &iVar2, 1, 1, 0);
+		func_100(joaat("service_spend_request_heist"), iVar1, &iVar2, 1, 1, 0);
 	}
 	else
 	{
@@ -84216,7 +84216,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 10:
-					iVar0 = -465825307;
+					iVar0 = joaat("fr36");
 					break;
 			}
 			break;
@@ -84349,7 +84349,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 31:
-					iVar0 = -741120335;
+					iVar0 = joaat("asterope2");
 					break;
 				
 				case 32:
@@ -84357,7 +84357,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 33:
-					iVar0 = -478639183;
+					iVar0 = joaat("impaler5");
 					break;
 			}
 			break;
@@ -84642,15 +84642,15 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 70:
-					iVar0 = -441209695;
+					iVar0 = joaat("dominator9");
 					break;
 				
 				case 71:
-					iVar0 = -178442374;
+					iVar0 = joaat("impaler6");
 					break;
 				
 				case 72:
-					iVar0 = 372621319;
+					iVar0 = joaat("vigero3");
 					break;
 			}
 			break;
@@ -85353,7 +85353,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 52:
-					iVar0 = -122993285;
+					iVar0 = joaat("turismo3");
 					break;
 			}
 			break;
@@ -85510,23 +85510,23 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 38:
-					iVar0 = -38879449;
+					iVar0 = joaat("aleutian");
 					break;
 				
 				case 39:
-					iVar0 = -1029730482;
+					iVar0 = joaat("cavalcade3");
 					break;
 				
 				case 40:
-					iVar0 = -863358884;
+					iVar0 = joaat("baller8");
 					break;
 				
 				case 41:
-					iVar0 = -768044142;
+					iVar0 = joaat("dorado");
 					break;
 				
 				case 42:
-					iVar0 = -1372798934;
+					iVar0 = joaat("vivanite");
 					break;
 			}
 			break;
@@ -85743,7 +85743,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 52:
-					iVar0 = 167522317;
+					iVar0 = joaat("terminus");
 					break;
 				
 				case 53:
@@ -86131,7 +86131,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 16:
-					iVar0 = -1233767450;
+					iVar0 = joaat("polgauntlet");
 					break;
 			}
 			break;
@@ -86423,7 +86423,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 35:
-					iVar0 = 728350375;
+					iVar0 = joaat("benson2");
 					break;
 				
 				case 36:
@@ -86431,7 +86431,7 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 37:
-					iVar0 = -842765535;
+					iVar0 = joaat("boxville6");
 					break;
 			}
 			break;
@@ -87382,11 +87382,11 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 13:
-					iVar0 = 372621319;
+					iVar0 = joaat("vigero3");
 					break;
 				
 				case 14:
-					iVar0 = -1372798934;
+					iVar0 = joaat("vivanite");
 					break;
 			}
 			break;
@@ -87432,11 +87432,11 @@ int func_1535(int iParam0, int iParam1)
 					break;
 				
 				case 6:
-					iVar0 = 372621319;
+					iVar0 = joaat("vigero3");
 					break;
 				
 				case 7:
-					iVar0 = -1372798934;
+					iVar0 = joaat("vivanite");
 					break;
 			}
 			break;
@@ -87470,35 +87470,35 @@ int func_1535(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = -1696319096;
+					iVar0 = joaat("drifttampa");
 					break;
 				
 				case 1:
-					iVar0 = -1681653521;
+					iVar0 = joaat("driftyosemite");
 					break;
 				
 				case 2:
-					iVar0 = 821121576;
+					iVar0 = joaat("drifteuros");
 					break;
 				
 				case 3:
-					iVar0 = -181562642;
+					iVar0 = joaat("driftfuto");
 					break;
 				
 				case 4:
-					iVar0 = -1763273939;
+					iVar0 = joaat("driftjester");
 					break;
 				
 				case 5:
-					iVar0 = -1624083468;
+					iVar0 = joaat("driftremus");
 					break;
 				
 				case 6:
-					iVar0 = 1923534526;
+					iVar0 = joaat("driftzr350");
 					break;
 				
 				case 7:
-					iVar0 = -1479935577;
+					iVar0 = joaat("driftfr36");
 					break;
 			}
 			break;
@@ -91086,7 +91086,7 @@ void func_1597(int iParam0)
 	{
 		if (BitTest(iParam0, 2))
 		{
-			iVar1 = func_1036(-1230687625, func_86(75), 1, -149294787);
+			iVar1 = func_1036(joaat("service_spend_request_out_of_sight"), func_86(75), 1, -149294787);
 			if (iVar1 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91145,7 +91145,7 @@ void func_1598(int iParam0)
 	{
 		if (BitTest(iParam0, 2))
 		{
-			iVar1 = func_1036(-551835600, func_86(74), 1, -149294787);
+			iVar1 = func_1036(joaat("service_spend_request_source_motorcycle"), func_86(74), 1, -149294787);
 			if (iVar1 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91202,7 +91202,7 @@ void func_1599(int iParam0)
 	{
 		if (BitTest(iParam0, 2))
 		{
-			iVar1 = func_1036(-1658225921, func_86(73), 1, -333798998);
+			iVar1 = func_1036(joaat("service_spend_request_supply"), func_86(73), 1, -333798998);
 			if (iVar1 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91278,7 +91278,7 @@ void func_1601(int iParam0)
 			if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(44), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 			{
 				iVar2 = joaat("supervolito");
-				iVar3 = func_1036(1941570214, func_86(44), 1, iVar2);
+				iVar3 = func_1036(joaat("service_spend_pa_service_heli_pickup"), func_86(44), 1, iVar2);
 				if (iVar3 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91345,7 +91345,7 @@ void func_1602(int iParam0)
 	{
 		if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(43), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 		{
-			iVar0 = func_1036(74383614, func_86(43), 1, 0);
+			iVar0 = func_1036(joaat("service_spend_pa_service_impound"), func_86(43), 1, 0);
 			if (iVar0 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91535,7 +91535,7 @@ void func_1608(int iParam0)
 	{
 		if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(iVar1, false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 		{
-			iVar2 = func_1036(-180141073, iVar1, 1, 0);
+			iVar2 = func_1036(joaat("service_spend_lose_wanted_level"), iVar1, 1, 0);
 			if (iVar2 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91799,7 +91799,7 @@ void func_1619(int iParam0)
 	{
 		if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(iVar1, false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 		{
-			iVar2 = func_1036(1108628223, iVar1, 1, 0);
+			iVar2 = func_1036(joaat("service_spend_reveal_players"), iVar1, 1, 0);
 			if (iVar2 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91859,7 +91859,7 @@ void func_1620(int iParam0)
 		{
 			if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(13), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 			{
-				iVar2 = func_1036(-754024203, func_86(13), 1, 0);
+				iVar2 = func_1036(joaat("service_spend_heli_pickup"), func_86(13), 1, 0);
 				if (iVar2 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91927,7 +91927,7 @@ void func_1621(int iParam0)
 		{
 			if (BitTest(iParam0, 2))
 			{
-				iVar1 = func_1036(1515774909, func_86(11), 1, 0);
+				iVar1 = func_1036(joaat("service_spend_airstrike"), func_86(11), 1, 0);
 				if (iVar1 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -91984,7 +91984,7 @@ void func_1622(int iParam0)
 		{
 			if (BitTest(iParam0, 2))
 			{
-				iVar1 = func_1036(-663944335, func_86(10), 1, 0);
+				iVar1 = func_1036(joaat("service_spend_backup_heli"), func_86(10), 1, 0);
 				if (iVar1 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92260,7 +92260,7 @@ void func_1637(int iParam0)
 		{
 			if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(9), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 			{
-				iVar1 = func_1036(1208553146, func_86(9), 1, 0);
+				iVar1 = func_1036(joaat("service_spend_boat_pickup"), func_86(9), 1, 0);
 				if (iVar1 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92319,7 +92319,7 @@ void func_1638(int iParam0)
 		{
 			if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(8), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 			{
-				iVar1 = func_1036(1173654533, func_86(8), 1, 0);
+				iVar1 = func_1036(joaat("service_spend_ammo_drop"), func_86(8), 1, 0);
 				if (iVar1 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92568,7 +92568,7 @@ void func_1645(int iParam0)
 	{
 		if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(iVar1, false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 		{
-			iVar2 = func_1036(2131324797, iVar1, 1, 0);
+			iVar2 = func_1036(joaat("service_spend_off_the_radar"), iVar1, 1, 0);
 			if (iVar2 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92696,7 +92696,7 @@ void func_1648(int iParam0)
 	{
 		if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(func_86(0), false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 		{
-			iVar1 = func_1036(-671062876, func_86(0), 1, 0);
+			iVar1 = func_1036(joaat("service_spend_bull_shark"), func_86(0), 1, 0);
 			if (iVar1 == 1)
 			{
 				MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92753,7 +92753,7 @@ void func_1649(int iParam0, int iParam1)
 		{
 			if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(iVar1, false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 			{
-				iVar3 = func_1036(1931729587, iVar1, 1, 0);
+				iVar3 = func_1036(joaat("service_spend_hire_mugger"), iVar1, 1, 0);
 				if (iVar3 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92867,7 +92867,7 @@ void func_1652(int iParam0)
 		{
 			if (BitTest(iParam0, 2) && (MONEY::NETWORK_CAN_SPEND_MONEY(iVar1, false, true, false, -1, 0) || BitTest(Local_128.f_362, 17)))
 			{
-				iVar3 = func_1036(-1885444887, iVar1, 1, 0);
+				iVar3 = func_1036(joaat("service_spend_hire_mercenary"), iVar1, 1, 0);
 				if (iVar3 == 1)
 				{
 					MISC::CLEAR_BIT(&(Local_128.f_362), 17);
@@ -92933,7 +92933,7 @@ void func_1653(int iParam0)
 				{
 					if (!BitTest(iLocal_1259, 0))
 					{
-						func_101(&iLocal_1258, -1135378931, 537254313, 1474183246, -613221010, func_1268(Local_128.f_181.f_106[0]), 4, 3);
+						func_101(&iLocal_1258, -1135378931, 537254313, 1474183246, joaat("service_spend_bounty"), func_1268(Local_128.f_181.f_106[0]), 4, 3);
 						MISC::SET_BIT(&iLocal_1259, false);
 					}
 				}

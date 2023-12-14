@@ -110791,15 +110791,15 @@ int func_1517(int iParam0)
 			break;
 		
 		case 93:
-			iVar0 = 482489509;
+			iVar0 = joaat("ig_mechanic_01");
 			break;
 		
 		case 94:
-			iVar0 = 1590147279;
+			iVar0 = joaat("ig_mechanic_02");
 			break;
 		
 		case 95:
-			iVar0 = 1011548258;
+			iVar0 = joaat("ig_jamalamir");
 			break;
 	}
 	return iVar0;

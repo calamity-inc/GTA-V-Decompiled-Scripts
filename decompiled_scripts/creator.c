@@ -112240,7 +112240,7 @@ bool func_891(var uParam0)
 void func_892()
 {
 	bLocal_275 = false;
-	if ((((Local_986.f_11037 == 1 && func_893(joaat("mpply_done_dm_creator_tut"))) || (Local_986.f_11037 == 2 && func_893(joaat("mpply_done_race_creator_tut")))) || (Local_986.f_11037 == 9 && func_893(1203277932))) || (Local_986.f_11037 == 10 && func_893(1401708210)))
+	if ((((Local_986.f_11037 == 1 && func_893(joaat("mpply_done_dm_creator_tut"))) || (Local_986.f_11037 == 2 && func_893(joaat("mpply_done_race_creator_tut")))) || (Local_986.f_11037 == 9 && func_893(joaat("mpply_done_koth_creator_tut")))) || (Local_986.f_11037 == 10 && func_893(joaat("mpply_done_surv_creator_tut"))))
 	{
 		bLocal_275 = true;
 	}
@@ -117300,7 +117300,7 @@ int func_1038(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (bParam1)
 			{
 				case 0:
@@ -117446,8 +117446,8 @@ int func_1039(int iParam0)
 			case joaat("weapon_candycane"):
 			case joaat("weapon_railgunxm3"):
 			case 350597077:
-			case 1924557585:
-			case 62870901:
+			case joaat("weapon_battlerifle"):
+			case joaat("weapon_snowlauncher"):
 				return 1;
 				break;
 			}

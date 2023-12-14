@@ -2547,7 +2547,7 @@ char* func_24(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			if (bParam1)
 			{
 				return "WTU_BATTLERIFLE";
@@ -2558,7 +2558,7 @@ char* func_24(int iParam0, bool bParam1)
 			}
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			if (bParam1)
 			{
 				return "WTU_SNOWLNCHR";
@@ -3098,11 +3098,11 @@ int func_30(int iParam0)
 			return 98;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 99;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 100;
 			break;
 	}
@@ -3632,11 +3632,11 @@ int func_40(int iParam0)
 			return 510;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 512;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 514;
 			break;
 	}
@@ -7799,7 +7799,7 @@ int func_55(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam0)
 			{
 				case -292433650:
@@ -10891,7 +10891,7 @@ int func_86(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam1)
 			{
 				case 0:
@@ -11509,11 +11509,11 @@ int func_94(int iParam0)
 			return 511;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 513;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 515;
 			break;
 	}
@@ -11904,13 +11904,13 @@ void func_99(var uParam0, var uParam1)
 	{
 		func_111(350597077, uParam0, *uParam1, 0);
 	}
-	if ((WEAPON::IS_WEAPON_VALID(1924557585) && (Global_262145.f_36065 || Global_262145.f_36179)) && iLocal_65[69] == uParam1->f_5)
+	if ((WEAPON::IS_WEAPON_VALID(joaat("weapon_battlerifle")) && (Global_262145.f_36065 || Global_262145.f_36179)) && iLocal_65[69] == uParam1->f_5)
 	{
-		func_111(1924557585, uParam0, *uParam1, 0);
+		func_111(joaat("weapon_battlerifle"), uParam0, *uParam1, 0);
 	}
-	if ((WEAPON::IS_WEAPON_VALID(62870901) && Global_262145.f_36066) && iLocal_65[70] == uParam1->f_5)
+	if ((WEAPON::IS_WEAPON_VALID(joaat("weapon_snowlauncher")) && Global_262145.f_36066) && iLocal_65[70] == uParam1->f_5)
 	{
-		func_111(62870901, uParam0, *uParam1, 0);
+		func_111(joaat("weapon_snowlauncher"), uParam0, *uParam1, 0);
 	}
 }
 
@@ -12923,10 +12923,10 @@ float func_134(int iParam0, int iParam1)
 		case 350597077:
 			return (SYSTEM::TO_FLOAT(func_32(14586, iParam1)) / SYSTEM::TO_FLOAT(func_32(14587, iParam1)));
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return (SYSTEM::TO_FLOAT(func_32(14596, iParam1)) / SYSTEM::TO_FLOAT(func_32(14597, iParam1)));
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return (SYSTEM::TO_FLOAT(func_32(14606, iParam1)) / SYSTEM::TO_FLOAT(func_32(14607, iParam1)));
 		
 		default:
@@ -13145,10 +13145,10 @@ int func_135(int iParam0, int iParam1)
 		case 350597077:
 			return func_32(14590, iParam1);
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return func_32(14600, iParam1);
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return func_32(14610, iParam1);
 		
 		default:
@@ -13457,10 +13457,10 @@ int func_136(int iParam0, int iParam1)
 		case 350597077:
 			return func_32(14587, iParam1);
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return func_32(14597, iParam1);
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return func_32(14607, iParam1);
 		
 		default:
@@ -13769,10 +13769,10 @@ int func_137(int iParam0, int iParam1)
 		case 350597077:
 			return func_32(14586, iParam1);
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return func_32(14596, iParam1);
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return func_32(14606, iParam1);
 		
 		default:
@@ -14140,12 +14140,12 @@ float func_138(int iParam0)
 			iVar1 = 14589;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			iVar0 = 14598;
 			iVar1 = 14599;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			iVar0 = 14608;
 			iVar1 = 14609;
 			break;
@@ -14596,7 +14596,7 @@ char* func_141(int iParam0, bool bParam1)
 			return "WTD_CMBSHGN";
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return "WTD_SNOWLNCHR";
 			break;
 		
@@ -15397,7 +15397,7 @@ void func_153()
 	{
 		iLocal_65[68] = -1;
 	}
-	if (WEAPON::IS_WEAPON_VALID(1924557585) && ((Global_262145.f_36065 || Global_262145.f_36179) || func_154(1924557585)))
+	if (WEAPON::IS_WEAPON_VALID(joaat("weapon_battlerifle")) && ((Global_262145.f_36065 || Global_262145.f_36179) || func_154(joaat("weapon_battlerifle"))))
 	{
 		iLocal_65[69] = ((iLocal_64 / 9) + iLocal_63);
 		iLocal_64++;
@@ -15406,7 +15406,7 @@ void func_153()
 	{
 		iLocal_65[69] = -1;
 	}
-	if (Global_262145.f_36066 && WEAPON::IS_WEAPON_VALID(62870901))
+	if (Global_262145.f_36066 && WEAPON::IS_WEAPON_VALID(joaat("weapon_snowlauncher")))
 	{
 		iLocal_65[70] = ((iLocal_64 / 9) + iLocal_63);
 		iLocal_64++;

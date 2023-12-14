@@ -39385,8 +39385,8 @@ int func_397(int iParam0)
 			case joaat("weapon_candycane"):
 			case joaat("weapon_railgunxm3"):
 			case 350597077:
-			case 1924557585:
-			case 62870901:
+			case joaat("weapon_battlerifle"):
+			case joaat("weapon_snowlauncher"):
 				return 1;
 				break;
 			}
@@ -40233,7 +40233,7 @@ int func_398(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam1)
 			{
 				case 0:

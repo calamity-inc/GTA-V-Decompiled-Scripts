@@ -6910,32 +6910,32 @@ int func_166(int iParam0)
 		case joaat("raiju"):
 		case joaat("inductor"):
 		case joaat("inductor2"):
-		case -122993285:
-		case -38879449:
-		case -1479935577:
-		case -1681653521:
-		case -1696319096:
-		case -1624083468:
-		case 821121576:
-		case -181562642:
-		case -1763273939:
-		case 1923534526:
-		case -465825307:
-		case -441209695:
-		case -1029730482:
-		case -478639183:
-		case -1233767450:
-		case -1674384553:
+		case joaat("turismo3"):
+		case joaat("aleutian"):
+		case joaat("driftfr36"):
+		case joaat("driftyosemite"):
+		case joaat("drifttampa"):
+		case joaat("driftremus"):
+		case joaat("drifteuros"):
+		case joaat("driftfuto"):
+		case joaat("driftjester"):
+		case joaat("driftzr350"):
+		case joaat("fr36"):
+		case joaat("dominator9"):
+		case joaat("cavalcade3"):
+		case joaat("impaler5"):
+		case joaat("polgauntlet"):
+		case joaat("police5"):
 		case joaat("police4"):
-		case 372621319:
-		case -741120335:
-		case -863358884:
-		case -768044142:
-		case -178442374:
-		case 167522317:
-		case -1372798934:
-		case -842765535:
-		case 728350375:
+		case joaat("vigero3"):
+		case joaat("asterope2"):
+		case joaat("baller8"):
+		case joaat("dorado"):
+		case joaat("impaler6"):
+		case joaat("terminus"):
+		case joaat("vivanite"):
+		case joaat("boxville6"):
+		case joaat("benson2"):
 			return 1;
 			break;
 	}
@@ -7304,8 +7304,8 @@ int func_182(int iParam0)
 		case joaat("boxville3"):
 		case joaat("boxville4"):
 		case joaat("boxville5"):
-		case -842765535:
-		case 728350375:
+		case joaat("boxville6"):
+		case joaat("benson2"):
 			return 1;
 		
 		default:
@@ -7826,8 +7826,8 @@ int func_199(int iParam0)
 		case joaat("towtruck"):
 		case joaat("towtruck2"):
 		case joaat("forklift"):
-		case -671564942:
-		case -902029319:
+		case joaat("towtruck3"):
+		case joaat("towtruck4"):
 			return 1;
 			break;
 	}

@@ -1638,8 +1638,8 @@ int func_38(int iParam0)
 		case joaat("policeold2"):
 		case joaat("policet"):
 		case joaat("taxi"):
-		case -671564942:
-		case -902029319:
+		case joaat("towtruck3"):
+		case joaat("towtruck4"):
 		case joaat("submersible"):
 		case joaat("submersible2"):
 		case joaat("monster"):
@@ -5159,56 +5159,56 @@ int func_42(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -122993285)
+	else if (iParam0 == joaat("turismo3"))
 	{
 		if (!Global_262145.f_36286 && iVar1 < Global_262145.f_36266)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -38879449)
+	else if (iParam0 == joaat("aleutian"))
 	{
 		if (!Global_262145.f_36291 && iVar1 < Global_262145.f_36271)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -465825307)
+	else if (iParam0 == joaat("fr36"))
 	{
 		if (!Global_262145.f_36285 && iVar1 < Global_262145.f_36265)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -441209695)
+	else if (iParam0 == joaat("dominator9"))
 	{
 		if (!Global_262145.f_36292 && iVar1 < Global_262145.f_36272)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1233767450)
+	else if (iParam0 == joaat("polgauntlet"))
 	{
 		if (!Global_262145.f_36297 && iVar1 < Global_262145.f_36277)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1674384553)
+	else if (iParam0 == joaat("police5"))
 	{
 		if (!Global_262145.f_36288 && iVar1 < Global_262145.f_36268)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -478639183)
+	else if (iParam0 == joaat("impaler5"))
 	{
 		if (!Global_262145.f_36296 && iVar1 < Global_262145.f_36276)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1029730482)
+	else if (iParam0 == joaat("cavalcade3"))
 	{
 		if (!Global_262145.f_36295 && iVar1 < Global_262145.f_36275)
 		{
@@ -5222,63 +5222,63 @@ int func_42(int iParam0, int iParam1)
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 372621319)
+	else if (iParam0 == joaat("vigero3"))
 	{
 		if (!Global_262145.f_36287 && iVar1 < Global_262145.f_36267)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -741120335)
+	else if (iParam0 == joaat("asterope2"))
 	{
 		if (!Global_262145.f_36293 && iVar1 < Global_262145.f_36273)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -863358884)
+	else if (iParam0 == joaat("baller8"))
 	{
 		if (!Global_262145.f_36301 && iVar1 < Global_262145.f_36281)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -768044142)
+	else if (iParam0 == joaat("dorado"))
 	{
 		if (!Global_262145.f_36300 && iVar1 < Global_262145.f_36280)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -178442374)
+	else if (iParam0 == joaat("impaler6"))
 	{
 		if (!Global_262145.f_36299 && iVar1 < Global_262145.f_36279)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 167522317)
+	else if (iParam0 == joaat("terminus"))
 	{
 		if (!Global_262145.f_36302 && iVar1 < Global_262145.f_36282)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -1372798934)
+	else if (iParam0 == joaat("vivanite"))
 	{
 		if (!Global_262145.f_36298 && iVar1 < Global_262145.f_36278)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == -842765535)
+	else if (iParam0 == joaat("boxville6"))
 	{
 		if (!Global_262145.f_36303 && iVar1 < Global_262145.f_36283)
 		{
 			iVar0 = 0;
 		}
 	}
-	else if (iParam0 == 728350375)
+	else if (iParam0 == joaat("benson2"))
 	{
 		if (!Global_262145.f_36304 && iVar1 < Global_262145.f_36284)
 		{
@@ -13286,61 +13286,61 @@ int func_137(int iParam0, int iParam1)
 			return joaat("coureur");
 		
 		case 614:
-			return -1233767450;
+			return joaat("polgauntlet");
 		
 		case 615:
 			return joaat("police4");
 		
 		case 616:
-			return -1674384553;
+			return joaat("police5");
 		
 		case 617:
 			return joaat("riot");
 		
 		case 618:
-			return -768044142;
+			return joaat("dorado");
 		
 		case 619:
-			return -478639183;
+			return joaat("impaler5");
 		
 		case 620:
-			return -178442374;
+			return joaat("impaler6");
 		
 		case 621:
-			return -741120335;
+			return joaat("asterope2");
 		
 		case 622:
-			return -441209695;
+			return joaat("dominator9");
 		
 		case 623:
-			return -465825307;
+			return joaat("fr36");
 		
 		case 624:
-			return -863358884;
+			return joaat("baller8");
 		
 		case 625:
-			return -38879449;
+			return joaat("aleutian");
 		
 		case 626:
-			return -122993285;
+			return joaat("turismo3");
 		
 		case 627:
-			return -1029730482;
+			return joaat("cavalcade3");
 		
 		case 628:
-			return 372621319;
+			return joaat("vigero3");
 		
 		case 629:
-			return 167522317;
+			return joaat("terminus");
 		
 		case 630:
-			return -1372798934;
+			return joaat("vivanite");
 		
 		case 631:
-			return -842765535;
+			return joaat("boxville6");
 		
 		case 632:
-			return 728350375;
+			return joaat("benson2");
 		
 		default:
 	}
@@ -18731,7 +18731,7 @@ int func_170(int iParam0, int iParam1, int iParam2)
 		}
 		return 0;
 	}
-	if ((iVar0 == joaat("riot") || iVar0 == -842765535) || iVar0 == 728350375)
+	if ((iVar0 == joaat("riot") || iVar0 == joaat("boxville6")) || iVar0 == joaat("benson2"))
 	{
 		if (func_172(iVar0))
 		{
@@ -18755,22 +18755,22 @@ int func_171(int iParam0)
 {
 	switch (iParam0)
 	{
-		case -1233767450:
+		case joaat("polgauntlet"):
 			return 0;
 		
 		case joaat("police4"):
 			return 1;
 		
-		case -1674384553:
+		case joaat("police5"):
 			return 2;
 		
 		case joaat("riot"):
 			return 3;
 		
-		case -842765535:
+		case joaat("boxville6"):
 			return 4;
 		
-		case 728350375:
+		case joaat("benson2"):
 			return 5;
 		
 		default:
@@ -18786,22 +18786,22 @@ int func_172(int iParam0)
 	}
 	switch (iParam0)
 	{
-		case -1233767450:
+		case joaat("polgauntlet"):
 			return func_183(1);
 		
 		case joaat("police4"):
 			return func_177(1, 0, 1);
 		
-		case -1674384553:
+		case joaat("police5"):
 			return (func_174() || func_173(41942, -1));
 		
 		case joaat("riot"):
 			return func_173(42123, -1);
 		
-		case -842765535:
+		case joaat("boxville6"):
 			return func_173(42233, -1);
 		
-		case 728350375:
+		case joaat("benson2"):
 			return func_173(42234, -1);
 		
 		default:
@@ -23278,11 +23278,11 @@ int func_263(int iParam0)
 		case joaat("euros"):
 		case joaat("growler"):
 		case joaat("previon"):
-		case -1624083468:
-		case 821121576:
-		case -181562642:
-		case -1763273939:
-		case 1923534526:
+		case joaat("driftremus"):
+		case joaat("drifteuros"):
+		case joaat("driftfuto"):
+		case joaat("driftjester"):
+		case joaat("driftzr350"):
 			return 1;
 		
 		default:
@@ -26864,8 +26864,8 @@ int func_309(int iParam0)
 		case joaat("boxville3"):
 		case joaat("boxville4"):
 		case joaat("boxville5"):
-		case -842765535:
-		case 728350375:
+		case joaat("boxville6"):
+		case joaat("benson2"):
 			return 1;
 		
 		default:
@@ -27682,8 +27682,8 @@ int func_327(int iParam0)
 		case joaat("towtruck"):
 		case joaat("towtruck2"):
 		case joaat("forklift"):
-		case -671564942:
-		case -902029319:
+		case joaat("towtruck3"):
+		case joaat("towtruck4"):
 			return 1;
 			break;
 	}

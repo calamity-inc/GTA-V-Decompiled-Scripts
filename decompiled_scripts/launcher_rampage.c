@@ -3152,8 +3152,8 @@ int func_66(int iParam0)
 			case joaat("weapon_candycane"):
 			case joaat("weapon_railgunxm3"):
 			case 350597077:
-			case 1924557585:
-			case 62870901:
+			case joaat("weapon_battlerifle"):
+			case joaat("weapon_snowlauncher"):
 				return 1;
 				break;
 			}
@@ -4000,7 +4000,7 @@ int func_67(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam1)
 			{
 				case 0:
@@ -15970,7 +15970,7 @@ bool func_289(var uParam0, int iParam1, int iParam2, bool bParam3)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam2)
 			{
 				case 0:
@@ -19564,7 +19564,7 @@ int func_290(int iParam0, int iParam1)
 				}
 				break;
 			
-			case 1924557585:
+			case joaat("weapon_battlerifle"):
 				switch (iParam1)
 				{
 					case -292433650:
@@ -21338,11 +21338,11 @@ int func_326(int iParam0)
 			return 98;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 99;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 100;
 			break;
 	}
@@ -25139,7 +25139,7 @@ int func_341(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam0)
 			{
 				case -292433650:

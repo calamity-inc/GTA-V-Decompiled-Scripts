@@ -44030,7 +44030,7 @@ int func_495(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam0)
 			{
 				case -292433650:
@@ -45024,7 +45024,7 @@ int func_497(int iParam0, int iParam1)
 			}
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			switch (iParam1)
 			{
 				case 0:
@@ -45652,11 +45652,11 @@ int func_504(int iParam0)
 			return 98;
 			break;
 		
-		case 1924557585:
+		case joaat("weapon_battlerifle"):
 			return 99;
 			break;
 		
-		case 62870901:
+		case joaat("weapon_snowlauncher"):
 			return 100;
 			break;
 	}
@@ -58916,11 +58916,11 @@ int func_517(int iParam0)
 		case joaat("euros"):
 		case joaat("growler"):
 		case joaat("previon"):
-		case -1624083468:
-		case 821121576:
-		case -181562642:
-		case -1763273939:
-		case 1923534526:
+		case joaat("driftremus"):
+		case joaat("drifteuros"):
+		case joaat("driftfuto"):
+		case joaat("driftjester"):
+		case joaat("driftzr350"):
 			return 1;
 		
 		default:
@@ -58941,8 +58941,8 @@ int func_518(int iParam0)
 		case joaat("tailgater2"):
 		case joaat("previon"):
 		case joaat("rt3000"):
-		case -1624083468:
-		case 1923534526:
+		case joaat("driftremus"):
+		case joaat("driftzr350"):
 			return 1;
 		
 		default:
@@ -59197,8 +59197,8 @@ int func_523(int iParam0)
 	{
 		case joaat("coureur"):
 		case joaat("monstrociti"):
-		case -122993285:
-		case -863358884:
+		case joaat("turismo3"):
+		case joaat("baller8"):
 			return 1;
 			break;
 	}
@@ -59223,10 +59223,10 @@ int func_524(int iParam0)
 		case joaat("buffalo5"):
 		case joaat("coureur"):
 		case joaat("monstrociti"):
-		case -38879449:
-		case -122993285:
-		case -863358884:
-		case 167522317:
+		case joaat("aleutian"):
+		case joaat("turismo3"):
+		case joaat("baller8"):
+		case joaat("terminus"):
 			return 1;
 			break;
 	}
@@ -59331,8 +59331,8 @@ int func_528(int iParam0)
 		case joaat("boxville3"):
 		case joaat("boxville4"):
 		case joaat("boxville5"):
-		case -842765535:
-		case 728350375:
+		case joaat("boxville6"):
+		case joaat("benson2"):
 			return 1;
 		
 		default:
@@ -60385,7 +60385,7 @@ int func_560(int iParam0)
 		case joaat("imorgon"):
 		case joaat("komoda"):
 		case joaat("manana2"):
-		case -1233767450:
+		case joaat("polgauntlet"):
 		case joaat("gauntlet5"):
 		case joaat("yosemite3"):
 		case joaat("peyote3"):
@@ -60528,27 +60528,27 @@ int func_560(int iParam0)
 		case joaat("raiju"):
 		case joaat("inductor"):
 		case joaat("inductor2"):
-		case -122993285:
-		case -38879449:
-		case -1479935577:
-		case -1681653521:
-		case -1696319096:
-		case -1624083468:
-		case 821121576:
-		case -181562642:
-		case -1763273939:
-		case 1923534526:
-		case -465825307:
-		case -441209695:
-		case -1029730482:
-		case -478639183:
-		case 372621319:
-		case -741120335:
-		case -863358884:
-		case -768044142:
-		case -178442374:
-		case 167522317:
-		case -1372798934:
+		case joaat("turismo3"):
+		case joaat("aleutian"):
+		case joaat("driftfr36"):
+		case joaat("driftyosemite"):
+		case joaat("drifttampa"):
+		case joaat("driftremus"):
+		case joaat("drifteuros"):
+		case joaat("driftfuto"):
+		case joaat("driftjester"):
+		case joaat("driftzr350"):
+		case joaat("fr36"):
+		case joaat("dominator9"):
+		case joaat("cavalcade3"):
+		case joaat("impaler5"):
+		case joaat("vigero3"):
+		case joaat("asterope2"):
+		case joaat("baller8"):
+		case joaat("dorado"):
+		case joaat("impaler6"):
+		case joaat("terminus"):
+		case joaat("vivanite"):
 			return 1;
 			break;
 	}

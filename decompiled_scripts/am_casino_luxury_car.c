@@ -781,8 +781,8 @@ int func_27(int iParam0)
 	{
 		case joaat("coureur"):
 		case joaat("monstrociti"):
-		case -122993285:
-		case -863358884:
+		case joaat("turismo3"):
+		case joaat("baller8"):
 			return 1;
 			break;
 	}
@@ -5253,112 +5253,112 @@ int func_51(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var
 			*uParam5 = 0.5f;
 			break;
 		
-		case -1479935577:
+		case joaat("driftfr36"):
 			*uParam2 = { -1f, 0.1f, 0.026f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.44f;
 			break;
 		
-		case -1681653521:
+		case joaat("driftyosemite"):
 			*uParam2 = { -1f, 0.252f, 0.201f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.3f;
 			break;
 		
-		case -1624083468:
+		case joaat("driftremus"):
 			*uParam2 = { -1f, 0.204f, 0.357f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 821121576:
+		case joaat("drifteuros"):
 			*uParam2 = { -1f, 0.101f, 0.187f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -181562642:
+		case joaat("driftfuto"):
 			*uParam2 = { -1f, 0.318f, -0.013f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -1763273939:
+		case joaat("driftjester"):
 			*uParam2 = { -1f, 0f, 0.181f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case 1923534526:
+		case joaat("driftzr350"):
 			*uParam2 = { 0f, 1.632f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.19f;
 			break;
 		
-		case -38879449:
+		case joaat("aleutian"):
 			*uParam2 = { 0f, 2.1f, 1f };
 			*uParam3 = { 0f, 0f, -1f };
 			*uParam4 = { -1f, 0f, 0f };
 			*uParam5 = 0.35f;
 			break;
 		
-		case -441209695:
+		case joaat("dominator9"):
 			*uParam2 = { -1f, 0f, 0.295f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.5f;
 			break;
 		
-		case -465825307:
+		case joaat("fr36"):
 			*uParam2 = { -1f, 0.1f, 0.026f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.44f;
 			break;
 		
-		case -1029730482:
+		case joaat("cavalcade3"):
 			*uParam2 = { -1.6f, 0.585f, 0.3f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.5f;
 			break;
 		
-		case -478639183:
+		case joaat("impaler5"):
 			*uParam2 = { -1f, 0.16f, 0.295f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.43f;
 			break;
 		
-		case -741120335:
+		case joaat("asterope2"):
 			*uParam2 = { -1f, 0.15f, 0.075f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.46f;
 			break;
 		
-		case -768044142:
+		case joaat("dorado"):
 			*uParam2 = { -1f, 0.229f, 0.37f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.36f;
 			break;
 		
-		case -178442374:
+		case joaat("impaler6"):
 			*uParam2 = { -1f, 0.216f, 0.124f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
 			*uParam5 = 0.41f;
 			break;
 		
-		case -1372798934:
+		case joaat("vivanite"):
 			*uParam2 = { -1f, 0.475f, 0.05f };
 			*uParam3 = { 1f, 0f, 0f };
 			*uParam4 = { 0f, -1f, 0f };
@@ -5572,14 +5572,14 @@ int func_57(int iParam0)
 		case joaat("brickade2"):
 		case joaat("journey2"):
 		case joaat("stingertt"):
-		case -1696319096:
-		case -122993285:
-		case -1233767450:
-		case -1674384553:
+		case joaat("drifttampa"):
+		case joaat("turismo3"):
+		case joaat("polgauntlet"):
+		case joaat("police5"):
 		case joaat("police4"):
-		case -863358884:
-		case 372621319:
-		case 167522317:
+		case joaat("baller8"):
+		case joaat("vigero3"):
+		case joaat("terminus"):
 			return 1;
 			break;
 		
@@ -6677,10 +6677,10 @@ int func_84(int iParam0)
 		case joaat("buffalo5"):
 		case joaat("coureur"):
 		case joaat("monstrociti"):
-		case -38879449:
-		case -122993285:
-		case -863358884:
-		case 167522317:
+		case joaat("aleutian"):
+		case joaat("turismo3"):
+		case joaat("baller8"):
+		case joaat("terminus"):
 			return 1;
 			break;
 	}

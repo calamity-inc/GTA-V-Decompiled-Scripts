@@ -4677,7 +4677,7 @@ void func_192()
 					{
 						iVar16 = Global_262145.f_24878;
 					}
-					MISC::SHOOT_SINGLE_BULLET_BETWEEN_COORDS_IGNORE_ENTITY_NEW(Local_197.f_150 + Vector(0f, 0f, 0f), Var13, iVar16, true, joaat("WEAPON_TRANQUILIZER"), PLAYER::PLAYER_PED_ID(), true, true, -1f, NETWORK::NET_TO_OBJ(Local_197.f_159), false, false, 0, true, 0, 0, 0);
+					MISC::SHOOT_SINGLE_BULLET_BETWEEN_COORDS_IGNORE_ENTITY_NEW(Local_197.f_150 + Vector(0f, 0f, 0f), Var13, iVar16, true, joaat("weapon_tranquilizer"), PLAYER::PLAYER_PED_ID(), true, true, -1f, NETWORK::NET_TO_OBJ(Local_197.f_159), false, false, 0, true, 0, 0, 0);
 					Local_197.f_24 = 100;
 					PAD::SET_CONTROL_SHAKE(0, 300, SYSTEM::ROUND((150f * Local_197.f_131)));
 					if (AUDIO::HAS_SOUND_FINISHED(Local_197.f_81))
