@@ -5249,9 +5249,9 @@ int func_67(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_68(int iParam0, var uParam1)
+int func_68(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_69(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_69(uParam1));
 }
 
 int func_69(var uParam0)
@@ -9365,7 +9365,7 @@ void func_174(var uParam0)
 		if (func_173(uParam0))
 		{
 			Var39 = { func_183((*uParam0)[uParam0->f_2936]) };
-			if (((func_182(PLAYER::PLAYER_ID()) && func_182((*uParam0)[uParam0->f_2936])) && NETWORK::NETWORK_CAN_TEXT_CHAT_WITH_GAMER(&Var39)) && unk_0xDBDF80673BBA3D65(2))
+			if (((func_182(PLAYER::PLAYER_ID()) && func_182((*uParam0)[uParam0->f_2936])) && NETWORK::NETWORK_CAN_TEXT_CHAT_WITH_GAMER(&Var39)) && NETWORK::_NETWORK_DOES_COMMUNICATION_GROUP_EXIST(2))
 			{
 				bVar38 = true;
 			}
@@ -10016,7 +10016,7 @@ void func_190()
 								}
 							}
 							Var56 = { func_183(Local_305[Local_305.f_2936]) };
-							if (((!func_182(PLAYER::PLAYER_ID()) || !func_182(Local_305[Local_305.f_2936])) || !NETWORK::NETWORK_CAN_TEXT_CHAT_WITH_GAMER(&Var56)) || !unk_0xDBDF80673BBA3D65(2))
+							if (((!func_182(PLAYER::PLAYER_ID()) || !func_182(Local_305[Local_305.f_2936])) || !NETWORK::NETWORK_CAN_TEXT_CHAT_WITH_GAMER(&Var56)) || !NETWORK::_NETWORK_DOES_COMMUNICATION_GROUP_EXIST(2))
 							{
 								if (func_262(1, 1, 1, 1))
 								{
@@ -12761,9 +12761,9 @@ void func_242(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_243(int iParam0, var uParam1)
+int func_243(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_69(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_69(uParam1));
 }
 
 void func_244(var uParam0, bool bParam1, bool bParam2)
@@ -14066,7 +14066,7 @@ void func_288(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_289();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 

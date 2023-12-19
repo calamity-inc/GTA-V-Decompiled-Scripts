@@ -1393,9 +1393,9 @@ int func_9(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_10(int iParam0, var uParam1)
+int func_10(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_11(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_11(uParam1));
 }
 
 int func_11(var uParam0)
@@ -5169,7 +5169,7 @@ void func_133(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_134();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -5774,7 +5774,7 @@ void func_148(int iParam0, int iParam1, float fParam2, int iParam3, int iParam4,
 	Var0.f_9 = MISC::GET_FRAME_COUNT();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 10, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 10, iParam0, Var0.f_0);
 	}
 }
 
@@ -7051,7 +7051,7 @@ int func_176(var uParam0)
 			}
 			else if (iLocal_993 == 5)
 			{
-				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 3, &(Local_150.f_6), 1, 1077936128, 0);
+				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 3, &(Local_150.f_6), 1, 3f, 0f);
 				Local_150.f_6.f_2 = (Local_150.f_6.f_2 + 1.3f);
 				if (!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), Local_150.f_6, 75f, 75f, 75f, false, true, 0))
 				{
@@ -7060,7 +7060,7 @@ int func_176(var uParam0)
 			}
 			else if (iLocal_993 == 6)
 			{
-				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 6, &(Local_150.f_6), 1, 1077936128, 0);
+				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 6, &(Local_150.f_6), 1, 3f, 0f);
 				Local_150.f_6.f_2 = (Local_150.f_6.f_2 + 1.3f);
 				if (!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), Local_150.f_6, 75f, 75f, 75f, false, true, 0))
 				{
@@ -7069,7 +7069,7 @@ int func_176(var uParam0)
 			}
 			else if (iLocal_993 == 7)
 			{
-				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 10, &(Local_150.f_6), 1, 1077936128, 0);
+				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 10, &(Local_150.f_6), 1, 3f, 0f);
 				Local_150.f_6.f_2 = (Local_150.f_6.f_2 + 1.3f);
 				if (!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), Local_150.f_6, 75f, 75f, 75f, false, true, 0))
 				{
@@ -7078,7 +7078,7 @@ int func_176(var uParam0)
 			}
 			else if (iLocal_993 == 8)
 			{
-				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 15, &(Local_150.f_6), 1, 1077936128, 0);
+				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 15, &(Local_150.f_6), 1, 3f, 0f);
 				Local_150.f_6.f_2 = (Local_150.f_6.f_2 + 1.3f);
 				if (!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), Local_150.f_6, 75f, 75f, 75f, false, true, 0))
 				{
@@ -7087,7 +7087,7 @@ int func_176(var uParam0)
 			}
 			else if (iLocal_993 == 9)
 			{
-				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 20, &(Local_150.f_6), 1, 1077936128, 0);
+				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), 20, &(Local_150.f_6), 1, 3f, 0f);
 				Local_150.f_6.f_2 = (Local_150.f_6.f_2 + 1.3f);
 			}
 			else if (func_178(100f) && !BitTest(uLocal_280, 18))
@@ -19658,7 +19658,7 @@ void func_470(int iParam0, int iParam1, int iParam2, int iParam3)
 	Var0.f_4 = iParam2;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 
@@ -21087,7 +21087,7 @@ void func_517(int iParam0, int iParam1, var uParam2)
 	Var0.f_3 = uParam2;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 

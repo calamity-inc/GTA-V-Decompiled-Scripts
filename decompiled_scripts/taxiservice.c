@@ -1758,9 +1758,9 @@ void func_16(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_17(int iParam0, var uParam1)
+int func_17(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_18(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_18(uParam1));
 }
 
 int func_18(var uParam0)
@@ -4196,7 +4196,7 @@ void func_82()
 			{
 				Var0 = { func_83(Global_113408 - Var0) };
 				Var0 = { (Global_113408 + (Var0.f_0 * IntToFloat((100 - SYSTEM::ROUND(fVar3))))), (Global_113408.f_1 + (Var0.f_1 * IntToFloat((100 - SYSTEM::ROUND(fVar3))))), Global_113408.f_2 };
-				PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Var0, &Global_113408, &Global_113414, 1, 3f, 0);
+				PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Var0, &Global_113408, &Global_113414, 1, 3f, 0f);
 				ENTITY::SET_ENTITY_COORDS(Global_113401, Global_113408, true, false, false, true);
 				ENTITY::SET_ENTITY_HEADING(Global_113401, Global_113414);
 			}
@@ -5471,7 +5471,7 @@ void func_112(float fParam0)
 		if (func_113(&iVar0, Var3, fParam0))
 		{
 			bVar1 = false;
-			if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Global_113408, iVar2, &Var3, 1, 1077936128, 0))
+			if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Global_113408, iVar2, &Var3, 1, 3f, 0f))
 			{
 				iVar2++;
 			}

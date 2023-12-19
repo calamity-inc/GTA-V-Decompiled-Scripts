@@ -343,7 +343,7 @@ void func_5(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uParam5
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam15 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Param0, 15, iParam15, Param0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Param0, 15, iParam15, Param0.f_0);
 	}
 }
 
@@ -1105,25 +1105,25 @@ void func_43(int iParam0, int iParam1, int iParam2)
 	func_44(iParam0, iVar0, iParam2);
 }
 
-void func_44(var uParam0, int iParam1, var uParam2)
+void func_44(int iParam0, int iParam1, var uParam2)
 {
 	int iVar0;
 	
-	iVar0 = func_45(uParam0, uParam2);
+	iVar0 = func_45(iParam0, uParam2);
 	STATS::STAT_SET_INT(iVar0, iParam1, true);
 }
 
-var func_45(var uParam0, var uParam1)
+int func_45(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_47(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_47(uParam1));
 }
 
-int func_46(var uParam0, int iParam1)
+int func_46(int iParam0, int iParam1)
 {
 	int iVar0;
 	var uVar1;
 	
-	iVar0 = func_45(uParam0, iParam1);
+	iVar0 = func_45(iParam0, iParam1);
 	if (STATS::STAT_GET_INT(iVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -1827,7 +1827,7 @@ void func_58(struct<67> Param0, var uParam67, var uParam68, var uParam69, var uP
 	if (!iVar37 == 0)
 	{
 		func_59();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -1922,7 +1922,7 @@ void func_64(bool bParam0, int iParam1, int iParam2)
 		Var0.f_5 = iParam2;
 		Var0.f_6 = func_66(bParam0);
 		func_65(&(Var0.f_7), &(Var0.f_8));
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_60(bParam0), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_60(bParam0), Var0.f_0);
 	}
 }
 
@@ -3915,9 +3915,9 @@ void func_161(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_162(int iParam0, var uParam1)
+int func_162(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_47(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_47(uParam1));
 }
 
 int func_163(int iParam0, bool bParam1)

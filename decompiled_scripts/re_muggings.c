@@ -4150,9 +4150,9 @@ void func_71(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_72(int iParam0, var uParam1)
+int func_72(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_73(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_73(uParam1));
 }
 
 int func_73(var uParam0)
@@ -4745,7 +4745,7 @@ Vector3 func_102(struct<3> Param0, struct<3> Param3)
 		ENTITY::SET_ENTITY_AS_MISSION_ENTITY(iVar0, true, false);
 	}
 	MISC::GET_MODEL_DIMENSIONS(ENTITY::GET_ENTITY_MODEL(iVar0), &Var7, &Var10);
-	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Param0, 3, &Var4, 1, 1077936128, 0);
+	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Param0, 3, &Var4, 1, 3f, 0f);
 	if (SYSTEM::VDIST(Param0, -3039.655f, 602.4346f, 6.5719f) <= 25f)
 	{
 		Var1 = { -3045.49f, 604.46f, 7.02f };

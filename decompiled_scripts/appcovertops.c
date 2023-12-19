@@ -1324,9 +1324,9 @@ int func_52(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_53(int iParam0, var uParam1)
+int func_53(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_54(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_54(uParam1));
 }
 
 int func_54(var uParam0)
@@ -7320,7 +7320,7 @@ bool func_254(int iParam0)
 	return bVar0;
 }
 
-int func_255(int iParam0, int iParam1)
+char* func_255(int iParam0, int iParam1)
 {
 	if (iParam0 == -1)
 	{

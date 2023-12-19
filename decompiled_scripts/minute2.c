@@ -5437,9 +5437,9 @@ void func_87(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_88(int iParam0, var uParam1)
+int func_88(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_89(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_89(uParam1));
 }
 
 int func_89(var uParam0)
@@ -39349,7 +39349,7 @@ void func_314()
 	ENTITY::SET_ENTITY_PROOFS(iLocal_169, false, false, false, true, false, false, false, false);
 	PED::SET_PED_COMBAT_ATTRIBUTES(Local_94.f_28[1], 0, false);
 	PED::SET_PED_MOVEMENT_CLIPSET(iLocal_169, "MOVE_M@BAIL_BOND_NOT_TAZERED", 0.25f);
-	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(Local_94.f_28[1], -20f, 0f, 0f), 97, &uLocal_638, 1, 1077936128, 0);
+	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(Local_94.f_28[1], -20f, 0f, 0f), 97, &uLocal_638, 1, 3f, 0f);
 	iLocal_584 = MISC::GET_GAME_TIMER();
 	if (func_6(iLocal_160))
 	{
@@ -39852,7 +39852,7 @@ void func_321()
 		PED::SET_PED_COMBAT_ATTRIBUTES(Local_94.f_28[1], 0, false);
 	}
 	PED::SET_PED_MOVEMENT_CLIPSET(iLocal_164[iLocal_572], "MOVE_M@BAIL_BOND_NOT_TAZERED", 0.25f);
-	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(Local_94.f_28[0], -20f, 0f, 0f), 129, &uLocal_638, 1, 1077936128, 0);
+	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(Local_94.f_28[0], -20f, 0f, 0f), 129, &uLocal_638, 1, 3f, 0f);
 	iLocal_582 = MISC::GET_GAME_TIMER();
 	if (func_6(iLocal_155[iLocal_572]))
 	{
@@ -43440,9 +43440,9 @@ int func_390(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_391(int iParam0, var uParam1)
+int func_391(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_89(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_89(uParam1));
 }
 
 void func_392(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)

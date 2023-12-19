@@ -6022,7 +6022,7 @@ void func_62()
 					{
 						Var3 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) };
 						iVar15 = MISC::GET_RANDOM_INT_IN_RANGE(6, 10);
-						if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Var3, iVar15, &Var6, 1, 5f, 0))
+						if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Var3, iVar15, &Var6, 1, 5f, 0f))
 						{
 							PATHFIND::GET_VEHICLE_NODE_PROPERTIES(Var6, &uVar17, &uVar18);
 							if (((uVar18 & 4 == 0 && (!func_81() || uVar18 & 8 == 0)) && (func_80() || uVar18 & 1 == 0)) && !func_79(Var6, 1084227584))
@@ -7959,9 +7959,9 @@ void func_117(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_118(int iParam0, var uParam1)
+int func_118(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_119(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_119(uParam1));
 }
 
 int func_119(var uParam0)

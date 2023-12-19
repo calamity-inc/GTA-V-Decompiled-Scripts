@@ -4840,9 +4840,9 @@ void func_113(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_114(int iParam0, var uParam1)
+int func_114(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_115(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_115(uParam1));
 }
 
 int func_115(var uParam0)
@@ -4881,9 +4881,9 @@ int func_116(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_117(int iParam0, var uParam1)
+int func_117(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_115(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_115(uParam1));
 }
 
 int func_118()
@@ -10176,9 +10176,9 @@ float func_164(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_165(int iParam0, var uParam1)
+int func_165(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_115(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_115(uParam1));
 }
 
 int func_166(int iParam0)
@@ -17307,9 +17307,9 @@ int func_189(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_190(int iParam0, var uParam1)
+int func_190(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_115(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_115(uParam1));
 }
 
 int func_191(int iParam0, int iParam1, int iParam2)
@@ -21035,9 +21035,9 @@ int func_192(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_193(int iParam0, var uParam1)
+int func_193(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_115(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_115(uParam1));
 }
 
 bool func_194(int iParam0, int iParam1, bool bParam2)
@@ -81873,7 +81873,7 @@ void func_415(int iParam0)
 	Var0.f_0 = -688049763;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = iParam0;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, func_416(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, func_416(1, 1), Var0.f_0);
 }
 
 var func_416(int iParam0, bool bParam1)
@@ -82473,13 +82473,13 @@ void func_439(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 						{
 							VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, Global_262145.f_21957);
 						}
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					
 					default:
 						VEHICLE::SET_VEHICLE_EXPLODES_ON_HIGH_EXPLOSION_DAMAGE(iParam0, false);
 						VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, 1f);
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					}
 			}
@@ -82645,7 +82645,7 @@ void func_445(struct<3> Param0)
 	Var0.f_3 = Param0.f_0;
 	Var0.f_3.f_1 = Param0.f_1;
 	Var0.f_3.f_2 = Param0.f_2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_416(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_416(1, 1), Var0.f_0);
 }
 
 int func_446(int iParam0, var* uParam1)
@@ -88561,13 +88561,13 @@ int func_490()
 void func_491(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -88579,7 +88579,7 @@ void func_491(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }
@@ -89620,7 +89620,7 @@ void func_522(struct<3> Param0, var uParam3, int iParam4, var uParam5)
 	Var0.f_6 = uParam3;
 	Var0.f_7 = iParam4;
 	Var0.f_8 = *uParam5;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_416(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_416(1, 1), Var0.f_0);
 }
 
 int func_523(var uParam0, var uParam1, var uParam2)
@@ -95273,8 +95273,8 @@ void func_635(var uParam0)
 
 void func_636(int iParam0, int iParam1)
 {
-	var uVar0;
-	var uVar1;
+	int iVar0;
+	int iVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -95316,15 +95316,15 @@ void func_636(int iParam0, int iParam1)
 		}
 		if (func_641(1))
 		{
-			uVar0 = func_639(func_640());
-			uVar1 = func_638(func_640());
+			iVar0 = func_639(func_640());
+			iVar1 = func_638(func_640());
 			iVar2 = func_637(func_460(1));
 		}
 		else
 		{
 			iVar2 = -1;
 		}
-		unk_0x10A691F5756416D0(uVar0, uVar1, iVar2, Global_1586504[iParam0 /*142*/].f_66, iVar3);
+		STATS::PLAYSTATS_VEH_DEL(iVar0, iVar1, iVar2, Global_1586504[iParam0 /*142*/].f_66, iVar3);
 	}
 }
 
@@ -100956,7 +100956,7 @@ void func_724(int iParam0)
 			VEHICLE::SET_VEHICLE_NO_EXPLOSION_DAMAGE_FROM_DRIVER(iParam0, !func_696());
 			if (iVar1 == joaat("ruiner2"))
 			{
-				VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, 1);
+				VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, true);
 			}
 			if (iVar1 == joaat("blazer5"))
 			{
@@ -101039,7 +101039,7 @@ void func_724(int iParam0)
 		}
 		if (BitTest(Global_4718592.f_18, 24) || (func_725() && NETWORK::NETWORK_IS_ACTIVITY_SESSION()))
 		{
-			VEHICLE::SET_BIKE_EASY_TO_LAND(iParam0, 1);
+			VEHICLE::SET_BIKE_EASY_TO_LAND(iParam0, true);
 		}
 	}
 	if (bVar0)
@@ -102230,7 +102230,7 @@ void func_760(struct<29> Param0, var uParam29, var uParam30, var uParam31, var u
 	Var0.f_38 = uParam35;
 	Var0.f_39 = bParam36;
 	Var0.f_40 = iParam37;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 41, func_416(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 41, func_416(1, 1), Var0.f_0);
 }
 
 int func_761(var uParam0, var uParam1, var uParam2, var uParam3)
@@ -117335,7 +117335,7 @@ void func_1058(struct<3> Param0)
 	Var0.f_0 = 1619668539;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = { Param0 };
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_416(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_416(1, 1), Var0.f_0);
 }
 
 int func_1059()

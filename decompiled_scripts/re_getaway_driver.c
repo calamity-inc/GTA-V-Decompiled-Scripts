@@ -921,7 +921,7 @@ void __EntryFunction__()
 					iVar0 = 6;
 				}
 				iVar0 = 5;
-				PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), &uVar13, &uVar16, 1, 3f, 0);
+				PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), &uVar13, &uVar16, 1, 3f, 0f);
 				if (func_129(iVar17, 20000))
 				{
 					iVar0 = 6;
@@ -3190,9 +3190,9 @@ void func_25(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_26(int iParam0, var uParam1)
+int func_26(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_27(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_27(uParam1));
 }
 
 int func_27(var uParam0)
@@ -11317,7 +11317,7 @@ void func_169()
 {
 	if (!bLocal_276)
 	{
-		PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(func_188(PLAYER::PLAYER_ID()) - Vector(0f, 10f, 0f), MISC::GET_RANDOM_INT_IN_RANGE(5, 15), &Local_241, 1, 1077936128, 0);
+		PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(func_188(PLAYER::PLAYER_ID()) - Vector(0f, 10f, 0f), MISC::GET_RANDOM_INT_IN_RANGE(5, 15), &Local_241, 1, 3f, 0f);
 		if (!CAM::IS_SPHERE_VISIBLE(Local_241, 10f))
 		{
 			Local_235 = { Local_241 };
@@ -11325,7 +11325,7 @@ void func_169()
 		}
 		else
 		{
-			PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(func_188(PLAYER::PLAYER_ID()) + Vector(0f, 10f, 0f), MISC::GET_RANDOM_INT_IN_RANGE(5, 15), &Local_241, 1, 1077936128, 0);
+			PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(func_188(PLAYER::PLAYER_ID()) + Vector(0f, 10f, 0f), MISC::GET_RANDOM_INT_IN_RANGE(5, 15), &Local_241, 1, 3f, 0f);
 			if (!CAM::IS_SPHERE_VISIBLE(Local_241, 10f))
 			{
 				Local_235 = { Local_241 };

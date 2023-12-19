@@ -119,7 +119,7 @@
 	int iLocal_139 = 0;
 	int iLocal_140[6] = { 0, 0, 0, 0, 0, 0 };
 	var uLocal_147[6] = { 0, 0, 0, 0, 0, 0 };
-	bool bLocal_154 = 0;
+	int iLocal_154 = 0;
 	int iLocal_155 = 0;
 	int iLocal_156 = 0;
 	var uLocal_157 = 0;
@@ -2359,9 +2359,9 @@ float func_44(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_45(var uParam0, var uParam1)
+int func_45(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_46(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_46(uParam1));
 }
 
 int func_46(var uParam0)
@@ -2400,9 +2400,9 @@ int func_47(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_48(var uParam0, var uParam1)
+int func_48(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_46(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_46(uParam1));
 }
 
 int func_49(int iParam0, int iParam1)
@@ -2421,9 +2421,9 @@ int func_49(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_50(int iParam0, var uParam1)
+int func_50(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_46(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_46(uParam1));
 }
 
 int func_51()
@@ -2871,9 +2871,9 @@ void func_57(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_58(int iParam0, var uParam1)
+int func_58(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_46(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_46(uParam1));
 }
 
 int func_59(char* sParam0, bool bParam1)
@@ -3414,31 +3414,31 @@ int func_83(var uParam0, char* sParam1, char* sParam2, int iParam3)
 
 void func_84(char* sParam0, int iParam1, var uParam2)
 {
-	char* sVar0;
-	char* sVar1;
-	char* sVar2;
+	int iVar0;
+	int iVar1;
+	int iVar2;
 	int iVar3;
 	
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
-	sVar1 = DATAFILE::DATADICT_GET_DICT(sVar0, "mission");
-	sVar2 = DATAFILE::DATADICT_GET_DICT(sVar1, "gen");
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar1 = DATAFILE::DATADICT_GET_DICT(iVar0, "mission");
+	iVar2 = DATAFILE::DATADICT_GET_DICT(iVar1, "gen");
 	StringCopy(sParam0, NETWORK::UGC_GET_CONTENT_ID(iParam1), 24);
 	StringCopy(&(sParam0->f_6), NETWORK::UGC_GET_CONTENT_USER_ID(iParam1), 64);
 	StringCopy(&(sParam0->f_22), NETWORK::UGC_GET_CONTENT_NAME(iParam1), 64);
-	sParam0->f_56 = { func_90(sVar2) };
-	sParam0->f_59 = { func_89(sVar2, "cam") };
-	sParam0->f_62 = { func_88(sVar2) };
-	sParam0->f_65 = DATAFILE::DATADICT_GET_INT(sVar2, "type");
-	sParam0->f_68 = DATAFILE::DATADICT_GET_INT(sVar2, "subtype");
-	sParam0->f_80 = DATAFILE::DATADICT_GET_INT(sVar2, "adverm");
-	sParam0->f_88 = DATAFILE::DATADICT_GET_INT(sVar2, "trntype");
-	sParam0->f_79 = DATAFILE::DATADICT_GET_INT(sVar2, "testcomplete");
-	sParam0->f_69 = DATAFILE::DATADICT_GET_INT(sVar2, "min");
-	sParam0->f_70 = DATAFILE::DATADICT_GET_INT(sVar2, "rank");
-	sParam0->f_71 = DATAFILE::DATADICT_GET_INT(sVar2, "num");
+	sParam0->f_56 = { func_90(iVar2) };
+	sParam0->f_59 = { func_89(iVar2, "cam") };
+	sParam0->f_62 = { func_88(iVar2) };
+	sParam0->f_65 = DATAFILE::DATADICT_GET_INT(iVar2, "type");
+	sParam0->f_68 = DATAFILE::DATADICT_GET_INT(iVar2, "subtype");
+	sParam0->f_80 = DATAFILE::DATADICT_GET_INT(iVar2, "adverm");
+	sParam0->f_88 = DATAFILE::DATADICT_GET_INT(iVar2, "trntype");
+	sParam0->f_79 = DATAFILE::DATADICT_GET_INT(iVar2, "testcomplete");
+	sParam0->f_69 = DATAFILE::DATADICT_GET_INT(iVar2, "min");
+	sParam0->f_70 = DATAFILE::DATADICT_GET_INT(iVar2, "rank");
+	sParam0->f_71 = DATAFILE::DATADICT_GET_INT(iVar2, "num");
 	sParam0->f_73 = func_87(NETWORK::UGC_GET_CONTENT_RATING(iParam1, 0), NETWORK::UGC_GET_CONTENT_RATING_COUNT(iParam1, 0));
 	sParam0->f_74 = 0;
-	sParam0->f_75 = DATAFILE::DATADICT_GET_INT(sVar2, "charcon");
+	sParam0->f_75 = DATAFILE::DATADICT_GET_INT(iVar2, "charcon");
 	*uParam2 = MISC::GET_HASH_KEY(NETWORK::UGC_GET_ROOT_CONTENT_ID(0));
 	if (func_86(*uParam2))
 	{
@@ -3467,9 +3467,9 @@ void func_84(char* sParam0, int iParam1, var uParam2)
 			sParam0->f_54 = -1;
 		}
 	}
-	if (DATAFILE::DATADICT_GET_TYPE(sVar2, "ltm") == 2)
+	if (DATAFILE::DATADICT_GET_TYPE(iVar2, "ltm") == 2)
 	{
-		sParam0->f_78 = DATAFILE::DATADICT_GET_INT(sVar2, "ltm");
+		sParam0->f_78 = DATAFILE::DATADICT_GET_INT(iVar2, "ltm");
 	}
 	MISC::SET_BIT(&(sParam0->f_76), 13);
 	func_95();
@@ -3512,78 +3512,78 @@ int func_87(float fParam0, int iParam1)
 	return iVar0;
 }
 
-Vector3 func_88(char* sParam0)
+Vector3 func_88(int iParam0)
 {
 	struct<3> Var0;
 	
-	if (DATAFILE::DATADICT_GET_TYPE(sParam0, "camp") == 3)
+	if (DATAFILE::DATADICT_GET_TYPE(iParam0, "camp") == 3)
 	{
-		Var0.f_0 = DATAFILE::DATADICT_GET_FLOAT(sParam0, "camp");
+		Var0.f_0 = DATAFILE::DATADICT_GET_FLOAT(iParam0, "camp");
 	}
-	else if (DATAFILE::DATADICT_GET_TYPE(sParam0, "camp") == 2)
+	else if (DATAFILE::DATADICT_GET_TYPE(iParam0, "camp") == 2)
 	{
-		Var0.f_0 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(sParam0, "camp"));
+		Var0.f_0 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(iParam0, "camp"));
 	}
-	if (DATAFILE::DATADICT_GET_TYPE(sParam0, "camh") == 3)
+	if (DATAFILE::DATADICT_GET_TYPE(iParam0, "camh") == 3)
 	{
-		Var0.f_2 = DATAFILE::DATADICT_GET_FLOAT(sParam0, "camh");
+		Var0.f_2 = DATAFILE::DATADICT_GET_FLOAT(iParam0, "camh");
 	}
-	else if (DATAFILE::DATADICT_GET_TYPE(sParam0, "camh") == 2)
+	else if (DATAFILE::DATADICT_GET_TYPE(iParam0, "camh") == 2)
 	{
-		Var0.f_2 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(sParam0, "camh"));
+		Var0.f_2 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(iParam0, "camh"));
 	}
 	return Var0;
 }
 
-Vector3 func_89(char* sParam0, char* sParam1)
+Vector3 func_89(int iParam0, char* sParam1)
 {
 	struct<3> Var0;
 	var* uVar3;
 	
-	if (DATAFILE::DATADICT_GET_TYPE(sParam0, sParam1) == 5)
+	if (DATAFILE::DATADICT_GET_TYPE(iParam0, sParam1) == 5)
 	{
-		Var0 = { DATAFILE::DATADICT_GET_VECTOR(sParam0, sParam1) };
+		Var0 = { DATAFILE::DATADICT_GET_VECTOR(iParam0, sParam1) };
 	}
-	else if (DATAFILE::DATADICT_GET_TYPE(sParam0, sParam1) == 6)
+	else if (DATAFILE::DATADICT_GET_TYPE(iParam0, sParam1) == 6)
 	{
-		uVar3 = DATAFILE::DATADICT_GET_DICT(sParam0, sParam1);
+		uVar3 = DATAFILE::DATADICT_GET_DICT(iParam0, sParam1);
 		if (DATAFILE::DATADICT_GET_TYPE(uVar3, "x") == 2)
 		{
-			Var0.f_0 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(sVar3, "x"));
+			Var0.f_0 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(iVar3, "x"));
 		}
 		else
 		{
-			Var0.f_0 = DATAFILE::DATADICT_GET_FLOAT(sVar3, "x");
+			Var0.f_0 = DATAFILE::DATADICT_GET_FLOAT(iVar3, "x");
 		}
-		if (DATAFILE::DATADICT_GET_TYPE(sVar3, "y") == 2)
+		if (DATAFILE::DATADICT_GET_TYPE(iVar3, "y") == 2)
 		{
-			Var0.f_1 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(sVar3, "y"));
-		}
-		else
-		{
-			Var0.f_1 = DATAFILE::DATADICT_GET_FLOAT(sVar3, "y");
-		}
-		if (DATAFILE::DATADICT_GET_TYPE(sVar3, "z") == 2)
-		{
-			Var0.f_2 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(sVar3, "z"));
+			Var0.f_1 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(iVar3, "y"));
 		}
 		else
 		{
-			Var0.f_2 = DATAFILE::DATADICT_GET_FLOAT(sVar3, "z");
+			Var0.f_1 = DATAFILE::DATADICT_GET_FLOAT(iVar3, "y");
+		}
+		if (DATAFILE::DATADICT_GET_TYPE(iVar3, "z") == 2)
+		{
+			Var0.f_2 = SYSTEM::TO_FLOAT(DATAFILE::DATADICT_GET_INT(iVar3, "z"));
+		}
+		else
+		{
+			Var0.f_2 = DATAFILE::DATADICT_GET_FLOAT(iVar3, "z");
 		}
 	}
 	return Var0;
 }
 
-Vector3 func_90(char* sParam0)
+Vector3 func_90(int iParam0)
 {
 	struct<3> Var0;
 	
-	if (sParam0 == 0)
+	if (iParam0 == 0)
 	{
 		return 0f, 0f, 0f;
 	}
-	Var0 = { func_89(sParam0, "start") };
+	Var0 = { func_89(iParam0, "start") };
 	if (OBJECT::IS_POINT_IN_ANGLED_AREA(Var0, -2233.327f, 2436.134f, -14.65155f, -2229.56f, 2399.576f, 11.99761f, 24f, false, true))
 	{
 		Var0 = { -2303.54f, 2428.09f, 2.02f };
@@ -10102,7 +10102,7 @@ int func_215(var uParam0)
 	int iVar0;
 	
 	iVar0 = func_216(uParam0);
-	return ((uParam0->f_9 % iVar0) + (bLocal_154 * iVar0));
+	return ((uParam0->f_9 % iVar0) + (iLocal_154 * iVar0));
 }
 
 int func_216(var uParam0)
@@ -11209,7 +11209,7 @@ int func_250(var uParam0)
 	uParam0->f_32 = VEHICLE::GET_VEHICLE_COLOURS_WHICH_CAN_BE_SET(iVar0);
 	uParam0->f_39 = VEHICLE::GET_VEHICLE_MOD_KIT_TYPE(iVar0);
 	uParam0->f_27 = VEHICLE::GET_NUM_VEHICLE_MODS(iVar0, 23) + 1;
-	bLocal_154 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iVar0, 23);
+	iLocal_154 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iVar0, 23);
 	if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
 		if (*uParam0 == joaat("patriot"))

@@ -3059,9 +3059,9 @@ void func_83(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_84(int iParam0, var uParam1)
+int func_84(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_85(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_85(uParam1));
 }
 
 int func_85(var uParam0)
@@ -5430,7 +5430,7 @@ void func_149(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_150();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -11620,7 +11620,7 @@ void func_276()
 {
 	if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(Local_2102.f_0))
 	{
-		GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(Local_2102.f_0, 1);
+		GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(Local_2102.f_0, true);
 		HUD::SET_TEXT_RENDER_ID(Local_2102.f_1);
 		GRAPHICS::SET_SCRIPT_GFX_DRAW_ORDER(4);
 		GRAPHICS::SET_SCRIPT_GFX_DRAW_BEHIND_PAUSEMENU(true);

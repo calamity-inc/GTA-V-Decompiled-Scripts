@@ -4847,9 +4847,9 @@ int func_37(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_38(int iParam0, var uParam1)
+int func_38(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_39(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_39(uParam1));
 }
 
 int func_39(var uParam0)
@@ -29551,9 +29551,9 @@ int func_211(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_212(int iParam0, var uParam1)
+int func_212(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_39(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_39(uParam1));
 }
 
 int func_213(int iParam0)
@@ -41412,17 +41412,17 @@ void func_285(int iParam0, bool bParam1, int iParam2, int iParam3)
 					{
 						if ((iParam2 == 8 && (iParam0 == 45 && iParam3 == 21)) && MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "CMOD_ACD_EQUIP"))
 						{
-							unk_0x110EE9D486C23126(Global_101444.f_1409, 0, 1, 1013460729);
+							MONEY::_NETWORK_SPEND_UPGRADE_ACID_LAB_EQUIPMENT(Global_101444.f_1409, 0, 1, 1013460729);
 						}
 						else if ((iParam2 == 8 && (iParam0 == 45 && iParam3 == 12)) && (((((MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "AVENG3_MGUN") || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "AVENG3_LAUNCHER")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "CMM_MOD_AVR_TRM")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "CMM_MOD_AVR_TRS")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "STEALTH_MOD")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "MLJ_UNIT")))
 						{
 							if (MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "STEALTH_MOD"))
 							{
-								unk_0x95CE79A6939C537A(Global_101444.f_1409, bVar1, bVar2, 670542637);
+								MONEY::_NETWORK_SPENT_STEALTH_MODULE(Global_101444.f_1409, bVar1, bVar2, 670542637);
 							}
 							else if (MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "MLJ_UNIT"))
 							{
-								unk_0xD687100F616163F4(Global_101444.f_1409, bVar1, bVar2, 954742878);
+								MONEY::_NETWORK_SPENT_MISSILE_JAMMER(Global_101444.f_1409, bVar1, bVar2, 954742878);
 							}
 							else
 							{
@@ -43435,7 +43435,7 @@ void func_313(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_314();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -53300,17 +53300,17 @@ void func_346(int iParam0, int iParam1)
 	func_347(iParam0, iParam1, -1);
 }
 
-void func_347(var uParam0, int iParam1, int iParam2)
+void func_347(int iParam0, int iParam1, int iParam2)
 {
 	int iVar0;
 	
-	iVar0 = func_348(uParam0, iParam2);
+	iVar0 = func_348(iParam0, iParam2);
 	STATS::STAT_SET_INT(iVar0, iParam1, true);
 }
 
-var func_348(int iParam0, var uParam1)
+int func_348(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_39(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_39(uParam1));
 }
 
 void func_349(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4)
@@ -153181,9 +153181,9 @@ void func_966(int iParam0, bool bParam1, int iParam2)
 	STATS::STAT_SET_BOOL(iVar0, bParam1, true);
 }
 
-var func_967(int iParam0, var uParam1)
+int func_967(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_39(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_39(uParam1));
 }
 
 int func_968(int iParam0, int iParam1)
@@ -171933,7 +171933,7 @@ void func_1213(char* sParam0, int iParam1, var uParam2, var uParam3, var uParam4
 	{
 		iVar1 = MISC::GET_HASH_KEY(&uParam2);
 	}
-	unk_0xF96E9EA876D9DC92(MISC::GET_HASH_KEY(sParam0), iParam1, func_1214(bVar0), iVar1);
+	STATS::_PLAYSTATS_SHOPMENU_NAV(MISC::GET_HASH_KEY(sParam0), iParam1, func_1214(bVar0), iVar1);
 }
 
 int func_1214(bool bParam0)
@@ -175445,7 +175445,7 @@ void func_1291(var uParam0)
 		}
 		if (VEHICLE::IS_VEHICLE_DOOR_FULLY_OPEN(*uParam0, 2) || VEHICLE::IS_VEHICLE_DOOR_FULLY_OPEN(*uParam0, 3))
 		{
-			unk_0x5815BD2763178DF4(*uParam0, 0);
+			VEHICLE::SET_VEHICLE_TAIL_LIGHTS(*uParam0, false);
 		}
 	}
 }

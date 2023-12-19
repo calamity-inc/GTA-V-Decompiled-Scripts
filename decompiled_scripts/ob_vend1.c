@@ -1603,9 +1603,9 @@ void func_13(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_14(int iParam0, var uParam1)
+int func_14(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_15(uParam1));
 }
 
 int func_15(var uParam0)
@@ -1649,9 +1649,9 @@ int func_17(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_18(int iParam0, var uParam1)
+int func_18(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_15(uParam1));
 }
 
 int func_19()
@@ -6944,9 +6944,9 @@ float func_65(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_66(int iParam0, var uParam1)
+int func_66(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_15(uParam1));
 }
 
 int func_67(int iParam0)
@@ -14080,9 +14080,9 @@ int func_91(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_92(int iParam0, var uParam1)
+int func_92(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_15(uParam1));
 }
 
 int func_93(int iParam0, int iParam1, int iParam2)
@@ -17808,9 +17808,9 @@ int func_94(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_95(int iParam0, var uParam1)
+int func_95(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_15(uParam1));
 }
 
 bool func_96(int iParam0, int iParam1, bool bParam2)
@@ -65397,7 +65397,7 @@ void func_257(bool bParam0)
 		}
 		if (Global_79248)
 		{
-			NETWORK::NETWORK_SET_NO_LONGER_NEEDED(iLocal_53, 0);
+			NETWORK::NETWORK_SET_NO_LONGER_NEEDED(iLocal_53, false);
 		}
 		ENTITY::SET_OBJECT_AS_NO_LONGER_NEEDED(&iLocal_53);
 	}
@@ -65802,7 +65802,7 @@ void func_260(int iParam0, int iParam1)
 					{
 						AUDIO::RELEASE_AMBIENT_AUDIO_BANK();
 					}
-					AUDIO::HINT_AMBIENT_AUDIO_BANK("VENDING_MACHINE", 0, -1);
+					AUDIO::HINT_AMBIENT_AUDIO_BANK("VENDING_MACHINE", false, -1);
 					func_257(1);
 					if (iLocal_62 > 9)
 					{
@@ -68817,7 +68817,7 @@ void func_333(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_334();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -70201,7 +70201,7 @@ int func_382(int iParam0)
 	STREAMING::REQUEST_ANIM_DICT(sLocal_48);
 	if (STREAMING::HAS_ANIM_DICT_LOADED(sLocal_48))
 	{
-		AUDIO::HINT_AMBIENT_AUDIO_BANK("VENDING_MACHINE", 0, -1);
+		AUDIO::HINT_AMBIENT_AUDIO_BANK("VENDING_MACHINE", false, -1);
 		return 1;
 	}
 	return 0;

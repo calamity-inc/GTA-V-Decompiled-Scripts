@@ -7079,9 +7079,9 @@ void func_66(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_67(int iParam0, var uParam1)
+int func_67(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_68(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_68(uParam1));
 }
 
 int func_68(var uParam0)
@@ -7996,7 +7996,7 @@ int func_101(var uParam0, var uParam1, float fParam2, var uParam3, var uParam4, 
 			fVar2 = func_50(&(uParam0->f_209));
 			fVar2 = (fVar2 * 1000f);
 			iVar0 = SYSTEM::ROUND(fVar2);
-			STATS::PLAYSTATS_ODDJOB_DONE(iVar0, 15, 0);
+			STATS::PLAYSTATS_ODDJOB_DONE(iVar0, 15, false);
 			func_167(&uLocal_3542, 9, "DTRFAIR_UI03", "", SYSTEM::ROUND(fVar2), 0, 0, 0);
 			func_166(&(uParam0->f_209));
 			func_167(&uLocal_3542, 3, "DTRFAIR_UI06", "", SYSTEM::CEIL(fVar1), 0, 0, 0);

@@ -8763,9 +8763,9 @@ void func_9(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_10(var uParam0, var uParam1)
+int func_10(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_11(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_11(uParam1));
 }
 
 int func_11(int iParam0)
@@ -8810,9 +8810,9 @@ void func_13(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_14(int iParam0, var uParam1)
+int func_14(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_11(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_11(uParam1));
 }
 
 void func_15(int iParam0, float fParam1, int iParam2, bool bParam3)
@@ -8826,9 +8826,9 @@ void func_15(int iParam0, float fParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_16(int iParam0, var uParam1)
+int func_16(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_11(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_11(uParam1));
 }
 
 void func_17()
@@ -15441,7 +15441,7 @@ void func_158(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_159();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -18450,9 +18450,9 @@ int func_194(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_195(int iParam0, var uParam1)
+int func_195(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_11(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_11(uParam1));
 }
 
 int func_196(int iParam0, bool bParam1)
@@ -41149,9 +41149,9 @@ int func_396(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_397(int iParam0, var uParam1)
+int func_397(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_11(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_11(uParam1));
 }
 
 bool func_398(int iParam0, int iParam1, bool bParam2)
@@ -128426,13 +128426,13 @@ void func_1189(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam
 						{
 							VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, Global_262145.f_21957);
 						}
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					
 					default:
 						VEHICLE::SET_VEHICLE_EXPLODES_ON_HIGH_EXPLOSION_DAMAGE(iParam0, false);
 						VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, 1f);
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					}
 			}
@@ -128598,7 +128598,7 @@ void func_1195(struct<3> Param0)
 	Var0.f_3 = Param0.f_0;
 	Var0.f_3.f_1 = Param0.f_1;
 	Var0.f_3.f_2 = Param0.f_2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_1196(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_1196(1, 1), Var0.f_0);
 }
 
 var func_1196(int iParam0, bool bParam1)
@@ -134661,13 +134661,13 @@ int func_1237()
 void func_1238(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -134679,7 +134679,7 @@ void func_1238(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }
@@ -140215,7 +140215,7 @@ int func_1353()
 								}
 								if (!GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(iLocal_9792))
 								{
-									iLocal_9792 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY_BONE("scr_veh_plane_gen_damage", Local_2282.f_0, Local_9789, 0f, 0f, 0f, ENTITY::GET_ENTITY_BONE_INDEX_BY_NAME(Local_2282.f_0, "exhaust"), 1f, false, false, false, 1065353216, 1065353216, 1065353216, 0);
+									iLocal_9792 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY_BONE("scr_veh_plane_gen_damage", Local_2282.f_0, Local_9789, 0f, 0f, 0f, ENTITY::GET_ENTITY_BONE_INDEX_BY_NAME(Local_2282.f_0, "exhaust"), 1f, false, false, false, 1f, 1f, 1f, 0f);
 									GRAPHICS::SET_PARTICLE_FX_LOOPED_EVOLUTION(iLocal_9792, "damage_smoke", 0.5f, false);
 									GRAPHICS::SET_PARTICLE_FX_LOOPED_EVOLUTION(iLocal_9792, "damage_fire", 0.2f, false);
 								}
@@ -161576,7 +161576,7 @@ void func_1756()
 		{
 			func_1758();
 			func_1757(0);
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var3, 3, iVar6, Var3.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var3, 3, iVar6, Var3.f_0);
 		}
 	}
 }
@@ -162438,7 +162438,7 @@ void func_1842()
 
 int func_1843(int iParam0)
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_165())
 	{
@@ -162458,22 +162458,22 @@ int func_1843(int iParam0)
 	}
 	func_1846();
 	DATAFILE::DATAFILE_CREATE(0);
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 	if (iParam0 == 0)
 	{
 		Global_1919203++;
-		DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919203);
-		DATAFILE::DATADICT_SET_INT(sVar0, "quitd", 1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919203.f_2);
-		DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+		DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919203);
+		DATAFILE::DATADICT_SET_INT(iVar0, "quitd", 1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919203.f_2);
+		DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	}
 	else if (iParam0 == 1 || iParam0 == 4)
 	{
 		Global_1919228.f_1++;
-		DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919228.f_1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "quitd", 1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919228.f_4);
-		DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+		DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919228.f_1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "quitd", 1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919228.f_4);
+		DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	}
 	if (iParam0 == 0)
 	{
@@ -163348,7 +163348,7 @@ void func_1923()
 
 int func_1924()
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_165())
 	{
@@ -163368,16 +163368,16 @@ int func_1924()
 	}
 	func_1846();
 	DATAFILE::DATAFILE_CREATE(0);
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 	Global_1919203.f_2++;
 	if (Global_1919203.f_2 < 1)
 	{
 		Global_1919203.f_2 = 1;
 	}
-	DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919203);
-	DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919203.f_2);
-	DATAFILE::DATADICT_SET_INT(sVar0, "plyd", 1);
-	DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+	DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919203);
+	DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919203.f_2);
+	DATAFILE::DATADICT_SET_INT(iVar0, "plyd", 1);
+	DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	if (DATAFILE::UGC_SET_PLAYER_DATA(&(Global_4718592.f_126431), -1f, func_1845(0), 0))
 	{
 	}

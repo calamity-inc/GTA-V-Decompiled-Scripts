@@ -5201,7 +5201,7 @@ void func_93(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	Var0.f_6 = iParam4;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 
@@ -5505,9 +5505,9 @@ void func_102(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_103(var uParam0, var uParam1)
+int func_103(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_104(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_104(uParam1));
 }
 
 int func_104(var uParam0)
@@ -11900,9 +11900,9 @@ int func_150(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_151(int iParam0, var uParam1)
+int func_151(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_104(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_104(uParam1));
 }
 
 int func_152(int iParam0)
@@ -12287,9 +12287,9 @@ float func_159(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_160(int iParam0, var uParam1)
+int func_160(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_104(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_104(uParam1));
 }
 
 int func_161(int iParam0)
@@ -19418,9 +19418,9 @@ int func_184(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_185(int iParam0, var uParam1)
+int func_185(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_104(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_104(uParam1));
 }
 
 int func_186(int iParam0, int iParam1, int iParam2)
@@ -23146,9 +23146,9 @@ int func_187(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_188(int iParam0, var uParam1)
+int func_188(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_104(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_104(uParam1));
 }
 
 bool func_189(int iParam0, int iParam1, bool bParam2)

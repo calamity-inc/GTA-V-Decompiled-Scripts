@@ -8803,9 +8803,9 @@ int func_101(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_102(int iParam0, var uParam1)
+int func_102(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_103(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_103(uParam1));
 }
 
 int func_103(var uParam0)
@@ -9140,9 +9140,9 @@ int func_108(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_109(int iParam0, var uParam1)
+int func_109(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_103(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_103(uParam1));
 }
 
 void func_110(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -45854,9 +45854,9 @@ float func_319(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_320(int iParam0, var uParam1)
+int func_320(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_103(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_103(uParam1));
 }
 
 int func_321(int iParam0)
@@ -52980,9 +52980,9 @@ int func_343(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_344(int iParam0, var uParam1)
+int func_344(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_103(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_103(uParam1));
 }
 
 int func_345(int iParam0, int iParam1, int iParam2)
@@ -56708,9 +56708,9 @@ int func_346(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_347(int iParam0, var uParam1)
+int func_347(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_103(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_103(uParam1));
 }
 
 bool func_348(int iParam0, int iParam1, bool bParam2)
@@ -108283,7 +108283,7 @@ void func_658()
 					{
 						if (func_30(Local_317[50 /*25*/]))
 						{
-							TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(iLocal_4085, Local_317[50 /*25*/], false, 0);
+							TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(iLocal_4085, Local_317[50 /*25*/], false, false);
 						}
 						iLocal_50 = 3;
 					}
@@ -108459,7 +108459,7 @@ void func_664(int iParam0, int* iParam1, bool bParam2)
 					{
 						if (func_30(Local_317[iVar0 /*25*/]))
 						{
-							TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(*iParam0, Local_317[iVar0 /*25*/], false, 0);
+							TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(*iParam0, Local_317[iVar0 /*25*/], false, false);
 							func_660(iParam1);
 						}
 						iVar0 = (iVar0 + -1);
@@ -108472,7 +108472,7 @@ void func_664(int iParam0, int* iParam1, bool bParam2)
 					{
 						if (func_30(Local_317[iVar0 /*25*/]))
 						{
-							TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(*iParam0, Local_317[iVar0 /*25*/], false, 0);
+							TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(*iParam0, Local_317[iVar0 /*25*/], false, false);
 							func_660(iParam1);
 						}
 						iVar0++;
@@ -108865,7 +108865,7 @@ void func_673()
 				{
 					if (TASK::GET_PED_WAYPOINT_PROGRESS(iLocal_4084) >= 29)
 					{
-						TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(iLocal_4084, Local_317[46 /*25*/], false, 0);
+						TASK::WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(iLocal_4084, Local_317[46 /*25*/], false, false);
 						iLocal_49 = 3;
 					}
 				}

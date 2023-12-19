@@ -4700,9 +4700,9 @@ int func_111(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_112(int iParam0, var uParam1)
+int func_112(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_113(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_113(uParam1));
 }
 
 int func_113(var uParam0)
@@ -4741,9 +4741,9 @@ int func_114(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_115(int iParam0, var uParam1)
+int func_115(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_113(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_113(uParam1));
 }
 
 void func_116(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -48102,13 +48102,13 @@ int func_464()
 void func_465(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -48120,7 +48120,7 @@ void func_465(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }
@@ -59215,9 +59215,9 @@ float func_598(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_599(int iParam0, var uParam1)
+int func_599(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_113(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_113(uParam1));
 }
 
 int func_600(int iParam0)
@@ -66280,9 +66280,9 @@ int func_618(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_619(int iParam0, var uParam1)
+int func_619(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_113(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_113(uParam1));
 }
 
 int func_620(int iParam0, int iParam1, int iParam2)
@@ -70008,9 +70008,9 @@ int func_621(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_622(int iParam0, var uParam1)
+int func_622(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_113(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_113(uParam1));
 }
 
 bool func_623(int iParam0, int iParam1, bool bParam2)

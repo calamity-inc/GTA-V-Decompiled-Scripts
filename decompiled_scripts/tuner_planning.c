@@ -10625,7 +10625,7 @@ void func_370(var uParam0)
 					break;
 				
 				case 1:
-					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_716, 1);
+					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_716, true);
 					break;
 			}
 			if (func_407(uParam0))
@@ -10672,7 +10672,7 @@ void func_370(var uParam0)
 					break;
 				
 				case 1:
-					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_717, 1);
+					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_717, true);
 					break;
 			}
 			if (func_399(uParam0))
@@ -11915,9 +11915,9 @@ void func_432(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_433(int iParam0, var uParam1)
+int func_433(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_434(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_434(uParam1));
 }
 
 int func_434(var uParam0)
@@ -12900,7 +12900,7 @@ void func_503(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 	Var0.f_7 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iParam1, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 8, iParam1, Var0.f_0);
 	}
 }
 

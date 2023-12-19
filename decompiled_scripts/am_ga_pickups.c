@@ -334,7 +334,7 @@ void func_6(var uParam0, struct<3> Param1)
 		Var3.f_1 = PLAYER::PLAYER_ID();
 		Var3.f_3 = { *uParam0 };
 		Var3.f_8 = { Param1 };
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var3, 11, iVar2, Var3.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var3, 11, iVar2, Var3.f_0);
 	}
 }
 

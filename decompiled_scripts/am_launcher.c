@@ -1320,7 +1320,7 @@ void func_12(int iParam0, int iParam1)
 	Var0.f_3 = iParam1;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, iParam0, Var0.f_0);
 	}
 }
 
@@ -11610,13 +11610,13 @@ void func_265(var uParam0)
 
 void func_266(var uParam0)
 {
-	char* sVar0;
+	int iVar0;
 	var* uVar1;
 	var uVar2;
 	
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
-	uVar1 = DATAFILE::DATADICT_GET_DICT(sVar0, "mission");
-	Global_4718592.f_126573 = DATAFILE::DATADICT_GET_INT(sVar0, "debugOnlyVersion");
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	uVar1 = DATAFILE::DATADICT_GET_DICT(iVar0, "mission");
+	Global_4718592.f_126573 = DATAFILE::DATADICT_GET_INT(iVar0, "debugOnlyVersion");
 	func_267(&uVar1, uParam0, 0, &uVar2);
 }
 
@@ -17894,7 +17894,7 @@ void func_372(int iParam0, int iParam1)
 	Var0.f_3 = iParam1;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, iParam0, Var0.f_0);
 	}
 }
 
@@ -19848,9 +19848,9 @@ int func_411(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_412(int iParam0, var uParam1)
+int func_412(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_413(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_413(uParam1));
 }
 
 int func_413(var uParam0)
@@ -20085,9 +20085,9 @@ int func_421(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_422(int iParam0, var uParam1)
+int func_422(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_413(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_413(uParam1));
 }
 
 int func_423(var uParam0, bool bParam1, bool bParam2)

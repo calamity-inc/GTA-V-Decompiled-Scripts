@@ -5306,9 +5306,9 @@ void func_86(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_87(int iParam0, var uParam1)
+int func_87(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_88(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_88(uParam1));
 }
 
 int func_88(var uParam0)
@@ -38581,9 +38581,9 @@ int func_303(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_304(int iParam0, var uParam1)
+int func_304(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_88(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_88(uParam1));
 }
 
 void func_305(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)

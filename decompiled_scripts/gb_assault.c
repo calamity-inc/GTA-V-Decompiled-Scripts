@@ -12629,7 +12629,7 @@ char* func_352()
 	{
 		return "HUD_LBD_FMS";
 	}
-	if (NETWORK::NETWORK_SESSION_IS_CLOSED_CREW() || unk_0xCDC936BF35EDCB73() > 0)
+	if (NETWORK::NETWORK_SESSION_IS_CLOSED_CREW() || NETWORK::NETWORK_SESSION_GET_UNIQUE_CREW_LIMIT() > 0)
 	{
 		return "HUD_LBD_FMC";
 	}
@@ -13219,9 +13219,9 @@ int func_391(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_392(var uParam0, var uParam1)
+int func_392(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_393(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_393(uParam1));
 }
 
 int func_393(int iParam0)
@@ -19079,7 +19079,7 @@ void func_582(int iParam0, int iParam1, float fParam2, int iParam3, int iParam4,
 	Var0.f_9 = MISC::GET_FRAME_COUNT();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 10, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 10, iParam0, Var0.f_0);
 	}
 }
 
@@ -38843,9 +38843,9 @@ int func_757(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_758(int iParam0, var uParam1)
+int func_758(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_393(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_393(uParam1));
 }
 
 int func_759(int iParam0, int iParam1)
@@ -69784,7 +69784,7 @@ void func_865(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_866();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -71776,7 +71776,7 @@ void func_920(bool bParam0, int iParam1, int iParam2)
 		Var0.f_5 = iParam2;
 		Var0.f_6 = func_922(bParam0);
 		func_921(&(Var0.f_7), &(Var0.f_8));
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_583(bParam0), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_583(bParam0), Var0.f_0);
 	}
 }
 
@@ -75478,15 +75478,15 @@ void func_993(bool bParam0, int iParam1, int iParam2, bool bParam3, int iParam4,
 	int iVar3;
 	int iVar4[3];
 	int iVar8[3];
-	var uVar12;
+	int iVar12;
 	int iVar17;
 	int iVar18;
 	int iVar19[1];
 	int iVar21[1];
-	var uVar23[1];
+	int iVar23[1];
 	int iVar25[1];
 	int iVar27[1];
-	var uVar29[4];
+	int iVar29[4];
 	int iVar34[1];
 	int iVar36[1];
 	int iVar38[1];
@@ -75979,7 +75979,7 @@ void func_993(bool bParam0, int iParam1, int iParam2, bool bParam3, int iParam4,
 		Global_1941205.f_16 = iParam1;
 		if (func_1021(iVar0))
 		{
-			uVar12 = 4;
+			iVar12 = 4;
 			iVar18 = PLAYER::PLAYER_ID();
 			if (iVar3 != -1)
 			{
@@ -75992,24 +75992,24 @@ void func_993(bool bParam0, int iParam1, int iParam2, bool bParam3, int iParam4,
 				iVar8[iVar17] = func_1001(func_1002(iVar18, iVar17));
 				iVar17++;
 			}
-			func_999(iVar0, &iVar4, &iVar8, &uVar12);
+			func_999(iVar0, &iVar4, &iVar8, &iVar12);
 		}
 		else if (func_998(iVar0))
 		{
 			iVar19[0] = -1;
 			iVar21[0] = -1;
-			uVar23[0] = iParam5;
-			func_999(iVar0, &iVar19, &iVar21, &uVar23);
+			iVar23[0] = iParam5;
+			func_999(iVar0, &iVar19, &iVar21, &iVar23);
 		}
 		else if (func_997(iVar0))
 		{
 			iVar25[0] = -1;
 			iVar27[0] = -1;
-			uVar29[0] = iParam13;
-			uVar29[1] = iParam14;
-			uVar29[2] = iParam15;
-			uVar29[3] = iParam16;
-			func_999(iVar0, &iVar25, &iVar27, &uVar29);
+			iVar29[0] = iParam13;
+			iVar29[1] = iParam14;
+			iVar29[2] = iParam15;
+			iVar29[3] = iParam16;
+			func_999(iVar0, &iVar25, &iVar27, &iVar29);
 		}
 		else
 		{
@@ -76086,7 +76086,7 @@ void func_993(bool bParam0, int iParam1, int iParam2, bool bParam3, int iParam4,
 
 void func_994(int iParam0)
 {
-	unk_0x8A23D1324F6B2BAC(&Global_1941275);
+	STATS::_PLAYSTATS_ACID_MISSION_END(&Global_1941275);
 	func_995();
 }
 
@@ -95106,9 +95106,9 @@ void func_1262()
 	int iVar0;
 	int iVar1;
 	int iVar2;
-	int iVar3;
+	bool bVar3;
 	
-	iVar3 = func_1265();
+	bVar3 = func_1265();
 	iVar2 = func_47(PLAYER::PLAYER_ID());
 	iVar0 = 0;
 	while (iVar0 < 32)
@@ -95118,8 +95118,8 @@ void func_1262()
 		{
 			if (func_16(bVar1, iVar2, 1) || func_1263(bVar1, PLAYER::PLAYER_ID()))
 			{
-				PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(PLAYER::PLAYER_ID(), bVar1, iVar3);
-				PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(bVar1, PLAYER::PLAYER_ID(), iVar3);
+				PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(PLAYER::PLAYER_ID(), bVar1, bVar3);
+				PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(bVar1, PLAYER::PLAYER_ID(), bVar3);
 			}
 		}
 		bVar0++;

@@ -2355,9 +2355,9 @@ void func_49(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_50(int iParam0, var uParam1)
+int func_50(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_51(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_51(uParam1));
 }
 
 int func_51(int iParam0)
@@ -6598,7 +6598,7 @@ void func_155()
 				{
 					if (PED::IS_PED_IN_VEHICLE(iLocal_83, PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false), false))
 					{
-						if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), MISC::GET_RANDOM_INT_IN_RANGE(2, 5), &Local_64, 1, 1077936128, 0))
+						if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), MISC::GET_RANDOM_INT_IN_RANGE(2, 5), &Local_64, 1, 3f, 0f))
 						{
 							if (!CAM::IS_SPHERE_VISIBLE(Local_64, 7f) && SYSTEM::VDIST(ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true), Local_64) < 110f)
 							{

@@ -541,7 +541,7 @@ void __EntryFunction__()
 					}
 					if (!SCRIPT::IS_THREAD_ACTIVE(iLocal_50))
 					{
-						STATS::PLAYSTATS_ODDJOB_DONE(SYSTEM::ROUND((func_13(&iLocal_105) * 1000f)), iLocal_97, 0);
+						STATS::PLAYSTATS_ODDJOB_DONE(SYSTEM::ROUND((func_13(&iLocal_105) * 1000f)), iLocal_97, false);
 						func_12(&iLocal_105);
 						func_90(&uLocal_92, 256);
 						func_9();

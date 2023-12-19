@@ -4677,11 +4677,11 @@ void func_10(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, bo
 	}
 	if (!bParam6)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_13(1, 1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_13(1, 1), Var0.f_0);
 	}
 	else
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_11(1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_11(1), Var0.f_0);
 	}
 }
 
@@ -13185,9 +13185,9 @@ int func_134(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_135(int iParam0, var uParam1)
+int func_135(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_136(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_136(uParam1));
 }
 
 int func_136(int iParam0)
@@ -13586,9 +13586,9 @@ float func_143(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_144(int iParam0, int iParam1)
+int func_144(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_136(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_136(iParam1));
 }
 
 int func_145(int iParam0)
@@ -20712,9 +20712,9 @@ int func_167(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_168(int iParam0, int iParam1)
+int func_168(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_136(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_136(iParam1));
 }
 
 int func_169(int iParam0, int iParam1, int iParam2)
@@ -24440,9 +24440,9 @@ int func_170(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_171(int iParam0, int iParam1)
+int func_171(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_136(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_136(iParam1));
 }
 
 bool func_172(int iParam0, int iParam1, bool bParam2)
@@ -92475,9 +92475,9 @@ int func_384(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_385(int iParam0, var uParam1)
+int func_385(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_136(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_136(uParam1));
 }
 
 int func_386(int iParam0, int iParam1)
@@ -103560,11 +103560,11 @@ void func_601(int iParam0, int iParam1, bool bParam2)
 	}
 	if (!bParam2)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_13(1, 1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_13(1, 1), Var0.f_0);
 	}
 	else
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_11(1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_11(1), Var0.f_0);
 	}
 }
 
@@ -106583,7 +106583,7 @@ void func_726()
 		{
 			func_728();
 			func_727(0);
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var3, 3, iVar6, Var3.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var3, 3, iVar6, Var3.f_0);
 		}
 	}
 }
@@ -107353,7 +107353,7 @@ void func_745(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_746();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -111981,11 +111981,11 @@ void func_828(int iParam0, int iParam1, int iParam2)
 	func_829(iParam0, iVar0, iParam2);
 }
 
-void func_829(var uParam0, int iParam1, int iParam2)
+void func_829(int iParam0, int iParam1, int iParam2)
 {
 	int iVar0;
 	
-	iVar0 = func_171(uParam0, iParam2);
+	iVar0 = func_171(iParam0, iParam2);
 	STATS::STAT_SET_INT(iVar0, iParam1, true);
 }
 
@@ -125084,11 +125084,11 @@ void func_1113(int iParam0, bool bParam1, bool bParam2)
 	}
 	if (!bParam2)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_13(1, 1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_13(1, 1), Var0.f_0);
 	}
 	else
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_11(1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_11(1), Var0.f_0);
 	}
 }
 
@@ -128098,7 +128098,7 @@ void func_1247()
 
 int func_1248(int iParam0)
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_1121())
 	{
@@ -128118,22 +128118,22 @@ int func_1248(int iParam0)
 	}
 	func_1251();
 	DATAFILE::DATAFILE_CREATE(0);
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 	if (iParam0 == 0)
 	{
 		Global_1919203++;
-		DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919203);
-		DATAFILE::DATADICT_SET_INT(sVar0, "quitd", 1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919203.f_2);
-		DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+		DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919203);
+		DATAFILE::DATADICT_SET_INT(iVar0, "quitd", 1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919203.f_2);
+		DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	}
 	else if (iParam0 == 1 || iParam0 == 4)
 	{
 		Global_1919228.f_1++;
-		DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919228.f_1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "quitd", 1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919228.f_4);
-		DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+		DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919228.f_1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "quitd", 1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919228.f_4);
+		DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	}
 	if (iParam0 == 0)
 	{
@@ -128760,7 +128760,7 @@ void func_1306()
 
 int func_1307()
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_1121())
 	{
@@ -128780,16 +128780,16 @@ int func_1307()
 	}
 	func_1251();
 	DATAFILE::DATAFILE_CREATE(0);
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 	Global_1919203.f_2++;
 	if (Global_1919203.f_2 < 1)
 	{
 		Global_1919203.f_2 = 1;
 	}
-	DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919203);
-	DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919203.f_2);
-	DATAFILE::DATADICT_SET_INT(sVar0, "plyd", 1);
-	DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+	DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919203);
+	DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919203.f_2);
+	DATAFILE::DATADICT_SET_INT(iVar0, "plyd", 1);
+	DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	if (DATAFILE::UGC_SET_PLAYER_DATA(&(Global_4718592.f_126431), -1f, func_1250(0), 0))
 	{
 	}
@@ -130155,11 +130155,11 @@ void func_1397(int iParam0, int iParam1, bool bParam2)
 	Var0.f_5 = SYSTEM::SHIFT_LEFT(iParam1, 1);
 	if (!bParam2)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_13(1, 1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_13(1, 1), Var0.f_0);
 	}
 	else
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_11(1), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_11(1), Var0.f_0);
 	}
 }
 

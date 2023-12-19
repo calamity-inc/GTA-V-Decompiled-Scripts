@@ -554,7 +554,7 @@ void func_16(var uParam0, bool bParam1)
 		if (iVar41 != 0)
 		{
 			uParam0->f_32 = 1;
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 40, iVar41, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 40, iVar41, Var0.f_0);
 		}
 	}
 }
@@ -3668,7 +3668,7 @@ void func_137(var uParam0, int iParam1)
 		iVar11 = func_22(PLAYER::PLAYER_ID());
 		if (iVar11 != -1)
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, iVar11, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, iVar11, Var0.f_0);
 			uParam0->f_5 = 1;
 		}
 	}
@@ -5670,7 +5670,7 @@ int func_162(int iParam0, int iParam1)
 
 int func_163(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_164(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_164(iParam1));
 }
 
 int func_164(var uParam0)
@@ -38338,9 +38338,9 @@ float func_242(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_243(int iParam0, var uParam1)
+int func_243(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_164(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_164(uParam1));
 }
 
 int func_244(int iParam0)
@@ -38425,9 +38425,9 @@ int func_245(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_246(int iParam0, var uParam1)
+int func_246(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_164(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_164(uParam1));
 }
 
 float func_247(int iParam0, int iParam1)
@@ -50143,9 +50143,9 @@ int func_292(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_293(int iParam0, var uParam1)
+int func_293(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_164(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_164(uParam1));
 }
 
 int func_294(int iParam0, int iParam1, int iParam2)
@@ -53871,9 +53871,9 @@ int func_295(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_296(int iParam0, var uParam1)
+int func_296(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_164(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_164(uParam1));
 }
 
 bool func_297(int iParam0, int iParam1, bool bParam2)
@@ -76658,7 +76658,7 @@ void func_405(int iParam0, var uParam1, int iParam2, int iParam3, int iParam4)
 	iVar10 = func_406(1);
 	if (!iVar10 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 10, iVar10, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 10, iVar10, Var0.f_0);
 	}
 }
 
@@ -77836,7 +77836,7 @@ void func_453(int iParam0)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_0 = -1164304147;
 	Var0.f_3 = iParam0;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, func_17(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, func_17(1, 1), Var0.f_0);
 }
 
 void func_454(int* iParam0)

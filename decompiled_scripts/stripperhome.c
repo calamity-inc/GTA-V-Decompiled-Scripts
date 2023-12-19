@@ -2917,7 +2917,7 @@ int func_107()
 			iVar2 = PED::GET_VEHICLE_PED_IS_IN(PLAYER::PLAYER_PED_ID(), false);
 		}
 		Var3 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) };
-		if (PATHFIND::GET_CLOSEST_MAJOR_VEHICLE_NODE(Var3, &Var11, 3f, 0))
+		if (PATHFIND::GET_CLOSEST_MAJOR_VEHICLE_NODE(Var3, &Var11, 3f, 0f))
 		{
 			fVar14 = SYSTEM::VDIST(Var3, Var11);
 			if (fVar14 <= 10f)
@@ -7249,9 +7249,9 @@ void func_233(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_234(int iParam0, var uParam1)
+int func_234(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_78(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_78(uParam1));
 }
 
 int func_235(int iParam0, int iParam1)

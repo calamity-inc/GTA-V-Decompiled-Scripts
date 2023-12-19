@@ -649,7 +649,7 @@ void func_12(int* iParam0)
 
 int func_13(var uParam0, int* iParam1, var uParam2)
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_17())
 	{
@@ -668,22 +668,22 @@ int func_13(var uParam0, int* iParam1, var uParam2)
 		
 		case 1:
 			DATAFILE::DATAFILE_CREATE(0);
-			sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
-			DATAFILE::DATADICT_SET_INT(sVar0, "in", *uParam2);
-			DATAFILE::DATADICT_SET_STRING(sVar0, "st", &(uParam2->f_1));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "mp", &(uParam2->f_2));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "ms", &(uParam2->f_3));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "sc", &(uParam2->f_5));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "pr", &(uParam2->f_6));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "fa", &(uParam2->f_7));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "sm", &(uParam2->f_8));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "kp", &(uParam2->f_9));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "sv", &(uParam2->f_10));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "yo", &(uParam2->f_11));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "fi", &(uParam2->f_12));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "rc", &(uParam2->f_13));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "co", &(uParam2->f_14));
-			DATAFILE::DATADICT_SET_INT(sVar0, "su", uParam2->f_15);
+			iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+			DATAFILE::DATADICT_SET_INT(iVar0, "in", *uParam2);
+			DATAFILE::DATADICT_SET_STRING(iVar0, "st", &(uParam2->f_1));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "mp", &(uParam2->f_2));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "ms", &(uParam2->f_3));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "sc", &(uParam2->f_5));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "pr", &(uParam2->f_6));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "fa", &(uParam2->f_7));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "sm", &(uParam2->f_8));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "kp", &(uParam2->f_9));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "sv", &(uParam2->f_10));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "yo", &(uParam2->f_11));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "fi", &(uParam2->f_12));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "rc", &(uParam2->f_13));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "co", &(uParam2->f_14));
+			DATAFILE::DATADICT_SET_INT(iVar0, "su", uParam2->f_15);
 			DATAFILE::DATAFILE_START_SAVE_TO_CLOUD("gta5/psych/index.json", 0);
 			*uParam0++;
 			break;

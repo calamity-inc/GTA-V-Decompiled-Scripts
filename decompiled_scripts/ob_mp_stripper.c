@@ -890,7 +890,7 @@ void func_3(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	Var0.f_6 = iParam4;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 
@@ -1090,9 +1090,9 @@ void func_17(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_18(var uParam0, var uParam1)
+int func_18(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_19(uParam1));
 }
 
 int func_19(var uParam0)

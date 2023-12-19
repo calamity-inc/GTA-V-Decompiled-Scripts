@@ -666,7 +666,7 @@ void func_3(var uParam0)
 			}
 			if (!uParam0->f_1107)
 			{
-				unk_0x32F6EEF031F943DC(iLocal_410, 1);
+				TASK::_SET_SCRIPT_TASK_ENABLE_COLLISION_ON_NETWORK_CLONE_WHEN_FIXED(iLocal_410, true);
 			}
 			func_7(&uLocal_399);
 			uParam0->f_732.f_5 = 1;
@@ -709,7 +709,7 @@ void func_3(var uParam0)
 			}
 			if (!uParam0->f_1107)
 			{
-				unk_0x32F6EEF031F943DC(iLocal_410, 0);
+				TASK::_SET_SCRIPT_TASK_ENABLE_COLLISION_ON_NETWORK_CLONE_WHEN_FIXED(iLocal_410, false);
 			}
 			STREAMING::REMOVE_ANIM_DICT(func_15());
 			TASK::CLEAR_SEQUENCE_TASK(&iLocal_409);
@@ -10124,7 +10124,7 @@ void func_360(var uParam0)
 					break;
 				
 				case 1:
-					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_716, 1);
+					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_716, true);
 					break;
 			}
 			if (func_405(uParam0))
@@ -10171,7 +10171,7 @@ void func_360(var uParam0)
 					break;
 				
 				case 1:
-					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_717, 1);
+					GRAPHICS::SET_SCALEFORM_MOVIE_TO_USE_LARGE_RT(uParam0->f_717, true);
 					break;
 			}
 			if (func_397(uParam0))
@@ -11531,9 +11531,9 @@ void func_430(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_431(int iParam0, int iParam1)
+int func_431(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_432(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_432(iParam1));
 }
 
 int func_432(var uParam0)
@@ -35147,7 +35147,7 @@ int func_613(int iParam0)
 	return -1;
 }
 
-void func_614(int iParam0, bool bParam1, var uParam2, var uParam3, int iParam4, int iParam5)
+void func_614(int iParam0, bool bParam1, var uParam2, var uParam3, bool bParam4, bool bParam5)
 {
 	struct<2> Var0;
 	
@@ -35155,7 +35155,7 @@ void func_614(int iParam0, bool bParam1, var uParam2, var uParam3, int iParam4, 
 	func_617(6, bParam1, 1);
 	func_617(41, uParam2, 0);
 	func_617(7, uParam3, 0);
-	func_616(iParam0, iParam4, iParam5, Var0.f_0, Var0.f_1, "VEH_ROBBERY", "SETUP_COST", 1);
+	func_616(iParam0, bParam4, bParam5, Var0.f_0, Var0.f_1, "VEH_ROBBERY", "SETUP_COST", 1);
 	func_615();
 }
 
@@ -35181,19 +35181,19 @@ void func_615()
 	Global_1978029.f_71 = 0;
 }
 
-void func_616(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, char* sParam5, char* sParam6, bool bParam7)
+void func_616(int iParam0, bool bParam1, bool bParam2, int iParam3, int iParam4, char* sParam5, char* sParam6, bool bParam7)
 {
 	char cVar0[32];
 	char cVar8[32];
 	
 	StringCopy(&cVar0, sParam5, 32);
 	StringCopy(&cVar8, sParam6, 32);
-	unk_0x2803B027479FB640(uParam0, uParam1, uParam2, uParam3, uParam4, &cVar0, &cVar8, &Global_1978029);
+	MONEY::_NETWORK_SPENT_GENERIC(iParam0, bParam1, bParam2, iParam3, iParam4, &cVar0, &cVar8, &Global_1978029);
 	if (bParam7)
 	{
 		if (func_633())
 		{
-			unk_0xE03B9F95556E48E9();
+			MONEY::_NETWORK_CLEAR_TRANSACTION_TELEMETRY_NONCE();
 		}
 	}
 }
@@ -36160,7 +36160,7 @@ void func_630(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_631();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -36501,9 +36501,9 @@ void func_649(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_650(int iParam0, var uParam1)
+int func_650(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_432(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_432(uParam1));
 }
 
 int func_651(var uParam0)
@@ -36827,7 +36827,7 @@ void func_664(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 	Var0.f_7 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iParam1, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 8, iParam1, Var0.f_0);
 	}
 }
 

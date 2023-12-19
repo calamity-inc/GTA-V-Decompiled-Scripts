@@ -7045,7 +7045,7 @@ void func_153(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_154();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -7824,7 +7824,7 @@ void func_169(var uParam0, var uParam1, int iParam2)
 	Var0.f_2 = uParam0->f_7;
 	Var0.f_3 = Global_2738587.f_6776.f_34;
 	Var0.f_4 = uParam0->f_7 == uParam1->f_3;
-	unk_0xA81017EE1324FDFE(iParam2, &Var0);
+	MONEY::_NETWORK_EARN_STREET_DEALER(iParam2, &Var0);
 }
 
 void func_170(int iParam0, int iParam1)
@@ -7874,9 +7874,9 @@ void func_172(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_173(int iParam0, var uParam1)
+int func_173(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_174(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_174(uParam1));
 }
 
 int func_174(var uParam0)
@@ -8092,7 +8092,7 @@ bool func_178(int iParam0, int iParam1, int iParam2, int iParam3, var uParam4, i
 							NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_145(func_162()));
 							if (iParam0 == 6)
 							{
-								unk_0x79B656937DF6DF5D(iParam2, func_180(PLAYER::PLAYER_ID(), 306));
+								MONEY::_NETWORK_EARN_SELL_ACID(iParam2, func_180(PLAYER::PLAYER_ID(), 306));
 							}
 							else
 							{

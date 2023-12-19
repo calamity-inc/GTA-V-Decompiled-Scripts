@@ -6781,7 +6781,7 @@ void func_267(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uPara
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam15 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Param0, 15, iParam15, Param0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Param0, 15, iParam15, Param0.f_0);
 	}
 }
 
@@ -6855,7 +6855,7 @@ bool func_273(int iParam0)
 	return Global_2672741.f_2518[0 /*80*/].f_1 == iParam0;
 }
 
-void func_274(bool bParam0, bool bParam1, int iParam2, var uParam3)
+void func_274(bool bParam0, bool bParam1, int iParam2, int iParam3)
 {
 	var uVar0;
 	int iVar6;
@@ -6886,7 +6886,7 @@ void func_274(bool bParam0, bool bParam1, int iParam2, var uParam3)
 		if (bParam1)
 		{
 			Var8 = { func_371(iParam2) };
-			STATS::START_BEING_BOSS(iVar7, &Var8, uParam3);
+			STATS::START_BEING_BOSS(iVar7, &Var8, iParam3);
 			func_368(0);
 			func_365(0);
 			func_364(21);
@@ -7746,9 +7746,9 @@ void func_329(int iParam0, int iParam1, char* sParam2, int iParam3, bool bParam4
 	}
 }
 
-var func_330(var uParam0, var uParam1)
+int func_330(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(3, uParam0, func_331(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(3, iParam0, func_331(uParam1));
 }
 
 int func_331(var uParam0)
@@ -7849,9 +7849,9 @@ void func_335(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_336(int iParam0, var uParam1)
+int func_336(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_331(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_331(uParam1));
 }
 
 void func_337(int iParam0)
@@ -8092,8 +8092,8 @@ void func_352(bool bParam0)
 	{
 		iVar0 = PLAYER::GET_PLAYER_PED(bParam0);
 		PED::SET_PED_CAN_BE_TARGETTED_BY_PLAYER(iVar0, PLAYER::PLAYER_ID(), true);
-		PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(PLAYER::PLAYER_ID(), bParam0, 1);
-		PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(bParam0, PLAYER::PLAYER_ID(), 1);
+		PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(PLAYER::PLAYER_ID(), bParam0, true);
+		PLAYER::SET_PLAYER_CAN_DAMAGE_PLAYER(bParam0, PLAYER::PLAYER_ID(), true);
 		func_353(1, bParam0);
 		MISC::CLEAR_BIT(&(Global_1886967[PLAYER::PLAYER_ID() /*609*/].f_10.f_101), bParam0);
 	}
@@ -8309,9 +8309,9 @@ void func_366(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_367(int iParam0, var uParam1)
+int func_367(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_331(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_331(uParam1));
 }
 
 void func_368(bool bParam0)

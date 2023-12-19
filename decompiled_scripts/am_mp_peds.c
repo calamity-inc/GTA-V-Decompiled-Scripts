@@ -2102,7 +2102,7 @@ void func_5(var uParam0, var uParam1, var uParam2)
 	Var1.f_3 = uParam0;
 	Var1.f_4 = uParam1;
 	Var1.f_5 = uParam2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var1, 6, iVar0, Var1.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var1, 6, iVar0, Var1.f_0);
 }
 
 var func_6(int iParam0, bool bParam1)
@@ -4916,9 +4916,9 @@ int func_87(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_88(int iParam0, var uParam1)
+int func_88(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_89(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_89(uParam1));
 }
 
 int func_89(var uParam0)
@@ -13926,7 +13926,7 @@ void func_269(var uParam0, var uParam1)
 	PED::SET_PED_CAN_RAGDOLL_FROM_PLAYER_IMPACT(*uParam0, false);
 	PED::SET_PED_CAN_RAGDOLL(*uParam0, false);
 	PED::SET_PED_CONFIG_FLAG(*uParam0, 208, true);
-	AUDIO::STOP_PED_SPEAKING_SYNCED(*uParam0, 1);
+	AUDIO::STOP_PED_SPEAKING_SYNCED(*uParam0, true);
 	TASK::CLEAR_PED_TASKS(*uParam0);
 }
 
@@ -116879,7 +116879,7 @@ void func_1662(int iParam0, int iParam1, bool bParam2)
 	Var1.f_1 = PLAYER::PLAYER_ID();
 	Var1.f_3 = iParam1;
 	Var1.f_4 = iParam0;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var1, 5, iVar0, Var1.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var1, 5, iVar0, Var1.f_0);
 }
 
 var func_1663(int iParam0)

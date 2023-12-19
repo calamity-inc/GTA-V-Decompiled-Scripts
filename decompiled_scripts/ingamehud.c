@@ -1367,9 +1367,9 @@ void func_32(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_33(int iParam0, var uParam1)
+int func_33(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_34(uParam1));
 }
 
 int func_34(var uParam0)
@@ -1488,9 +1488,9 @@ void func_41(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_42(int iParam0, var uParam1)
+int func_42(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_34(uParam1));
 }
 
 int func_43(int iParam0, int iParam1)
@@ -2348,9 +2348,9 @@ void func_77(int iParam0, bool bParam1, int iParam2)
 	STATS::STAT_SET_BOOL(iVar0, bParam1, true);
 }
 
-var func_78(int iParam0, var uParam1)
+int func_78(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_34(uParam1));
 }
 
 int func_79(int iParam0, int iParam1)
@@ -4686,9 +4686,9 @@ void func_155(int iParam0, char* sParam1, int iParam2)
 	}
 }
 
-var func_156(int iParam0, var uParam1)
+int func_156(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(7, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(7, iParam0, func_34(uParam1));
 }
 
 void func_157(int iParam0, char* sParam1, int iParam2, bool bParam3)
@@ -4702,9 +4702,9 @@ void func_157(int iParam0, char* sParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_158(int iParam0, var uParam1)
+int func_158(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(3, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(3, iParam0, func_34(uParam1));
 }
 
 void func_159(char[4] cParam0, char[4] cParam1, char[4] cParam2, char[4] cParam3, char[4] cParam4, char[4] cParam5)
@@ -14370,7 +14370,7 @@ int func_342(float fParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	}
 	if (GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var28, &uVar0, &uVar1))
 	{
-		GRAPHICS::SET_DRAW_ORIGIN(Var28, 0);
+		GRAPHICS::SET_DRAW_ORIGIN(Var28, false);
 		iVar2 = 0;
 		while (iVar2 <= 5)
 		{
@@ -16220,7 +16220,7 @@ void func_385(char* sParam0)
 	GRAPHICS::SCALEFORM_MOVIE_METHOD_ADD_PARAM_PLAYER_NAME_STRING(sParam0);
 }
 
-int func_386(int iParam0, int iParam1)
+char* func_386(int iParam0, int iParam1)
 {
 	if (iParam0 == -1)
 	{
@@ -31882,9 +31882,9 @@ float func_660(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_661(int iParam0, var uParam1)
+int func_661(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_34(uParam1));
 }
 
 int func_662(int iParam0)
@@ -42708,9 +42708,9 @@ int func_683(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_684(int iParam0, var uParam1)
+int func_684(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_34(uParam1));
 }
 
 bool func_685(int iParam0, int iParam1, bool bParam2)
@@ -117326,26 +117326,26 @@ void func_1138(int iParam0)
 
 int func_1139(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (func_500())
 	{
-		iVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
+		bVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
 		NETWORK::NETWORK_SET_PRIVILEGE_CHECK_RESULT_NOT_NEEDED();
-		return iVar0;
+		return bVar0;
 	}
 	return 1;
 }
 
 int func_1140(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (func_500())
 	{
-		iVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
+		bVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
 		NETWORK::NETWORK_SET_PRIVILEGE_CHECK_RESULT_NOT_NEEDED();
-		return iVar0;
+		return bVar0;
 	}
 	return 1;
 }

@@ -1882,7 +1882,7 @@ void func_10(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uParam
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam15 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Param0, 15, iParam15, Param0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Param0, 15, iParam15, Param0.f_0);
 	}
 }
 
@@ -4834,7 +4834,7 @@ void func_131(int iParam0)
 	iVar4 = func_132(1, 1);
 	if (!iVar4 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, iVar4, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, iVar4, Var0.f_0);
 	}
 }
 
@@ -7717,9 +7717,9 @@ void func_208(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_209(int iParam0, var uParam1)
+int func_209(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_210(uParam1));
 }
 
 int func_210(var uParam0)
@@ -9187,7 +9187,7 @@ void func_246(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_247();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -9345,7 +9345,7 @@ void func_254(bool bParam0, int iParam1, int iParam2)
 		Var0.f_5 = iParam2;
 		Var0.f_6 = func_256(bParam0);
 		func_255(&(Var0.f_7), &(Var0.f_8));
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_248(bParam0), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_248(bParam0), Var0.f_0);
 	}
 }
 
@@ -20993,9 +20993,9 @@ int func_589(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_590(int iParam0, var uParam1)
+int func_590(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_210(uParam1));
 }
 
 bool func_591()
@@ -23766,7 +23766,7 @@ char* func_691()
 	{
 		return "HUD_LBD_FMS";
 	}
-	if (NETWORK::NETWORK_SESSION_IS_CLOSED_CREW() || unk_0xCDC936BF35EDCB73() > 0)
+	if (NETWORK::NETWORK_SESSION_IS_CLOSED_CREW() || NETWORK::NETWORK_SESSION_GET_UNIQUE_CREW_LIMIT() > 0)
 	{
 		return "HUD_LBD_FMC";
 	}

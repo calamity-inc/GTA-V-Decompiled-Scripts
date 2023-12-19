@@ -12956,13 +12956,13 @@ var func_143(var uParam0, var uParam1)
 void func_144(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -12974,7 +12974,7 @@ void func_144(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }
@@ -14968,9 +14968,9 @@ void func_214(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_215(int iParam0, var uParam1)
+int func_215(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_216(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_216(uParam1));
 }
 
 int func_216(var uParam0)
@@ -24919,7 +24919,7 @@ int func_402(var uParam0, var uParam1, var* uParam2, var* uParam3)
 	return 0;
 }
 
-void func_403(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
+void func_403(bool bParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 {
 	struct<8> Var0[3];
 	struct<6> Var25[3];
@@ -24934,7 +24934,7 @@ void func_403(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 		StringCopy(&(Var0[1 /*8*/]), "Location", 32);
 		StringCopy(&(Var0[2 /*8*/]), "Type", 32);
 		StringCopy(&(Var25[0 /*6*/]), "SP", 24);
-		switch (iParam0)
+		switch (bParam0)
 		{
 			case 0:
 				StringCopy(&(Var25[1 /*6*/]), "MGCR_1", 24);
@@ -25165,7 +25165,7 @@ void func_406()
 	}
 }
 
-int func_407(int iParam0, var uParam1, int iParam2)
+int func_407(int iParam0, var uParam1, bool bParam2)
 {
 	if (!ENTITY::DOES_ENTITY_EXIST(*iParam0))
 	{
@@ -25176,7 +25176,7 @@ int func_407(int iParam0, var uParam1, int iParam2)
 		case 0:
 			if (!CAM::DOES_CAM_EXIST(uParam1->f_5[0]))
 			{
-				func_408(uParam1, iParam2);
+				func_408(uParam1, bParam2);
 				uParam1->f_5[0] = CAM::CREATE_CAMERA_WITH_PARAMS(26379945, uParam1->f_138[0 /*3*/], uParam1->f_163[0 /*3*/], uParam1->f_188, false, 2);
 				uParam1->f_5[1] = CAM::CREATE_CAMERA_WITH_PARAMS(26379945, uParam1->f_138[1 /*3*/], uParam1->f_163[1 /*3*/], uParam1->f_188, false, 2);
 			}
@@ -25700,14 +25700,14 @@ void func_417(var uParam0, bool bParam1)
 	}
 }
 
-void func_418(int iParam0)
+void func_418(bool bParam0)
 {
 	int iVar0;
 	int iVar1;
 	
 	if ((PLAYER::IS_PLAYER_ONLINE() && NETWORK::NETWORK_HAVE_ONLINE_PRIVILEGES()) && iLocal_562)
 	{
-		switch (iParam0)
+		switch (bParam0)
 		{
 			case 0:
 				iVar0 = 0;

@@ -644,7 +644,7 @@ void __EntryFunction__()
 		Local_519.f_2 = (fVar3 + 1f);
 	}
 	SYSTEM::SETTIMERA(0);
-	AUDIO::HINT_SCRIPT_AUDIO_BANK("ATM", 0, -1);
+	AUDIO::HINT_SCRIPT_AUDIO_BANK("ATM", false, -1);
 	while (bVar2)
 	{
 		iLocal_604 = (iLocal_604 + SYSTEM::ROUND((0f + (1000f * SYSTEM::TIMESTEP()))));
@@ -1698,9 +1698,9 @@ void func_12(int iParam0, int iParam1, var uParam2, bool bParam3)
 	}
 }
 
-var func_13(int iParam0, var uParam1)
+int func_13(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_15(uParam1));
 }
 
 int func_14(int iParam0, var uParam1)

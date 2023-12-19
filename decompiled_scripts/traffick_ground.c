@@ -8676,9 +8676,9 @@ void func_64(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_65(int iParam0, var uParam1)
+int func_65(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_66(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_66(uParam1));
 }
 
 int func_66(var uParam0)
@@ -22636,7 +22636,7 @@ void func_346()
 	func_262(&uLocal_3499, 0, 0);
 	iVar0 = SYSTEM::FLOOR(fLocal_6113);
 	func_347();
-	STATS::PLAYSTATS_ODDJOB_DONE(iVar0, 16, 0);
+	STATS::PLAYSTATS_ODDJOB_DONE(iVar0, 16, false);
 	PATHFIND::SET_ROADS_BACK_TO_ORIGINAL(1651.576f, 4939.412f, 41.818f, 1721.456f, 4540.486f, 41.818f, 1);
 	PATHFIND::SET_ROADS_BACK_TO_ORIGINAL(2499.3f, 3456.401f, -49.795f, 2424.3f, 3456.401f, 49.795f, 1);
 	PATHFIND::SET_ROADS_BACK_TO_ORIGINAL(1751.693f, 4562.989f, -57.869f, 769.406f, 4375.608f, 57.869f, 1);

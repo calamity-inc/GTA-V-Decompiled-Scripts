@@ -9622,9 +9622,9 @@ int func_93(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_94(var uParam0, var uParam1)
+int func_94(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_95(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_95(uParam1));
 }
 
 int func_95(var uParam0)
@@ -13378,9 +13378,9 @@ int func_98(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_99(var uParam0, var uParam1)
+int func_99(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_95(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_95(uParam1));
 }
 
 bool func_100(int iParam0, int iParam1, bool bParam2)
@@ -52130,9 +52130,9 @@ void func_208(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_209(int iParam0, var uParam1)
+int func_209(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_95(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_95(uParam1));
 }
 
 int func_210()
@@ -56142,9 +56142,9 @@ float func_243(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_244(int iParam0, var uParam1)
+int func_244(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_95(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_95(uParam1));
 }
 
 int func_245(int iParam0)
@@ -68511,9 +68511,9 @@ int func_295(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_296(int iParam0, var uParam1)
+int func_296(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_95(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_95(uParam1));
 }
 
 int func_297(int iParam0, int iParam1)
@@ -70705,7 +70705,7 @@ void func_344(int iParam0, int iParam1)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iParam1, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iParam1, Var0.f_0);
 		}
 	}
 }
@@ -93331,7 +93331,7 @@ int func_452(var uParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam4
 													else
 													{
 														PED::SET_PED_COMPONENT_VARIATION(*uParam0, iVar0, Global_79101[iVar0], Global_79101.f_13[iVar0], 0);
-														PED::SET_PED_ENABLE_CREW_EMBLEM(*uParam0, 1);
+														PED::SET_PED_ENABLE_CREW_EMBLEM(*uParam0, true);
 													}
 												}
 												else if (iParam7 == 2)
@@ -93373,7 +93373,7 @@ int func_452(var uParam0, bool bParam1, bool bParam2, bool bParam3, bool bParam4
 												iVar10 = func_125(*uParam0, Global_79101[iVar0], Global_79101.f_13[iVar0], 10);
 												if (func_476(iVar1, 10, iVar10, -1))
 												{
-													PED::SET_PED_ENABLE_CREW_EMBLEM(*uParam0, 1);
+													PED::SET_PED_ENABLE_CREW_EMBLEM(*uParam0, true);
 												}
 											}
 										}

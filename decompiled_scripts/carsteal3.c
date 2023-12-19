@@ -907,9 +907,9 @@ void func_8(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_9(var uParam0, var uParam1)
+int func_9(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_10(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_10(uParam1));
 }
 
 int func_10(var uParam0)
@@ -7307,9 +7307,9 @@ int func_57(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_58(int iParam0, var uParam1)
+int func_58(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_10(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_10(uParam1));
 }
 
 int func_59(int iParam0)
@@ -7694,9 +7694,9 @@ float func_66(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_67(int iParam0, var uParam1)
+int func_67(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_10(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_10(uParam1));
 }
 
 int func_68(int iParam0)
@@ -14830,9 +14830,9 @@ int func_92(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_93(int iParam0, var uParam1)
+int func_93(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_10(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_10(uParam1));
 }
 
 int func_94(int iParam0, int iParam1, int iParam2)
@@ -18558,9 +18558,9 @@ int func_95(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_96(int iParam0, var uParam1)
+int func_96(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_10(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_10(uParam1));
 }
 
 bool func_97(int iParam0, int iParam1, bool bParam2)
@@ -93348,7 +93348,7 @@ void func_442(int iParam0, var uParam1, char* sParam2)
 								func_385(1);
 								PLAYER::SPECIAL_ABILITY_DEACTIVATE(PLAYER::PLAYER_ID(), 0);
 								PLAYER::ENABLE_SPECIAL_ABILITY(PLAYER::PLAYER_ID(), false, 0);
-								CAM::CREATE_CINEMATIC_SHOT(-1096069633, 2000, 0, uParam1->f_6[uParam1->f_36 /*8*/].f_1);
+								CAM::CREATE_CINEMATIC_SHOT(-1096069633, 2000, false, uParam1->f_6[uParam1->f_36 /*8*/].f_1);
 								if (!MISC::IS_STRING_NULL_OR_EMPTY(sParam2))
 								{
 									AUDIO::START_AUDIO_SCENE(sParam2);

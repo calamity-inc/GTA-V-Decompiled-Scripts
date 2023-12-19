@@ -843,9 +843,9 @@ void func_22(int iParam0, int iParam1, char* sParam2, int iParam3, bool bParam4)
 	}
 }
 
-var func_23(var uParam0, var uParam1)
+int func_23(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(3, uParam0, func_24(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(3, iParam0, func_24(uParam1));
 }
 
 int func_24(var uParam0)
@@ -933,9 +933,9 @@ void func_30(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_31(int iParam0, var uParam1)
+int func_31(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_24(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_24(uParam1));
 }
 
 int func_32()
@@ -1143,9 +1143,9 @@ int func_46(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_47(int iParam0, var uParam1)
+int func_47(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_24(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_24(uParam1));
 }
 
 int func_48(var uParam0)
@@ -1238,9 +1238,9 @@ float func_52(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_53(int iParam0, var uParam1)
+int func_53(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_24(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_24(uParam1));
 }
 
 void func_54()
@@ -2085,7 +2085,7 @@ int func_77(int iParam0)
 {
 	if (MISC::IS_PS3_VERSION() || (func_78() && iParam0 == 0))
 	{
-		if (NETWORK::NETWORK_HAVE_USER_CONTENT_PRIVILEGES(1) == 0 || unk_0xE1E02509169C124E() == 0)
+		if (NETWORK::NETWORK_HAVE_USER_CONTENT_PRIVILEGES(1) == 0 || NETWORK::_NETWORK_HAVE_PLATFORM_COMMUNICATION_PRIVILEGES() == 0)
 		{
 			return 0;
 		}
@@ -2135,7 +2135,7 @@ int func_80(int iParam0)
 {
 	if (MISC::IS_PS3_VERSION() || (func_78() && iParam0 == 0))
 	{
-		if (NETWORK::NETWORK_HAVE_USER_CONTENT_PRIVILEGES(0) == 0 || unk_0xE1E02509169C124E() == 0)
+		if (NETWORK::NETWORK_HAVE_USER_CONTENT_PRIVILEGES(0) == 0 || NETWORK::_NETWORK_HAVE_PLATFORM_COMMUNICATION_PRIVILEGES() == 0)
 		{
 			return 0;
 		}

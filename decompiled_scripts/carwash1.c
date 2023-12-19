@@ -6599,7 +6599,7 @@ void func_125(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_126();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -7225,9 +7225,9 @@ void func_137(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_138(int iParam0, var uParam1)
+int func_138(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_139(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_139(uParam1));
 }
 
 int func_139(var uParam0)
@@ -8722,7 +8722,7 @@ void func_198(var uParam0, char* sParam1)
 	func_197(uParam0, 0, joaat("prop_carwash_roller_horz"));
 	func_197(uParam0, 1, joaat("prop_carwash_roller_vert"));
 	func_197(uParam0, 2, joaat("prop_ld_test_01"));
-	if (AUDIO::HINT_SCRIPT_AUDIO_BANK("SCRIPT\CARWASH", 0, -1))
+	if (AUDIO::HINT_SCRIPT_AUDIO_BANK("SCRIPT\CARWASH", false, -1))
 	{
 	}
 	func_195(uParam0, 3);

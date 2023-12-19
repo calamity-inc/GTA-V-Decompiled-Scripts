@@ -702,7 +702,7 @@ void func_33(int iParam0, int iParam1)
 	iVar5 = func_34(1);
 	if (!iVar5 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iVar5, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iVar5, Var0.f_0);
 	}
 }
 
@@ -4910,9 +4910,9 @@ int func_141(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_142(int iParam0, var uParam1)
+int func_142(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_143(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_143(uParam1));
 }
 
 int func_143(var uParam0)

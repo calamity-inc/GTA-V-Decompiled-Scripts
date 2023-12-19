@@ -1055,7 +1055,7 @@ bool func_36()
 {
 	if (!BitTest(uLocal_169, 1))
 	{
-		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(func_34(PLAYER::PLAYER_ID()), iLocal_173, &(Local_60.f_6), 4, 1077936128, 0))
+		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(func_34(PLAYER::PLAYER_ID()), iLocal_173, &(Local_60.f_6), 4, 3f, 0f))
 		{
 			MISC::SET_BIT(&uLocal_169, true);
 		}

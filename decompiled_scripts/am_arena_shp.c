@@ -847,7 +847,7 @@ void func_25(struct<67> Param0, var uParam67, var uParam68, var uParam69, var uP
 	if (!iVar37 == 0)
 	{
 		func_26();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -1357,11 +1357,11 @@ void func_33(int iParam0, bool bParam1)
 			break;
 		
 		case joaat("service_spend_rename_acid_product"):
-			unk_0x446798F7495DD7D8(Global_4535851[iParam0 /*85*/].f_66.f_1, bVar1, bVar0, func_57(&(Global_1906517[PLAYER::PLAYER_ID() /*299*/].f_267)));
+			MONEY::_NETWORK_SPEND_RENAME_ACID_PRODUCT(Global_4535851[iParam0 /*85*/].f_66.f_1, bVar1, bVar0, func_57(&(Global_1906517[PLAYER::PLAYER_ID() /*299*/].f_267)));
 			break;
 		
 		case joaat("service_spend_rename_acid_lab"):
-			unk_0x842B1C5AF61ACDE9(Global_4535851[iParam0 /*85*/].f_66.f_1, bVar1, bVar0, func_57(&(Global_1906517[PLAYER::PLAYER_ID() /*299*/].f_283)));
+			MONEY::_NETWORK_SPEND_RENAME_ACID_LAB(Global_4535851[iParam0 /*85*/].f_66.f_1, bVar1, bVar0, func_57(&(Global_1906517[PLAYER::PLAYER_ID() /*299*/].f_283)));
 			break;
 		
 		case joaat("service_earn_jobs"):
@@ -2056,7 +2056,7 @@ void func_33(int iParam0, bool bParam1)
 			break;
 		
 		case joaat("service_spend_casino_club_generic"):
-			MONEY::NETWORK_SPEND_CASINO_CLUB(Global_4535851[iParam0 /*85*/].f_66.f_1, 0, 1, Global_4535851[iParam0 /*85*/], Global_4535851[iParam0 /*85*/].f_10, Global_4535851[iParam0 /*85*/].f_11, Global_4535851[iParam0 /*85*/].f_12, Global_4535851[iParam0 /*85*/].f_6, Global_4535851[iParam0 /*85*/].f_7);
+			MONEY::NETWORK_SPEND_CASINO_CLUB(Global_4535851[iParam0 /*85*/].f_66.f_1, 0, true, Global_4535851[iParam0 /*85*/], Global_4535851[iParam0 /*85*/].f_10, Global_4535851[iParam0 /*85*/].f_11, Global_4535851[iParam0 /*85*/].f_12, Global_4535851[iParam0 /*85*/].f_6, Global_4535851[iParam0 /*85*/].f_7);
 			break;
 		
 		case joaat("service_earn_tuner_robbery_prep"):
@@ -2223,83 +2223,83 @@ void func_33(int iParam0, bool bParam1)
 			Var17.f_0 = Global_4535851[iParam0 /*85*/].f_13;
 			Var17.f_1 = Global_4535851[iParam0 /*85*/];
 			Var17.f_2 = Global_4535851[iParam0 /*85*/].f_66.f_15;
-			unk_0x991E1588FAD9019D(Global_4535851[iParam0 /*85*/].f_66.f_1, &Var17);
+			MONEY::_NETWORK_EARN_TAXI_JOB(Global_4535851[iParam0 /*85*/].f_66.f_1, &Var17);
 			break;
 		
 		case joaat("service_earn_daily_stash_house_participation"):
-			unk_0x9C0C6BD0F94CE391(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_DAILY_STASH_HOUSE_PARTICIPATION(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_daily_stash_house_completed"):
-			unk_0xCABC9874AFA70D6D(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_DAILY_STASH_HOUSE_COMPLETED(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_juggalo_story_mission"):
-			unk_0xE01D10BA8CD53621(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_JUGGALO_STORY_MISSION(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_juggalo_story_mission_participation"):
-			unk_0x40FF6CCCC476185C(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_JUGGALO_STORY_MISSION_PARTICIPATION(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_juggalo_phone_mission"):
-			unk_0xCE4452AE85F5E252(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_FOOLIGAN_JOB(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_juggalo_phone_mission_participation"):
-			unk_0xC376B92D0E060970(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_FOOLIGAN_JOB_PARTICIPATION(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_winter_22_award_juggalo_story"):
-			unk_0xDDF047577F1A02A7(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_JUGGALO_MISSION(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_winter_22_award_acid_lab"):
-			unk_0xD1A8165767AD2D23(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_ACID_LAB(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_winter_22_award_daily_stash"):
-			unk_0xC30650FA74A19D02(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_DAILY_STASH(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_winter_22_award_dead_drop"):
-			unk_0xD01EBAEA1F905EF6(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_DEAD_DROP(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_winter_22_award_random_event"):
-			unk_0xBEAFBB1B98B7EF55(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_RANDOM_EVENT(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_winter_22_award_taxi"):
-			unk_0xA914768AD35CD3A5(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AWARD_TAXI(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_acid_lab_setup_participation"):
-			unk_0xE3942D59E8A7F70D(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_SETUP_PARTICIPATION_ACID_LAB(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_acid_lab_source_participation"):
-			unk_0x136F11B5DF1B304D(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_SOURCE_PARTICIPATION_ACID_LAB(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_acid_lab_sell_participation"):
-			unk_0xCA3EF9B09A8D76B4(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_SELL_PARTICIPATION_ACID_LAB(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_smuggler_ops"):
-			unk_0xDEA273D5F8A9661A(Global_4535851[iParam0 /*85*/].f_66.f_15, Global_4535851[iParam0 /*85*/], Global_4535851[iParam0 /*85*/].f_66.f_16);
+			MONEY::_NETWORK_EARN_SMUGGLER_OPS(Global_4535851[iParam0 /*85*/].f_66.f_15, Global_4535851[iParam0 /*85*/], Global_4535851[iParam0 /*85*/].f_66.f_16);
 			break;
 		
 		case joaat("service_earn_cayo_attrition_bonus_objective"):
-			unk_0xDCEF983C24191997(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/], Global_4535851[iParam0 /*85*/].f_66.f_15);
+			MONEY::_NETWORK_EARN_BONUS_OBJECTIVE(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/], Global_4535851[iParam0 /*85*/].f_66.f_15);
 			break;
 		
 		case joaat("service_earn_avenger_operations"):
-			unk_0x55F006B9D4A46C1D(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
+			MONEY::_NETWORK_EARN_AVENGER(Global_4535851[iParam0 /*85*/].f_66.f_1, Global_4535851[iParam0 /*85*/]);
 			break;
 		
 		case joaat("service_earn_avenger_ops_bonus"):
-			unk_0x55F006B9D4A46C1D(Global_4535851[iParam0 /*85*/].f_66.f_1, -2);
+			MONEY::_NETWORK_EARN_AVENGER(Global_4535851[iParam0 /*85*/].f_66.f_1, -2);
 			break;
 		
 		case 649031587:
@@ -2356,10 +2356,10 @@ void func_33(int iParam0, bool bParam1)
 	func_7(iParam0);
 }
 
-void func_34(var uParam0, var uParam1)
+void func_34(int iParam0, var uParam1)
 {
 	func_37(34, uParam1, 1);
-	func_36(uParam0, joaat("money_earn_jobs"), "VEH_ROBBERY", "SELL");
+	func_36(iParam0, joaat("money_earn_jobs"), "VEH_ROBBERY", "SELL");
 	func_35();
 	if (func_13())
 	{
@@ -2389,14 +2389,14 @@ void func_35()
 	Global_1978029.f_71 = 0;
 }
 
-void func_36(var uParam0, int iParam1, char* sParam2, char* sParam3)
+void func_36(int iParam0, int iParam1, char* sParam2, char* sParam3)
 {
 	char cVar0[32];
 	char cVar8[32];
 	
 	StringCopy(&cVar0, sParam2, 32);
 	StringCopy(&cVar8, sParam3, 32);
-	unk_0xBF7B5BB7ED890380(uParam0, iParam1, &cVar0, &cVar8, &Global_1978029);
+	MONEY::_NETWORK_EARN_GENERIC(iParam0, iParam1, &cVar0, &cVar8, &Global_1978029);
 }
 
 void func_37(int iParam0, var uParam1, bool bParam2)
@@ -2589,11 +2589,11 @@ char* func_38(int iParam0)
 	return "UNKNOWN";
 }
 
-void func_39(var uParam0, var uParam1, bool bParam2)
+void func_39(int iParam0, var uParam1, bool bParam2)
 {
 	func_37(6, uParam1, 1);
 	func_37(7, func_40(bParam2), 0);
-	func_36(uParam0, -747899, "VEH_ROBBERY", "SALVAGE");
+	func_36(iParam0, -747899, "VEH_ROBBERY", "SALVAGE");
 	func_35();
 }
 
@@ -2611,57 +2611,57 @@ bool func_41(int iParam0)
 	return iParam0 == 1;
 }
 
-void func_42(var uParam0, var uParam1)
+void func_42(int iParam0, var uParam1)
 {
-	func_43(uParam0, 2011621010, 14, uParam1, "WEEKLY_OBJ", "WEEKLY_OBJ");
+	func_43(iParam0, 2011621010, 14, uParam1, "WEEKLY_OBJ", "WEEKLY_OBJ");
 }
 
-void func_43(var uParam0, int iParam1, int iParam2, var uParam3, char* sParam4, char* sParam5)
+void func_43(int iParam0, int iParam1, int iParam2, var uParam3, char* sParam4, char* sParam5)
 {
 	func_37(iParam2, uParam3, 1);
-	func_36(uParam0, iParam1, sParam4, sParam5);
+	func_36(iParam0, iParam1, sParam4, sParam5);
 	func_35();
 }
 
-void func_44(var uParam0, var uParam1, var uParam2, var uParam3)
+void func_44(int iParam0, var uParam1, var uParam2, var uParam3)
 {
 	func_37(7, uParam1, 1);
 	func_37(6, uParam2, 0);
 	func_37(32, uParam3, 0);
-	func_36(uParam0, joaat("money_earn_jobs"), "VEH_ROBBERY", "FINALE");
+	func_36(iParam0, joaat("money_earn_jobs"), "VEH_ROBBERY", "FINALE");
 	func_35();
 }
 
-void func_45(var uParam0, var uParam1)
+void func_45(int iParam0, var uParam1)
 {
 	func_37(7, uParam1, 1);
-	func_36(uParam0, joaat("money_earn_jobs"), "VEH_ROBBERY", "PREP");
+	func_36(iParam0, joaat("money_earn_jobs"), "VEH_ROBBERY", "PREP");
 	func_35();
 }
 
-void func_46(var uParam0, var uParam1, int iParam2, int iParam3)
+void func_46(int iParam0, var uParam1, bool bParam2, bool bParam3)
 {
 	struct<2> Var0;
 	
 	Var0 = { func_48(969911863) };
 	func_37(41, uParam1, 1);
-	func_47(uParam0, iParam2, iParam3, Var0.f_0, Var0.f_1, "VEH_ROBBERY", "CLAIM_VEHICLE", 1);
+	func_47(iParam0, bParam2, bParam3, Var0.f_0, Var0.f_1, "VEH_ROBBERY", "CLAIM_VEHICLE", 1);
 	func_35();
 }
 
-void func_47(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, char* sParam5, char* sParam6, bool bParam7)
+void func_47(int iParam0, bool bParam1, bool bParam2, int iParam3, int iParam4, char* sParam5, char* sParam6, bool bParam7)
 {
 	char cVar0[32];
 	char cVar8[32];
 	
 	StringCopy(&cVar0, sParam5, 32);
 	StringCopy(&cVar8, sParam6, 32);
-	unk_0x2803B027479FB640(uParam0, uParam1, uParam2, uParam3, uParam4, &cVar0, &cVar8, &Global_1978029);
+	MONEY::_NETWORK_SPENT_GENERIC(iParam0, bParam1, bParam2, iParam3, iParam4, &cVar0, &cVar8, &Global_1978029);
 	if (bParam7)
 	{
 		if (func_13())
 		{
-			unk_0xE03B9F95556E48E9();
+			MONEY::_NETWORK_CLEAR_TRANSACTION_TELEMETRY_NONCE();
 		}
 	}
 }
@@ -2746,9 +2746,9 @@ struct<2> func_48(int iParam0)
 	return Var1;
 }
 
-var func_49(int iParam0, var uParam1)
+int func_49(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_50(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_50(uParam1));
 }
 
 int func_50(var uParam0)
@@ -2774,7 +2774,7 @@ int func_50(var uParam0)
 	return iVar0;
 }
 
-void func_51(var uParam0, var uParam1, var uParam2, var uParam3, int iParam4, int iParam5)
+void func_51(int iParam0, var uParam1, var uParam2, var uParam3, bool bParam4, bool bParam5)
 {
 	struct<2> Var0;
 	
@@ -2782,28 +2782,28 @@ void func_51(var uParam0, var uParam1, var uParam2, var uParam3, int iParam4, in
 	func_37(6, uParam1, 1);
 	func_37(41, uParam2, 0);
 	func_37(7, uParam3, 0);
-	func_47(uParam0, iParam4, iParam5, Var0.f_0, Var0.f_1, "VEH_ROBBERY", "SETUP_COST", 1);
+	func_47(iParam0, bParam4, bParam5, Var0.f_0, Var0.f_1, "VEH_ROBBERY", "SETUP_COST", 1);
 	func_35();
 }
 
-void func_52(var uParam0, var uParam1)
+void func_52(int iParam0, var uParam1)
 {
-	func_43(uParam0, joaat("money_earn_jobs"), 7, uParam1, "AWARD", "SALVAGE");
+	func_43(iParam0, joaat("money_earn_jobs"), 7, uParam1, "AWARD", "SALVAGE");
 }
 
-void func_53(var uParam0, var uParam1)
+void func_53(int iParam0, var uParam1)
 {
-	func_43(uParam0, joaat("money_earn_jobs"), 7, uParam1, "AWARD", "CHICKEN");
+	func_43(iParam0, joaat("money_earn_jobs"), 7, uParam1, "AWARD", "CHICKEN");
 }
 
-void func_54(var uParam0, var uParam1)
+void func_54(int iParam0, var uParam1)
 {
-	func_43(uParam0, joaat("money_earn_jobs"), 7, uParam1, "CHICKEN", "FINALE");
+	func_43(iParam0, joaat("money_earn_jobs"), 7, uParam1, "CHICKEN", "FINALE");
 }
 
-void func_55(var uParam0, var uParam1)
+void func_55(int iParam0, var uParam1)
 {
-	func_43(uParam0, joaat("money_earn_jobs"), 7, uParam1, "CHICKEN", "SETUP");
+	func_43(iParam0, joaat("money_earn_jobs"), 7, uParam1, "CHICKEN", "SETUP");
 }
 
 int func_56(int iParam0, bool bParam1, bool bParam2)

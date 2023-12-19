@@ -1027,7 +1027,7 @@ void func_12(var uParam0, bool bParam1)
 	{
 		PLAYER::SET_PLAYER_CONTROL(PLAYER::GET_PLAYER_INDEX(), true, 0);
 	}
-	STATS::PLAYSTATS_ODDJOB_DONE(SYSTEM::ROUND((func_13(&iLocal_88) * 1000f)), 12, 0);
+	STATS::PLAYSTATS_ODDJOB_DONE(SYSTEM::ROUND((func_13(&iLocal_88) * 1000f)), 12, false);
 }
 
 float func_13(int* iParam0)
@@ -3030,9 +3030,9 @@ void func_87(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_88(int iParam0, var uParam1)
+int func_88(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_89(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_89(uParam1));
 }
 
 int func_89(var uParam0)
@@ -9160,8 +9160,8 @@ bool func_316(int iParam0)
 	struct<3> Var24;
 	float fVar27;
 	
-	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iParam0, true), 1, &Var0, 1, 1077936128, 0);
-	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iParam0, true), 2, &Var3, 1, 1077936128, 0);
+	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iParam0, true), 1, &Var0, 1, 3f, 0f);
+	PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iParam0, true), 2, &Var3, 1, 3f, 0f);
 	PATHFIND::GET_POSITION_BY_SIDE_OF_ROAD(Var0, -1, &Var6);
 	fVar27 = SYSTEM::VMAG(Var6 - Var0);
 	Var9 = { func_320((Var3.f_0 - Var0.f_0), (Var3.f_1 - Var0.f_1), 0f) };

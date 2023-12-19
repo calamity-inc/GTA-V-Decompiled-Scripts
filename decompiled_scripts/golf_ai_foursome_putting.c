@@ -5283,7 +5283,7 @@ float func_182(struct<2> Param0, var uParam2, struct<2> Param3, var uParam5)
 
 int func_183(struct<3> Param0, struct<2> Param3, var uParam5, var* uParam6, float* fParam7)
 {
-	if (!PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Param0, uParam6, fParam7, 1, 3f, 0))
+	if (!PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Param0, uParam6, fParam7, 1, 3f, 0f))
 	{
 		return 0;
 	}

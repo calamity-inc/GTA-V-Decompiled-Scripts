@@ -2811,7 +2811,7 @@ void func_106(int iParam0, int iParam1, var uParam2)
 	Var0.f_3 = uParam2;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 

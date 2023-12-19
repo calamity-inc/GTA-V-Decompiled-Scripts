@@ -750,7 +750,7 @@ void func_52(int iParam0, bool bParam1)
 				break;
 			
 			case joaat("raiju"):
-				unk_0x0C02468829E4AA65(iParam0, !bParam1);
+				VEHICLE::_SET_DEPLOY_MISSILE_BAYS(iParam0, !bParam1);
 				break;
 			}
 	}
@@ -1359,7 +1359,7 @@ bool func_74(int* iParam0)
 				break;
 			
 			case joaat("raiju"):
-				bVar0 = !unk_0xEA4743874D515F13(iParam0->f_1);
+				bVar0 = !VEHICLE::_ARE_MISSILE_BAYS_DEPLOYED(iParam0->f_1);
 				break;
 		}
 	}

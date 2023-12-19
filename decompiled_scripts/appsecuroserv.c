@@ -1565,9 +1565,9 @@ void func_16(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_17(int iParam0, var uParam1)
+int func_17(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_18(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_18(uParam1));
 }
 
 int func_18(var uParam0)
@@ -2022,7 +2022,7 @@ void func_27(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, va
 	Var0.f_7 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iParam1, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 8, iParam1, Var0.f_0);
 	}
 }
 
@@ -12495,7 +12495,7 @@ void func_245(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_246();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -35014,7 +35014,7 @@ void func_612(var uParam0, var uParam1, int iParam2, int iParam3)
 	Var0.f_7 = MONEY::NETWORK_GET_VC_BANK_BALANCE();
 	Var0.f_8 = iParam2;
 	Var0.f_9 = iParam3;
-	unk_0x5649CA22AF74E019(&Var0);
+	STATS::_PLAYSTATS_ALERT(&Var0);
 }
 
 void func_613()
@@ -38590,7 +38590,7 @@ bool func_738(int iParam0)
 	return bVar0;
 }
 
-int func_739(int iParam0, int iParam1)
+char* func_739(int iParam0, int iParam1)
 {
 	if (iParam0 == -1)
 	{

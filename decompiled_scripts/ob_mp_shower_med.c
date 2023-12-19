@@ -7250,9 +7250,9 @@ int func_20(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_21(int iParam0, var uParam1)
+int func_21(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_22(uParam1));
 }
 
 int func_22(var uParam0)
@@ -7296,9 +7296,9 @@ int func_24(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_25(int iParam0, var uParam1)
+int func_25(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_22(uParam1));
 }
 
 int func_26(int iParam0, bool bParam1)
@@ -7376,9 +7376,9 @@ int func_30(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_31(int iParam0, var uParam1)
+int func_31(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_22(uParam1));
 }
 
 int func_32(int iParam0, int iParam1, int iParam2)
@@ -11104,9 +11104,9 @@ int func_33(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_34(int iParam0, var uParam1)
+int func_34(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_22(uParam1));
 }
 
 bool func_35(int iParam0, int iParam1, bool bParam2)
@@ -54037,9 +54037,9 @@ float func_179(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_180(int iParam0, var uParam1)
+int func_180(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_22(uParam1));
 }
 
 int func_181(int iParam0)
@@ -87886,7 +87886,7 @@ void func_312(int iParam0, int iParam1)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iParam1, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iParam1, Var0.f_0);
 		}
 	}
 }

@@ -2539,9 +2539,9 @@ int func_51(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_52(var uParam0, var uParam1)
+int func_52(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_53(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_53(uParam1));
 }
 
 int func_53(var uParam0)
@@ -2865,9 +2865,9 @@ float func_72(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_73(var uParam0, var uParam1)
+int func_73(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_53(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_53(uParam1));
 }
 
 int func_74(int iParam0)
@@ -3283,7 +3283,7 @@ int func_78(int iParam0, int iParam1)
 
 int func_79(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_53(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_53(iParam1));
 }
 
 void func_80(char* sParam0)
@@ -50346,9 +50346,9 @@ int func_346(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_347(int iParam0, var uParam1)
+int func_347(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_53(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_53(uParam1));
 }
 
 int func_348(int iParam0, int iParam1, int iParam2)
@@ -54074,9 +54074,9 @@ int func_349(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_350(int iParam0, var uParam1)
+int func_350(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_53(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_53(uParam1));
 }
 
 bool func_351(int iParam0, int iParam1, bool bParam2)
@@ -103848,7 +103848,7 @@ int func_767(int iParam0)
 {
 	if (MISC::IS_PS3_VERSION() || (func_117() && iParam0 == 0))
 	{
-		if (NETWORK::NETWORK_HAVE_USER_CONTENT_PRIVILEGES(1) == 0 || unk_0xE1E02509169C124E() == 0)
+		if (NETWORK::NETWORK_HAVE_USER_CONTENT_PRIVILEGES(1) == 0 || NETWORK::_NETWORK_HAVE_PLATFORM_COMMUNICATION_PRIVILEGES() == 0)
 		{
 			return 0;
 		}
@@ -104709,13 +104709,13 @@ int func_800()
 
 int func_801(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (func_816())
 	{
-		iVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
+		bVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
 		NETWORK::NETWORK_SET_PRIVILEGE_CHECK_RESULT_NOT_NEEDED();
-		return iVar0;
+		return bVar0;
 	}
 	return 1;
 }
@@ -105218,13 +105218,13 @@ int func_814()
 
 int func_815(int iParam0)
 {
-	int iVar0;
+	bool bVar0;
 	
 	if (func_816())
 	{
-		iVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
+		bVar0 = NETWORK::NETWORK_CHECK_PRIVILEGES(0, 512, iParam0);
 		NETWORK::NETWORK_SET_PRIVILEGE_CHECK_RESULT_NOT_NEEDED();
-		return iVar0;
+		return bVar0;
 	}
 	return 1;
 }

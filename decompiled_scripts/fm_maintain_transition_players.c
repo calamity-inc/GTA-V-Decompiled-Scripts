@@ -287,7 +287,7 @@ void __EntryFunction__()
 		}
 	}
 	func_684(&ScriptParam_0);
-	SYSTEM::SET_THREAD_PRIORITY(2);
+	SYSTEM::SET_THIS_THREAD_PRIORITY(2);
 	Global_1963460.f_2 = 0;
 	while (true)
 	{
@@ -6346,9 +6346,9 @@ void func_182(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_183(int iParam0, var uParam1)
+int func_183(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_184(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_184(uParam1));
 }
 
 int func_184(var uParam0)
@@ -37864,9 +37864,9 @@ void func_249(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_250(int iParam0, var uParam1)
+int func_250(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_184(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_184(uParam1));
 }
 
 void func_251(int iParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7)
@@ -48396,9 +48396,9 @@ float func_567(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_568(int iParam0, var uParam1)
+int func_568(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_184(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_184(uParam1));
 }
 
 int func_569()
@@ -49552,7 +49552,7 @@ void func_607(int iParam0)
 		Var0.f_1 = PLAYER::PLAYER_ID();
 		Var0.f_0 = -1804721998;
 		Var0.f_3 = { func_169() };
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 16, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 16, iParam0, Var0.f_0);
 	}
 }
 

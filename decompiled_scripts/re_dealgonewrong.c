@@ -1112,9 +1112,9 @@ void func_10(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_11(int iParam0, var uParam1)
+int func_11(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_12(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_12(uParam1));
 }
 
 int func_12(var uParam0)
@@ -3261,7 +3261,7 @@ void func_80()
 			iLocal_130 = MISC::GET_RANDOM_INT_IN_RANGE(10, 15);
 			if (!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), -1603.153f, 4892.943f, 60.1768f, 225f, 225f, 50f, false, true, 0))
 			{
-				if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_241, iLocal_130, &(Local_437[0 /*3*/]), 1, 1077936128, 0))
+				if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_241, iLocal_130, &(Local_437[0 /*3*/]), 1, 3f, 0f))
 				{
 					Local_437[1 /*3*/] = { Local_437[0 /*3*/] + Vector(0f, 5f, 0f) };
 					if (!CAM::IS_SPHERE_VISIBLE(Local_437[0 /*3*/], 7f) && !CAM::IS_SPHERE_VISIBLE(Local_437[1 /*3*/], 7f))
@@ -3301,7 +3301,7 @@ void func_80()
 			iLocal_130 = MISC::GET_RANDOM_INT_IN_RANGE(30, 35);
 			if (!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), -1603.153f, 4892.943f, 60.1768f, 225f, 225f, 50f, false, true, 0))
 			{
-				if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_241, iLocal_130, &(Local_437[0 /*3*/]), 1, 1077936128, 0))
+				if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_241, iLocal_130, &(Local_437[0 /*3*/]), 1, 3f, 0f))
 				{
 					Local_437[1 /*3*/] = { Local_437[0 /*3*/] + Vector(0f, 5f, 0f) };
 					if (!CAM::IS_SPHERE_VISIBLE(Local_437[0 /*3*/], 7f) && !CAM::IS_SPHERE_VISIBLE(Local_437[1 /*3*/], 7f))
@@ -3339,7 +3339,7 @@ void func_80()
 		case 5:
 			Local_241 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) };
 			iLocal_130 = MISC::GET_RANDOM_INT_IN_RANGE(5, 10);
-			if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_241, iLocal_130, &(Local_437[0 /*3*/]), 1, 1077936128, 0))
+			if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_241, iLocal_130, &(Local_437[0 /*3*/]), 1, 3f, 0f))
 			{
 				Local_437[1 /*3*/] = { Local_437[0 /*3*/] + Vector(0f, 5f, 0f) };
 				if (!CAM::IS_SPHERE_VISIBLE(Local_437[0 /*3*/], 7f) && !CAM::IS_SPHERE_VISIBLE(Local_437[1 /*3*/], 7f))

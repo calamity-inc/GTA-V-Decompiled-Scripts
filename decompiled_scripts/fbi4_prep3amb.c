@@ -13250,9 +13250,9 @@ int func_249(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_250(int iParam0, var uParam1)
+int func_250(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_251(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_251(uParam1));
 }
 
 int func_251(var uParam0)

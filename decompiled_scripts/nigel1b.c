@@ -6506,9 +6506,9 @@ void func_140(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_141(int iParam0, var uParam1)
+int func_141(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_142(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_142(uParam1));
 }
 
 int func_142(var uParam0)
@@ -41513,7 +41513,7 @@ int func_370(struct<3> Param0, float fParam3, float fParam4)
 	float fVar10;
 	
 	Var1 = { ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(PLAYER::PLAYER_PED_ID(), 0f, fParam3, 0f) };
-	if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(Var1, Param0, 0, &Var4, &fVar7, 1, 3f, 0))
+	if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(Var1, Param0, 0, &Var4, &fVar7, 1, 3f, 0f))
 	{
 		if (!MISC::IS_POINT_OBSCURED_BY_A_MISSION_ENTITY(Var4, 7f, 7f, 7f, 0))
 		{
@@ -41538,7 +41538,7 @@ int func_370(struct<3> Param0, float fParam3, float fParam4)
 	if (!bVar0)
 	{
 		Var1 = { ENTITY::GET_OFFSET_FROM_ENTITY_IN_WORLD_COORDS(PLAYER::PLAYER_PED_ID(), 0f, fParam4, 0f) };
-		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(Var1, Param0, 0, &Var4, &fVar7, 1, 3f, 0))
+		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(Var1, Param0, 0, &Var4, &fVar7, 1, 3f, 0f))
 		{
 			if (!MISC::IS_POINT_OBSCURED_BY_A_MISSION_ENTITY(Var4, 7f, 7f, 7f, 0))
 			{
@@ -43106,9 +43106,9 @@ int func_400(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_401(int iParam0, var uParam1)
+int func_401(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_142(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_142(uParam1));
 }
 
 void func_402(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -57898,13 +57898,13 @@ var func_587(var uParam0, var uParam1)
 void func_588(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -57916,7 +57916,7 @@ void func_588(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }

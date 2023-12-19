@@ -5772,9 +5772,9 @@ int func_89(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_90(int iParam0, var uParam1)
+int func_90(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_91(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_91(uParam1));
 }
 
 int func_91(var uParam0)
@@ -5818,9 +5818,9 @@ int func_93(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_94(int iParam0, var uParam1)
+int func_94(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_91(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_91(uParam1));
 }
 
 void func_95(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -57956,7 +57956,7 @@ void func_519(var uParam0, int iParam1, float fParam2, float fParam3)
 												else
 												{
 													func_527(uParam0, uParam0->f_298[iVar4 /*11*/].f_4, &iVar5, &iVar6, &iVar7);
-													GRAPHICS::SET_DRAW_ORIGIN(uParam0->f_298[iVar4 /*11*/].f_7, 0);
+													GRAPHICS::SET_DRAW_ORIGIN(uParam0->f_298[iVar4 /*11*/].f_7, false);
 													GRAPHICS::DRAW_SPRITE("helicopterhud", "TargetLost", fVar8, fVar9, fVar17, (fVar17 * 2f), 0f, iVar5, iVar6, iVar7, 200, true, 0);
 													GRAPHICS::CLEAR_DRAW_ORIGIN();
 													func_526(iVar5, iVar6, iVar7, 0.5f, 1);
@@ -58080,7 +58080,7 @@ void func_519(var uParam0, int iParam1, float fParam2, float fParam3)
 									}
 									fVar21 = func_537(uParam0, uParam0->f_298[uParam0->f_171 /*11*/], uParam0->f_9);
 									fVar17 = 0.03f;
-									GRAPHICS::SET_DRAW_ORIGIN(ENTITY::GET_WORLD_POSITION_OF_ENTITY_BONE(uParam0->f_298[uParam0->f_171 /*11*/], 0), 0);
+									GRAPHICS::SET_DRAW_ORIGIN(ENTITY::GET_WORLD_POSITION_OF_ENTITY_BONE(uParam0->f_298[uParam0->f_171 /*11*/], 0), false);
 									func_523(uParam0, uParam0->f_298[uParam0->f_171 /*11*/], uParam0->f_298[uParam0->f_171 /*11*/].f_3, fVar21);
 									GRAPHICS::CLEAR_DRAW_ORIGIN();
 								}
@@ -58159,7 +58159,7 @@ void func_519(var uParam0, int iParam1, float fParam2, float fParam3)
 								{
 									uParam0->f_172 = uParam0->f_171;
 									uParam0->f_173 = MISC::GET_GAME_TIMER() + 3000;
-									GRAPHICS::SET_DRAW_ORIGIN(ENTITY::GET_WORLD_POSITION_OF_ENTITY_BONE(uParam0->f_298[uParam0->f_171 /*11*/], 0), 0);
+									GRAPHICS::SET_DRAW_ORIGIN(ENTITY::GET_WORLD_POSITION_OF_ENTITY_BONE(uParam0->f_298[uParam0->f_171 /*11*/], 0), false);
 									fVar21 = func_537(uParam0, uParam0->f_298[uParam0->f_171 /*11*/], uParam0->f_9);
 									fVar8 = 0f;
 									fVar9 = 0f;
@@ -58206,7 +58206,7 @@ void func_519(var uParam0, int iParam1, float fParam2, float fParam3)
 							{
 								Var36 = { ENTITY::GET_ENTITY_COORDS(uParam0->f_9, true) };
 							}
-							GRAPHICS::SET_DRAW_ORIGIN(uParam0->f_242[iVar4 /*11*/], 0);
+							GRAPHICS::SET_DRAW_ORIGIN(uParam0->f_242[iVar4 /*11*/], false);
 							fVar8 = 0f;
 							fVar9 = 0f;
 							if (uParam0->f_242[iVar4 /*11*/].f_6 == 1)
@@ -58222,7 +58222,7 @@ void func_519(var uParam0, int iParam1, float fParam2, float fParam3)
 									fVar21 = 2f;
 								}
 								func_528(uParam0, uParam0->f_242[iVar4 /*11*/], fVar21, 0, -1, -1, -1);
-								GRAPHICS::SET_DRAW_ORIGIN(uParam0->f_242[iVar4 /*11*/], 0);
+								GRAPHICS::SET_DRAW_ORIGIN(uParam0->f_242[iVar4 /*11*/], false);
 							}
 							else
 							{
@@ -58447,7 +58447,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 14201, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 63931, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58460,7 +58460,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 52301, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 36864, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58476,7 +58476,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 36864, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 51826, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58489,7 +58489,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 63931, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 58271, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58505,7 +58505,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 11816, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 39317, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58521,7 +58521,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 31086, Var12) };
 			Var3 = { Var0 + Var0 - PED::GET_PED_BONE_COORDS(iParam1, 39317, Var12) * Vector(3f, 3f, 3f) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58537,7 +58537,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 40269, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 28252, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58550,7 +58550,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 45509, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 61163, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58566,7 +58566,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 28252, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 57005, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58579,7 +58579,7 @@ void func_523(var uParam0, int iParam1, float fParam2, float fParam3)
 		{
 			Var0 = { PED::GET_PED_BONE_COORDS(iParam1, 61163, Var12) };
 			Var3 = { PED::GET_PED_BONE_COORDS(iParam1, 18905, Var12) };
-			GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+			GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var0, &fVar8, &fVar9);
 			GRAPHICS::GET_SCREEN_COORD_FROM_WORLD_COORD(Var3, &fVar10, &fVar11);
 			fVar6 = ((fVar10 - fVar8) / 10f);
@@ -58672,7 +58672,7 @@ void func_528(var uParam0, struct<3> Param1, float fParam4, int iParam5, int iPa
 	int iVar2;
 	
 	func_527(uParam0, iParam5, &iVar0, &iVar1, &iVar2);
-	GRAPHICS::SET_DRAW_ORIGIN(Param1, 0);
+	GRAPHICS::SET_DRAW_ORIGIN(Param1, false);
 	if (iParam6 != -1)
 	{
 		iVar0 = iParam6;
@@ -76759,9 +76759,9 @@ float func_773(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_774(int iParam0, var uParam1)
+int func_774(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_91(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_91(uParam1));
 }
 
 int func_775(int iParam0)
@@ -83834,9 +83834,9 @@ int func_795(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_796(int iParam0, var uParam1)
+int func_796(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_91(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_91(uParam1));
 }
 
 int func_797(int iParam0, int iParam1, int iParam2)
@@ -87562,9 +87562,9 @@ int func_798(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_799(int iParam0, var uParam1)
+int func_799(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_91(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_91(uParam1));
 }
 
 bool func_800(int iParam0, int iParam1, bool bParam2)

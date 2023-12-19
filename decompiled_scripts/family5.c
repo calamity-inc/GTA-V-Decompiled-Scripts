@@ -1548,9 +1548,9 @@ int func_20(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_21(int iParam0, var uParam1)
+int func_21(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_22(uParam1));
 }
 
 int func_22(var uParam0)
@@ -1589,9 +1589,9 @@ int func_23(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_24(int iParam0, var uParam1)
+int func_24(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_22(uParam1));
 }
 
 void func_25(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -8783,9 +8783,9 @@ float func_77(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_78(int iParam0, var uParam1)
+int func_78(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_22(uParam1));
 }
 
 int func_79(int iParam0)
@@ -15919,9 +15919,9 @@ int func_103(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_104(int iParam0, var uParam1)
+int func_104(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_22(uParam1));
 }
 
 int func_105(int iParam0, int iParam1, int iParam2)
@@ -19647,9 +19647,9 @@ int func_106(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_107(int iParam0, var uParam1)
+int func_107(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_22(uParam1));
 }
 
 bool func_108(int iParam0, int iParam1, bool bParam2)
@@ -99535,7 +99535,7 @@ int func_518(int iParam0)
 				ENTITY::SET_ENTITY_PROOFS(PLAYER::PLAYER_PED_ID(), false, false, false, true, false, false, false, false);
 				if (MISC::IS_PC_VERSION())
 				{
-					GRAPHICS::FORCE_EXPOSURE_READBACK(1);
+					GRAPHICS::FORCE_EXPOSURE_READBACK(true);
 				}
 				GRAPHICS::CLEAR_TIMECYCLE_MODIFIER();
 				GRAPHICS::ANIMPOSTFX_STOP("DMT_flight_intro");
@@ -99697,7 +99697,7 @@ int func_518(int iParam0)
 				iLocal_1165 = 0;
 				if (MISC::IS_PC_VERSION())
 				{
-					GRAPHICS::FORCE_EXPOSURE_READBACK(0);
+					GRAPHICS::FORCE_EXPOSURE_READBACK(false);
 				}
 				STATS::STAT_ENABLE_STATS_TRACKING();
 				return 1;

@@ -548,7 +548,7 @@ void __EntryFunction__()
 					}
 					if (!SCRIPT::IS_THREAD_ACTIVE(iLocal_51))
 					{
-						STATS::PLAYSTATS_ODDJOB_DONE(SYSTEM::ROUND((func_13(&iLocal_106) * 1000f)), iLocal_98, 0);
+						STATS::PLAYSTATS_ODDJOB_DONE(SYSTEM::ROUND((func_13(&iLocal_106) * 1000f)), iLocal_98, false);
 						func_12(&iLocal_106);
 						func_190(&uLocal_93, 256);
 						func_9();
@@ -4534,9 +4534,9 @@ int func_63(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_64(int iParam0, var uParam1)
+int func_64(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_65(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_65(uParam1));
 }
 
 int func_65(var uParam0)

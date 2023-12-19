@@ -672,7 +672,7 @@ void func_4(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, b
 	Var0.f_5 = iParam1;
 	Var0.f_4 = iParam2;
 	Var0.f_6 = iParam0;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_5(iParam1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_5(iParam1), Var0.f_0);
 }
 
 var func_5(int iParam0)
@@ -1038,7 +1038,7 @@ void func_19(int iParam0, int iParam1, int iParam2)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_5 = iParam1;
 	Var0.f_4 = iParam2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_5(iParam1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_5(iParam1), Var0.f_0);
 }
 
 bool func_20(var uParam0, int iParam1)
@@ -1091,7 +1091,7 @@ void func_22(int iParam0, var uParam1, bool bParam2)
 	func_7(&(Var0.f_3), 3, 0);
 	Var0.f_5 = iParam0;
 	Var0.f_4 = uParam1;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_5(iParam0), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_5(iParam0), Var0.f_0);
 }
 
 bool func_23(var uParam0, int iParam1)
@@ -2316,7 +2316,7 @@ void func_49(int iParam0, var uParam1)
 	Var0.f_4 = uParam1;
 	Var0.f_5 = iParam0;
 	func_7(&(Var0.f_3), 3, 1);
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_50(), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_50(), Var0.f_0);
 }
 
 var func_50()
@@ -5864,7 +5864,7 @@ void func_106(int iParam0, var uParam1, bool bParam2)
 	Var0.f_5 = iParam0;
 	func_7(&(Var0.f_3), 1, bParam2);
 	func_7(&(Var0.f_3), 3, 1);
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, func_50(), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, func_50(), Var0.f_0);
 }
 
 var func_107(struct<13> Param0, var uParam13, var uParam14, var uParam15, var uParam16, var uParam17, var uParam18, var uParam19, var uParam20, int iParam21)

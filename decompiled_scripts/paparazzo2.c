@@ -1315,7 +1315,7 @@ void func_15(int iParam0)
 	fVar3 = func_16(iParam0, &Var0);
 	GRAPHICS::SET_SCRIPT_GFX_ALIGN(73, 73);
 	GRAPHICS::SET_SCRIPT_GFX_DRAW_ORDER(1);
-	GRAPHICS::SET_DRAW_ORIGIN(Var0, 0);
+	GRAPHICS::SET_DRAW_ORIGIN(Var0, false);
 	fVar3 = (fVar3 * 0.03f);
 	GRAPHICS::DRAW_SPRITE("helicopterhud", "hud_corner", (-fVar3 * 0.5f), -fVar3, 0.013f, 0.013f, 0f, Local_2517.f_0, Local_2517.f_1, Local_2517.f_2, 200, true, 0);
 	GRAPHICS::DRAW_SPRITE("helicopterhud", "hud_corner", (fVar3 * 0.5f), -fVar3, 0.013f, 0.013f, 90f, Local_2517.f_0, Local_2517.f_1, Local_2517.f_2, 200, true, 0);
@@ -6056,9 +6056,9 @@ void func_94(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_95(int iParam0, var uParam1)
+int func_95(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_96(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_96(uParam1));
 }
 
 int func_96(var uParam0)
@@ -50645,9 +50645,9 @@ int func_446(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_447(int iParam0, var uParam1)
+int func_447(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_96(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_96(uParam1));
 }
 
 void func_448(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)

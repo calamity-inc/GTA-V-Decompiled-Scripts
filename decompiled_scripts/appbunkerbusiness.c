@@ -871,9 +871,9 @@ int func_17(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_18(int iParam0, var uParam1)
+int func_18(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_19(uParam1));
 }
 
 int func_19(var uParam0)
@@ -14867,7 +14867,7 @@ void func_316(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_317();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -16744,7 +16744,7 @@ void func_358(int iParam0, int iParam1)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iParam1, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iParam1, Var0.f_0);
 		}
 	}
 }
@@ -18666,7 +18666,7 @@ bool func_439(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, i
 							NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_331(func_337()));
 							if (iParam0 == 6)
 							{
-								unk_0x79B656937DF6DF5D(iParam2, func_440(PLAYER::PLAYER_ID(), 306));
+								MONEY::_NETWORK_EARN_SELL_ACID(iParam2, func_440(PLAYER::PLAYER_ID(), 306));
 							}
 							else
 							{
@@ -19442,7 +19442,7 @@ void func_468(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 	Var0.f_7 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iParam1, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 8, iParam1, Var0.f_0);
 	}
 }
 

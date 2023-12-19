@@ -222,7 +222,7 @@ void __EntryFunction__()
 							STREAMING::REQUEST_ANIM_DICT(sLocal_100);
 							while ((!GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(iLocal_79) || !STREAMING::HAS_ANIM_DICT_LOADED(sLocal_99)) || !STREAMING::HAS_ANIM_DICT_LOADED(sLocal_100))
 							{
-								AUDIO::HINT_AMBIENT_AUDIO_BANK("TELESCOPES", 0, -1);
+								AUDIO::HINT_AMBIENT_AUDIO_BANK("TELESCOPES", false, -1);
 								SYSTEM::WAIT(0);
 							}
 							func_375();
@@ -1067,9 +1067,9 @@ int func_13(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_14(var uParam0, var uParam1)
+int func_14(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_15(uParam1));
 }
 
 int func_15(var uParam0)
@@ -1735,9 +1735,9 @@ void func_27(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_28(int iParam0, var uParam1)
+int func_28(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_15(uParam1));
 }
 
 void func_29(int iParam0, bool bParam1, int iParam2)
@@ -2925,7 +2925,7 @@ void func_65(struct<67> Param0, var uParam67, var uParam68, var uParam69, var uP
 	if (!iVar37 == 0)
 	{
 		func_66();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -3278,9 +3278,9 @@ void func_78(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_79(int iParam0, var uParam1)
+int func_79(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_15(uParam1));
 }
 
 void func_80(bool bParam0)
@@ -3842,9 +3842,9 @@ float func_93(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_94(int iParam0, var uParam1)
+int func_94(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_15(uParam1));
 }
 
 int func_95(int iParam0)
@@ -23610,9 +23610,9 @@ int func_164(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_165(int iParam0, var uParam1)
+int func_165(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_15(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_15(uParam1));
 }
 
 int func_166(int iParam0, int iParam1, int iParam2)

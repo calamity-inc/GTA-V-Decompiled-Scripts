@@ -8171,9 +8171,9 @@ void func_138(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_139(int iParam0, var uParam1)
+int func_139(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_140(uParam1));
 }
 
 int func_140(var uParam0)
@@ -34891,9 +34891,9 @@ int func_277(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_278(int iParam0, var uParam1)
+int func_278(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_140(uParam1));
 }
 
 void func_279(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -42826,7 +42826,7 @@ void func_428(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, i
 		fVar3 = 0f;
 		func_448(iParam0, Var0, fVar3, 1, iParam1, iParam2, iParam3, iParam4, iParam5, iParam6, iParam7, 1);
 	}
-	else if (PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Var0, &Var0, &fVar3, 1, 3f, 0))
+	else if (PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Var0, &Var0, &fVar3, 1, 3f, 0f))
 	{
 		func_448(iParam0, Var0, fVar3, 1, iParam1, iParam2, iParam3, iParam4, iParam5, iParam6, iParam7, 1);
 	}
@@ -52132,13 +52132,13 @@ var func_524(var uParam0, var uParam1)
 void func_525(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -52150,7 +52150,7 @@ void func_525(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }

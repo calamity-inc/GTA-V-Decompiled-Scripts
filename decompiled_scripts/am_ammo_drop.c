@@ -1289,7 +1289,7 @@ void func_24(struct<67> Param0, var uParam67, var uParam68, var uParam69, var uP
 	if (!iVar37 == 0)
 	{
 		func_25();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -2436,7 +2436,7 @@ int func_69()
 	{
 		if (!GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(iLocal_182))
 		{
-			iLocal_182 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_crate_drop_beacon", NETWORK::NET_TO_OBJ(Local_59.f_4), 0f, 0f, 0.2f, 0f, 0f, 0f, 1f, false, false, false, 1065353216, 1065353216, 1065353216, 0);
+			iLocal_182 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_crate_drop_beacon", NETWORK::NET_TO_OBJ(Local_59.f_4), 0f, 0f, 0.2f, 0f, 0f, 0f, 1f, false, false, false, 1f, 1f, 1f, 0f);
 			GRAPHICS::SET_PARTICLE_FX_LOOPED_COLOUR(iLocal_182, 0.8f, 0.18f, 0.19f, false);
 		}
 	}
@@ -2533,9 +2533,9 @@ void func_74(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_75(int iParam0, var uParam1)
+int func_75(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_76(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_76(uParam1));
 }
 
 int func_76(var uParam0)
@@ -4124,7 +4124,7 @@ void func_146(int iParam0, int iParam1, var uParam2)
 	Var0.f_3 = uParam2;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 

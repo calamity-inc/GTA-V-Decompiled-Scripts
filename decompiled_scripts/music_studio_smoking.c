@@ -548,7 +548,7 @@ void func_6()
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iVar1);
 				ENTITY::SET_ENTITY_CAN_BE_DAMAGED(iVar2, false);
 				NETWORK::NETWORK_SET_ENTITY_ONLY_EXISTS_FOR_PARTICIPANTS(iVar2, true);
-				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar2, 1);
+				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar2, true);
 				ENTITY::SET_ENTITY_COORDS_NO_OFFSET(iVar2, Var3, false, false, true);
 				ENTITY::SET_ENTITY_ROTATION(iVar2, Var6, 2, true);
 				ENTITY::FREEZE_ENTITY_POSITION(iVar2, true);
@@ -578,7 +578,7 @@ void func_6()
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iVar9);
 				ENTITY::SET_ENTITY_CAN_BE_DAMAGED(iVar10, false);
 				NETWORK::NETWORK_SET_ENTITY_ONLY_EXISTS_FOR_PARTICIPANTS(iVar10, true);
-				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar10, 1);
+				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar10, true);
 				ENTITY::SET_ENTITY_COORDS_NO_OFFSET(iVar10, Var11, false, false, true);
 				ENTITY::SET_ENTITY_ROTATION(iVar10, Var14, 2, true);
 				ENTITY::FREEZE_ENTITY_POSITION(iVar10, true);
@@ -608,7 +608,7 @@ void func_6()
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iVar17);
 				ENTITY::SET_ENTITY_CAN_BE_DAMAGED(iVar18, false);
 				NETWORK::NETWORK_SET_ENTITY_ONLY_EXISTS_FOR_PARTICIPANTS(iVar18, true);
-				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar18, 1);
+				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar18, true);
 				ENTITY::SET_ENTITY_COORDS_NO_OFFSET(iVar18, Var19, false, false, true);
 				ENTITY::SET_ENTITY_ROTATION(iVar18, Var22, 2, true);
 				ENTITY::FREEZE_ENTITY_POSITION(iVar18, true);
@@ -638,7 +638,7 @@ void func_6()
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(iVar25);
 				ENTITY::SET_ENTITY_CAN_BE_DAMAGED(iVar26, false);
 				NETWORK::NETWORK_SET_ENTITY_ONLY_EXISTS_FOR_PARTICIPANTS(iVar26, true);
-				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar26, 1);
+				ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar26, true);
 				ENTITY::SET_ENTITY_COORDS_NO_OFFSET(iVar26, Var27, false, false, true);
 				ENTITY::SET_ENTITY_ROTATION(iVar26, Var30, 2, true);
 				ENTITY::FREEZE_ENTITY_POSITION(iVar26, true);
@@ -4662,9 +4662,9 @@ void func_110(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_111(int iParam0, var uParam1)
+int func_111(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_112(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_112(uParam1));
 }
 
 int func_112(var uParam0)
@@ -4703,9 +4703,9 @@ int func_113(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_114(int iParam0, var uParam1)
+int func_114(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_112(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_112(uParam1));
 }
 
 int func_115()
@@ -9695,9 +9695,9 @@ float func_159(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_160(int iParam0, var uParam1)
+int func_160(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_112(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_112(uParam1));
 }
 
 int func_161(int iParam0)
@@ -16821,9 +16821,9 @@ int func_183(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_184(int iParam0, var uParam1)
+int func_184(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_112(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_112(uParam1));
 }
 
 int func_185(int iParam0, int iParam1, int iParam2)
@@ -20549,9 +20549,9 @@ int func_186(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_187(int iParam0, var uParam1)
+int func_187(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_112(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_112(uParam1));
 }
 
 bool func_188(int iParam0, int iParam1, bool bParam2)
@@ -75273,7 +75273,7 @@ void func_373()
 			if (!GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(Local_126.f_8))
 			{
 				GRAPHICS::USE_PARTICLE_FX_ASSET("scr_sec");
-				Local_126.f_8 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_sec_weed_lighter_flame", NETWORK::NET_TO_OBJ(Local_114[Local_126.f_3]), 0f, 0f, 0.05f, 0f, 0f, 0f, 1f, false, false, false, 1065353216, 1065353216, 1065353216, 0);
+				Local_126.f_8 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_sec_weed_lighter_flame", NETWORK::NET_TO_OBJ(Local_114[Local_126.f_3]), 0f, 0f, 0.05f, 0f, 0f, 0f, 1f, false, false, false, 1f, 1f, 1f, 0f);
 			}
 		}
 		if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), 253297497))
@@ -75286,7 +75286,7 @@ void func_373()
 		if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), -1314208391) && !GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(Local_126.f_6))
 		{
 			GRAPHICS::USE_PARTICLE_FX_ASSET("scr_sec");
-			Local_126.f_6 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_sec_weed_smoke", NETWORK::NET_TO_OBJ(Local_114.f_3[Local_126.f_3]), -0.07f, 0f, 0f, 0f, 0f, 0f, 1f, false, false, false, 1065353216, 1065353216, 1065353216, 0);
+			Local_126.f_6 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_sec_weed_smoke", NETWORK::NET_TO_OBJ(Local_114.f_3[Local_126.f_3]), -0.07f, 0f, 0f, 0f, 0f, 0f, 1f, false, false, false, 1f, 1f, 1f, 0f);
 		}
 		if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), 854548828))
 		{
@@ -75298,7 +75298,7 @@ void func_373()
 		if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), 1842331257) && !GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(Local_126.f_7))
 		{
 			GRAPHICS::USE_PARTICLE_FX_ASSET("scr_sec");
-			Local_126.f_7 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_sec_weed_smoke", NETWORK::NET_TO_OBJ(Local_114.f_6[Local_126.f_3]), -0.07f, 0f, 0f, 0f, 0f, 0f, 1f, false, false, false, 1065353216, 1065353216, 1065353216, 0);
+			Local_126.f_7 = GRAPHICS::START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY("scr_sec_weed_smoke", NETWORK::NET_TO_OBJ(Local_114.f_6[Local_126.f_3]), -0.07f, 0f, 0f, 0f, 0f, 0f, 1f, false, false, false, 1f, 1f, 1f, 0f);
 		}
 		if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), 1342897427))
 		{

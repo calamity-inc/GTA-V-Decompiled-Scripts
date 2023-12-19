@@ -155,7 +155,7 @@ void __EntryFunction__()
 							else
 							{
 								func_58();
-								AUDIO::HINT_AMBIENT_AUDIO_BANK("SAFEHOUSE_MICHAEL_SIT_SOFA", 0, -1);
+								AUDIO::HINT_AMBIENT_AUDIO_BANK("SAFEHOUSE_MICHAEL_SIT_SOFA", false, -1);
 								AUDIO::REGISTER_SCRIPT_WITH_AUDIO(0);
 								Global_32889[iLocal_41 /*11*/].f_2 = 0;
 								Global_32889[iLocal_41 /*11*/].f_6 = 1;

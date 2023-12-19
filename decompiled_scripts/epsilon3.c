@@ -5416,9 +5416,9 @@ void func_95(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_96(int iParam0, var uParam1)
+int func_96(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_97(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_97(uParam1));
 }
 
 int func_97(var uParam0)

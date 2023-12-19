@@ -4599,9 +4599,9 @@ int func_138(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_139(int iParam0, var uParam1)
+int func_139(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_140(uParam1));
 }
 
 int func_140(var uParam0)
@@ -19082,7 +19082,7 @@ char* func_548()
 	{
 		return "HUD_LBD_FMS";
 	}
-	if (NETWORK::NETWORK_SESSION_IS_CLOSED_CREW() || unk_0xCDC936BF35EDCB73() > 0)
+	if (NETWORK::NETWORK_SESSION_IS_CLOSED_CREW() || NETWORK::NETWORK_SESSION_GET_UNIQUE_CREW_LIMIT() > 0)
 	{
 		return "HUD_LBD_FMC";
 	}
@@ -19607,9 +19607,9 @@ int func_579(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_580(int iParam0, var uParam1)
+int func_580(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_140(uParam1));
 }
 
 int func_581()
@@ -29002,9 +29002,9 @@ float func_723(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_724(int iParam0, var uParam1)
+int func_724(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_140(uParam1));
 }
 
 int func_725(int iParam0)
@@ -36123,9 +36123,9 @@ int func_746(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_747(int iParam0, var uParam1)
+int func_747(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_140(uParam1));
 }
 
 int func_748(int iParam0, int iParam1, int iParam2)
@@ -39851,9 +39851,9 @@ int func_749(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_750(int iParam0, var uParam1)
+int func_750(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_140(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_140(uParam1));
 }
 
 bool func_751(int iParam0, int iParam1, bool bParam2)
@@ -99969,7 +99969,7 @@ void func_953(int iParam0)
 	Var0.f_0 = -688049763;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = iParam0;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, func_954(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, func_954(1, 1), Var0.f_0);
 }
 
 var func_954(int iParam0, bool bParam1)
@@ -100569,13 +100569,13 @@ void func_977(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 						{
 							VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, Global_262145.f_21957);
 						}
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					
 					default:
 						VEHICLE::SET_VEHICLE_EXPLODES_ON_HIGH_EXPLOSION_DAMAGE(iParam0, false);
 						VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, 1f);
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					}
 			}
@@ -100736,7 +100736,7 @@ void func_982(struct<3> Param0)
 	Var0.f_3 = Param0.f_0;
 	Var0.f_3.f_1 = Param0.f_1;
 	Var0.f_3.f_2 = Param0.f_2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_954(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_954(1, 1), Var0.f_0);
 }
 
 int func_983(int iParam0, var* uParam1)
@@ -106362,13 +106362,13 @@ int func_1023()
 void func_1024(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -106380,7 +106380,7 @@ void func_1024(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }
@@ -107192,7 +107192,7 @@ void func_1045(struct<3> Param0, var uParam3, int iParam4, var uParam5)
 	Var0.f_6 = uParam3;
 	Var0.f_7 = iParam4;
 	Var0.f_8 = *uParam5;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_954(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_954(1, 1), Var0.f_0);
 }
 
 int func_1046(var uParam0, var uParam1, var uParam2)
@@ -109869,8 +109869,8 @@ void func_1089(var uParam0)
 
 void func_1090(int iParam0, int iParam1)
 {
-	var uVar0;
-	var uVar1;
+	int iVar0;
+	int iVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -109912,15 +109912,15 @@ void func_1090(int iParam0, int iParam1)
 		}
 		if (func_120(1))
 		{
-			uVar0 = func_1093(func_1094());
-			uVar1 = func_1092(func_1094());
+			iVar0 = func_1093(func_1094());
+			iVar1 = func_1092(func_1094());
 			iVar2 = func_1091(func_109(1));
 		}
 		else
 		{
 			iVar2 = -1;
 		}
-		unk_0x10A691F5756416D0(uVar0, uVar1, iVar2, Global_1586504[iParam0 /*142*/].f_66, iVar3);
+		STATS::PLAYSTATS_VEH_DEL(iVar0, iVar1, iVar2, Global_1586504[iParam0 /*142*/].f_66, iVar3);
 	}
 }
 
@@ -115355,7 +115355,7 @@ void func_1166(int iParam0)
 			VEHICLE::SET_VEHICLE_NO_EXPLOSION_DAMAGE_FROM_DRIVER(iParam0, !func_189());
 			if (iVar1 == joaat("ruiner2"))
 			{
-				VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, 1);
+				VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, true);
 			}
 			if (iVar1 == joaat("blazer5"))
 			{
@@ -115438,7 +115438,7 @@ void func_1166(int iParam0)
 		}
 		if (BitTest(Global_4718592.f_18, 24) || (func_1167() && NETWORK::NETWORK_IS_ACTIVITY_SESSION()))
 		{
-			VEHICLE::SET_BIKE_EASY_TO_LAND(iParam0, 1);
+			VEHICLE::SET_BIKE_EASY_TO_LAND(iParam0, true);
 		}
 	}
 	if (bVar0)
@@ -116614,7 +116614,7 @@ void func_1201(struct<29> Param0, var uParam29, var uParam30, var uParam31, var 
 	Var0.f_38 = uParam35;
 	Var0.f_39 = bParam36;
 	Var0.f_40 = iParam37;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 41, func_954(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 41, func_954(1, 1), Var0.f_0);
 }
 
 int func_1202(var uParam0, var uParam1, var uParam2, var uParam3)
@@ -128115,7 +128115,7 @@ void func_1415(struct<3> Param0)
 	Var0.f_0 = 1619668539;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = { Param0 };
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_954(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_954(1, 1), Var0.f_0);
 }
 
 int func_1416()
@@ -131878,7 +131878,7 @@ void func_1520(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uPar
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam15 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Param0, 15, iParam15, Param0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Param0, 15, iParam15, Param0.f_0);
 	}
 }
 
@@ -132199,7 +132199,7 @@ void func_1536(bool bParam0, int iParam1, int iParam2)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = iParam1;
 	Var0.f_4 = iParam2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, func_1537(bParam0), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, func_1537(bParam0), Var0.f_0);
 }
 
 int func_1537(bool bParam0)
@@ -134804,7 +134804,7 @@ void func_1608(struct<67> Param0, var uParam67, var uParam68, var uParam69, var 
 	if (!iVar37 == 0)
 	{
 		func_1609();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -134863,7 +134863,7 @@ void func_1611(bool bParam0, int iParam1, int iParam2)
 		Var0.f_5 = iParam2;
 		Var0.f_6 = func_1613(bParam0);
 		func_1612(&(Var0.f_7), &(Var0.f_8));
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_1537(bParam0), Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_1537(bParam0), Var0.f_0);
 	}
 }
 
@@ -136808,7 +136808,7 @@ void func_1707(int iParam0)
 	iVar4 = func_954(1, 1);
 	if (!iVar4 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, iVar4, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, iVar4, Var0.f_0);
 	}
 }
 

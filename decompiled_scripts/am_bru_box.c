@@ -8042,9 +8042,9 @@ void func_198(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_199(int iParam0, var uParam1)
+int func_199(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_201(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_201(uParam1));
 }
 
 int func_200(int iParam0, int iParam1)
@@ -8123,7 +8123,7 @@ void func_203(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uPara
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam15 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Param0, 15, iParam15, Param0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Param0, 15, iParam15, Param0.f_0);
 	}
 }
 

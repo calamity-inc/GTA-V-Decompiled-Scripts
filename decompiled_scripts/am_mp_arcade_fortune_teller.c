@@ -400,7 +400,7 @@ void func_11(var uParam0, bool bParam1)
 		if (iVar41 != 0)
 		{
 			uParam0->f_32 = 1;
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 40, iVar41, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 40, iVar41, Var0.f_0);
 		}
 	}
 }
@@ -2733,7 +2733,7 @@ void func_81(var uParam0, int iParam1)
 		iVar11 = func_18(PLAYER::PLAYER_ID());
 		if (iVar11 != -1)
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, iVar11, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, iVar11, Var0.f_0);
 			uParam0->f_5 = 1;
 		}
 	}
@@ -2837,7 +2837,7 @@ void func_87(var uParam0, var uParam1, var uParam2, var uParam3)
 	iVar7 = func_88(1);
 	if (!iVar7 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iVar7, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iVar7, Var0.f_0);
 	}
 }
 

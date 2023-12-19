@@ -3340,9 +3340,9 @@ int func_17(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_18(int iParam0, var uParam1)
+int func_18(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_19(uParam1));
 }
 
 int func_19(var uParam0)
@@ -8315,7 +8315,7 @@ void func_63(int iParam0, int iParam1)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iParam1, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iParam1, Var0.f_0);
 		}
 	}
 }
@@ -8698,9 +8698,9 @@ int func_73(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_74(int iParam0, var uParam1)
+int func_74(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_19(uParam1));
 }
 
 void func_75(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -45239,9 +45239,9 @@ int func_274(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_275(int iParam0, var uParam1)
+int func_275(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_19(uParam1));
 }
 
 int func_276(int iParam0, int iParam1, int iParam2)
@@ -48967,9 +48967,9 @@ int func_277(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_278(int iParam0, var uParam1)
+int func_278(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_19(uParam1));
 }
 
 bool func_279(int iParam0, int iParam1, bool bParam2)
@@ -52846,9 +52846,9 @@ float func_309(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_310(int iParam0, var uParam1)
+int func_310(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_19(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_19(uParam1));
 }
 
 int func_311(int iParam0)
@@ -84260,7 +84260,7 @@ void func_490(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_491();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -99483,17 +99483,17 @@ void func_688(int iParam0, bool bParam1, int iParam2, int iParam3)
 					{
 						if ((iParam2 == 8 && (iParam0 == 45 && iParam3 == 21)) && MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "CMOD_ACD_EQUIP"))
 						{
-							unk_0x110EE9D486C23126(Global_101444.f_1409, 0, 1, 1013460729);
+							MONEY::_NETWORK_SPEND_UPGRADE_ACID_LAB_EQUIPMENT(Global_101444.f_1409, 0, 1, 1013460729);
 						}
 						else if ((iParam2 == 8 && (iParam0 == 45 && iParam3 == 12)) && (((((MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "AVENG3_MGUN") || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "AVENG3_LAUNCHER")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "CMM_MOD_AVR_TRM")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "CMM_MOD_AVR_TRS")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "STEALTH_MOD")) || MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "MLJ_UNIT")))
 						{
 							if (MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "STEALTH_MOD"))
 							{
-								unk_0x95CE79A6939C537A(Global_101444.f_1409, bVar1, bVar2, 670542637);
+								MONEY::_NETWORK_SPENT_STEALTH_MODULE(Global_101444.f_1409, bVar1, bVar2, 670542637);
 							}
 							else if (MISC::ARE_STRINGS_EQUAL(&(Global_101444.f_1405), "MLJ_UNIT"))
 							{
-								unk_0xD687100F616163F4(Global_101444.f_1409, bVar1, bVar2, 954742878);
+								MONEY::_NETWORK_SPENT_MISSILE_JAMMER(Global_101444.f_1409, bVar1, bVar2, 954742878);
 							}
 							else
 							{
@@ -121320,7 +121320,7 @@ char* func_1009(int iParam0)
 	return "SHOP_L_ITEMS";
 }
 
-void func_1010(char* sParam0, var uParam1, char[4] cParam2, char[4] cParam3, char[4] cParam4, char[4] cParam5)
+void func_1010(char* sParam0, int iParam1, char[4] cParam2, char[4] cParam3, char[4] cParam4, char[4] cParam5)
 {
 	bool bVar0;
 	int iVar1;
@@ -121338,7 +121338,7 @@ void func_1010(char* sParam0, var uParam1, char[4] cParam2, char[4] cParam3, cha
 	{
 		iVar1 = MISC::GET_HASH_KEY(&cParam2);
 	}
-	unk_0xF96E9EA876D9DC92(MISC::GET_HASH_KEY(sParam0), uParam1, func_1011(bVar0), iVar1);
+	STATS::_PLAYSTATS_SHOPMENU_NAV(MISC::GET_HASH_KEY(sParam0), iParam1, func_1011(bVar0), iVar1);
 }
 
 int func_1011(bool bParam0)

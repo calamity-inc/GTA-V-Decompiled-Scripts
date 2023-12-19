@@ -324,7 +324,7 @@ void func_5()
 	iVar3 = func_6(1, 1);
 	if (iVar3 != 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 3, iVar3, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 3, iVar3, Var0.f_0);
 	}
 }
 

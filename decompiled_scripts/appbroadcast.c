@@ -276,7 +276,7 @@ void func_10(int iParam0, int iParam1)
 	{
 		if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iParam1, Var0.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iParam1, Var0.f_0);
 		}
 	}
 }
@@ -465,9 +465,9 @@ int func_20(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_21(var uParam0, var uParam1)
+int func_21(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_22(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_22(uParam1));
 }
 
 int func_22(var uParam0)

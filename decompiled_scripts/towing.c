@@ -3254,7 +3254,7 @@ int func_55()
 			fLocal_3065 = func_4(&iLocal_3089);
 			fLocal_3065 = (fLocal_3065 * 1000f);
 			iVar1 = SYSTEM::ROUND(fLocal_3065);
-			STATS::PLAYSTATS_ODDJOB_DONE(iVar1, 14, 0);
+			STATS::PLAYSTATS_ODDJOB_DONE(iVar1, 14, false);
 			if (iLocal_418 != 2)
 			{
 			}
@@ -4312,9 +4312,9 @@ void func_71(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_72(int iParam0, var uParam1)
+int func_72(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_73(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_73(uParam1));
 }
 
 int func_73(var uParam0)

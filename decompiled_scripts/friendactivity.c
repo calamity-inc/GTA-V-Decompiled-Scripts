@@ -317,11 +317,11 @@ int func_4(bool bParam0)
 			}
 			if (Local_47.f_56.f_1 != 145)
 			{
-				STATS::PLAYSTATS_FRIEND_ACTIVITY(func_69(Local_47.f_56.f_1), 0);
+				STATS::PLAYSTATS_FRIEND_ACTIVITY(func_69(Local_47.f_56.f_1), false);
 			}
 			if (Local_47.f_109.f_1 != 145)
 			{
-				STATS::PLAYSTATS_FRIEND_ACTIVITY(func_69(Local_47.f_109.f_1), 0);
+				STATS::PLAYSTATS_FRIEND_ACTIVITY(func_69(Local_47.f_109.f_1), false);
 			}
 			func_5(&(Local_47.f_3), 0, 1);
 			func_5(&(Local_47.f_56), 0, 1);
@@ -571,7 +571,7 @@ void func_14(int iParam0, int iParam1, int iParam2)
 	int iVar4;
 	struct<3> Var5;
 	float* fVar8;
-	var* uVar9;
+	int* iVar9;
 	int iVar10;
 	
 	if (!PED::IS_PED_INJURED(iParam0))
@@ -600,7 +600,7 @@ void func_14(int iParam0, int iParam1, int iParam2)
 				Var5 = { func_36(iVar4, 0) };
 			}
 			Var1 = { Var5 + func_35(ENTITY::GET_ENTITY_COORDS(iParam0, true) - Var5) * Vector(50f, 50f, 50f) };
-			if (func_15(Var1, &Var1, &fVar8, &uVar9, 1, 0, 1))
+			if (func_15(Var1, &Var1, &fVar8, &iVar9, 1, 0, 1))
 			{
 				bVar0 = true;
 			}
@@ -624,13 +624,13 @@ void func_14(int iParam0, int iParam1, int iParam2)
 	func_12(iParam0, iParam1, 4);
 }
 
-int func_15(struct<3> Param0, var* uParam3, float* fParam4, var* uParam5, int iParam6, int iParam7, bool bParam8)
+int func_15(struct<3> Param0, var* uParam3, float* fParam4, int* iParam5, int iParam6, int iParam7, bool bParam8)
 {
 	int iVar0;
 	
 	while (true)
 	{
-		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE_WITH_HEADING(Param0, iParam6, uParam3, fParam4, uParam5, 1, 3f, 0f))
+		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE_WITH_HEADING(Param0, iParam6, uParam3, fParam4, iParam5, 1, 3f, 0f))
 		{
 			if (func_16(*uParam3, 10f, 1f, 1f, 5f, iParam7, bParam8, 1, 1123024896, 0, -1, 1, 0, 0, 0, 0, 0))
 			{
@@ -11987,9 +11987,9 @@ void func_208(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_209(int iParam0, var uParam1)
+int func_209(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_210(uParam1));
 }
 
 int func_210(var uParam0)
@@ -44277,7 +44277,7 @@ int func_475(var uParam0, int iParam1, int iParam2, int iParam3)
 	int iVar9;
 	struct<3> Var10;
 	float* fVar13;
-	var* uVar14;
+	int* iVar14;
 	int iVar15;
 	
 	if (uParam0->f_1 != 0 && uParam0->f_1 < 14)
@@ -44315,7 +44315,7 @@ int func_475(var uParam0, int iParam1, int iParam2, int iParam3)
 					Var10 = { func_36(iVar9, 0) };
 				}
 				Var6 = { Var10 + func_35(ENTITY::GET_ENTITY_COORDS(uParam0->f_3, true) - Var10) * Vector(50f, 50f, 50f) };
-				if (func_15(Var6, &Var6, &fVar13, &uVar14, 1, 0, 1))
+				if (func_15(Var6, &Var6, &fVar13, &iVar14, 1, 0, 1))
 				{
 					bVar5 = true;
 				}
@@ -49447,9 +49447,9 @@ int func_552(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_553(int iParam0, var uParam1)
+int func_553(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_210(uParam1));
 }
 
 void func_554(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -55483,9 +55483,9 @@ float func_594(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_595(int iParam0, var uParam1)
+int func_595(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_210(uParam1));
 }
 
 int func_596(int iParam0)
@@ -62614,9 +62614,9 @@ int func_619(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_620(int iParam0, var uParam1)
+int func_620(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_210(uParam1));
 }
 
 int func_621(int iParam0, int iParam1, int iParam2)
@@ -66342,9 +66342,9 @@ int func_622(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_623(int iParam0, var uParam1)
+int func_623(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_210(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_210(uParam1));
 }
 
 bool func_624(int iParam0, int iParam1, bool bParam2)
@@ -125009,11 +125009,11 @@ void func_1058(int iParam0)
 	iVar0 = func_128();
 	if (Local_47.f_629 != 145)
 	{
-		STATS::PLAYSTATS_FRIEND_ACTIVITY(Local_47.f_629, 1);
+		STATS::PLAYSTATS_FRIEND_ACTIVITY(Local_47.f_629, true);
 	}
 	if (Local_47.f_630 != 145 && Local_47.f_630 != Local_47.f_629)
 	{
-		STATS::PLAYSTATS_FRIEND_ACTIVITY(Local_47.f_630, 1);
+		STATS::PLAYSTATS_FRIEND_ACTIVITY(Local_47.f_630, true);
 	}
 	switch (iParam0)
 	{

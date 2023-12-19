@@ -3028,7 +3028,7 @@ void func_48(int iParam0, int iParam1, int iParam2)
 	Var0.f_4 = iParam2;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 5, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 5, iParam0, Var0.f_0);
 	}
 }
 
@@ -3040,7 +3040,7 @@ void func_49(int iParam0)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 3, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 3, iParam0, Var0.f_0);
 	}
 }
 
@@ -3951,9 +3951,9 @@ void func_87(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_88(int iParam0, var uParam1)
+int func_88(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_89(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_89(uParam1));
 }
 
 int func_89(var uParam0)
@@ -6534,7 +6534,7 @@ void func_166(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_167();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -6851,7 +6851,7 @@ void func_188(int iParam0, int iParam1, struct<3> Param2, struct<3> Param5)
 	Var0.f_7 = { Param5 };
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 10, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 10, iParam0, Var0.f_0);
 	}
 }
 
@@ -7068,7 +7068,7 @@ void func_202(int iParam0)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 3, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 3, iParam0, Var0.f_0);
 	}
 }
 
@@ -7080,7 +7080,7 @@ void func_203(int iParam0)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 3, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 3, iParam0, Var0.f_0);
 	}
 }
 
@@ -7116,7 +7116,7 @@ void func_205(int iParam0)
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 3, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 3, iParam0, Var0.f_0);
 	}
 }
 
@@ -7260,7 +7260,7 @@ void func_212(int iParam0, var uParam1)
 	Var0.f_6 = uParam1;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 

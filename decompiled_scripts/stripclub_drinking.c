@@ -3212,9 +3212,9 @@ int func_56(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_57(int iParam0, var uParam1)
+int func_57(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_58(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_58(uParam1));
 }
 
 int func_58(var uParam0)
@@ -35882,9 +35882,9 @@ float func_136(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_137(int iParam0, var uParam1)
+int func_137(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_58(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_58(uParam1));
 }
 
 int func_138(int iParam0)
@@ -35969,9 +35969,9 @@ int func_139(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_140(int iParam0, var uParam1)
+int func_140(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_58(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_58(uParam1));
 }
 
 float func_141(int iParam0, int iParam1)
@@ -47687,9 +47687,9 @@ int func_186(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_187(int iParam0, var uParam1)
+int func_187(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_58(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_58(uParam1));
 }
 
 int func_188(int iParam0, int iParam1, int iParam2)
@@ -51415,9 +51415,9 @@ int func_189(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_190(int iParam0, var uParam1)
+int func_190(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_58(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_58(uParam1));
 }
 
 bool func_191(int iParam0, int iParam1, bool bParam2)
@@ -76757,7 +76757,7 @@ void func_368(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_369();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 

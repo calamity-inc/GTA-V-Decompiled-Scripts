@@ -47,7 +47,7 @@
 	int iLocal_409 = 0;
 	bool bLocal_410 = 0;
 	int iLocal_411 = 0;
-	char* sLocal_412 = NULL;
+	int iLocal_412 = 0;
 	var* uLocal_413 = NULL;
 	var* uLocal_414 = NULL;
 	var* uLocal_415 = NULL;
@@ -124,9 +124,9 @@ void __EntryFunction__()
 					iLocal_398 = 0;
 					iLocal_399 = 0;
 					DATAFILE::DATAFILE_CREATE(0);
-					sLocal_412 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
-					DATAFILE::DATADICT_SET_FLOAT(sLocal_412, "tot_pc", Global_114370.f_10197.f_3853);
-					uLocal_413 = DATAFILE::DATADICT_CREATE_DICT(sLocal_412, "Sect");
+					iLocal_412 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+					DATAFILE::DATADICT_SET_FLOAT(iLocal_412, "tot_pc", Global_114370.f_10197.f_3853);
+					uLocal_413 = DATAFILE::DATADICT_CREATE_DICT(iLocal_412, "Sect");
 					uLocal_414 = DATAFILE::DATADICT_CREATE_ARRAY(uLocal_413, "mgc");
 					uLocal_415 = DATAFILE::DATADICT_CREATE_ARRAY(uLocal_413, "msnc");
 					uLocal_416 = DATAFILE::DATADICT_CREATE_ARRAY(uLocal_413, "ojc");
@@ -490,9 +490,9 @@ void func_5(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_6(int iParam0, var uParam1)
+int func_6(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_7(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_7(uParam1));
 }
 
 int func_7(var uParam0)

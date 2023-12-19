@@ -1923,9 +1923,9 @@ void func_34(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_35(int iParam0, var uParam1)
+int func_35(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_36(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_36(uParam1));
 }
 
 int func_36(var uParam0)
@@ -37764,7 +37764,7 @@ void func_289()
 								{
 									if (iLocal_277 < 25)
 									{
-										PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_207, iLocal_277, &Local_219, 1, 1077936128, 0);
+										PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(Local_207, iLocal_277, &Local_219, 1, 3f, 0f);
 										if (func_291(PLAYER::PLAYER_PED_ID(), Local_219, 65f, 1) && !func_291(PLAYER::PLAYER_PED_ID(), Local_219, 40f, 1))
 										{
 											if (!ENTITY::IS_ENTITY_DEAD(iLocal_577, false))

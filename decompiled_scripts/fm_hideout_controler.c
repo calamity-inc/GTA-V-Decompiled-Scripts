@@ -1303,7 +1303,7 @@ void func_4(var uParam0, struct<3> Param1)
 		Var3.f_1 = PLAYER::PLAYER_ID();
 		Var3.f_3 = { *uParam0 };
 		Var3.f_8 = { Param1 };
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var3, 11, iVar2, Var3.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var3, 11, iVar2, Var3.f_0);
 	}
 }
 
@@ -2288,9 +2288,9 @@ int func_32(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_33(int iParam0, var uParam1)
+int func_33(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_34(uParam1));
 }
 
 int func_34(int iParam0)
@@ -11524,7 +11524,7 @@ void func_251(int iParam0, bool bParam1, var uParam2, struct<3> Param3, int iPar
 		}
 		else if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("phantom2"))
 		{
-			ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iParam0, 1);
+			ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iParam0, true);
 		}
 	}
 	if (BitTest(Global_4980736.f_97409[bParam1 /*586*/].f_115, 9))
@@ -11681,7 +11681,7 @@ void func_251(int iParam0, bool bParam1, var uParam2, struct<3> Param3, int iPar
 	}
 	if (BitTest(Global_4718592.f_26, 22) && VEHICLE::IS_VEHICLE_MODEL(iParam0, joaat("bombushka")))
 	{
-		VEHICLE::SET_SHOULD_RESET_TURRET_IN_SCRIPTED_CAMERAS(iParam0, 1);
+		VEHICLE::SET_SHOULD_RESET_TURRET_IN_SCRIPTED_CAMERAS(iParam0, true);
 	}
 	if (BitTest(Global_4980736.f_97409[bParam1 /*586*/].f_113, 27))
 	{
@@ -11693,7 +11693,7 @@ void func_251(int iParam0, bool bParam1, var uParam2, struct<3> Param3, int iPar
 	}
 	if (BitTest(Global_4980736.f_97409[bParam1 /*586*/].f_114, 4))
 	{
-		VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, 1);
+		VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, true);
 	}
 	if (func_267(bParam1))
 	{
@@ -16502,13 +16502,13 @@ void func_288(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 						{
 							VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, Global_262145.f_21957);
 						}
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					
 					default:
 						VEHICLE::SET_VEHICLE_EXPLODES_ON_HIGH_EXPLOSION_DAMAGE(iParam0, false);
 						VEHICLE::SET_VEHICLE_DAMAGE_SCALE(iParam0, 1f);
-						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, 1);
+						VEHICLE::SET_VEHICLE_EXPLODES_ON_EXPLOSION_DAMAGE_AT_ZERO_BODY_HEALTH(iParam0, true);
 						break;
 					}
 			}
@@ -16674,7 +16674,7 @@ void func_294(struct<3> Param0)
 	Var0.f_3 = Param0.f_0;
 	Var0.f_3.f_1 = Param0.f_1;
 	Var0.f_3.f_2 = Param0.f_2;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_5(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_5(1, 1), Var0.f_0);
 }
 
 int func_295(int iParam0)
@@ -22942,13 +22942,13 @@ int func_349(int iParam0, int iParam1)
 void func_350(int iParam0, int iParam1)
 {
 	int iVar0;
-	bool bVar1;
+	int iVar1;
 	
 	if (VEHICLE::GET_NUM_MOD_KITS(iParam0) > 0)
 	{
 		VEHICLE::SET_VEHICLE_MOD_KIT(iParam0, 0);
 		iVar0 = VEHICLE::GET_VEHICLE_MOD(iParam0, 24);
-		bVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
+		iVar1 = VEHICLE::GET_VEHICLE_MOD_VARIATION(iParam0, 24);
 		VEHICLE::SET_VEHICLE_WHEEL_TYPE(iParam0, iParam1);
 		if (ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("tornado6") || ENTITY::GET_ENTITY_MODEL(iParam0) == joaat("peyote2"))
 		{
@@ -22960,7 +22960,7 @@ void func_350(int iParam0, int iParam1)
 		}
 		else
 		{
-			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, bVar1 == 1);
+			VEHICLE::SET_VEHICLE_MOD(iParam0, 24, iVar0, iVar1 == 1);
 		}
 	}
 }
@@ -34994,9 +34994,9 @@ void func_589(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_590(int iParam0, var uParam1)
+int func_590(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_34(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_34(uParam1));
 }
 
 void func_591(bool bParam0)
@@ -37734,7 +37734,7 @@ void func_696(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_697();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -40721,9 +40721,9 @@ int func_729(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_730(int iParam0, int iParam1)
+int func_730(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_34(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_34(iParam1));
 }
 
 bool func_731(int iParam0, bool bParam1)
@@ -52798,7 +52798,7 @@ void func_903(int iParam0, int iParam1, int iParam2, int iParam3)
 			Global_2738587.f_4571.f_1 = 0;
 			func_905(&(Global_2738587.f_4571.f_2), 0, 0);
 		}
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 7, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 7, iParam0, Var0.f_0);
 	}
 }
 
@@ -53878,7 +53878,7 @@ void func_954(struct<2> Param0, var uParam2, var uParam3, var uParam4, var uPara
 	Param0.f_1 = PLAYER::PLAYER_ID();
 	if (!iParam15 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Param0, 15, iParam15, Param0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Param0, 15, iParam15, Param0.f_0);
 	}
 }
 
@@ -63224,9 +63224,9 @@ float func_1114(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_1115(int iParam0, int iParam1)
+int func_1115(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_34(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_34(iParam1));
 }
 
 int func_1116(int iParam0)
@@ -73741,9 +73741,9 @@ int func_1131(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_1132(int iParam0, int iParam1)
+int func_1132(int iParam0, int iParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_34(iParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_34(iParam1));
 }
 
 bool func_1133(int iParam0, int iParam1, bool bParam2)
@@ -133024,7 +133024,7 @@ void func_1313(int iParam0)
 	Var0.f_0 = -688049763;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = iParam0;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 4, func_5(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 4, func_5(1, 1), Var0.f_0);
 }
 
 var func_1314()
@@ -134085,7 +134085,7 @@ void func_1349(struct<3> Param0, var uParam3, int iParam4, var uParam5)
 	Var0.f_6 = uParam3;
 	Var0.f_7 = iParam4;
 	Var0.f_8 = *uParam5;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 9, func_5(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 9, func_5(1, 1), Var0.f_0);
 }
 
 int func_1350(var uParam0, var uParam1, var uParam2)
@@ -136771,8 +136771,8 @@ void func_1394(var uParam0)
 
 void func_1395(int iParam0, int iParam1)
 {
-	var uVar0;
-	var uVar1;
+	int iVar0;
+	int iVar1;
 	int iVar2;
 	int iVar3;
 	
@@ -136814,15 +136814,15 @@ void func_1395(int iParam0, int iParam1)
 		}
 		if (func_1398(1))
 		{
-			uVar0 = func_1397(func_405());
-			uVar1 = func_1396(func_405());
+			iVar0 = func_1397(func_405());
+			iVar1 = func_1396(func_405());
 			iVar2 = func_364(func_317(1));
 		}
 		else
 		{
 			iVar2 = -1;
 		}
-		unk_0x10A691F5756416D0(uVar0, uVar1, iVar2, Global_1586504[iParam0 /*142*/].f_66, iVar3);
+		STATS::PLAYSTATS_VEH_DEL(iVar0, iVar1, iVar2, Global_1586504[iParam0 /*142*/].f_66, iVar3);
 	}
 }
 
@@ -142340,7 +142340,7 @@ void func_1473(int iParam0)
 			VEHICLE::SET_VEHICLE_NO_EXPLOSION_DAMAGE_FROM_DRIVER(iParam0, !func_478());
 			if (iVar1 == joaat("ruiner2"))
 			{
-				VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, 1);
+				VEHICLE::SET_VEHICLE_WEAPON_CAN_TARGET_OBJECTS(iParam0, true);
 			}
 			if (iVar1 == joaat("blazer5"))
 			{
@@ -142423,7 +142423,7 @@ void func_1473(int iParam0)
 		}
 		if (BitTest(Global_4718592.f_18, 24) || (func_1474() && NETWORK::NETWORK_IS_ACTIVITY_SESSION()))
 		{
-			VEHICLE::SET_BIKE_EASY_TO_LAND(iParam0, 1);
+			VEHICLE::SET_BIKE_EASY_TO_LAND(iParam0, true);
 		}
 	}
 	if (bVar0)
@@ -143471,7 +143471,7 @@ void func_1506(struct<29> Param0, var uParam29, var uParam30, var uParam31, var 
 	Var0.f_38 = uParam35;
 	Var0.f_39 = bParam36;
 	Var0.f_40 = iParam37;
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 41, func_5(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 41, func_5(1, 1), Var0.f_0);
 }
 
 int func_1507(var uParam0, var uParam1, var uParam2, var uParam3)
@@ -154957,7 +154957,7 @@ void func_1723(struct<3> Param0)
 	Var0.f_0 = 1619668539;
 	Var0.f_1 = PLAYER::PLAYER_ID();
 	Var0.f_3 = { Param0 };
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 6, func_5(1, 1), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 6, func_5(1, 1), Var0.f_0);
 }
 
 int func_1724()
@@ -156708,7 +156708,7 @@ int func_1754(int iParam0, int iParam1)
 	
 	if (iParam1 != 15 && iParam1 != 14)
 	{
-		iVar3 = unk_0x8BAF8AD59F47AAFC(iParam0);
+		iVar3 = MISC::_GET_CONTENT_PROP_TYPE(iParam0);
 		if (iParam1 != -1)
 		{
 			return iVar3 == iParam1;
@@ -164823,7 +164823,7 @@ void func_1839()
 		{
 			func_1841();
 			func_1840(0);
-			SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var3, 3, iVar6, Var3.f_0);
+			SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var3, 3, iVar6, Var3.f_0);
 		}
 	}
 }
@@ -165654,7 +165654,7 @@ void func_1921()
 
 int func_1922(int iParam0)
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_437())
 	{
@@ -165674,22 +165674,22 @@ int func_1922(int iParam0)
 	}
 	func_1925();
 	DATAFILE::DATAFILE_CREATE(0);
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 	if (iParam0 == 0)
 	{
 		Global_1919203++;
-		DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919203);
-		DATAFILE::DATADICT_SET_INT(sVar0, "quitd", 1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919203.f_2);
-		DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+		DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919203);
+		DATAFILE::DATADICT_SET_INT(iVar0, "quitd", 1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919203.f_2);
+		DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	}
 	else if (iParam0 == 1 || iParam0 == 4)
 	{
 		Global_1919228.f_1++;
-		DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919228.f_1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "quitd", 1);
-		DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919228.f_4);
-		DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+		DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919228.f_1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "quitd", 1);
+		DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919228.f_4);
+		DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	}
 	if (iParam0 == 0)
 	{
@@ -166577,7 +166577,7 @@ void func_2003()
 
 int func_2004()
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_437())
 	{
@@ -166597,16 +166597,16 @@ int func_2004()
 	}
 	func_1925();
 	DATAFILE::DATAFILE_CREATE(0);
-	sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+	iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
 	Global_1919203.f_2++;
 	if (Global_1919203.f_2 < 1)
 	{
 		Global_1919203.f_2 = 1;
 	}
-	DATAFILE::DATADICT_SET_INT(sVar0, "quit", Global_1919203);
-	DATAFILE::DATADICT_SET_INT(sVar0, "ply", Global_1919203.f_2);
-	DATAFILE::DATADICT_SET_INT(sVar0, "plyd", 1);
-	DATAFILE::DATADICT_SET_INT(sVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
+	DATAFILE::DATADICT_SET_INT(iVar0, "quit", Global_1919203);
+	DATAFILE::DATADICT_SET_INT(iVar0, "ply", Global_1919203.f_2);
+	DATAFILE::DATADICT_SET_INT(iVar0, "plyd", 1);
+	DATAFILE::DATADICT_SET_INT(iVar0, "lp", NETWORK::GET_CLOUD_TIME_AS_INT());
 	if (DATAFILE::UGC_SET_PLAYER_DATA(&(Global_4718592.f_126431), -1f, func_1924(0), 0))
 	{
 	}

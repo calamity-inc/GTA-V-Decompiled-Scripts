@@ -1300,7 +1300,7 @@ int func_10()
 	STREAMING::REQUEST_MODEL(iVar12);
 	if (STREAMING::HAS_MODEL_LOADED(iVar12))
 	{
-		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iLocal_52, false), 1, &Var0, 1, 1077936128, 0))
+		if (PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iLocal_52, false), 1, &Var0, 1, 3f, 0f))
 		{
 			if (VEHICLE::GENERATE_VEHICLE_CREATION_POS_FROM_PATHS(&Var0, &Var6, &uVar9, 0f, 180f, 50f, 1, 1, 1))
 			{
@@ -1321,7 +1321,7 @@ int func_10()
 				Var0 = { ENTITY::GET_ENTITY_COORDS(iLocal_55, true) };
 				Var3 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) - Var0 };
 				ENTITY::SET_ENTITY_HEADING(iLocal_55, MISC::GET_HEADING_FROM_VECTOR_2D(Var3.f_0, Var3.f_1));
-				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iLocal_52, false), 1, &Var0, 1, 1077936128, 0);
+				PATHFIND::GET_NTH_CLOSEST_VEHICLE_NODE(ENTITY::GET_ENTITY_COORDS(iLocal_52, false), 1, &Var0, 1, 3f, 0f);
 				if (MISC::GET_DISTANCE_BETWEEN_COORDS(Var0, 2528.563f, 2639.115f, 36.9446f, true) < 75f)
 				{
 					Var0 = { 2473.601f, 2496.765f, 40.87f };
@@ -2277,9 +2277,9 @@ void func_22(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_23(int iParam0, var uParam1)
+int func_23(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_24(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_24(uParam1));
 }
 
 int func_24(var uParam0)

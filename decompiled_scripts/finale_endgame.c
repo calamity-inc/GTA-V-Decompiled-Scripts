@@ -3953,9 +3953,9 @@ int func_57(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_58(int iParam0, var uParam1)
+int func_58(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_59(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_59(uParam1));
 }
 
 int func_59(var uParam0)
@@ -4295,9 +4295,9 @@ int func_65(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_66(int iParam0, var uParam1)
+int func_66(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_59(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_59(uParam1));
 }
 
 void func_67(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, int iParam5)
@@ -39508,9 +39508,9 @@ float func_235(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_236(int iParam0, var uParam1)
+int func_236(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_59(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_59(uParam1));
 }
 
 int func_237(int iParam0)
@@ -46634,9 +46634,9 @@ int func_259(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_260(int iParam0, var uParam1)
+int func_260(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_59(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_59(uParam1));
 }
 
 int func_261(int iParam0, int iParam1, int iParam2)
@@ -50362,9 +50362,9 @@ int func_262(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_263(int iParam0, var uParam1)
+int func_263(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_59(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_59(uParam1));
 }
 
 bool func_264(int iParam0, int iParam1, bool bParam2)
@@ -123882,7 +123882,7 @@ void func_681(int* iParam0)
 
 int func_682(var uParam0, int* iParam1, var uParam2)
 {
-	char* sVar0;
+	int iVar0;
 	
 	if (func_686())
 	{
@@ -123901,22 +123901,22 @@ int func_682(var uParam0, int* iParam1, var uParam2)
 		
 		case 1:
 			DATAFILE::DATAFILE_CREATE(0);
-			sVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
-			DATAFILE::DATADICT_SET_INT(sVar0, "in", *uParam2);
-			DATAFILE::DATADICT_SET_STRING(sVar0, "st", &(uParam2->f_1));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "mp", &(uParam2->f_2));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "ms", &(uParam2->f_3));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "sc", &(uParam2->f_5));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "pr", &(uParam2->f_6));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "fa", &(uParam2->f_7));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "sm", &(uParam2->f_8));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "kp", &(uParam2->f_9));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "sv", &(uParam2->f_10));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "yo", &(uParam2->f_11));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "fi", &(uParam2->f_12));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "rc", &(uParam2->f_13));
-			DATAFILE::DATADICT_SET_STRING(sVar0, "co", &(uParam2->f_14));
-			DATAFILE::DATADICT_SET_INT(sVar0, "su", uParam2->f_15);
+			iVar0 = DATAFILE::DATAFILE_GET_FILE_DICT(0);
+			DATAFILE::DATADICT_SET_INT(iVar0, "in", *uParam2);
+			DATAFILE::DATADICT_SET_STRING(iVar0, "st", &(uParam2->f_1));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "mp", &(uParam2->f_2));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "ms", &(uParam2->f_3));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "sc", &(uParam2->f_5));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "pr", &(uParam2->f_6));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "fa", &(uParam2->f_7));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "sm", &(uParam2->f_8));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "kp", &(uParam2->f_9));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "sv", &(uParam2->f_10));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "yo", &(uParam2->f_11));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "fi", &(uParam2->f_12));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "rc", &(uParam2->f_13));
+			DATAFILE::DATADICT_SET_STRING(iVar0, "co", &(uParam2->f_14));
+			DATAFILE::DATADICT_SET_INT(iVar0, "su", uParam2->f_15);
 			DATAFILE::DATAFILE_START_SAVE_TO_CLOUD("gta5/psych/index.json", 0);
 			*uParam0++;
 			break;

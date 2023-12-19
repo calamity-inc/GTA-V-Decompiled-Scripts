@@ -7874,9 +7874,9 @@ int func_150(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_151(int iParam0, var uParam1)
+int func_151(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_152(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_152(uParam1));
 }
 
 int func_152(var uParam0)
@@ -11988,7 +11988,7 @@ void func_230(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 	Var0.f_7 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iParam1, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 8, iParam1, Var0.f_0);
 	}
 }
 
@@ -12296,7 +12296,7 @@ bool func_255(var uParam0, bool bParam1, bool bParam2, int iParam3)
 					if (bParam2)
 					{
 						NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_257(func_273()));
-						unk_0xED1B407BADA42CEC(Global_262145.f_16091, 0, 1, iParam3);
+						MONEY::_NETWORK_SPENT_SKIP_CARGO_SOURCE_SETUP(Global_262145.f_16091, false, true, iParam3);
 					}
 					func_260(func_273());
 					func_256(iVar0);
@@ -12519,7 +12519,7 @@ void func_265(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_266();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -14663,7 +14663,7 @@ int func_343(var uParam0, var uParam1)
 			}
 			else
 			{
-				unk_0xED1B407BADA42CEC(Global_262145.f_16091, 0, 1, iLocal_543);
+				MONEY::_NETWORK_SPENT_SKIP_CARGO_SOURCE_SETUP(Global_262145.f_16091, false, true, iLocal_543);
 				*uParam0 = 1;
 			}
 			break;
@@ -14890,7 +14890,7 @@ void func_347(int iParam0, var uParam1)
 		Var0.f_3[iVar54] = (*uParam1)[iVar54];
 		iVar54++;
 	}
-	SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 54, func_267(iParam0), Var0.f_0);
+	SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 54, func_267(iParam0), Var0.f_0);
 }
 
 int func_348(int iParam0)
@@ -15640,7 +15640,7 @@ void func_374(var uParam0, var uParam1, int iParam2, int iParam3)
 	Var0.f_7 = MONEY::NETWORK_GET_VC_BANK_BALANCE();
 	Var0.f_8 = iParam2;
 	Var0.f_9 = iParam3;
-	unk_0x5649CA22AF74E019(&Var0);
+	STATS::_PLAYSTATS_ALERT(&Var0);
 }
 
 void func_375()

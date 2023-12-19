@@ -4873,7 +4873,7 @@ void func_82(int iParam0)
 			PED::SET_PED_CONFIG_FLAG(iVar1, 185, true);
 			PED::SET_PED_CONFIG_FLAG(iVar1, 108, true);
 			NETWORK::NETWORK_SET_ENTITY_ONLY_EXISTS_FOR_PARTICIPANTS(iVar1, true);
-			ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar1, 1);
+			ENTITY::SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_SCRIPT_PARTICIPANTS(iVar1, true);
 			PED::SET_PED_CAN_EVASIVE_DIVE(iVar1, false);
 			PED::SET_TREAT_AS_AMBIENT_PED_FOR_DRIVER_LOCKON(iVar1, true);
 			PED::SET_PED_CAN_RAGDOLL_FROM_PLAYER_IMPACT(iVar1, false);
@@ -9025,7 +9025,7 @@ void func_133(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_134();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -19367,9 +19367,9 @@ int func_405(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_406(int iParam0, var uParam1)
+int func_406(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_407(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_407(uParam1));
 }
 
 int func_407(var uParam0)

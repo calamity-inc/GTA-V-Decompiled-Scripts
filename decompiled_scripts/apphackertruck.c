@@ -7445,9 +7445,9 @@ int func_171(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_172(int iParam0, var uParam1)
+int func_172(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_173(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_173(uParam1));
 }
 
 int func_173(var uParam0)
@@ -15843,7 +15843,7 @@ void func_390(struct<67> Param0, var uParam67, var uParam68, var uParam69, var u
 	if (!iVar37 == 0)
 	{
 		func_391();
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 37, iVar37, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 37, iVar37, Var0.f_0);
 	}
 }
 
@@ -16582,7 +16582,7 @@ void func_411(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 	Var0.f_7 = uParam5;
 	if (!iParam1 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 8, iParam1, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 8, iParam1, Var0.f_0);
 	}
 }
 
@@ -17744,7 +17744,7 @@ bool func_447(var uParam0, bool bParam1, bool bParam2, int iParam3)
 					if (bParam2)
 					{
 						NETSHOPPING::NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(func_393(func_400()));
-						unk_0xED1B407BADA42CEC(Global_262145.f_16091, 0, 1, iParam3);
+						MONEY::_NETWORK_SPENT_SKIP_CARGO_SOURCE_SETUP(Global_262145.f_16091, false, true, iParam3);
 					}
 					func_385(func_400());
 					func_448(iVar0);

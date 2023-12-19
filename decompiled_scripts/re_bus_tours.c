@@ -4203,9 +4203,9 @@ void func_101(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_102(int iParam0, var uParam1)
+int func_102(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_103(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_103(uParam1));
 }
 
 int func_103(var uParam0)
@@ -7095,7 +7095,7 @@ void func_186()
 		if ((((STREAMING::HAS_MODEL_LOADED(iVar0) && STREAMING::HAS_MODEL_LOADED(iVar1)) && STREAMING::HAS_ANIM_DICT_LOADED(sLocal_507)) && STREAMING::HAS_MODEL_LOADED(joaat("tourbus"))) && HUD::HAS_ADDITIONAL_TEXT_LOADED(2))
 		{
 			AUDIO::REGISTER_SCRIPT_WITH_AUDIO(0);
-			PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Local_277, &uLocal_280, &uLocal_305, 1, 3f, 0);
+			PATHFIND::GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(Local_277, &uLocal_280, &uLocal_305, 1, 3f, 0f);
 			iLocal_304 = VEHICLE::CREATE_VEHICLE(joaat("tourbus"), Local_261.f_1, Local_261.f_13, true, true, false);
 			VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(iLocal_304, 5f);
 			VEHICLE::SET_VEHICLE_DOORS_LOCKED(iLocal_304, 3);

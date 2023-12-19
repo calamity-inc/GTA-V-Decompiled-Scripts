@@ -1216,7 +1216,7 @@ void func_40(int iParam0, var uParam1, var uParam2, int iParam3, struct<3> Param
 	Var0.f_15 = Global_2685249.f_1.f_2829.f_13;
 	if (!iParam0 == 0)
 	{
-		SCRIPT::SEND_TU_SCRIPT_EVENT(1, &Var0, 16, iParam0, Var0.f_0);
+		SCRIPT::_SEND_TU_SCRIPT_EVENT_NEW(1, &Var0, 16, iParam0, Var0.f_0);
 	}
 }
 
@@ -2692,9 +2692,9 @@ void func_53(int iParam0, int iParam1, int iParam2, bool bParam3)
 	}
 }
 
-var func_54(int iParam0, var uParam1)
+int func_54(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(0, iParam0, func_55(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(0, iParam0, func_55(uParam1));
 }
 
 int func_55(var uParam0)
@@ -2733,9 +2733,9 @@ int func_56(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_57(int iParam0, var uParam1)
+int func_57(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(2, uParam0, func_55(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(2, iParam0, func_55(uParam1));
 }
 
 int func_58()
@@ -7860,9 +7860,9 @@ float func_103(int iParam0, int iParam1)
 	return 0f;
 }
 
-var func_104(int iParam0, var uParam1)
+int func_104(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(1, uParam0, func_55(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(1, iParam0, func_55(uParam1));
 }
 
 int func_105(int iParam0)
@@ -14991,9 +14991,9 @@ int func_128(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_129(int iParam0, var uParam1)
+int func_129(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(10, uParam0, func_55(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(10, iParam0, func_55(uParam1));
 }
 
 int func_130(int iParam0, int iParam1, int iParam2)
@@ -18719,9 +18719,9 @@ int func_131(int iParam0, int iParam1)
 	return 0;
 }
 
-var func_132(int iParam0, var uParam1)
+int func_132(int iParam0, var uParam1)
 {
-	return unk_0xD69CE161FE614531(8, uParam0, func_55(uParam1));
+	return STATS::_GET_STAT_HASH_FOR_CHARACTER_STAT(8, iParam0, func_55(uParam1));
 }
 
 bool func_133(int iParam0, int iParam1, bool bParam2)

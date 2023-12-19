@@ -1988,7 +1988,7 @@ void func_73(int iParam0, bool bParam1, int iParam2)
 	}
 	GRAPHICS::SET_SCRIPT_GFX_DRAW_ORDER(1);
 	Var2 = { ENTITY::GET_ENTITY_COORDS(iParam0, true) };
-	GRAPHICS::SET_DRAW_ORIGIN(Var2, 0);
+	GRAPHICS::SET_DRAW_ORIGIN(Var2, false);
 	fVar0 = func_75(iParam0, Local_159.f_0, 0.5f);
 	fVar0 = func_50(fVar0, 0.015f, fVar0);
 	fVar1 = (fVar0 * GRAPHICS::GET_ASPECT_RATIO(false));
@@ -2689,7 +2689,7 @@ void func_98(int* iParam0)
 		}
 		if (!MISC::IS_STRING_NULL_OR_EMPTY(Local_159.f_40))
 		{
-			AUDIO::HINT_SCRIPT_AUDIO_BANK(Local_159.f_40, 0, -1);
+			AUDIO::HINT_SCRIPT_AUDIO_BANK(Local_159.f_40, false, -1);
 		}
 	}
 	if (func_103(&iVar0, 3))
