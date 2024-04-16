@@ -501,19 +501,19 @@ void func_20()
 
 char* func_21()
 {
-	if (BitTest(Global_114370.f_24989, 3))
+	if (BitTest(Global_114372.f_24989, 3))
 	{
 		return "BB4_loiter";
 	}
-	else if (BitTest(Global_114370.f_24989, 2))
+	else if (BitTest(Global_114372.f_24989, 2))
 	{
 		return "BB3_loiter";
 	}
-	else if (BitTest(Global_114370.f_24989, 1))
+	else if (BitTest(Global_114372.f_24989, 1))
 	{
 		return "BB2_loiter";
 	}
-	else if (BitTest(Global_114370.f_24989, 0))
+	else if (BitTest(Global_114372.f_24989, 0))
 	{
 		return "BB1_loiter";
 	}
@@ -1168,19 +1168,19 @@ void func_45(var uParam0, int iParam1, char* sParam2, int iParam3, int iParam4, 
 
 char* func_46()
 {
-	if (BitTest(Global_114370.f_24989, 3))
+	if (BitTest(Global_114372.f_24989, 3))
 	{
 		return "BB4AUD";
 	}
-	else if (BitTest(Global_114370.f_24989, 2))
+	else if (BitTest(Global_114372.f_24989, 2))
 	{
 		return "BB3AUD";
 	}
-	else if (BitTest(Global_114370.f_24989, 1))
+	else if (BitTest(Global_114372.f_24989, 1))
 	{
 		return "BB2AUD";
 	}
-	else if (BitTest(Global_114370.f_24989, 0))
+	else if (BitTest(Global_114372.f_24989, 0))
 	{
 		return "BB1AUD";
 	}
@@ -1251,19 +1251,19 @@ void func_48(bool bParam0, var uParam1)
 
 int func_49()
 {
-	if (BitTest(Global_114370.f_24989, 3))
+	if (BitTest(Global_114372.f_24989, 3))
 	{
 		return 4;
 	}
-	else if (BitTest(Global_114370.f_24989, 2))
+	else if (BitTest(Global_114372.f_24989, 2))
 	{
 		return 4;
 	}
-	else if (BitTest(Global_114370.f_24989, 1))
+	else if (BitTest(Global_114372.f_24989, 1))
 	{
 		return 4;
 	}
-	else if (BitTest(Global_114370.f_24989, 0))
+	else if (BitTest(Global_114372.f_24989, 0))
 	{
 		return 3;
 	}

@@ -482,7 +482,7 @@ void func_11(int iParam0, bool bParam1, bool bParam2)
 	}
 	else
 	{
-		MISC::CLEAR_BIT(&(Global_114370.f_668[iParam0]), bParam1);
+		MISC::CLEAR_BIT(&(Global_114372.f_668[iParam0]), bParam1);
 	}
 }
 
@@ -831,7 +831,7 @@ void func_19(int iParam0, bool bParam1, bool bParam2)
 	}
 	else
 	{
-		MISC::SET_BIT(&(Global_114370.f_668[iParam0]), bParam1);
+		MISC::SET_BIT(&(Global_114372.f_668[iParam0]), bParam1);
 	}
 }
 
@@ -1123,7 +1123,7 @@ int func_23(int iParam0, int iParam1, bool bParam2)
 	}
 	else
 	{
-		return BitTest(Global_114370.f_668[iParam0], iParam1);
+		return BitTest(Global_114372.f_668[iParam0], iParam1);
 	}
 	return 0;
 }

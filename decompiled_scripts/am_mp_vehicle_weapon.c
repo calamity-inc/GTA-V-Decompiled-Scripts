@@ -4028,9 +4028,10 @@ int func_126(int iParam0)
 	return 0;
 }
 
-var func_127()
+int func_127()
 {
 	return Global_23572.f_135;
+	return 0;
 }
 
 int func_128(bool bParam0)
