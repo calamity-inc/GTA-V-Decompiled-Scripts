@@ -82,6 +82,7 @@ am_mp_arena_garage
 am_mp_armory_aircraft
 am_mp_armory_truck
 am_mp_auto_shop
+am_mp_bail_office
 am_mp_biker_warehouse
 am_mp_boardroom_seating
 am_mp_bunker
@@ -125,6 +126,7 @@ am_mp_vehicle_organization_menu
 am_mp_vehicle_reward
 am_mp_vehicle_weapon
 am_mp_vinewood_premium_garage
+am_mp_vinewood_premium_modshop
 am_mp_warehouse
 am_mp_yacht
 am_npc_invites
@@ -154,6 +156,7 @@ apartment_minigame_launcher
 apparcadebusiness
 apparcadebusinesshub
 appavengeroperations
+appbailoffice
 appbikerbusiness
 appbroadcast
 appbunkerbusiness
@@ -184,6 +187,7 @@ appsidetask
 appsmuggler
 apptextmessage
 apptrackify
+appvinewoodmenu
 appvlsi
 appzit
 arcade_seating
@@ -204,6 +208,7 @@ atm_trigger
 audiotest
 auto_shop_seating
 autosave_controller
+bail_office_seating
 bailbond1
 bailbond2
 bailbond3
@@ -422,6 +427,7 @@ fm_content_bank_shootout
 fm_content_bar_resupply
 fm_content_bicycle_time_trial
 fm_content_bike_shop_delivery
+fm_content_bounty_targets
 fm_content_business_battles
 fm_content_cargo
 fm_content_cerberus
@@ -432,6 +438,8 @@ fm_content_club_source
 fm_content_clubhouse_contracts
 fm_content_convoy
 fm_content_crime_scene
+fm_content_daily_bounty
+fm_content_dispatch_work
 fm_content_drug_lab_work
 fm_content_drug_vehicle
 fm_content_export_cargo
@@ -448,6 +456,7 @@ fm_content_mp_intro
 fm_content_parachuter
 fm_content_payphone_hit
 fm_content_phantom_car
+fm_content_pizza_delivery
 fm_content_possessed_animals
 fm_content_robbery
 fm_content_security_contract
@@ -465,6 +474,7 @@ fm_content_taxi_driver
 fm_content_test
 fm_content_tow_truck_work
 fm_content_tuner_robbery
+fm_content_ufo_abduction
 fm_content_vehicle_list
 fm_content_vehrob_arena
 fm_content_vehrob_cargo_ship
@@ -695,6 +705,7 @@ lesterhandler
 letterscraps
 line_activation_test
 liverecorder
+localpopulator
 locates_tester
 luxe_veh_activity
 magdemo2
@@ -872,6 +883,7 @@ postrc_nigel3
 profiler_registration
 prologue1
 prop_drop
+public_mission_creator
 puzzle
 racetest
 rampage1
@@ -883,6 +895,7 @@ rampage_controller
 randomchar_controller
 range_modern_mp
 range_modern
+rcpdata
 re_abandonedcar
 re_accident
 re_armybase
@@ -941,7 +954,11 @@ scaleformprofiling
 scaleformtest
 scene_builder
 sclub_front_bouncer
+script_debug.rpf___pilot_school
+script_debug.rpf___pilotschool_dlc_startup
 script_metrics
+script_release.rpf___pilot_school
+script_release.rpf___pilotschool_dlc_startup
 scripted_cam_editor
 scriptplayground
 scripttest1
@@ -1054,6 +1071,7 @@ vehicle_plate
 vehicle_stealth_mode
 vehiclespawning
 vehrob_planning
+vinewood_premium_garage_carmod
 walking_ped
 wardrobe_mp
 wardrobe_sp
