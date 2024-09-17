@@ -536,7 +536,7 @@ int func_13(var uParam0, int iParam1, struct<3> Param2, float fParam5, bool bPar
 	if (ENTITY::DOES_ENTITY_EXIST(iVar1))
 	{
 		*uParam0 = NETWORK::VEH_TO_NET(iVar1);
-		Global_2738934.f_6799 = iVar1;
+		Global_2738935.f_6799 = iVar1;
 		if (NETWORK::NETWORK_DOES_NETWORK_ID_EXIST(*uParam0))
 		{
 			if (bParam15)
@@ -965,8 +965,8 @@ int func_28(int iParam0)
 	{
 		return 1;
 	}
-	Global_2707307 = { func_32(iParam0) };
-	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707307))
+	Global_2707308 = { func_32(iParam0) };
+	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707308))
 	{
 		return 1;
 	}
@@ -1018,15 +1018,15 @@ int func_33(int iParam0, int iParam1)
 {
 	if (NETWORK::NETWORK_CLAN_SERVICE_IS_VALID())
 	{
-		Global_2707307 = { func_32(iParam0) };
-		Global_2707320 = { func_32(iParam1) };
-		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707307))
+		Global_2707308 = { func_32(iParam0) };
+		Global_2707321 = { func_32(iParam1) };
+		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707308))
 		{
-			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707320))
+			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707321))
 			{
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707237, 35, &Global_2707307);
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707272, 35, &Global_2707320);
-				if (Global_2707237 == Global_2707272)
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707238, 35, &Global_2707308);
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707273, 35, &Global_2707321);
+				if (Global_2707238 == Global_2707273)
 				{
 					return 1;
 				}
@@ -1408,7 +1408,7 @@ int func_49()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -1458,7 +1458,7 @@ int func_50()
 
 int func_51()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1562,7 +1562,7 @@ void func_62(struct<21> Param0)
 		MISC::SET_THIS_SCRIPT_CAN_BE_PAUSED(false);
 		if (NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT())
 		{
-			if (Global_2738934.f_4503 == 0)
+			if (Global_2738935.f_4503 == 0)
 			{
 				iVar0 = MISC::GET_RANDOM_INT_IN_RANGE(0, 7);
 				switch (iVar0)
@@ -1598,8 +1598,8 @@ void func_62(struct<21> Param0)
 			}
 			else
 			{
-				Local_60.f_4 = Global_2738934.f_4503;
-				Global_2738934.f_4503 = 0;
+				Local_60.f_4 = Global_2738935.f_4503;
+				Global_2738935.f_4503 = 0;
 			}
 			VEHICLE::SET_VEHICLE_MODEL_IS_SUPPRESSED(Local_60.f_4, true);
 			Local_60.f_5 = func_63(1);

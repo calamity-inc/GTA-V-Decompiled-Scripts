@@ -365,7 +365,7 @@ void __EntryFunction__()
 	iVar0 = func_6();
 	if ((iVar0 >= 0 && !func_3(Global_1586521[iVar0 /*142*/].f_66, 0)) && !func_2(Global_1586521[iVar0 /*142*/].f_66))
 	{
-		Global_2738934.f_1008 = iVar0;
+		Global_2738935.f_1008 = iVar0;
 	}
 	func_1();
 	VEHICLE::SET_ALL_VEHICLE_GENERATORS_ACTIVE_IN_AREA(948.4517f, -39.27819f, 76.75584f, 863.8833f, 22.64865f, 81.86767f, false, true);
@@ -871,13 +871,13 @@ int func_25(var uParam0)
 		iVar1 = func_33();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -8324,7 +8324,7 @@ void func_310()
 	bVar0 = true;
 	func_278(bVar0);
 	Global_23347 = 0;
-	Global_2749372 = 2;
+	Global_2749373 = 2;
 }
 
 void func_311()
@@ -8440,7 +8440,7 @@ void func_322()
 	func_349();
 	func_348();
 	Global_1845149 = 0;
-	Global_2737961 = 0;
+	Global_2737962 = 0;
 	Global_1943380 = 0;
 	Global_1835456 = 0;
 	Global_1919039 = 0;

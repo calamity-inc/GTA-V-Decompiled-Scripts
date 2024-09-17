@@ -6282,7 +6282,7 @@ void func_225(bool bParam0, bool bParam1)
 
 void func_226()
 {
-	Global_2748996.f_92 = 1;
+	Global_2748997.f_92 = 1;
 }
 
 int func_227()

@@ -674,11 +674,11 @@ void func_23(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -1289,9 +1289,9 @@ Vector3 func_47(int iParam0)
 	}
 	else if (func_95(iParam0))
 	{
-		if (ENTITY::DOES_ENTITY_EXIST(Global_2738934.f_311))
+		if (ENTITY::DOES_ENTITY_EXIST(Global_2738935.f_311))
 		{
-			return ENTITY::GET_ENTITY_COORDS(Global_2738934.f_311, false);
+			return ENTITY::GET_ENTITY_COORDS(Global_2738935.f_311, false);
 		}
 	}
 	else if (func_94(iParam0) && !func_93(iParam0))
@@ -1377,9 +1377,9 @@ Vector3 func_47(int iParam0)
 	}
 	else if (func_77(iParam0))
 	{
-		if (ENTITY::DOES_ENTITY_EXIST(Global_2738934.f_313))
+		if (ENTITY::DOES_ENTITY_EXIST(Global_2738935.f_313))
 		{
-			return ENTITY::GET_ENTITY_COORDS(Global_2738934.f_313, false);
+			return ENTITY::GET_ENTITY_COORDS(Global_2738935.f_313, false);
 		}
 	}
 	else if (func_76(iParam0) && !func_75(iParam0))
@@ -3741,15 +3741,15 @@ int func_118(int iParam0, int iParam1)
 
 var func_119()
 {
-	if (Global_2738934.f_298)
+	if (Global_2738935.f_298)
 	{
-		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(Global_2738934.f_297) == 0)
+		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(Global_2738935.f_297) == 0)
 		{
-			Global_2738934.f_298 = 0;
-			Global_2738934.f_297 = -1;
+			Global_2738935.f_298 = 0;
+			Global_2738935.f_297 = -1;
 		}
 	}
-	return Global_2738934.f_298;
+	return Global_2738935.f_298;
 }
 
 void func_120(int iParam0)
@@ -3830,17 +3830,17 @@ void func_126(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 
 var func_127()
 {
-	return Global_2738934.f_5249.f_349;
+	return Global_2738935.f_5249.f_349;
 }
 
 var func_128()
 {
-	return Global_2738934.f_5249.f_348;
+	return Global_2738935.f_5249.f_348;
 }
 
 var func_129()
 {
-	return Global_2738934.f_5249.f_347;
+	return Global_2738935.f_5249.f_347;
 }
 
 int func_130(int iParam0, bool bParam1)
@@ -4046,17 +4046,17 @@ int func_136()
 
 void func_137(int iParam0)
 {
-	if (Global_2738934.f_5249.f_348 != iParam0)
+	if (Global_2738935.f_5249.f_348 != iParam0)
 	{
-		Global_2738934.f_5249.f_348 = iParam0;
+		Global_2738935.f_5249.f_348 = iParam0;
 	}
 }
 
 void func_138(int iParam0)
 {
-	if (Global_2738934.f_5249.f_347 != iParam0)
+	if (Global_2738935.f_5249.f_347 != iParam0)
 	{
-		Global_2738934.f_5249.f_347 = iParam0;
+		Global_2738935.f_5249.f_347 = iParam0;
 	}
 }
 
@@ -4126,13 +4126,13 @@ int func_143(var uParam0)
 		iVar1 = func_35();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -4467,7 +4467,7 @@ void func_149(char* sParam0, int iParam1)
 
 int func_150()
 {
-	return Global_2738934.f_7077;
+	return Global_2738935.f_7077;
 }
 
 int func_151(int iParam0)
@@ -6788,7 +6788,7 @@ int func_207(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		return Global_2708056;
+		return Global_2708057;
 	}
 	else
 	{
@@ -15185,10 +15185,10 @@ int func_346(int iParam0)
 
 void func_347()
 {
-	if (!Global_2738934.f_346)
+	if (!Global_2738935.f_346)
 	{
-		Global_2738934.f_347 = 1;
-		Global_2738934.f_346 = 1;
+		Global_2738935.f_347 = 1;
+		Global_2738935.f_346 = 1;
 	}
 }
 
@@ -16577,7 +16577,7 @@ void func_404(int iParam0, int iParam1)
 
 void func_405()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_406(int iParam0)
@@ -16797,7 +16797,7 @@ int func_419()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -16847,7 +16847,7 @@ int func_420()
 
 int func_421()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -16920,9 +16920,9 @@ int func_429(int iParam0)
 void func_430()
 {
 	func_418();
-	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3) || Global_2738934.f_1969)
+	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3) || Global_2738935.f_1969)
 	{
-		if (Global_2738934.f_1969)
+		if (Global_2738935.f_1969)
 		{
 		}
 		func_445(1, 0);

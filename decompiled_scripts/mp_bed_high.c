@@ -139,7 +139,7 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_367();
-		if ((Global_2707604 || (func_365(PLAYER::PLAYER_ID()) && CAM::IS_SCREEN_FADED_OUT())) || (func_364() && CAM::IS_SCREEN_FADED_OUT()))
+		if ((Global_2707605 || (func_365(PLAYER::PLAYER_ID()) && CAM::IS_SCREEN_FADED_OUT())) || (func_364() && CAM::IS_SCREEN_FADED_OUT()))
 		{
 			func_362();
 		}
@@ -325,7 +325,7 @@ void func_9(int iParam0, int iParam1)
 
 void func_10()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_11()
@@ -633,7 +633,7 @@ void func_15(var uParam0)
 				{
 					ENTITY::SET_ENTITY_VISIBLE(PLAYER::PLAYER_PED_ID(), true, false);
 				}
-				Global_2698940.f_106 = 0;
+				Global_2698941.f_106 = 0;
 				if (Global_1943520.f_4987 != -1)
 				{
 					Global_1943520.f_4987 = -1;
@@ -2064,13 +2064,13 @@ int func_39(var uParam0)
 		iVar1 = func_40();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -73767,11 +73767,11 @@ void func_295(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -75222,7 +75222,7 @@ int func_354()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -75272,7 +75272,7 @@ int func_355()
 
 int func_356()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -75313,7 +75313,7 @@ int func_361()
 
 void func_362()
 {
-	Global_2698940.f_106 = 0;
+	Global_2698941.f_106 = 0;
 	if (BitTest(uLocal_62, 1))
 	{
 		MISC::CLEAR_BIT(&uLocal_62, 1);
@@ -75352,7 +75352,7 @@ void func_362()
 	{
 		STREAMING::REMOVE_ANIM_DICT(sLocal_76);
 	}
-	Global_2698940.f_106 = 0;
+	Global_2698941.f_106 = 0;
 	func_363();
 }
 

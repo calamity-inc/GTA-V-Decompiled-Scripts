@@ -1334,11 +1334,11 @@ void func_19(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -2070,7 +2070,7 @@ var func_50()
 
 var func_51()
 {
-	return Global_2697731;
+	return Global_2697732;
 }
 
 var func_52()
@@ -2212,7 +2212,7 @@ void func_61(int iParam0, int iParam1, int iParam2, bool bParam3, int iParam4, i
 	{
 		if (func_62(iParam0, iParam1))
 		{
-			func_56(&Global_2707910);
+			func_56(&Global_2707911);
 		}
 	}
 }
@@ -2225,7 +2225,7 @@ int func_62(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 67:
-					if (func_63(&Global_2707910))
+					if (func_63(&Global_2707911))
 					{
 						return 1;
 					}
@@ -2545,13 +2545,13 @@ int func_75(var uParam0)
 		iVar1 = func_30();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -3336,7 +3336,7 @@ void func_87()
 			}
 		}
 	}
-	else if ((((((((!BitTest(Global_1310720.f_6, 0) && !BitTest(Global_2738934.f_460.f_5, 3)) && (!Global_2635562 || (Global_2635562 && Global_2685444.f_1.f_2829.f_13 > 0))) && !func_131()) && !func_126()) && !func_125()) && !func_124()) && !Global_1574989) && (!func_45(PLAYER::PLAYER_ID()) || Global_1575004))
+	else if ((((((((!BitTest(Global_1310720.f_6, 0) && !BitTest(Global_2738935.f_460.f_5, 3)) && (!Global_2635562 || (Global_2635562 && Global_2685444.f_1.f_2829.f_13 > 0))) && !func_131()) && !func_126()) && !func_125()) && !func_124()) && !Global_1574989) && (!func_45(PLAYER::PLAYER_ID()) || Global_1575004))
 	{
 		if (SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("am_mp_property_int")) <= 0 && !NETWORK::NETWORK_IS_SCRIPT_ACTIVE("AM_MP_PROPERTY_INT", Global_1310720.f_1545, true, 0))
 		{
@@ -5615,7 +5615,7 @@ int func_121(int iParam0)
 {
 	if (func_122(iParam0))
 	{
-		return Global_2748996.f_2[iParam0];
+		return Global_2748997.f_2[iParam0];
 	}
 	return 0;
 }
@@ -6674,17 +6674,17 @@ void func_181(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 
 var func_182()
 {
-	return Global_2738934.f_5249.f_349;
+	return Global_2738935.f_5249.f_349;
 }
 
 var func_183()
 {
-	return Global_2738934.f_5249.f_348;
+	return Global_2738935.f_5249.f_348;
 }
 
 var func_184()
 {
-	return Global_2738934.f_5249.f_347;
+	return Global_2738935.f_5249.f_347;
 }
 
 int func_185(int iParam0, bool bParam1)
@@ -6901,9 +6901,9 @@ int func_191(int iParam0)
 
 void func_192(int iParam0)
 {
-	if (Global_2738934.f_5249.f_347 != iParam0)
+	if (Global_2738935.f_5249.f_347 != iParam0)
 	{
-		Global_2738934.f_5249.f_347 = iParam0;
+		Global_2738935.f_5249.f_347 = iParam0;
 	}
 }
 
@@ -7478,7 +7478,7 @@ int func_224(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		return Global_2708056;
+		return Global_2708057;
 	}
 	else
 	{
@@ -102567,7 +102567,7 @@ int func_703()
 	{
 		return 1;
 	}
-	if (NETWORK::NETWORK_IS_ACTIVITY_SESSION() && !Global_2697527)
+	if (NETWORK::NETWORK_IS_ACTIVITY_SESSION() && !Global_2697528)
 	{
 		return 1;
 	}
@@ -103047,7 +103047,7 @@ int func_733()
 		{
 			if (ENTITY::DOES_ENTITY_EXIST(func_734()) && VEHICLE::IS_VEHICLE_DRIVEABLE(func_734(), false))
 			{
-				if (MISC::GET_DISTANCE_BETWEEN_COORDS(5017.422f, -5130.448f, 2.19928f, ENTITY::GET_ENTITY_COORDS(Global_2738934.f_301, true), true) < 1500f)
+				if (MISC::GET_DISTANCE_BETWEEN_COORDS(5017.422f, -5130.448f, 2.19928f, ENTITY::GET_ENTITY_COORDS(Global_2738935.f_301, true), true) < 1500f)
 				{
 					return 1;
 				}
@@ -103066,12 +103066,12 @@ int func_734()
 			return NETWORK::NET_TO_VEH(Global_2657971[PLAYER::PLAYER_ID() /*465*/].f_38);
 		}
 	}
-	return Global_2738934.f_301;
+	return Global_2738935.f_301;
 }
 
 int func_735()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -103590,7 +103590,7 @@ int func_771()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}

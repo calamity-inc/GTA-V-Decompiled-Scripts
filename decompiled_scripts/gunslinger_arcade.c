@@ -7510,13 +7510,13 @@ int func_167(var uParam0)
 		iVar1 = func_168();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -78622,7 +78622,7 @@ void func_396()
 		Global_1668667.f_170[iVar0] = 0;
 		iVar0++;
 	}
-	Global_2738934.f_4651 = 1;
+	Global_2738935.f_4651 = 1;
 }
 
 void func_397(bool bParam0)
@@ -78969,11 +78969,11 @@ void func_405(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -82995,13 +82995,13 @@ int func_508()
 	{
 		if (func_505("degenatron_games", 8344))
 		{
-			Global_2738934.f_6960 = 2;
+			Global_2738935.f_6960 = 2;
 			return 1;
 		}
 	}
 	else
 	{
-		Global_2738934.f_6960 = 2;
+		Global_2738935.f_6960 = 2;
 		return 1;
 	}
 	return 0;
@@ -83013,13 +83013,13 @@ int func_509()
 	{
 		if (func_505("degenatron_games", 8344))
 		{
-			Global_2738934.f_6960 = 1;
+			Global_2738935.f_6960 = 1;
 			return 1;
 		}
 	}
 	else
 	{
-		Global_2738934.f_6960 = 1;
+		Global_2738935.f_6960 = 1;
 		return 1;
 	}
 	return 0;
@@ -83031,13 +83031,13 @@ int func_510()
 	{
 		if (func_505("degenatron_games", 8344))
 		{
-			Global_2738934.f_6960 = 0;
+			Global_2738935.f_6960 = 0;
 			return 1;
 		}
 	}
 	else
 	{
-		Global_2738934.f_6960 = 0;
+		Global_2738935.f_6960 = 0;
 		return 1;
 	}
 	return 0;
@@ -95769,17 +95769,17 @@ void func_790(int iParam0)
 			if (bVar0 <= 63)
 			{
 				bVar0 = (bVar0 - 32);
-				MISC::SET_BIT(&(Global_2738934.f_6965), bVar0);
+				MISC::SET_BIT(&(Global_2738935.f_6965), bVar0);
 			}
 			else if (bVar0 <= 95)
 			{
 				bVar0 = (bVar0 - 64);
-				MISC::SET_BIT(&(Global_2738934.f_6966), bVar0);
+				MISC::SET_BIT(&(Global_2738935.f_6966), bVar0);
 			}
 		}
 		else
 		{
-			MISC::SET_BIT(&(Global_2738934.f_6964), bVar0);
+			MISC::SET_BIT(&(Global_2738935.f_6964), bVar0);
 		}
 	}
 }
@@ -95790,17 +95790,17 @@ bool func_791(var uParam0)
 	var uVar1;
 	
 	iVar0 = uParam0;
-	uVar1 = Global_2738934.f_6964;
+	uVar1 = Global_2738935.f_6964;
 	if (iVar0 > 31)
 	{
 		if (iVar0 <= 63)
 		{
-			uVar1 = Global_2738934.f_6965;
+			uVar1 = Global_2738935.f_6965;
 			iVar0 = (iVar0 - 32);
 		}
 		else if (iVar0 <= 95)
 		{
-			uVar1 = Global_2738934.f_6966;
+			uVar1 = Global_2738935.f_6966;
 			iVar0 = (iVar0 - 64);
 		}
 	}

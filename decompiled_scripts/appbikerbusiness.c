@@ -1752,13 +1752,13 @@ int func_24(var uParam0)
 		iVar1 = func_25();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -3062,7 +3062,7 @@ int func_66(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		return Global_2708056;
+		return Global_2708057;
 	}
 	else
 	{
@@ -13269,7 +13269,7 @@ int func_255(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam3 == 1067618600 || iParam3 == -1303831698)
 			{
@@ -13452,8 +13452,8 @@ int func_260(int iParam0)
 
 void func_261(int iParam0, int iParam1)
 {
-	Global_2698855 = iParam1;
-	Global_2698854 = iParam0;
+	Global_2698856 = iParam1;
+	Global_2698855 = iParam0;
 }
 
 int func_262(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, bool bParam6, int iParam7, var uParam8, int iParam9, bool bParam10)
@@ -13737,17 +13737,17 @@ void func_275(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, v
 
 var func_276()
 {
-	return Global_2738934.f_5249.f_349;
+	return Global_2738935.f_5249.f_349;
 }
 
 var func_277()
 {
-	return Global_2738934.f_5249.f_348;
+	return Global_2738935.f_5249.f_348;
 }
 
 var func_278()
 {
-	return Global_2738934.f_5249.f_347;
+	return Global_2738935.f_5249.f_347;
 }
 
 int func_279(int iParam0, bool bParam1)
@@ -14065,7 +14065,7 @@ int func_295()
 			}
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (Global_4535950[iVar2 /*85*/].f_66.f_6 == 1067618600 || Global_4535950[iVar2 /*85*/].f_66.f_6 == -1303831698)
 			{
@@ -14442,7 +14442,7 @@ int func_298(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam1 == 1067618600 || iParam1 == -1303831698)
 			{
@@ -14539,7 +14539,7 @@ int func_300(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, va
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam2 == 1067618600 || iParam2 == -1303831698)
 			{
@@ -15362,7 +15362,7 @@ void func_317(int iParam0, bool bParam1)
 		return;
 	}
 	func_323(iVar0, iParam0, 1, 0);
-	func_322(&(Global_2707716[iParam0 /*2*/]));
+	func_322(&(Global_2707717[iParam0 /*2*/]));
 	bVar1 = iVar0;
 	iVar2 = func_321(iParam0);
 	func_430(iVar2, 0, -1);
@@ -15478,10 +15478,10 @@ void func_323(int iParam0, int iParam1, bool bParam2, bool bParam3)
 		return;
 	}
 	iVar0 = func_325(iParam0);
-	iVar1 = (iVar0 - MISC::ABSI(NETWORK::GET_TIME_DIFFERENCE(NETWORK::GET_NETWORK_TIME(), Global_2707716[iParam1 /*2*/])));
+	iVar1 = (iVar0 - MISC::ABSI(NETWORK::GET_TIME_DIFFERENCE(NETWORK::GET_NETWORK_TIME(), Global_2707717[iParam1 /*2*/])));
 	if (bParam2)
 	{
-		func_322(&(Global_2707716[iParam1 /*2*/]));
+		func_322(&(Global_2707717[iParam1 /*2*/]));
 	}
 	if (bParam3)
 	{
@@ -15489,7 +15489,7 @@ void func_323(int iParam0, int iParam1, bool bParam2, bool bParam3)
 	}
 	iVar2 = func_324(iParam0);
 	func_250(iVar2, iVar1, -1, 1);
-	Global_2707735[iParam0] = iVar1;
+	Global_2707736[iParam0] = iVar1;
 }
 
 int func_324(int iParam0)
@@ -15528,7 +15528,7 @@ int func_325(int iParam0)
 	{
 		return -1;
 	}
-	return Global_2707735[iParam0];
+	return Global_2707736[iParam0];
 }
 
 bool func_326(int iParam0)
@@ -16278,9 +16278,9 @@ void func_354(int iParam0)
 
 void func_355(int iParam0)
 {
-	if (Global_2738934.f_5249.f_347 != iParam0)
+	if (Global_2738935.f_5249.f_347 != iParam0)
 	{
-		Global_2738934.f_5249.f_347 = iParam0;
+		Global_2738935.f_5249.f_347 = iParam0;
 	}
 }
 
@@ -16567,7 +16567,7 @@ void func_371(int iParam0)
 	
 	iVar0 = (iParam0 / 32);
 	bVar1 = (iParam0 % 32);
-	MISC::CLEAR_BIT(&(Global_2738934.f_5249.f_14[iVar0]), bVar1);
+	MISC::CLEAR_BIT(&(Global_2738935.f_5249.f_14[iVar0]), bVar1);
 }
 
 void func_372(int iParam0)
@@ -18978,7 +18978,7 @@ void func_437(bool bParam0, int iParam1)
 
 void func_438()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_439(int iParam0)
@@ -20644,11 +20644,11 @@ void func_502(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{

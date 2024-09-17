@@ -2445,7 +2445,7 @@ void func_68(var uParam0, int iParam1, bool bParam2)
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_2738934.f_4712, 26))
+		if (BitTest(Global_2738935.f_4712, 26))
 		{
 			return;
 		}

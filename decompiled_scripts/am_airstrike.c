@@ -387,7 +387,7 @@ void func_1()
 	{
 		Local_240.f_0 = 3;
 	}
-	if (Global_2708057.f_224 || func_2(PLAYER::PLAYER_ID()))
+	if (Global_2708058.f_224 || func_2(PLAYER::PLAYER_ID()))
 	{
 		Local_240.f_0 = 3;
 	}
@@ -404,7 +404,7 @@ int func_2(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		return Global_2708056;
+		return Global_2708057;
 	}
 	else
 	{
@@ -2146,7 +2146,7 @@ int func_69(var uParam0, int iParam1, struct<3> Param2, float fParam5, bool bPar
 	if (ENTITY::DOES_ENTITY_EXIST(iVar1))
 	{
 		*uParam0 = NETWORK::VEH_TO_NET(iVar1);
-		Global_2738934.f_6799 = iVar1;
+		Global_2738935.f_6799 = iVar1;
 		if (NETWORK::NETWORK_DOES_NETWORK_ID_EXIST(*uParam0))
 		{
 			if (bParam15)
@@ -2521,8 +2521,8 @@ int func_82(int iParam0)
 	{
 		return 1;
 	}
-	Global_2707307 = { func_85(iParam0) };
-	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707307))
+	Global_2707308 = { func_85(iParam0) };
+	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707308))
 	{
 		return 1;
 	}
@@ -2569,15 +2569,15 @@ int func_86(int iParam0, int iParam1)
 {
 	if (NETWORK::NETWORK_CLAN_SERVICE_IS_VALID())
 	{
-		Global_2707307 = { func_85(iParam0) };
-		Global_2707320 = { func_85(iParam1) };
-		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707307))
+		Global_2707308 = { func_85(iParam0) };
+		Global_2707321 = { func_85(iParam1) };
+		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707308))
 		{
-			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707320))
+			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707321))
 			{
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707237, 35, &Global_2707307);
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707272, 35, &Global_2707320);
-				if (Global_2707237 == Global_2707272)
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707238, 35, &Global_2707308);
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707273, 35, &Global_2707321);
+				if (Global_2707238 == Global_2707273)
 				{
 					return 1;
 				}
@@ -2647,7 +2647,7 @@ void func_92(int iParam0)
 {
 	if (iParam0 == 3)
 	{
-		Global_2738934.f_4509 = 0;
+		Global_2738935.f_4509 = 0;
 	}
 	Local_240.f_2.f_2 = iParam0;
 }
@@ -2766,7 +2766,7 @@ void func_99(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4, 
 
 void func_100()
 {
-	Global_2738934.f_4508 = Local_240.f_53;
+	Global_2738935.f_4508 = Local_240.f_53;
 }
 
 int func_101()
@@ -2857,7 +2857,7 @@ int func_108()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -2907,7 +2907,7 @@ int func_109()
 
 int func_110()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

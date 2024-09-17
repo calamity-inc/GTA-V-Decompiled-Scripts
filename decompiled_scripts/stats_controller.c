@@ -561,13 +561,13 @@ int func_6(var uParam0)
 		iVar1 = func_7();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -655,12 +655,12 @@ int func_9()
 		{
 			if (!func_39(3, -1))
 			{
-				if (func_37(&Global_2698837, 300000, 0) == 1)
+				if (func_37(&Global_2698838, 300000, 0) == 1)
 				{
-					func_36(&Global_2698835);
+					func_36(&Global_2698836);
 					func_34(3, -1);
 				}
-				else if (func_37(&Global_2698835, 7000, 0) == 0)
+				else if (func_37(&Global_2698836, 7000, 0) == 0)
 				{
 					return 0;
 				}
@@ -762,7 +762,7 @@ int func_9()
 	{
 		return 0;
 	}
-	if (Global_2738934.f_4084)
+	if (Global_2738935.f_4084)
 	{
 		return 0;
 	}
@@ -1266,7 +1266,7 @@ bool func_42()
 
 bool func_43()
 {
-	return Global_2708056;
+	return Global_2708057;
 }
 
 bool func_44(int iParam0)

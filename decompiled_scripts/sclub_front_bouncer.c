@@ -677,7 +677,7 @@ bool func_3()
 	{
 		return SCRIPT::GET_NUMBER_OF_THREADS_RUNNING_THE_SCRIPT_WITH_THIS_HASH(joaat("stripclub")) == 0;
 	}
-	if (func_4(PLAYER::PLAYER_ID()) == 185 && Global_2738934.f_4698 == 2)
+	if (func_4(PLAYER::PLAYER_ID()) == 185 && Global_2738935.f_4698 == 2)
 	{
 		return 1;
 	}
@@ -1701,13 +1701,13 @@ int func_52(int iParam0)
 		iVar1 = func_53();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2703,7 +2703,7 @@ int func_95()
 {
 	if (bLocal_338)
 	{
-		if (func_4(PLAYER::PLAYER_ID()) == 185 && Global_2738934.f_4698 == 2)
+		if (func_4(PLAYER::PLAYER_ID()) == 185 && Global_2738935.f_4698 == 2)
 		{
 			return 0;
 		}
@@ -3016,7 +3016,7 @@ int func_109()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -3066,7 +3066,7 @@ int func_110()
 
 int func_111()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

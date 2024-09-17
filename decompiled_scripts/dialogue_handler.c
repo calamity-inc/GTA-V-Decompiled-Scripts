@@ -2862,7 +2862,7 @@ void func_65()
 				if (!MISC::IS_PC_VERSION())
 				{
 					func_120(Global_20911, "SET_SOFT_KEYS", 1f, 1f, 8f, -1f, -1f, "CELL_201", 0, 0, 0, 0);
-					MISC::SET_BIT(&(Global_2738934.f_1847), 15);
+					MISC::SET_BIT(&(Global_2738935.f_1847), 15);
 				}
 			}
 		}
@@ -3025,8 +3025,8 @@ void func_68()
 
 void func_69()
 {
-	Global_2746025.f_2 = 1;
-	Global_2746025.f_38 = 1;
+	Global_2746026.f_2 = 1;
+	Global_2746026.f_38 = 1;
 	if (NETWORK::NETWORK_IS_SIGNED_ONLINE())
 	{
 		if (NETWORK::NETWORK_SESSION_IS_IN_VOICE_SESSION())
@@ -3036,14 +3036,14 @@ void func_69()
 				SYSTEM::WAIT(0);
 			}
 			NETWORK::NETWORK_SESSION_VOICE_LEAVE();
-			Global_2746025 = 0;
-			Global_2746025.f_2 = 0;
+			Global_2746026 = 0;
+			Global_2746026.f_2 = 0;
 		}
-		else if (func_72(Global_2746025.f_20))
+		else if (func_72(Global_2746026.f_20))
 		{
-			if (NETWORK::NETWORK_IS_FRIEND(&(Global_2746025.f_20)))
+			if (NETWORK::NETWORK_IS_FRIEND(&(Global_2746026.f_20)))
 			{
-				if (!NETWORK::NETWORK_IS_FRIEND_HANDLE_ONLINE(&(Global_2746025.f_20)))
+				if (!NETWORK::NETWORK_IS_FRIEND_HANDLE_ONLINE(&(Global_2746026.f_20)))
 				{
 					func_70();
 				}
@@ -3058,29 +3058,29 @@ void func_69()
 	{
 		func_70();
 	}
-	if (Global_2746025.f_37)
+	if (Global_2746026.f_37)
 	{
 		func_54(0);
 	}
-	Global_2746025.f_37 = 0;
-	Global_2746025.f_3 = 0;
+	Global_2746026.f_37 = 0;
+	Global_2746026.f_3 = 0;
 }
 
 void func_70()
 {
-	Global_2746025.f_1 = 0;
-	Global_2746025 = 0;
-	Global_2746025.f_2 = 0;
-	Global_2746025.f_33 = -1;
-	Global_2746025.f_34 = -1;
-	StringCopy(&(Global_2746025.f_4), "", 64);
-	StringCopy(&(Global_2746025.f_39[0 /*16*/]), "", 64);
-	Global_2746025.f_38 = 0;
-	Global_2746025.f_56 = 0;
-	Global_2746025.f_57 = 0;
-	Global_2746025.f_58 = -2;
-	Global_2746025.f_3 = 0;
-	func_71(&(Global_2746025.f_20));
+	Global_2746026.f_1 = 0;
+	Global_2746026 = 0;
+	Global_2746026.f_2 = 0;
+	Global_2746026.f_33 = -1;
+	Global_2746026.f_34 = -1;
+	StringCopy(&(Global_2746026.f_4), "", 64);
+	StringCopy(&(Global_2746026.f_39[0 /*16*/]), "", 64);
+	Global_2746026.f_38 = 0;
+	Global_2746026.f_56 = 0;
+	Global_2746026.f_57 = 0;
+	Global_2746026.f_58 = -2;
+	Global_2746026.f_3 = 0;
+	func_71(&(Global_2746026.f_20));
 }
 
 void func_71(var uParam0)

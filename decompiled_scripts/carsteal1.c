@@ -4896,15 +4896,15 @@ void func_28(int iParam0, int iParam1, bool bParam2)
 			iVar0 = iParam1;
 			func_23(iParam0, iVar0, 1);
 			func_22(iParam0, iVar0, 1);
-			if (iParam0 == 172 && !BitTest(Global_2738934.f_6969, 4))
+			if (iParam0 == 172 && !BitTest(Global_2738935.f_6969, 4))
 			{
 				bParam2 = false;
 			}
-			if (iParam0 == 171 && !BitTest(Global_2738934.f_6969, 3))
+			if (iParam0 == 171 && !BitTest(Global_2738935.f_6969, 3))
 			{
 				bParam2 = false;
 			}
-			if (iParam0 == 173 && !BitTest(Global_2738934.f_6969, 3))
+			if (iParam0 == 173 && !BitTest(Global_2738935.f_6969, 3))
 			{
 				bParam2 = false;
 			}
@@ -8510,13 +8510,13 @@ int func_51(var uParam0)
 		iVar1 = func_52();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -95367,8 +95367,8 @@ void func_391(int iParam0)
 	{
 		sVar1 = func_416(iParam0);
 		iVar2 = MISC::GET_HASH_KEY(sVar1);
-		uVar3 = func_415(&Global_2698777, 1, 0);
-		func_414(&Global_2698775, 1, 0);
+		uVar3 = func_415(&Global_2698778, 1, 0);
+		func_414(&Global_2698776, 1, 0);
 		NETWORK::NETWORK_TRANSITION_ADD_STAGE(iVar2, 1, iVar0, iParam0, 0);
 	}
 	if (iParam0 == 2)
@@ -96338,7 +96338,7 @@ void func_425(int iParam0)
 {
 	if (iParam0 == 0)
 	{
-		Global_2698753 = 0;
+		Global_2698754 = 0;
 	}
 	Global_1574633.f_18 = iParam0;
 }
@@ -105264,7 +105264,7 @@ void func_573(var uParam0, int iParam1, bool bParam2)
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_2738934.f_4712, 26))
+		if (BitTest(Global_2738935.f_4712, 26))
 		{
 			return;
 		}
@@ -123597,7 +123597,7 @@ int func_797(int iParam0, bool bParam1)
 		case joaat("insurgent"):
 			if (func_799(ENTITY::GET_ENTITY_MODEL(iParam0), 0))
 			{
-				if (Global_2738934.f_307 == iParam0)
+				if (Global_2738935.f_307 == iParam0)
 				{
 					return 1;
 				}
@@ -124286,7 +124286,7 @@ int func_809(int iParam0)
 
 int func_810(int iParam0)
 {
-	if (Global_2738934.f_301 == iParam0)
+	if (Global_2738935.f_301 == iParam0)
 	{
 		return 1;
 	}
@@ -124821,11 +124821,11 @@ int func_827(int iParam0, int iParam1)
 	int iVar0;
 	int iVar1;
 	
-	if (Global_2707347)
+	if (Global_2707348)
 	{
 		return 1;
 	}
-	if ((!Global_2707348 && iParam1 >= 0) && iParam1 <= 517)
+	if ((!Global_2707349 && iParam1 >= 0) && iParam1 <= 517)
 	{
 		if (BitTest(Global_1586521[iParam1 /*142*/].f_103, 2))
 		{

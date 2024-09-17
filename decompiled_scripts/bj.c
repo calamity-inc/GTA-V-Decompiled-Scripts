@@ -5509,7 +5509,7 @@ int func_90()
 
 bool func_91()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 bool func_92()
@@ -11468,7 +11468,7 @@ void func_178(bool bParam0, int iParam1)
 
 void func_179()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_180(var uParam0, bool bParam1, bool bParam2)
@@ -15767,13 +15767,13 @@ int func_232(var uParam0)
 		iVar1 = func_233();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -17675,11 +17675,11 @@ int func_295(int iParam0, int iParam1)
 	int iVar0;
 	int iVar1;
 	
-	if (Global_2707347)
+	if (Global_2707348)
 	{
 		return 1;
 	}
-	if ((!Global_2707348 && iParam1 >= 0) && iParam1 <= 517)
+	if ((!Global_2707349 && iParam1 >= 0) && iParam1 <= 517)
 	{
 		if (BitTest(Global_1586521[iParam1 /*142*/].f_103, 2))
 		{
@@ -24360,7 +24360,7 @@ void func_499(var uParam0, int iParam1)
 	{
 		func_94(&(Global_2103068.f_49));
 	}
-	Global_2738934.f_4084 = 0;
+	Global_2738935.f_4084 = 0;
 }
 
 void func_500()

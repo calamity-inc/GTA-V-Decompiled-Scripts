@@ -5029,13 +5029,13 @@ int func_44(var uParam0)
 		iVar1 = func_45();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -93226,7 +93226,7 @@ void func_412(var uParam0, int iParam1, bool bParam2)
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_2738934.f_4712, 26))
+		if (BitTest(Global_2738935.f_4712, 26))
 		{
 			return;
 		}
@@ -115762,7 +115762,7 @@ int func_1045()
 
 bool func_1046()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 bool func_1047()
@@ -121623,7 +121623,7 @@ void func_1128(int iParam0)
 
 void func_1129()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_1130(var uParam0, bool bParam1, bool bParam2)
@@ -124241,7 +124241,7 @@ void func_1149(var uParam0, int iParam1)
 	{
 		func_1049(&(Global_2103068.f_49));
 	}
-	Global_2738934.f_4084 = 0;
+	Global_2738935.f_4084 = 0;
 }
 
 void func_1150()

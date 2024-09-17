@@ -551,13 +551,13 @@ int func_9(var uParam0)
 		iVar1 = func_10();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2041,9 +2041,9 @@ int func_54()
 
 int func_55()
 {
-	if (Global_2738934.f_6894.f_3 != -1)
+	if (Global_2738935.f_6894.f_3 != -1)
 	{
-		return (Global_2738934.f_6894.f_3 % 14);
+		return (Global_2738935.f_6894.f_3 % 14);
 	}
 	return -1;
 }
@@ -2291,9 +2291,9 @@ int func_61()
 
 int func_62()
 {
-	if (Global_2738934.f_6894.f_3 != -1)
+	if (Global_2738935.f_6894.f_3 != -1)
 	{
-		return (Global_2738934.f_6894.f_3 % 14);
+		return (Global_2738935.f_6894.f_3 % 14);
 	}
 	return -1;
 }
@@ -2527,7 +2527,7 @@ int func_66()
 	{
 		return Global_262145.f_10746;
 	}
-	iVar0 = Global_2738934.f_5076;
+	iVar0 = Global_2738935.f_5076;
 	if (iVar0 == -1)
 	{
 		iVar1 = (NETWORK::GET_CLOUD_TIME_AS_INT() - Global_262145.f_10745);
@@ -2542,7 +2542,7 @@ int func_66()
 	{
 		iVar0 = 0;
 	}
-	Global_2738934.f_5076 = iVar0;
+	Global_2738935.f_5076 = iVar0;
 	return iVar0;
 }
 
@@ -3164,11 +3164,11 @@ void func_76(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -3819,9 +3819,9 @@ Vector3 func_107(int iParam0)
 	}
 	else if (func_155(iParam0))
 	{
-		if (ENTITY::DOES_ENTITY_EXIST(Global_2738934.f_311))
+		if (ENTITY::DOES_ENTITY_EXIST(Global_2738935.f_311))
 		{
-			return ENTITY::GET_ENTITY_COORDS(Global_2738934.f_311, false);
+			return ENTITY::GET_ENTITY_COORDS(Global_2738935.f_311, false);
 		}
 	}
 	else if (func_154(iParam0) && !func_153(iParam0))
@@ -3907,9 +3907,9 @@ Vector3 func_107(int iParam0)
 	}
 	else if (func_137(iParam0))
 	{
-		if (ENTITY::DOES_ENTITY_EXIST(Global_2738934.f_313))
+		if (ENTITY::DOES_ENTITY_EXIST(Global_2738935.f_313))
 		{
-			return ENTITY::GET_ENTITY_COORDS(Global_2738934.f_313, false);
+			return ENTITY::GET_ENTITY_COORDS(Global_2738935.f_313, false);
 		}
 	}
 	else if (func_136(iParam0) && !func_135(iParam0))
@@ -7024,7 +7024,7 @@ int func_204(var uParam0, int iParam1)
 		{
 			return 7;
 		}
-		if (BitTest(Global_2738934.f_868, 2))
+		if (BitTest(Global_2738935.f_868, 2))
 		{
 			return 8;
 		}
@@ -7938,14 +7938,14 @@ int func_235()
 {
 	var uVar0;
 	
-	if (BitTest(Global_2738934.f_1846, 7))
+	if (BitTest(Global_2738935.f_1846, 7))
 	{
 		return 1;
 	}
 	uVar0 = func_7(1304, -1);
 	if (BitTest(uVar0, 6))
 	{
-		MISC::SET_BIT(&(Global_2738934.f_1846), 7);
+		MISC::SET_BIT(&(Global_2738935.f_1846), 7);
 		return 1;
 	}
 	if (func_211())
@@ -7966,7 +7966,7 @@ bool func_236()
 
 int func_237()
 {
-	if (BitTest(Global_2738934.f_1846, 28) && !BitTest(Global_2738934.f_1846, 29))
+	if (BitTest(Global_2738935.f_1846, 28) && !BitTest(Global_2738935.f_1846, 29))
 	{
 		return 1;
 	}
@@ -7975,7 +7975,7 @@ int func_237()
 
 bool func_238()
 {
-	return BitTest(Global_2738934.f_1847, 3);
+	return BitTest(Global_2738935.f_1847, 3);
 }
 
 int func_239(int iParam0)
@@ -8071,7 +8071,7 @@ int func_243()
 	{
 		return 1;
 	}
-	if (BitTest(Global_2738934.f_1846, 23))
+	if (BitTest(Global_2738935.f_1846, 23))
 	{
 		return 1;
 	}
@@ -8086,7 +8086,7 @@ int func_243()
 	uVar0 = func_7(1304, -1);
 	if (BitTest(uVar0, 7))
 	{
-		MISC::SET_BIT(&(Global_2738934.f_1846), 23);
+		MISC::SET_BIT(&(Global_2738935.f_1846), 23);
 		return 1;
 	}
 	return 0;

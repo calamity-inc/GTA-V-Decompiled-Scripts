@@ -7452,13 +7452,13 @@ int func_164(var uParam0)
 		iVar1 = func_165();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -78564,7 +78564,7 @@ void func_393()
 		Global_1668667.f_170[iVar0] = 0;
 		iVar0++;
 	}
-	Global_2738934.f_4651 = 1;
+	Global_2738935.f_4651 = 1;
 }
 
 void func_394(bool bParam0)
@@ -78911,11 +78911,11 @@ void func_402(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -82937,13 +82937,13 @@ int func_505()
 	{
 		if (func_502("degenatron_games", 8344))
 		{
-			Global_2738934.f_6960 = 2;
+			Global_2738935.f_6960 = 2;
 			return 1;
 		}
 	}
 	else
 	{
-		Global_2738934.f_6960 = 2;
+		Global_2738935.f_6960 = 2;
 		return 1;
 	}
 	return 0;
@@ -82955,13 +82955,13 @@ int func_506()
 	{
 		if (func_502("degenatron_games", 8344))
 		{
-			Global_2738934.f_6960 = 1;
+			Global_2738935.f_6960 = 1;
 			return 1;
 		}
 	}
 	else
 	{
-		Global_2738934.f_6960 = 1;
+		Global_2738935.f_6960 = 1;
 		return 1;
 	}
 	return 0;
@@ -82973,13 +82973,13 @@ int func_507()
 	{
 		if (func_502("degenatron_games", 8344))
 		{
-			Global_2738934.f_6960 = 0;
+			Global_2738935.f_6960 = 0;
 			return 1;
 		}
 	}
 	else
 	{
-		Global_2738934.f_6960 = 0;
+		Global_2738935.f_6960 = 0;
 		return 1;
 	}
 	return 0;
@@ -99527,17 +99527,17 @@ void func_920(int iParam0)
 			if (iVar0 <= 63)
 			{
 				iVar0 = (iVar0 - 32);
-				MISC::SET_BIT(&(Global_2738934.f_6965), iVar0);
+				MISC::SET_BIT(&(Global_2738935.f_6965), iVar0);
 			}
 			else if (bVar0 <= 95)
 			{
 				bVar0 = (bVar0 - 64);
-				MISC::SET_BIT(&(Global_2738934.f_6966), bVar0);
+				MISC::SET_BIT(&(Global_2738935.f_6966), bVar0);
 			}
 		}
 		else
 		{
-			MISC::SET_BIT(&(Global_2738934.f_6964), bVar0);
+			MISC::SET_BIT(&(Global_2738935.f_6964), bVar0);
 		}
 	}
 }
@@ -99548,17 +99548,17 @@ bool func_921(var uParam0)
 	var uVar1;
 	
 	iVar0 = uParam0;
-	uVar1 = Global_2738934.f_6964;
+	uVar1 = Global_2738935.f_6964;
 	if (iVar0 > 31)
 	{
 		if (iVar0 <= 63)
 		{
-			uVar1 = Global_2738934.f_6965;
+			uVar1 = Global_2738935.f_6965;
 			iVar0 = (iVar0 - 32);
 		}
 		else if (iVar0 <= 95)
 		{
-			uVar1 = Global_2738934.f_6966;
+			uVar1 = Global_2738935.f_6966;
 			iVar0 = (iVar0 - 64);
 		}
 	}
@@ -103282,30 +103282,30 @@ int func_1020()
 	{
 		return 1;
 	}
-	if (Global_2697634)
+	if (Global_2697635)
 	{
 		return 1;
 	}
 	bVar0 = (((NETWORK::NETWORK_IS_IN_MP_CUTSCENE() && !func_1027()) || Global_1956949) && !func_1026());
-	if (((((((((bVar0 == 0 || func_1025() == 1) && func_1024() == 0) && func_1023(0) == 0) && func_1023(2) == 0) && func_1023(1) == 0) && func_1022(PLAYER::PLAYER_ID()) == 0) && HUD::IS_SOCIAL_CLUB_ACTIVE() == 0) && BitTest(Global_2738934.f_1847, 12) == 0) && MISC::PLM_IS_IN_CONSTRAINED_MODE() == 0)
+	if (((((((((bVar0 == 0 || func_1025() == 1) && func_1024() == 0) && func_1023(0) == 0) && func_1023(2) == 0) && func_1023(1) == 0) && func_1022(PLAYER::PLAYER_ID()) == 0) && HUD::IS_SOCIAL_CLUB_ACTIVE() == 0) && BitTest(Global_2738935.f_1847, 12) == 0) && MISC::PLM_IS_IN_CONSTRAINED_MODE() == 0)
 	{
 		return 0;
 	}
 	if (func_1021())
 	{
 		Var1 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), true) };
-		if (Var1.f_0 == Global_2750949.f_259)
+		if (Var1.f_0 == Global_2750950.f_259)
 		{
 			return 0;
 		}
-		Global_2750949.f_259 = Var1.f_0;
+		Global_2750950.f_259 = Var1.f_0;
 	}
 	return 1;
 }
 
 bool func_1021()
 {
-	return Global_2750949.f_260;
+	return Global_2750950.f_260;
 }
 
 int func_1022(int iParam0)
@@ -103370,7 +103370,7 @@ bool func_1025()
 
 bool func_1026()
 {
-	return Global_2750949.f_261;
+	return Global_2750950.f_261;
 }
 
 bool func_1027()
@@ -103380,7 +103380,7 @@ bool func_1027()
 
 bool func_1028()
 {
-	return Global_2750949.f_258;
+	return Global_2750950.f_258;
 }
 
 int func_1029(var uParam0, float fParam1, float fParam2)

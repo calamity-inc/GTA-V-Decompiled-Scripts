@@ -478,9 +478,9 @@ int func_1(int* iParam0, int* iParam1)
 				{
 					iParam0->f_295 = 1;
 				}
-				if (!Global_2738934.f_1969)
+				if (!Global_2738935.f_1969)
 				{
-					Global_2738934.f_1969 = 1;
+					Global_2738935.f_1969 = 1;
 					NETWORK::NETWORK_SET_VOICE_ACTIVE(false);
 				}
 				if (!func_218())
@@ -2510,7 +2510,7 @@ int func_1(int* iParam0, int* iParam1)
 			HUD::HIDE_HUD_COMPONENT_THIS_FRAME(13);
 			HUD::HIDE_HUD_COMPONENT_THIS_FRAME(4);
 		}
-		if (Global_2738934.f_1970)
+		if (Global_2738935.f_1970)
 		{
 			PAD::ENABLE_CONTROL_ACTION(2, 187, true);
 		}
@@ -2766,13 +2766,13 @@ int func_12(var uParam0)
 		iVar1 = func_13();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2867,8 +2867,8 @@ void func_14(int* iParam0, bool bParam1, bool bParam2)
 		}
 		func_15(0);
 		func_140(1);
-		Global_2738934.f_1970 = 0;
-		Global_2738934.f_1969 = 0;
+		Global_2738935.f_1970 = 0;
+		Global_2738935.f_1969 = 0;
 		if (AUDIO::IS_AUDIO_SCENE_ACTIVE("MP_INTRO_RACE_SCENE"))
 		{
 			AUDIO::STOP_AUDIO_SCENE("MP_INTRO_RACE_SCENE");
@@ -2911,7 +2911,7 @@ void func_14(int* iParam0, bool bParam1, bool bParam2)
 
 void func_15(int iParam0)
 {
-	Global_2749863.f_1072 = iParam0;
+	Global_2749864.f_1072 = iParam0;
 }
 
 void func_16()
@@ -6496,7 +6496,7 @@ void func_139()
 
 void func_140(int iParam0)
 {
-	Global_2738934.f_4650 = iParam0;
+	Global_2738935.f_4650 = iParam0;
 }
 
 void func_141()
@@ -8777,7 +8777,7 @@ struct<6> func_161(int iParam0, bool bParam1)
 
 int func_162()
 {
-	return Global_2697636;
+	return Global_2697637;
 }
 
 bool func_163()
@@ -8808,8 +8808,8 @@ void func_165(int iParam0)
 	{
 		sVar1 = func_186(iParam0);
 		iVar2 = MISC::GET_HASH_KEY(sVar1);
-		uVar3 = func_185(&Global_2698777, 1, 0);
-		func_184(&Global_2698775, 1, 0);
+		uVar3 = func_185(&Global_2698778, 1, 0);
+		func_184(&Global_2698776, 1, 0);
 		NETWORK::NETWORK_TRANSITION_ADD_STAGE(iVar2, 1, iVar0, iParam0, 0);
 	}
 	if (iParam0 == 2)
@@ -9631,7 +9631,7 @@ void func_190(int iParam0)
 {
 	if (iParam0 == 0)
 	{
-		Global_2698753 = 0;
+		Global_2698754 = 0;
 	}
 	Global_1574633.f_18 = iParam0;
 }
@@ -9715,7 +9715,7 @@ int func_196()
 
 void func_197()
 {
-	Global_2698057 = 1;
+	Global_2698058 = 1;
 }
 
 void func_198(int iParam0, bool bParam1, bool bParam2)
@@ -9727,9 +9727,9 @@ void func_198(int iParam0, bool bParam1, bool bParam2)
 	if ((func_196() == 1 || HUD::IS_PAUSE_MENU_ACTIVE()) || iParam0)
 	{
 		func_195(0);
-		if (Global_2697540)
+		if (Global_2697541)
 		{
-			Global_2697540 = 0;
+			Global_2697541 = 0;
 		}
 		GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 		if (!bParam1)
@@ -10042,11 +10042,11 @@ void func_205(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -10349,7 +10349,7 @@ bool func_218()
 
 int func_219()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

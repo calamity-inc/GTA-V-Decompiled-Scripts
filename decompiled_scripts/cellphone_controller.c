@@ -204,7 +204,7 @@ void __EntryFunction__()
 						SOCIALCLUB::SC_EMAIL_SET_CURRENT_EMAIL_TAG("gta5mkt_cn");
 						break;
 				}
-				if (Global_2738934.f_5078)
+				if (Global_2738935.f_5078)
 				{
 					SOCIALCLUB::SC_EMAIL_RETRIEVE_EMAILS(0, 1);
 				}
@@ -275,7 +275,7 @@ void __EntryFunction__()
 				func_87(0);
 			}
 		}
-		if (Global_2738934.f_4664 == 1)
+		if (Global_2738935.f_4664 == 1)
 		{
 			if (Global_20930.f_1 > 3)
 			{
@@ -2492,7 +2492,7 @@ void func_52()
 			switch (Global_4541819[Global_4543068 /*104*/].f_32)
 			{
 				case 4:
-					HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_2738934.f_1777[iVar16 /*4*/]));
+					HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_2738935.f_1777[iVar16 /*4*/]));
 					break;
 				
 				case 5:
@@ -2827,7 +2827,7 @@ void func_57()
 			switch (Global_113969.f_14144[Global_23353 /*104*/].f_32)
 			{
 				case 4:
-					HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_2738934.f_1777[iVar16 /*4*/]));
+					HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_2738935.f_1777[iVar16 /*4*/]));
 					break;
 				
 				case 5:
@@ -7376,13 +7376,13 @@ int func_131(var uParam0)
 		iVar1 = func_132();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;

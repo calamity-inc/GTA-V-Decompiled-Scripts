@@ -2404,13 +2404,13 @@ int func_46(var uParam0)
 		iVar1 = func_15();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2548,7 +2548,7 @@ void func_55(var uParam0, bool bParam1)
 				break;
 			
 			case 203:
-				Global_2738934.f_5078 = 1;
+				Global_2738935.f_5078 = 1;
 				break;
 			
 			case 190:
@@ -4746,15 +4746,15 @@ int func_141(int iParam0, int iParam1)
 {
 	if (NETWORK::NETWORK_CLAN_SERVICE_IS_VALID())
 	{
-		Global_2707307 = { func_127(iParam0) };
-		Global_2707320 = { func_127(iParam1) };
-		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707307))
+		Global_2707308 = { func_127(iParam0) };
+		Global_2707321 = { func_127(iParam1) };
+		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707308))
 		{
-			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707320))
+			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707321))
 			{
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707237, 35, &Global_2707307);
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707272, 35, &Global_2707320);
-				if (Global_2707237 == Global_2707272)
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707238, 35, &Global_2707308);
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707273, 35, &Global_2707321);
+				if (Global_2707238 == Global_2707273)
 				{
 					return 1;
 				}
@@ -5336,11 +5336,11 @@ void func_168(int iParam0, int iParam1)
 	
 	bVar0 = false;
 	bVar1 = false;
-	StringCopy(&Global_2697752, "", 64);
+	StringCopy(&Global_2697753, "", 64);
 	SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_INT(iParam0, "awardAmount", &iVar2);
 	SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_STRING(iParam0, "awardType", &uVar3);
 	bVar19 = SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_BOOL(iParam0, "fullRefresh");
-	SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_STRING(iParam0, "awardLabel", &Global_2697752);
+	SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_STRING(iParam0, "awardLabel", &Global_2697753);
 	SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_STRING(iParam0, "items", &uVar20);
 	SOCIALCLUB::SC_INBOX_MESSAGE_GET_DATA_INT(iParam0, "userScreen", &iVar36);
 	SOCIALCLUB::SC_INBOX_SET_MESSAGE_AS_READ_AT_INDEX(iParam0);
@@ -5348,28 +5348,28 @@ void func_168(int iParam0, int iParam1)
 	{
 		if (iVar2 == -99)
 		{
-			Global_2697734 = -99;
-			Global_2697733 = iVar2;
+			Global_2697735 = -99;
+			Global_2697734 = iVar2;
 		}
 		else if (iVar2 < 0)
 		{
-			Global_2697734 = -1;
-			Global_2697733 = iVar2;
+			Global_2697735 = -1;
+			Global_2697734 = iVar2;
 		}
 		else if (iVar2 > 0)
 		{
-			Global_2697734 = 1;
-			Global_2697733 = iVar2;
+			Global_2697735 = 1;
+			Global_2697734 = iVar2;
 		}
 		bVar1 = true;
 	}
 	if (MISC::ARE_STRINGS_EQUAL(&uVar20, "[]") == 0)
 	{
-		Global_2697770 = 1;
+		Global_2697771 = 1;
 	}
 	if (iVar36 > 0)
 	{
-		Global_2697771 = iVar36;
+		Global_2697772 = iVar36;
 	}
 	if (iParam1 == 0)
 	{
@@ -6413,7 +6413,7 @@ int func_188(int iParam0)
 {
 	if (func_189(iParam0) == 133)
 	{
-		return Global_2738934.f_5167;
+		return Global_2738935.f_5167;
 	}
 	return -1;
 }
@@ -14472,7 +14472,7 @@ int func_334(var uParam0, int iParam1, char* sParam2, char* sParam3, var uParam4
 
 void func_335()
 {
-	Global_2749372 = 0;
+	Global_2749373 = 0;
 }
 
 void func_336()
@@ -31711,7 +31711,7 @@ int func_442(int iParam0, bool bParam1)
 		case joaat("insurgent"):
 			if (func_444(ENTITY::GET_ENTITY_MODEL(iParam0), 0))
 			{
-				if (Global_2738934.f_307 == iParam0)
+				if (Global_2738935.f_307 == iParam0)
 				{
 					return 1;
 				}
@@ -32104,7 +32104,7 @@ int func_453(int iParam0)
 
 int func_454(int iParam0)
 {
-	if (Global_2738934.f_301 == iParam0)
+	if (Global_2738935.f_301 == iParam0)
 	{
 		return 1;
 	}

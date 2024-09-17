@@ -450,7 +450,7 @@ var func_4()
 
 var func_5()
 {
-	return Global_2738934.f_5246;
+	return Global_2738935.f_5246;
 }
 
 int func_6(int iParam0, int iParam1)
@@ -1045,7 +1045,7 @@ int func_16(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam3 == 1067618600 || iParam3 == -1303831698)
 			{
@@ -1228,8 +1228,8 @@ int func_21(int iParam0)
 
 void func_22(int iParam0, int iParam1)
 {
-	Global_2698855 = iParam1;
-	Global_2698854 = iParam0;
+	Global_2698856 = iParam1;
+	Global_2698855 = iParam0;
 }
 
 int func_23(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, bool bParam6, int iParam7, var uParam8, int iParam9, int iParam10)
@@ -2558,13 +2558,13 @@ int func_76(var uParam0)
 		iVar1 = func_28();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2762,7 +2762,7 @@ int func_84(var uParam0, int iParam1, struct<3> Param2, float fParam5, bool bPar
 	if (ENTITY::DOES_ENTITY_EXIST(iVar1))
 	{
 		*uParam0 = NETWORK::VEH_TO_NET(iVar1);
-		Global_2738934.f_6799 = iVar1;
+		Global_2738935.f_6799 = iVar1;
 		if (NETWORK::NETWORK_DOES_NETWORK_ID_EXIST(*uParam0))
 		{
 			if (bParam15)
@@ -3130,8 +3130,8 @@ int func_97(int iParam0)
 	{
 		return 1;
 	}
-	Global_2707307 = { func_100(iParam0) };
-	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707307))
+	Global_2707308 = { func_100(iParam0) };
+	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707308))
 	{
 		return 1;
 	}
@@ -3178,15 +3178,15 @@ int func_101(int iParam0, int iParam1)
 {
 	if (NETWORK::NETWORK_CLAN_SERVICE_IS_VALID())
 	{
-		Global_2707307 = { func_100(iParam0) };
-		Global_2707320 = { func_100(iParam1) };
-		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707307))
+		Global_2707308 = { func_100(iParam0) };
+		Global_2707321 = { func_100(iParam1) };
+		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707308))
 		{
-			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707320))
+			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707321))
 			{
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707237, 35, &Global_2707307);
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707272, 35, &Global_2707320);
-				if (Global_2707237 == Global_2707272)
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707238, 35, &Global_2707308);
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707273, 35, &Global_2707321);
+				if (Global_2707238 == Global_2707273)
 				{
 					return 1;
 				}
@@ -3909,7 +3909,7 @@ int func_133()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -3959,7 +3959,7 @@ int func_134()
 
 int func_135()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -4088,7 +4088,7 @@ void func_142()
 			}
 			iVar0++;
 		}
-		MISC::CLEAR_BIT(&(Global_2738934.f_909), 2);
+		MISC::CLEAR_BIT(&(Global_2738935.f_909), 2);
 		Local_59.f_0 = 4;
 		func_146(func_147(1, 1), 8, func_51());
 	}
@@ -4190,7 +4190,7 @@ int func_148(struct<21> Param0)
 		Local_59.f_14 = 1;
 		Local_59.f_15 = 3;
 		Local_59.f_9 = { 0f, 0f, 500f };
-		MISC::SET_BIT(&(Global_2738934.f_909), 2);
+		MISC::SET_BIT(&(Global_2738935.f_909), 2);
 		if (Param0.f_20 == 3)
 		{
 			Local_59.f_18 = 1;

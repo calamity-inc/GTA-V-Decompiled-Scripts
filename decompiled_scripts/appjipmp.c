@@ -1378,11 +1378,11 @@ void func_9(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -1993,9 +1993,9 @@ Vector3 func_33(int iParam0)
 	}
 	else if (func_81(iParam0))
 	{
-		if (ENTITY::DOES_ENTITY_EXIST(Global_2738934.f_311))
+		if (ENTITY::DOES_ENTITY_EXIST(Global_2738935.f_311))
 		{
-			return ENTITY::GET_ENTITY_COORDS(Global_2738934.f_311, false);
+			return ENTITY::GET_ENTITY_COORDS(Global_2738935.f_311, false);
 		}
 	}
 	else if (func_80(iParam0) && !func_79(iParam0))
@@ -2081,9 +2081,9 @@ Vector3 func_33(int iParam0)
 	}
 	else if (func_63(iParam0))
 	{
-		if (ENTITY::DOES_ENTITY_EXIST(Global_2738934.f_313))
+		if (ENTITY::DOES_ENTITY_EXIST(Global_2738935.f_313))
 		{
-			return ENTITY::GET_ENTITY_COORDS(Global_2738934.f_313, false);
+			return ENTITY::GET_ENTITY_COORDS(Global_2738935.f_313, false);
 		}
 	}
 	else if (func_62(iParam0) && !func_61(iParam0))
@@ -4832,7 +4832,7 @@ int func_104(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam3 == 1067618600 || iParam3 == -1303831698)
 			{
@@ -5015,8 +5015,8 @@ int func_109(int iParam0)
 
 void func_110(int iParam0, int iParam1)
 {
-	Global_2698855 = iParam1;
-	Global_2698854 = iParam0;
+	Global_2698856 = iParam1;
+	Global_2698855 = iParam0;
 }
 
 int func_111(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, bool bParam6, int iParam7, var uParam8, int iParam9, int iParam10)
@@ -5355,13 +5355,13 @@ int func_124(var uParam0)
 		iVar1 = func_21();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -6166,7 +6166,7 @@ int func_176()
 	{
 		return 1;
 	}
-	if (BitTest(Global_2738934.f_1846, 23))
+	if (BitTest(Global_2738935.f_1846, 23))
 	{
 		return 1;
 	}
@@ -6181,7 +6181,7 @@ int func_176()
 	uVar0 = func_122(1304, -1);
 	if (BitTest(uVar0, 7))
 	{
-		MISC::SET_BIT(&(Global_2738934.f_1846), 23);
+		MISC::SET_BIT(&(Global_2738935.f_1846), 23);
 		return 1;
 	}
 	return 0;
@@ -6765,18 +6765,18 @@ void func_203()
 	{
 		if (uLocal_258[iLocal_226] == 2 && !func_212())
 		{
-			if (!BitTest(Global_2738934.f_1861, 30))
+			if (!BitTest(Global_2738935.f_1861, 30))
 			{
 				func_188("CH_QM_PHONEN", -1);
-				MISC::SET_BIT(&(Global_2738934.f_1861), 30);
+				MISC::SET_BIT(&(Global_2738935.f_1861), 30);
 			}
 		}
 		else if (uLocal_258[iLocal_226] == 3 && !func_210())
 		{
-			if (!BitTest(Global_2738934.f_1861, 31))
+			if (!BitTest(Global_2738935.f_1861, 31))
 			{
 				func_188("IH_QM_PHONEN", -1);
-				MISC::SET_BIT(&(Global_2738934.f_1861), 31);
+				MISC::SET_BIT(&(Global_2738935.f_1861), 31);
 			}
 		}
 		else if (uLocal_258[iLocal_226] == 0 && !Global_262145.f_4368)
@@ -10953,7 +10953,7 @@ int func_336(var uParam0, int iParam1)
 		{
 			return 7;
 		}
-		if (BitTest(Global_2738934.f_868, 2))
+		if (BitTest(Global_2738935.f_868, 2))
 		{
 			return 8;
 		}
@@ -11765,14 +11765,14 @@ int func_357()
 {
 	var uVar0;
 	
-	if (BitTest(Global_2738934.f_1846, 7))
+	if (BitTest(Global_2738935.f_1846, 7))
 	{
 		return 1;
 	}
 	uVar0 = func_122(1304, -1);
 	if (BitTest(uVar0, 6))
 	{
-		MISC::SET_BIT(&(Global_2738934.f_1846), 7);
+		MISC::SET_BIT(&(Global_2738935.f_1846), 7);
 		return 1;
 	}
 	if (func_177())
@@ -11793,7 +11793,7 @@ bool func_358()
 
 int func_359()
 {
-	if (BitTest(Global_2738934.f_1846, 28) && !BitTest(Global_2738934.f_1846, 29))
+	if (BitTest(Global_2738935.f_1846, 28) && !BitTest(Global_2738935.f_1846, 29))
 	{
 		return 1;
 	}
@@ -11802,7 +11802,7 @@ int func_359()
 
 bool func_360()
 {
-	return BitTest(Global_2738934.f_1847, 3);
+	return BitTest(Global_2738935.f_1847, 3);
 }
 
 int func_361(int iParam0)

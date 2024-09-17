@@ -6371,7 +6371,7 @@ void func_221(bool bParam0, bool bParam1)
 
 void func_222()
 {
-	Global_2748996.f_92 = 1;
+	Global_2748997.f_92 = 1;
 }
 
 int func_223()

@@ -998,7 +998,7 @@ int func_22(var uParam0, int iParam1, struct<3> Param2, float fParam5, bool bPar
 	if (ENTITY::DOES_ENTITY_EXIST(iVar1))
 	{
 		*uParam0 = NETWORK::VEH_TO_NET(iVar1);
-		Global_2738934.f_6799 = iVar1;
+		Global_2738935.f_6799 = iVar1;
 		if (NETWORK::NETWORK_DOES_NETWORK_ID_EXIST(*uParam0))
 		{
 			if (bParam15)
@@ -1430,8 +1430,8 @@ int func_37(int iParam0)
 	{
 		return 1;
 	}
-	Global_2707307 = { func_40(iParam0) };
-	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707307))
+	Global_2707308 = { func_40(iParam0) };
+	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707308))
 	{
 		return 1;
 	}
@@ -1478,15 +1478,15 @@ int func_41(int iParam0, int iParam1)
 {
 	if (NETWORK::NETWORK_CLAN_SERVICE_IS_VALID())
 	{
-		Global_2707307 = { func_40(iParam0) };
-		Global_2707320 = { func_40(iParam1) };
-		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707307))
+		Global_2707308 = { func_40(iParam0) };
+		Global_2707321 = { func_40(iParam1) };
+		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707308))
 		{
-			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707320))
+			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707321))
 			{
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707237, 35, &Global_2707307);
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707272, 35, &Global_2707320);
-				if (Global_2707237 == Global_2707272)
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707238, 35, &Global_2707308);
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707273, 35, &Global_2707321);
+				if (Global_2707238 == Global_2707273)
 				{
 					return 1;
 				}
@@ -1822,7 +1822,7 @@ void func_52()
 						func_145(86, "DSV_PASS1", 0, 0, -99);
 					}
 					iVar1 = Global_262145.f_8630;
-					Global_2698715 = iVar1;
+					Global_2698716 = iVar1;
 					func_78(&iVar1, 1);
 					if (iVar1 > 0)
 					{
@@ -1860,14 +1860,14 @@ void func_52()
 				}
 				if (func_250(PLAYER::PLAYER_ID(), 1, 1) && func_60(PLAYER::PLAYER_PED_ID(), NETWORK::NET_TO_VEH(Local_90.f_2), 0))
 				{
-					if (!BitTest(Global_2738934.f_4714, 1))
+					if (!BitTest(Global_2738935.f_4714, 1))
 					{
-						MISC::SET_BIT(&(Global_2738934.f_4714), true);
+						MISC::SET_BIT(&(Global_2738935.f_4714), true);
 					}
 				}
-				else if (BitTest(Global_2738934.f_4714, 1))
+				else if (BitTest(Global_2738935.f_4714, 1))
 				{
-					MISC::CLEAR_BIT(&(Global_2738934.f_4714), true);
+					MISC::CLEAR_BIT(&(Global_2738935.f_4714), true);
 				}
 				func_53();
 			}
@@ -1942,13 +1942,13 @@ int func_58(var uParam0)
 		iVar1 = func_31();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2406,7 +2406,7 @@ int func_62(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam3 == 1067618600 || iParam3 == -1303831698)
 			{
@@ -2589,8 +2589,8 @@ int func_67(int iParam0)
 
 void func_68(int iParam0, int iParam1)
 {
-	Global_2698855 = iParam1;
-	Global_2698854 = iParam0;
+	Global_2698856 = iParam1;
+	Global_2698855 = iParam0;
 }
 
 int func_69(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, bool bParam6, int iParam7, var uParam8, int iParam9, int iParam10)
@@ -2807,7 +2807,7 @@ void func_82(int iParam0)
 	
 	iVar0 = (iParam0 / 32);
 	bVar1 = (iParam0 % 32);
-	MISC::SET_BIT(&(Global_2738934.f_5249.f_7[iVar0]), bVar1);
+	MISC::SET_BIT(&(Global_2738935.f_5249.f_7[iVar0]), bVar1);
 }
 
 int func_83(char* sParam0, int iParam1, int iParam2, int iParam3, bool bParam4, int iParam5)
@@ -2955,7 +2955,7 @@ int func_90(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4)
 			}
 		}
 	}
-	if (((func_133(PLAYER::PLAYER_ID()) || (func_132() && func_131())) && !BitTest(Global_2738934.f_4712, 31)) && !bParam4)
+	if (((func_133(PLAYER::PLAYER_ID()) || (func_132() && func_131())) && !BitTest(Global_2738935.f_4712, 31)) && !bParam4)
 	{
 		iVar1 = func_130();
 		if (ENTITY::DOES_ENTITY_EXIST(iVar1))
@@ -5945,7 +5945,7 @@ int func_226()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -5995,7 +5995,7 @@ int func_227()
 
 int func_228()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -6050,7 +6050,7 @@ void func_235()
 	{
 		VEHICLE::SET_VEHICLE_MODEL_IS_SUPPRESSED(Local_90.f_10, false);
 	}
-	MISC::CLEAR_BIT(&(Global_2738934.f_4714), true);
+	MISC::CLEAR_BIT(&(Global_2738935.f_4714), true);
 	func_237(17, 0);
 	func_236();
 }

@@ -1474,11 +1474,11 @@ void func_45(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -1910,17 +1910,17 @@ void func_60(int iParam0)
 			if (bVar0 <= 63)
 			{
 				bVar0 = (bVar0 - 32);
-				MISC::SET_BIT(&(Global_2738934.f_6965), bVar0);
+				MISC::SET_BIT(&(Global_2738935.f_6965), bVar0);
 			}
 			else if (bVar0 <= 95)
 			{
 				bVar0 = (bVar0 - 64);
-				MISC::SET_BIT(&(Global_2738934.f_6966), bVar0);
+				MISC::SET_BIT(&(Global_2738935.f_6966), bVar0);
 			}
 		}
 		else
 		{
-			MISC::SET_BIT(&(Global_2738934.f_6964), bVar0);
+			MISC::SET_BIT(&(Global_2738935.f_6964), bVar0);
 		}
 	}
 }
@@ -1931,17 +1931,17 @@ bool func_61(var uParam0)
 	var uVar1;
 	
 	iVar0 = uParam0;
-	uVar1 = Global_2738934.f_6964;
+	uVar1 = Global_2738935.f_6964;
 	if (iVar0 > 31)
 	{
 		if (iVar0 <= 63)
 		{
-			uVar1 = Global_2738934.f_6965;
+			uVar1 = Global_2738935.f_6965;
 			iVar0 = (iVar0 - 32);
 		}
 		else if (iVar0 <= 95)
 		{
-			uVar1 = Global_2738934.f_6966;
+			uVar1 = Global_2738935.f_6966;
 			iVar0 = (iVar0 - 64);
 		}
 	}
@@ -3436,7 +3436,7 @@ int func_110()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -3486,7 +3486,7 @@ int func_111()
 
 int func_112()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

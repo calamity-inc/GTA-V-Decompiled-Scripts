@@ -883,7 +883,6 @@ postrc_nigel3
 profiler_registration
 prologue1
 prop_drop
-public_mission_creator
 puzzle
 racetest
 rampage1

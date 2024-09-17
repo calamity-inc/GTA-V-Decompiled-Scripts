@@ -809,7 +809,7 @@ void func_27(int iParam0, var uParam1)
 		if (NETWORK::NETWORK_IS_PLAYER_ACTIVE(iParam0))
 		{
 			Global_1887305[PLAYER::PLAYER_ID() /*610*/].f_10.f_26 = iParam0;
-			Global_2738934.f_5249.f_228 = uParam1;
+			Global_2738935.f_5249.f_228 = uParam1;
 			func_28(func_29(iParam0));
 		}
 	}

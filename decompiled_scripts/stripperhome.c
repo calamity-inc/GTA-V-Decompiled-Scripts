@@ -1277,7 +1277,7 @@ int func_49()
 
 bool func_50()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 void func_51(int iParam0, int iParam1, int iParam2)
@@ -1973,13 +1973,13 @@ int func_78(int iParam0)
 		iVar1 = func_19();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -3838,15 +3838,15 @@ void func_131(bool bParam0, int iParam1, bool bParam2)
 			iVar0 = iParam1;
 			func_124(bParam0, iVar0, 1);
 			func_123(bParam0, iVar0, 1);
-			if (bParam0 == 172 && !BitTest(Global_2738934.f_6969, 4))
+			if (bParam0 == 172 && !BitTest(Global_2738935.f_6969, 4))
 			{
 				bParam2 = false;
 			}
-			if (bParam0 == 171 && !BitTest(Global_2738934.f_6969, 3))
+			if (bParam0 == 171 && !BitTest(Global_2738935.f_6969, 3))
 			{
 				bParam2 = false;
 			}
-			if (bParam0 == 173 && !BitTest(Global_2738934.f_6969, 3))
+			if (bParam0 == 173 && !BitTest(Global_2738935.f_6969, 3))
 			{
 				bParam2 = false;
 			}

@@ -972,7 +972,7 @@ void func_9()
 				STREAMING::REMOVE_IPL("M23_2_Vinewood_Garage");
 			}
 		}
-		if (Global_2708040)
+		if (Global_2708041)
 		{
 			if (STREAMING::IS_IPL_ACTIVE("xs_arena_banners_ipl"))
 			{
@@ -1142,16 +1142,16 @@ void func_11(int iParam0, bool bParam1)
 		}
 		if (!bParam1)
 		{
-			if (Global_2748996.f_93[iParam0])
+			if (Global_2748997.f_93[iParam0])
 			{
-				Global_2748996.f_93[iParam0] = 0;
-				Global_2748996.f_136 = (Global_2748996.f_136 + -1);
+				Global_2748997.f_93[iParam0] = 0;
+				Global_2748997.f_136 = (Global_2748997.f_136 + -1);
 			}
-			if (Global_2748996.f_136 <= 0)
+			if (Global_2748997.f_136 <= 0)
 			{
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(func_13());
 				STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(func_12());
-				Global_2748996.f_136 = 0;
+				Global_2748997.f_136 = 0;
 			}
 		}
 	}
@@ -1265,7 +1265,7 @@ void func_23()
 
 bool func_24()
 {
-	return Global_2697886;
+	return Global_2697887;
 }
 
 void func_25()
@@ -10617,7 +10617,7 @@ void func_116()
 	{
 		if (((!Global_113969.f_7264.f_426 || BitTest(iLocal_59, 0)) || NETWORK::NETWORK_IS_GAME_IN_PROGRESS()) || Global_39400)
 		{
-			if (!Global_2697885)
+			if (!Global_2697886)
 			{
 				if (BitTest(iLocal_59, 0) || Global_39400)
 				{

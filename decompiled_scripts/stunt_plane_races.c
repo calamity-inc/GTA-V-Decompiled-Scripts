@@ -9982,7 +9982,7 @@ void func_212(var uParam0, int iParam1, bool bParam2)
 	
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if (BitTest(Global_2738934.f_4712, 26))
+		if (BitTest(Global_2738935.f_4712, 26))
 		{
 			return;
 		}
@@ -14332,7 +14332,7 @@ void func_379(var uParam0, int iParam1)
 	{
 		func_380(&(Global_2103068.f_49));
 	}
-	Global_2738934.f_4084 = 0;
+	Global_2738935.f_4084 = 0;
 }
 
 void func_380(var uParam0)
@@ -19743,7 +19743,7 @@ int func_492()
 
 bool func_493()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 bool func_494()
@@ -25398,7 +25398,7 @@ void func_561(int iParam0)
 
 void func_562()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_563(bool bParam0)

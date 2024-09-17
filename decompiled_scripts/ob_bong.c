@@ -380,7 +380,7 @@ void __EntryFunction__()
 	sLocal_345 = "move_m@drunk@slightlydrunk";
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
-		if ((PLAYER::HAS_FORCE_CLEANUP_OCCURRED(16) || func_489()) || Global_2738934.f_1969)
+		if ((PLAYER::HAS_FORCE_CLEANUP_OCCURRED(16) || func_489()) || Global_2738935.f_1969)
 		{
 			func_485();
 		}
@@ -4357,13 +4357,13 @@ int func_111(var uParam0)
 		iVar1 = func_53();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -90880,7 +90880,7 @@ void func_410(int iParam0, int iParam1)
 
 void func_411()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_412(int iParam0, bool bParam1, int iParam2, int iParam3)
@@ -91074,11 +91074,11 @@ void func_412(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -91677,7 +91677,7 @@ int func_444()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -91727,7 +91727,7 @@ int func_445()
 
 int func_446()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

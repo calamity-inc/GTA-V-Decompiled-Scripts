@@ -1285,7 +1285,7 @@ void func_7()
 			func_128(0);
 			iLocal_113 = 0;
 			func_119(1);
-			if (!Global_2738934.f_6812)
+			if (!Global_2738935.f_6812)
 			{
 				MISC::SET_BIT(&Global_8800, 9);
 			}
@@ -1987,7 +1987,7 @@ void func_12()
 			func_128(0);
 			iLocal_113 = 0;
 			func_119(1);
-			if (!Global_2738934.f_6812)
+			if (!Global_2738935.f_6812)
 			{
 				MISC::SET_BIT(&Global_8800, 9);
 			}
@@ -2214,13 +2214,13 @@ int func_27(var uParam0)
 		iVar1 = func_28();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -6733,7 +6733,7 @@ char* func_66()
 		
 		default:
 	}
-	if (BitTest(Global_2708057.f_536, 3))
+	if (BitTest(Global_2708058.f_536, 3))
 	{
 		return "ANIMAPHOCELL_1";
 	}
@@ -9704,7 +9704,7 @@ int func_156()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -9754,7 +9754,7 @@ int func_157()
 
 int func_158()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

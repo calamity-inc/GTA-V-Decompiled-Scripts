@@ -2484,13 +2484,13 @@ int func_79(var uParam0)
 		iVar1 = func_80();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -2829,11 +2829,11 @@ void func_93(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -4234,7 +4234,7 @@ int func_135(int iParam0)
 
 var func_136()
 {
-	return Global_2707763;
+	return Global_2707764;
 }
 
 int func_137(int iParam0)
@@ -4784,7 +4784,7 @@ int func_152()
 	}
 	func_153(Local_41.f_1);
 	Local_59.f_2 = "";
-	Global_2738934.f_4659 = 1;
+	Global_2738935.f_4659 = 1;
 	return 1;
 }
 

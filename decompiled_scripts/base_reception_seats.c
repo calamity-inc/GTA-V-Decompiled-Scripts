@@ -1476,7 +1476,7 @@ int func_61()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -1526,7 +1526,7 @@ int func_62()
 
 int func_63()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

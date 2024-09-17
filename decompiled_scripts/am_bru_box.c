@@ -104,7 +104,7 @@ void __EntryFunction__()
 		}
 		if (ScriptParam_0.f_16 >= 32)
 		{
-			if (func_227(PLAYER::PLAYER_ID()) != 1 && !BitTest(Global_2738934.f_932.f_7, 0))
+			if (func_227(PLAYER::PLAYER_ID()) != 1 && !BitTest(Global_2738935.f_932.f_7, 0))
 			{
 				func_228();
 			}
@@ -157,7 +157,7 @@ void __EntryFunction__()
 				}
 				if (Local_70[NETWORK::PARTICIPANT_ID_TO_INT() /*3*/].f_2 == 0)
 				{
-					if ((!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), Local_59.f_3, 500f, 500f, 500f, false, true, 0) && func_227(PLAYER::PLAYER_ID()) != 1) && !BitTest(Global_2738934.f_932.f_7, 0))
+					if ((!ENTITY::IS_ENTITY_AT_COORD(PLAYER::PLAYER_PED_ID(), Local_59.f_3, 500f, 500f, 500f, false, true, 0) && func_227(PLAYER::PLAYER_ID()) != 1) && !BitTest(Global_2738935.f_932.f_7, 0))
 					{
 						Local_70[NETWORK::PARTICIPANT_ID_TO_INT() /*3*/] = 4;
 					}
@@ -219,7 +219,7 @@ int func_2()
 {
 	if (Local_59.f_7 >= 32 && func_227(PLAYER::PLAYER_ID()) == 1)
 	{
-		if (func_4(Global_2738934.f_932.f_1))
+		if (func_4(Global_2738935.f_932.f_1))
 		{
 			return 1;
 		}
@@ -246,7 +246,7 @@ int func_3(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		return Global_2708056;
+		return Global_2708057;
 	}
 	else
 	{
@@ -349,8 +349,8 @@ int func_7()
 				Var6 = { Local_59.f_3 };
 				if (BitTest(Local_59.f_1, 8))
 				{
-					Var0 = { Global_2738934.f_932.f_1 };
-					fVar3 = Global_2738934.f_932.f_4;
+					Var0 = { Global_2738935.f_932.f_1 };
+					fVar3 = Global_2738935.f_932.f_4;
 				}
 				if (func_227(PLAYER::PLAYER_ID()) == 7)
 				{
@@ -4187,8 +4187,8 @@ int func_81(int iParam0)
 	{
 		return 1;
 	}
-	Global_2707307 = { func_85(iParam0) };
-	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707307))
+	Global_2707308 = { func_85(iParam0) };
+	if (NETWORK::NETWORK_IS_FRIEND(&Global_2707308))
 	{
 		return 1;
 	}
@@ -4251,15 +4251,15 @@ int func_86(int iParam0, int iParam1)
 {
 	if (NETWORK::NETWORK_CLAN_SERVICE_IS_VALID())
 	{
-		Global_2707307 = { func_85(iParam0) };
-		Global_2707320 = { func_85(iParam1) };
-		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707307))
+		Global_2707308 = { func_85(iParam0) };
+		Global_2707321 = { func_85(iParam1) };
+		if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707308))
 		{
-			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707320))
+			if (NETWORK::NETWORK_CLAN_PLAYER_IS_ACTIVE(&Global_2707321))
 			{
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707237, 35, &Global_2707307);
-				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707272, 35, &Global_2707320);
-				if (Global_2707237 == Global_2707272)
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707238, 35, &Global_2707308);
+				NETWORK::NETWORK_CLAN_PLAYER_GET_DESC(&Global_2707273, 35, &Global_2707321);
+				if (Global_2707238 == Global_2707273)
 				{
 					return 1;
 				}
@@ -8082,13 +8082,13 @@ int func_201(var uParam0)
 		iVar1 = func_147();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -8373,7 +8373,7 @@ int func_219()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -8423,7 +8423,7 @@ int func_220()
 
 int func_221()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -8500,11 +8500,11 @@ void func_229()
 
 void func_230()
 {
-	Global_2738934.f_932 = 0;
-	Global_2738934.f_932.f_1 = { 0f, 0f, 0f };
-	Global_2738934.f_932.f_4 = 0f;
-	Global_2738934.f_932.f_8 = 0;
-	MISC::CLEAR_BIT(&(Global_2738934.f_932.f_7), 0);
+	Global_2738935.f_932 = 0;
+	Global_2738935.f_932.f_1 = { 0f, 0f, 0f };
+	Global_2738935.f_932.f_4 = 0f;
+	Global_2738935.f_932.f_8 = 0;
+	MISC::CLEAR_BIT(&(Global_2738935.f_932.f_7), 0);
 }
 
 void func_231()
@@ -8609,7 +8609,7 @@ int func_234(struct<21> Param0)
 		Local_59.f_7 = Param0.f_16;
 		Global_1680240 = Local_59.f_7;
 		Local_59.f_3 = { ENTITY::GET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), false) };
-		if (!func_4(Global_2738934.f_932.f_1))
+		if (!func_4(Global_2738935.f_932.f_1))
 		{
 			MISC::SET_BIT(&(Local_59.f_1), 8);
 		}

@@ -273,7 +273,7 @@ void __EntryFunction__()
 			
 			case 1:
 				func_24();
-				Global_2738934.f_4622 = 1;
+				Global_2738935.f_4622 = 1;
 				func_14();
 				func_9();
 				break;
@@ -521,17 +521,17 @@ void func_9()
 	
 	Var1 = { func_13(PLAYER::PLAYER_ID()) };
 	fVar0 = SYSTEM::VDIST(Var1, Local_128[iLocal_182 /*17*/].f_3);
-	if ((BitTest(Global_2748865, iLocal_182) || BitTest(Global_2748865.f_1, iLocal_182)) || BitTest(Global_2748865.f_2, iLocal_182))
+	if ((BitTest(Global_2748866, iLocal_182) || BitTest(Global_2748866.f_1, iLocal_182)) || BitTest(Global_2748866.f_2, iLocal_182))
 	{
-		if (BitTest(Global_2748865, iLocal_182))
+		if (BitTest(Global_2748866, iLocal_182))
 		{
 			MISC::SET_BIT(&(Local_218[PLAYER::PLAYER_ID() /*4*/].f_2), iLocal_182);
 		}
-		if (BitTest(Global_2748865.f_1, bLocal_182))
+		if (BitTest(Global_2748866.f_1, bLocal_182))
 		{
 			MISC::CLEAR_BIT(&(Local_218[PLAYER::PLAYER_ID() /*4*/].f_2), bLocal_182);
 		}
-		if (BitTest(Global_2748865.f_2, bLocal_182))
+		if (BitTest(Global_2748866.f_2, bLocal_182))
 		{
 			MISC::SET_BIT(&(Local_218[PLAYER::PLAYER_ID() /*4*/].f_3), bLocal_182);
 		}
@@ -5336,8 +5336,8 @@ int func_50(int iParam0, bool bParam1)
 void func_51()
 {
 	func_52(iLocal_126);
-	Global_2738934.f_1756 = 0;
-	Global_2738934.f_4622 = 0;
+	Global_2738935.f_1756 = 0;
+	Global_2738935.f_4622 = 0;
 	func_46();
 }
 
@@ -5377,7 +5377,7 @@ int func_53()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -5427,7 +5427,7 @@ int func_54()
 
 int func_55()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

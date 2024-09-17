@@ -186,7 +186,7 @@ void __EntryFunction__()
 	{
 		Global_1835433.f_14 = 0;
 	}
-	while (!Global_2697885)
+	while (!Global_2697886)
 	{
 		if (func_341())
 		{
@@ -516,13 +516,13 @@ int func_16(var uParam0)
 		iVar1 = func_17();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -1605,7 +1605,7 @@ void func_53(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4)
 
 void func_54(int iParam0)
 {
-	Global_2696683 = iParam0;
+	Global_2696684 = iParam0;
 }
 
 void func_55(var uParam0, int iParam1, int iParam2, int iParam3)
@@ -33693,11 +33693,11 @@ void func_209(int iParam0, bool bParam1)
 	{
 		if (bParam1)
 		{
-			MISC::SET_BIT(&(Global_2749863.f_1032[func_198(iVar0)]), func_200(iVar0));
+			MISC::SET_BIT(&(Global_2749864.f_1032[func_198(iVar0)]), func_200(iVar0));
 		}
 		else
 		{
-			MISC::CLEAR_BIT(&(Global_2749863.f_1032[func_198(iVar0)]), func_200(iVar0));
+			MISC::CLEAR_BIT(&(Global_2749864.f_1032[func_198(iVar0)]), func_200(iVar0));
 		}
 	}
 }
@@ -34741,7 +34741,7 @@ var func_217(int iParam0)
 {
 	var uVar0;
 	
-	uVar0 = Global_2749863.f_1032[func_198(iParam0)];
+	uVar0 = Global_2749864.f_1032[func_198(iParam0)];
 	return uVar0;
 }
 
@@ -35305,12 +35305,12 @@ int func_227(struct<3> Param0)
 	{
 		return 1;
 	}
-	if (Global_2709259)
+	if (Global_2709260)
 	{
 		iVar0 = 0;
 		while (iVar0 < 10)
 		{
-			if (OBJECT::IS_POINT_IN_ANGLED_AREA(Param0, Global_2709259.f_1[iVar0 /*3*/], Global_2709259.f_32[iVar0 /*3*/], Global_2709259.f_63[iVar0], false, true))
+			if (OBJECT::IS_POINT_IN_ANGLED_AREA(Param0, Global_2709260.f_1[iVar0 /*3*/], Global_2709260.f_32[iVar0 /*3*/], Global_2709260.f_63[iVar0], false, true))
 			{
 				return 1;
 			}
@@ -38054,7 +38054,7 @@ int func_298()
 
 bool func_299()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 int func_300(var uParam0)

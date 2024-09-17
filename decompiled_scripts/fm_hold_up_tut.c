@@ -485,10 +485,10 @@ void func_2()
 					}
 					MISC::SET_BIT(&(Local_64.f_5.f_3), true);
 				}
-				if (Global_2738934.f_1840)
+				if (Global_2738935.f_1840)
 				{
 					MISC::SET_BIT(&(Local_64.f_5.f_3), false);
-					Global_2738934.f_1840 = 0;
+					Global_2738935.f_1840 = 0;
 				}
 				if (BitTest(Local_64.f_5.f_3, 1))
 				{
@@ -1595,11 +1595,11 @@ int func_35(var uParam0)
 	struct<13> Var5;
 	int iVar18;
 	
-	if (Global_2738934.f_1840)
+	if (Global_2738935.f_1840)
 	{
 		if (!NETWORK::NETWORK_IS_HOST_OF_THIS_SCRIPT())
 		{
-			Global_2738934.f_1840 = 0;
+			Global_2738935.f_1840 = 0;
 		}
 	}
 	if (*uParam0 > 0)
@@ -1684,7 +1684,7 @@ int func_35(var uParam0)
 			iVar3 = PLAYER::PLAYER_ID();
 			if (!BitTest(Global_1845281[iVar3 /*883*/].f_144, 13))
 			{
-				if (BitTest(Global_2738934.f_1841, 6) || BitTest(Global_2738934.f_1843, 31))
+				if (BitTest(Global_2738935.f_1841, 6) || BitTest(Global_2738935.f_1843, 31))
 				{
 					if (!BitTest(Global_1845281[PLAYER::PLAYER_ID() /*883*/].f_144, 0))
 					{
@@ -2990,13 +2990,13 @@ int func_53(var uParam0)
 		iVar1 = func_7();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -3099,7 +3099,7 @@ void func_57(bool bParam0, bool bParam1)
 	{
 		if (func_58(0) > 1)
 		{
-			MISC::SET_BIT(&(Global_2738934.f_1850), 10);
+			MISC::SET_BIT(&(Global_2738935.f_1850), 10);
 		}
 	}
 }
@@ -3162,7 +3162,7 @@ int func_62(bool bParam0)
 	}
 	if (bParam0)
 	{
-		if (!BitTest(Global_2738934.f_1841, 26))
+		if (!BitTest(Global_2738935.f_1841, 26))
 		{
 			iVar0 = func_152(1192, -1);
 			if (!BitTest(iVar0, 23))
@@ -3290,7 +3290,7 @@ int func_65()
 	{
 		return 1;
 	}
-	if (BitTest(Global_2738934.f_1846, 23))
+	if (BitTest(Global_2738935.f_1846, 23))
 	{
 		return 1;
 	}
@@ -3305,7 +3305,7 @@ int func_65()
 	iVar0 = func_152(1304, -1);
 	if (BitTest(iVar0, 7))
 	{
-		MISC::SET_BIT(&(Global_2738934.f_1846), 23);
+		MISC::SET_BIT(&(Global_2738935.f_1846), 23);
 		return 1;
 	}
 	return 0;
@@ -3614,16 +3614,16 @@ int func_77()
 {
 	int iVar0;
 	
-	if (BitTest(Global_2738934.f_1846, 6))
+	if (BitTest(Global_2738935.f_1846, 6))
 	{
 		return 1;
 	}
 	iVar0 = func_152(1304, -1);
 	if (BitTest(iVar0, 0))
 	{
-		if (!BitTest(Global_2738934.f_1846, 6))
+		if (!BitTest(Global_2738935.f_1846, 6))
 		{
-			MISC::SET_BIT(&(Global_2738934.f_1846), 6);
+			MISC::SET_BIT(&(Global_2738935.f_1846), 6);
 		}
 		return 1;
 	}
@@ -4789,7 +4789,7 @@ int func_101()
 
 var func_102()
 {
-	return BitTest(Global_2738934.f_1847, 12);
+	return BitTest(Global_2738935.f_1847, 12);
 }
 
 bool func_103()
@@ -4949,14 +4949,14 @@ void func_109(bool bParam0)
 {
 	if (bParam0)
 	{
-		if (!BitTest(Global_2738934.f_1847, 21))
+		if (!BitTest(Global_2738935.f_1847, 21))
 		{
-			MISC::SET_BIT(&(Global_2738934.f_1847), 21);
+			MISC::SET_BIT(&(Global_2738935.f_1847), 21);
 		}
 	}
-	else if (BitTest(Global_2738934.f_1847, 21))
+	else if (BitTest(Global_2738935.f_1847, 21))
 	{
-		MISC::CLEAR_BIT(&(Global_2738934.f_1847), 21);
+		MISC::CLEAR_BIT(&(Global_2738935.f_1847), 21);
 	}
 }
 
@@ -5003,7 +5003,7 @@ int func_113()
 
 char* func_114()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return "freemode";
@@ -5015,7 +5015,7 @@ char* func_114()
 
 bool func_115()
 {
-	return BitTest(Global_2738934.f_1847, 21);
+	return BitTest(Global_2738935.f_1847, 21);
 }
 
 int func_116()
@@ -5288,7 +5288,7 @@ int func_124(bool bParam0, bool bParam1, int iParam2, bool bParam3)
 	{
 		return 0;
 	}
-	if (Global_2749856)
+	if (Global_2749857)
 	{
 		return 0;
 	}
@@ -5301,7 +5301,7 @@ int func_124(bool bParam0, bool bParam1, int iParam2, bool bParam3)
 
 bool func_125()
 {
-	return Global_2708056;
+	return Global_2708057;
 }
 
 bool func_126()
@@ -8594,7 +8594,7 @@ int func_242(var uParam0, int iParam1, char* sParam2, char* sParam3, var uParam4
 
 void func_243()
 {
-	Global_2749372 = 0;
+	Global_2749373 = 0;
 }
 
 void func_244()
@@ -9275,7 +9275,7 @@ int func_281(var uParam0, int iParam1, char* sParam2, char* sParam3, var uParam4
 
 bool func_282()
 {
-	return Global_2746025.f_1;
+	return Global_2746026.f_1;
 }
 
 int func_283()
@@ -9355,15 +9355,15 @@ void func_286(int iParam0, int iParam1, bool bParam2)
 			iVar0 = iParam1;
 			func_291(iParam0, iVar0, 1);
 			func_290(iParam0, iVar0, 1);
-			if (iParam0 == 172 && !BitTest(Global_2738934.f_6969, 4))
+			if (iParam0 == 172 && !BitTest(Global_2738935.f_6969, 4))
 			{
 				bParam2 = false;
 			}
-			if (iParam0 == 171 && !BitTest(Global_2738934.f_6969, 3))
+			if (iParam0 == 171 && !BitTest(Global_2738935.f_6969, 3))
 			{
 				bParam2 = false;
 			}
-			if (iParam0 == 173 && !BitTest(Global_2738934.f_6969, 3))
+			if (iParam0 == 173 && !BitTest(Global_2738935.f_6969, 3))
 			{
 				bParam2 = false;
 			}
@@ -9818,7 +9818,7 @@ int func_314()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -9868,7 +9868,7 @@ int func_315()
 
 int func_316()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

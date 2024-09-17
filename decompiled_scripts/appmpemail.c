@@ -110,7 +110,7 @@ void __EntryFunction__()
 				case 7:
 					if (Global_23352 == 0)
 					{
-						if (Global_2749862 == 0)
+						if (Global_2749863 == 0)
 						{
 							func_44();
 							func_36();
@@ -1951,7 +1951,7 @@ void func_36()
 				Global_4543069 = 0;
 			}
 		}
-		if (Global_2749862 == 0)
+		if (Global_2749863 == 0)
 		{
 			if (Global_79389)
 			{
@@ -2009,7 +2009,7 @@ void func_37(int iParam0)
 		switch (Global_113969.f_14144[iParam0 /*104*/].f_32)
 		{
 			case 4:
-				HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_2738934.f_1777[iVar0 /*4*/]));
+				HUD::ADD_TEXT_COMPONENT_SUBSTRING_TEXT_LABEL(&(Global_2738935.f_1777[iVar0 /*4*/]));
 				break;
 			
 			case 5:
@@ -2075,13 +2075,13 @@ int func_40(var uParam0)
 		iVar1 = func_41();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;

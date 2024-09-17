@@ -64,7 +64,7 @@ void __EntryFunction__()
 		{
 			func_92();
 		}
-		if (Global_2738934.f_5249.f_757 == 0)
+		if (Global_2738935.f_5249.f_757 == 0)
 		{
 			func_92();
 		}
@@ -101,7 +101,7 @@ int func_1()
 	
 	if (func_7(1))
 	{
-		iVar0 = Global_2738934.f_5249.f_756;
+		iVar0 = Global_2738935.f_5249.f_756;
 		if (iVar0 != func_6())
 		{
 			if (func_4(iVar0))
@@ -129,7 +129,7 @@ void func_2(int iParam0)
 	{
 		func_3(iParam0);
 	}
-	Global_2738934.f_5249.f_756 = func_6();
+	Global_2738935.f_5249.f_756 = func_6();
 }
 
 void func_3(int iParam0)
@@ -262,7 +262,7 @@ int func_12()
 	
 	if (func_7(1))
 	{
-		bVar0 = Global_2738934.f_5249.f_756;
+		bVar0 = Global_2738935.f_5249.f_756;
 		if (bVar0 != func_6())
 		{
 			if (func_13(bVar0))
@@ -883,7 +883,7 @@ int func_24(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4)
 			}
 		}
 	}
-	if (((func_70(PLAYER::PLAYER_ID()) || (func_69() && func_68())) && !BitTest(Global_2738934.f_4712, 31)) && !bParam4)
+	if (((func_70(PLAYER::PLAYER_ID()) || (func_69() && func_68())) && !BitTest(Global_2738935.f_4712, 31)) && !bParam4)
 	{
 		iVar1 = func_67();
 		if (ENTITY::DOES_ENTITY_EXIST(iVar1))
@@ -2197,7 +2197,7 @@ int func_79()
 
 int func_80()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -2498,7 +2498,7 @@ void func_91()
 
 void func_92()
 {
-	func_2(Global_2738934.f_5249.f_756);
+	func_2(Global_2738935.f_5249.f_756);
 	SCRIPT::TERMINATE_THIS_THREAD();
 }
 
@@ -2515,7 +2515,7 @@ int func_93()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}

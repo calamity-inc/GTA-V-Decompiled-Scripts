@@ -3263,13 +3263,13 @@ int func_58(var uParam0)
 		iVar1 = func_59();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -77161,7 +77161,7 @@ int func_369(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam3 == 1067618600 || iParam3 == -1303831698)
 			{
@@ -77344,8 +77344,8 @@ int func_374(int iParam0)
 
 void func_375(int iParam0, int iParam1)
 {
-	Global_2698855 = iParam1;
-	Global_2698854 = iParam0;
+	Global_2698856 = iParam1;
+	Global_2698855 = iParam0;
 }
 
 int func_376(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, bool bParam6, int iParam7, var uParam8, int iParam9, int iParam10)
@@ -77839,7 +77839,7 @@ void func_400(int iParam0, int iParam1, int iParam2)
 		{
 			iVar0 = 18;
 			HUD::SET_WARNING_MESSAGE_WITH_HEADER("BRSCRWTEX", "BRDISTEX", iVar0, "BRSHETEX", false, -1, 0, 0, true, 0);
-			Global_2697525 = iParam1;
+			Global_2697526 = iParam1;
 			Global_101585.f_1482 = 1;
 			Global_101585.f_1483 = iParam2;
 		}
@@ -77861,12 +77861,12 @@ int func_401()
 
 bool func_402()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 bool func_403()
 {
-	return Global_2697634;
+	return Global_2697635;
 }
 
 int func_404(int iParam0, bool bParam1, bool bParam2)
@@ -78349,7 +78349,7 @@ int func_431(int iParam0)
 	}
 	if (iParam0 == PLAYER::PLAYER_ID())
 	{
-		return Global_2708056;
+		return Global_2708057;
 	}
 	else
 	{
@@ -78376,7 +78376,7 @@ int func_431(int iParam0)
 
 bool func_432()
 {
-	return Global_2738934.f_5172;
+	return Global_2738935.f_5172;
 }
 
 int func_433(int iParam0)
@@ -79583,7 +79583,7 @@ int func_508()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -79633,7 +79633,7 @@ int func_509()
 
 int func_510()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

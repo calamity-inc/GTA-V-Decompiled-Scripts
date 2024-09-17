@@ -714,7 +714,7 @@ void func_9(var uParam0, char* sParam1)
 		fVar3 = SYSTEM::VMAG(Var0);
 		if ((uParam0->f_13 == 6 && !ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("BLOCK_INTERRUPT"))) && !func_17(&(uParam0->f_7), 12))
 		{
-			if ((fVar3 >= 0.35f && !Global_2710419) && !Global_2710424)
+			if ((fVar3 >= 0.35f && !Global_2710420) && !Global_2710425)
 			{
 				func_14(uParam0);
 			}
@@ -727,7 +727,7 @@ void func_9(var uParam0, char* sParam1)
 		{
 			func_41(uParam0);
 		}
-		else if (Global_2710419 || Global_2710424)
+		else if (Global_2710420 || Global_2710425)
 		{
 			func_41(uParam0);
 		}
@@ -1909,7 +1909,7 @@ int func_68()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -1959,7 +1959,7 @@ int func_69()
 
 int func_70()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -2030,7 +2030,7 @@ int func_78(int iParam0)
 
 bool func_79()
 {
-	return Global_2710419;
+	return Global_2710420;
 }
 
 void func_80()
@@ -2257,11 +2257,11 @@ void func_83(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{

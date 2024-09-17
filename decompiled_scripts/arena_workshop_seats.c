@@ -628,7 +628,7 @@ void func_16(var uParam0)
 		fVar3 = SYSTEM::VMAG(Var0);
 		if ((uParam0->f_43.f_4 == 6 && !ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), -1322051853)) && !func_32(&(uParam0->f_43), 12))
 		{
-			if ((fVar3 >= 0.35f && !Global_2710419) && !Global_2710424)
+			if ((fVar3 >= 0.35f && !Global_2710420) && !Global_2710425)
 			{
 				func_29(uParam0);
 			}
@@ -641,7 +641,7 @@ void func_16(var uParam0)
 		{
 			func_5(uParam0, 1);
 		}
-		else if (Global_2710419 || Global_2710424)
+		else if (Global_2710420 || Global_2710425)
 		{
 			func_5(uParam0, 1);
 		}
@@ -769,14 +769,14 @@ void func_16(var uParam0)
 					{
 						iVar5 = 190;
 					}
-					if (((PAD::IS_DISABLED_CONTROL_JUST_PRESSED(2, iVar5) && !PAD::IS_CONTROL_JUST_PRESSED(2, 203)) && !Global_2710424) && !Global_2710419)
+					if (((PAD::IS_DISABLED_CONTROL_JUST_PRESSED(2, iVar5) && !PAD::IS_CONTROL_JUST_PRESSED(2, 203)) && !Global_2710425) && !Global_2710420)
 					{
 						func_30(uParam0);
 					}
 					if (((((PAD::IS_DISABLED_CONTROL_JUST_PRESSED(2, 203) && !PAD::IS_DISABLED_CONTROL_JUST_PRESSED(2, iVar5)) && func_26(func_27())) && func_25()) && func_24(Global_2657971[PLAYER::PLAYER_ID() /*465*/].f_322.f_11, 4)) && func_23(Global_2657971[PLAYER::PLAYER_ID() /*465*/].f_322.f_11))
 					{
-						Global_2710424 = 1;
-						Global_2710419 = 1;
+						Global_2710425 = 1;
+						Global_2710420 = 1;
 					}
 				}
 			}
@@ -1940,7 +1940,7 @@ bool func_71()
 
 int func_72()
 {
-	if ((CAM::IS_SCREEN_FADED_OUT() && !func_82()) && !Global_2710419)
+	if ((CAM::IS_SCREEN_FADED_OUT() && !func_82()) && !Global_2710420)
 	{
 		return 1;
 	}
@@ -1972,7 +1972,7 @@ int func_73()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -2022,7 +2022,7 @@ int func_74()
 
 int func_75()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

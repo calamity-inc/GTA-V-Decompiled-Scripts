@@ -1102,7 +1102,7 @@ int func_37()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -1152,7 +1152,7 @@ int func_38()
 
 int func_39()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1219,7 +1219,7 @@ void func_46()
 	{
 		PLAYER::FORCE_CLEANUP_FOR_ALL_THREADS_WITH_THIS_NAME("pb_prostitute", 1);
 	}
-	Global_2738934.f_4 = 0;
+	Global_2738935.f_4 = 0;
 	func_47();
 }
 

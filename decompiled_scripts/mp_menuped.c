@@ -454,15 +454,15 @@ void func_1(int iParam0)
 	}
 	else if (iParam0 == 118)
 	{
-		if (Global_2738001.f_932)
+		if (Global_2738002.f_932)
 		{
 			iVar0 = 0;
 			while (iVar0 < 32)
 			{
-				if (func_48(Global_2738001[iVar0 /*13*/]))
+				if (func_48(Global_2738002[iVar0 /*13*/]))
 				{
-					Var2[iVar1 /*13*/] = { Global_2738001[iVar0 /*13*/] };
-					Var946[iVar1 /*16*/] = { Global_2738001.f_417[iVar0 /*16*/] };
+					Var2[iVar1 /*13*/] = { Global_2738002[iVar0 /*13*/] };
+					Var946[iVar1 /*16*/] = { Global_2738002.f_417[iVar0 /*16*/] };
 					iVar1++;
 				}
 				iVar0++;
@@ -2755,13 +2755,13 @@ int func_55(var uParam0)
 		iVar1 = func_37();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -88372,7 +88372,7 @@ void func_370(int iParam0, struct<50> Param1, var uParam51, var uParam52, var uP
 	int iVar1;
 	int iVar2;
 	
-	if (Global_2697659 == 0)
+	if (Global_2697660 == 0)
 	{
 		iVar1 = 0;
 		iVar0 = 0;
@@ -88390,7 +88390,7 @@ void func_370(int iParam0, struct<50> Param1, var uParam51, var uParam52, var uP
 			return;
 		}
 	}
-	if (Global_2697660 == 0)
+	if (Global_2697661 == 0)
 	{
 		iVar2 = 0;
 		while (iVar2 <= 11)
@@ -89712,12 +89712,12 @@ void func_383(bool bParam0)
 		}
 		else
 		{
-			func_391(PLAYER::PLAYER_ID(), func_387(Global_2749178), 0);
+			func_391(PLAYER::PLAYER_ID(), func_387(Global_2749179), 0);
 		}
 		func_73(PLAYER::PLAYER_ID(), iVar0);
 		PLAYER::SET_PLAYER_PARACHUTE_VARIATION_OVERRIDE(PLAYER::PLAYER_ID(), 5, func_77(PLAYER::PLAYER_PED_ID(), iVar0), func_76(PLAYER::PLAYER_PED_ID(), iVar0), false);
 		func_386(func_175(2042, -1), 1);
-		Global_2738934.f_287 = 1;
+		Global_2738935.f_287 = 1;
 		func_384(PLAYER::PLAYER_ID(), -1, -1);
 		if (bParam0)
 		{
@@ -89743,7 +89743,7 @@ void func_384(int iParam0, int iParam1, int iParam2)
 		}
 		if (func_388(1) && func_205(iParam0))
 		{
-			func_391(iParam0, func_387(Global_2749178), 0);
+			func_391(iParam0, func_387(Global_2749179), 0);
 		}
 		else
 		{
@@ -97514,13 +97514,13 @@ int func_427(var uParam0, var uParam1, int iParam2, bool bParam3)
 				if (iVar7 >= iVar13)
 				{
 					iVar7 = PED::GET_PED_HEAD_BLEND_FIRST_INDEX(1);
-					Global_2698033 = 1;
+					Global_2698034 = 1;
 					func_428(1);
 				}
 				if (iVar8 >= iVar13)
 				{
 					iVar8 = PED::GET_PED_HEAD_BLEND_FIRST_INDEX(0);
-					Global_2698033 = 1;
+					Global_2698034 = 1;
 					func_428(1);
 				}
 				PED::SET_PED_HEAD_BLEND_DATA(*uParam1, iVar7, iVar8, 0, iVar7, iVar8, 0, fVar11, fVar12, 0f, true);
@@ -97547,7 +97547,7 @@ int func_427(var uParam0, var uParam1, int iParam2, bool bParam3)
 
 void func_428(int iParam0)
 {
-	Global_2698791 = iParam0;
+	Global_2698792 = iParam0;
 }
 
 int func_429(int iParam0, bool bParam1, bool bParam2)

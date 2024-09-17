@@ -554,7 +554,7 @@ void func_4()
 										TASK::TASK_GO_STRAIGHT_TO_COORD(PLAYER::PLAYER_PED_ID(), Var22, 1f, 20000, Var25.f_2, 0.05f);
 										func_335();
 										func_322(PLAYER::PLAYER_ID(), 0, 66048, 0);
-										Global_2738934.f_4664 = 1;
+										Global_2738935.f_4664 = 1;
 									}
 									if (CAM::GET_FOLLOW_PED_CAM_VIEW_MODE() == 4)
 									{
@@ -683,7 +683,7 @@ void func_4()
 							iLocal_105 = 0;
 						}
 						func_349(0, 0, 1, 0);
-						Global_2738934.f_4664 = 0;
+						Global_2738935.f_4664 = 0;
 					}
 					func_349(0, 0, 1, 0);
 					WEAPON::SET_CURRENT_PED_WEAPON(PLAYER::PLAYER_PED_ID(), iLocal_51, true);
@@ -704,7 +704,7 @@ void func_4()
 					func_304();
 					func_322(PLAYER::PLAYER_ID(), 1, 0, 0);
 					func_349(0, 0, 1, 0);
-					Global_2738934.f_4664 = 0;
+					Global_2738935.f_4664 = 0;
 				}
 				if (iLocal_105)
 				{
@@ -805,7 +805,7 @@ void func_4()
 					func_304();
 					func_322(PLAYER::PLAYER_ID(), 1, 0, 0);
 					func_349(0, 0, 1, 0);
-					Global_2738934.f_4664 = 0;
+					Global_2738935.f_4664 = 0;
 				}
 				if (iLocal_105)
 				{
@@ -853,7 +853,7 @@ void func_4()
 				func_304();
 				func_322(PLAYER::PLAYER_ID(), 1, 0, 0);
 				func_349(0, 0, 1, 0);
-				Global_2738934.f_4664 = 0;
+				Global_2738935.f_4664 = 0;
 			}
 			WEAPON::SET_CURRENT_PED_WEAPON(PLAYER::PLAYER_PED_ID(), iLocal_51, true);
 			if (func_386("TELEUSE"))
@@ -2246,13 +2246,13 @@ int func_27(var uParam0)
 		iVar1 = func_28();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -74987,7 +74987,7 @@ int func_292(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			Global_4537456 = 1;
 			return 0;
 		}
-		if (Global_2697634)
+		if (Global_2697635)
 		{
 			if (iParam3 == 1067618600 || iParam3 == -1303831698)
 			{
@@ -75170,8 +75170,8 @@ int func_297(int iParam0)
 
 void func_298(int iParam0, int iParam1)
 {
-	Global_2698855 = iParam1;
-	Global_2698854 = iParam0;
+	Global_2698856 = iParam1;
+	Global_2698855 = iParam0;
 }
 
 int func_299(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5, bool bParam6, int iParam7, var uParam8, int iParam9, int iParam10)
@@ -75446,7 +75446,7 @@ void func_313(int iParam0, int iParam1, int iParam2)
 		{
 			iVar0 = 18;
 			HUD::SET_WARNING_MESSAGE_WITH_HEADER("BRSCRWTEX", "BRDISTEX", iVar0, "BRSHETEX", false, -1, 0, 0, true, 0);
-			Global_2697525 = iParam1;
+			Global_2697526 = iParam1;
 			Global_101585.f_1482 = 1;
 			Global_101585.f_1483 = iParam2;
 		}
@@ -75468,12 +75468,12 @@ int func_314()
 
 bool func_315()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 bool func_316()
 {
-	return Global_2697634;
+	return Global_2697635;
 }
 
 int func_317(int iParam0, bool bParam1, bool bParam2)
@@ -75707,11 +75707,11 @@ void func_322(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -77416,7 +77416,7 @@ int func_396(int iParam0)
 
 bool func_397()
 {
-	return Global_2707763;
+	return Global_2707764;
 }
 
 int func_398(int iParam0)
@@ -77503,7 +77503,7 @@ void func_401(int iParam0)
 		func_1();
 	}
 	GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&iLocal_76);
-	Global_2738934.f_4664 = 0;
+	Global_2738935.f_4664 = 0;
 	Global_33205 = 0;
 	if (iLocal_105)
 	{

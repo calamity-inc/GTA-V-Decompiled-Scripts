@@ -1823,13 +1823,13 @@ int func_26(var uParam0)
 		iVar1 = func_27();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -3785,7 +3785,7 @@ int func_120()
 
 bool func_121()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 bool func_122()
@@ -6626,12 +6626,12 @@ int func_209(struct<3> Param0)
 	{
 		return 1;
 	}
-	if (Global_2709259)
+	if (Global_2709260)
 	{
 		iVar0 = 0;
 		while (iVar0 < 10)
 		{
-			if (OBJECT::IS_POINT_IN_ANGLED_AREA(Param0, Global_2709259.f_1[iVar0 /*3*/], Global_2709259.f_32[iVar0 /*3*/], Global_2709259.f_63[iVar0], false, true))
+			if (OBJECT::IS_POINT_IN_ANGLED_AREA(Param0, Global_2709260.f_1[iVar0 /*3*/], Global_2709260.f_32[iVar0 /*3*/], Global_2709260.f_63[iVar0], false, true))
 			{
 				return 1;
 			}
@@ -6771,13 +6771,13 @@ void func_211(int iParam0, struct<16> Param1)
 {
 	if (iParam0 == 0)
 	{
-		StringCopy(&Global_2698814, "", 64);
+		StringCopy(&Global_2698815, "", 64);
 	}
 	else
 	{
-		Global_2698814 = { Param1 };
+		Global_2698815 = { Param1 };
 	}
-	Global_2698813 = iParam0;
+	Global_2698814 = iParam0;
 }
 
 int func_212(var uParam0, char* sParam1)

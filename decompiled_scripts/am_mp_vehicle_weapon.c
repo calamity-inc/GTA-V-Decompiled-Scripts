@@ -3770,12 +3770,12 @@ void func_110()
 
 void func_111(int iParam0)
 {
-	Global_2698794 = iParam0;
+	Global_2698795 = iParam0;
 }
 
 bool func_112()
 {
-	return Global_2698794;
+	return Global_2698795;
 }
 
 void func_113(int iParam0)
@@ -4512,11 +4512,11 @@ void func_140(int iParam0, bool bParam1, int iParam2, int iParam3)
 				{
 					bVar3 = true;
 				}
-				if (Global_2697540)
+				if (Global_2697541)
 				{
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
 					GRAPHICS::TOGGLE_PAUSED_RENDERPHASES(true);
-					Global_2697540 = 0;
+					Global_2697541 = 0;
 				}
 				if (Global_2635563.f_2981)
 				{
@@ -5483,7 +5483,7 @@ int func_188()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -5533,7 +5533,7 @@ int func_189()
 
 int func_190()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");

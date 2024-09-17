@@ -5840,7 +5840,7 @@ int func_67(int iParam0, bool bParam1)
 		case joaat("insurgent"):
 			if (func_69(ENTITY::GET_ENTITY_MODEL(iParam0), 0))
 			{
-				if (Global_2738934.f_307 == iParam0)
+				if (Global_2738935.f_307 == iParam0)
 				{
 					return 1;
 				}
@@ -6529,7 +6529,7 @@ int func_79(int iParam0)
 
 int func_80(int iParam0)
 {
-	if (Global_2738934.f_301 == iParam0)
+	if (Global_2738935.f_301 == iParam0)
 	{
 		return 1;
 	}
@@ -7294,11 +7294,11 @@ int func_102(int iParam0, int iParam1)
 	int iVar0;
 	int iVar1;
 	
-	if (Global_2707347)
+	if (Global_2707348)
 	{
 		return 1;
 	}
-	if ((!Global_2707348 && iParam1 >= 0) && iParam1 <= 517)
+	if ((!Global_2707349 && iParam1 >= 0) && iParam1 <= 517)
 	{
 		if (BitTest(Global_1586521[iParam1 /*142*/].f_103, 2))
 		{
@@ -11735,13 +11735,13 @@ int func_224(var uParam0)
 		iVar1 = func_17();
 		if (iVar1 > -1)
 		{
-			Global_2750949 = 0;
+			Global_2750950 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2750949 = 1;
+			Global_2750950 = 1;
 		}
 	}
 	return iVar0;
@@ -12407,7 +12407,7 @@ void func_255(var uParam0, int iParam1)
 	{
 		func_256(&(Global_2103068.f_49));
 	}
-	Global_2738934.f_4084 = 0;
+	Global_2738935.f_4084 = 0;
 }
 
 void func_256(var uParam0)
@@ -15158,7 +15158,7 @@ int func_314()
 
 bool func_315()
 {
-	return Global_2696683;
+	return Global_2696684;
 }
 
 void func_316(bool bParam0)
@@ -15203,7 +15203,7 @@ void func_318(var uParam0, var uParam1)
 	{
 		PAD::DISABLE_CONTROL_ACTION(0, 200, true);
 	}
-	Global_2738934.f_4084 = 1;
+	Global_2738935.f_4084 = 1;
 	Global_1919918 = 1;
 	func_319(uParam1[0], uParam0);
 }
@@ -20976,7 +20976,7 @@ void func_392(bool bParam0, int iParam1)
 
 void func_393()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 void func_394(var uParam0, bool bParam1, bool bParam2)

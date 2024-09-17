@@ -580,7 +580,7 @@ void func_32(int iParam0, int iParam1)
 
 void func_33()
 {
-	Global_2738934.f_4651 = 0;
+	Global_2738935.f_4651 = 0;
 }
 
 int func_34()
@@ -605,7 +605,7 @@ int func_35()
 	{
 		return 1;
 	}
-	if (Global_2698757)
+	if (Global_2698758)
 	{
 		return 1;
 	}
@@ -655,7 +655,7 @@ int func_36()
 
 int func_37()
 {
-	switch (Global_2698864)
+	switch (Global_2698865)
 	{
 		case 0:
 			return joaat("freemode");
