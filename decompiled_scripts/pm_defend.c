@@ -410,11 +410,11 @@ void func_8(int iParam0, int iParam1, int iParam2)
 			PED::SET_PED_KEEP_TASK((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/], true);
 		}
 		ENTITY::SET_PED_AS_NO_LONGER_NEEDED(&((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/]));
-		func_9(&((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/].f_1));
+		func_9(&((iParam0[iParam1 /*122*/])->f_2[iParam2 /*20*/].f_1), 0);
 	}
 }
 
-void func_9(int* iParam0)
+void func_9(int* iParam0, bool bParam1)
 {
 	bool bVar0;
 	struct<8> Var1;
@@ -424,7 +424,7 @@ void func_9(int* iParam0)
 		HUD::REMOVE_BLIP(iParam0);
 		bVar0 = true;
 	}
-	if (HUD::DOES_BLIP_EXIST(iParam0->f_1))
+	if (HUD::DOES_BLIP_EXIST(iParam0->f_1) && !bParam1)
 	{
 		HUD::REMOVE_BLIP(&(iParam0->f_1));
 		bVar0 = true;
@@ -1202,7 +1202,7 @@ void func_33(var uParam0)
 
 int func_34()
 {
-	return func_35(Global_112676.f_20, Global_112676.f_29);
+	return func_35(Global_112842.f_20, Global_112842.f_29);
 }
 
 int func_35(int iParam0, int iParam1)
@@ -1227,7 +1227,7 @@ int func_35(int iParam0, int iParam1)
 
 int func_36()
 {
-	return Global_112676.f_20;
+	return Global_112842.f_20;
 }
 
 void func_37(var uParam0)
@@ -1316,6 +1316,6 @@ void func_40(struct<61> Param0, var uParam61, var uParam62, var uParam63, var uP
 
 void func_41(int iParam0)
 {
-	Global_112676.f_22 = iParam0;
+	Global_112842.f_22 = iParam0;
 }
 

@@ -98,10 +98,13 @@ am_mp_creator_aircraft
 am_mp_creator_trailer
 am_mp_defunct_base
 am_mp_drone
+am_mp_field_hangar
 am_mp_fixer_hq
 am_mp_garage_control
+am_mp_hacker_den
 am_mp_hacker_truck
 am_mp_hangar
+am_mp_hotwire
 am_mp_ie_warehouse
 am_mp_island
 am_mp_juggalo_hideout
@@ -113,6 +116,7 @@ am_mp_peds
 am_mp_property_ext
 am_mp_property_int
 am_mp_rc_vehicle
+am_mp_rpa_menu
 am_mp_salvage_yard
 am_mp_shooting_range
 am_mp_simeon_showroom
@@ -139,6 +143,7 @@ am_prison
 am_prostitute
 am_rollercoaster
 am_rontrevor_cut
+am_simosa
 am_taxi
 am_vehicle_spawn
 ambient_diving
@@ -168,6 +173,7 @@ appcovertops
 appemail
 appextraction
 appfixersecurity
+apphackerden
 apphackertruck
 apphs_sleep
 appimportexport
@@ -281,6 +287,7 @@ cheat_controller
 chinese1
 chinese2
 chop
+circuitblockhack
 clothes_shop_mp
 clothes_shop_sp
 code_controller
@@ -387,6 +394,7 @@ fbi4_prep4
 fbi4_prep5
 fbi4
 fbi5a
+field_hangar_seating
 finale_choice
 finale_credits
 finale_endgame
@@ -422,6 +430,7 @@ fm_content_acid_lab_setup
 fm_content_acid_lab_source
 fm_content_ammunation
 fm_content_armoured_truck
+fm_content_arms_trafficking
 fm_content_auto_shop_delivery
 fm_content_bank_shootout
 fm_content_bar_resupply
@@ -436,16 +445,26 @@ fm_content_club_management
 fm_content_club_odd_jobs
 fm_content_club_source
 fm_content_clubhouse_contracts
+fm_content_community_outreach
 fm_content_convoy
 fm_content_crime_scene
 fm_content_daily_bounty
 fm_content_dispatch_work
+fm_content_drone
 fm_content_drug_lab_work
 fm_content_drug_vehicle
 fm_content_export_cargo
 fm_content_ghosthunt
 fm_content_golden_gun
 fm_content_gunrunning
+fm_content_hacker_cargo_finale
+fm_content_hacker_cargo_prep
+fm_content_hacker_house_finale
+fm_content_hacker_house_prep
+fm_content_hacker_whistle_fin
+fm_content_hacker_whistle_prep
+fm_content_hacker_zancudo_fin
+fm_content_hacker_zancudo_prep
 fm_content_hsw_setup
 fm_content_hsw_time_trial
 fm_content_island_dj
@@ -630,6 +649,9 @@ gtest_nearlymissedbycar
 gunclub_shop
 gunfighttest
 gunslinger_arcade
+hacker_den_carmod
+hacker_den_ext_seating
+hacker_den_seating
 hacker_truck_carmod
 hairdo_shop_mp
 hairdo_shop_sp
@@ -1076,6 +1098,7 @@ wardrobe_mp
 wardrobe_sp
 weapon_audio_widget
 wizard_arcade
+word_hack
 wp_partyboombox
 xml_menus
 yoga

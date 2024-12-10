@@ -65,7 +65,7 @@ void __EntryFunction__()
 	fLocal_29 = 140f;
 	fLocal_30 = 180f;
 	iLocal_33 = 3;
-	Global_1579721 = 1;
+	Global_1579734 = 1;
 	func_46();
 	if (NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 	{
@@ -87,7 +87,7 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_37();
-		if (((!NETWORK::NETWORK_IS_GAME_IN_PROGRESS() || func_29()) || Global_1579721 == 0) || func_28())
+		if (((!NETWORK::NETWORK_IS_GAME_IN_PROGRESS() || func_29()) || Global_1579734 == 0) || func_28())
 		{
 			func_25();
 		}
@@ -1249,12 +1249,12 @@ void func_27()
 
 bool func_28()
 {
-	return (!Global_1579717 && NETWORK::NETWORK_IS_ACTIVITY_SESSION());
+	return (!Global_1579730 && NETWORK::NETWORK_IS_ACTIVITY_SESSION());
 }
 
 int func_29()
 {
-	if (Global_1575055 == 0)
+	if (Global_1575056 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -1265,7 +1265,7 @@ int func_29()
 	{
 		return 1;
 	}
-	if (Global_2698758)
+	if (Global_2699004)
 	{
 		return 1;
 	}
@@ -1315,7 +1315,7 @@ int func_30()
 
 int func_31()
 {
-	switch (Global_2698865)
+	switch (Global_2699111)
 	{
 		case 0:
 			return joaat("freemode");
@@ -1327,12 +1327,12 @@ int func_31()
 
 int func_32()
 {
-	return Global_32948;
+	return Global_33087;
 }
 
 bool func_33()
 {
-	return Global_2684504.f_700;
+	return Global_2684718.f_700;
 }
 
 int func_34(int iParam0)
@@ -1346,12 +1346,12 @@ int func_34(int iParam0)
 
 bool func_35()
 {
-	return Global_2696172;
+	return Global_2696416;
 }
 
 bool func_36()
 {
-	return Global_2684504.f_695;
+	return Global_2684718.f_695;
 }
 
 void func_37()
@@ -4649,7 +4649,7 @@ int func_43()
 
 int func_44()
 {
-	if (Global_1579717)
+	if (Global_1579730)
 	{
 		return 1;
 	}
@@ -4679,11 +4679,11 @@ int func_45(int iParam0)
 
 void func_46()
 {
-	while (!NETWORK::NETWORK_TRY_TO_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, Global_1579736))
+	while (!NETWORK::NETWORK_TRY_TO_SET_THIS_SCRIPT_IS_NETWORK_SCRIPT(32, false, Global_1579749))
 	{
 		SYSTEM::WAIT(0);
 	}
-	Global_1579736++;
+	Global_1579749++;
 	func_47(0, -1, 0);
 	NETWORK::NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(&Local_38, 3, 0);
 }
@@ -4796,6 +4796,6 @@ bool func_48(bool bParam0)
 	if (bParam0)
 	{
 	}
-	return Global_1575055;
+	return Global_1575056;
 }
 

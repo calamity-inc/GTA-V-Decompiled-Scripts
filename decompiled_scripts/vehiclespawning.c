@@ -185,7 +185,7 @@ void func_6(var uParam0)
 
 int func_7()
 {
-	if (Global_1575055 == 0)
+	if (Global_1575056 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -196,7 +196,7 @@ int func_7()
 	{
 		return 1;
 	}
-	if (Global_2698758)
+	if (Global_2699004)
 	{
 		return 1;
 	}
@@ -246,7 +246,7 @@ int func_8()
 
 int func_9()
 {
-	switch (Global_2698865)
+	switch (Global_2699111)
 	{
 		case 0:
 			return joaat("freemode");
@@ -258,12 +258,12 @@ int func_9()
 
 int func_10()
 {
-	return Global_32948;
+	return Global_33087;
 }
 
 bool func_11()
 {
-	return Global_2684504.f_700;
+	return Global_2684718.f_700;
 }
 
 int func_12(int iParam0)
@@ -277,12 +277,12 @@ int func_12(int iParam0)
 
 bool func_13()
 {
-	return Global_2696172;
+	return Global_2696416;
 }
 
 bool func_14()
 {
-	return Global_2684504.f_695;
+	return Global_2684718.f_695;
 }
 
 void func_15()
@@ -447,6 +447,6 @@ bool func_19(bool bParam0)
 	if (bParam0)
 	{
 	}
-	return Global_1575055;
+	return Global_1575056;
 }
 
